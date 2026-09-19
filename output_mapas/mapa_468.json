@@ -1,0 +1,64 @@
+{
+  "id": 468,
+  "title": "DOMAIN-DRIVEN DESIGN: ENTIDADES, VALUE OBJECTS E AGREGADOS",
+  "definition": "É modelar o código usando as mesmas palavras que o dono do negócio usa, para o sistema fazer sentido de verdade.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Software deve falar a língua do negócio, não a língua do programador."
+    ]
+  },
+  "topRight": {
+    "pill": "ENTIDADE vs VALUE OBJECT",
+    "icon": "🖥️",
+    "bullets": [
+      "Entidade tem identidade única, mesmo se os dados mudarem, como um CPF.",
+      "Value Object só importa pelo valor, como um endereço ou uma cor."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Entidade guarda um ID fixo que nunca muda.",
+      "class Pedido { id; status; } vs class Dinheiro { valor; moeda; }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Sistemas complexos de negócio, como bancos, e-commerce e seguros.",
+      "Usado em Java, C#, Kotlin e outras linguagens orientadas a objeto."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Converse com o especialista do negócio e anote os termos exatos",
+      "PASSO 2: Transforme esses termos em Entidades, Value Objects e Agregados",
+      "PASSO 3: O código passa a refletir as regras reais do negócio"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Tratar tudo como Entidade e esquecer os Value Objects.",
+      "Dica de ouro: se dois objetos iguais em valor são intercambiáveis, é Value Object."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Linguagem do negócio ➔ Modelo no código ➔ Software que todos entendem"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Arquitetura",
+  "escola": "04_backend_e_apis",
+  "foco_pedagogico": "Modelando o software na linguagem do negócio (Ubiquitous Language)"
+}

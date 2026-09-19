@@ -1,0 +1,65 @@
+{
+  "id": 384,
+  "title": "SECRET SCANNING: EVITANDO VAZAMENTOS DE CHAVES NO GITHUB",
+  "definition": "É um vigia automático que verifica seu código antes e depois do commit para achar senhas e chaves esquecidas.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Imagine deixar a chave de casa dentro de uma caixa pública sem querer.",
+      "O sistema avisa antes que isso vire um problema real."
+    ]
+  },
+  "topRight": {
+    "pill": "SECRET SCANNING",
+    "icon": "🖥️",
+    "bullets": [
+      "O GitHub varre cada commit procurando padrões de senhas e tokens.",
+      "Se achar algo suspeito, ele alerta o dono do repositório na hora."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Nunca escreva senhas direto no código, use variáveis de ambiente.",
+      "API_KEY=abc123 (isso NUNCA deve ir pro GitHub)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Em qualquer repositório público ou privado no GitHub.",
+      "Ferramentas: GitHub Secret Scanning, Gitleaks, TruffleHog."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você tenta enviar (commit) um arquivo com uma chave secreta",
+      "PASSO 2: A ferramenta compara o texto com padrões conhecidos de senhas",
+      "PASSO 3: Se encontrar, bloqueia o envio ou dispara um alerta imediato"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que apagar o arquivo depois resolve, o histórico ainda guarda a chave.",
+      "Dica de ouro: use arquivos .env e adicione ele no .gitignore."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Chave no código ➔ Scanner detecta ➔ Alerta ou bloqueio evita vazamento"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "DevSecOps",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "Ferramentas automáticas que impedem commit acidental de senhas e tokens"
+}

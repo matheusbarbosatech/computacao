@@ -1,0 +1,64 @@
+{
+  "id": 339,
+  "title": "RASTREAMENTO DISTRIBUÍDO: OPENTELEMETRY E JAEGER",
+  "definition": "É como colocar um chip de rastreamento em cada pedido para ver por onde ele passou entre vários serviços.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Segue uma requisição em toda sua jornada por vários microsserviços."
+    ]
+  },
+  "topRight": {
+    "pill": "TRACE E SPAN",
+    "icon": "🖥️",
+    "bullets": [
+      "Trace é a viagem completa do pedido do início ao fim.",
+      "Span é cada parada, ou seja, cada serviço visitado no caminho."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Cada span carrega um ID pai para saber quem chamou quem.",
+      "tracer.startSpan('buscar-pedido')"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Times que usam microsserviços em produção real.",
+      "OpenTelemetry gera os dados, Jaeger mostra o desenho visual."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Pedido entra no serviço A e recebe um ID único de rastreio",
+      "PASSO 2: Esse ID viaja junto quando A chama B, C, D e E",
+      "PASSO 3: Jaeger junta todos os spans e desenha a linha do tempo completa"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de propagar o ID entre serviços quebra o rastro no meio.",
+      "Dica de ouro: sempre passe o contexto de rastreio nos headers da chamada."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Pedido chega ➔ passa por 5 serviços com ID único ➔ Jaeger mostra o caminho todo"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Observabilidade",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Acompanhando uma requisição passando por 5 microsserviços diferentes"
+}

@@ -1,0 +1,63 @@
+{
+  "id": 22,
+  "title": "TABELA VERDADE DESCOMPLICADA",
+  "definition": "É uma tabela que mostra todos os resultados possíveis de VERDADEIRO ou FALSO em uma decisão lógica.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Toda decisão no código só tem duas respostas: VERDADEIRO ou FALSO."
+    ]
+  },
+  "topRight": {
+    "pill": "OPERADORES LÓGICOS",
+    "icon": "🖥️",
+    "bullets": [
+      "AND exige que as duas condições sejam verdadeiras.",
+      "OR aceita se pelo menos uma condição for verdadeira."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Em código, AND é && e OR é ||.",
+      "if (chove && frio) { usar casaco }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Usado em ifs, filtros de busca e validação de formulários.",
+      "Presente em JavaScript, Python, Java e SQL."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Pegue cada condição e marque V ou F",
+      "PASSO 2: Cruze as combinações possíveis entre elas",
+      "PASSO 3: Aplique a regra (AND, OR ou NOT) para achar o resultado"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Confundir AND com OR troca todo o resultado da lógica.",
+      "Dica de ouro: NOT sempre inverte o valor, F vira V e V vira F."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Condições ➔ Cruzamento V/F ➔ Resultado da decisão"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Lógica",
+  "foco_pedagogico": "Cruzamento visual de regras booleanas"
+}

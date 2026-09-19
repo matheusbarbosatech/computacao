@@ -1,0 +1,66 @@
+{
+  "id": 684,
+  "title": "A LEI DE CONWAY: O SOFTWARE REFLETE A COMUNICAÇÃO DA EMPRESA",
+  "definition": "A arquitetura de um sistema copia a estrutura de comunicação dos times que o construíram.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Times que conversam pouco criam sistemas com partes isoladas e difíceis de juntar.",
+      "Quem desenha o software é o organograma, não apenas o arquiteto com caneta."
+    ]
+  },
+  "topRight": {
+    "pill": "TIMES E FRONTEIRAS",
+    "icon": "🖥️",
+    "bullets": [
+      "Cada time entrega só o pedaço que consegue controlar e defender sozinho.",
+      "Fronteira de conversa entre pessoas vira fronteira de código entre módulos.",
+      "Dois times separados geram duas partes que quase não se falam."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Regra prática: 1 time sobre 1 módulo, 1 serviço, 1 banco de dados.",
+      "exemplo(time de pagamentos cria a api_de_pagamentos)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Dividir sistemas em microsserviços e definir APIs internas claras.",
+      "Base de decisões em Amazon, Netflix, Kubernetes e na Lei de Conway inversa."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: A empresa define seus times e quem fala com quem",
+      "PASSO 2: Cada time constrói apenas a parte que controla",
+      "PASSO 3: O sistema nasce com as mesmas emendas entre times"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Reorganizar os times e esperar que o sistema mude sozinho: ele não muda.",
+      "Dica de ouro: defina a arquitetura desejada e depois desenhe os times."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Time isolado ➔ Código isolado ➔ Sistema remendado"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Mentalidade",
+  "escola": "02_logica_e_algoritmos",
+  "foco_pedagogico": "Como a estrutura dos times molda diretamente a arquitetura dos sistemas"
+}

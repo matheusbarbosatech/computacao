@@ -1,0 +1,64 @@
+{
+  "id": 367,
+  "title": "INTRODUÇÃO AO METASPLOIT FRAMEWORK",
+  "definition": "É uma caixa de ferramentas usada por profissionais de segurança para testar e explorar falhas em sistemas de forma controlada.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Metasploit é como um kit de chaves para testar se portas (falhas) estão trancadas de verdade."
+    ]
+  },
+  "topRight": {
+    "pill": "EXPLOITS E PAYLOADS",
+    "icon": "🖥️",
+    "bullets": [
+      "Exploit é a chave que aproveita uma falha específica no sistema alvo.",
+      "Payload é o que roda depois que a porta é aberta, tipo um controle remoto."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Dentro do msfconsole você escolhe o módulo e configura opções.",
+      "use exploit/windows/smb/ms17_010_eternalblue"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Pentests autorizados e laboratórios de estudo como HackTheBox.",
+      "Ferramentas: msfconsole, msfvenom, Armitage."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Escolhe o exploit certo pra falha do alvo",
+      "PASSO 2: Liga o listener pra esperar a conexão de volta",
+      "PASSO 3: Sessão Meterpreter abre e você controla a máquina"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de configurar o IP certo no LHOST trava a conexão.",
+      "Dica de ouro: sempre confirme autorização antes de testar qualquer alvo."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Exploit encontra a falha ➔ Payload entra ➔ Meterpreter dá o controle"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Red Team",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "Exploits, payloads, listeners e sessões de Meterpreter"
+}

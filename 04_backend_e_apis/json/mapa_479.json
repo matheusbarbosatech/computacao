@@ -1,0 +1,65 @@
+{
+  "id": 479,
+  "title": "SPRING BOOT: INVERSÃO DE CONTROLE E INJEÇÃO DE DEPENDÊNCIAS",
+  "definition": "É o Spring criando e entregando os objetos prontos para você, em vez de você criar na mão.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Você entrega o controle da criação dos objetos para o Spring gerenciar."
+    ]
+  },
+  "topRight": {
+    "pill": "CONTAINER SPRING (IoC)",
+    "icon": "🖥️",
+    "bullets": [
+      "É uma 'fábrica central' que cria, guarda e entrega os Beans.",
+      "Controla o ciclo de vida: nasce, vive e morre sob o comando do Spring."
+    ]
+  },
+  "midRight": {
+    "pill": "ANOTAÇÕES-CHAVE",
+    "icon": "{ }",
+    "bullets": [
+      "@Component marca uma classe genérica como Bean gerenciável.",
+      "@Service marca uma classe de regra de negócio como Bean.",
+      "@Autowired pede ao Spring: 'me entregue esse Bean pronto'."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Em toda aplicação Spring Boot com camadas Service, Repository e Controller.",
+      "Muito comum em APIs REST e sistemas corporativos Java."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO DO BEAN",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Spring escaneia as classes com @Component ou @Service.",
+      "PASSO 2: Ele cria e guarda essas instâncias no container.",
+      "PASSO 3: Quando vê @Autowired, injeta o Bean certo automaticamente."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de anotar a classe faz o Spring não encontrar o Bean.",
+      "Usar 'new' na mão quebra a Injeção de Dependência do Spring."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Classe anotada ➔ Spring cria o Bean ➔ Injeta onde for pedido com @Autowired."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Java/Spring",
+  "escola": "04_backend_e_apis",
+  "foco_pedagogico": "O container Spring gerenciando o ciclo de vida dos Beans (@Component, @Service, @Autowired)"
+}

@@ -1,0 +1,64 @@
+{
+  "id": 392,
+  "title": "BOTNETS E DISPOSITIVOS IOT COMPROMETIDOS",
+  "definition": "Botnet é um exército de aparelhos invadidos que um criminoso controla à distância para atacar em massa.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Câmeras e roteadores infectados viram 'zumbis' que obedecem a um chefe invisível."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O SISTEMA É INVADIDO",
+    "icon": "🖥️",
+    "bullets": [
+      "Malware entra por senha padrão ou falha não corrigida no aparelho.",
+      "Dispositivo continua funcionando normal, mas obedece ao invasor em segredo."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "O malware roda um script que conecta o aparelho a um servidor de comando.",
+      "connect(C2_server) → aguarda_ordem() → atacar(alvo)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Ataques DDoS que derrubam sites e serviços online inteiros.",
+      "Casos famosos: botnet Mirai, que usou câmeras e roteadores domésticos."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Hacker escaneia a internet buscando IoT com senha fraca",
+      "PASSO 2: Malware infecta o aparelho e ele entra na botnet",
+      "PASSO 3: Milhares de zumbis disparam tráfego junto contra um alvo"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que só computador pega vírus, mas câmera e roteador também.",
+      "Dica de ouro: troque a senha padrão de fábrica assim que instalar."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Aparelho fraco ➔ vira zumbi ➔ ataque em massa contra terceiros"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Ameaças",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "Câmeras e roteadores zumbis usados para disparar ataques massivos"
+}

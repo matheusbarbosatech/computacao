@@ -1,0 +1,64 @@
+{
+  "id": 324,
+  "title": "O ARQUIVO DE ESTADO (TERRAFORM.TFSTATE)",
+  "definition": "É a memória do Terraform que anota o que já foi criado de verdade na nuvem.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como um caderno de anotações que liga seu código ao que existe na nuvem."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O TERRAFORM USA ISSO",
+    "icon": "🖥️",
+    "bullets": [
+      "Antes de agir, ele lê o arquivo para saber o que já existe.",
+      "Compara o código com o estado para descobrir o que mudou."
+    ]
+  },
+  "midRight": {
+    "pill": "FORMATO DO ARQUIVO",
+    "icon": "{ }",
+    "bullets": [
+      "É um arquivo JSON, feito para o Terraform ler, não para humanos editarem.",
+      "resource: \"aws_instance.web\" ➔ id: \"i-0123abc\""
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Criado automaticamente após o primeiro terraform apply.",
+      "Guardado localmente ou em backends remotos como S3."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Terraform lê o tfstate para ver o que já existe",
+      "PASSO 2: Compara com o código e a nuvem real",
+      "PASSO 3: Aplica só as diferenças encontradas"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Editar o arquivo na mão pode quebrar tudo, evite fazer isso.",
+      "Perder o arquivo faz o Terraform esquecer o que já criou."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Código ➔ Comparação com o Estado ➔ Nuvem Atualizada"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "IaC",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "A memória do Terraform que mapeia o código com a nuvem real"
+}

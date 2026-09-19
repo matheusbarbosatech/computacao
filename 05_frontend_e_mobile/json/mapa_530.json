@@ -1,0 +1,65 @@
+{
+  "id": 530,
+  "title": "SPA, SSR, SSG E ISR: ONDE A PÁGINA É MONTADA",
+  "definition": "São quatro estratégias que definem quando e onde o HTML da página nasce: no navegador, no servidor ou antes da visita.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Pense na página como um bolo: alguém precisa assar antes de você comer.",
+      "A sigla só responde duas perguntas: quem monta e em que momento."
+    ]
+  },
+  "topRight": {
+    "pill": "CLIENTE VS SERVIDOR",
+    "icon": "🖥️",
+    "bullets": [
+      "No cliente, o navegador baixa um HTML quase vazio e monta tudo com JavaScript.",
+      "No servidor, ele já recebe HTML pronto e só depois o JavaScript assume a interação."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "A escolha quase sempre é uma linha de configuração por página, não um código gigante.",
+      "export const revalidate = 60 (ISR: página pronta que se renova a cada 60 segundos)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "SPA em painéis logados; SSR em lojas e notícias; SSG em blogs; ISR em catálogos grandes.",
+      "Ferramentas comuns: React, Next.js, Nuxt, Astro e SvelteKit."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O usuário digita o endereço e pede a página.",
+      "PASSO 2: O servidor decide: HTML pronto agora, HTML vazio ou HTML já guardado?",
+      "PASSO 3: O navegador exibe a tela e o JavaScript liga botões e cliques."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "SPA pura demora a mostrar algo e atrapalha o Google encontrar seu conteúdo.",
+      "SSG não serve para preço ou estoque que muda a cada minuto: use SSR ou ISR."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "SPA monta no navegador ➔ SSR monta a cada visita ➔ SSG já vem pronto ➔ ISR pronto e renovado"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Next.js",
+  "escola": "05_frontend_e_mobile",
+  "foco_pedagogico": "Renderização no cliente vs servidor vs páginas estáticas pré-compiladas"
+}

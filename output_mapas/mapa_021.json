@@ -1,0 +1,63 @@
+{
+  "id": 21,
+  "title": "OPERADOR LÓGICO NÃO (NOT / !)",
+  "definition": "O NÃO inverte um valor booleano: transforma verdadeiro em falso e falso em verdadeiro.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É o botão de 'inverter interruptor': liga vira desliga, desliga vira liga."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O COMPUTADOR ENTENDE",
+    "icon": "🖥️",
+    "bullets": [
+      "Lê o valor atual (true ou false) antes de decidir.",
+      "Devolve exatamente o valor contrário, nunca o mesmo."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Símbolo mais comum é ! antes da condição.",
+      "!true retorna false, !false retorna true"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Validar formulários, checar permissões negadas.",
+      "Usado em JavaScript, Python (not), Java, C#."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O sistema pega o valor booleano original",
+      "PASSO 2: Aplica o NÃO para inverter esse estado",
+      "PASSO 3: Retorna o valor oposto como resultado final"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer o ! e a condição fica com sentido invertido do desejado.",
+      "Dica: leia !condição como 'se NÃO for verdade que...'."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Valor booleano ➔ aplica NÃO ➔ vira o contrário exato"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Lógica",
+  "foco_pedagogico": "Invertendo o estado booleano"
+}

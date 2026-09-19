@@ -1,0 +1,66 @@
+{
+  "id": 571,
+  "title": "WEB COMPONENTS NATIVOS: CUSTOM ELEMENTS E SHADOW DOM",
+  "definition": "Recursos nativos do navegador que permitem criar tags HTML próprias, encapsuladas, que funcionam em qualquer framework.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Você inventa sua própria tag, como <meu-botao>, e o navegador passa a entender ela.",
+      "Vem embutido no navegador: não precisa instalar React, Vue ou jQuery para usar."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O NAVEGADOR LIDA COM ISSO",
+    "icon": "🖥️",
+    "bullets": [
+      "Custom Elements: o navegador registra o nome da tag e liga esse nome a uma classe JavaScript.",
+      "Shadow DOM: cria uma bolha isolada onde o CSS de fora não entra e o de dentro não vaza."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Regra de ouro do nome: a tag precisa ter um hífen, tipo <meu-card>, nunca <meucard>.",
+      "class MeuCard extends HTMLElement { connectedCallback() { this.innerHTML = 'Oi'; } }",
+      "customElements.define('meu-card', MeuCard);"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Design systems: componentes que precisam rodar em React, Vue ou Angular ao mesmo tempo.",
+      "Ferramentas e exemplos: Lit, Shoelace, Polymer e o player do YouTube."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você escreve uma classe que herda de HTMLElement.",
+      "PASSO 2: Dentro dela, no connectedCallback, você monta o HTML e o shadowRoot.",
+      "PASSO 3: customElements.define registra a tag e ela aparece na página."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer o hífen no nome da tag: o navegador ignora e nada aparece na tela.",
+      "Achar que Shadow DOM bloqueia tudo: estilos globais realmente não entram, use variáveis CSS."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Classe que herda HTMLElement ➔ define registra a tag ➔ componente encapsulado roda em qualquer framework"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Front-end",
+  "escola": "05_frontend_e_mobile",
+  "foco_pedagogico": "Criando tags HTML próprias encapsuladas que funcionam em qualquer framework"
+}

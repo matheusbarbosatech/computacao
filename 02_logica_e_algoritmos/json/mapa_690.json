@@ -1,0 +1,66 @@
+{
+  "id": 690,
+  "title": "COMO SE PREPARAR PARA ENTREVISTAS DE EMPREGO EM TECNOLOGIA",
+  "definition": "Preparação estratégica para conquistar vagas em tecnologia dominando 3 pilares: código ao vivo, perguntas comportamentais e arquitetura de sistemas.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "A entrevista tech testa 3 habilidades: resolver problemas na hora (live coding), mostrar quem você é (comportamental) e pensar grande (arquitetura)."
+    ]
+  },
+  "topRight": {
+    "pill": "LIVE CODING",
+    "icon": "🖥️",
+    "bullets": [
+      "Você codifica em tempo real enquanto o entrevistador observa seu raciocínio.",
+      "Plataformas como LeetCode, HackerRank e CodeSignal simulam esse ambiente sob pressão.",
+      "Domine estruturas de dados: arrays, listas, hash maps, árvores e grafos."
+    ]
+  },
+  "midRight": {
+    "pill": "COMPORTAMENTAL (STAR)",
+    "icon": "{ }",
+    "bullets": [
+      "Método STAR: Situação (contexto), Tarefa (seu papel), Ação (o que fez), Resultado (impacto).",
+      "Exemplo: 'Conte sobre um conflito no time' ➔ descreva o cenário, sua mediação e o acordo final."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Big Techs: Google, Amazon, Meta, Microsoft, Apple (processo pesado em live coding e system design).",
+      "Startups: foco em adaptabilidade, resolução prática e fit cultural.",
+      "Ferramentas comuns: Zoom + CoderPad, Google Meet + HackerRank, ou quadro branco virtual."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO DA ENTREVISTA",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Entenda o problema — repita com suas palavras, faça perguntas, esclareça requisitos.",
+      "PASSO 2: Explique sua abordagem em voz alta antes de codificar — desenhe, rascunhe, discuta trade-offs.",
+      "PASSO 3: Codifique com calma, teste com casos simples e de borda, depois otimize complexidade."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Erro clássico: pular direto para o código sem explicar o raciocínio — o entrevistador quer ver como você pensa.",
+      "Dica de ouro: pratique em voz alta e grave-se codificando. O silêncio no live coding é interpretado como travamento."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Pratique algoritmos diariamente ➔ Prepare 5 histórias STAR reais ➔ Estude system design (escalabilidade, bancos, APIs) ➔ Entrevista dominada!"
+    ]
+  },
+  "_modelo_usado": "devworld/deepseek-v4-pro-0813-f",
+  "modulo": "Mentalidade",
+  "escola": "02_logica_e_algoritmos",
+  "foco_pedagogico": "Testes ao vivo (Live Coding), perguntas comportamentais e entrevistas de arquitetura"
+}

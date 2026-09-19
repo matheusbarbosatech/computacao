@@ -1,0 +1,63 @@
+{
+  "id": 20,
+  "title": "OPERADOR LÓGICO OU (OR / ||)",
+  "definition": "É o operador que dá 'verdadeiro' se pelo menos uma das condições for verdadeira.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Basta UMA condição verdadeira para o resultado ser verdadeiro."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O COMPUTADOR DECIDE",
+    "icon": "🖥️",
+    "bullets": [
+      "Ele testa cada condição até achar uma verdadeira.",
+      "Se achar uma só, já para e responde SIM."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Símbolo usado: || (duas barras) ou 'or'.",
+      "if (chove || estaFrio) { levarCasaco(); }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Validar login: usuário OU e-mail preenchidos.",
+      "Usado em JavaScript, Python, Java, C#."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Verifica a primeira condição",
+      "PASSO 2: Se falsa, verifica a próxima",
+      "PASSO 3: Se qualquer uma for verdadeira, resultado é VERDADEIRO"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Confundir OU com E: OU é mais fácil de dar 'sim'.",
+      "Só dá falso quando TODAS as condições são falsas."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Condição A ➔ OU Condição B ➔ Se uma for VERDADEIRA, resultado é VERDADEIRO"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Lógica",
+  "foco_pedagogico": "Basta uma condição ser verdadeira"
+}

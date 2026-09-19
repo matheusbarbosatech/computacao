@@ -1,0 +1,63 @@
+{
+  "id": 65,
+  "title": "GITHUB E REPOSITÓRIOS REMOTOS",
+  "definition": "GitHub é uma nuvem para guardar seu código e mostrar seu trabalho pro mundo.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como um Google Drive, só que feito para guardar projetos de código."
+    ]
+  },
+  "topRight": {
+    "pill": "REPOSITÓRIO REMOTO",
+    "icon": "🖥️",
+    "bullets": [
+      "Uma cópia do seu projeto guardada em um servidor na internet.",
+      "Fica disponível mesmo se seu computador quebrar."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Comandos básicos para enviar e buscar código na nuvem.",
+      "git push origin main"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Vagas de emprego pedem link do GitHub como portfólio.",
+      "Empresas como Microsoft, Google e startups usam todos os dias."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você cria uma conta e um repositório no site do GitHub",
+      "PASSO 2: Envia (push) seu código do computador para essa nuvem",
+      "PASSO 3: Seu projeto fica salvo e visível para qualquer pessoa"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Confundir GitHub (a nuvem) com Git (a ferramenta local).",
+      "Esquecer de dar 'push' e achar que salvou, mas ficou só no PC."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Código pronto ➔ Envia pro GitHub ➔ Vira portfólio público"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Git",
+  "foco_pedagogico": "Guardando código na nuvem e mostrando seu portfólio"
+}

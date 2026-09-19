@@ -1,0 +1,64 @@
+{
+  "id": 213,
+  "title": "MANIPULAÇÃO DE ARQUIVOS DE TEXTO (TXT E CSV)",
+  "definition": "É a forma do programa ler ou escrever informações guardadas em arquivos, linha por linha.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Um arquivo é como uma planilha de papel guardada no computador para sempre."
+    ]
+  },
+  "topRight": {
+    "pill": "TXT vs CSV",
+    "icon": "🖥️",
+    "bullets": [
+      "TXT é texto livre, sem organização em colunas fixas.",
+      "CSV separa dados em colunas usando vírgula ou ponto e vírgula."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Use 'with open()' para abrir e fechar o arquivo sozinho.",
+      "import csv / leitor = csv.reader(arquivo)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Exportar relatórios de vendas, notas de aluno ou dados de planilha.",
+      "Python, Excel, Google Sheets e sistemas de importação de dados."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Abrir o arquivo com open() indicando o modo (ler ou escrever)",
+      "PASSO 2: Percorrer linha por linha com um laço for",
+      "PASSO 3: Guardar, mostrar ou salvar cada linha processada"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de fechar o arquivo trava ou corrompe os dados.",
+      "Usar vírgula errada no CSV embaralha as colunas do relatório."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Abrir arquivo ➔ Ler linha por linha ➔ Guardar dados organizados"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Automação",
+  "escola": "03_python_especialista",
+  "foco_pedagogico": "Lendo e escrevendo relatórios linha por linha com o módulo csv"
+}

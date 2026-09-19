@@ -1,0 +1,74 @@
+{
+  "id": 598,
+  "title": "MODELAGEM NO MONGODB: EMBUTIR VS REFERENCIAR",
+  "definition": "Embutir guarda os dados juntos no mesmo documento; referenciar guarda um id e busca os dados em outra coleção.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "NoSQL não tem tabelas fixas: você desenha o documento conforme a pergunta que o app faz.",
+      "A regra de ouro: modele pelos padrões de LEITURA, não pela beleza dos dados.",
+      "Pergunte sempre: quais dados preciso juntos para responder uma tela do app?"
+    ]
+  },
+  "topRight": {
+    "pill": "DADOS JUNTOS OU SEPARADOS",
+    "icon": "🖥️",
+    "bullets": [
+      "EMBUTIR: pedido e itens vivem no mesmo documento, uma só leitura traz tudo.",
+      "REFERENCIAR: pedido guarda o id do cliente, que vive em outra coleção.",
+      "Embutir é rápido de ler, mas o documento cresce; referenciar evita duplicar dados."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Embutido: um objeto dentro de um array, sem segunda consulta.",
+      "{ pedido: 1, itens: [ { produto: \"caneta\", qtd: 2 } ] }",
+      "Referenciado: guarda só o vínculo e usa lookup ou segunda query.",
+      "{ pedido: 1, clienteId: ObjectId(\"...\") }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Embutir: carrinho, endereço, itens de nota, configurações de usuário.",
+      "Referenciar: usuários e pedidos, autores e livros, times grandes com muitos dados.",
+      "Ferramentas: MongoDB, Mongoose, Aggregation $lookup, Mongoose populate()."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Liste as telas do app e o que cada tela precisa mostrar junto.",
+      "PASSO 2: Decida: menos de 100 itens e sempre lidos juntos? Embuta.",
+      "PASSO 3: Muitos itens, dados compartilhados ou mudam sozinhos? Referencie.",
+      "PASSO 4: Teste com dados reais e ajuste antes de o app crescer."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Embutir listas sem limite estoura o limite de 16 MB por documento.",
+      "Referenciar tudo deixa a leitura lenta: cada join é uma ida extra ao banco.",
+      "Dica de ouro: dado que é lido junto, fica junto; dado que cresce sem fim, separa."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Tela pede tudo junto ➔ Embutir ➔ 1 leitura rápida.",
+      "Dado grande ou compartilhado ➔ Referenciar ➔ várias coleções ligadas por id.",
+      "Nunca decore: sempre comece pelo padrão de leitura do app."
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "NoSQL",
+  "escola": "06_banco_dados_e_ia",
+  "foco_pedagogico": "A decisão central de design no NoSQL orientada aos padrões de leitura da aplicação"
+}

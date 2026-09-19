@@ -1,0 +1,64 @@
+{
+  "id": 410,
+  "title": "O FUTURO DA CIBERSEGURANÇA: CRIPTOGRAFIA PÓS-QUÂNTICA",
+  "definition": "São novas fórmulas matemáticas criadas para proteger seus dados mesmo contra computadores quânticos.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Os cadeados digitais de hoje podem ser quebrados por computadores do futuro."
+    ]
+  },
+  "topRight": {
+    "pill": "A AMEAÇA QUÂNTICA AO RSA",
+    "icon": "🖥️",
+    "bullets": [
+      "RSA protege dados fatorando números gigantes, algo quase impossível hoje.",
+      "Computador quântico usa o Algoritmo de Shor e fatora esses números rapidamente."
+    ]
+  },
+  "midRight": {
+    "pill": "NOVOS ALGORITMOS PQC",
+    "icon": "{ }",
+    "bullets": [
+      "Baseiam-se em problemas de reticulados (lattices), difíceis até para quânticos.",
+      "Ex: ML-KEM (Kyber) para chaves, ML-DSA (Dilithium) para assinaturas."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Navegadores, bancos e governos já testam PQC em conexões HTTPS.",
+      "Padronizado pelo NIST dos EUA, adotado por Google, Cloudflare e Apple."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO DA MIGRAÇÃO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Sistema identifica onde usa criptografia vulnerável (RSA, ECC)",
+      "PASSO 2: Troca o algoritmo antigo por um algoritmo pós-quântico aprovado",
+      "PASSO 3: Dados ficam protegidos mesmo contra ataques quânticos futuros"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que a ameaça é só teórica: dados roubados hoje podem ser descriptografados depois.",
+      "Dica de ouro: priorize migrar dados de longa duração (sigilo de 10+ anos) primeiro."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Computador quântico ➔ quebra RSA ➔ PQC entra para proteger o futuro."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Laboratório",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "Como os computadores quânticos ameaçam o RSA e quais os novos algoritmos"
+}

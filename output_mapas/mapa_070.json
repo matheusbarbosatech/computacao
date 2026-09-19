@@ -1,0 +1,63 @@
+{
+  "id": 70,
+  "title": "TAMANHO DE UM ARRAY (.length / len)",
+  "definition": "É a contagem de quantos elementos existem dentro de uma coleção, tipo contar quantas caixas tem numa estante.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Saber quantos itens cabem numa lista sem precisar contar um por um."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O COMPUTADOR CONTA",
+    "icon": "🖥️",
+    "bullets": [
+      "Ele já guarda esse número atualizado, não precisa recontar toda vez.",
+      "Atualiza automaticamente quando você adiciona ou remove itens."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Em JS usa .length, em Python usa len().",
+      "frutas = ['maçã','banana']; len(frutas) retorna 2"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Para validar formulários, paginar resultados e evitar erros de acesso.",
+      "Usado em JavaScript, Python, Java, C# e quase toda linguagem."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você cria ou modifica um array",
+      "PASSO 2: O sistema guarda a quantidade atual de itens",
+      "PASSO 3: Você consulta esse número quando precisar"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "O último índice válido é length - 1, não length.",
+      "Confundir tamanho do array com valor do último elemento."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Array criado ➔ Consultar tamanho ➔ Saber quantos itens existem"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Coleções",
+  "foco_pedagogico": "Sabendo quantos elementos existem na coleção"
+}

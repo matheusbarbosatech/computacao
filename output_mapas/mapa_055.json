@@ -1,0 +1,63 @@
+{
+  "id": 55,
+  "title": "O BLOCO FINALLY E O COMANDO THROW",
+  "definition": "Finally é a parte do código que roda sempre, e throw é como você cria e dispara seu próprio erro.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Finally garante uma ação final, throw permite avisar que algo está errado de propósito."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O SISTEMA TRATA ISSO",
+    "icon": "🖥️",
+    "bullets": [
+      "O finally executa mesmo se o try falhar ou funcionar perfeitamente.",
+      "O throw interrompe o código na hora e procura um catch para tratar."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "throw cria um erro customizado com uma mensagem sua.",
+      "if(idade<0){throw new Error('Idade inválida')}"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Validar dados de formulários antes de salvar no banco.",
+      "Usado em JavaScript, Java, Python (raise) e C#."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Código detecta uma condição inválida no meio da execução",
+      "PASSO 2: Comando throw dispara um erro criado por você",
+      "PASSO 3: Finally executa para fechar conexões ou limpar recursos"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer que finally roda mesmo depois de um return dentro do try.",
+      "Dica de ouro: use throw para regras de negócio, não para todo erro."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Erro detectado ➔ throw dispara aviso ➔ finally limpa tudo no final"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Funções",
+  "foco_pedagogico": "Lançando seus próprios erros intencionalmente"
+}

@@ -1,0 +1,64 @@
+{
+  "id": 422,
+  "title": "CHAMADAS DE SISTEMA (SYSTEM CALLS)",
+  "definition": "É o pedido educado que um programa faz ao sistema operacional para usar o disco, a rede ou a memória.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Programas comuns não tocam direto no hardware, eles pedem permissão ao kernel."
+    ]
+  },
+  "topRight": {
+    "pill": "MODO USUÁRIO x MODO KERNEL",
+    "icon": "🖥️",
+    "bullets": [
+      "Seu programa roda numa área restrita, sem acesso direto ao hardware.",
+      "O kernel é o único que pode abrir a porta do disco ou da rede."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Funções comuns escondem a chamada de sistema por trás dos bastidores.",
+      "open('arquivo.txt') ou socket.connect()"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Ler e salvar arquivos, acessar a internet, criar processos novos.",
+      "Presente em Linux, Windows, macOS, em toda linguagem de programação."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Programa pede algo, como ler um arquivo do disco.",
+      "PASSO 2: O kernel verifica permissão e executa a tarefa com segurança.",
+      "PASSO 3: O resultado volta pronto para o programa continuar."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que o programa acessa o disco direto, sem intermediário.",
+      "Dica de ouro: toda leitura ou rede sempre passa pelo kernel primeiro."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Programa pede ➔ Kernel autoriza e executa ➔ Resposta segura volta ao programa."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "SO",
+  "escola": "01_ciencia_computacao_uninter",
+  "foco_pedagogico": "Como programas comuns pedem permissão para ler disco ou acessar a rede"
+}

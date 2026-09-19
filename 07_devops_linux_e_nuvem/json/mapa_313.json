@@ -1,0 +1,64 @@
+{
+  "id": 313,
+  "title": "AWS S3: ARMAZENAMENTO DE OBJETOS ILIMITADO",
+  "definition": "S3 é um serviço de nuvem que guarda seus arquivos (fotos, vídeos, backups) de forma segura e praticamente indestrutível.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como um armário infinito na internet para guardar qualquer arquivo."
+    ]
+  },
+  "topRight": {
+    "pill": "BUCKETS E OBJETOS",
+    "icon": "🖥️",
+    "bullets": [
+      "Bucket é a 'gaveta' onde tudo fica guardado, com nome único.",
+      "Objeto é o arquivo em si, tipo a foto ou o vídeo."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Cada arquivo tem uma chave (nome/caminho) única dentro do bucket.",
+      "aws s3 cp foto.jpg s3://meu-bucket/fotos/"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Guardar backups de sites, apps e bancos de dados.",
+      "Netflix, Airbnb e milhares de apps usam S3 por trás dos panos."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você cria um bucket (a gaveta virtual)",
+      "PASSO 2: Envia o arquivo (upload) para dentro dela",
+      "PASSO 3: A AWS copia o arquivo em vários lugares pra nunca se perder"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que S3 é um disco rígido comum, mas é um serviço de objetos, não pastas de verdade.",
+      "Deixar bucket público por engano e expor arquivos sensíveis."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Arquivo ➔ Vai pro Bucket ➔ Fica copiado em vários lugares pra nunca sumir"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Cloud",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Guardando fotos, vídeos e backups com 99.999999999% de durabilidade"
+}

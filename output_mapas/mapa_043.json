@@ -1,0 +1,63 @@
+{
+  "id": 43,
+  "title": "PARÂMETROS VS ARGUMENTOS",
+  "definition": "Parâmetro é a vaga vazia na função, argumento é o dado real que você coloca nela.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Parâmetro é tipo uma ficha de cadastro vazia esperando ser preenchida."
+    ]
+  },
+  "topRight": {
+    "pill": "PARÂMETRO",
+    "icon": "🖥️",
+    "bullets": [
+      "É o nome que você define na criação da função, uma promessa de valor.",
+      "Existe só dentro da função, é a variável reservada."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "function saudacao(nome) { } → 'nome' é o parâmetro.",
+      "saudacao('Ana') → 'Ana' é o argumento."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Toda função em qualquer linguagem usa essa dupla, JS, Python, Java.",
+      "Formulários, cálculos e APIs dependem dessa troca de dados."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você cria a função e define a vaga (parâmetro)",
+      "PASSO 2: Você chama a função e envia o dado real (argumento)",
+      "PASSO 3: O dado ocupa a vaga e a função executa com ele"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que são a mesma coisa e confundir os termos em entrevistas.",
+      "Dica: parâmetro é a vaga, argumento é quem senta nela."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Vaga vazia (parâmetro) ➔ recebe dado real (argumento) ➔ função funciona"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Funções",
+  "foco_pedagogico": "A vaga na função vs o dado que entra nela"
+}

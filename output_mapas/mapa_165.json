@@ -1,0 +1,63 @@
+{
+  "id": 165,
+  "title": "FILTRANDO LINHAS COM WHERE",
+  "definition": "WHERE é o filtro que escolhe só as linhas que atendem a uma condição.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como uma peneira: só passa quem cumpre a regra que você definiu."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O BANCO TRATA ISSO",
+    "icon": "🖥️",
+    "bullets": [
+      "O banco testa cada linha da tabela contra a condição do WHERE.",
+      "Só as linhas que dão 'verdadeiro' entram no resultado final."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "WHERE vem depois do FROM e antes do ORDER BY.",
+      "SELECT * FROM clientes WHERE idade > 18;"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Buscar clientes de uma cidade, produtos em estoque, pedidos pendentes.",
+      "Usado em SQL, MySQL, PostgreSQL, SQLite e afins."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O banco lê todas as linhas da tabela",
+      "PASSO 2: Cada linha é testada na condição do WHERE",
+      "PASSO 3: Só as linhas aprovadas aparecem no resultado"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Confundir = (igual) com == como em outras linguagens de programação.",
+      "Esquecer aspas em textos: WHERE nome = 'Ana', não WHERE nome = Ana."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Tabela inteira ➔ Filtro WHERE ➔ Só as linhas que interessam"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "BancoDados",
+  "foco_pedagogico": "Pegando apenas registros que atendem ao critério"
+}

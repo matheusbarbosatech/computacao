@@ -1,0 +1,63 @@
+{
+  "id": 77,
+  "title": "O MÉTODO FOREACH",
+  "definition": "forEach pega um array e executa uma função para cada elemento dele, um por um.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É um mensageiro que visita cada item da lista e faz algo com ele."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO FUNCIONA",
+    "icon": "🖥️",
+    "bullets": [
+      "Passa por cada posição do array automaticamente, sem precisar de loop manual.",
+      "Você só escreve o que fazer com cada item."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Recebe uma função que roda para cada elemento do array.",
+      "array.forEach(item => console.log(item))"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Imprimir listas, atualizar telas, somar valores um a um.",
+      "Usado em JavaScript, TypeScript e frameworks web."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: forEach olha o primeiro elemento do array",
+      "PASSO 2: Executa a função que você passou com esse elemento",
+      "PASSO 3: Repete para todos os outros elementos, um por vez"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "forEach não cria um novo array, ele só executa ações.",
+      "Não dá para usar 'return' para parar o forEach no meio."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Array de itens ➔ forEach visita cada um ➔ função executa ação em cada elemento"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Coleções",
+  "foco_pedagogico": "Executando uma função para cada elemento do array"
+}

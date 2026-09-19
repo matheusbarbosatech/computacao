@@ -1,0 +1,63 @@
+{
+  "id": 5,
+  "title": "MEMÓRIA RAM VS DISCO (HD/SSD)",
+  "definition": "RAM guarda dados temporários rápidos, disco guarda dados permanentes para sempre.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "RAM é sua mesa de trabalho, disco é o armário de arquivos."
+    ]
+  },
+  "topRight": {
+    "pill": "RAM (MEMÓRIA)",
+    "icon": "🖥️",
+    "bullets": [
+      "Ultrarrápida, mas apaga tudo quando o computador desliga.",
+      "Guarda só o que está em uso agora mesmo."
+    ]
+  },
+  "midRight": {
+    "pill": "DISCO (HD/SSD)",
+    "icon": "{ }",
+    "bullets": [
+      "Guarda dados permanentemente, mesmo sem energia.",
+      "arquivo.docx salvo continua lá após reiniciar"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "RAM roda programas abertos e abas do navegador.",
+      "Disco armazena fotos, jogos e o sistema operacional."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você abre um programa salvo no disco",
+      "PASSO 2: O programa é copiado para a RAM para rodar rápido",
+      "PASSO 3: Ao salvar, os dados voltam do RAM pro disco pra não se perder"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que RAM guarda arquivos para sempre, ela esquece tudo ao desligar.",
+      "Dica: sempre salve no disco antes de desligar o PC."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Ligar programa ➔ Carrega na RAM ➔ Salva no Disco pra não perder"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Fundamentos",
+  "foco_pedagogico": "Memória temporária ultrarrápida vs armazenamento permanente"
+}

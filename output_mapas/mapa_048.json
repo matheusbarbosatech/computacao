@@ -1,0 +1,63 @@
+{
+  "id": 48,
+  "title": "ARROW FUNCTIONS (FUNÇÕES DE SETA)",
+  "definition": "É uma forma mais curta e moderna de escrever funções em JavaScript, usando uma 'seta' () => {}.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É um jeito rápido de criar uma função, cortando palavras desnecessárias."
+    ]
+  },
+  "topRight": {
+    "pill": "FUNÇÃO TRADICIONAL x SETA",
+    "icon": "🖥️",
+    "bullets": [
+      "A função antiga usa a palavra 'function' e é mais longa.",
+      "A arrow function troca isso pelo símbolo => e fica mais limpa."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Estrutura básica: (parâmetros) => { código }.",
+      "const somar = (a, b) => a + b;"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Muito usada em JavaScript e TypeScript no dia a dia.",
+      "Comum em React, Node.js e funções dentro de arrays (map, filter)."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você escreve os parâmetros entre parênteses.",
+      "PASSO 2: Coloca a seta => indicando 'isso vira aquilo'.",
+      "PASSO 3: O resultado é calculado e devolvido automaticamente."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer os parênteses quando tem só um parâmetro pode confundir.",
+      "Dica de ouro: se não tem chaves {}, o retorno já é automático."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Parâmetros ➔ Seta => ➔ Resultado direto e sem enrolação."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Funções",
+  "foco_pedagogico": "Sintaxe moderna e concisa: () => {}"
+}

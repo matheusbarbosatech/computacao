@@ -1,0 +1,65 @@
+{
+  "id": 559,
+  "title": "TESTES UNITÁRIOS E DE COMPONENTES COM VITEST E REACT TESTING LIBRARY",
+  "definition": "Testar é escrever um pequeno robô que usa sua tela no seu lugar e avisa se algo quebrou.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Teste unitário confere uma peça isolada, como uma função de soma.",
+      "Teste de componente confere a tela inteira do ponto de vista de quem usa."
+    ]
+  },
+  "topRight": {
+    "pill": "VITEST + RTL",
+    "icon": "🖥️",
+    "bullets": [
+      "Vitest roda todos os testes em segundos e aponta o que falhou.",
+      "React Testing Library desenha o componente e procura textos visíveis."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Regra de ouro: teste o que o usuário vê, nunca os detalhes internos.",
+      "render(<Botao />) ; await userEvent.click(screen.getByRole('button'))"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Sempre que você cria ou muda um componente de tela.",
+      "Padrão em projetos React com Vite, Next.js e TypeScript."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: render() coloca o componente na tela do teste.",
+      "PASSO 2: o usuário simulado clica, digita e dispara a ação.",
+      "PASSO 3: o teste confere se o resultado esperado apareceu."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Testar classe CSS ou estado interno quebra fácil e não prova nada.",
+      "Evite nomes vagos: use getByRole e textos que a pessoa realmente lê."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Renderize ➔ Simule o usuário ➔ Confirme o que apareceu na tela"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Testes",
+  "escola": "05_frontend_e_mobile",
+  "foco_pedagogico": "Testando o comportamento da interface pelo ponto de vista do usuário real"
+}

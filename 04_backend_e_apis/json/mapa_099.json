@@ -1,0 +1,63 @@
+{
+  "id": 99,
+  "title": "O CONSTRUTOR (constructor / __init__)",
+  "definition": "É a função especial que roda automaticamente no exato momento em que um objeto nasce.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como a 'certidão de nascimento' que já preenche os dados do objeto ao criá-lo."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O SISTEMA LIDA COM ISSO",
+    "icon": "🖥️",
+    "bullets": [
+      "Toda vez que você cria um objeto novo, o construtor dispara sozinho.",
+      "Ele prepara o objeto antes de você poder usá-lo."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Em Python usa-se __init__(self, ...), em outras linguagens usa-se o nome da classe.",
+      "def __init__(self, nome): self.nome = nome"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Toda linguagem orientada a objetos usa isso: Python, Java, C#, JavaScript.",
+      "Exemplo: criar um usuário já com nome e e-mail definidos."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você chama a classe para criar um objeto novo",
+      "PASSO 2: O construtor roda automaticamente e organiza os dados iniciais",
+      "PASSO 3: O objeto fica pronto e disponível para uso"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer o parâmetro 'self' faz o construtor dar erro em Python.",
+      "Dica de ouro: pense no construtor como o 'kit de montagem inicial' do objeto."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Criar objeto ➔ Construtor roda automático ➔ Objeto nasce já configurado"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "POO",
+  "foco_pedagogico": "A função que roda no momento em que o objeto nasce"
+}

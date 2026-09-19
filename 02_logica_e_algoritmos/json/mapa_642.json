@@ -1,0 +1,70 @@
+{
+  "id": 642,
+  "title": "FILAS (QUEUES): CONCEITO FIFO E FILA DE IMPRESSÃO",
+  "definition": "Fila é uma lista organizada onde o primeiro que chega é o primeiro a ser atendido, sem ninguém furar a ordem.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Fila funciona igual à fila do caixa do supermercado: quem chegou antes é atendido antes.",
+      "FIFO significa First In, First Out: o primeiro que entra é o primeiro que sai."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O COMPUTADOR GUARDA",
+    "icon": "🖥️",
+    "bullets": [
+      "O computador guarda os itens em ordem, um atrás do outro, como uma fila de pessoas.",
+      "Adicionar item é 'entrar na fila' e remover item é 'ser atendido e sair'.",
+      "Só é possível mexer no começo ou no fim da fila, nunca no meio."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "A regra tem 3 ações principais: criar, adicionar no fim e remover do início.",
+      "enqueue('ana') ➔ coloca ana no fim da fila.",
+      "dequeue() ➔ tira e devolve quem está na frente da fila.",
+      "fila[0] ➔ mostra quem será o próximo atendido, sem tirar da fila."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Fila de impressão: o documento enviado primeiro é impresso primeiro.",
+      "Atendimento de chamadas, filas de pedidos em apps e mensagens aguardando envio.",
+      "Linguagens e ferramentas: Python (deque, queue), Java (Queue), C++ (queue)."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você manda o documento; ele entra no fim da fila de impressão",
+      "PASSO 2: A impressora pega sempre o documento que está na frente e imprime",
+      "PASSO 3: Terminou, o documento sai da fila e o próximo da frente é chamado"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Erro clássico: tentar tirar item de uma fila vazia, o que gera erro no programa.",
+      "Cuidado ao dizer 'último da fila': remover sempre acontece no começo, nunca no fim.",
+      "Dica de ouro: teste com 3 itens no papel e confira a ordem de saída antes de codar."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Primeiro a entrar ➔ fica na frente ➔ é o primeiro a sair do sistema"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Algoritmos",
+  "escola": "02_logica_e_algoritmos",
+  "foco_pedagogico": "O primeiro que chega é o primeiro a ser atendido sem furar a ordem"
+}

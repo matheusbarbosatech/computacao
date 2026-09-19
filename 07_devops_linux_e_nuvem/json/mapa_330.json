@@ -1,0 +1,64 @@
+{
+  "id": 330,
+  "title": "SEGREDOS E VARIÁVEIS NO GITHUB ACTIONS (SECRETS)",
+  "definition": "Secrets são cofres digitais que guardam senhas e chaves sem mostrá-las no código.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É um cofre trancado dentro do repositório, só o robô do GitHub abre."
+    ]
+  },
+  "topRight": {
+    "pill": "VARIÁVEIS VS SECRETS",
+    "icon": "🖥️",
+    "bullets": [
+      "Variáveis normais ficam visíveis, secrets ficam sempre escondidos.",
+      "GitHub troca o valor real por asteriscos nos logs."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Acesse o segredo com sintaxe especial de contexto.",
+      "${{ secrets.CHAVE_DEPLOY }}"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Deploy automático em nuvem, AWS, Azure e Vercel.",
+      "Tokens de API, senhas de banco e chaves SSH."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você cadastra a chave na aba Settings do repositório",
+      "PASSO 2: O workflow chama o segredo durante a execução",
+      "PASSO 3: A chave entra criptografada e some do log final"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Nunca escreva a chave direto no arquivo YAML.",
+      "Cuidado ao imprimir variáveis, isso pode vazar o segredo."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Chave sensível ➔ Guarda no cofre Secrets ➔ Deploy seguro na nuvem"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "CI/CD",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Protegendo chaves de deploy e tokens da nuvem com segurança"
+}

@@ -1,0 +1,63 @@
+{
+  "id": 110,
+  "title": "CLASSES ABSTRATAS",
+  "definition": "É um molde incompleto que define regras, mas nunca pode ser usado diretamente.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como uma planta de casa: mostra a estrutura, mas não é a casa pronta."
+    ]
+  },
+  "topRight": {
+    "pill": "MOLDE INSTANCIÁVEL",
+    "icon": "🖥️",
+    "bullets": [
+      "O programa bloqueia a criação direta de um objeto a partir dela.",
+      "Só serve de base para outras classes filhas."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Palavra-chave 'abstract' marca a classe como incompleta.",
+      "abstract class Animal { abstract fazerSom(); }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Sistemas com várias classes parecidas que compartilham comportamento.",
+      "Comum em Java, C#, PHP e TypeScript."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você cria a classe abstrata com regras gerais",
+      "PASSO 2: Uma classe filha herda e completa os detalhes",
+      "PASSO 3: Só a classe filha pode gerar objetos reais"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Tentar criar um objeto direto da classe abstrata gera erro.",
+      "Ouro: pense nela como um formulário em branco, não preenchido."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Classe abstrata ➔ define regras ➔ classe filha usa e cria objetos"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "POO",
+  "foco_pedagogico": "Moldes que servem apenas como modelo e não podem ser instanciados"
+}

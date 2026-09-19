@@ -1,0 +1,63 @@
+{
+  "id": 174,
+  "title": "ATUALIZANDO DADOS COM UPDATE",
+  "definition": "UPDATE é o comando que muda valores já existentes dentro de uma tabela do banco de dados.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como usar borracha e lápis numa ficha de papel já preenchida."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O BANCO ENTENDE",
+    "icon": "🖥️",
+    "bullets": [
+      "O banco procura as linhas certas antes de trocar os dados.",
+      "Ele muda só o que você mandar mudar, nada mais."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Estrutura: UPDATE tabela SET coluna = valor WHERE condição;",
+      "UPDATE clientes SET nome = 'Ana' WHERE id = 5;"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Corrigir cadastro, atualizar preço, mudar status de pedido.",
+      "Usado em MySQL, PostgreSQL, SQL Server, SQLite."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você escolhe a tabela e a coluna a mudar",
+      "PASSO 2: O WHERE filtra exatamente quais linhas serão afetadas",
+      "PASSO 3: Só as linhas filtradas recebem o novo valor"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer o WHERE atualiza TODAS as linhas da tabela de uma vez.",
+      "Sempre teste antes com um SELECT usando o mesmo WHERE."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Escolher linha ➔ Trocar valor ➔ Sem WHERE, troca tudo."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "BancoDados",
+  "foco_pedagogico": "O perigo vital de esquecer o WHERE!"
+}

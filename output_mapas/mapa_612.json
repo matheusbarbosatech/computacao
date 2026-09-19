@@ -1,0 +1,70 @@
+{
+  "id": 612,
+  "title": "TRANSFORMAÇÃO DE DADOS COM DBT (DATA BUILD TOOL)",
+  "definition": "dbt é uma ferramenta que organiza e transforma dados dentro do banco usando SQL tratado como código de software.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Você escreve receitas em SQL e o dbt monta a cozinha inteira na ordem certa.",
+      "Limpar, juntar e resumir dados vira um projeto com pastas, histórico e testes automáticos."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O DBT FUNCIONA",
+    "icon": "🖥️",
+    "bullets": [
+      "O dbt não guarda os dados: ele apenas envia comandos SQL para o banco executar.",
+      "Cada arquivo .sql é um modelo, e o dbt descobre sozinho a ordem de execução.",
+      "Um arquivo de configuração diz qual banco usar, com qual senha e em qual pasta."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Modelo é só um SELECT salvo num arquivo .sql dentro da pasta models.",
+      "exemplo(codigo): select id, nome, valor from {{ ref('pedidos_brutos') }} where valor > 0",
+      "ref() avisa o dbt de qual outro modelo este depende, sem você escrever o nome do banco.",
+      "Testes ficam num arquivo .yml: not_null, unique e relationships são os mais usados."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Times de dados usam dbt para montar tabelas de relatório com segurança e rastreabilidade.",
+      "Linguagens e ferramentas: SQL, Jinja, dbt Core, dbt Cloud, Snowflake, BigQuery, Postgres.",
+      "Serve com Git para revisar mudanças antes de elas chegarem ao painel do chefe."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Os dados brutos entram no banco e viram a camada crua do projeto.",
+      "PASSO 2: O dbt roda os modelos na ordem certa, aplicando testes de qualidade.",
+      "PASSO 3: As tabelas limpas ficam prontas para gráficos, relatórios e decisões."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Escrever o nome da tabela direto em vez de usar ref() quebra a linha de execução.",
+      "Rodar tudo sem testar e só descobrir o erro quando o relatório já está errado.",
+      "Dica de ouro: versione no Git, teste cedo e trate SQL como código de verdade."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "SQL organizado em modelos ➔ dbt executa na ordem e testa ➔ dado confiável no relatório"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Engenharia Dados",
+  "escola": "06_banco_dados_e_ia",
+  "foco_pedagogico": "Aplicando boas práticas de software (versionamento e testes) em códigos SQL"
+}

@@ -1,0 +1,66 @@
+{
+  "id": 609,
+  "title": "PROCESSAMENTO MASSIVO COM APACHE SPARK",
+  "definition": "Spark é um motor que divide um trabalho gigante de dados entre vários computadores ao mesmo tempo.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Dividir um trabalho enorme em partes menores e paralelas.",
+      "Cada máquina resolve seu pedaço e todos juntam o resultado no fim."
+    ]
+  },
+  "topRight": {
+    "pill": "CLUSTER DISTRIBUÍDO",
+    "icon": "🖥️",
+    "bullets": [
+      "Um computador chefe (driver) organiza e distribui o serviço.",
+      "Vários operários (executors) guardam e processam os dados ao mesmo tempo."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Você escreve como se fosse uma lista única e simples.",
+      "val dados = spark.read.parquet(\"/dados/1tb\")",
+      "dados.groupBy(\"pais\").count().show()"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Analisar terabytes e petabytes em data lakes e bancos.",
+      "Linguagens: PySpark, Scala, Java e também Spark SQL."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O código vira um plano e é enviado ao cluster.",
+      "PASSO 2: O driver divide tarefas e manda aos executores em paralelo.",
+      "PASSO 3: Os resultados parciais são juntados e devolvidos a você."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Nunca use collect() em dados gigantes: estoura a memória do driver.",
+      "Sem RAM e partições suficientes, o trabalho falha ou fica lento."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Muitos dados ➔ Dividir em paralelo ➔ Juntar resultado final"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Engenharia Dados",
+  "escola": "06_banco_dados_e_ia",
+  "foco_pedagogico": "Computação distribuída em cluster para analisar petabytes de dados"
+}

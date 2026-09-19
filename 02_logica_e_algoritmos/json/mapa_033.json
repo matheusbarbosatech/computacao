@@ -1,0 +1,63 @@
+{
+  "id": 33,
+  "title": "O LOOP PARA (FOR CLÁSSICO)",
+  "definition": "É um comando que repete uma tarefa um número certo de vezes, controlando tudo em uma única linha.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como dar corda em um brinquedo: você define quantas voltas ele vai dar antes de parar."
+    ]
+  },
+  "topRight": {
+    "pill": "TRÊS PARTES DO FOR",
+    "icon": "🖥️",
+    "bullets": [
+      "O computador lê 3 informações juntas: início, parada e passo.",
+      "Ele repete o bloco até a condição de parada ser falsa."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "for (início; condição; passo) { ... }",
+      "for (i = 0; i < 5; i++) { print(i); }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Percorrer listas, contar itens, repetir tarefas fixas.",
+      "Usado em C, Java, JavaScript, Python (com sintaxe própria)."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: INÍCIO define o valor inicial da variável.",
+      "PASSO 2: CONDIÇÃO é testada antes de cada repetição.",
+      "PASSO 3: PASSO atualiza a variável e o loop repete ou para."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer o passo (i++) causa loop infinito e trava o programa.",
+      "Condição errada faz o loop rodar uma vez de mais ou de menos."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Início define ➔ Condição testa ➔ Passo avança até parar"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Lógica",
+  "foco_pedagogico": "Início, condição de parada e passo em uma linha"
+}

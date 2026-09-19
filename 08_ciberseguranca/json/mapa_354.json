@@ -1,0 +1,64 @@
+{
+  "id": 354,
+  "title": "FALHAS CRIPTOGRÁFICAS E EXPOSIÇÃO DE DADOS SENSÍVEIS",
+  "definition": "É quando dados secretos (senhas, cartões) ficam desprotegidos ou mal disfarçados, e qualquer um consegue ler.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Dado sensível sem cadeado forte é como carta aberta no correio, todo mundo lê."
+    ]
+  },
+  "topRight": {
+    "pill": "TRÁFEGO SEM HTTPS",
+    "icon": "🖥️",
+    "bullets": [
+      "Sem HTTPS, dados viajam na internet como texto puro, sem envelope.",
+      "Qualquer um na mesma rede pode 'escutar' a conversa."
+    ]
+  },
+  "midRight": {
+    "pill": "CHAVES HARDCODED",
+    "icon": "{ }",
+    "bullets": [
+      "Colocar senha ou chave direto no código é escrever a senha na porta de casa.",
+      "const senhaApi = '12345secreta'; // NUNCA faça isso"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Login, pagamentos, apps de banco e qualquer troca de dados na web.",
+      "TLS/HTTPS, cofres de segredos como Vault, AWS Secrets Manager."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Dado sensível é criado ou enviado pelo usuário",
+      "PASSO 2: Sistema criptografa (ou falha em criptografar) o dado",
+      "PASSO 3: Dado protegido chega seguro, ou exposto se algo falhou"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Usar MD5 ou SHA1 para senhas é usar cadeado velho que qualquer chave abre.",
+      "Achar que 'só é teste' e esquecer a chave hardcoded no código real."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Dado sensível exposto ➔ Sem criptografia forte ➔ Vazamento e roubo de informação"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "OWASP",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "Tráfego sem HTTPS, chaves hardcoded no código e algoritmos defasados"
+}

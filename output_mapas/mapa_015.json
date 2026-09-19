@@ -1,0 +1,63 @@
+{
+  "id": 15,
+  "title": "OPERADOR RESTO DA DIVISÃO (%)",
+  "definition": "É o operador que devolve apenas a sobra que fica depois de uma divisão.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como dividir doces entre amigos e ver quantos sobram no final."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O COMPUTADOR CALCULA",
+    "icon": "🖥️",
+    "bullets": [
+      "Ele divide os dois números normalmente e guarda só o resto.",
+      "Ignora o resultado da divisão, só o que sobrou importa."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "O símbolo % é chamado de módulo na maioria das linguagens.",
+      "10 % 3 = 1, porque 3 cabe 3 vezes em 10 e sobra 1."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Verificar se um número é par ou ímpar.",
+      "Usado em Python, JavaScript, C, Java e quase toda linguagem."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO PAR OU ÍMPAR",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Pegue o número e divida por 2 usando %",
+      "PASSO 2: Veja se o resto é 0 ou 1",
+      "PASSO 3: Se resto for 0 é par, se for 1 é ímpar"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Confundir % (resto) com / (divisão normal) é o erro mais comum.",
+      "Dica de ouro: número % 2 == 0 sempre significa número par."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Número ➔ divide por 2 com % ➔ resto 0 é par, resto 1 é ímpar."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Lógica",
+  "foco_pedagogico": "Cálculo de sobra e verificação de par ou ímpar"
+}

@@ -1,0 +1,66 @@
+{
+  "id": 259,
+  "title": "FORMATADORES DE CÓDIGO: BLACK, FLAKE8 E RUFF",
+  "definition": "São ferramentas que arrumam e checam seu código automaticamente, como um revisor de texto para programação.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Ninguém precisa discutir estilo de código, a ferramenta decide por todos."
+    ]
+  },
+  "topRight": {
+    "pill": "TIPOS DE FERRAMENTA",
+    "icon": "🖥️",
+    "bullets": [
+      "Black: formata e reescreve o código automaticamente.",
+      "Flake8: aponta erros e más práticas sem alterar nada.",
+      "Ruff: faz as duas coisas, muito mais rápido."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Rodar no terminal para aplicar as regras.",
+      "black meu_arquivo.py",
+      "ruff check . --fix"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Times de Python que trabalham juntos no mesmo projeto.",
+      "Integrado em VSCode, PyCharm e pipelines de CI/CD."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você escreve o código do seu jeito",
+      "PASSO 2: A ferramenta compara com as regras padrão",
+      "PASSO 3: Ela corrige ou avisa o que está fora do padrão"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que Flake8 corrige código: ele só avisa, não muda nada.",
+      "Ignorar os avisos em vez de configurar as exceções certas."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Código bagunçado ➔ Ferramenta analisa ➔ Estilo padronizado para toda equipe"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Deploy Python",
+  "escola": "03_python_especialista",
+  "foco_pedagogico": "Padronizando o estilo de código da equipe automaticamente"
+}

@@ -1,0 +1,64 @@
+{
+  "id": 251,
+  "title": "AMBIENTES VIRTUAIS (VENV): ISOLANDO DEPENDÊNCIAS",
+  "definition": "Venv é uma caixa separada no seu computador só para os pacotes de um projeto específico.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Cada projeto ganha sua própria 'gaveta' de ferramentas, sem misturar com as outras."
+    ]
+  },
+  "topRight": {
+    "pill": "ISOLAMENTO DE PACOTES",
+    "icon": "🖥️",
+    "bullets": [
+      "O Python cria uma cópia própria dentro da pasta do projeto.",
+      "Pacotes instalados ali não afetam o resto do sistema."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Cria a caixa isolada com um comando simples.",
+      "python -m venv nome_da_pasta"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Todo projeto Python profissional usa isso, sem exceção.",
+      "Ferramentas: venv, virtualenv, conda, poetry."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você cria o ambiente virtual dentro do projeto",
+      "PASSO 2: Você ativa esse ambiente antes de trabalhar",
+      "PASSO 3: Instala pacotes que ficam só ali, isolados"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de ativar o venv e instalar pacote no lugar errado.",
+      "Dica: confira o nome do ambiente aparecendo no terminal."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Projeto novo ➔ Cria venv isolado ➔ Pacotes não brigam entre si"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Deploy Python",
+  "escola": "03_python_especialista",
+  "foco_pedagogico": "Evitando que pacotes de um projeto quebrem o outro no computador"
+}

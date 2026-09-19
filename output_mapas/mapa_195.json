@@ -1,0 +1,63 @@
+{
+  "id": 195,
+  "title": "CONSULTAS PARAMETRIZADAS (PREPARED STATEMENTS)",
+  "definition": "É um jeito de perguntar dados ao banco sem deixar o usuário escrever comandos escondidos dentro da pergunta.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "O banco separa 'o comando' dos 'dados' antes de rodar qualquer coisa."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O BANCO TRATA ISSO",
+    "icon": "🖥️",
+    "bullets": [
+      "O comando SQL é enviado primeiro, com espaços em branco (placeholders).",
+      "Os valores digitados chegam depois, só como texto puro."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Use ? ou %s no lugar do valor, nunca cole o valor direto na frase.",
+      "SELECT * FROM users WHERE login = ?"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Em qualquer login, busca ou cadastro que consulta banco de dados.",
+      "SQL Server, MySQL, PostgreSQL, com PHP, Java, Python, Node."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Programa manda o comando SQL com buracos vazios",
+      "PASSO 2: Banco entende a estrutura antes de receber os dados",
+      "PASSO 3: Dados chegam depois e são tratados só como valores, nunca como comando"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Colar o texto do usuário direto na frase SQL abre a porta para invasão.",
+      "Ouro: se o valor nunca vira parte do comando, o hacker não tem como injetar nada."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Separar comando de dado ➔ Banco processa cada um do seu jeito ➔ Invasor não consegue enganar o sistema"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "BancoDados",
+  "foco_pedagogico": "A blindagem contra invasões no banco"
+}

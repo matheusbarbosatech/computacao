@@ -1,0 +1,66 @@
+{
+  "id": 666,
+  "title": "GIT AVANÇADO: GIT REBASE VS GIT MERGE",
+  "definition": "Rebase reescreve seus commits para deixar a linha do tempo reta; merge junta as ramificações e preserva a história real.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Os dois juntam trabalho de ramos diferentes, mas contam a história de formas opostas.",
+      "É como organizar fotos: rebase reordena, merge cola as duas pilhas lado a lado."
+    ]
+  },
+  "topRight": {
+    "pill": "REBASE ➔ HISTÓRICO LINEAR",
+    "icon": "🖥️",
+    "bullets": [
+      "O Git pega seus commits, tira do lugar e recria um por um sobre outra base.",
+      "Resultado: uma reta limpa, sem commits extras de junção aparecendo no meio."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Rebase: git checkout feature, depois git rebase main. Merge: git checkout main, depois git merge feature.",
+      "Regra de ouro: nunca faça rebase em ramo que outra pessoa já usou."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Rebase antes de enviar sua tarefa, para revisão ficar fácil de ler.",
+      "Merge ao integrar funcionalidade grande, hotfix urgente ou ramo compartilhado do time."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você termina commits no seu ramo de trabalho",
+      "PASSO 2: Escolhe rebase (reescreve) ou merge (cria commit de junção)",
+      "PASSO 3: Resolve conflitos e o histórico fica reto ou ramificado"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Rebase em ramo público duplica commits e quebra o repositório dos colegas.",
+      "Conflito travado? Use git rebase --abort ou git merge --abort e respire."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Rebase ➔ histórico reto e limpo ➔ reescreve a verdade dos commits.",
+      "Merge ➔ commit de junção ➔ preserva exatamente quando cada ramo nasceu."
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Prática Dev",
+  "escola": "02_logica_e_algoritmos",
+  "foco_pedagogico": "Mantendo um histórico linear limpo vs preservando o contexto exato de ramificações"
+}

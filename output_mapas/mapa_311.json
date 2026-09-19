@@ -1,0 +1,65 @@
+{
+  "id": 311,
+  "title": "AWS IAM: USUÁRIOS, GRUPOS, ROLES E MENOR PRIVILÉGIO",
+  "definition": "IAM é o porteiro da AWS que decide quem entra e o que cada um pode tocar.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "IAM controla quem acessa a nuvem e o que cada um pode fazer nela."
+    ]
+  },
+  "topRight": {
+    "pill": "USUÁRIOS, GRUPOS E ROLES",
+    "icon": "🖥️",
+    "bullets": [
+      "Usuário é uma pessoa ou app com identidade fixa e senha própria.",
+      "Grupo junta usuários parecidos pra dar permissão de uma vez.",
+      "Role é um crachá temporário que qualquer um pode vestir e devolver."
+    ]
+  },
+  "midRight": {
+    "pill": "POLÍTICA (JSON)",
+    "icon": "{ }",
+    "bullets": [
+      "Permissão é escrita em JSON dizendo o que é permitido ou negado.",
+      "{\"Effect\":\"Allow\",\"Action\":\"s3:GetObject\",\"Resource\":\"arn:...\"}"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Toda empresa que usa AWS depende do IAM pra proteger dados.",
+      "Usado com S3, EC2, Lambda e praticamente todo serviço da nuvem."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO DE ACESSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Alguém (usuário, app ou serviço) faz um pedido pra AWS.",
+      "PASSO 2: IAM checa as políticas ligadas a essa identidade.",
+      "PASSO 3: Acesso é liberado só se existir permissão explícita pra aquilo."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Dar permissão de administrador total só pra 'resolver rápido' é perigoso.",
+      "Regra de ouro: dê só o acesso mínimo necessário pra cada tarefa."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Identidade ➔ Política aplicada ➔ Acesso liberado só ao necessário"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Cloud",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "A segurança e controle de acesso a todos os recursos da nuvem"
+}

@@ -1,0 +1,63 @@
+{
+  "id": 178,
+  "title": "FUNÇÕES DE AGREGAÇÃO: MIN() E MAX()",
+  "definition": "MIN() e MAX() encontram o menor e o maior valor dentro de uma coluna.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "São como procurar o mais baixo e o mais alto de uma lista de números ou nomes."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O BANCO FAZ ISSO",
+    "icon": "🖥️",
+    "bullets": [
+      "O banco varre todos os valores da coluna escolhida.",
+      "Compara cada valor e guarda só o extremo encontrado."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Use dentro do SELECT, passando a coluna entre parênteses.",
+      "SELECT MIN(preco), MAX(preco) FROM produtos;"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Achar o produto mais barato ou mais caro em uma loja.",
+      "Usado em SQL, MySQL, PostgreSQL, SQL Server."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O banco lê todos os valores da coluna pedida",
+      "PASSO 2: Ele compara valor por valor procurando o extremo",
+      "PASSO 3: Retorna só um número: o menor (MIN) ou o maior (MAX)"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer que o resultado é um único valor, não a linha inteira.",
+      "Dica: use WHERE antes para filtrar antes de comparar."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Coluna de números ➔ compara todos ➔ devolve o extremo (menor ou maior)"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "BancoDados",
+  "foco_pedagogico": "Descobrindo o menor e o maior valor"
+}

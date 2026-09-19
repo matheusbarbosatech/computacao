@@ -1,0 +1,63 @@
+{
+  "id": 38,
+  "title": "LOOPS ANINHADOS",
+  "definition": "É um loop completo funcionando dentro de outro loop, repetindo tarefas em camadas.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Um loop 'de fora' controla as linhas, e um loop 'de dentro' controla as colunas."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O COMPUTADOR PENSA",
+    "icon": "🖥️",
+    "bullets": [
+      "Para cada volta do loop externo, o loop interno roda inteiro até o fim.",
+      "Se fora repete 3x e dentro 5x, o total é 15 execuções."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "O loop interno fica escrito dentro das chaves do loop externo.",
+      "for(i=1;i<=3;i++){ for(j=1;j<=3;j++){ print(i*j) } }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Gerar tabuadas completas, uma por linha.",
+      "Percorrer grades, tabelas e matrizes (jogos, planilhas, imagens)."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Loop externo escolhe a linha atual (ex: número 1 da tabuada)",
+      "PASSO 2: Loop interno percorre todas as colunas dessa linha",
+      "PASSO 3: Quando o interno termina, o externo avança para a próxima linha"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Confundir a variável do loop externo (i) com a do interno (j) e travar a lógica.",
+      "Ouro: pense em linhas (fora) e colunas (dentro), como uma planilha."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Loop externo (linha) ➔ Loop interno (coluna) ➔ Grade completa preenchida"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Lógica",
+  "foco_pedagogico": "Loop dentro de loop (tabuadas, grades e matrizes)"
+}

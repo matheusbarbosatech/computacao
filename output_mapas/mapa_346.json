@@ -1,0 +1,64 @@
+{
+  "id": 346,
+  "title": "FUNÇÕES DE HASH CRIPTOGRÁFICO (SHA-256, SHA-3)",
+  "definition": "É uma máquina que transforma qualquer arquivo numa impressão digital única e de mão única.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Pega qualquer dado e gera um código curto e único, como uma impressão digital."
+    ]
+  },
+  "topRight": {
+    "pill": "MÃO ÚNICA",
+    "icon": "🖥️",
+    "bullets": [
+      "Dá para gerar o código a partir do arquivo, mas nunca o arquivo a partir do código.",
+      "Qualquer mudança mínima gera um código totalmente diferente."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Sempre gera um tamanho fixo, não importa o tamanho do arquivo.",
+      "hash = sha256(arquivo.pdf) ➔ '3a7f...'"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Verificar se um download não foi corrompido ou alterado.",
+      "Usado em senhas, blockchain e assinaturas digitais."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você pega o arquivo original",
+      "PASSO 2: A função de hash processa e comprime tudo",
+      "PASSO 3: Sai uma sequência única que representa o arquivo"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que dá para reverter o hash e descobrir o arquivo original.",
+      "Dica: para checar integridade, compare o hash novo com o hash original."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Arquivo ➔ Função Hash ➔ Impressão digital única e comprovável"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Criptografia",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "A impressão digital de mão única que comprova a integridade de arquivos"
+}

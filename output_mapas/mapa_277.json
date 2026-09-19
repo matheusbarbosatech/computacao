@@ -1,0 +1,69 @@
+{
+  "id": 277,
+  "title": "DNS (DOMAIN NAME SYSTEM): A LISTA TELEFÔNICA DA WEB",
+  "definition": "DNS traduz nomes de sites fáceis de lembrar em endereços IP que os computadores entendem.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Ninguém decora números de telefone, decora nomes; o DNS faz essa tradução na internet."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O SISTEMA FUNCIONA",
+    "icon": "🖥️",
+    "bullets": [
+      "Seu navegador pergunta a um servidor DNS qual é o IP daquele nome de domínio.",
+      "Servidores DNS guardam essa lista em vários níveis, como uma árvore de agendas."
+    ]
+  },
+  "midRight": {
+    "pill": "REGISTROS DNS PRINCIPAIS",
+    "icon": "{ }",
+    "bullets": [
+      "Registro A: aponta o domínio direto para um endereço IP.",
+      "site.com A 192.168.1.1",
+      "CNAME: aponta um nome para outro nome de domínio.",
+      "www.site.com CNAME site.com",
+      "MX: diz para onde vai o e-mail daquele domínio.",
+      "TXT: guarda textos livres, usado para verificações e segurança."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Toda vez que você digita um site no navegador ou envia um e-mail.",
+      "Painéis como Cloudflare, GoDaddy, Route53 e Registro.br gerenciam esses registros."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você digita o nome do site no navegador",
+      "PASSO 2: O DNS procura o registro certo (A, CNAME, MX ou TXT)",
+      "PASSO 3: O navegador recebe o IP e conecta ao servidor certo"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que a mudança de DNS é instantânea; ela depende do TTL configurado.",
+      "TTL é o tempo que a informação fica guardada em cache antes de atualizar.",
+      "Dica de ouro: baixe o TTL antes de fazer mudanças importantes no domínio."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Nome do site ➔ Consulta DNS ➔ Endereço IP encontrado"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Redes",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Registros A, CNAME, MX, TXT e tempo de propagação TTL"
+}

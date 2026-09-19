@@ -1,0 +1,64 @@
+{
+  "id": 655,
+  "title": "PADRÃO FAST AND SLOW POINTERS (TARTARUGA E LEBRE DE FLOYD)",
+  "definition": "Dois ponteiros andam na mesma lista: um rápido (lebre) e um lento (tartaruga). Se eles se encontrarem, existe um ciclo.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Imagine dois corredores numa pista circular. O mais rápido sempre alcança o mais lento, inevitavelmente."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO FUNCIONA",
+    "icon": "🖥️",
+    "bullets": [
+      "O ponteiro lento avança um nó por vez. O rápido avança dois nós por vez.",
+      "Sem ciclo: o rápido chega ao fim (null). Com ciclo: os dois se encontram dentro do anel."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Inicie lento e rápido na cabeça da lista. Enquanto rápido e rápido.prox existirem, avance.",
+      "lento = lento.prox; rapido = rapido.prox.prox; se lento == rapido → ciclo detectado!"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Detectar loops em listas encadeadas sem usar HashSet ou array auxiliar.",
+      "Encontrar o ponto de início do ciclo e o meio exato de uma lista ligada."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Ambos os ponteiros partem do primeiro nó da lista encadeada.",
+      "PASSO 2: A cada iteração, o lento anda +1 e o rápido anda +2. Se o rápido bater em null, não há ciclo.",
+      "PASSO 3: Se lento e rápido se encontrarem no mesmo nó, existe um ciclo. Fim da detecção."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de verificar se rápido.prox é null antes de acessar rápido.prox.prox — isso quebra o código.",
+      "Dica de ouro: sempre cheque rápido != null E rápido.prox != null no while para evitar crash."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Ponteiro Lento (+1) ➔ Ponteiro Rápido (+2) ➔ Se colidirem, há ciclo ➔ Memória extra zero."
+    ]
+  },
+  "_modelo_usado": "devworld/deepseek-v4-pro-0813-f",
+  "modulo": "LeetCode",
+  "escola": "02_logica_e_algoritmos",
+  "foco_pedagogico": "Detectando ciclos em listas encadeadas sem gastar memória extra"
+}

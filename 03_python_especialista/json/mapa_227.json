@@ -1,0 +1,64 @@
+{
+  "id": 227,
+  "title": "CLASSES, INSTÂNCIAS E O MÉTODO __INIT__",
+  "definition": "Classe é a forma de bolo, instância é o bolo real que você tira do forno.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Classe é o molde: define formato, mas não é comestível ainda."
+    ]
+  },
+  "topRight": {
+    "pill": "INSTÂNCIA",
+    "icon": "🖥️",
+    "bullets": [
+      "Cada bolo assado é uma instância, ocupa espaço próprio na memória.",
+      "Você pode fazer vários bolos com o mesmo molde."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "__init__ roda sozinho toda vez que um bolo é criado.",
+      "class Bolo: def __init__(self, sabor): self.sabor = sabor"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Base da Programação Orientada a Objetos (POO).",
+      "Usado em Python, Java, C#, JavaScript (classes)."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você define a classe (desenha o molde)",
+      "PASSO 2: Chama a classe, o __init__ 'assa' o bolo com os ingredientes",
+      "PASSO 3: Nasce a instância, um bolo pronto e único na memória"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer o 'self' faz o Python não achar o bolo certo.",
+      "Confundir a classe (molde) com a instância (bolo) trava o raciocínio."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Molde (classe) ➔ __init__ assa ➔ Bolo pronto (instância)"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "POO Python",
+  "escola": "03_python_especialista",
+  "foco_pedagogico": "O molde do bolo vs o bolo real na memória do computador"
+}

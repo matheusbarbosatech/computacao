@@ -1,0 +1,63 @@
+{
+  "id": 194,
+  "title": "INJEÇÃO DE SQL (SQL INJECTION)",
+  "definition": "É quando alguém mal-intencionado escreve código no lugar de um dado para enganar o banco de dados.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Um formulário confia demais no que o usuário digita, sem checar."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O ATAQUE FUNCIONA",
+    "icon": "🖥️",
+    "bullets": [
+      "O invasor digita comandos SQL dentro de uma caixa de login.",
+      "O sistema executa esse comando como se fosse legítimo."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Nunca junte texto do usuário direto na consulta SQL.",
+      "usuario = ' OR '1'='1"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Formulários de login, buscas e cadastros em sites.",
+      "Prevenção feita em PHP, Java, Python, Node.js."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Invasor digita código SQL num campo de texto",
+      "PASSO 2: Sistema mistura esse código na consulta ao banco",
+      "PASSO 3: Banco executa e libera dados que não deveria"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que só sites 'grandes' são atacados, qualquer site é vulnerável.",
+      "Dica de ouro: use 'consultas parametrizadas', nunca concatene texto."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Dado sem filtro ➔ Vira comando ➔ Banco de dados é invadido."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "BancoDados",
+  "foco_pedagogico": "A falha de segurança mais famosa e como se proteger"
+}

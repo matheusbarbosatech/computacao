@@ -1,0 +1,64 @@
+{
+  "id": 424,
+  "title": "CICLO DE VIDA DE UM PROCESSO",
+  "definition": "É a jornada que um programa percorre desde que nasce até que termina, passando por filas de espera do sistema.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Um processo nunca fica direto rodando: ele espera a vez, como numa fila de banco."
+    ]
+  },
+  "topRight": {
+    "pill": "OS 5 ESTADOS",
+    "icon": "🖥️",
+    "bullets": [
+      "Novo: processo acabou de ser criado pelo sistema.",
+      "Pronto, Executando, Bloqueado e Terminado vêm depois."
+    ]
+  },
+  "midRight": {
+    "pill": "REGRA DE TRANSIÇÃO",
+    "icon": "{ }",
+    "bullets": [
+      "Só existe UM caminho entre estados vizinhos, nunca pula etapa.",
+      "Pronto -> Executando -> (Bloqueado ou Terminado)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Todo sistema operacional usa isso: Windows, Linux, Android.",
+      "Visto em ferramentas como Gerenciador de Tarefas e htop."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO NA FILA DO ESCALONADOR",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Processo Novo entra na fila e vira Pronto",
+      "PASSO 2: Escalonador escolhe um Pronto e ele passa a Executando",
+      "PASSO 3: Executando termina, ou é Bloqueado (espera algo) e volta pra fila"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Bloqueado NÃO é a mesma coisa que Pronto: bloqueado espera um evento externo.",
+      "Processo Terminado não volta a ser Pronto, ele simplesmente some."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Nasce (Novo) ➔ Espera a vez (Pronto) ➔ Roda (Executando) ➔ Some (Terminado)"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "SO",
+  "escola": "01_ciencia_computacao_uninter",
+  "foco_pedagogico": "Os estados em que um programa transita na fila do escalonador"
+}

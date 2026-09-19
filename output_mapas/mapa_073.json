@@ -1,0 +1,63 @@
+{
+  "id": 73,
+  "title": "INSERINDO E REMOVENDO NO INÍCIO",
+  "definition": "Adicionar ou tirar um item do começo da lista faz todo mundo mudar de lugar.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como furar uma fila: todos andam uma posição para abrir ou fechar espaço."
+    ]
+  },
+  "topRight": {
+    "pill": "SHIFT E UNSHIFT",
+    "icon": "🖥️",
+    "bullets": [
+      "shift() remove o primeiro item da lista.",
+      "unshift() adiciona um novo item no começo da lista."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "shift() não recebe nada e devolve o item removido.",
+      "lista.unshift('novo')"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Filas de atendimento, histórico recente, listas de prioridade.",
+      "Comum em JavaScript, Python (com deque) e estruturas de dados."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Sistema abre ou fecha espaço na posição 0",
+      "PASSO 2: Todos os outros itens são deslocados uma casa",
+      "PASSO 3: Lista fica reorganizada com novos índices"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que é rápido: na verdade é lento em listas grandes.",
+      "Confundir shift (remove) com unshift (adiciona)."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Mexer no início ➔ Reorganiza tudo ➔ Operação mais cara"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Coleções",
+  "foco_pedagogico": "shift e unshift: impacto de reorganizar a lista"
+}

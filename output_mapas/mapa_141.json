@@ -1,0 +1,63 @@
+{
+  "id": 141,
+  "title": "MEMÓRIA VIRTUAL E PAGINAÇÃO",
+  "definition": "É um truque do sistema operacional que faz cada programa achar que tem a memória toda só para ele.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "O SO cria uma memória 'de mentirinha' maior que a memória física real."
+    ]
+  },
+  "topRight": {
+    "pill": "PAGINAÇÃO",
+    "icon": "🖥️",
+    "bullets": [
+      "A memória é cortada em pedaços iguais chamados páginas.",
+      "Cada página vive na RAM ou é guardada no disco temporariamente."
+    ]
+  },
+  "midRight": {
+    "pill": "TABELA DE PÁGINAS",
+    "icon": "{ }",
+    "bullets": [
+      "O SO usa uma tabela para traduzir endereço virtual em endereço real.",
+      "endereco_real = tabela[endereco_virtual]"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Todo sistema operacional moderno usa isso: Windows, Linux, macOS.",
+      "É por isso que vários programas abrem juntos sem travar tudo."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Programa pede um endereço de memória virtual.",
+      "PASSO 2: SO verifica se a página está na RAM ou no disco.",
+      "PASSO 3: Se não estiver na RAM, busca no disco e libera espaço se precisar."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que memória virtual é ilimitada de verdade, ela tem limite sim.",
+      "Confundir memória virtual com memória RAM, são coisas diferentes."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Programa pede memória ➔ SO traduz endereço ➔ Ilusão de espaço infinito"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "SO",
+  "foco_pedagogico": "A ilusão de memória infinita criada pelo SO"
+}

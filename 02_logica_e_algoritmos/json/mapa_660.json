@@ -1,0 +1,65 @@
+{
+  "id": 660,
+  "title": "ANÁLISE DE COMPLEXIDADE DE ESPAÇO (SPACE COMPLEXITY)",
+  "definition": "É o cálculo de quanta memória EXTRA o seu código precisa para funcionar, além dos dados de entrada.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Imagine uma mesa: o prato na mesa é a entrada, os potes que você pega são o gasto.",
+      "Medimos só o espaço extra que o código cria para conseguir trabalhar."
+    ]
+  },
+  "topRight": {
+    "pill": "MEMÓRIA AUXILIAR",
+    "icon": "🖥️",
+    "bullets": [
+      "A entrada não conta: ela já existia antes do seu código rodar.",
+      "Conta tudo que você cria: variáveis, listas, cópias e chamadas de função."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Big O de espaço: O(1) é memória fixa, O(n) cresce junto com a entrada.",
+      "exemplo(soma = a + b) usa O(1)  //  exemplo(copia = list(dados)) usa O(n)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Escolher a solução que não estoura a memória do servidor ou do celular.",
+      "Linguagens: Python, Java, JavaScript, C++. Prática: desafios e testes de entrevista."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Identifique a entrada e ignore o espaço que ela já ocupa",
+      "PASSO 2: Some tudo que o código cria de novo: variáveis, listas e recursão",
+      "PASSO 3: Escreva o resultado em Big O: O(1), O(n) ou O(n²)"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que copiar uma lista é de graça: a cópia ocupa o mesmo tamanho da original.",
+      "Dica de ouro: conte a pilha de recursão, cada chamada guarda sua própria memória."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Entrada é grátis ➔ Conto só o espaço extra ➔ Escrevo em Big O"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "LeetCode",
+  "escola": "02_logica_e_algoritmos",
+  "foco_pedagogico": "Medindo quanta memória extra seu código consome além dos dados de entrada"
+}

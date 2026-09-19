@@ -1,0 +1,64 @@
+{
+  "id": 699,
+  "title": "A LEI DE MOORE E O FUTURO DO HARDWARE DE COMPUTAÇÃO",
+  "definition": "A Lei de Moore prevê que o número de transistores em um chip dobra a cada 2 anos, mas a física dos átomos está batendo no limite dessa corrida.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Transistores são interruptores minúsculos que ligam e desligam para processar dados — e estão ficando tão pequenos que os elétrons começam a 'escapar'."
+    ]
+  },
+  "topRight": {
+    "pill": "FÍSICA NA ESCALA NANO",
+    "icon": "🔬",
+    "bullets": [
+      "Abaixo de 5 nanômetros, elétrons vazam por tunelamento quântico como água atravessando uma parede fina.",
+      "O calor gerado é tão intenso que derreteria o próprio chip sem resfriamento extremo."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Transistores por chip ≈ 2^(anos/2). Exemplo: em 10 anos, a densidade multiplica por 32.",
+      "dobro_transistores = atual * (2 ** (anos / 2))"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Processadores da Intel, AMD e Apple já operam na casa dos 3 a 5 nanômetros.",
+      "O gargalo atual está nos data centers de IA, que consomem energia de pequenas cidades."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Cientistas gravam circuitos com litografia ultravioleta extrema em pastilhas de silício puro.",
+      "PASSO 2: Cada transistor atua como porta lógica — bilhões deles cabem na unha do polegar.",
+      "PASSO 3: Quando o transistor atinge o tamanho de poucos átomos, a física quântica bagunça o sinal e a miniaturização trava."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Pensar que 'dobrar transistores = dobro de velocidade' — o ganho real é cada vez menor por causa do calor e da latência.",
+      "Dica de ouro: desempenho hoje vem mais de arquiteturas paralelas (múltiplos núcleos) do que de frequência bruta."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Miniaturização extrema ➔ Tunelamento quântico e calor insuportável ➔ Novos caminhos: computação quântica, chips neuromórficos, fotônica e empilhamento 3D."
+    ]
+  },
+  "_modelo_usado": "devworld/deepseek-v4-pro-0813-f",
+  "modulo": "Mentalidade",
+  "escola": "02_logica_e_algoritmos",
+  "foco_pedagogico": "A física dos transistores em escala nanométrica e os novos caminhos da computação"
+}

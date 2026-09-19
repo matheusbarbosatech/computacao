@@ -1,0 +1,65 @@
+{
+  "id": 677,
+  "title": "EDITOR COLABORATIVO EM TEMPO REAL: OT vs CRDT",
+  "definition": "Várias pessoas editam o mesmo documento ao mesmo tempo e todas terminam vendo exatamente o mesmo resultado.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Todos digitam juntos no mesmo arquivo, sem travar e sem perder nada.",
+      "O grande desafio é decidir a ordem correta de cada mudança."
+    ]
+  },
+  "topRight": {
+    "pill": "OT vs CRDT",
+    "icon": "🖥️",
+    "bullets": [
+      "OT reescreve as operações quando chegam; precisa de um servidor central.",
+      "CRDT dá endereço único a cada pedaço; funciona até sem servidor."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Cada tecla vira um comando simples: inserir, apagar ou mover.",
+      "exemplo: insert(pos=5, char='a') ➔ servidor reordena ➔ todos aplicam"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Google Docs, Figma, Notion e Trello usam essas técnicas todos os dias.",
+      "Bibliotecas: Yjs e Automerge (CRDT), ShareDB e ot.js (OT)."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você digita e a mudança vira uma operação numerada.",
+      "PASSO 2: As operações viajam e são reordenadas ou mescladas.",
+      "PASSO 3: Todos os computadores aplicam e mostram o mesmo texto."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Edições simultâneas no mesmo ponto podem embaralhar palavras.",
+      "CRDT deixa o arquivo maior; OT depende do servidor estar online."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Muitos digitam ➔ operações são ordenadas ➔ todos veem igual"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Mundo Real",
+  "escola": "02_logica_e_algoritmos",
+  "foco_pedagogico": "Operational Transformation (OT) vs CRDTs (Conflict-free Replicated Data Types)"
+}

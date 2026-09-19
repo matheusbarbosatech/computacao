@@ -1,0 +1,66 @@
+{
+  "id": 489,
+  "title": "PADRÃO MEDIATR E CQRS NO C#",
+  "definition": "É separar 'pedir uma ação' de 'pedir uma informação', usando um mensageiro central que entrega cada pedido a quem sabe resolvê-lo.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "CQRS separa quem MUDA dados (Command) de quem LÊ dados (Query), como caixas diferentes no banco."
+    ]
+  },
+  "topRight": {
+    "pill": "MEDIATR",
+    "icon": "🖥️",
+    "bullets": [
+      "É um 'carteiro' interno: recebe a carta (pedido) e entrega ao único destinatário certo.",
+      "Ninguém chama o handler direto, tudo passa pelo mediador."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Command/Query implementam IRequest<T>.",
+      "public class CriarPedidoCommand : IRequest<int> { }",
+      "Handler: public class Handler : IRequestHandler<CriarPedidoCommand,int>",
+      "Uso: await _mediator.Send(command);"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Comum em APIs .NET com Clean Architecture ou DDD.",
+      "Controllers ficam finos, só enviam pedidos ao Mediator."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Controller cria um Command ou Query e chama _mediator.Send()",
+      "PASSO 2: MediatR encontra o Handler certo registrado no container",
+      "PASSO 3: Handler executa a lógica e devolve o resultado ao Controller"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de registrar o MediatR no Program.cs (services.AddMediatR).",
+      "Misturar lógica de escrita e leitura no mesmo Handler quebra o CQRS."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Pedido (Command/Query) ➔ Mediator entrega ➔ Handler resolve e responde"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": ".NET",
+  "escola": "04_backend_e_apis",
+  "foco_pedagogico": "Desacoplando comandos e consultas com mensageria interna no processo"
+}

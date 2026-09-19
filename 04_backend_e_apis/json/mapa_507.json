@@ -1,0 +1,65 @@
+{
+  "id": 507,
+  "title": "DISTRIBUTED TRACING: RASTREANDO REQUISIÇÕES COM CORRELATION IDS",
+  "definition": "É colocar um crachá único em cada requisição para seguir seu caminho por vários sistemas.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Um pedido do usuário passa por vários serviços, como numa corrida de revezamento.",
+      "O Correlation ID é o bastão que todos carregam até o fim."
+    ]
+  },
+  "topRight": {
+    "pill": "CORRELATION ID",
+    "icon": "🖥️",
+    "bullets": [
+      "É um código único gerado no início da requisição (ex: UUID).",
+      "Cada serviço recebe, usa e repassa esse mesmo código adiante."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "O ID viaja dentro de um cabeçalho HTTP, não no corpo da requisição.",
+      "X-Correlation-ID: 7f3a-9b2c-4e1d"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Sistemas com microsserviços, APIs e filas de mensagens.",
+      "Ferramentas: Jaeger, Zipkin, OpenTelemetry, Datadog."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Requisição chega no primeiro serviço e recebe um ID novo",
+      "PASSO 2: Cada serviço seguinte recebe o ID no header e registra nos logs",
+      "PASSO 3: Ao dar erro, você busca esse ID nos logs de todos os serviços"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de repassar o header para o próximo serviço quebra o rastro.",
+      "Dica de ouro: sempre logue o ID junto com toda mensagem de erro."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Requisição entra ➔ ganha um ID único ➔ ID viaja em todo header HTTP"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Microsserviços",
+  "escola": "04_backend_e_apis",
+  "foco_pedagogico": "Passando o mesmo ID de rastreio em headers HTTP para encontrar o erro nos logs"
+}

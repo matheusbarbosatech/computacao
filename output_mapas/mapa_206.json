@@ -1,0 +1,64 @@
+{
+  "id": 206,
+  "title": "LIST COMPREHENSIONS: LOOPS ELEGANTES EM 1 LINHA",
+  "definition": "É um jeito rápido de criar uma lista nova transformando ou filtrando outra lista, tudo em uma linha só.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Pegar uma lista, aplicar uma regra em cada item e gerar uma lista nova."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO FUNCIONA",
+    "icon": "🖥️",
+    "bullets": [
+      "O computador percorre cada item da lista original, um por um.",
+      "Aplica a expressão ou o filtro antes de guardar o resultado."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Formato: [expressão for item in lista if condição]",
+      "[x*2 for x in numeros if x > 0]"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Muito comum em Python para limpar e transformar dados rapidamente.",
+      "Usado em análise de dados, scripts e processamento de listas."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Escolhe a lista original para percorrer",
+      "PASSO 2: Aplica a transformação e testa a condição (se houver)",
+      "PASSO 3: Guarda o resultado em uma lista nova, já pronta"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Colocar lógica demais numa linha só deixa o código ilegível.",
+      "Dica de ouro: se não entender de cara, volte pro loop tradicional."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Lista antiga ➔ Regra aplicada em cada item ➔ Lista nova pronta"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Python Básico",
+  "escola": "03_python_especialista",
+  "foco_pedagogico": "Transformando e filtrando listas de forma concisa e legível"
+}

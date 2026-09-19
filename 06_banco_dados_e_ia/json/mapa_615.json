@@ -1,0 +1,64 @@
+{
+  "id": 615,
+  "title": "REGRESSÃO LINEAR E REGRESSÃO LOGÍSTICA",
+  "definition": "São dois modelos que aprendem com exemplos: um prevê um número, o outro prevê uma chance de sim ou não.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Ambas acham uma relação entre dados de entrada e a resposta que queremos prever."
+    ]
+  },
+  "topRight": {
+    "pill": "PREVER NÚMERO VS PREVER CHANCE",
+    "icon": "🖥️",
+    "bullets": [
+      "Linear devolve valor contínuo, como preço ou temperatura, sem limite de faixa.",
+      "Logística devolve probabilidade entre 0 e 1, tipo 82% de chance de sim."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Multiplica cada entrada por um peso, soma tudo e gera a previsão.",
+      "preco = 50000 + 3000 * metros; chance = 1/(1+e^-z)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Linear: estimar preço de casa, vendas, consumo ou temperatura.",
+      "Logística: spam ou não, doente ou saudável, cliente sai ou fica."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Juntar exemplos antigos com a resposta correta já conhecida.",
+      "PASSO 2: Ajustar os pesos comparando previsão e resposta real, errando menos a cada rodada.",
+      "PASSO 3: Usar o modelo treinado para prever casos novos que nunca vimos."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Usar regressão linear para sim ou não gera valores absurdos, como chance de 1,7.",
+      "Dica de ouro: resposta é número use linear, resposta é categoria use logística."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Dados rotulados ➔ ajuste dos pesos ➔ número (preço) ou chance (sim/não)"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Machine Learning",
+  "escola": "06_banco_dados_e_ia",
+  "foco_pedagogico": "Prevendo um valor contínuo (preço) vs prevendo uma probabilidade (sim/não)"
+}

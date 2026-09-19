@@ -1,0 +1,64 @@
+{
+  "id": 203,
+  "title": "TUPLAS VS LISTAS: POR QUE IMUTABILIDADE IMPORTA?",
+  "definition": "Lista é uma caixa que você pode reorganizar sempre; tupla é uma caixa selada de fábrica.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Imutável significa que os dados não podem ser trocados depois de criados."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O COMPUTADOR TRATA ISSO",
+    "icon": "🖥️",
+    "bullets": [
+      "Tupla ocupa um espaço fixo na memória, sem margem para crescer.",
+      "Lista guarda espaço extra, prevendo que você vai mudar o conteúdo."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Lista usa colchetes: lista = [1, 2, 3]",
+      "Tupla usa parênteses: tupla = (1, 2, 3)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Tuplas guardam coordenadas, datas ou senhas que não devem mudar.",
+      "Listas guardam carrinhos de compra ou filas que crescem e diminuem."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você decide se os dados vão mudar no futuro",
+      "PASSO 2: Escolhe tupla (protegido) ou lista (flexível)",
+      "PASSO 3: O computador aloca memória de forma otimizada para cada caso"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Tentar alterar um item de tupla gera erro: isso é a proteção funcionando.",
+      "Usar lista quando os dados nunca mudam desperdiça memória e velocidade."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Dado fixo ➔ use tupla ➔ ganha segurança e performance."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Python Básico",
+  "escola": "03_python_especialista",
+  "foco_pedagogico": "Dados protegidos contra alterações acidentais e ganho de performance"
+}

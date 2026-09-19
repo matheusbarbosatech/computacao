@@ -1,0 +1,72 @@
+{
+  "id": 557,
+  "title": "ANÁLISE DE BUNDLE COM WEBPACK BUNDLE ANALYZER E VITE VISUALIZER",
+  "definition": "É abrir o seu pacote final de código e ver, em forma de mapa, qual biblioteca está deixando o site lento.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Seu app é uma mochila: o navegador precisa baixar tudo antes de mostrar a tela.",
+      "Se a mochila pesa demais, o usuário espera segundos olhando tela branca.",
+      "Os analisadores mostram dentro da mochila qual item ocupa mais espaço."
+    ]
+  },
+  "topRight": {
+    "pill": "ANATOMIA DO BUNDLE",
+    "icon": "🖥️",
+    "bullets": [
+      "Bundle é um arquivo único gerado juntando todos os seus arquivos de código.",
+      "O navegador baixa esse arquivo inteiro antes de executar qualquer coisa.",
+      "Cada bloco colorido no mapa é uma biblioteca que foi empacotada junto."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Gere o relatório com o comando, depois abra o mapa no navegador.",
+      "exemplo: npx webpack --profile --json > stats.json",
+      "exemplo: npx webpack-bundle-analyzer stats.json",
+      "exemplo: npm i -D rollup-plugin-visualizer",
+      "exemplo: visualizer({ open: true }) dentro do vite.config.js"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Antes de subir para produção, para saber se o site ficou pesado.",
+      "Webpack Bundle Analyzer para projetos com Webpack e Create React App.",
+      "Vite Visualizer e Source Map Explorer para projetos Vite, Next e Rollup."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Gere o build de produção com relatório de estatísticas ativado",
+      "PASSO 2: Abra o mapa e ordene os blocos do maior para o menor",
+      "PASSO 3: Troque, divida ou remova a biblioteca gigante e meça de novo"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Analisar o build de desenvolvimento gera números falsos e inflados.",
+      "Importar a biblioteca inteira quando você usa só uma função pequena.",
+      "Dica de ouro: importe só a função, ex: import debounce from 'lodash/debounce'."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Bundle pesado ➔ Mapa mostra o culpado ➔ Otimizo ➔ Site carrega rápido"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Performance",
+  "escola": "05_frontend_e_mobile",
+  "foco_pedagogico": "Descobrindo quais bibliotecas pesadas estão inflando o tempo de carregamento"
+}

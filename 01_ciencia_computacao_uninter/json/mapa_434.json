@@ -1,0 +1,65 @@
+{
+  "id": 434,
+  "title": "O PROBLEMA DA PARADA (HALTING PROBLEM)",
+  "definition": "É a prova matemática de que nenhum programa consegue adivinhar se outro programa vai travar para sempre ou vai parar.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Existem perguntas sobre programas que nenhum computador jamais poderá responder."
+    ]
+  },
+  "topRight": {
+    "pill": "INDECIDIBILIDADE",
+    "icon": "🖥️",
+    "bullets": [
+      "Não existe algoritmo genérico que analise qualquer código e diga 'trava' ou 'termina'.",
+      "Não é falta de tecnologia, é uma impossibilidade lógica provada."
+    ]
+  },
+  "midRight": {
+    "pill": "A PROVA (CONTRADIÇÃO)",
+    "icon": "{ }",
+    "bullets": [
+      "Alan Turing imaginou uma máquina H que testa programas.",
+      "seSePara(P) então trava(); senão para();",
+      "Essa máquina, ao se testar, gera um paradoxo impossível."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE ISSO IMPORTA",
+    "icon": "</>",
+    "bullets": [
+      "Por que compiladores não detectam todo loop infinito.",
+      "Base teórica usada em ciência da computação e criptografia."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "COMO A PROVA FUNCIONA",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Suponha que exista uma máquina H que sempre acerta.",
+      "PASSO 2: Criamos um programa que faz H se contradizer sobre si mesmo.",
+      "PASSO 3: A contradição prova que H não pode existir."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que é só uma limitação técnica atual, e não uma barreira matemática.",
+      "Confundir 'não decidível' com 'difícil de programar'."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Programa analisa programa ➔ Cai em paradoxo ➔ Prova que é impossível."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Teoria",
+  "escola": "01_ciencia_computacao_uninter",
+  "foco_pedagogico": "A prova matemática genial de que é impossível criar um programa que detecte todos os loops infinitos"
+}

@@ -1,0 +1,66 @@
+{
+  "id": 575,
+  "title": "GRÁFICOS INTERATIVOS COM CHART.JS E D3.JS",
+  "definition": "Formas de transformar listas de números em desenhos visuais que o usuário pode passar o mouse, clicar e explorar.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Um gráfico é apenas uma tabela de números virando desenho fácil de entender.",
+      "Bibliotecas prontas fazem o desenho pesado; você só entrega os dados e as cores."
+    ]
+  },
+  "topRight": {
+    "pill": "CANVAS X SVG",
+    "icon": "🖥️",
+    "bullets": [
+      "Canvas: pinta pixels numa tela única, como um quadro; ótimo para milhares de pontos.",
+      "SVG: cada barra é um elemento vivo no HTML; fácil de animar e inspecionar."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Chart.js: coloque um canvas no HTML e depois escreva new Chart(ctx, config).",
+      "Exemplo: new Chart(ctx, {type:'bar', data:{labels:['A','B'], datasets:[{data:[10,20]}]}})",
+      "D3.js: selecione o SVG e ligue cada dado a um elemento, um por um."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Dashboards, relatórios de vendas, painéis financeiros e telas de administração.",
+      "Ferramentas comuns: Chart.js, D3.js, Plotly, ECharts e Recharts."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você organiza os dados, com rótulos e valores em listas simples.",
+      "PASSO 2: A biblioteca calcula escalas, tamanhos, cores e desenha as formas.",
+      "PASSO 3: O usuário passa o mouse, o gráfico reage e mostra os detalhes."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Erro clássico: o canvas fica sem altura definida e o gráfico não aparece.",
+      "Dica de ouro: comece com gráfico de barras simples; só depois vá para o D3.js."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Dados organizados ➔ Biblioteca desenha em canvas ou SVG ➔ Usuário interage e entende"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Front-end",
+  "escola": "05_frontend_e_mobile",
+  "foco_pedagogico": "Renderizando gráficos de pizza, barras e visualizações de dados complexas em canvas/SVG"
+}

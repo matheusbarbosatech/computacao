@@ -1,0 +1,63 @@
+{
+  "id": 192,
+  "title": "O QUE SÃO VIEWS (VISÕES)?",
+  "definition": "View é uma consulta salva que se comporta como uma tabela virtual, sem guardar dados próprios.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como uma 'janela' pronta que mostra dados de outras tabelas já organizados."
+    ]
+  },
+  "topRight": {
+    "pill": "TABELA VIRTUAL",
+    "icon": "🖥️",
+    "bullets": [
+      "O banco não guarda os dados da view, só guarda a pergunta (consulta).",
+      "Toda vez que você abre a view, ela roda a consulta de novo na hora."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Criada com CREATE VIEW e usada com SELECT igual tabela normal.",
+      "CREATE VIEW clientes_ativos AS SELECT * FROM clientes WHERE ativo=1;"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Relatórios prontos sem repetir consultas complicadas toda hora.",
+      "Usado em MySQL, PostgreSQL, SQL Server, Oracle."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você escreve uma consulta complexa e salva como view",
+      "PASSO 2: O banco guarda só o 'comando', não os dados",
+      "PASSO 3: Ao consultar a view, o banco executa tudo de novo e mostra o resultado atual"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que a view guarda dados 'congelados' - ela sempre busca dados atuais.",
+      "Dica: use views para simplificar consultas repetidas, não para acelerar o banco."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Consulta salva ➔ Vira 'tabela' de mentira ➔ Sempre mostra dados atualizados"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "BancoDados",
+  "foco_pedagogico": "Consultas salvas como tabelas virtuais"
+}

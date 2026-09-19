@@ -1,0 +1,64 @@
+{
+  "id": 237,
+  "title": "MODELOS PYDANTIC PARA VALIDAÇÃO DE DADOS",
+  "definition": "Pydantic é um porteiro que checa se os dados que chegam têm a forma certa antes de entrar no seu programa.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Você descreve o formato esperado dos dados e o Pydantic confere se bateu."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO FUNCIONA",
+    "icon": "🖥️",
+    "bullets": [
+      "O Python lê a classe e sabe quais campos e tipos são obrigatórios.",
+      "Se o JSON não bater, ele recusa antes de causar erro depois."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Crie uma classe herdando de BaseModel com campos tipados.",
+      "class Usuario(BaseModel): nome: str; idade: int"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Validar corpo de requisições em APIs, como no FastAPI.",
+      "Usado em Python para checar dados de formulários e arquivos."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O JSON chega do cliente com os dados brutos",
+      "PASSO 2: Pydantic compara cada campo com o tipo esperado",
+      "PASSO 3: Retorna objeto validado ou lança erro explicando o problema"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer que campo sem valor padrão é obrigatório e trava tudo.",
+      "Confundir tipo str com int, tipo idade: '25' pode virar 25."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "JSON chega ➔ Pydantic confere tipos ➔ Dados confiáveis ou erro claro"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "APIs Python",
+  "escola": "03_python_especialista",
+  "foco_pedagogico": "Garantindo que o JSON recebido tenha os campos e tipos corretos"
+}

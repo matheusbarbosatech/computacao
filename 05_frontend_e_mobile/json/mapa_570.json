@@ -1,0 +1,64 @@
+{
+  "id": 570,
+  "title": "MONETIZAÇÃO E COMPRAS NO APP (IN-APP PURCHASES)",
+  "definition": "Sistema que permite vender conteúdos digitais ou assinaturas dentro do app, usando as lojas oficiais como intermediárias.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como uma máquina de vendas embutida no seu app: o Google ou a Apple cuidam do pagamento, e você entrega o produto digital."
+    ]
+  },
+  "topRight": {
+    "pill": "GOOGLE PLAY BILLING E APPLE STOREKIT",
+    "icon": "🖥️",
+    "bullets": [
+      "Cada loja tem sua API oficial que conecta o app ao sistema de cobrança do usuário.",
+      "O app nunca vê os dados do cartão — a loja protege tudo com segurança de nível bancário."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Conecte-se à API de faturamento, consulte os produtos e abra a tela de compra no momento certo.",
+      "billingClient.queryProductDetails(...) → billingClient.launchBillingFlow(activity, params)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Streaming (Netflix, Spotify), jogos (gemas, vidas extras), apps de produtividade (planos Premium).",
+      "Android: Google Play Billing Library 6+. iOS: StoreKit 2 com SwiftUI e async/await."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O app pergunta à loja quais produtos estão à venda e os exibe na tela.",
+      "PASSO 2: O usuário toca em comprar — a loja mostra preço, valida biometria e processa o pagamento.",
+      "PASSO 3: A loja devolve um recibo digital assinado; seu servidor valida e libera o conteúdo."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Confiar só no que o app recebe sem validar o recibo no servidor abre porta para fraudes.",
+      "Dica de ouro: monte um backend simples que verifique a assinatura do recibo ANTES de liberar qualquer benefício."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Produtos configurados na loja ➔ App exibe e inicia compra ➔ Servidor valida recibo e libera acesso premium."
+    ]
+  },
+  "_modelo_usado": "devworld/deepseek-v4-pro-0813-f",
+  "modulo": "Mobile",
+  "escola": "05_frontend_e_mobile",
+  "foco_pedagogico": "Integrando assinaturas de aplicativos com as APIs oficiais do Google e da Apple"
+}

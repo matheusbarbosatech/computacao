@@ -1,0 +1,64 @@
+{
+  "id": 470,
+  "title": "CQRS (COMMAND QUERY RESPONSIBILITY SEGREGATION)",
+  "definition": "É separar quem escreve dados (comandos) de quem lê dados (consultas), usando caminhos diferentes para cada tarefa.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Escrever e ler são tarefas diferentes, então cada uma ganha seu próprio caminho."
+    ]
+  },
+  "topRight": {
+    "pill": "COMANDO vs CONSULTA",
+    "icon": "🖥️",
+    "bullets": [
+      "Comando muda o estado do sistema, tipo criar ou cancelar um pedido.",
+      "Consulta só busca informação, sem alterar nada."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Comando não retorna dado, só confirma ação.",
+      "criarPedido(dados) ➔ void | buscarPedido(id) ➔ dados"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Sistemas grandes com muita leitura e pouca escrita, como e-commerce.",
+      "Usado com Event Sourcing, .NET MediatR, microsserviços."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Usuário envia um comando para mudar algo, como 'comprar produto'",
+      "PASSO 2: Sistema grava a mudança no modelo de escrita",
+      "PASSO 3: Usuário consulta os dados em um modelo de leitura separado e otimizado"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que precisa de dois bancos de dados sempre, nem sempre é necessário.",
+      "Usar CQRS em projeto simples só complica sem ganhar nada."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Comando escreve ➔ Consulta lê ➔ Cada um no seu caminho, sem se misturar"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Arquitetura",
+  "escola": "04_backend_e_apis",
+  "foco_pedagogico": "Separando o modelo de gravação (comandos) do modelo de leitura (consultas)"
+}

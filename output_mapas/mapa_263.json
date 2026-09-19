@@ -1,0 +1,66 @@
+{
+  "id": 263,
+  "title": "VISUALIZANDO ARQUIVOS: CAT, LESS, HEAD, TAIL E TAIL -F",
+  "definition": "São comandos para ler o conteúdo de arquivos de texto direto no terminal, sem precisar abrir um editor.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Cada comando é uma 'lupa' diferente para olhar dentro de um arquivo."
+    ]
+  },
+  "topRight": {
+    "pill": "OS 4 IRMÃOS",
+    "icon": "🖥️",
+    "bullets": [
+      "cat: joga todo o arquivo na tela de uma vez.",
+      "less: mostra página por página, com rolagem.",
+      "head: mostra só o começo (primeiras linhas).",
+      "tail: mostra só o final (últimas linhas)."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "-f significa 'follow': acompanha o arquivo em tempo real.",
+      "tail -f /var/log/app.log"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Acompanhar logs de servidores enquanto eles rodam.",
+      "Usado em Linux, servidores AWS, Docker containers."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO DO TAIL -F",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você digita tail -f no arquivo de log.",
+      "PASSO 2: O terminal fica 'esperando' novas linhas aparecerem.",
+      "PASSO 3: Cada novo evento do servidor surge na tela em tempo real."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Usar cat em arquivo gigante trava a tela de tanto texto.",
+      "Esquecer Ctrl+C trava o terminal preso no modo 'follow' pra sempre."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Log crescendo ➔ tail -f acompanha ➔ você vê erros na hora"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Linux",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Acompanhando logs de servidores em tempo real no console"
+}

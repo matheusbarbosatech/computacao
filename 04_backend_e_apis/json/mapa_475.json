@@ -1,0 +1,64 @@
+{
+  "id": 475,
+  "title": "PATTERN DECORATOR: ADICIONANDO COMPORTAMENTOS DINAMICAMENTE",
+  "definition": "É como embrulhar um objeto em camadas extras, cada uma adicionando um novo poder sem mudar o objeto original.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Envolva um objeto com 'capas' que adicionam funções novas, uma por vez."
+    ]
+  },
+  "topRight": {
+    "pill": "OBJETO ORIGINAL x DECORADO",
+    "icon": "🖥️",
+    "bullets": [
+      "O objeto base continua igual, só ganha 'roupas' por fora.",
+      "Cada decorador chama o objeto interno e soma sua própria ação."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Decorador implementa a mesma interface do objeto original.",
+      "arquivo = new Criptografia(new Compressao(new Log(arquivo)))"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Adicionar log, compressão ou criptografia em tempo real, sem alterar a classe original.",
+      "Comum em Java (java.io Streams), Python (@decorators), C#."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você cria o objeto base (ex: um arquivo simples)",
+      "PASSO 2: Envolve com decoradores (log, depois compressão, depois criptografia)",
+      "PASSO 3: Ao usar, cada camada executa sua ação em cadeia, do fora pra dentro"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer que a ordem das camadas muda o resultado final.",
+      "Dica: pense em bonecas russas, cada camada chama a de dentro."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Objeto simples ➔ Envolver com decoradores ➔ Comportamento extra sem modificar o original"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Patterns",
+  "escola": "04_backend_e_apis",
+  "foco_pedagogico": "Envolvendo objetos para adicionar logs, compressão ou criptografia em tempo de execução"
+}

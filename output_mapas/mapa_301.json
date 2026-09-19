@@ -1,0 +1,64 @@
+{
+  "id": 301,
+  "title": "SERVICES NO K8S: CLUSTERIP, NODEPORT E LOADBALANCER",
+  "definition": "Service é um endereço fixo que permite falar com pods, mesmo quando eles mudam de IP.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Pods nascem, morrem e trocam de IP o tempo todo, tipo funcionário sem crachá fixo."
+    ]
+  },
+  "topRight": {
+    "pill": "CLUSTERIP",
+    "icon": "🖥️",
+    "bullets": [
+      "Endereço interno, só o cluster consegue acessar.",
+      "É o padrão usado para comunicação entre serviços internos."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Define o tipo do service no YAML.",
+      "type: NodePort ou type: LoadBalancer ou type: ClusterIP"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "ClusterIP para microsserviços internos conversarem entre si.",
+      "LoadBalancer em produção na nuvem (AWS, GCP, Azure)."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Pod recebe um IP novo a cada reinício",
+      "PASSO 2: Service mantém um endereço fixo apontando pros pods certos",
+      "PASSO 3: Requisição chega no Service e é roteada pro pod disponível"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Confundir NodePort com acesso público direto e seguro.",
+      "Esquecer que ClusterIP não é acessível fora do cluster."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Pods mudam de IP ➔ Service dá endereço fixo ➔ Comunicação nunca quebra"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Kubernetes",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "O endereço estável para conversar com pods que mudam de IP a todo momento"
+}

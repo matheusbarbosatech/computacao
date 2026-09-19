@@ -1,0 +1,64 @@
+{
+  "id": 357,
+  "title": "INSECURE DESERIALIZATION: EXECUÇÃO REMOTA VIA OBJETOS",
+  "definition": "É quando o sistema 'reconstrói' dados vindos de fora sem checar se são seguros, e isso permite rodar código malicioso.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Serializar é empacotar um objeto para enviar. Desserializar é abrir o pacote e usar de novo."
+    ]
+  },
+  "topRight": {
+    "pill": "SERIALIZAÇÃO",
+    "icon": "🖥️",
+    "bullets": [
+      "Python transforma objetos em bytes usando 'pickle'.",
+      "Java faz o mesmo com Serializable e ObjectInputStream."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO PERIGOSO",
+    "icon": "{ }",
+    "bullets": [
+      "pickle.loads(dados_da_internet) já é um risco grave.",
+      "ObjectInputStream.readObject(dadosExternos)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE ACONTECE",
+    "icon": "</>",
+    "bullets": [
+      "Cookies de sessão, APIs, filas de mensagens e cache.",
+      "Ferramentas: pickle, Java RMI, PHP unserialize."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "COMO O ATAQUE FUNCIONA",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Atacante cria um objeto malicioso disfarçado de dado comum",
+      "PASSO 2: Sistema desserializa sem validar a origem",
+      "PASSO 3: Código escondido no objeto executa no servidor"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que só arquivos '.exe' são perigosos, dados também podem ser.",
+      "Usar pickle ou readObject em dados de usuários é abrir a porta da casa."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Dado não confiável ➔ Desserialização cega ➔ Execução remota de código"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "OWASP",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "Os perigos de desserializar dados de fontes não confiáveis em Python e Java"
+}

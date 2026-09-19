@@ -1,0 +1,66 @@
+{
+  "id": 447,
+  "title": "BUSCA EM LARGURA (BFS) VS BUSCA EM PROFUNDIDADE (DFS)",
+  "definition": "São duas formas diferentes de explorar um labirinto (grafo ou árvore) para achar algo.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "BFS explora em círculos ao redor do início, como ondas na água.",
+      "DFS mergulha fundo em um caminho até não dar mais para andar."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO FUNCIONA POR DENTRO",
+    "icon": "🖥️",
+    "bullets": [
+      "BFS usa uma FILA: primeiro que entra, primeiro que sai.",
+      "DFS usa uma PILHA (ou recursão): último que entra, primeiro que sai."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "BFS: fila.push(vizinho) e fila.shift() para pegar o próximo.",
+      "DFS: pilha.push(vizinho) ou function dfs(nó) chamando dfs(vizinho)."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "BFS: achar o caminho mais curto, como no GPS ou redes sociais.",
+      "DFS: resolver labirintos, jogos e detectar ciclos em grafos."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Comece no nó inicial e marque como visitado",
+      "PASSO 2: BFS visita todos os vizinhos primeiro; DFS escolhe um vizinho e vai até o fim",
+      "PASSO 3: Repita até visitar tudo ou achar o alvo"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de marcar nós visitados causa loop infinito.",
+      "Trocar fila por pilha faz BFS virar DFS por acidente."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "BFS ➔ espalha por camadas ➔ acha caminho mais curto",
+      "DFS ➔ mergulha fundo ➔ explora tudo de um ramo primeiro"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Algoritmos",
+  "escola": "01_ciencia_computacao_uninter",
+  "foco_pedagogico": "Explorando em camadas concêntricas vs mergulhando fundo até o beco sem saída"
+}

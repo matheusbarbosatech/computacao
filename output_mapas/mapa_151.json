@@ -1,0 +1,63 @@
+{
+  "id": 151,
+  "title": "O QUE É UM BANCO DE DADOS?",
+  "definition": "É um lugar organizado onde guardamos informações para não perdê-las e encontrá-las rápido depois.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como um arquivo gigante e inteligente que guarda dados com regras fixas."
+    ]
+  },
+  "topRight": {
+    "pill": "PLANILHA VS BANCO",
+    "icon": "🖥️",
+    "bullets": [
+      "Planilha: várias pessoas editando geram erros e duplicações.",
+      "Banco de dados: regras evitam dados errados ou repetidos."
+    ]
+  },
+  "midRight": {
+    "pill": "TABELA (CÓDIGO OU REGRA)",
+    "icon": "{ }",
+    "bullets": [
+      "Dados ficam em tabelas com colunas fixas, como uma planilha travada.",
+      "SELECT * FROM clientes;"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Sistemas de bancos, redes sociais e lojas online usam bancos de dados.",
+      "Exemplos: MySQL, PostgreSQL, MongoDB."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O sistema pede para salvar um dado novo",
+      "PASSO 2: O banco checa as regras antes de aceitar",
+      "PASSO 3: O dado fica guardado e pode ser buscado depois"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que planilha serve para tudo, mesmo com milhares de linhas.",
+      "Dica de ouro: se dois usam ao mesmo tempo, use banco de dados."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Caos na planilha ➔ Regras do banco ➔ Dados confiáveis e organizados"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "BancoDados",
+  "foco_pedagogico": "Planilhas caóticas vs Bancos de Dados confiáveis"
+}

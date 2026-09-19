@@ -1,0 +1,64 @@
+{
+  "id": 317,
+  "title": "AWS LAMBDA E SERVERLESS: COMPUTAÇÃO SEM SERVIDOR",
+  "definition": "É rodar seu código na nuvem sem precisar ligar ou cuidar de nenhum servidor.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Servidor existe, mas a AWS cuida dele. Você só escreve a função."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO FUNCIONA",
+    "icon": "🖥️",
+    "bullets": [
+      "Seu código fica 'dormindo' até algo chamar ele.",
+      "A AWS liga um servidor temporário só naquele instante."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Uma função com entrada (event) e saída (response).",
+      "exports.handler = async (event) => { return 'ok'; }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "APIs, processar imagens, enviar e-mails, rodar tarefas agendadas.",
+      "Node.js, Python, Java, Go dentro do Lambda."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Um evento acontece (clique, upload, requisição)",
+      "PASSO 2: A AWS cria um ambiente e executa sua função",
+      "PASSO 3: Função responde e o servidor desliga sozinho"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "'Cold start': primeira chamada pode demorar mais para ligar.",
+      "Função tem tempo limite, não serve para tarefas eternas."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Evento dispara ➔ Lambda executa ➔ Você paga só o milissegundo usado"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Cloud",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Executando código apenas quando acionado, pagando apenas por milissegundo"
+}

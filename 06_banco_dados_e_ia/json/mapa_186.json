@@ -1,0 +1,63 @@
+{
+  "id": 186,
+  "title": "SUBCONSULTAS (SUBQUERIES)",
+  "definition": "É uma consulta SELECT escondida dentro de outra consulta, usada para buscar um resultado auxiliar antes da pergunta principal.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É uma pergunta dentro de outra pergunta ao banco de dados."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O BANCO RESOLVE",
+    "icon": "🖥️",
+    "bullets": [
+      "O banco executa a consulta interna primeiro, de dentro para fora.",
+      "O resultado interno serve de filtro para a consulta externa."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "A subconsulta fica entre parênteses dentro da consulta principal.",
+      "SELECT nome FROM alunos WHERE nota > (SELECT AVG(nota) FROM alunos)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Relatórios que comparam um valor com uma média ou máximo geral.",
+      "Comum em MySQL, PostgreSQL, SQL Server e Oracle."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O banco roda a consulta de dentro dos parênteses.",
+      "PASSO 2: Ele guarda esse resultado como um valor ou lista.",
+      "PASSO 3: Usa esse valor para filtrar a consulta principal."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer os parênteses ao redor da subconsulta trava o comando.",
+      "Se a subconsulta retorna várias linhas, use IN em vez de =."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Consulta interna roda primeiro ➔ gera um valor ➔ consulta externa usa esse valor."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "BancoDados",
+  "foco_pedagogico": "Uma consulta SELECT dentro de outra"
+}

@@ -1,0 +1,66 @@
+{
+  "id": 126,
+  "title": "O QUE É UMA PROMISE?",
+  "definition": "É uma promessa de que um dado vai chegar no futuro, mesmo que agora ainda não exista.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como pedir comida no delivery: você recebe um protocolo, não a comida na hora."
+    ]
+  },
+  "topRight": {
+    "pill": "TRÊS ESTADOS",
+    "icon": "🖥️",
+    "bullets": [
+      "Pending: pedido feito, ainda esperando a entrega chegar.",
+      "Fulfilled: entrega deu certo, o dado chegou.",
+      "Rejected: algo deu errado, a entrega falhou."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "then() pega o resultado quando dá certo.",
+      "catch() pega o erro quando dá errado.",
+      "promessa.then(dado => usar(dado)).catch(erro => tratar(erro))"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Buscar dados de uma API na internet.",
+      "Ler arquivos ou consultar banco de dados.",
+      "Muito comum em JavaScript e Node.js."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você faz o pedido e recebe a promessa na hora.",
+      "PASSO 2: O sistema trabalha por trás enquanto você continua sua vida.",
+      "PASSO 3: A promessa se resolve: dado entregue ou erro avisado."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que a Promise já tem o dado dentro dela na criação.",
+      "Esquecer o catch() e deixar erros silenciosos passarem."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Pedido feito ➔ Espera acontecer ➔ Dado entregue ou erro avisado"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Async",
+  "foco_pedagogico": "A promessa de que um dado chegará no futuro"
+}

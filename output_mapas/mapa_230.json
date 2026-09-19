@@ -1,0 +1,64 @@
+{
+  "id": 230,
+  "title": "ENCAPSULAMENTO E GETTERS/SETTERS COM @PROPERTY",
+  "definition": "É proteger os dados de um objeto, controlando como eles são lidos ou alterados, sem parecer complicado.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Um atributo é uma caixa. Encapsular é colocar um porteiro nela antes de deixar entrar ou sair algo."
+    ]
+  },
+  "topRight": {
+    "pill": "GETTER E SETTER",
+    "icon": "🖥️",
+    "bullets": [
+      "Getter é quem entrega o valor guardado quando você pede.",
+      "Setter é quem verifica e aceita (ou recusa) um novo valor."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "@property transforma um método em atributo, sem parênteses.",
+      "@nome.setter valida o valor antes de guardar."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Validar idade, saldo, senha ou qualquer dado sensível.",
+      "Muito comum em Python; em Java usa-se getX() e setX()."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você tenta ler ou mudar o atributo normalmente",
+      "PASSO 2: O @property intercepta e roda a validação escondida",
+      "PASSO 3: Devolve o valor ou bloqueia a mudança inválida"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer o underline (_nome) e criar loop infinito no setter.",
+      "Dica: guarde o valor real numa variável privada, não no property."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Atributo exposto ➔ Porteiro (@property) ➔ Acesso seguro e sintaxe limpa"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "POO Python",
+  "escola": "03_python_especialista",
+  "foco_pedagogico": "Controlando acesso a atributos sem quebrar a sintaxe limpa"
+}

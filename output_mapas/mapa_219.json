@@ -1,0 +1,64 @@
+{
+  "id": 219,
+  "title": "ENVIO AUTOMATIZADO DE E-MAILS COM SMTPLIB E EMAIL",
+  "definition": "É usar Python para montar e disparar e-mails automaticamente, como um carteiro robô.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "O programa escreve, embala e envia o e-mail sem você clicar em nada."
+    ]
+  },
+  "topRight": {
+    "pill": "SMTPLIB (O CARTEIRO)",
+    "icon": "🖥️",
+    "bullets": [
+      "Conecta no servidor de e-mail (Gmail, Outlook etc).",
+      "Faz login e realmente envia a mensagem pela internet."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Monta o pacote com MIMEMultipart e anexa HTML e arquivo.",
+      "servidor = smtplib.SMTP_SSL('smtp.gmail.com', 465)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Alertas de erro em sistemas, relatórios diários automáticos.",
+      "Notas fiscais, boletins e dashboards em PDF anexados."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Cria a mensagem com corpo em HTML bonito",
+      "PASSO 2: Anexa o arquivo (PDF, imagem, planilha) ao pacote",
+      "PASSO 3: smtplib conecta, faz login e envia tudo pronto"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de usar senha de app, não a senha normal da conta.",
+      "Anexar arquivo sem definir 'attachment' trava o e-mail no servidor."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Monta e-mail em HTML ➔ Anexa arquivo ➔ smtplib dispara alerta"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Automação",
+  "escola": "03_python_especialista",
+  "foco_pedagogico": "Disparando alertas com anexos em HTML automaticamente"
+}

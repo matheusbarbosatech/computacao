@@ -1,0 +1,63 @@
+{
+  "id": 105,
+  "title": "PILAR 2: ABSTRAÇÃO",
+  "definition": "Abstração é mostrar só o essencial e escondendo toda a complicação por trás.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como dirigir um carro: você usa o volante, não entende o motor."
+    ]
+  },
+  "topRight": {
+    "pill": "CLASSE ABSTRATA",
+    "icon": "🖥️",
+    "bullets": [
+      "Define o que um objeto DEVE fazer, sem dizer COMO.",
+      "Serve de molde para outras classes completarem."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Método sem corpo, só a assinatura da ação.",
+      "abstract class Animal { abstract emitirSom(); }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Controle remoto: botões simples, eletrônica escondida.",
+      "Usado em Java, C#, Python com bibliotecas e APIs."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Identifique o que o usuário PRECISA saber",
+      "PASSO 2: Esconda os detalhes internos complicados",
+      "PASSO 3: Exponha só uma interface simples de usar"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Confundir abstração com encapsulamento, são coisas diferentes.",
+      "Dica: pense 'o que preciso mostrar?', não 'o que existe?'."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Complexidade real ➔ Escondida ➔ Interface simples pro usuário"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "POO",
+  "foco_pedagogico": "Escondendo a complexidade e mostrando apenas o essencial"
+}

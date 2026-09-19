@@ -1,0 +1,65 @@
+{
+  "id": 280,
+  "title": "FIREWALL NO LINUX: IPTABLES, UFW E FIREWALLD",
+  "definition": "Firewall é um porteiro que decide quem entra e quem sai da sua rede, porta por porta.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Bloqueia tudo por padrão e libera só as portas que você realmente precisa."
+    ]
+  },
+  "topRight": {
+    "pill": "AS 3 FERRAMENTAS",
+    "icon": "🖥️",
+    "bullets": [
+      "iptables: o motor bruto, controla pacotes direto no kernel.",
+      "ufw e firewalld: painéis mais fáceis por cima do iptables."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "ufw allow 22/tcp libera SSH.",
+      "ufw default deny incoming bloqueia tudo que entra.",
+      "firewall-cmd --add-port=80/tcp --permanent"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Servidores web, bancos de dados e VPS na nuvem.",
+      "ufw no Ubuntu/Debian, firewalld no CentOS/RHEL/Fedora."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Defina a política padrão como 'negar tudo'",
+      "PASSO 2: Libere apenas as portas necessárias (ex: 22, 80, 443)",
+      "PASSO 3: Ative o firewall e teste o acesso externo"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Ativar o firewall sem liberar a porta SSH primeiro e perder acesso ao servidor.",
+      "Dica de ouro: sempre libere sua porta de acesso ANTES de ativar o bloqueio geral."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Negar tudo ➔ Liberar portas essenciais ➔ Rede protegida e funcional"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Redes",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Bloqueando acessos externos e permitindo apenas portas necessárias"
+}

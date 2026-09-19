@@ -1,0 +1,64 @@
+{
+  "id": 572,
+  "title": "MICRO FRONT-ENDS COM MODULE FEDERATION",
+  "definition": "É como montar uma página web com peças de LEGO que times diferentes constroem e entregam sozinhos, sem quebrar o castelo inteiro.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Cada time cuida de um pedaço da tela e faz deploy quando quiser, sem depender dos outros times."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O WEBPACK FAZ ISSO",
+    "icon": "🖥️",
+    "bullets": [
+      "Module Federation baixa o código de outro time em tempo real, direto no navegador do usuário.",
+      "O seu app 'pede emprestado' componentes que estão hospedados em endereços diferentes."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "No webpack.config.js você declara o que EXPORTA (exposes) e de onde CONSOME (remotes).",
+      "exposes: { './Header': './src/Header' }  // time A publica isso em uma URL"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Grandes plataformas como Netflix, Spotify e sites de e-commerce com dezenas de times.",
+      "Funciona com React, Vue, Angular ou qualquer framework — até misturados na mesma página."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Time A sobe seu micro front-end (ex: carrinho de compras) em uma URL pública.",
+      "PASSO 2: Time B declara essa URL como 'remote' e carrega o componente sob demanda.",
+      "PASSO 3: O navegador junta tudo como uma colagem invisível — o usuário nem percebe a mágica."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Erro: versões diferentes do React entre os times geram bugs silenciosos — use o singleton do Webpack.",
+      "Dica de ouro: combine os times em um único domínio com proxy reverso, evite CORS te sabotar."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Times independentes ➔ Cada um sobe seu pedaço ➔ Navegador costura tudo na hora do carregamento"
+    ]
+  },
+  "_modelo_usado": "devworld/deepseek-v4-pro-0813-f",
+  "modulo": "Front-end",
+  "escola": "05_frontend_e_mobile",
+  "foco_pedagogico": "Permitindo que equipes independentes façam deploy de partes da mesma página web"
+}

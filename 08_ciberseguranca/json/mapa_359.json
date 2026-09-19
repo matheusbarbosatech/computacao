@@ -1,0 +1,64 @@
+{
+  "id": 359,
+  "title": "COMPONENTES VULNERÁVEIS E DESATUALIZADOS (SCA E CVES)",
+  "definition": "É o risco de usar bibliotecas prontas que têm falhas conhecidas e ninguém corrigiu ainda.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Seu código é seguro, mas as peças que você baixou de outros podem não ser."
+    ]
+  },
+  "topRight": {
+    "pill": "SCA (SOFTWARE COMPOSITION ANALYSIS)",
+    "icon": "🖥️",
+    "bullets": [
+      "Ferramenta que escaneia seu projeto e lista todas as bibliotecas usadas.",
+      "Compara cada uma com um banco de dados de vulnerabilidades conhecidas."
+    ]
+  },
+  "midRight": {
+    "pill": "CVE (COMMON VULNERABILITIES AND EXPOSURES)",
+    "icon": "{ }",
+    "bullets": [
+      "É o 'RG' de uma falha de segurança já catalogada publicamente.",
+      "npm audit / pip-audit / mvn dependency-check"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Em qualquer projeto que usa pacotes externos (quase todos).",
+      "Snyk, Dependabot, OWASP Dependency-Check, GitHub Security."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: A ferramenta lista todas as dependências do projeto",
+      "PASSO 2: Cruza cada versão com o banco de CVEs conhecidos",
+      "PASSO 3: Alerta e sugere a versão corrigida para atualizar"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que 'funciona' significa 'seguro' e nunca atualizar as libs.",
+      "Ouro: rode o scanner de dependências toda semana, não só uma vez."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Biblioteca desatualizada ➔ Falha conhecida exposta ➔ Porta aberta para ataque"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "OWASP",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "Monitorando dependências infectadas em bibliotecas open-source"
+}

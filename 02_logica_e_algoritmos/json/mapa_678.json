@@ -1,0 +1,67 @@
+{
+  "id": 678,
+  "title": "COMO FUNCIONA A DETECÇÃO DE PLÁGIO E DIFFS DE CÓDIGO",
+  "definition": "É o processo de comparar dois textos ou códigos e descobrir o menor conjunto de adições e remoções que transforma um no outro.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Comparar duas versões de um texto e apontar exatamente o que mudou entre elas.",
+      "Plágio e diff usam a mesma base: medir o quanto dois conteúdos são parecidos."
+    ]
+  },
+  "topRight": {
+    "pill": "ALGORITMO DE MYERS",
+    "icon": "🖥️",
+    "bullets": [
+      "O computador transforma cada arquivo em uma lista numerada de linhas.",
+      "Myers procura o caminho mais curto: o menor número de adições e remoções.",
+      "Ele compara linha com linha e reaproveita tudo que já é igual dos dois lados."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Regra base: linha igual fica, linha que só existe num lado entra ou sai.",
+      "Exemplo: diff('A B C', 'A X C') ➔ -B, +X",
+      "Sinais do resultado: - significa removido do antigo, + significa novo."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Git mostra as mudanças entre commits, branches e pull requests usando esse motor.",
+      "Ferramentas: Git, GitHub, VS Code, Meld e comparadores antiplágio de texto."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Quebrar os dois conteúdos em listas de linhas.",
+      "PASSO 2: Myers caminha pelas listas buscando o menor custo de edição.",
+      "PASSO 3: O resultado sai como linhas iguais, removidas (-) e adicionadas (+)."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que o diff entende o sentido: ele só compara texto, não significado.",
+      "Blocos iguais movidos de lugar geram diff confuso; use --patience ou --histogram."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Texto dividido em linhas ➔ Myers acha o menor caminho ➔ saída com - e +"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Mundo Real",
+  "escola": "02_logica_e_algoritmos",
+  "foco_pedagogico": "O Algoritmo de Myers para encontrar a menor sequência de adições e remoções"
+}

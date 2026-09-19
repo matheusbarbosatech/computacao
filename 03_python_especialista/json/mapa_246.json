@@ -1,0 +1,65 @@
+{
+  "id": 246,
+  "title": "LIMPEZA DE DADOS: TRATANDO VALORES NULOS (NaN)",
+  "definition": "É o processo de encontrar espaços vazios em uma tabela e decidir se você apaga ou preenche eles.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "NaN é um 'buraco' na tabela, um dado que não existe ou não foi preenchido."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O PANDAS VÊ O NaN",
+    "icon": "🖥️",
+    "bullets": [
+      "NaN significa 'Not a Number', tipo uma célula vazia no Excel.",
+      "O Pandas marca esses espaços para você achar fácil."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "dropna() apaga linhas ou colunas com buracos.",
+      "fillna(valor) preenche o buraco com um valor escolhido.",
+      "df.isnull().sum()"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Análise de dados antes de treinar modelos de Machine Learning.",
+      "Ferramentas: Python com Pandas, Excel, planilhas em geral."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Use isnull() para achar onde estão os buracos",
+      "PASSO 2: Decida: apagar (dropna) ou preencher (fillna)",
+      "PASSO 3: Tabela limpa e pronta para análise"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Usar dropna() sem pensar pode apagar dados importantes demais.",
+      "Preencher com fillna(0) nem sempre faz sentido, pense no contexto."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Achar buraco ➔ Apagar ou preencher ➔ Tabela sem falhas"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Data Python",
+  "escola": "03_python_especialista",
+  "foco_pedagogico": "Identificando buracos na tabela com dropna e fillna"
+}

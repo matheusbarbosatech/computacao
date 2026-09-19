@@ -1,0 +1,63 @@
+{
+  "id": 9,
+  "title": "CONSTANTES: VALORES IMUTÁVEIS",
+  "definition": "Constante é um valor fixo que você define uma vez e nunca pode mudar depois.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como gravar algo a fósforo em pedra: escreveu, não muda mais."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O COMPUTADOR TRATA",
+    "icon": "🖥️",
+    "bullets": [
+      "O programa bloqueia qualquer tentativa de alterar esse valor depois.",
+      "Se tentar mudar, dá erro na hora de rodar ou compilar."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Geralmente escrita em MAIÚSCULAS por convenção.",
+      "const PI = 3.14"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Valores que representam regras fixas do mundo real ou do sistema.",
+      "Ex: JavaScript (const), Python (convenção), Java (final)"
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você declara o valor uma única vez",
+      "PASSO 2: O programa 'trava' esse valor na memória",
+      "PASSO 3: Qualquer tentativa de troca é rejeitada"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que constante é só 'variável com nome bonito'.",
+      "Dica de ouro: se o valor nunca deveria mudar, use constante sempre."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Defini o valor ➔ Programa trava ➔ Valor fica fixo para sempre"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Lógica",
+  "foco_pedagogico": "Valores fixos que nunca mudam no programa"
+}

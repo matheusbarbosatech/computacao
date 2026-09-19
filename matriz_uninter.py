@@ -1,0 +1,247 @@
+"""
+=============================================================================
+GRADE OFICIAL DOS 150 MAPAS MENTAIS DE PROGRAMAÇÃO (+ 50 BÔNUS DE BANCO DE DADOS)
+Total: 200 Mapas Mentais Estruturados para Iniciantes e Matriz UNINTER
+=============================================================================
+"""
+
+from typing import List, Dict
+
+TODOS_OS_200_MAPAS: List[Dict] = [
+    # =========================================================================
+    # BLOCO 1: LÓGICA E FUNDAMENTOS DA PROGRAMAÇÃO (Mapas 1 ao 40)
+    # =========================================================================
+    {"id": 1, "modulo": "Fundamentos", "tema": "O que é Programação?", "foco": "Instruções que a máquina segue cegamente"},
+    {"id": 2, "modulo": "Fundamentos", "tema": "O que é um Algoritmo?", "foco": "Sequência finita de passos para resolver um problema"},
+    {"id": 3, "modulo": "Fundamentos", "tema": "Como o Computador Pensa", "foco": "Binário, 0s e 1s e portas lógicas"},
+    {"id": 4, "modulo": "Fundamentos", "tema": "Hardware vs Software", "foco": "A máquina física e a inteligência lógica"},
+    {"id": 5, "modulo": "Fundamentos", "tema": "Memória RAM vs Disco (HD/SSD)", "foco": "Memória temporária ultrarrápida vs armazenamento permanente"},
+    {"id": 6, "modulo": "Fundamentos", "tema": "Compiladores vs Interpretadores", "foco": "C/C++ vs Python/JavaScript"},
+    {"id": 7, "modulo": "Fundamentos", "tema": "O Ambiente do Dev: Editor e Terminal", "foco": "VS Code, extensões e linha de comando"},
+    {"id": 8, "modulo": "Lógica", "tema": "Variáveis: Caixas de Memória", "foco": "Guardando dados em caixas etiquetadas"},
+    {"id": 9, "modulo": "Lógica", "tema": "Constantes: Valores Imutáveis", "foco": "Valores fixos que nunca mudam no programa"},
+    {"id": 10, "modulo": "Lógica", "tema": "Tipos Primitivos: Números Inteiros", "foco": "Contagens e valores sem vírgula (int)"},
+    {"id": 11, "modulo": "Lógica", "tema": "Tipos Primitivos: Números Decimais", "foco": "Preços, medidas e ponto flutuante (float)"},
+    {"id": 12, "modulo": "Lógica", "tema": "Tipos Primitivos: Textos (Strings)", "foco": "Cadeias de caracteres entre aspas"},
+    {"id": 13, "modulo": "Lógica", "tema": "Tipos Primitivos: Booleanos", "foco": "Apenas dois estados: verdadeiro ou falso (true/false)"},
+    {"id": 14, "modulo": "Lógica", "tema": "Operadores Aritméticos Básicos", "foco": "Soma (+), subtração (-), multiplicação (*) e divisão (/)"},
+    {"id": 15, "modulo": "Lógica", "tema": "Operador Resto da Divisão (%)", "foco": "Cálculo de sobra e verificação de par ou ímpar"},
+    {"id": 16, "modulo": "Lógica", "tema": "Operadores de Atribuição e Incremento", "foco": "x++, x--, x += 5"},
+    {"id": 17, "modulo": "Lógica", "tema": "Operadores de Comparação", "foco": "Maior (>), menor (<), maior ou igual (>=), menor ou igual (<=)"},
+    {"id": 18, "modulo": "Lógica", "tema": "Igualdade vs Identidade (== vs ===)", "foco": "Comparação de valor vs comparação de valor e tipo"},
+    {"id": 19, "modulo": "Lógica", "tema": "Operador Lógico E (AND / &&)", "foco": "Todas as condições precisam ser verdadeiras"},
+    {"id": 20, "modulo": "Lógica", "tema": "Operador Lógico OU (OR / ||)", "foco": "Basta uma condição ser verdadeira"},
+    {"id": 21, "modulo": "Lógica", "tema": "Operador Lógico NÃO (NOT / !)", "foco": "Invertendo o estado booleano"},
+    {"id": 22, "modulo": "Lógica", "tema": "Tabela Verdade Descomplicada", "foco": "Cruzamento visual de regras booleanas"},
+    {"id": 23, "modulo": "Lógica", "tema": "Decisão Simples: O Comando if", "foco": "Executa o bloco apenas se a condição for real"},
+    {"id": 24, "modulo": "Lógica", "tema": "Decisão Dupla: if e else", "foco": "Um caminho para o sim, outro caminho para o não"},
+    {"id": 25, "modulo": "Lógica", "tema": "Múltiplos Caminhos: else if", "foco": "Encadeamento de alternativas"},
+    {"id": 26, "modulo": "Lógica", "tema": "Operador Ternário (if em 1 linha)", "foco": "condicao ? valorSeSim : valorSeNao"},
+    {"id": 27, "modulo": "Lógica", "tema": "Estrutura Switch / Case", "foco": "Menu de opções para valores exatos"},
+    {"id": 28, "modulo": "Lógica", "tema": "Blocos de Código e Indentação", "foco": "Espaçamento que organiza a hierarquia do código"},
+    {"id": 29, "modulo": "Lógica", "tema": "Escopo de Variáveis", "foco": "Variáveis locais vs variáveis globais"},
+    {"id": 30, "modulo": "Lógica", "tema": "Por que usamos Loops?", "foco": "O poder de repetir instruções sem duplicar código"},
+    {"id": 31, "modulo": "Lógica", "tema": "O Loop Enquanto (while)", "foco": "Repita enquanto a condição continuar verdadeira"},
+    {"id": 32, "modulo": "Lógica", "tema": "O Loop Faça...Enquanto (do...while)", "foco": "Garante ao menos uma execução antes de testar"},
+    {"id": 33, "modulo": "Lógica", "tema": "O Loop Para (for clássico)", "foco": "Início, condição de parada e passo em uma linha"},
+    {"id": 34, "modulo": "Lógica", "tema": "Contadores e Acumuladores", "foco": "Contando voltas e somando totais"},
+    {"id": 35, "modulo": "Lógica", "tema": "Interrompendo Loops com break", "foco": "Saída de emergência imediata do laço"},
+    {"id": 36, "modulo": "Lógica", "tema": "Pulando Voltas com continue", "foco": "Pula a iteração atual e vai para a próxima"},
+    {"id": 37, "modulo": "Lógica", "tema": "O Perigo do Loop Infinito", "foco": "Quando o código trava por esquecer o incremento"},
+    {"id": 38, "modulo": "Lógica", "tema": "Loops Aninhados", "foco": "Loop dentro de loop (tabuadas, grades e matrizes)"},
+    {"id": 39, "modulo": "Lógica", "tema": "Boas Práticas de Nomenclatura", "foco": "camelCase, snake_case e nomes significativos"},
+    {"id": 40, "modulo": "Lógica", "tema": "Depuração (Debugging) e Tratamento", "foco": "Lendo mensagens de erro com calma e achando bugs"},
+
+    # =========================================================================
+    # BLOCO 2: FUNÇÕES, MODULARIZAÇÃO & CONTROLE (Mapas 41 ao 65)
+    # =========================================================================
+    {"id": 41, "modulo": "Funções", "tema": "O que é uma Função e o Princípio DRY", "foco": "Não se repita: empacote e reutilize código"},
+    {"id": 42, "modulo": "Funções", "tema": "Declarando e Chamando Funções", "foco": "A criação vs a execução real da função"},
+    {"id": 43, "modulo": "Funções", "tema": "Parâmetros vs Argumentos", "foco": "A vaga na função vs o dado que entra nela"},
+    {"id": 44, "modulo": "Funções", "tema": "Parâmetros Padrão (Default Values)", "foco": "Valores pré-definidos caso o usuário não envie nada"},
+    {"id": 45, "modulo": "Funções", "tema": "O Retorno da Função (return)", "foco": "A resposta que a função entrega de volta"},
+    {"id": 46, "modulo": "Funções", "tema": "Funções Sem Retorno (Procedimentos)", "foco": "Apenas executam uma ação na tela"},
+    {"id": 47, "modulo": "Funções", "tema": "Funções Anônimas", "foco": "Funções sem nome passadas como valores"},
+    {"id": 48, "modulo": "Funções", "tema": "Arrow Functions (Funções de Seta)", "foco": "Sintaxe moderna e concisa: () => {}"},
+    {"id": 49, "modulo": "Funções", "tema": "O que é uma Função Callback?", "foco": "Passando uma função como argumento para outra"},
+    {"id": 50, "modulo": "Funções", "tema": "Funções de Ordem Superior", "foco": "Funções que recebem ou retornam outras funções"},
+    {"id": 51, "modulo": "Funções", "tema": "Closures Descomplicadas", "foco": "Funções que guardam memória do local onde nasceram"},
+    {"id": 52, "modulo": "Funções", "tema": "Recursão: A Função que se Chama", "foco": "Resolvendo problemas dividindo em partes menores"},
+    {"id": 53, "modulo": "Funções", "tema": "O Caso Base na Recursão", "foco": "O freio obrigatório para evitar o estouro de pilha"},
+    {"id": 54, "modulo": "Funções", "tema": "Tratamento de Erros com try / catch", "foco": "Evitando que o programa quebre na cara do usuário"},
+    {"id": 55, "modulo": "Funções", "tema": "O Bloco finally e o comando throw", "foco": "Lançando seus próprios erros intencionalmente"},
+    {"id": 56, "modulo": "Funções", "tema": "Módulos: export e import", "foco": "Separando código em vários arquivos organizados"},
+    {"id": 57, "modulo": "Funções", "tema": "Organização de Pastas de um Projeto", "foco": "src, public, assets, components e docs"},
+    {"id": 58, "modulo": "Funções", "tema": "Documentação de Código (Docstrings)", "foco": "Escrevendo comentários úteis para outros devs"},
+    {"id": 59, "modulo": "Ferramentas", "tema": "Terminal: Comandos Essenciais", "foco": "cd, ls, dir, mkdir, clear, touch"},
+    {"id": 60, "modulo": "Git", "tema": "O que é Git e Controle de Versão", "foco": "A máquina do tempo para salvar o histórico de código"},
+    {"id": 61, "modulo": "Git", "tema": "Ciclo do Git: Working, Staging, Commit", "foco": "git add, git commit -m e git status"},
+    {"id": 62, "modulo": "Git", "tema": "Branches: Criando Ramificações", "foco": "Trabalhando em novas funções sem quebrar o código principal"},
+    {"id": 63, "modulo": "Git", "tema": "Juntando Códigos com git merge", "foco": "Trazendo as alterações da branch para a main"},
+    {"id": 64, "modulo": "Git", "tema": "Resolvendo Conflitos no Git", "foco": "Quando dois programadores mexem na mesma linha"},
+    {"id": 65, "modulo": "Git", "tema": "GitHub e Repositórios Remotos", "foco": "Guardando código na nuvem e mostrando seu portfólio"},
+
+    # =========================================================================
+    # BLOCO 3: ESTRUTURAS DE DADOS BÁSICAS & MANIPULAÇÃO (Mapas 66 ao 95)
+    # =========================================================================
+    {"id": 66, "modulo": "Coleções", "tema": "O que é uma Coleção de Dados?", "foco": "Por que precisamos agrupar múltiplos dados"},
+    {"id": 67, "modulo": "Coleções", "tema": "Arrays / Listas: O Básico", "foco": "A lista de compras ordenada entre colchetes [ ]"},
+    {"id": 68, "modulo": "Coleções", "tema": "Por que os Índices Começam em 0?", "foco": "Deslocamento de memória física desde o início"},
+    {"id": 69, "modulo": "Coleções", "tema": "Acessando e Modificando Itens", "foco": "lista[0] = novoValor"},
+    {"id": 70, "modulo": "Coleções", "tema": "Tamanho de um Array (.length / len)", "foco": "Sabendo quantos elementos existem na coleção"},
+    {"id": 71, "modulo": "Coleções", "tema": "Inserindo no Fim (push / append)", "foco": "Adicionando novos itens na última posição"},
+    {"id": 72, "modulo": "Coleções", "tema": "Removendo do Fim (pop)", "foco": "Tirando o último item e pegando seu valor"},
+    {"id": 73, "modulo": "Coleções", "tema": "Inserindo e Removendo no Início", "foco": "shift e unshift: impacto de reorganizar a lista"},
+    {"id": 74, "modulo": "Coleções", "tema": "Fatiando Listas com slice", "foco": "Copiando pedaços do array sem alterar o original"},
+    {"id": 75, "modulo": "Coleções", "tema": "Modificando no Meio com splice", "foco": "Tirando ou substituindo itens em qualquer posição"},
+    {"id": 76, "modulo": "Coleções", "tema": "Percorrendo Arrays com for clássico", "foco": "O loop tradicional com índice i de 0 até length"},
+    {"id": 77, "modulo": "Coleções", "tema": "O Método forEach", "foco": "Executando uma função para cada elemento do array"},
+    {"id": 78, "modulo": "Coleções", "tema": "Transformando Dados com .map()", "foco": "Gera um novo array transformando cada elemento"},
+    {"id": 79, "modulo": "Coleções", "tema": "Filtrando Itens com .filter()", "foco": "Gera um novo array mantendo só o que passa no teste"},
+    {"id": 80, "modulo": "Coleções", "tema": "Acumulando Valores com .reduce()", "foco": "Somando tudo ou transformando o array em um único dado"},
+    {"id": 81, "modulo": "Coleções", "tema": "Buscando Elementos (.find e .indexOf)", "foco": "Encontrando o primeiro item que atende ao critério"},
+    {"id": 82, "modulo": "Coleções", "tema": "Verificando Existência (.includes)", "foco": "Retorna true ou false se o elemento estiver na lista"},
+    {"id": 83, "modulo": "Coleções", "tema": "Verificações Globais: some e every", "foco": "Pelo menos um atende? Todos atendem?"},
+    {"id": 84, "modulo": "Coleções", "tema": "Ordenando Listas com .sort()", "foco": "A pegadinha da ordem alfabética vs numérica"},
+    {"id": 85, "modulo": "Coleções", "tema": "Matrizes (Arrays 2D)", "foco": "Tabelas com linhas e colunas lista[linha][coluna]"},
+    {"id": 86, "modulo": "Coleções", "tema": "O que são Objetos / Dicionários?", "foco": "Pares de chave e valor representando entidades reais"},
+    {"id": 87, "modulo": "Coleções", "tema": "Acessando Propriedades (.ponto vs ['chave'])", "foco": "Quando usar cada tipo de notação"},
+    {"id": 88, "modulo": "Coleções", "tema": "Adicionando e Removendo Propriedades", "foco": "Modificando objetos dinamicamente"},
+    {"id": 89, "modulo": "Coleções", "tema": "Métodos dentro de Objetos", "foco": "Quando uma propriedade do objeto é uma função"},
+    {"id": 90, "modulo": "Coleções", "tema": "A Palavra Reservada this", "foco": "Como o objeto faz referência a si mesmo"},
+    {"id": 91, "modulo": "Coleções", "tema": "Desestruturação de Arrays", "foco": "const [primeiro, segundo] = lista"},
+    {"id": 92, "modulo": "Coleções", "tema": "Desestruturação de Objetos", "foco": "const { nome, idade } = usuario"},
+    {"id": 93, "modulo": "Coleções", "tema": "Operador Spread (...)", "foco": "Espalhando e clonando listas e objetos sem alterar o original"},
+    {"id": 94, "modulo": "Coleções", "tema": "Mutabilidade vs Imutabilidade", "foco": "Passagem por valor vs passagem por referência"},
+    {"id": 95, "modulo": "Coleções", "tema": "O Formato JSON", "foco": "JSON.stringify e JSON.parse para comunicação na web"},
+
+    # =========================================================================
+    # BLOCO 4: PROGRAMAÇÃO ORIENTADA A OBJETOS - POO (Mapas 96 ao 115)
+    # =========================================================================
+    {"id": 96, "modulo": "POO", "tema": "O que é o Paradigma Orientado a Objetos?", "foco": "Modelando software como entidades do mundo real"},
+    {"id": 97, "modulo": "POO", "tema": "Classes: A Planta da Casa", "foco": "A estrutura e o molde que define o objeto"},
+    {"id": 98, "modulo": "POO", "tema": "Objetos: A Casa Construída", "foco": "A instância viva do molde na memória"},
+    {"id": 99, "modulo": "POO", "tema": "O Construtor (constructor / __init__)", "foco": "A função que roda no momento em que o objeto nasce"},
+    {"id": 100, "modulo": "POO", "tema": "Atributos: O que o Objeto Tem", "foco": "As características e dados do objeto"},
+    {"id": 101, "modulo": "POO", "tema": "Métodos: O que o Objeto Faz", "foco": "As ações e comportamentos do objeto"},
+    {"id": 102, "modulo": "POO", "tema": "Os 4 Pilares da POO", "foco": "Encapsulamento, Abstração, Herança e Polimorfismo"},
+    {"id": 103, "modulo": "POO", "tema": "Pilar 1: Encapsulamento", "foco": "Protegendo os dados internos do objeto contra alterações indevidas"},
+    {"id": 104, "modulo": "POO", "tema": "Getters e Setters", "foco": "Portas controladas para ler e alterar atributos"},
+    {"id": 105, "modulo": "POO", "tema": "Pilar 2: Abstração", "foco": "Escondendo a complexidade e mostrando apenas o essencial"},
+    {"id": 106, "modulo": "POO", "tema": "Pilar 3: Herança (A Relação É-UM)", "foco": "A classe filha herda código da classe mãe"},
+    {"id": 107, "modulo": "POO", "tema": "A Palavra-chave super", "foco": "Chamando o construtor ou método da classe pai"},
+    {"id": 108, "modulo": "POO", "tema": "Sobrescrita de Métodos (Override)", "foco": "Filho adaptando o comportamento herdado do pai"},
+    {"id": 109, "modulo": "POO", "tema": "Pilar 4: Polimorfismo", "foco": "O mesmo comando agindo de formas diferentes em classes distintas"},
+    {"id": 110, "modulo": "POO", "tema": "Classes Abstratas", "foco": "Moldes que servem apenas como modelo e não podem ser instanciados"},
+    {"id": 111, "modulo": "POO", "tema": "Interfaces e Contratos", "foco": "Regras estritas que garantem que métodos obrigatórios existam"},
+    {"id": 112, "modulo": "POO", "tema": "Composição vs Herança", "foco": "Prefira compor objetos (TEM-UM) a herdar excessivamente"},
+    {"id": 113, "modulo": "POO", "tema": "Exceções Personalizadas com Classes", "foco": "Criando seus próprios tipos de erros"},
+    {"id": 114, "modulo": "POO", "tema": "Introdução aos Princípios SOLID", "foco": "Boas práticas para código limpo e sustentável"},
+    {"id": 115, "modulo": "POO", "tema": "Design Pattern Básico: Factory", "foco": "Fábricas que instanciam objetos conforme a necessidade"},
+
+    # =========================================================================
+    # BLOCO 5: WEB, DOM, ASYNC & CIÊNCIA DA COMPUTAÇÃO (Mapas 116 ao 150)
+    # =========================================================================
+    {"id": 116, "modulo": "Web", "tema": "Como Funciona a Internet", "foco": "O modelo cliente pedindo e servidor respondendo"},
+    {"id": 117, "modulo": "Web", "tema": "O que é o DOM (Árvore de Elementos)", "foco": "Como o navegador enxerga o HTML como objetos JS"},
+    {"id": 118, "modulo": "Web", "tema": "Selecionando Elementos (querySelector)", "foco": "Pegando tags, IDs e classes pelo JavaScript"},
+    {"id": 119, "modulo": "Web", "tema": "Manipulando Textos e Classes CSS", "foco": "Alterando cores, visibilidade e conteúdo via código"},
+    {"id": 120, "modulo": "Web", "tema": "O que são Eventos no Navegador", "foco": "Reagindo a cliques, digitação, scroll e envios"},
+    {"id": 121, "modulo": "Web", "tema": "Escutadores de Eventos (addEventListener)", "foco": "Dizendo o que fazer quando o usuário agir"},
+    {"id": 122, "modulo": "Async", "tema": "Código Síncrono vs Código Assíncrono", "foco": "Bloqueante vs não bloqueante na linha do tempo"},
+    {"id": 123, "modulo": "Async", "tema": "A Call Stack (Pilha de Execução)", "foco": "Como o motor de JavaScript empilha as tarefas"},
+    {"id": 124, "modulo": "Async", "tema": "O Event Loop Descomplicado", "foco": "O maestro que gerencia tarefas em espera e fila"},
+    {"id": 125, "modulo": "Async", "tema": "Temporizadores (setTimeout / setInterval)", "foco": "Agendando ações para o futuro"},
+    {"id": 126, "modulo": "Async", "tema": "O que é uma Promise?", "foco": "A promessa de que um dado chegará no futuro"},
+    {"id": 127, "modulo": "Async", "tema": "Estados de uma Promise", "foco": "Pendente, Resolvida com sucesso ou Rejeitada com erro"},
+    {"id": 128, "modulo": "Async", "tema": "Consumindo Promises (.then e .catch)", "foco": "A forma clássica de encadear respostas assíncronas"},
+    {"id": 129, "modulo": "Async", "tema": "Sintaxe Moderna: async e await", "foco": "Escrevendo código assíncrono com cara de síncrono"},
+    {"id": 130, "modulo": "Async", "tema": "Fazendo Requisições com fetch()", "foco": "Buscando dados em servidores remotos via internet"},
+    {"id": 131, "modulo": "Web", "tema": "Verbos HTTP: GET, POST, PUT, DELETE", "foco": "As 4 operações fundamentais da web (CRUD)"},
+    {"id": 132, "modulo": "Web", "tema": "Códigos de Status HTTP", "foco": "200 OK, 201 Created, 400 Bad Request, 404 Not Found, 500 Error"},
+    {"id": 133, "modulo": "Web", "tema": "O que é uma API RESTful?", "foco": "O garçom que leva pedidos entre cliente e banco de dados"},
+    {"id": 134, "modulo": "Web", "tema": "Consumindo uma API Real na Prática", "foco": "Recebendo JSON de clima, CEP ou cotação de moedas"},
+    {"id": 135, "modulo": "Hardware", "tema": "A Arquitetura de Von Neumann", "foco": "CPU (ULA + UC), Memória e Dispositivos de E/S"},
+    {"id": 136, "modulo": "Hardware", "tema": "A CPU: Cérebro do Computador", "foco": "Unidade de Controle, ULA e Registradores"},
+    {"id": 137, "modulo": "Hardware", "tema": "Memória Cache (L1, L2, L3)", "foco": "A gaveta rápida colada no processador"},
+    {"id": 138, "modulo": "Hardware", "tema": "Ciclo de Instrução: Busca, Decodifica e Executa", "foco": "O ritmo do clock em gigahertz"},
+    {"id": 139, "modulo": "SO", "tema": "O que faz um Sistema Operacional?", "foco": "O maestro que gerencia hardware, drivers e segurança"},
+    {"id": 140, "modulo": "SO", "tema": "Processos vs Threads", "foco": "Programas em execução e multitarefa em múltiplos núcleos"},
+    {"id": 141, "modulo": "SO", "tema": "Memória Virtual e Paginação", "foco": "A ilusão de memória infinita criada pelo SO"},
+    {"id": 142, "modulo": "UNINTER", "tema": "Pilhas (Stacks): Princípio LIFO", "foco": "Último a entrar, primeiro a sair (ex: desfazer / Ctrl+Z)"},
+    {"id": 143, "modulo": "UNINTER", "tema": "Filas (Queues): Princípio FIFO", "foco": "Primeiro a entrar, primeiro a sair (ex: fila de impressão)"},
+    {"id": 144, "modulo": "UNINTER", "tema": "Listas Encadeadas e Nós", "foco": "Ponteiros ligando caixas espalhadas na memória"},
+    {"id": 145, "modulo": "UNINTER", "tema": "Árvores Binárias de Busca", "foco": "Hierarquias e buscas rápidas em O(log n)"},
+    {"id": 146, "modulo": "UNINTER", "tema": "Tabelas Hash (Hash Maps)", "foco": "Busca instantânea O(1) usando funções de espalhamento"},
+    {"id": 147, "modulo": "UNINTER", "tema": "Introdução à Notação Big-O", "foco": "Medindo o tempo e memória que o algoritmo consome"},
+    {"id": 148, "modulo": "Segurança", "tema": "Criptografia Simétrica vs Assimétrica", "foco": "Chave secreta vs par de chaves pública/privada (RSA)"},
+    {"id": 149, "modulo": "IA", "tema": "O que é Inteligência Artificial e Machine Learning?", "foco": "Programar regras à mão vs aprender a partir de dados"},
+    {"id": 150, "modulo": "IA", "tema": "Modelos de Linguagem (LLMs) e Tokens", "foco": "Como IAs como GPT, Claude e Gemini preveem palavras"},
+
+    # =========================================================================
+    # SUPER BÔNUS: 50 MAPAS DE BANCO DE DADOS & SQL (Mapas 151 ao 200)
+    # =========================================================================
+    {"id": 151, "modulo": "BancoDados", "tema": "O que é um Banco de Dados?", "foco": "Planilhas caóticas vs Bancos de Dados confiáveis"},
+    {"id": 152, "modulo": "BancoDados", "tema": "Bancos Relacionais (SQL) vs NoSQL", "foco": "Tabelas rígidas vs Documentos flexíveis"},
+    {"id": 153, "modulo": "BancoDados", "tema": "Tabelas, Linhas e Colunas", "foco": "A estrutura de uma entidade relacional"},
+    {"id": 154, "modulo": "BancoDados", "tema": "Tipos de Dados em Bancos (VARCHAR, INT, DATE)", "foco": "Definindo os tipos das colunas"},
+    {"id": 155, "modulo": "BancoDados", "tema": "Chave Primária (Primary Key)", "foco": "O CPF exclusivo e imutável de cada linha"},
+    {"id": 156, "modulo": "BancoDados", "tema": "Chave Estrangeira (Foreign Key)", "foco": "A ponte que liga duas tabelas"},
+    {"id": 157, "modulo": "BancoDados", "tema": "Relacionamentos: 1 para 1 (1:1)", "foco": "Um usuário tem um perfil"},
+    {"id": 158, "modulo": "BancoDados", "tema": "Relacionamentos: 1 para Muitos (1:N)", "foco": "Um cliente tem vários pedidos"},
+    {"id": 159, "modulo": "BancoDados", "tema": "Relacionamentos: Muitos para Muitos (N:N)", "foco": "Alunos e matérias (a tabela intermediária)"},
+    {"id": 160, "modulo": "BancoDados", "tema": "O que é SQL?", "foco": "A linguagem padrão para conversar com o banco"},
+    {"id": 161, "modulo": "BancoDados", "tema": "Comandos DDL vs DML", "foco": "Comandos que criam estrutura vs comandos que mexem em dados"},
+    {"id": 162, "modulo": "BancoDados", "tema": "Criando Tabelas com CREATE TABLE", "foco": "Definindo nomes, tipos e restrições"},
+    {"id": 163, "modulo": "BancoDados", "tema": "Inserindo Dados com INSERT INTO", "foco": "Colocando novas linhas no banco"},
+    {"id": 164, "modulo": "BancoDados", "tema": "A Consulta Básica: SELECT e FROM", "foco": "Pegando todas as colunas de uma tabela"},
+    {"id": 165, "modulo": "BancoDados", "tema": "Filtrando Linhas com WHERE", "foco": "Pegando apenas registros que atendem ao critério"},
+    {"id": 166, "modulo": "BancoDados", "tema": "Operadores no SQL (=, !=, <, >)", "foco": "Filtros numéricos e textuais"},
+    {"id": 167, "modulo": "BancoDados", "tema": "Filtros Compostos com AND e OR", "foco": "Múltiplas condições na cláusula WHERE"},
+    {"id": 168, "modulo": "BancoDados", "tema": "Buscando Padrões de Texto com LIKE", "foco": "O uso do coringa % (ex: nomes que começam com 'A')"},
+    {"id": 169, "modulo": "BancoDados", "tema": "Filtro de Faixa com BETWEEN", "foco": "Valores entre um mínimo e um máximo"},
+    {"id": 170, "modulo": "BancoDados", "tema": "Filtro de Lista com IN", "foco": "Valores contidos em um conjunto específico"},
+    {"id": 171, "modulo": "BancoDados", "tema": "Valores Nulos e IS NULL", "foco": "A diferença entre zero, texto vazio e valor ausente"},
+    {"id": 172, "modulo": "BancoDados", "tema": "Ordenando Resultados com ORDER BY", "foco": "Crescente (ASC) e Decrescente (DESC)"},
+    {"id": 173, "modulo": "BancoDados", "tema": "Limitando Linhas com LIMIT", "foco": "Paginação de dados (ex: top 10 produtos)"},
+    {"id": 174, "modulo": "BancoDados", "tema": "Atualizando Dados com UPDATE", "foco": "O perigo vital de esquecer o WHERE!"},
+    {"id": 175, "modulo": "BancoDados", "tema": "Apagando Dados com DELETE", "foco": "Removendo registros de forma segura"},
+    {"id": 176, "modulo": "BancoDados", "tema": "Funções de Agregação: COUNT()", "foco": "Contando quantas linhas existem"},
+    {"id": 177, "modulo": "BancoDados", "tema": "Funções de Agregação: SUM() e AVG()", "foco": "Somando valores e calculando médias"},
+    {"id": 178, "modulo": "BancoDados", "tema": "Funções de Agregação: MIN() e MAX()", "foco": "Descobrindo o menor e o maior valor"},
+    {"id": 179, "modulo": "BancoDados", "tema": "Agrupando Dados com GROUP BY", "foco": "Totais por categoria ou por cliente"},
+    {"id": 180, "modulo": "BancoDados", "tema": "Filtrando Grupos com HAVING", "foco": "O WHERE que atua sobre dados já agregados"},
+    {"id": 181, "modulo": "BancoDados", "tema": "O que são JOINS? Juntando Tabelas", "foco": "A mágica do modelo relacional em ação"},
+    {"id": 182, "modulo": "BancoDados", "tema": "O INNER JOIN", "foco": "Apenas os registros que têm par correspondente em ambas"},
+    {"id": 183, "modulo": "BancoDados", "tema": "O LEFT JOIN", "foco": "Todos da esquerda, mesmo sem par na direita"},
+    {"id": 184, "modulo": "BancoDados", "tema": "O RIGHT JOIN", "foco": "Todos da direita, mesmo sem par na esquerda"},
+    {"id": 185, "modulo": "BancoDados", "tema": "Apelidos de Tabelas com ALIAS (AS)", "foco": "Encurtando nomes longos nas consultas"},
+    {"id": 186, "modulo": "BancoDados", "tema": "Subconsultas (Subqueries)", "foco": "Uma consulta SELECT dentro de outra"},
+    {"id": 187, "modulo": "BancoDados", "tema": "O que são Índices e por que deixam rápido?", "foco": "O sumário do livro que evita ler tudo"},
+    {"id": 188, "modulo": "BancoDados", "tema": "Transações no Banco: O Conceito ACID", "foco": "Atomicidade, Consistência, Isolamento e Durabilidade"},
+    {"id": 189, "modulo": "BancoDados", "tema": "COMMIT e ROLLBACK", "foco": "Confirmando alterações ou desfazendo tudo se der erro"},
+    {"id": 190, "modulo": "BancoDados", "tema": "Alterando Estrutura com ALTER TABLE", "foco": "Adicionando novas colunas em tabelas existentes"},
+    {"id": 191, "modulo": "BancoDados", "tema": "Excluindo Tabelas com DROP TABLE", "foco": "Apagando tabela e dados definitivamente"},
+    {"id": 192, "modulo": "BancoDados", "tema": "O que são Views (Visões)?", "foco": "Consultas salvas como tabelas virtuais"},
+    {"id": 193, "modulo": "BancoDados", "tema": "O que são Triggers (Gatilhos)?", "foco": "Ações automáticas disparadas antes ou após inserções"},
+    {"id": 194, "modulo": "BancoDados", "tema": "Injeção de SQL (SQL Injection)", "foco": "A falha de segurança mais famosa e como se proteger"},
+    {"id": 195, "modulo": "BancoDados", "tema": "Consultas Parametrizadas (Prepared Statements)", "foco": "A blindagem contra invasões no banco"},
+    {"id": 196, "modulo": "BancoDados", "tema": "O que é um ORM (Object-Relational Mapping)?", "foco": "Mexendo no banco através de classes em código"},
+    {"id": 197, "modulo": "BancoDados", "tema": "Bancos em Memória: O Redis", "foco": "Cache ultrarrápido chave-valor"},
+    {"id": 198, "modulo": "BancoDados", "tema": "Bancos NoSQL de Documentos: O MongoDB", "foco": "Guardando coleções em formato JSON BSON"},
+    {"id": 199, "modulo": "BancoDados", "tema": "Backups e Cópias de Segurança", "foco": "Dump, restauração e políticas contra desastres"},
+    {"id": 200, "modulo": "BancoDados", "tema": "O Futuro dos Dados: Data Warehouses e Vetores", "foco": "Bancos vetoriais para IA e busca semântica"}
+]
+
+# Mantém compatibilidade com referências antigas
+TRILHA_INICIANTE_DO_ZERO = TODOS_OS_200_MAPAS[:150]
+MATRIZ_COMPLETA_UNINTER = TODOS_OS_200_MAPAS
+
+def listar_topicos_iniciante() -> List[Dict]:
+    return TODOS_OS_200_MAPAS
+
+def buscar_topico_por_id(topico_id: int) -> Dict:
+    for t in TODOS_OS_200_MAPAS:
+        if t["id"] == topico_id:
+            return t
+    return None

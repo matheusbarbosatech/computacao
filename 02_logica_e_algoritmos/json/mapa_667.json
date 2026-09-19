@@ -1,0 +1,65 @@
+{
+  "id": 667,
+  "title": "GIT AVANÇADO: DESFAZENDO COISAS",
+  "definition": "Um kit de emergência com reset, revert, stash e cherry-pick para consertar erros no repositório.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Todo mundo erra: o segredo é saber voltar atrás sem entrar em pânico.",
+      "O Git guarda todo o histórico, então quase nada se perde de verdade."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O GIT PENSA",
+    "icon": "🖥️",
+    "bullets": [
+      "O histórico é uma fila de fotos chamadas commits, cada uma com um código hash.",
+      "Desfazer é apenas mover o ponteiro para outra foto da linha do tempo."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "git reset --soft: desfaz o commit e mantém suas mudanças prontas para reenviar.",
+      "git reset --hard: apaga o commit E joga fora as mudanças sem perguntar."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "git stash: guarda mudanças num armário temporário para trocar de branch.",
+      "git cherry-pick <hash>: copia um commit específico de outra branch para a sua."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Errou? Respire e nunca apague a pasta do projeto.",
+      "PASSO 2: Rode git log e ache a foto boa pelo código hash.",
+      "PASSO 3: Escolha reset, revert, stash ou cherry-pick e confirme."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "git reset --hard apaga seu trabalho e não tem Ctrl+Z depois.",
+      "Nunca desfaça commits já enviados ao repositório compartilhado: use revert."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Erro ➔ Escolha a ferramenta certa ➔ Histórico limpo e time em paz."
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Prática Dev",
+  "escola": "02_logica_e_algoritmos",
+  "foco_pedagogico": "A caixa de ferramentas de emergência para quando você comete erros no repositório"
+}

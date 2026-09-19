@@ -1,0 +1,63 @@
+{
+  "id": 163,
+  "title": "INSERINDO DADOS COM INSERT INTO",
+  "definition": "INSERT INTO é o comando que coloca novas linhas de dados dentro de uma tabela do banco.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como preencher uma nova ficha e guardá-la no arquivo certo."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O BANCO TRATA ISSO",
+    "icon": "🖥️",
+    "bullets": [
+      "O banco cria uma linha nova na tabela indicada.",
+      "Cada valor enviado ocupa a coluna correspondente."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Diga a tabela, as colunas e depois os valores.",
+      "INSERT INTO clientes (nome, idade) VALUES ('Ana', 30);"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Cadastro de usuários, produtos e pedidos em sistemas.",
+      "Usado em MySQL, PostgreSQL, SQLite e SQL Server."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você escolhe a tabela e as colunas certas",
+      "PASSO 2: O banco confere se os valores combinam com os tipos",
+      "PASSO 3: A nova linha é salva permanentemente na tabela"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer alguma coluna obrigatória gera erro no banco.",
+      "Ordem dos valores deve seguir a ordem das colunas listadas."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Dados prontos ➔ INSERT INTO ➔ Nova linha salva na tabela"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "BancoDados",
+  "foco_pedagogico": "Colocando novas linhas no banco"
+}

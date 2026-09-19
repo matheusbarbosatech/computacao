@@ -1,0 +1,63 @@
+{
+  "id": 37,
+  "title": "O PERIGO DO LOOP INFINITO",
+  "definition": "É quando um código repete a mesma tarefa para sempre, porque a condição de parada nunca é satisfeita.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como andar numa esteira que nunca desliga, você se move mas nunca chega ao fim."
+    ]
+  },
+  "topRight": {
+    "pill": "CONDIÇÃO DE PARADA",
+    "icon": "🖥️",
+    "bullets": [
+      "O computador só sai do loop quando a condição vira falsa.",
+      "Se a variável de controle não muda, a condição fica presa em verdadeiro."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Todo loop precisa de algo que mude a cada volta.",
+      "while(i < 5) { print(i) } ➔ faltou i++"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Aparece em loops for, while e do-while em qualquer linguagem.",
+      "Muito comum em Python, JavaScript, Java e C."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O loop testa a condição antes de repetir",
+      "PASSO 2: Se a variável nunca muda, a condição continua verdadeira",
+      "PASSO 3: O código trava, repetindo para sempre sem incremento"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de escrever i++ ou i = i + 1 dentro do loop.",
+      "Sempre pergunte: essa variável muda a cada repetição?"
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Sem incremento ➔ condição nunca muda ➔ programa trava para sempre"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Lógica",
+  "foco_pedagogico": "Quando o código trava por esquecer o incremento"
+}

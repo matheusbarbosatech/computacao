@@ -1,0 +1,63 @@
+{
+  "id": 179,
+  "title": "AGRUPANDO DADOS COM GROUP BY",
+  "definition": "GROUP BY junta linhas parecidas em blocos para calcular totais de cada grupo.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como separar recibos em pilhas por cliente antes de somar cada pilha."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O BANCO PROCESSA",
+    "icon": "🖥️",
+    "bullets": [
+      "O banco reúne linhas com o mesmo valor na coluna escolhida.",
+      "Depois aplica uma função de resumo em cada grupo, como soma ou contagem."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "SELECT cliente, SUM(valor) FROM vendas GROUP BY cliente;",
+      "Toda coluna fora da função precisa estar no GROUP BY."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Relatórios de vendas totais por categoria de produto.",
+      "Usado em SQL, MySQL, PostgreSQL e planilhas dinâmicas."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O banco separa as linhas por categoria ou cliente.",
+      "PASSO 2: Aplica SUM, COUNT ou AVG dentro de cada grupo.",
+      "PASSO 3: Devolve uma linha só com o total de cada grupo."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de colocar a coluna no GROUP BY gera erro no SQL.",
+      "Confundir WHERE com HAVING: HAVING filtra os grupos já somados."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Dados soltos ➔ agrupar por cliente ➔ total por cliente pronto."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "BancoDados",
+  "foco_pedagogico": "Totais por categoria ou por cliente"
+}

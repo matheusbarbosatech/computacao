@@ -1,0 +1,65 @@
+{
+  "id": 527,
+  "title": "GERENCIAMENTO DE ESTADO DE SERVIDOR COM TANSTACK QUERY",
+  "definition": "Uma ferramenta que busca dados do servidor, guarda uma cópia local e mantém tudo atualizado sozinho.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Dado do servidor não é seu: outra pessoa pode mudar ele agora mesmo.",
+      "Então a tela precisa de cópia local e de alguém checando novidades."
+    ]
+  },
+  "topRight": {
+    "pill": "CACHE E CICLO DE VIDA",
+    "icon": "🖥️",
+    "bullets": [
+      "O sistema guarda a última resposta e mostra na hora, sem tela de espera.",
+      "Depois revalida em segundo plano e atualiza a tela se algo mudou."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "useQuery pede os dados e já entrega dados, carregando e erro prontos.",
+      "useQuery({ queryKey: ['todos'], queryFn: buscarTodos })"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Listas, perfis e painéis que leem dados de uma API.",
+      "Funciona em React, React Native, Vue, Svelte e Solid."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: A tela pede os dados usando uma chave única.",
+      "PASSO 2: Se existe cache válido, mostra na hora; senão busca na API.",
+      "PASSO 3: Em segundo plano confere mudanças e atualiza a tela."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Copiar dado do servidor para useState e perder a sincronização automática.",
+      "Dica de ouro: confie no cache e deixe a biblioteca revalidar por você."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Chave única ➔ Busca e guarda em cache ➔ Tela sempre atualizada sozinha"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "React",
+  "escola": "05_frontend_e_mobile",
+  "foco_pedagogico": "Cache automático, sincronização e refetch em segundo plano sem dores de cabeça"
+}

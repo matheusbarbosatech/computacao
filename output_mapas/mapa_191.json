@@ -1,0 +1,63 @@
+{
+  "id": 191,
+  "title": "EXCLUINDO TABELAS COM DROP TABLE",
+  "definition": "DROP TABLE apaga a tabela inteira e todos os seus dados, sem volta.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como jogar a gaveta inteira no lixo, não só o conteúdo dela."
+    ]
+  },
+  "topRight": {
+    "pill": "O QUE O BANCO FAZ",
+    "icon": "🖥️",
+    "bullets": [
+      "Remove a estrutura (colunas) e todas as linhas de uma vez.",
+      "Libera o espaço usado pela tabela no banco."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Comando básico apaga a tabela pelo nome.",
+      "DROP TABLE clientes;"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Limpar bancos de teste ou remover tabelas obsoletas.",
+      "Usado em MySQL, PostgreSQL, SQL Server, SQLite."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você escreve DROP TABLE nome_da_tabela",
+      "PASSO 2: O banco verifica se a tabela existe",
+      "PASSO 3: A tabela e todos os dados são apagados para sempre"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Confundir DROP TABLE com DELETE, que só apaga linhas.",
+      "Sempre faça backup antes, pois não existe 'desfazer'."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "DROP TABLE ➔ Apaga estrutura e dados ➔ Tabela deixa de existir"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "BancoDados",
+  "foco_pedagogico": "Apagando tabela e dados definitivamente"
+}

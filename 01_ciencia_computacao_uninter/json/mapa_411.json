@@ -1,0 +1,64 @@
+{
+  "id": 411,
+  "title": "A ARQUITETURA DE VON NEUMANN",
+  "definition": "É a planta baixa que quase todo computador usa desde 1945: CPU, memória e barramentos trabalhando juntos.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Dados e instruções ficam guardados no mesmo lugar: a memória."
+    ]
+  },
+  "topRight": {
+    "pill": "OS 3 PILARES",
+    "icon": "🖥️",
+    "bullets": [
+      "CPU: o cérebro que calcula e decide tudo.",
+      "Memória (RAM): a gaveta onde tudo fica guardado."
+    ]
+  },
+  "midRight": {
+    "pill": "OS BARRAMENTOS",
+    "icon": "{ }",
+    "bullets": [
+      "São as estradas que ligam CPU e memória.",
+      "Barramento de dados, endereço e controle."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE ISSO VIVE",
+    "icon": "</>",
+    "bullets": [
+      "Dentro de qualquer PC, celular ou videogame.",
+      "Base de processadores Intel, AMD e ARM."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "O CICLO DE BUSCA-DECODIFICA-EXECUTA",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: CPU busca uma instrução na memória",
+      "PASSO 2: CPU decodifica o que essa instrução significa",
+      "PASSO 3: CPU executa a ação e guarda o resultado"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que CPU e memória são a mesma coisa.",
+      "Dica: memória guarda, CPU pensa e age."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Memória guarda dado ➔ CPU busca e processa ➔ Resultado sai pelo barramento"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Hardware",
+  "escola": "01_ciencia_computacao_uninter",
+  "foco_pedagogico": "O modelo que rege quase todos os computadores modernos desde 1945"
+}

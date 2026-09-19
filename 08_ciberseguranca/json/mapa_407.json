@@ -1,0 +1,64 @@
+{
+  "id": 407,
+  "title": "PASS-THE-HASH E GOLDEN TICKET NO ACTIVE DIRECTORY",
+  "definition": "Invasores roubam a 'senha disfarçada' (hash) ou forjam um crachá mestre para virar administrador da rede.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Você não precisa saber a senha real, só uma cópia criptografada dela guardada na memória."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O SISTEMA GUARDA ISSO",
+    "icon": "🖥️",
+    "bullets": [
+      "O Windows guarda hashes de senha na memória do processo LSASS.",
+      "Quem tem acesso de admin na máquina pode extrair esses hashes."
+    ]
+  },
+  "midRight": {
+    "pill": "FERRAMENTA E SINTAXE",
+    "icon": "{ }",
+    "bullets": [
+      "Ferramentas como Mimikatz extraem e reutilizam o hash direto.",
+      "sekurlsa::pth /user:admin /domain:corp /ntlm:HASH"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Testes de invasão (pentest) e simulações de ataque real (Red Team).",
+      "Ferramentas: Mimikatz, Impacket, Rubeus, PowerSploit."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO DO ATAQUE",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Invasor compromete um computador e rouba o hash da memória",
+      "PASSO 2: Usa o hash para se autenticar como se fosse a pessoa dona dele",
+      "PASSO 3: Com o hash do KRBTGT, forja um 'Golden Ticket' e vira dono do domínio"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que trocar a senha resolve: o Golden Ticket continua válido até resetar o KRBTGT duas vezes.",
+      "Achar que só quem sabe a senha em texto puro é perigoso."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Rouba hash ➔ Reutiliza como senha ➔ Domina a rede inteira"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Laboratório",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "Como invasores usam hashes de senha em memória para dominar a rede"
+}

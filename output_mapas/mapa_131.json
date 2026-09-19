@@ -1,0 +1,63 @@
+{
+  "id": 131,
+  "title": "VERBOS HTTP: GET, POST, PUT, DELETE",
+  "definition": "São as 'ordens' que você dá para um servidor: ver, criar, alterar ou apagar algo.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Cada verbo é uma intenção clara enviada junto com o endereço (URL) da requisição."
+    ]
+  },
+  "topRight": {
+    "pill": "OS 4 VERBOS",
+    "icon": "🖥️",
+    "bullets": [
+      "GET busca informação, sem mudar nada no servidor.",
+      "POST, PUT e DELETE alteram dados: criam, atualizam ou apagam."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Cada requisição tem um método e uma URL.",
+      "fetch('/usuarios', { method: 'POST' })"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "APIs REST de qualquer app ou site que salva dados.",
+      "Usado em JavaScript, Python, Java, apps mobile."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "O CRUD NA PRÁTICA",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: GET lê um item ou lista (Read)",
+      "PASSO 2: POST cria um item novo (Create)",
+      "PASSO 3: PUT atualiza (Update) e DELETE remove (Delete)"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Usar GET para criar ou apagar dados é errado e arriscado.",
+      "PUT substitui o item todo, não só um campo."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Verbo HTTP ➔ Ação no servidor ➔ Dado criado, lido, alterado ou apagado."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Web",
+  "foco_pedagogico": "As 4 operações fundamentais da web (CRUD)"
+}

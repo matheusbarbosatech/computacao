@@ -1,0 +1,63 @@
+{
+  "id": 96,
+  "title": "O QUE É O PARADIGMA ORIENTADO A OBJETOS?",
+  "definition": "É uma forma de organizar o código imitando coisas do mundo real, como objetos com características e ações.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Você modela o software como se fossem objetos reais, tipo carro, pessoa ou conta bancária."
+    ]
+  },
+  "topRight": {
+    "pill": "CLASSE E OBJETO",
+    "icon": "🖥️",
+    "bullets": [
+      "Classe é a planta/molde do objeto, tipo a receita de um bolo.",
+      "Objeto é o bolo pronto, criado a partir dessa receita."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Classe define atributos (dados) e métodos (ações).",
+      "class Carro { cor; ligar() { } }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Usado para organizar sistemas grandes e complexos.",
+      "Java, Python, C#, C++ e PHP usam esse paradigma."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você cria uma classe descrevendo o objeto",
+      "PASSO 2: O programa instancia (cria) um objeto real dessa classe",
+      "PASSO 3: O objeto guarda dados e executa ações próprias"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Confundir classe com objeto: classe é o molde, objeto é o item real.",
+      "Dica: pense em classe como formulário vazio e objeto como formulário preenchido."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Classe (molde) ➔ Objeto (instância) ➔ Software organizado como o mundo real"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "POO",
+  "foco_pedagogico": "Modelando software como entidades do mundo real"
+}

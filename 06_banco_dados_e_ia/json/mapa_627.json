@@ -1,0 +1,65 @@
+{
+  "id": 627,
+  "title": "O QUE SÃO LLMs E COMO FUNCIONAM OS TOKENS",
+  "definition": "Um LLM é um programa que aprendeu a adivinhar o próximo pedacinho de texto olhando bilhões de exemplos.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Não pensa como humano: ele calcula probabilidades de qual pedaço de palavra vem depois.",
+      "Treinou lendo uma biblioteca gigante de textos e virou uma máquina de continuar frases."
+    ]
+  },
+  "topRight": {
+    "pill": "O QUE É TOKEN",
+    "icon": "🖥️",
+    "bullets": [
+      "Token é um pedaço de palavra, não a palavra inteira: 'gato' pode ser 1 token, 'gatinho' pode ser 2.",
+      "O computador só entende números, então cada token recebe um código numérico (ID)."
+    ]
+  },
+  "midRight": {
+    "pill": "COMO ELE CALCULA",
+    "icon": "{ }",
+    "bullets": [
+      "Ele dá uma nota de 0 a 1 para cada token possível e escolhe um provável.",
+      "exemplo: depois de 'O céu é' ➔ azul (0.72), verde (0.09), doce (0.0001)."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Chats, tradutores, resumidores, geradores de código e assistentes de estudo.",
+      "Exemplos: GPT, Claude, Gemini, LLaMA, Mistral e modelos abertos."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você digita a frase e ela é cortada em tokens numéricos.",
+      "PASSO 2: O modelo calcula a probabilidade do próximo token e sorteia um.",
+      "PASSO 3: O token escolhido volta para o fim da frase e o ciclo se repete."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Ele não 'sabe' fatos: ele prevê texto parecido com o que já viu, e pode inventar.",
+      "Dica de ouro: contar tokens é como contar sílabas de outra língua, não letras."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Texto ➔ vira tokens ➔ o modelo calcula probabilidades ➔ escolhe 1 token ➔ repete até terminar a resposta"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "IA Generativa",
+  "escola": "06_banco_dados_e_ia",
+  "foco_pedagogico": "Previsão probabilística do próximo pedaço de palavra em escalas bilionárias"
+}

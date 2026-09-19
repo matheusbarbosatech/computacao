@@ -1,0 +1,66 @@
+{
+  "id": 566,
+  "title": "REACT NATIVE VS FLUTTER: COMPARATIVO DE ARQUITETURA",
+  "definition": "São duas formas de criar apps de celular: uma conversa com o sistema por uma ponte, a outra vira código nativo de verdade.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Um app de celular precisa desenhar botões e telas usando o sistema do aparelho.",
+      "React Native pede ajuda ao sistema; Flutter desenha tudo sozinho com seu próprio motor."
+    ]
+  },
+  "topRight": {
+    "pill": "PONTE JS VS COMPILAÇÃO NATIVA",
+    "icon": "🖥️",
+    "bullets": [
+      "React Native manda recados do JavaScript para o lado nativo e espera a resposta voltar.",
+      "Flutter compila o código direto para linguagem de máquina e roda sem intermediário."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "React Native usa componentes e estilos parecidos com HTML e CSS.",
+      "retorno (<View><Text>Ola</Text></View>)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "React Native aparece em apps que já usam JavaScript no time, como bancos e lojas.",
+      "Flutter aparece em apps com muita animação, jogos leves e interfaces iguais em todo lugar."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você escreve a tela em JavaScript ou em Dart.",
+      "PASSO 2: React Native atravessa a ponte; Flutter usa o motor Skia para pintar.",
+      "PASSO 3: O aparelho mostra os pixels na tela do celular."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que a ponte é lenta sempre: hoje ela é assíncrona e bem rápida.",
+      "Esquecer que Flutter não usa botões nativos: tudo é desenhado pelo próprio motor."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "JavaScript com ponte ➔ UIKit e Android nativos ➔ visual do sistema",
+      "Dart compilado ➔ motor gráfico próprio ➔ visual idêntico em todo aparelho"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Mobile",
+  "escola": "05_frontend_e_mobile",
+  "foco_pedagogico": "Ponte JavaScript vs compilação nativa para telas e motores gráficos"
+}

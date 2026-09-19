@@ -1,0 +1,63 @@
+{
+  "id": 175,
+  "title": "APAGANDO DADOS COM DELETE",
+  "definition": "DELETE é o comando que remove registros de uma tabela, como jogar um papel fora da gaveta.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É pedir ao banco para apagar linhas específicas de uma tabela."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O BANCO LIDA",
+    "icon": "🖥️",
+    "bullets": [
+      "O banco procura as linhas que combinam com sua condição.",
+      "Depois remove só essas linhas, sem tocar nas outras."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Sempre use WHERE para escolher o alvo certo.",
+      "DELETE FROM clientes WHERE id = 10;"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Remover contas, pedidos cancelados ou registros duplicados.",
+      "Usado em SQL, MySQL, PostgreSQL, SQLite."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você escreve o DELETE com uma condição.",
+      "PASSO 2: O banco encontra as linhas que combinam.",
+      "PASSO 3: As linhas encontradas são apagadas para sempre."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer o WHERE apaga TODA a tabela de uma vez.",
+      "Teste antes com SELECT usando a mesma condição do WHERE."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Condição certa ➔ DELETE roda ➔ Registro some do banco"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "BancoDados",
+  "foco_pedagogico": "Removendo registros de forma segura"
+}

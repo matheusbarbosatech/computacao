@@ -1,0 +1,64 @@
+{
+  "id": 34,
+  "title": "CONTADORES E ACUMULADORES",
+  "definition": "São variáveis que guardam quantas vezes algo aconteceu ou a soma de vários valores.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Contador conta voltas, acumulador soma valores ao longo do caminho."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O COMPUTADOR VÊ ISSO",
+    "icon": "🖥️",
+    "bullets": [
+      "Guarda um número na memória e atualiza ele a cada repetição.",
+      "Cada volta do loop muda esse número, um pouquinho por vez."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Sempre começa com um valor inicial, geralmente zero.",
+      "contador = contador + 1",
+      "total = total + valor"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Contar quantas voltas um corredor deu na pista.",
+      "Somar o valor total de itens no carrinho de compras."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Cria a variável zerada antes do loop começar",
+      "PASSO 2: A cada volta, soma 1 (contador) ou soma o valor (acumulador)",
+      "PASSO 3: No final do loop, o número guardado é o resultado total"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de zerar a variável antes do loop dá resultado errado.",
+      "Colocar a soma fora do loop faz ela não atualizar nunca."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Começa em zero ➔ Loop atualiza a cada volta ➔ Resultado final acumulado."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Lógica",
+  "foco_pedagogico": "Contando voltas e somando totais"
+}

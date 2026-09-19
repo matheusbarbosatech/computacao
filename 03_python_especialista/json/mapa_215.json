@@ -1,0 +1,64 @@
+{
+  "id": 215,
+  "title": "O MÓDULO PATHLIB: CAMINHOS MODERNOS",
+  "definition": "Pathlib é uma forma de escrever endereços de arquivos que funciona igual no Windows e no Linux.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Cada pasta ou arquivo do computador é tratado como um objeto, não como texto solto."
+    ]
+  },
+  "topRight": {
+    "pill": "PROBLEMA DAS BARRAS",
+    "icon": "🖥️",
+    "bullets": [
+      "Windows usa barra invertida (\\), Linux usa barra normal (/).",
+      "Pathlib escolhe a barra certa sozinho, sem você decidir."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Junte pedaços de caminho usando a barra normal como operador.",
+      "Path('pasta') / 'arquivo.txt'"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Scripts que criam pastas, salvam relatórios ou organizam fotos.",
+      "Substitui o antigo módulo os.path em projetos novos."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você cria um objeto Path com o endereço desejado",
+      "PASSO 2: Usa métodos como mkdir() ou glob() para agir nele",
+      "PASSO 3: O sistema operacional entende o caminho certinho, sem erro"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Misturar barra de texto comum com objeto Path gera confusão.",
+      "Dica de ouro: use sempre / entre objetos Path, nunca cole texto puro."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Endereço como objeto ➔ Pathlib ajusta a barra ➔ Funciona em qualquer sistema"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Automação",
+  "escola": "03_python_especialista",
+  "foco_pedagogico": "Criando pastas e encontrando arquivos sem conflito de barras"
+}

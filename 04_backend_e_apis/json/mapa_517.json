@@ -1,0 +1,64 @@
+{
+  "id": 517,
+  "title": "CHAOS ENGINEERING: O MACACO QUE DERRUBA SERVIDORES",
+  "definition": "É provocar falhas de propósito no sistema para ver se ele se recupera solo.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Quebrar coisas de propósito é melhor que esperar quebrar sozinho de surpresa."
+    ]
+  },
+  "topRight": {
+    "pill": "CHAOS MONKEY",
+    "icon": "🖥️",
+    "bullets": [
+      "Um robô que derruba servidores aleatórios em produção, tipo um 'macaco travesso'.",
+      "Criado pela Netflix para testar resistência real do sistema."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Você define regras de quando e onde o caos pode agir.",
+      "spinnaker.chaosMonkey.enabled = true"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Empresas com sistemas em nuvem que não podem parar nunca.",
+      "Netflix, AWS, Gremlin, Litmus Chaos."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O macaco escolhe um servidor e derruba ele de propósito",
+      "PASSO 2: O sistema detecta a falha e tenta se recuperar sozinho",
+      "PASSO 3: A equipe vê se a auto-cura funcionou ou se tem que corrigir"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que caos é bagunça: na verdade é teste planejado e controlado.",
+      "Testar direto em produção sem rede de segurança pode virar desastre real."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Derrubar servidor ➔ Sistema tenta se curar ➔ Você descobre se é resiliente"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Microsserviços",
+  "escola": "04_backend_e_apis",
+  "foco_pedagogico": "Derrubando servidores intencionalmente em produção para testar auto-cura"
+}

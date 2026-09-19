@@ -1,0 +1,64 @@
+{
+  "id": 651,
+  "title": "QUICK SORT: A ESCOLHA DO PIVÔ E PARTICIONAMENTO",
+  "definition": "Quick Sort é um algoritmo de ordenação que divide o array em pedaços menores usando um elemento chamado pivô, e resolve cada pedaço separadamente.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Escolha um elemento pivô e reorganize o array: menores à esquerda, maiores à direita. Depois repita o processo nos dois lados, como quebrar um chocolate em quadradinhos cada vez menores."
+    ]
+  },
+  "topRight": {
+    "pill": "O PARTICIONAMENTO",
+    "icon": "🖥️",
+    "bullets": [
+      "É a etapa que varre o array, compara cada elemento com o pivô e os posiciona no lado correto.",
+      "No esquema de Lomuto, o pivô vai para o final e dois ponteiros reorganizam tudo em uma única passada."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "A função particiona recebe o array, índice inicial e final, e devolve a posição final do pivô.",
+      "particiona(arr, inicio, fim): escolhePivo(); reorganiza(); retorna posPivo;"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "É o algoritmo padrão da função qsort() em C e da ordenação de tipos primitivos no Java (Arrays.sort).",
+      "Sistemas operacionais e bibliotecas padrão confiam nele por ser rápido na prática e usar pouca memória extra."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Escolha o pivô (ex: último elemento, elemento do meio ou mediana de três).",
+      "PASSO 2: Participe — coloque os menores que o pivô à esquerda e os maiores à direita.",
+      "PASSO 3: Chame o Quick Sort recursivamente no lado esquerdo e no lado direito até sobrar 1 ou nenhum elemento."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Pior caso: array já ordenado + pivô sempre no canto = O(n²). Parece uma escada rolante quebrada: cada degrau é processado um por um.",
+      "Dica de ouro: sempre use pivô aleatório ou mediana de três (primeiro, meio, último) para embaralhar e escapar do pior caso."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Escolher pivô ➔ Particionar (menores | pivô | maiores) ➔ Repetir nos lados ➔ Array ordenado em O(n log n) na média."
+    ]
+  },
+  "_modelo_usado": "devworld/deepseek-v4-pro-0813-f",
+  "modulo": "Algoritmos",
+  "escola": "02_logica_e_algoritmos",
+  "foco_pedagogico": "O algoritmo padrão de sistemas operacionais e como evitar o pior caso"
+}

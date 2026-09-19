@@ -1,0 +1,63 @@
+{
+  "id": 125,
+  "title": "TEMPORIZADORES (setTimeout / setInterval)",
+  "definition": "São comandos que dizem ao computador para executar algo depois de um tempo, sem travar o resto do programa.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como marcar um alarme: você agenda algo para acontecer no futuro e segue sua vida normal."
+    ]
+  },
+  "topRight": {
+    "pill": "setTimeout vs setInterval",
+    "icon": "🖥️",
+    "bullets": [
+      "setTimeout executa a ação UMA vez, depois do tempo marcado.",
+      "setInterval repete a ação de tempos em tempos, sem parar."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Função + tempo em milissegundos (1000ms = 1 segundo).",
+      "setTimeout(() => avisar(), 3000)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Mostrar um aviso depois de alguns segundos numa página.",
+      "Atualizar um relógio, contador ou notificação a cada segundo."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você agenda a ação e o tempo de espera.",
+      "PASSO 2: O programa continua rodando outras coisas enquanto espera.",
+      "PASSO 3: Quando o tempo acaba, a ação agendada é executada."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "setInterval nunca para sozinho e pode acumular execuções se não for cancelado.",
+      "Sempre guarde o timer numa variável para poder cancelar com clearTimeout ou clearInterval."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Agendar ação ➔ Esperar o tempo passar ➔ Ação roda automaticamente"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Async",
+  "foco_pedagogico": "Agendando ações para o futuro"
+}

@@ -1,0 +1,65 @@
+{
+  "id": 599,
+  "title": "AGGREGATION FRAMEWORK NO MONGODB: PIPELINES DE TRANSFORMAÇÃO ($MATCH, $GROUP)",
+  "definition": "Um cano por onde os documentos passam em etapas, sendo filtrados e agrupados até virar um relatório pronto.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É uma esteira de etapas: o documento entra bruto e sai transformado.",
+      "O cálculo acontece dentro do cluster, sem trazer tudo para o seu computador."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O BANCO PENSA",
+    "icon": "🖥️",
+    "bullets": [
+      "O servidor roda as etapas em sequência, usando o resultado de uma na outra.",
+      "Cada etapa recebe uma lista de documentos e devolve outra lista de documentos."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "db.colecao.aggregate([ ... ]) recebe uma lista de etapas, na ordem que você escreveu.",
+      "exemplo: db.vendas.aggregate([{$match:{loja:\"SP\"}},{$group:{_id:\"$mes\",total:{$sum:1}}}])"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Relatórios de vendas, dashboards, contagens e médias por categoria.",
+      "MongoDB Compass, mongosh, Node.js com Mongoose e MongoDB Atlas."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: $match filtra e deixa passar só os documentos que interessam.",
+      "PASSO 2: $group junta os parecidos e calcula totais, médias ou contagens.",
+      "PASSO 3: $sort e $limit organizam e devolvem o relatório final já pronto."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Colocar $group antes de $match e agrupar milhões de linhas sem necessidade.",
+      "Esquecer o cifrão no campo: dentro de $group usa-se \"$mes\", não \"mes\"."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Documentos brutos ➔ $match filtra ➔ $group resume ➔ relatório pronto."
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "NoSQL",
+  "escola": "06_banco_dados_e_ia",
+  "foco_pedagogico": "Processando relatórios e transformações analíticas diretamente no cluster de documentos"
+}

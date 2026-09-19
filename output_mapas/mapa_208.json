@@ -1,0 +1,65 @@
+{
+  "id": 208,
+  "title": "FUNÇÕES COM *ARGS E **KWARGS DESCOMPLICADAS",
+  "definition": "São formas de criar funções que aceitam uma quantidade variável de argumentos, sem saber quantos virão antes.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como uma mala de viagem elástica: cabe pouco ou muito, você decide na hora."
+    ]
+  },
+  "topRight": {
+    "pill": "ARGS VS KWARGS",
+    "icon": "🖥️",
+    "bullets": [
+      "*args junta argumentos soltos numa tupla (sem nome, só ordem).",
+      "**kwargs junta argumentos nomeados num dicionário (chave e valor)."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "O asterisco é o que importa, o nome 'args' é só apelido comum.",
+      "def soma(*numeros): return sum(numeros)",
+      "def perfil(**dados): print(dados['nome'])"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Funções genéricas que aceitam qualquer quantidade de dados de entrada.",
+      "Muito usado em Python, frameworks como Django e Flask, e decoradores."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você chama a função com vários valores soltos ou nomeados",
+      "PASSO 2: O Python empacota tudo em tupla (*args) ou dicionário (**kwargs)",
+      "PASSO 3: A função usa esses pacotes como quiser dentro do código"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer que args sempre vem antes de kwargs na ordem dos parâmetros.",
+      "Dica de ouro: pense em args como 'lista sem etiqueta' e kwargs como 'lista com etiqueta'."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Quantidade incerta de dados ➔ Python empacota tudo ➔ Função usa sem travar"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Python Básico",
+  "escola": "03_python_especialista",
+  "foco_pedagogico": "Recebendo quantidade flexível de argumentos posicionais e nomeados"
+}

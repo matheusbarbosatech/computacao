@@ -1,0 +1,64 @@
+{
+  "id": 343,
+  "title": "TIPOS DE HACKERS: WHITE, BLACK E GRAY HAT",
+  "definition": "Hacker é quem domina sistemas de computador, mas a cor do chapéu define se usa esse poder para proteger ou para prejudicar.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "A técnica é a mesma, o que muda é a intenção e a permissão para usá-la."
+    ]
+  },
+  "topRight": {
+    "pill": "WHITE HAT",
+    "icon": "🖥️",
+    "bullets": [
+      "É o hacker ético, contratado para achar falhas antes dos criminosos.",
+      "Sempre tem autorização por escrito para testar o sistema."
+    ]
+  },
+  "midRight": {
+    "pill": "BLACK HAT E GRAY HAT",
+    "icon": "{ }",
+    "bullets": [
+      "Black Hat invade sem permissão para roubar ou destruir dados.",
+      "Gray Hat invade sem permissão, mas sem intenção de causar dano."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "White Hat atua em pentests, bug bounty e auditorias de segurança.",
+      "Ferramentas: Kali Linux, Metasploit, Burp Suite, sempre em ambiente autorizado."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO DE UM TESTE ÉTICO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Empresa autoriza formalmente o teste de invasão.",
+      "PASSO 2: White Hat busca falhas simulando um ataque real.",
+      "PASSO 3: Relatório é entregue e as brechas são corrigidas."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que 'só estava curioso' livra alguém de responsabilidade legal.",
+      "Dica de ouro: sem contrato de autorização, é crime, não é ética."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Permissão + boa intenção ➔ White Hat ➔ sistema protegido e legal."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Fundamentos",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "A ética do profissional de segurança vs a atividade cibercriminosa"
+}

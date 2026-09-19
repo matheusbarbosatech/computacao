@@ -1,0 +1,66 @@
+{
+  "id": 594,
+  "title": "CONNECTION POOLING COM PGBOUNCER E HIKARICP",
+  "definition": "Reutilizar conexões de banco já abertas em vez de criar uma nova a cada requisição.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Abrir conexão é caro: login, rede e memória gastam tempo.",
+      "Então guardamos conexões prontas numa 'caixa' chamada pool."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O SISTEMA LIDA",
+    "icon": "🖥️",
+    "bullets": [
+      "O pool mantém conexões abertas e empresta uma para cada pedido.",
+      "Ao terminar, a conexão volta ao pool em vez de ser fechada.",
+      "Se todas estão ocupadas, a requisição espera na fila."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "No HikariCP basta configurar o tamanho máximo do pool.",
+      "config.setMaximumPoolSize(10)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "APIs Java com milhares de acessos por segundo ao banco.",
+      "HikariCP dentro do Java e PgBouncer na frente do PostgreSQL."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: A aplicação pede uma conexão ao pool.",
+      "PASSO 2: O pool empresta uma conexão que já estava aberta.",
+      "PASSO 3: A query roda, e a conexão volta ao pool para o próximo."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Pool gigante não é melhor: sobrecarrega o banco. Comece pequeno.",
+      "PgBouncer no modo transaction quebra recursos de sessão do HikariCP."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Conexão cara ➔ Pool empresta ➔ Sistema rápido e econômico"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Tuning",
+  "escola": "06_banco_dados_e_ia",
+  "foco_pedagogico": "Reutilizando conexões de banco para evitar o custo de abrir novas conexões a cada requisição"
+}

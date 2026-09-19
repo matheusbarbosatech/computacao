@@ -1,0 +1,64 @@
+{
+  "id": 494,
+  "title": "STREAMS E BUFFERS NO NODE.JS",
+  "definition": "É a forma de processar arquivos gigantes em pequenos pedaços, sem carregar tudo na memória de uma vez.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Imagine beber um oceano com um canudo, um golinho por vez, em vez de engolir tudo."
+    ]
+  },
+  "topRight": {
+    "pill": "STREAMS",
+    "icon": "🖥️",
+    "bullets": [
+      "É o 'canudo': um fluxo contínuo de dados passando aos poucos.",
+      "O Node processa cada pedaço e libera a memória antes do próximo."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Buffer é o 'golinho': um pequeno bloco de dados binários temporário.",
+      "fs.createReadStream('arquivo.txt')"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Upload de vídeos, leitura de logs enormes, backups de banco de dados.",
+      "Módulos: fs, http, zlib, e a lib 'stream' nativa do Node."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O arquivo de 50GB é dividido em pedaços pequenos (chunks)",
+      "PASSO 2: Cada chunk é lido, processado e enviado adiante via Buffer",
+      "PASSO 3: A memória do chunk é liberada e o próximo pedaço entra"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Ler o arquivo todo com fs.readFile trava e derruba a memória RAM.",
+      "Ouro: sempre trate erros com stream.on('error') pra não travar tudo."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Arquivo gigante ➔ Divide em pedaços (Stream) ➔ RAM nunca estoura"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Node/Nest",
+  "escola": "04_backend_e_apis",
+  "foco_pedagogico": "Processando arquivos de 50GB em pedaços contínuos sem estourar a memória RAM"
+}

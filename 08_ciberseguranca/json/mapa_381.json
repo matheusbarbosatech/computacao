@@ -1,0 +1,64 @@
+{
+  "id": 381,
+  "title": "O QUE É DEVSECOPS? (SHIFT LEFT SECURITY)",
+  "definition": "É colocar a segurança dentro do processo de criar software, desde o primeiro commit, e não só no final.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Segurança não é etapa final, é responsabilidade de todo mundo, desde o início."
+    ]
+  },
+  "topRight": {
+    "pill": "SHIFT LEFT",
+    "icon": "🖥️",
+    "bullets": [
+      "Move a checagem de segurança para o começo do desenvolvimento, não pro final.",
+      "Achar erro cedo custa menos tempo e dinheiro que corrigir depois."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Ferramentas de scan rodam automaticamente ao salvar o código.",
+      "git commit -> scan automático -> alerta se achar falha"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Pipelines de CI/CD como GitHub Actions, GitLab CI, Jenkins.",
+      "Ferramentas: SAST, DAST, SCA, Snyk, SonarQube."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Programador escreve e envia o código (commit)",
+      "PASSO 2: Pipeline roda testes de segurança automáticos antes do deploy",
+      "PASSO 3: Se achar risco, bloqueia; se estiver seguro, libera o código"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que segurança é só trabalho do time de segurança.",
+      "Ignorar alertas do scanner porque 'depois eu corrijo'."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Commit ➔ Scan automático de segurança ➔ Código seguro liberado antes de virar problema"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "DevSecOps",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "Integrando testes de segurança no pipeline de código desde o primeiro commit"
+}

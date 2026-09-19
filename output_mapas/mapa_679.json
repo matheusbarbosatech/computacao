@@ -1,0 +1,74 @@
+{
+  "id": 679,
+  "title": "COMO FUNCIONA O MECANISMO DE RECOMENDAÇÃO DA NETFLIX",
+  "definition": "É um sistema que estuda o que milhões de pessoas assistem para adivinhar qual filme você vai gostar em seguida.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Pense na Netflix como um vendedor que observa tudo o que você assiste com atenção.",
+      "Ele não entende o filme em si: ele entende o padrão de gente parecida com você.",
+      "Quem gostou do que você gostou provavelmente vai gostar do que você ainda não viu."
+    ]
+  },
+  "topRight": {
+    "pill": "FILTRAGEM COLABORATIVA",
+    "icon": "🖥️",
+    "bullets": [
+      "É a colaboração: milhares de pessoas 'votam' com o dedo, sem escrever nada.",
+      "Assistir até o fim é voto de amor; abandonar no minuto 3 é voto de rejeição.",
+      "Cada usuário vira uma linha de notas e cada filme vira uma coluna.",
+      "Fatores latentes são gostos escondidos que ninguém nomeia, tipo 'gosta de tensão lenta'."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "A regra: quanto mais parecidos dois gostos, mais forte a recomendação.",
+      "Voce = [5, 1, 4]  |  Vizinho = [5, 2, 4]  ➔ quase iguais ➔ recomende o que falta nele.",
+      "nota_prevista = soma(gosto_seu * peso_do_filme)",
+      "if similaridade > 0.8: recomendar(filme_favorito_do_vizinho)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Na linha 'Recomendados para você' e na arte da capa que aparece na sua tela.",
+      "Em streaming, e-commerce, Spotify, YouTube, Amazon e feeds de redes sociais.",
+      "Ferramentas comuns: Python, Spark, TensorFlow e bibliotecas de fatoração de matrizes."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: você assiste, pausa, abandona ou dá nota - tudo virou dado.",
+      "PASSO 2: o sistema compara você com milhões de perfis e acha os vizinhos mais parecidos.",
+      "PASSO 3: ele prevê suas notas para filmes não vistos e ranqueia os melhores.",
+      "PASSO 4: a tela recebe a lista final, já ordenada pela chance de você gostar."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Quem nunca assistiu a nada recebe recomendação genérica: sem histórico, não há mágica.",
+      "Sistema tende a repetir o óbvio e te prender numa 'bolha' de um só estilo.",
+      "Cuidado com o falso parecido: dois perfis veem o mesmo filme por motivos opostos.",
+      "Dica de ouro: avalie alguns títulos de propósito para treinar o algoritmo rápido."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Você assiste ➔ vira nota ➔ perfil parecido ➔ fatores latentes ➔ previsão ➔ filme sugerido na tela"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Mundo Real",
+  "escola": "02_logica_e_algoritmos",
+  "foco_pedagogico": "Filtragem colaborativa e fatores latentes para sugerir filmes pelo seu gosto"
+}

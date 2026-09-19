@@ -1,0 +1,63 @@
+{
+  "id": 183,
+  "title": "O LEFT JOIN",
+  "definition": "Pega TODOS os registros da tabela da esquerda, mesmo que não tenham par na tabela da direita.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como uma lista de chamada: todo aluno aparece, tenha nota ou não."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O BANCO PENSA",
+    "icon": "🖥️",
+    "bullets": [
+      "Junta as duas tabelas, mas prioriza a tabela da esquerda inteira.",
+      "Se não achar par na direita, preenche com NULL."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "A ordem das tabelas importa: a primeira é a 'dona' da junção.",
+      "SELECT * FROM clientes LEFT JOIN pedidos ON clientes.id = pedidos.cliente_id;"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Achar clientes que nunca fizeram pedido.",
+      "Usado em SQL: MySQL, PostgreSQL, SQL Server."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O banco lê toda a tabela da esquerda.",
+      "PASSO 2: Procura par correspondente na tabela da direita.",
+      "PASSO 3: Se não achar, preenche o espaço com NULL."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Inverter a ordem das tabelas muda todo o resultado.",
+      "Esquecer que colunas da direita virão vazias (NULL) em alguns casos."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Tabela esquerda ➔ Junta com a direita ➔ Sem par? Vira NULL."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "BancoDados",
+  "foco_pedagogico": "Todos da esquerda, mesmo sem par na direita"
+}

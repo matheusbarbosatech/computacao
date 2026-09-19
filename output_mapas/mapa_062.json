@@ -1,0 +1,63 @@
+{
+  "id": 62,
+  "title": "BRANCHES: CRIANDO RAMIFICAÇÕES",
+  "definition": "Branch é uma cópia paralela do seu projeto pra você experimentar sem estragar o original.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como uma linha do tempo alternativa do seu código, isolada da principal."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O GIT ENTENDE",
+    "icon": "🖥️",
+    "bullets": [
+      "Cada branch é só um ponteiro apontando pra um commit específico.",
+      "Mudar de branch troca os arquivos da sua pasta na hora."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Crie e já entre na nova branch de uma vez.",
+      "git checkout -b nova-funcao"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Times inteiros usam branches pra trabalhar em paralelo sem pisar no pé um do outro.",
+      "GitHub, GitLab e Bitbucket organizam tudo em torno de branches."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: A branch 'main' guarda o código principal, funcionando",
+      "PASSO 2: Você cria uma branch nova pra testar sua ideia sem medo",
+      "PASSO 3: Se der certo, você junta (merge) as mudanças de volta na main"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer em qual branch está e commitar no lugar errado.",
+      "Dica de ouro: sempre rode 'git branch' antes de codar pra confirmar."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Nova ideia ➔ cria branch separada ➔ testa sem risco pro código principal"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Git",
+  "foco_pedagogico": "Trabalhando em novas funções sem quebrar o código principal"
+}

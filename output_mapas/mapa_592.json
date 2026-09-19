@@ -1,0 +1,70 @@
+{
+  "id": 592,
+  "title": "NÍVEIS DE ISOLAMENTO DE TRANSAÇÕES: READ COMMITTED VS SERIALIZABLE",
+  "definition": "Níveis de isolamento são regras que controlam o quanto uma transação enxerga o trabalho de outra ao mesmo tempo no banco de dados.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Imagine duas pessoas editando o mesmo arquivo do Google Docs ao mesmo tempo: o isolamento decide se uma vê as alterações da outra imediatamente ou só depois que a outra salvar."
+    ]
+  },
+  "topRight": {
+    "pill": "OS 4 NÍVEIS SQL",
+    "icon": "🖥️",
+    "bullets": [
+      "READ UNCOMMITTED: enxerga tudo, até dados ainda não confirmados (sujo).",
+      "READ COMMITTED: só vê dados já confirmados; evita leitura suja.",
+      "REPEATABLE READ: o que você leu no início não muda até o fim da transação.",
+      "SERIALIZABLE: executa como se as transações fossem uma fila, uma após a outra."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Use SET TRANSACTION ISOLATION LEVEL antes do BEGIN.",
+      "SET TRANSACTION ISOLATION LEVEL READ COMMITTED;",
+      "Em PostgreSQL o padrão é READ COMMITTED; no MySQL é REPEATABLE READ."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Sistemas bancários usam SERIALIZABLE para garantir saldo correto.",
+      "Sites de e-commerce usam READ COMMITTED para ver estoque real.",
+      "PostgreSQL, MySQL, SQL Server e Oracle — todos suportam esses níveis."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "OS 3 FANTASMAS DO BANCO",
+    "icon": "⚙️",
+    "bullets": [
+      "LEITURA SUJA: você lê um dado que outra transação ainda pode desfazer — dado não confiável.",
+      "LEITURA NÃO REPETÍVEL: você lê o mesmo dado duas vezes e recebe valores diferentes na mesma transação.",
+      "LEITURA FANTASMA: você faz a mesma consulta duas vezes e aparecem linhas novas que não estavam lá antes."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que READ COMMITTED resolve tudo — ele ainda sofre com leitura não repetível e fantasma.",
+      "Usar SERIALIZABLE em tudo trava o banco; só use quando a consistência for crítica."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Leitura Suja ➔ barrada pelo READ COMMITTED",
+      "Leitura Não Repetível ➔ barrada pelo REPEATABLE READ",
+      "Leitura Fantasma ➔ barrada apenas pelo SERIALIZABLE"
+    ]
+  },
+  "_modelo_usado": "devworld/deepseek-v4-pro-0813-f",
+  "modulo": "Tuning",
+  "escola": "06_banco_dados_e_ia",
+  "foco_pedagogico": "Os 4 níveis do padrão SQL contra leituras sujas, não repetíveis e fantasmas"
+}

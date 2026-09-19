@@ -1,0 +1,63 @@
+{
+  "id": 51,
+  "title": "CLOSURES DESCOMPLICADAS",
+  "definition": "Closure é uma função que carrega na mochila as variáveis do lugar onde ela nasceu.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "A função não esquece o ambiente onde foi criada, mesmo saindo dele."
+    ]
+  },
+  "topRight": {
+    "pill": "MEMÓRIA DA FUNÇÃO",
+    "icon": "🖥️",
+    "bullets": [
+      "O motor da linguagem guarda essas variáveis vivas na memória.",
+      "Isso evita que o 'lixo' seja apagado enquanto a closure existir."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Função dentro de função acessando variável da função de fora.",
+      "function externa(){ let x=10; return function(){ return x; } }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Contadores, cache e funções privadas no dia a dia do dev.",
+      "Muito comum em JavaScript, Python e Lua."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Uma função é criada dentro de outra função.",
+      "PASSO 2: A função interna guarda uma referência às variáveis externas.",
+      "PASSO 3: Mesmo a função externa terminando, a interna ainda usa esses dados."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que a variável 'reseta' a cada chamada, mas ela persiste.",
+      "Dica de ouro: pense na closure como uma mochila que a função nunca tira."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Função nasce ➔ guarda o ambiente ➔ usa essa memória depois"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Funções",
+  "foco_pedagogico": "Funções que guardam memória do local onde nasceram"
+}

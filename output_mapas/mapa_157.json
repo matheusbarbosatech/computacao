@@ -1,0 +1,63 @@
+{
+  "id": 157,
+  "title": "RELACIONAMENTOS: 1 PARA 1 (1:1)",
+  "definition": "Um registro de uma tabela se conecta com exatamente um registro de outra tabela, e vice-versa.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Um usuário tem só um perfil, e esse perfil pertence só a ele."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O BANCO ENTENDE",
+    "icon": "🖥️",
+    "bullets": [
+      "A tabela 'perfis' guarda uma chave que aponta para um único usuário.",
+      "Essa chave é única, então não pode repetir para outro usuário."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Chave estrangeira com restrição UNIQUE garante o 1:1.",
+      "usuario_id INT UNIQUE REFERENCES usuarios(id)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Sistemas de login separando dados sensíveis dos dados de perfil.",
+      "Comum em MySQL, PostgreSQL, SQLite e ORMs como Prisma e Django."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O usuário se cadastra e ganha um ID único",
+      "PASSO 2: O sistema cria um perfil vinculado só a esse ID",
+      "PASSO 3: Cada busca retorna um usuário com um único perfil"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer o UNIQUE e acabar permitindo vários perfis pro mesmo usuário.",
+      "Dica: se pensar 'poderia ter mais de um', na verdade é 1:N, não 1:1."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Usuário ➔ tem exatamente ➔ um perfil"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "BancoDados",
+  "foco_pedagogico": "Um usuário tem um perfil"
+}

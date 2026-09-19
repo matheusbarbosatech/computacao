@@ -1,0 +1,72 @@
+{
+  "id": 676,
+  "title": "COMO FUNCIONA O CÁLCULO DE ROTA DO UBER",
+  "definition": "O app transforma o mapa em quadradinhos numerados e compara o caminho de todos para achar o motorista mais rápido.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "O mapa do mundo vira uma grade de quadradinhos com nomes próprios.",
+      "Cada quadradinho sabe quais carros e passageiros estão dentro dele.",
+      "Assim o app não olha o planeta inteiro: olha só a vizinhança."
+    ]
+  },
+  "topRight": {
+    "pill": "GEOHASH E CÉLULAS H3",
+    "icon": "🖥️",
+    "bullets": [
+      "Geohash é um apelido curto de texto que representa um pedaço do mapa.",
+      "H3 divide o mundo em hexágonos, como um favo de mel, em vários níveis.",
+      "Hexágono tem vizinhos equidistantes, então comparar distâncias fica mais justo.",
+      "Exemplo: cada nível é um zoom, do hexágono gigante ao da esquina."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Você dá latitude, longitude e o tamanho da célula, e recebe o código dela.",
+      "exemplo: h3.latLngToCell(37.77, -122.41, 9) retorna o hexágono do ponto.",
+      "Regra de ouro: quem está no mesmo código está perto o suficiente para casar."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Apps de corrida, entrega de comida, mototáxi e fretes usam esse emparelhamento.",
+      "Ferramentas comuns: biblioteca H3, PostGIS, Redis com consulta por raio.",
+      "Serviços como Uber, 99, iFood e Lyft rodam isso em tempo real, todo segundo."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O app pega seu GPS e converte em uma célula H3.",
+      "PASSO 2: Ele busca motoristas nas células vizinhas, não no mundo todo.",
+      "PASSO 3: Calcula tempo real de rota com trânsito e escolhe o melhor.",
+      "PASSO 4: Envia a rota pronta para o celular e atualiza sem parar."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Erro clássico: usar distância em linha reta e ignorar ruas e mão única.",
+      "Célula grande demais junta gente longe; pequena demais não acha ninguém.",
+      "Dica de ouro: busque no anel de vizinhos, senão a corrida nunca casa."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "GPS ➔ Célula H3 ➔ Vizinhos próximos ➔ Melhor rota ➔ Corrida confirmada"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Mundo Real",
+  "escola": "02_logica_e_algoritmos",
+  "foco_pedagogico": "Geohashing, células H3 e emparelhamento em tempo real entre motorista e passageiro"
+}

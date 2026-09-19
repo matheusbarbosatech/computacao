@@ -1,0 +1,64 @@
+{
+  "id": 451,
+  "title": "PROGRAMAÇÃO DINÂMICA: MEMOIZAÇÃO VS TABULAÇÃO",
+  "definition": "É guardar a resposta de um problema já resolvido para nunca calcular a mesma coisa duas vezes.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Como anotar num caderno o resultado de uma conta para não refazer ela depois."
+    ]
+  },
+  "topRight": {
+    "pill": "MEMOIZAÇÃO",
+    "icon": "🖥️",
+    "bullets": [
+      "O programa resolve de cima para baixo e guarda cada resposta numa 'gaveta'.",
+      "Antes de calcular, ele checa se já tem a resposta guardada."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Memoização usa recursão + um dicionário para lembrar respostas.",
+      "if n in cache: return cache[n]"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Cálculo de Fibonacci, rotas mais curtas e problemas de otimização.",
+      "Usado em Python, Java, C++ e entrevistas de emprego."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O problema grande é dividido em problemas pequenos parecidos",
+      "PASSO 2: Cada resposta pequena é guardada assim que é calculada",
+      "PASSO 3: Respostas guardadas são reaproveitadas em vez de recalculadas"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que memoização e tabulação são a mesma coisa.",
+      "Esquecer de guardar o resultado e acabar recalculando tudo de novo."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Subproblema repetido ➔ Guarda resultado na primeira vez ➔ Reusa e economiza tempo"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Algoritmos",
+  "escola": "01_ciencia_computacao_uninter",
+  "foco_pedagogico": "Guardando resultados de subproblemas para nunca calcular a mesma coisa duas vezes"
+}

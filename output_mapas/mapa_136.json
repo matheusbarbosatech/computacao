@@ -1,0 +1,63 @@
+{
+  "id": 136,
+  "title": "A CPU: CÉREBRO DO COMPUTADOR",
+  "definition": "A CPU é o componente que executa instruções e faz o computador pensar e decidir.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "A CPU é como o cérebro: recebe ordens, pensa e manda o corpo agir."
+    ]
+  },
+  "topRight": {
+    "pill": "UNIDADE DE CONTROLE",
+    "icon": "🖥️",
+    "bullets": [
+      "É o maestro que organiza a ordem das instruções a executar.",
+      "Decide o que fazer e avisa cada parte da CPU quando agir."
+    ]
+  },
+  "midRight": {
+    "pill": "ULA (UNIDADE LÓGICA E ARITMÉTICA)",
+    "icon": "{ }",
+    "bullets": [
+      "Faz contas e comparações, como somar ou dizer se algo é maior.",
+      "resultado = ULA.somar(2, 3) // resultado = 5"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Todo programa que roda no PC ou celular passa pela CPU.",
+      "Presente em processadores Intel, AMD, Apple Silicon e ARM."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Unidade de Controle busca a próxima instrução na memória",
+      "PASSO 2: ULA processa os dados usando os Registradores como apoio",
+      "PASSO 3: Resultado é guardado de volta em um Registrador ou na memória"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que a ULA guarda dados: ela só calcula, não armazena nada.",
+      "Confundir Registrador com memória RAM: registrador é bem menor e mais rápido."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Controle organiza ➔ ULA calcula ➔ Registrador guarda o resultado rápido"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Hardware",
+  "foco_pedagogico": "Unidade de Controle, ULA e Registradores"
+}

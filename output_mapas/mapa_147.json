@@ -1,0 +1,63 @@
+{
+  "id": 147,
+  "title": "INTRODUÇÃO À NOTAÇÃO BIG-O",
+  "definition": "Big-O é a forma de medir quanto tempo e memória um algoritmo consome conforme os dados crescem.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como medir o esforço de uma receita se os ingredientes dobrarem de quantidade."
+    ]
+  },
+  "topRight": {
+    "pill": "COMPLEXIDADE DE TEMPO",
+    "icon": "🖥️",
+    "bullets": [
+      "Mede quantos passos o algoritmo dá para terminar.",
+      "Quanto maior a entrada, mais passos podem ser necessários."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "O(n) significa que o tempo cresce junto com o tamanho da lista.",
+      "for i in lista: print(i)  # O(n)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Escolher o melhor algoritmo de busca ou ordenação.",
+      "Usado em entrevistas técnicas e otimização de sistemas."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Conte quantas operações o algoritmo faz",
+      "PASSO 2: Veja como esse número cresce com mais dados",
+      "PASSO 3: Classifique com uma letra O (ex: O(n), O(n²))"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Confundir 'mais rápido no seu PC' com 'melhor complexidade'.",
+      "Ignorar o uso de memória, só focar no tempo."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Mais dados ➔ Mais passos ➔ Big-O mede esse crescimento."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "UNINTER",
+  "foco_pedagogico": "Medindo o tempo e memória que o algoritmo consome"
+}

@@ -1,0 +1,63 @@
+{
+  "id": 143,
+  "title": "FILAS (QUEUES): PRINCÍPIO FIFO",
+  "definition": "Fila é uma estrutura onde o primeiro elemento a entrar é o primeiro a sair, como uma fila de banco.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Imagine uma fila de pessoas no caixa: quem chega primeiro, é atendido primeiro."
+    ]
+  },
+  "topRight": {
+    "pill": "FIFO (FIRST IN, FIRST OUT)",
+    "icon": "🖥️",
+    "bullets": [
+      "O computador guarda os itens na ordem exata em que chegaram.",
+      "O item mais antigo na fila é sempre o próximo a sair."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Enqueue adiciona no final, Dequeue remove do início.",
+      "fila.enqueue(5); fila.dequeue();"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Fila de impressão: o primeiro documento enviado imprime primeiro.",
+      "Usado em JavaScript, Python (collections.deque), Java (Queue)."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Um novo item entra e vai para o final da fila",
+      "PASSO 2: O sistema espera até que seja a vez desse item",
+      "PASSO 3: O item da frente é removido e processado"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Confundir com Pilha (LIFO), onde o último a entrar sai primeiro.",
+      "Dica: pense em 'fila de padaria', nunca em 'pilha de pratos'."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Item entra no fim ➔ Espera sua vez ➔ Sai pela frente na ordem de chegada"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "UNINTER",
+  "foco_pedagogico": "Primeiro a entrar, primeiro a sair (ex: fila de impressão)"
+}

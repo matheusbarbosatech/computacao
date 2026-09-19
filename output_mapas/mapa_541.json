@@ -1,0 +1,64 @@
+{
+  "id": 541,
+  "title": "GERENCIAMENTO DE ESTADO NO FLUTTER COM BLOC / CUBIT",
+  "definition": "Bloc e Cubit são cofres que guardam o estado do app e o entregam pronto para a tela.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "A tela não pensa, ela só desenha o que o Bloc manda."
+    ]
+  },
+  "topRight": {
+    "pill": "EVENTO E ESTADO",
+    "icon": "🖥️",
+    "bullets": [
+      "Usuário age, o Bloc recebe um evento, aplica a regra e devolve um estado novo.",
+      "Cubit é o irmão simples: você chama um método e ele emite o estado direto."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Cubit usa emit() dentro de métodos para trocar o estado atual.",
+      "Bloc usa add(Evento()) e on<Evento>() para reagir a cada ação recebida."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Login, carrinho de compras, listas vindas de API e formulários longos em Flutter.",
+      "Pacotes: flutter_bloc, bloc, hydrated_bloc e bloc_test."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: A tela nasce mostrando o estado inicial, quase sempre vazio ou carregando.",
+      "PASSO 2: O usuário age, o evento chega ao Bloc, que roda a regra de negócio.",
+      "PASSO 3: O estado novo sai do Bloc e a tela se redesenha sozinha na hora."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Misturar regra de negócio dentro do widget, criando código impossível de testar.",
+      "Esquecer os estados de carregando e erro, deixando a tela presa sem resposta."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Ação na tela ➔ Evento no Bloc ➔ Regra aplicada ➔ Estado novo ➔ Tela atualiza"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Flutter",
+  "escola": "05_frontend_e_mobile",
+  "foco_pedagogico": "Separando regras de negócio da interface com arquitetura baseada em eventos"
+}

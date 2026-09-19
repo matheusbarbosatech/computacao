@@ -1,0 +1,64 @@
+{
+  "id": 515,
+  "title": "SERVER-SENT EVENTS (SSE): STREAMING UNIDIRECIONAL DE NOTIFICAÇÕES",
+  "definition": "É um jeito do servidor ficar enviando atualizações para o navegador sem parar, como uma rádio ligada.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "O servidor fala e o navegador só escuta, sem responder de volta."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO FUNCIONA",
+    "icon": "🖥️",
+    "bullets": [
+      "O navegador abre uma conexão HTTP e ela fica aberta para sempre.",
+      "O servidor manda pedacinhos de texto sempre que tem novidade."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "No navegador, você escuta os eventos assim:",
+      "new EventSource('/notificacoes')"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Notificações de rede social, placar de jogo em tempo real.",
+      "Feito com JavaScript no front e HTTP simples no back."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Navegador abre uma conexão e fica esperando",
+      "PASSO 2: Servidor detecta uma novidade e envia um evento",
+      "PASSO 3: Navegador recebe e atualiza a tela na hora"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que SSE serve para o navegador enviar dados de volta, não serve.",
+      "Esquecer que a conexão pode cair e precisa reconectar sozinha."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Conexão aberta ➔ servidor envia aviso ➔ tela atualiza sem F5"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Microsserviços",
+  "escola": "04_backend_e_apis",
+  "foco_pedagogico": "Enviando dados contínuos para o navegador sem o peso de um WebSocket"
+}

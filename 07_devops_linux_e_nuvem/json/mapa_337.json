@@ -1,0 +1,64 @@
+{
+  "id": 337,
+  "title": "DASHBOARDS INCRÍVEIS COM GRAFANA",
+  "definition": "Grafana é a ferramenta que transforma números soltos em telas visuais fáceis de entender.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como um painel de carro, mas para o sistema: mostra velocidade, erros e saúde em tempo real."
+    ]
+  },
+  "topRight": {
+    "pill": "PAINÉIS E MÉTRICAS",
+    "icon": "🖥️",
+    "bullets": [
+      "Grafana busca dados em bancos como Prometheus, Loki ou MySQL.",
+      "Cada gráfico é um 'painel' dentro de um 'dashboard' maior."
+    ]
+  },
+  "midRight": {
+    "pill": "CONSULTA (QUERY)",
+    "icon": "{ }",
+    "bullets": [
+      "Você escreve uma pergunta para os dados, tipo um filtro.",
+      "rate(http_erros_total[5m])"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Times de DevOps e SRE monitoram sites e apps 24 horas.",
+      "Usado com Prometheus, Elasticsearch, InfluxDB, PostgreSQL."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O sistema gera dados de tráfego, erros e latência",
+      "PASSO 2: Grafana consulta essa fonte de dados periodicamente",
+      "PASSO 3: Os números aparecem como gráficos e alertas na tela"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Iniciante esquece de ajustar o intervalo de tempo e o gráfico fica vazio.",
+      "Dica de ouro: comece com poucos painéis e adicione um por vez."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Dados brutos ➔ Consulta no Grafana ➔ Gráfico visual para o time"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Observabilidade",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Montando telas visuais com gráficos de tráfego, erros e latência para o time"
+}

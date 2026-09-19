@@ -1,0 +1,63 @@
+{
+  "id": 134,
+  "title": "CONSUMINDO UMA API REAL NA PRÁTICA",
+  "definition": "É pedir dados prontos para um servidor externo, como clima ou cotação, e receber a resposta em JSON.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Você faz uma pergunta pela internet e o servidor responde com dados organizados."
+    ]
+  },
+  "topRight": {
+    "pill": "REQUISIÇÃO E RESPOSTA",
+    "icon": "🖥️",
+    "bullets": [
+      "Seu código envia uma URL e espera a resposta chegar.",
+      "O servidor devolve um texto no formato JSON."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Use fetch() para pedir os dados e .json() para transformá-los.",
+      "fetch(url).then(res => res.json()).then(dados => console.log(dados))"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Apps de previsão do tempo, busca de endereço por CEP e conversor de moedas.",
+      "APIs como ViaCEP, OpenWeather e AwesomeAPI."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você monta a URL com a informação que quer, como o CEP",
+      "PASSO 2: O fetch() envia o pedido e aguarda a resposta chegar",
+      "PASSO 3: O JSON chega e você lê os dados dentro dele"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer que a resposta demora e tentar usar os dados antes de chegarem.",
+      "Digitar errado o nome da chave do JSON, como 'temperatura' em vez de 'temp'."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Pedir dados ➔ Esperar resposta ➔ Ler o JSON recebido"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Web",
+  "foco_pedagogico": "Recebendo JSON de clima, CEP ou cotação de moedas"
+}

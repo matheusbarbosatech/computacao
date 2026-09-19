@@ -1,0 +1,70 @@
+{
+  "id": 580,
+  "title": "A CARREIRA DE FRONT-END SPECIALIST: DO JÚNIOR AO TECH LEAD",
+  "definition": "A jornada de quem constrói interfaces web, evoluindo de executor de tarefas a arquiteto de soluções e líder técnico.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Front-end não é só fazer telas bonitas — é a ponte entre pessoas, negócio e tecnologia."
+    ]
+  },
+  "topRight": {
+    "pill": "COMPETÊNCIAS TÉCNICAS",
+    "icon": "🧠",
+    "bullets": [
+      "Júnior: domina HTML, CSS, JS e resolve bugs com supervisão.",
+      "Pleno: componentização, testes, performance e autonomia nas entregas.",
+      "Sênior: arquitetura front-end, design system, acessibilidade e mentoria."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "A Regra de Ouro: domine o fundamento antes do framework.",
+      "Antes de React ou Vue, entenda bem JavaScript puro, DOM e semântica HTML.",
+      "Exemplo: saber por que useState funciona evita bugs que o tutorial não ensina."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Todo produto digital tem interface: sites, apps, dashboards, e-commerces.",
+      "Ferramentas comuns: React, Vue, Angular, Next.js, TypeScript, Figma.",
+      "Mas o diferencial está no pensamento crítico, não na ferramenta da moda."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "JÚNIOR: executa tarefas prontas, aprende o básico e pede ajuda.",
+      "PLENO: entrega funcionalidades completas e já sugere melhorias.",
+      "SÊNIOR: pensa o todo, define padrões e guia o time tecnicamente.",
+      "ESPECIALISTA/TECH LEAD: conecta tecnologia ao negócio, lidera pessoas e desbloqueia o time."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Pular os fundamentos e ir direto para o framework hype do momento.",
+      "Achar que liderar é mandar — liderança é servir, ouvir e destravar os outros.",
+      "Dica de ouro: estude produto e negócio tanto quanto estuda código."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Base técnica sólida ➔ Visão de produto ➔ Liderança servidora.",
+      "Júnior pergunta 'como fazer?'. Tech Lead pergunta 'por que fazer?'."
+    ]
+  },
+  "_modelo_usado": "devworld/deepseek-v4-pro-0813-f",
+  "modulo": "Front-end",
+  "escola": "05_frontend_e_mobile",
+  "foco_pedagogico": "As competências técnicas, visão de produto e liderança para evoluir na carreira"
+}

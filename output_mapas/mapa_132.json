@@ -1,0 +1,67 @@
+{
+  "id": 132,
+  "title": "CÓDIGOS DE STATUS HTTP",
+  "definition": "São números que o servidor devolve para dizer o que aconteceu com seu pedido.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como um recibo: o servidor avisa se deu certo, se você errou ou se ele quebrou."
+    ]
+  },
+  "topRight": {
+    "pill": "FAMÍLIAS DE CÓDIGOS",
+    "icon": "🖥️",
+    "bullets": [
+      "2xx significa sucesso, tudo funcionou como esperado.",
+      "4xx é erro seu, 5xx é erro do servidor."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Todo código HTTP tem 3 dígitos e vem numa resposta.",
+      "status: 404, mensagem: 'Página não encontrada'"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Aparece toda vez que um navegador acessa um site ou uma API.",
+      "Usado em APIs REST, sites, apps mobile e testes."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você pede algo ao servidor (ex: abrir uma página)",
+      "PASSO 2: O servidor tenta processar esse pedido",
+      "PASSO 3: Ele responde com um código explicando o resultado"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Confundir 400 (você errou o pedido) com 500 (o servidor quebrou).",
+      "Achar que 201 é igual a 200: 201 é criação, não só sucesso."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "200 OK ➔ Deu certo",
+      "201 Created ➔ Algo novo foi criado",
+      "400 Bad Request ➔ Você mandou errado",
+      "404 Not Found ➔ Isso não existe",
+      "500 Error ➔ O servidor quebrou"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Web",
+  "foco_pedagogico": "200 OK, 201 Created, 400 Bad Request, 404 Not Found, 500 Error"
+}

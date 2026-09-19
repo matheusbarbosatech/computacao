@@ -1,0 +1,64 @@
+{
+  "id": 269,
+  "title": "SSH E AUTENTICAÇÃO POR CHAVES PÚBLICAS E PRIVADAS",
+  "definition": "SSH é um túnel seguro para acessar computadores remotos, e as chaves substituem senhas fracas por um cadeado matemático.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como ter uma fechadura especial que só abre com uma chave física única, nunca copiável."
+    ]
+  },
+  "topRight": {
+    "pill": "CHAVE PÚBLICA E PRIVADA",
+    "icon": "🖥️",
+    "bullets": [
+      "A chave pública fica no servidor, como um cadeado aberto para todos verem.",
+      "A chave privada fica só no seu computador e nunca deve ser compartilhada."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Gere o par de chaves com um comando simples no terminal.",
+      "ssh-keygen -t ed25519 -C \"seu_email@exemplo.com\""
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Acesso a servidores na nuvem, deploy automático e Git via SSH.",
+      "Ferramentas: GitHub, AWS EC2, DigitalOcean, GitLab."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você gera o par de chaves no seu computador local.",
+      "PASSO 2: A chave pública é copiada para o servidor remoto autorizado.",
+      "PASSO 3: O servidor confirma que só você tem a chave privada e libera o acesso."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Nunca envie a chave privada (arquivo sem .pub) para ninguém, nem por engano.",
+      "Sempre proteja a chave privada com uma senha (passphrase) extra."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Chave privada guardada ➔ Chave pública no servidor ➔ Acesso seguro sem senha"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Linux",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Acessando servidores remotos com segurança máxima sem usar senhas fracas"
+}

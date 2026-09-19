@@ -1,0 +1,66 @@
+{
+  "id": 624,
+  "title": "DEEP LEARNING: REDES CONVOLUCIONAIS (CNN) PARA VISÃO COMPUTACIONAL",
+  "definition": "CNN é uma rede neural que aprende a reconhecer rostos e objetos varrendo a imagem com pequenos filtros.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "A máquina não vê a foto inteira: ela examina quadradinhos e junta as pistas."
+    ]
+  },
+  "topRight": {
+    "pill": "CONVOLUÇÃO NA PRÁTICA",
+    "icon": "🖥️",
+    "bullets": [
+      "Um filtro pequeno desliza pela imagem e multiplica os pixels vizinhos.",
+      "O resultado vira um mapa que destaca onde o padrão apareceu.",
+      "Camadas iniciais acham bordas; camadas fundas acham olhos e rodas."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Sintaxe: escolhe quantos filtros usar e o tamanho da janela que varre.",
+      "exemplo(Conv2D(32,(3,3),activation='relu'))"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Desbloqueio facial do celular, leitura de placas e diagnóstico por exame.",
+      "Linguagens e ferramentas: Python com TensorFlow, PyTorch e Keras."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: A imagem entra como números de 0 a 255 por pixel.",
+      "PASSO 2: Filtros varrem a imagem e o pooling reduz o tamanho.",
+      "PASSO 3: A camada final responde: é rosto, é gato ou é carro."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Erro clássico: achar que a rede olha a foto inteira de uma vez.",
+      "Dica de ouro: divida pixels por 255 antes de treinar; convergi muito mais rápido.",
+      "Poucas imagens geram decoreba; use aumento de dados para variar exemplos."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Imagem ➔ filtros varrem ➔ padrões surgem ➔ rede decide o que é"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Machine Learning",
+  "escola": "06_banco_dados_e_ia",
+  "foco_pedagogico": "Como computadores identificam rostos e objetos em imagens com filtros de convolução"
+}

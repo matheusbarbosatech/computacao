@@ -1,0 +1,64 @@
+{
+  "id": 204,
+  "title": "DICIONÁRIOS PYTHON: CHAVE E VALOR",
+  "definition": "Dicionário guarda informações em pares: uma chave única aponta direto para um valor.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como uma agenda de contatos: você busca pelo nome (chave), não pela posição."
+    ]
+  },
+  "topRight": {
+    "pill": "HASH TABLE POR DENTRO",
+    "icon": "🖥️",
+    "bullets": [
+      "Python transforma a chave num código numérico (hash) para achar o endereço na memória.",
+      "Não precisa varrer item por item, vai direto ao ponto certo."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Use chaves {} com formato chave: valor, separados por vírgula.",
+      "aluno = {'nome': 'Ana', 'idade': 20}"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Guardar dados de usuários, configurações e respostas de APIs.",
+      "Muito comum em JSON, bancos NoSQL e cache de sistemas."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você pede o valor usando a chave, ex: aluno['nome']",
+      "PASSO 2: Python calcula o hash da chave e acha o endereço exato",
+      "PASSO 3: O valor é retornado na hora, sem procurar nada mais"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Buscar uma chave que não existe gera erro KeyError, sempre confira antes.",
+      "Use .get('chave') para buscar com segurança, sem travar o programa."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Chave ➔ Hash calcula endereço ➔ Valor entregue instantaneamente"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Python Básico",
+  "escola": "03_python_especialista",
+  "foco_pedagogico": "Busca ultrarrápida via Hash Table sem varrer lista inteira"
+}

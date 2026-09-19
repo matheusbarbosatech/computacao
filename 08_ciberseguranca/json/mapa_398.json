@@ -1,0 +1,64 @@
+{
+  "id": 398,
+  "title": "SEGURANÇA WI-FI: WPA2 VS WPA3",
+  "definition": "É o cadeado que protege sua rede sem fio para estranhos não lerem nem invadirem seus dados.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Wi-Fi usa senha e criptografia para embaralhar tudo que trafega pelo ar."
+    ]
+  },
+  "topRight": {
+    "pill": "WPA2 VS WPA3",
+    "icon": "🖥️",
+    "bullets": [
+      "WPA2 usa um aperto de mão (handshake) que pode ser roubado e quebrado.",
+      "WPA3 troca esse aperto de mão por um método mais forte chamado SAE."
+    ]
+  },
+  "midRight": {
+    "pill": "HANDSHAKE EM AÇÃO",
+    "icon": "{ }",
+    "bullets": [
+      "É a troca inicial de mensagens que gera a chave secreta da conexão.",
+      "capturar_handshake() ➔ tentar_quebrar_senha_offline()"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Testes de segurança com ferramentas como Aircrack-ng e Wireshark.",
+      "Redes domésticas, empresas e provas de pentest autorizado."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "COMO UM ATAQUE ACONTECE",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Atacante cria rede falsa idêntica (evil twin)",
+      "PASSO 2: Envia desautenticação para expulsar o cliente da rede real",
+      "PASSO 3: Cliente reconecta e o handshake é capturado ou roubado"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que WPA2 é totalmente seguro; ele é vulnerável a captura de handshake.",
+      "Confundir evil twin com a rede real só porque o nome é igual."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Desautenticação ➔ Reconexão forçada ➔ Handshake roubado ou rede clonada"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Ameaças",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "Ataques de handshake, evil twin e desautenticação de clientes"
+}

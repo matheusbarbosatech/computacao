@@ -1,0 +1,63 @@
+{
+  "id": 139,
+  "title": "O QUE FAZ UM SISTEMA OPERACIONAL?",
+  "definition": "É o maestro que organiza o hardware do computador para que os programas funcionem sem bagunça.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É o programa mestre que liga tudo: memória, disco, tela e teclado."
+    ]
+  },
+  "topRight": {
+    "pill": "GERENCIADOR DE RECURSOS",
+    "icon": "🖥️",
+    "bullets": [
+      "Decide qual programa usa o processador e quando.",
+      "Distribui memória para cada aplicativo sem conflito."
+    ]
+  },
+  "midRight": {
+    "pill": "DRIVERS: OS TRADUTORES",
+    "icon": "{ }",
+    "bullets": [
+      "Driver traduz o pedido do sistema para a linguagem do hardware.",
+      "sistema.pedir('imprimir') → driver traduz → impressora executa"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE ELE ATUA",
+    "icon": "</>",
+    "bullets": [
+      "Está presente em celulares, notebooks e servidores.",
+      "Exemplos: Windows, macOS, Linux, Android."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "COMO O MAESTRO TRABALHA",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Programa pede acesso a um recurso do hardware",
+      "PASSO 2: Sistema verifica permissão e organiza a fila de uso",
+      "PASSO 3: Recurso é liberado e o resultado volta ao programa"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que o sistema operacional é só a tela que você vê.",
+      "Dica: sem ele, nenhum programa acessa o hardware."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Pedido do programa ➔ Sistema organiza e traduz ➔ Hardware responde com segurança."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "SO",
+  "foco_pedagogico": "O maestro que gerencia hardware, drivers e segurança"
+}

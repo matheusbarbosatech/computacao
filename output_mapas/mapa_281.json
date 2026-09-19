@@ -1,0 +1,64 @@
+{
+  "id": 281,
+  "title": "PROXY REVERSO E BALANCEAMENTO DE CARGA COM NGINX",
+  "definition": "É um porteiro que recebe todos os pedidos e decide para qual servidor interno enviar cada um.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "O cliente fala só com o Nginx, nunca direto com os servidores reais."
+    ]
+  },
+  "topRight": {
+    "pill": "PROXY REVERSO",
+    "icon": "🖥️",
+    "bullets": [
+      "Nginx recebe a requisição e repassa para um servidor back-end escolhido.",
+      "O cliente nem sabe quantos servidores existem por trás."
+    ]
+  },
+  "midRight": {
+    "pill": "CONFIGURAÇÃO NGINX",
+    "icon": "{ }",
+    "bullets": [
+      "Bloco upstream lista os servidores disponíveis.",
+      "upstream app { server 10.0.0.1; server 10.0.0.2; }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Sites com muitos acessos simultâneos e APIs em produção.",
+      "Ferramentas: Nginx, HAProxy, Traefik."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO DE DISTRIBUIÇÃO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Cliente envia requisição para o Nginx",
+      "PASSO 2: Nginx escolhe um servidor da lista upstream",
+      "PASSO 3: Servidor escolhido responde e o Nginx entrega ao cliente"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de reiniciar o Nginx após mudar a configuração.",
+      "Achar que balanceamento resolve servidor lento sem investigar a causa."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Requisição chega ➔ Nginx escolhe servidor ➔ Carga distribuída igualmente"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Redes",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Recebendo requisições e distribuindo entre servidores back-end"
+}

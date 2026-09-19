@@ -1,0 +1,64 @@
+{
+  "id": 462,
+  "title": "OPEN/CLOSED PRINCIPLE (OCP)",
+  "definition": "Seu código deve permitir novas funcionalidades sem precisar editar o que já funciona.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Pense numa tomada elétrica: você pluga um novo aparelho sem abrir a parede."
+    ]
+  },
+  "topRight": {
+    "pill": "ABERTO x FECHADO",
+    "icon": "🖥️",
+    "bullets": [
+      "Aberto para EXTENSÃO: você pode adicionar comportamento novo.",
+      "Fechado para MODIFICAÇÃO: o código antigo não é tocado."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Use interfaces ou classes abstratas para criar 'encaixes' extensíveis.",
+      "interface Desconto { calcular(valor) }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Sistemas de pagamento, plugins, regras de negócio que mudam com frequência.",
+      "Comum em Java, C#, TypeScript com padrões Strategy e Factory."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Identifique uma regra que muda com o tempo (ex: tipos de desconto)",
+      "PASSO 2: Crie uma interface e mova a regra para classes separadas",
+      "PASSO 3: Para nova regra, crie uma nova classe, sem editar as antigas"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Encher o código de 'if/else' para cada caso novo quebra o OCP.",
+      "Dica de ouro: se toda feature nova exige editar código antigo, revise o design."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Nova regra ➔ Nova classe ➔ Código antigo intacto e seguro"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Arquitetura",
+  "escola": "04_backend_e_apis",
+  "foco_pedagogico": "Adicionando novas funcionalidades sem alterar código já testado em produção"
+}

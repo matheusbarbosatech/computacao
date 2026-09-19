@@ -1,0 +1,63 @@
+{
+  "id": 26,
+  "title": "OPERADOR TERNÁRIO (IF EM 1 LINHA)",
+  "definition": "É um jeito curto de escrever um if-else simples numa única linha de código.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Pergunta algo, e escolhe entre 2 respostas na hora."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO FUNCIONA",
+    "icon": "🖥️",
+    "bullets": [
+      "O computador testa a condição antes de mais nada.",
+      "Se for verdadeira, pega o primeiro valor; senão, o segundo."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "condicao ? valorSeSim : valorSeNao",
+      "idade >= 18 ? 'Maior' : 'Menor'"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Para deixar código mais curto e legível em decisões simples.",
+      "Comum em JavaScript, Java, C#, PHP, Python (forma parecida)."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O computador avalia a condição antes do '?'",
+      "PASSO 2: Decide se é verdadeira ou falsa",
+      "PASSO 3: Devolve o valor da esquerda ou da direita do ':'"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Usar ternário para lógica complexa deixa o código confuso.",
+      "Esquecer os dois-pontos ':' quebra o código."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Condição ➔ Testa Verdadeiro/Falso ➔ Retorna um dos dois valores"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Lógica",
+  "foco_pedagogico": "condicao ? valorSeSim : valorSeNao"
+}

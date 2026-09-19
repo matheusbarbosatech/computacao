@@ -1,0 +1,65 @@
+{
+  "id": 647,
+  "title": "BUSCA LINEAR VS BUSCA BINÁRIA: DE O(n) PARA O(log n)",
+  "definition": "Busca linear olha item por item até achar; busca binária corta a lista pela metade a cada tentativa.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Procurar algo numa lista é como adivinhar o número secreto: o truque é chutar o meio.",
+      "Se a lista está ordenada, você nunca precisa olhar todos os itens."
+    ]
+  },
+  "topRight": {
+    "pill": "BUSCA LINEAR O(n)",
+    "icon": "🖥️",
+    "bullets": [
+      "O computador percorre a lista do começo ao fim, um item por vez.",
+      "Dobra o trabalho a cada item novo: 1.000 itens = até 1.000 checagens."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Em Python, o operador 'in' faz uma busca linear escondida por trás.",
+      "lista.index(7)  # percorre tudo até encontrar o 7"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Lista pequena ou desordenada: busca linear resolve rápido e sem frescura.",
+      "Ferramentas: indexOf e includes em JavaScript, .find() e list.index() em Python."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Olhe o item do meio da lista já ordenada",
+      "PASSO 2: É maior que o alvo? Descarte a metade da direita",
+      "PASSO 3: Repita até achar o item ou sobrar zero item"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Erro clássico: usar busca binária em lista desordenada; o resultado sai errado.",
+      "Dica de ouro: calcule o meio com (inicio + fim) // 2 e ajuste os limites."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Lista ordenada ➔ chuta o meio ➔ descarta metade ➔ acha em poucos passos (O(log n))"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Algoritmos",
+  "escola": "02_logica_e_algoritmos",
+  "foco_pedagogico": "Adivinhando o número secreto cortando a lista pela metade a cada tentativa"
+}

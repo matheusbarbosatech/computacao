@@ -1,0 +1,64 @@
+{
+  "id": 341,
+  "title": "A TRÍADE CIA: OS 3 MANDAMENTOS DA SEGURANÇA",
+  "definition": "São as 3 regras de ouro que garantem que uma informação esteja protegida, correta e acessível.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Pense num cofre de banco: só quem pode vê, nada é trocado, e abre quando precisa."
+    ]
+  },
+  "topRight": {
+    "pill": "CONFIDENCIALIDADE",
+    "icon": "🔒",
+    "bullets": [
+      "Só pessoas autorizadas podem ver a informação.",
+      "Sistema esconde dados de quem não tem permissão."
+    ]
+  },
+  "midRight": {
+    "pill": "INTEGRIDADE",
+    "icon": "{ }",
+    "bullets": [
+      "Garante que o dado não foi alterado sem permissão.",
+      "hash(arquivo) confere se o conteúdo mudou."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Bancos, hospitais, redes sociais e sistemas de login.",
+      "Ferramentas: criptografia, backups, firewalls, senhas."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO DA PROTEÇÃO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Dado é criado e classificado como sensível",
+      "PASSO 2: Sistema aplica senha, criptografia e controle de acesso",
+      "PASSO 3: Usuário autorizado acessa o dado íntegro e disponível"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que só senha forte já resume toda a segurança.",
+      "Dica: sem Disponibilidade, dado seguro e correto não serve de nada."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Confidencialidade ➔ Integridade ➔ Disponibilidade = Dado protegido"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Fundamentos",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "Os 3 mandamentos essenciais da segurança da informação"
+}

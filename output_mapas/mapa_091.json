@@ -1,0 +1,63 @@
+{
+  "id": 91,
+  "title": "DESESTRUTURAÇÃO DE ARRAYS",
+  "definition": "É pegar valores de dentro de um array e colocar em variáveis separadas, de forma rápida.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Como abrir uma caixa de bombons e já nomear cada doce ao tirar."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O JS ENTENDE",
+    "icon": "🖥️",
+    "bullets": [
+      "O computador olha a posição do array e copia o valor.",
+      "A ordem das variáveis segue a ordem dos itens."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Colchetes na esquerda representam as posições do array.",
+      "const [primeiro, segundo] = lista;"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Muito comum ao trabalhar com JavaScript e React.",
+      "Usado para pegar coordenadas, pares de valores e respostas de funções."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Existe um array chamado lista, ex: [10, 20]",
+      "PASSO 2: primeiro recebe o item da posição 0",
+      "PASSO 3: segundo recebe o item da posição 1"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Trocar a ordem das variáveis muda qual valor cada uma recebe.",
+      "Se o array tiver menos itens, a variável sobra como undefined."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Array [10,20] ➔ desestruturar ➔ primeiro=10, segundo=20"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Coleções",
+  "foco_pedagogico": "const [primeiro, segundo] = lista"
+}

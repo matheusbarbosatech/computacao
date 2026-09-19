@@ -1,0 +1,64 @@
+{
+  "id": 438,
+  "title": "CLASSES DE COMPLEXIDADE: P vs NP",
+  "definition": "É a diferença entre problemas fáceis de resolver e problemas fáceis só de checar a resposta.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "P são problemas rápidos de resolver. NP são problemas rápidos de verificar a resposta."
+    ]
+  },
+  "topRight": {
+    "pill": "CLASSE P",
+    "icon": "🖥️",
+    "bullets": [
+      "O computador acha a resposta em tempo razoável, mesmo com dados grandes.",
+      "Exemplo: ordenar uma lista de nomes."
+    ]
+  },
+  "midRight": {
+    "pill": "CLASSE NP",
+    "icon": "{ }",
+    "bullets": [
+      "Achar a resposta pode ser difícil, mas checar se está certa é rápido.",
+      "sudoku_resolvido.verificar() // rápido"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Criptografia, logística, otimização de rotas e escalas.",
+      "Áreas: segurança digital, engenharia, IA."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "COMO PENSAR NO PROBLEMA",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Alguém te dá uma resposta pronta",
+      "PASSO 2: Você confere rapidinho se ela funciona",
+      "PASSO 3: Se checar é fácil mas resolver é difícil, é NP"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que NP significa 'não é P', na verdade P está dentro de NP.",
+      "P = NP ainda não tem prova, é um dos maiores mistérios da computação."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Quebra-cabeça pronto ➔ Confere as peças ➔ Fácil de checar, difícil de montar"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Teoria",
+  "escola": "01_ciencia_computacao_uninter",
+  "foco_pedagogico": "Problemas fáceis de resolver vs problemas fáceis de verificar a resposta"
+}

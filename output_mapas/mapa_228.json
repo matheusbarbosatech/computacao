@@ -1,0 +1,64 @@
+{
+  "id": 228,
+  "title": "O PARÂMETRO SELF DESMISTIFICADO",
+  "definition": "Self é a forma do objeto dizer 'estou falando de mim mesmo' dentro da classe.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Self é o crachá que o objeto usa para se identificar dentro dos métodos."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O PYTHON TRATA ISSO",
+    "icon": "🖥️",
+    "bullets": [
+      "Python passa o próprio objeto automaticamente para o método.",
+      "Você chama sem passar, mas ele chega escondido."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Todo método da classe começa com self como primeiro parâmetro.",
+      "def falar(self): print(self.nome)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Presente em toda classe de Python, sem exceção.",
+      "Java e C# usam 'this', mesma ideia com nome diferente."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você cria um objeto a partir da classe",
+      "PASSO 2: Ao chamar um método, Python injeta o objeto como self",
+      "PASSO 3: Self acessa os dados daquele objeto específico"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de colocar self no método causa erro de argumento.",
+      "Self não é palavra reservada, é só um nome combinado."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Objeto criado ➔ Self aponta pra ele ➔ Método sabe de quem é o dado"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "POO Python",
+  "escola": "03_python_especialista",
+  "foco_pedagogico": "Como cada objeto sabe quem ele é dentro da classe"
+}

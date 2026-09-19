@@ -1,0 +1,65 @@
+{
+  "id": 674,
+  "title": "COMO FUNCIONA O SISTEMA DE BUSCA COM AUTOCOMPLETE DO GOOGLE",
+  "definition": "Enquanto você digita, o Google prevê o resto da frase usando uma árvore de letras ultrarrápida que lembra o que milhões de pessoas já buscaram antes.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Cada letra que você digita percorre um mapa mental de palavras organizado como galhos de árvore.",
+      "As sugestões mais populares aparecem primeiro, combinando cache veloz com histórico de buscas."
+    ]
+  },
+  "topRight": {
+    "pill": "ÁRVORE TRIE NA MEMÓRIA",
+    "icon": "🖥️",
+    "bullets": [
+      "Imagine um índice telefônico: cada letra é uma ramificação que leva a palavras completas armazenadas nos nós.",
+      "Prefixo 'gato' e 'galo' compartilham o tronco 'ga', economizando espaço e acelerando a busca."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Cada nó da Trie guarda um contador: quantas vezes aquela palavra foi buscada no mundo real.",
+      "Exemplo: nó['g']['a']['t']['o'].frequencia = 50 milhões de buscas; sugestões ordenadas do maior para o menor."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Google Search, YouTube, Amazon, Uber Eats — qualquer busca preditiva usa Trie ou variação dela.",
+      "IDEs de programação (autocomplete de código), teclados de celular e assistentes de voz também aplicam essa lógica."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você digita 'piz'. O sistema consulta a Trie cacheada em RAM e localiza o nó do prefixo 'piz'.",
+      "PASSO 2: A partir desse nó, percorre todos os caminhos-filhos (pizza, pizzaria, pizzaiolo) e coleta as frequências.",
+      "PASSO 3: Ordena do mais buscado para o menos, aplica filtros de conteúdo e exibe as 4 a 10 sugestões em milissegundos."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Erro clássico: achar que o Google consulta o banco de dados inteiro a cada tecla. Na verdade, tudo está pré-carregado em cache RAM.",
+      "Dica de ouro: buscas novas sem histórico (cold start) usam fallback para trending topics e localização do usuário."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Digitar letra ➔ Percorrer Trie em cache RAM ➔ Coletar contadores de frequência ➔ Ordenar os mais buscados ➔ Exibir sugestões"
+    ]
+  },
+  "_modelo_usado": "devworld/deepseek-v4-pro-0813-f",
+  "modulo": "Mundo Real",
+  "escola": "02_logica_e_algoritmos",
+  "foco_pedagogico": "Árvores Trie em memória cache combinadas com frequência histórica de buscas"
+}

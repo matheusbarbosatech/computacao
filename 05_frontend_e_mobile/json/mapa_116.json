@@ -1,0 +1,63 @@
+{
+  "id": 116,
+  "title": "COMO FUNCIONA A INTERNET",
+  "definition": "A internet é uma rede gigante onde computadores trocam pedidos e respostas para você ver sites e enviar mensagens.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Um computador pede algo e outro computador responde, como num restaurante."
+    ]
+  },
+  "topRight": {
+    "pill": "CLIENTE E SERVIDOR",
+    "icon": "🖥️",
+    "bullets": [
+      "Cliente é seu celular ou navegador, quem faz o pedido.",
+      "Servidor é o computador que guarda o site e envia a resposta."
+    ]
+  },
+  "midRight": {
+    "pill": "ENDEREÇO E PROTOCOLO",
+    "icon": "{ }",
+    "bullets": [
+      "Cada site tem um endereço único chamado URL.",
+      "https://www.exemplo.com"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Todo site, app e jogo online usa esse modelo pedido-resposta.",
+      "Exemplos: navegadores, apps de streaming, redes sociais."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você digita o endereço e o cliente envia um pedido",
+      "PASSO 2: O servidor recebe, processa e prepara a resposta",
+      "PASSO 3: O servidor devolve os dados e a página aparece na tela"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que o site está 'dentro' do seu celular, mas ele está em outro lugar.",
+      "Esquecer que sem internet o cliente não consegue enviar o pedido."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Cliente pede ➔ Servidor responde ➔ Página aparece na tela"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Web",
+  "foco_pedagogico": "O modelo cliente pedindo e servidor respondendo"
+}

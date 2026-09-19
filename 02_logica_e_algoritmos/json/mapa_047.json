@@ -1,0 +1,63 @@
+{
+  "id": 47,
+  "title": "FUNÇÕES ANÔNIMAS",
+  "definition": "É uma função sem nome, criada na hora, para ser usada uma única vez.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como um post-it com uma tarefa, sem etiqueta de nome."
+    ]
+  },
+  "topRight": {
+    "pill": "FUNÇÃO COMO VALOR",
+    "icon": "🖥️",
+    "bullets": [
+      "O computador trata a função como um dado, igual número ou texto.",
+      "Pode guardar em variável, passar de presente ou devolver."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Não tem nome depois da palavra function ou =>.",
+      "const dobro = (x) => x * 2;"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Muito usada em callbacks, filtros e ordenação de listas.",
+      "JavaScript (arrow function), Python (lambda), Java (lambda)."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você cria a função na hora, sem batizar ela.",
+      "PASSO 2: Entrega essa função como argumento para outra função.",
+      "PASSO 3: A função é executada quando chega sua vez, e some depois."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que precisa de nome para a função funcionar.",
+      "Dica: se você só vai usar uma vez, nem precisa nomear."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Sem nome ➔ Passa como valor ➔ Executa quando chamada."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Funções",
+  "foco_pedagogico": "Funções sem nome passadas como valores"
+}

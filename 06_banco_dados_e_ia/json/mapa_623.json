@@ -1,0 +1,65 @@
+{
+  "id": 623,
+  "title": "REDES NEURAIS ARTIFICIAIS (ANN) E BACKPROPAGATION",
+  "definition": "Uma rede neural é um conjunto de neurônios artificiais organizados em camadas que aprendem ajustando seus pesos para errar cada vez menos.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Pense em vários interruptores em sequência: cada um tem um peso que decide quanto de informação passa.",
+      "Aprender aqui significa apenas corrigir esses pesos até a resposta sair certa."
+    ]
+  },
+  "topRight": {
+    "pill": "CAMADAS E NEURÔNIOS",
+    "icon": "🖥️",
+    "bullets": [
+      "A rede recebe números, multiplica por pesos, soma tudo e aplica uma função de ativação.",
+      "A saída de uma camada vira a entrada da camada seguinte, até chegar à resposta final."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "A regra de ouro: novo_peso = peso - taxa_aprendizado * gradiente",
+      "erro = resposta_certa - resposta_da_rede; peso = peso + 0.1 * erro * entrada"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Reconhecer rostos, traduzir textos, recomendar filmes e ler exames médicos.",
+      "Em Python: PyTorch, TensorFlow e Keras já trazem tudo pronto."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: A rede chuta uma resposta usando os pesos atuais (ida).",
+      "PASSO 2: Compara com a resposta correta e mede o tamanho do erro.",
+      "PASSO 3: O backpropagation devolve o erro camada por camada, ajustando os pesos (volta)."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Taxa de aprendizado alta demais faz o erro oscilar e nunca estabilizar.",
+      "Poucos dados fazem a rede decorar exemplos em vez de aprender a regra."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Chute da rede ➔ Erro medido ➔ Backpropagation ajusta os pesos ➔ Chute melhor"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Machine Learning",
+  "escola": "06_banco_dados_e_ia",
+  "foco_pedagogico": "Camadas de neurônios ajustando seus pesos através do gradiente descendente"
+}

@@ -1,0 +1,69 @@
+{
+  "id": 414,
+  "title": "HIERARQUIA DE MEMÓRIA: DA VELOCIDADE À CAPACIDADE",
+  "definition": "É a organização da memória do computador em camadas, trocando velocidade por espaço quanto mais longe do processador.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Quanto mais rápida a memória, menor e mais cara ela é."
+    ]
+  },
+  "topRight": {
+    "pill": "AS CAMADAS",
+    "icon": "🖥️",
+    "bullets": [
+      "Registradores: dentro do processador, guardam poucos bytes.",
+      "Cache L1, L2, L3: memórias intermediárias cada vez maiores e mais lentas.",
+      "RAM: memória principal, rápida mas some ao desligar.",
+      "SSD: armazenamento permanente, lento comparado à RAM."
+    ]
+  },
+  "midRight": {
+    "pill": "TAMANHOS TÍPICOS",
+    "icon": "{ }",
+    "bullets": [
+      "Registrador: poucos bytes (ex: 64 bits).",
+      "L1: ~32KB | L2: ~256KB | L3: ~8MB",
+      "RAM: 8GB a 32GB | SSD: 256GB a 2TB"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE ISSO IMPACTA",
+    "icon": "</>",
+    "bullets": [
+      "Otimização de código para caber dados no cache.",
+      "Escolha de RAM e SSD ao montar um PC ou servidor.",
+      "Bancos de dados usam RAM para consultas rápidas."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "COMO O DADO VIAJA",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Processador procura o dado no Registrador (mais rápido).",
+      "PASSO 2: Se não achar, busca no Cache (L1 > L2 > L3).",
+      "PASSO 3: Se ainda não achar, vai até a RAM ou o SSD (mais lento)."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que mais RAM sempre resolve lentidão, ignorando o cache.",
+      "Dica de ouro: pense nisso como uma mesa de estudos.",
+      "Registrador é o que está na sua mão, SSD é o livro na estante."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Mais perto do processador ➔ Mais rápido e menor ➔ Mais caro por byte."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Hardware",
+  "escola": "01_ciencia_computacao_uninter",
+  "foco_pedagogico": "O trade-off clássico entre velocidade extrema e capacidade de armazenamento"
+}

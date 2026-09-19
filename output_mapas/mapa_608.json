@@ -1,0 +1,65 @@
+{
+  "id": 608,
+  "title": "ORQUESTRAÇÃO DE DADOS COM APACHE AIRFLOW (DAGS)",
+  "definition": "Airflow é um maestro de tarefas: ele agenda e executa pipelines de dados na ordem certa usando código Python.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Pense num maestro: ele define quem trabalha, quando e em que ordem.",
+      "Sem maestro, cada tarefa toca na hora errada e o dado sai errado."
+    ]
+  },
+  "topRight": {
+    "pill": "DAG",
+    "icon": "🖥️",
+    "bullets": [
+      "DAG é o mapa da sua rotina: tarefas ligadas por setas, sempre para frente.",
+      "Ela nunca anda em círculo: por isso o nome Grafo Acíclico Dirigido."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO PYTHON",
+    "icon": "{ }",
+    "bullets": [
+      "Você escreve a DAG num arquivo .py dentro da pasta dags do Airflow.",
+      "exemplo: with DAG('minha_dag', schedule='@daily') as dag: t = PythonOperator(task_id='extrai', python_callable=minha_funcao)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Empresas rodam pipelines de dados todos os dias sem intervenção manual.",
+      "Conecta ferramentas como Spark, dbt, SQL, APIs e serviços de nuvem."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O scheduler verifica se chegou a hora de rodar a DAG.",
+      "PASSO 2: O executor dispara cada tarefa respeitando as dependências.",
+      "PASSO 3: Você acompanha na interface web, com alerta automático de falha."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Erro clássico: colocar código pesado fora da tarefa; a DAG trava.",
+      "Dica de ouro: rode airflow tasks test antes de agendar de verdade."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "DAG em Python ➔ scheduler dispara no horário ➔ tarefas rodam em ordem ➔ você monitora na web"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Engenharia Dados",
+  "escola": "06_banco_dados_e_ia",
+  "foco_pedagogico": "Agendando e monitorando pipelines de dados com código Python"
+}

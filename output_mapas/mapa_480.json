@@ -1,0 +1,64 @@
+{
+  "id": 480,
+  "title": "SPRING DATA JPA E HIBERNATE: MAPEAMENTO OBJETO-RELACIONAL",
+  "definition": "É uma forma de transformar objetos Java em linhas de tabelas do banco de dados, sem escrever SQL na mão.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Sua classe Java se torna uma tabela, e cada objeto vira uma linha nela."
+    ]
+  },
+  "topRight": {
+    "pill": "HIBERNATE (O TRADUTOR)",
+    "icon": "🖥️",
+    "bullets": [
+      "Hibernate é o tradutor entre o mundo Java e o mundo do banco de dados.",
+      "Ele gera o SQL sozinho, você só manda salvar ou buscar o objeto."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Method Query: o nome do método já é a consulta pronta.",
+      "findByEmail(String email) ➔ busca onde email = valor"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Repositórios (interfaces Repository) em sistemas Java com Spring Boot.",
+      "Login de usuário, busca de pedidos, filtros de produtos."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você escreve findByEmail na interface, sem implementar nada.",
+      "PASSO 2: Spring Data lê o nome e monta a query SQL automaticamente.",
+      "PASSO 3: Hibernate executa no banco e devolve o objeto Java pronto."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Errar o nome do atributo faz o método não ser reconhecido pelo Spring.",
+      "Dica de ouro: o nome depois de 'findBy' deve ser IGUAL ao campo da entidade."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Nome do método ➔ Spring Data interpreta ➔ SQL gerado e executado sozinho"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Java/Spring",
+  "escola": "04_backend_e_apis",
+  "foco_pedagogico": "Consultas automáticas a partir do nome do método (findByEmail)"
+}

@@ -1,0 +1,67 @@
+{
+  "id": 525,
+  "title": "CONTEXT API: ESTADO GLOBAL SEM PROP DRILLING",
+  "definition": "Um jeito de guardar um dado que muitos componentes precisam, sem passar de mão em mão pela árvore.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Imagine um quadro de avisos da casa: qualquer morador lê, sem carregar o recado.",
+      "O dado mora num lugar só e todo componente pega direto, sem intermediários."
+    ]
+  },
+  "topRight": {
+    "pill": "ESTADO GLOBAL COMPARTILHADO",
+    "icon": "🖥️",
+    "bullets": [
+      "O sistema guarda o valor num Provider e avisa quem está inscrito quando ele muda.",
+      "Componentes distantes leem o mesmo dado sem receber props do componente pai.",
+      "Tema escuro e usuário logado ficam disponíveis em qualquer tela, do topo ao rodapé."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Crie com createContext, envolva a árvore com Provider e leia com useContext.",
+      "const TemaCtx = createContext(); <TemaCtx.Provider value={tema}>...",
+      "const tema = useContext(TemaCtx); // pronto, sem props no caminho"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Tema claro/escuro, usuário autenticado, idioma e carrinho de compras.",
+      "React usa Context; Vue tem provide/inject e Angular resolve com services."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Crie o contexto e o Provider com o valor inicial",
+      "PASSO 2: Envolva os componentes que precisam desse dado",
+      "PASSO 3: Cada componente lê com useContext e se atualiza sozinho"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Usar contexto para tudo: só vale a pena se muitos componentes precisam do mesmo dado.",
+      "Criar o value novo a cada render faz a árvore inteira re-renderizar e travar o app."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Dado comum ➔ Provider guarda ➔ Qualquer componente lê, sem repassar props"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "React",
+  "escola": "05_frontend_e_mobile",
+  "foco_pedagogico": "Disponibilizando tema escuro e usuário autenticado para qualquer componente"
+}

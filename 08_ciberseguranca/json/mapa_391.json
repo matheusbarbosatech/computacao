@@ -1,0 +1,64 @@
+{
+  "id": 391,
+  "title": "RANSOMWARE: ANATOMIA, DISSEMINAÇÃO E PREVENÇÃO",
+  "definition": "É um programa malicioso que tranca seus arquivos e pede pagamento para devolvê-los.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Imagine um ladrão que troca a fechadura da sua casa e vende a chave nova."
+    ]
+  },
+  "topRight": {
+    "pill": "CRIPTOGRAFIA MALICIOSA",
+    "icon": "🖥️",
+    "bullets": [
+      "O vírus embaralha seus arquivos com uma senha secreta só do atacante.",
+      "Sem essa senha, os dados ficam ilegíveis para sempre."
+    ]
+  },
+  "midRight": {
+    "pill": "COMO ELE SE INSTALA",
+    "icon": "{ }",
+    "bullets": [
+      "Geralmente entra por e-mail falso, link ou anexo infectado.",
+      "clique_no_anexo() ➔ executa_script() ➔ criptografa_arquivos()"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Ataca hospitais, empresas, governos e usuários comuns.",
+      "Famosos: WannaCry, LockBit, REvil, Conti."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO DO ATAQUE",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Vítima abre arquivo ou link infectado sem saber",
+      "PASSO 2: Vírus criptografa arquivos e se espalha na rede",
+      "PASSO 3: Tela de resgate exibe cobrança em criptomoeda"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que pagar o resgate garante a devolução dos dados.",
+      "Ter backup, mas conectado à mesma rede infectada."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Clique errado ➔ Dados trancados ➔ Backup imutável salva a empresa"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Ameaças",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "O sequestro de dados criptografados e como backups imutáveis salvam empresas"
+}

@@ -1,0 +1,64 @@
+{
+  "id": 282,
+  "title": "CERTIFICADOS SSL/TLS E LET'S ENCRYPT COM CERTBOT",
+  "definition": "É um crachá digital que prova a identidade do site e criptografa a conversa entre navegador e servidor.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como um envelope lacrado: só quem tem a chave certa consegue ler a mensagem."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O NAVEGADOR VERIFICA",
+    "icon": "🖥️",
+    "bullets": [
+      "O navegador confere se o certificado foi emitido por alguém confiável.",
+      "Se tudo bate, aparece o cadeado verde na barra de endereço."
+    ]
+  },
+  "midRight": {
+    "pill": "COMANDO DO CERTBOT",
+    "icon": "{ }",
+    "bullets": [
+      "Certbot pede, instala e configura o certificado sozinho.",
+      "sudo certbot --nginx -d seusite.com"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Em qualquer site que precise de HTTPS seguro.",
+      "Servidores Nginx, Apache e serviços de hospedagem em geral."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Certbot prova ao Let's Encrypt que você é dono do domínio",
+      "PASSO 2: Let's Encrypt emite o certificado gratuito",
+      "PASSO 3: Certbot agenda a renovação automática antes de vencer"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de liberar a porta 80 ou 443 no firewall trava a emissão.",
+      "Certificado da Let's Encrypt vence em 90 dias, sempre confie na renovação automática."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Certbot pede certificado ➔ Let's Encrypt confirma domínio ➔ site fica com cadeado verde"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Redes",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Habilitando HTTPS seguro com cadeado verde e renovação automática"
+}

@@ -1,0 +1,64 @@
+{
+  "id": 433,
+  "title": "A MÁQUINA DE TURING: O MODELO MATEMÁTICO DA COMPUTABILIDADE",
+  "definition": "Uma máquina imaginária com fita infinita que mostra o que qualquer computador, no fundo, é capaz de fazer.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Todo computador é, no fundo, uma fita infinita sendo lida e escrita passo a passo."
+    ]
+  },
+  "topRight": {
+    "pill": "PARTES DA MÁQUINA",
+    "icon": "🖥️",
+    "bullets": [
+      "Fita infinita guarda símbolos, como uma folha de papel sem fim.",
+      "Cabeçote lê, escreve e se move uma casa por vez."
+    ]
+  },
+  "midRight": {
+    "pill": "REGRA DE TRANSIÇÃO",
+    "icon": "{ }",
+    "bullets": [
+      "Cada regra diz: no estado X, lendo símbolo Y, faça Z.",
+      "(Estado1, Lê='0') ➔ Escreve='1', Move=Direita, Estado2"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Base teórica de todo computador, celular e linguagem de programação.",
+      "Usada em provas de o que é 'computável' ou impossível de resolver."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "COMO ELA FUNCIONA",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Cabeçote lê o símbolo na posição atual da fita",
+      "PASSO 2: Consulta a regra e decide escrever e mover",
+      "PASSO 3: Repete até chegar num estado de parada"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que 'infinita' significa que existe na prática, é só um limite teórico.",
+      "Esquecer que ela pode nunca parar, alguns problemas são indecidíveis."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Símbolo na fita ➔ Regra aplicada ➔ Novo estado ou parada"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Teoria",
+  "escola": "01_ciencia_computacao_uninter",
+  "foco_pedagogico": "A fita infinita com leitor que define os limites do que qualquer computador pode calcular"
+}

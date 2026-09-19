@@ -1,0 +1,66 @@
+{
+  "id": 596,
+  "title": "REPLICAÇÃO DE BANCO: PRIMÁRIO/RÉPLICA E READ REPLICAS",
+  "definition": "É manter cópias do banco: o servidor primário recebe todas as escritas e as réplicas servem as leituras.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Um banco chefe decide e guarda tudo; os ajudantes só copiam e respondem perguntas.",
+      "Escrita é rara e importante; leitura é frequente e pesada. Separe as duas."
+    ]
+  },
+  "topRight": {
+    "pill": "PRIMÁRIO E RÉPLICA",
+    "icon": "🖥️",
+    "bullets": [
+      "O primário aceita INSERT, UPDATE e DELETE e registra cada mudança num diário.",
+      "As réplicas leem esse diário e aplicam as mesmas mudanças, ficando quase iguais.",
+      "Réplicas geralmente aceitam apenas SELECT: tentar escrever nelas dá erro."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "A regra é simples: duas conexões, uma para escrever e outra para ler.",
+      "db.write = 'postgres://primario'; db.read = 'postgres://replica'"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Sites com muitas visitas: relatórios e listagens pesadas saem das réplicas.",
+      "PostgreSQL, MySQL, MongoDB, AWS RDS e Prisma com read replicas configuradas."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O app recebe um pedido e checa se é escrita ou leitura.",
+      "PASSO 2: Escrita vai ao primário; leitura é enviada a uma réplica livre.",
+      "PASSO 3: O primário copia a mudança para as réplicas e as leituras ficam rápidas."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Salvar no primário e ler na réplica na hora pode devolver o dado antigo (lag).",
+      "Dica de ouro: leia do primário logo após escrever, e só depois use a réplica."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Escritas ➔ Primário ➔ Réplicas copiam ➔ Leituras pesadas na réplica ➔ Sistema rápido."
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Tuning",
+  "escola": "06_banco_dados_e_ia",
+  "foco_pedagogico": "Enviando todas as escritas para o servidor principal e leituras pesadas para as réplicas"
+}

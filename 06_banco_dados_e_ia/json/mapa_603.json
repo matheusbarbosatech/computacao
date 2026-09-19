@@ -1,0 +1,69 @@
+{
+  "id": 603,
+  "title": "ELASTICSEARCH: MOTOR DE BUSCA TEXTUAL E INVERTED INDEX",
+  "definition": "É um banco de dados especializado em achar texto rápido, como um índice remissivo gigante de livro.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Procurar texto em milhões de registros não pode ser feito lendo tudo linha por linha.",
+      "Elasticsearch guarda um índice invertido: da palavra para os documentos que a contêm.",
+      "Resultado: busca textual em milissegundos, mesmo com erros de digitação do usuário."
+    ]
+  },
+  "topRight": {
+    "pill": "INVERTED INDEX E FUZZY",
+    "icon": "🖥️",
+    "bullets": [
+      "Índice invertido: cada palavra vira uma chave que aponta para os documentos onde aparece.",
+      "Fuzzy Search compara palavras por distância de edição, tolerando letras trocadas ou faltando.",
+      "O motor quebra o texto em tokens, normaliza para minúsculas e monta esse dicionário antes da busca."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "A busca é um JSON enviado por HTTP para um endpoint de pesquisa do índice.",
+      "exemplo: GET /produtos/_search { \"query\": { \"match\": { \"nome\": { \"query\": \"notbuk\", \"fuzziness\": \"AUTO\" } } } }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Campo de busca de e-commerce que entende \"tenis\" quando você digita \"tenis\" errado.",
+      "Autocomplete de sites, logs de servidores, analytics e sistemas de recomendação.",
+      "Ferramentas: Elasticsearch, OpenSearch, Kibana, bibliotecas cliente como elasticsearch-py e Java Client."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você digita \"notbuk\" no campo de busca do site.",
+      "PASSO 2: O motor consulta o índice invertido e aplica fuzzy, aceitando termos parecidos.",
+      "PASSO 3: Ele ranqueia os melhores resultados por relevância e devolve em milissegundos."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Erro clássico: usar fuzziness em campos numéricos ou datas, onde ela não faz sentido.",
+      "Fuzzy muito agressivo traz lixo: comece com \"AUTO\" e só aumente se precisar.",
+      "Dica de ouro: não use o Elasticsearch como banco principal, ele é o motor de busca ao lado."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Texto digitado ➔ quebra em tokens ➔ índice invertido com fuzzy ➔ resultado ranqueado em milissegundos"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "NoSQL",
+  "escola": "06_banco_dados_e_ia",
+  "foco_pedagogico": "Buscando produtos com tolerância a erros de digitação (Fuzzy Search) em milissegundos"
+}

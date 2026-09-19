@@ -1,0 +1,64 @@
+{
+  "id": 260,
+  "title": "PUBLICANDO SEU PRÓPRIO PACOTE NO PYPI",
+  "definition": "É transformar seu código em algo que qualquer pessoa instala com um comando simples.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "PyPI é como uma loja de aplicativos, só que para códigos Python."
+    ]
+  },
+  "topRight": {
+    "pill": "ESTRUTURA DO PROJETO",
+    "icon": "🖥️",
+    "bullets": [
+      "O código fica organizado em pastas antes de ser empacotado.",
+      "Precisa de arquivos extras que contam quem é seu pacote."
+    ]
+  },
+  "midRight": {
+    "pill": "ARQUIVO DE CONFIGURAÇÃO",
+    "icon": "{ }",
+    "bullets": [
+      "pyproject.toml guarda nome, versão e autor do pacote.",
+      "[project] name = \"meu_pacote\""
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Todo pip install que você já fez veio de um pacote publicado assim.",
+      "Ferramentas: build, twine, setuptools."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Organize as pastas e escreva o pyproject.toml",
+      "PASSO 2: Rode 'python -m build' para gerar os arquivos finais",
+      "PASSO 3: Envie com 'twine upload' e pronto, está no ar"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Nome de pacote já usado por outra pessoa dá erro na hora de enviar.",
+      "Teste sempre primeiro no TestPyPI antes do PyPI real."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Organizar código ➔ Empacotar com build ➔ Publicar com twine"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Deploy Python",
+  "escola": "03_python_especialista",
+  "foco_pedagogico": "Como empacotar seu código para qualquer pessoa instalar com pip install"
+}

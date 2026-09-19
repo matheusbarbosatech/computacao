@@ -1,0 +1,64 @@
+{
+  "id": 214,
+  "title": "MANIPULANDO JSON NO PYTHON (json.loads E json.dumps)",
+  "definition": "É a forma de traduzir dicionários Python em texto JSON e vice-versa, para conversar com APIs.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "JSON é um texto universal que qualquer linguagem entende, tipo um idioma comum."
+    ]
+  },
+  "topRight": {
+    "pill": "DICIONÁRIO vs JSON",
+    "icon": "🖥️",
+    "bullets": [
+      "Dicionário Python só existe dentro do seu programa, na memória.",
+      "JSON é texto puro, pode viajar pela internet ou salvar em arquivo."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "loads = 'load string', transforma texto JSON em dicionário.",
+      "dumps = 'dump string', transforma dicionário em texto JSON."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Enviar dados para APIs de pagamento, login, redes sociais.",
+      "Receber respostas de APIs como OpenAI, Google, IBGE."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você tem um dicionário Python no seu código.",
+      "PASSO 2: Usa json.dumps() para virar texto e enviar pra API.",
+      "PASSO 3: API responde em JSON, você usa json.loads() pra virar dicionário de novo."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Confundir loads (texto➔dicionário) com dumps (dicionário➔texto).",
+      "Esquecer que JSON usa aspas duplas, não simples."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Dicionário Python ➔ json.dumps() ➔ Texto JSON pra enviar à API."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Automação",
+  "escola": "03_python_especialista",
+  "foco_pedagogico": "Convertendo dicionários em texto para APIs e vice-versa"
+}

@@ -1,0 +1,64 @@
+{
+  "id": 229,
+  "title": "MÉTODOS ESPECIAIS (DUNDER METHODS)",
+  "definition": "São métodos com nomes especiais que ensinam sua classe a se comportar como um tipo nativo do Python.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Dunder vem de 'double underscore', os dois underlines antes e depois do nome."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O PYTHON USA ISSO",
+    "icon": "🖥️",
+    "bullets": [
+      "O Python chama esses métodos por trás dos panos em momentos específicos.",
+      "Você nunca chama __str__ direto, usa print() ou str()."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "__str__ define o texto amigável ao usuário.",
+      "def __repr__(self): return f'Carro({self.modelo})'"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "print(objeto) usa __str__ para mostrar algo legível.",
+      "len(objeto) usa __len__ para dar um tamanho."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você chama print(obj), len(obj) ou repr(obj)",
+      "PASSO 2: Python procura o dunder method correspondente na classe",
+      "PASSO 3: O retorno desse método aparece como resultado"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer o 'return' dentro do método e devolver None por engano.",
+      "__str__ deve devolver uma string, nunca um número puro."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Você cria a classe ➔ define o dunder ➔ Python usa como tipo nativo."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "POO Python",
+  "escola": "03_python_especialista",
+  "foco_pedagogico": "Ensinando o Python a tratar sua classe como tipo nativo"
+}

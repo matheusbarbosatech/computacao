@@ -1,0 +1,64 @@
+{
+  "id": 296,
+  "title": "PUBLICANDO IMAGENS NO DOCKER HUB E GITHUB PACKAGES",
+  "definition": "É colocar sua caixa de aplicativo pronta em um depósito online para qualquer servidor baixar.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como subir um app na loja para outros baixarem e instalarem direto."
+    ]
+  },
+  "topRight": {
+    "pill": "REGISTRY DE IMAGENS",
+    "icon": "🖥️",
+    "bullets": [
+      "Docker Hub e GitHub Packages guardam suas imagens como uma nuvem de arquivos.",
+      "Cada imagem fica com um nome único e várias versões (tags)."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Marque a imagem com o nome do repositório antes de enviar.",
+      "docker tag app usuario/app:1.0 && docker push usuario/app:1.0"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Servidores de produção baixam a imagem já testada, sem instalar nada manualmente.",
+      "Usado com Docker Hub, GitHub Container Registry, AWS ECR."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você constrói a imagem localmente com docker build",
+      "PASSO 2: Faz login e envia a imagem com docker push",
+      "PASSO 3: O servidor de produção baixa com docker pull e roda"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de fazer login (docker login) antes de enviar a imagem.",
+      "Nunca suba imagens com senhas ou chaves secretas dentro."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Construir imagem ➔ Enviar para o registry ➔ Servidor baixa e usa"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Docker",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Compartilhando imagens prontas para servidores de produção baixarem"
+}

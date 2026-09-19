@@ -1,0 +1,64 @@
+{
+  "id": 298,
+  "title": "A ARQUITETURA DO K8S: CONTROL PLANE E WORKER NODES",
+  "definition": "Kubernetes é um sistema com um cérebro que decide e vários trabalhadores que executam as tarefas.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Cluster K8s é dividido em quem manda e quem trabalha."
+    ]
+  },
+  "topRight": {
+    "pill": "CONTROL PLANE",
+    "icon": "🖥️",
+    "bullets": [
+      "É o cérebro: decide onde cada app deve rodar.",
+      "Guarda o estado desejado do cluster inteiro."
+    ]
+  },
+  "midRight": {
+    "pill": "COMPONENTES DO CÉREBRO",
+    "icon": "{ }",
+    "bullets": [
+      "API Server recebe ordens dos usuários.",
+      "etcd guarda tudo, Scheduler escolhe o nó."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Empresas que rodam apps em containers em escala.",
+      "Usado com Docker, kubectl e clusters em nuvem."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você pede para rodar um app via API Server",
+      "PASSO 2: Scheduler escolhe o Worker Node ideal",
+      "PASSO 3: Kubelet no Worker Node executa o container"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que Control Plane executa apps, ele só decide.",
+      "Dica: pense no Control Plane como gerente, não operário."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Control Plane decide ➔ Scheduler distribui ➔ Worker Node executa"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Kubernetes",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "O cérebro da orquestração e os nós trabalhadores que executam as cargas"
+}

@@ -1,0 +1,64 @@
+{
+  "id": 290,
+  "title": "PERSISTÊNCIA DE DADOS COM VOLUMES DOCKER (-v)",
+  "definition": "Volume é uma pasta fora do container que guarda os dados mesmo se o container for destruído.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Container é descartável, mas seus dados não precisam ser."
+    ]
+  },
+  "topRight": {
+    "pill": "CONTAINER SEM MEMÓRIA",
+    "icon": "🖥️",
+    "bullets": [
+      "Por padrão, tudo dentro do container some quando ele é removido.",
+      "É como um quarto de hotel: ao sair, esvaziam tudo de novo."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "A flag -v liga uma pasta do seu PC a uma pasta do container.",
+      "docker run -v meus_dados:/var/lib/mysql mysql"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Bancos de dados como MySQL, PostgreSQL e MongoDB.",
+      "Também usado em docker-compose.yml na seção 'volumes'."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você cria um volume (uma pasta segura fora do container)",
+      "PASSO 2: O banco de dados grava seus arquivos nesse volume, não no container",
+      "PASSO 3: Container morre e nasce de novo, mas os dados continuam intactos"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer o -v e perder o banco inteiro ao rodar 'docker rm'.",
+      "Ouro: sempre associe volume ao caminho onde o banco salva dados."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Volume criado ➔ Dados salvos fora do container ➔ Nada se perde ao reiniciar"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Docker",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Garantindo que os dados do banco de dados não sumam ao reiniciar o container"
+}

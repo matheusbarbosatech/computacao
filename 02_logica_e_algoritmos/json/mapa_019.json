@@ -1,0 +1,63 @@
+{
+  "id": 19,
+  "title": "OPERADOR LÓGICO E (AND / &&)",
+  "definition": "É um operador que só diz SIM quando todas as condições ligadas por ele forem verdadeiras.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Pense numa porta com duas fechaduras: só abre se as duas estiverem destrancadas."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O COMPUTADOR PENSA",
+    "icon": "🖥️",
+    "bullets": [
+      "Ele testa cada condição uma por uma, da esquerda para a direita.",
+      "Se achar UMA falsa, já para e responde falso na hora."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Símbolo comum: && (dois 'e comercial' juntos).",
+      "if (idade >= 18 && temCarteira) { pode dirigir }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Formulários de login, validação de senha e idade mínima.",
+      "Usado em JavaScript, Python (and), Java, C++."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O programa olha a primeira condição",
+      "PASSO 2: Se for verdadeira, checa a próxima; se for falsa, já para tudo",
+      "PASSO 3: Só resulta VERDADEIRO se todas passarem no teste"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Confundir && (E) com || (OU): E é mais exigente, precisa de tudo certo.",
+      "Achar que uma condição verdadeira já basta, quando na verdade precisa de todas."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Condição 1 verdadeira ➔ E Condição 2 verdadeira ➔ Resultado: VERDADEIRO"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Lógica",
+  "foco_pedagogico": "Todas as condições precisam ser verdadeiras"
+}

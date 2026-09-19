@@ -1,0 +1,65 @@
+{
+  "id": 560,
+  "title": "TESTES DE PONTA A PONTA (E2E) COM PLAYWRIGHT E CYPRESS",
+  "definition": "Teste E2E é um robô que abre o navegador, clica, digita e compra de verdade, para provar que o fluxo inteiro funciona.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Um robô finge ser o usuário: abre o site, clica em botões e preenche formulários.",
+      "Ele testa o caminho completo: do clique até o pedido confirmado na tela."
+    ]
+  },
+  "topRight": {
+    "pill": "O QUE ACONTECE NO NAVEGADOR",
+    "icon": "🖥️",
+    "bullets": [
+      "O teste controla um navegador real, como se fosse uma pessoa usando o mouse.",
+      "Frontend, backend, banco de dados e API rodam juntos, sem simulação."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Playwright: escreva os passos em ordem, esperando cada elemento aparecer.",
+      "cy.visit('/login'); cy.get('#email').type('ana@site.com'); cy.get('button').click();"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Loja online, banco digital e streaming testam compra e login antes de publicar.",
+      "Ferramentas famosas: Playwright, Cypress, Selenium e TestCafe."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O robô abre o navegador e entra na página inicial.",
+      "PASSO 2: Ele clica no produto, adiciona ao carrinho e preenche os dados.",
+      "PASSO 3: Ele confirma a compra e verifica se apareceu a mensagem de sucesso."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Erro clássico: clicar antes da página carregar e o teste falhar do nada.",
+      "Dica de ouro: teste poucos fluxos importantes; E2E é lento e frágil."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Robô simula usuário ➔ Percorre o fluxo inteiro ➔ Sistema aprovado ou bug encontrado"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Testes",
+  "escola": "05_frontend_e_mobile",
+  "foco_pedagogico": "Robôs que abrem o navegador, clicam em botões e compram produtos para testar fluxos inteiros"
+}

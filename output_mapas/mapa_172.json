@@ -1,0 +1,63 @@
+{
+  "id": 172,
+  "title": "ORDENANDO RESULTADOS COM ORDER BY",
+  "definition": "ORDER BY é o comando que organiza os resultados de uma consulta em uma ordem específica.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como organizar uma lista de nomes: de A a Z ou de Z a A."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O BANCO TRATA ISSO",
+    "icon": "🖥️",
+    "bullets": [
+      "O banco reorganiza as linhas antes de te mostrar o resultado.",
+      "Não muda a tabela original, só a exibição."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "ASC = crescente (menor pro maior), é o padrão se você não escrever nada.",
+      "SELECT * FROM alunos ORDER BY idade DESC;"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Rankings, listas de preços, datas mais recentes primeiro.",
+      "Usado em SQL, MySQL, PostgreSQL, SQLite."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você escolhe a coluna para ordenar",
+      "PASSO 2: Define ASC (crescente) ou DESC (decrescente)",
+      "PASSO 3: O banco entrega os dados já organizados"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer que ASC já é o padrão e escrever ASC sem necessidade não é erro, mas é redundante.",
+      "Confundir DESC com 'deletar', são coisas totalmente diferentes."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Coluna escolhida ➔ ASC ou DESC ➔ Lista organizada na tela"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "BancoDados",
+  "foco_pedagogico": "Crescente (ASC) e Decrescente (DESC)"
+}

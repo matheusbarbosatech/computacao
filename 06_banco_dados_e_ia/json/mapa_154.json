@@ -1,0 +1,64 @@
+{
+  "id": 154,
+  "title": "TIPOS DE DADOS EM BANCOS (VARCHAR, INT, DATE)",
+  "definition": "Cada coluna de uma tabela precisa dizer que tipo de informação ela guarda.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como rotular gavetas: uma só aceita texto, outra só número, outra só data."
+    ]
+  },
+  "topRight": {
+    "pill": "PRINCIPAIS TIPOS",
+    "icon": "🖥️",
+    "bullets": [
+      "VARCHAR guarda texto com tamanho limitado, como nome ou email.",
+      "INT guarda números inteiros, sem casas decimais.",
+      "DATE guarda datas no formato ano-mês-dia."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Define o tipo junto do nome da coluna na criação da tabela.",
+      "nome VARCHAR(50), idade INT, nascimento DATE"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Presente em MySQL, PostgreSQL, SQL Server e outros bancos relacionais.",
+      "Usado ao criar cadastros de clientes, produtos e pedidos."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você escolhe o nome da coluna",
+      "PASSO 2: Você define qual tipo de dado ela vai guardar",
+      "PASSO 3: O banco só aceita valores compatíveis com esse tipo"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Guardar número de telefone como INT quebra o zero na frente, use VARCHAR.",
+      "Escolher VARCHAR muito pequeno corta o texto sem avisar."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Coluna criada ➔ Tipo definido ➔ Banco só aceita dado do jeito certo"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "BancoDados",
+  "foco_pedagogico": "Definindo os tipos das colunas"
+}

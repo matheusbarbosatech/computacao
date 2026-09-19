@@ -1,0 +1,63 @@
+{
+  "id": 107,
+  "title": "A PALAVRA-CHAVE SUPER",
+  "definition": "É como pedir ajuda para o 'pai' da sua classe, usando o que ele já sabe fazer.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "super é uma ponte que liga o filho (subclasse) ao pai (superclasse)."
+    ]
+  },
+  "topRight": {
+    "pill": "HERANÇA",
+    "icon": "🖥️",
+    "bullets": [
+      "A classe filha herda tudo da classe pai automaticamente.",
+      "super acessa o que o pai construiu antes do filho existir."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Chame super() antes de usar 'this' no construtor filho.",
+      "super(nome, idade) ➔ chama o construtor do pai."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Muito comum em Java, Python, JavaScript e C#.",
+      "Usado ao criar classes como Cachorro(Animal) ou Carro(Veiculo)."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: A classe filha é criada e chama super()",
+      "PASSO 2: O construtor do pai roda primeiro e prepara a base",
+      "PASSO 3: O filho continua o resto do seu próprio código"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de chamar super() gera erro em várias linguagens.",
+      "Dica de ouro: super() geralmente vem na primeira linha do construtor."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Classe filha ➔ chama super() ➔ usa a base do pai"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "POO",
+  "foco_pedagogico": "Chamando o construtor ou método da classe pai"
+}

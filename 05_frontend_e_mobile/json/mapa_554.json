@@ -1,0 +1,67 @@
+{
+  "id": 554,
+  "title": "FIGMA PARA DESENVOLVEDORES: TOKENS, AUTO-LAYOUT E HAND-OFF",
+  "definition": "Figma é onde o designer desenha a tela e o dev lê medidas, cores e assets para escrever o código.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "O design é uma planta de obra: o dev lê as medidas e constrói igual."
+    ]
+  },
+  "topRight": {
+    "pill": "TOKENS E AUTO-LAYOUT",
+    "icon": "🖥️",
+    "bullets": [
+      "Tokens são variáveis de cor, tamanho e espaço guardadas com nome próprio.",
+      "Auto-layout empilha e alinha elementos sozinho, como caixas numa prateleira.",
+      "No navegador, flexbox e gap fazem exatamente o que o auto-layout faz."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Selecione o elemento e leia no painel Inspect: tamanho, cor, espaçamento e fonte.",
+      "gap: 16px; padding: 24px; color: var(--cor-primaria);"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Todo dia o dev abre o Figma do lado do editor de código.",
+      "Exportar ícones em SVG e imagens em PNG ou JPG para o projeto.",
+      "Ferramentas: Figma Dev Mode, tokens em JSON, plugins de exportação."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Designer desenha a tela e nomeia os tokens.",
+      "PASSO 2: Dev abre o Dev Mode e lê espaçamento, tipografia e cores.",
+      "PASSO 3: Dev exporta os assets e escreve o CSS com os mesmos valores."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Copiar pixels soltos em vez dos tokens e criar número mágico no código.",
+      "Esquecer a unidade: Figma mostra pixels, o CSS às vezes pede rem.",
+      "Dica de ouro: pergunte ao designer os nomes oficiais dos tokens."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Tela no Figma ➔ ler tokens, gap e tipografia ➔ exportar assets ➔ código fiel ao design."
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "CSS/Design",
+  "escola": "05_frontend_e_mobile",
+  "foco_pedagogico": "Lendo espaçamentos, tipografia e exportando assets do design para o código"
+}

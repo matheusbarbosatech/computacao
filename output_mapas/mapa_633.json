@@ -1,0 +1,68 @@
+{
+  "id": 633,
+  "title": "ARQUITETURA RAG (RETRIEVAL-AUGMENTED GENERATION)",
+  "definition": "Técnica que faz a IA procurar trechos nos seus documentos privados antes de responder, em vez de inventar de memória.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como dar um livro fechado para a IA: ela abre na página certa antes de falar.",
+      "A IA não decora sua empresa inteira, ela consulta na hora e só depois responde."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO A IA ENCONTRA O TEXTO",
+    "icon": "🖥️",
+    "bullets": [
+      "Seus arquivos são picados em pedaços pequenos e viram números chamados embeddings.",
+      "Esses números ficam guardados num banco vetorial, uma estante que busca por significado.",
+      "A pergunta do usuário entra na mesma estante e a IA pega os pedaços mais parecidos."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Fluxo em três linhas: procurar, juntar no prompt, gerar a resposta.",
+      "trechos = banco.buscar(pergunta); prompt = pergunta + trechos; resposta = ia.gerar(prompt)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Chatbot interno que responde dúvidas sobre contratos, férias e manuais da empresa.",
+      "Suporte ao cliente que só cita o que está escrito na política oficial.",
+      "Ferramentas comuns: LangChain, LlamaIndex, Pinecone, pgvector e FAISS."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Seus PDFs e planilhas são lidos, cortados e guardados no banco vetorial.",
+      "PASSO 2: O usuário pergunta e o sistema busca os trechos mais próximos do assunto.",
+      "PASSO 3: A IA recebe pergunta mais trechos e escreve a resposta citando o documento."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Documento desatualizado no banco gera resposta errada com cara de certa.",
+      "Cortar o texto em pedaços ruins faz a busca achar o trecho errado.",
+      "Dica de ouro: mande a IA citar a fonte e diga o que fazer quando não achar nada."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Documentos privados ➔ busca por significado ➔ resposta fundamentada e sem invenção."
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "IA Generativa",
+  "escola": "06_banco_dados_e_ia",
+  "foco_pedagogico": "Alimentando a IA com os documentos privados da sua empresa antes de responder"
+}

@@ -1,0 +1,63 @@
+{
+  "id": 167,
+  "title": "FILTROS COMPOSTOS COM AND E OR",
+  "definition": "É combinar várias condições no WHERE para filtrar dados com mais precisão.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como dar várias instruções juntas: 'quero isso E aquilo', ou 'isso OU aquilo'."
+    ]
+  },
+  "topRight": {
+    "pill": "AND vs OR",
+    "icon": "🖥️",
+    "bullets": [
+      "AND: todas as condições precisam ser verdadeiras juntas.",
+      "OR: basta uma condição ser verdadeira para passar."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Combine condições com AND ou OR dentro do WHERE.",
+      "WHERE idade > 18 AND cidade = 'SP'"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Buscas avançadas em bancos de dados relacionais.",
+      "MySQL, PostgreSQL, SQL Server, SQLite."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O banco lê cada linha da tabela",
+      "PASSO 2: Testa se a linha satisfaz as condições combinadas",
+      "PASSO 3: Só as linhas aprovadas aparecem no resultado"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Misturar AND e OR sem parênteses muda o resultado sem avisar.",
+      "Dica de ouro: use parênteses para deixar a prioridade clara."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Várias condições ➔ AND (todas) ou OR (uma) ➔ Filtro mais preciso"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "BancoDados",
+  "foco_pedagogico": "Múltiplas condições na cláusula WHERE"
+}

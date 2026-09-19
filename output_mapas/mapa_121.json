@@ -1,0 +1,63 @@
+{
+  "id": 121,
+  "title": "ESCUTADORES DE EVENTOS (ADDEVENTLISTENER)",
+  "definition": "É como deixar um 'vigia' esperando uma ação do usuário para então executar uma tarefa.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Você diz ao computador: 'quando isso acontecer, faça aquilo'."
+    ]
+  },
+  "topRight": {
+    "pill": "EVENTO",
+    "icon": "🖥️",
+    "bullets": [
+      "O navegador fica de olho no elemento 24h por dia.",
+      "Clique, digitação e rolagem são exemplos de eventos."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Método que 'escuta' o elemento esperando a ação.",
+      "botao.addEventListener('click', minhaFuncao)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Botões, formulários e menus interativos em sites.",
+      "Muito usado em JavaScript puro e em frameworks web."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Usuário clica, digita ou passa o mouse",
+      "PASSO 2: O navegador detecta essa ação como um evento",
+      "PASSO 3: A função combinada é disparada automaticamente"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer os parênteses ao chamar a função dentro do listener.",
+      "Dica: escreva o nome da função sem executá-la ali."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Ação do usuário ➔ Evento disparado ➔ Função executada"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Web",
+  "foco_pedagogico": "Dizendo o que fazer quando o usuário agir"
+}

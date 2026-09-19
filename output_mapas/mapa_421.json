@@ -1,0 +1,64 @@
+{
+  "id": 421,
+  "title": "KERNEL: ESPAÇO DE USUÁRIO VS ESPAÇO DE KERNEL",
+  "definition": "O Kernel é o árbitro que decide quem pode tocar no hardware e quem só pode pedir permissão.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "O sistema é dividido em duas zonas: uma livre e uma trancada com segurança máxima."
+    ]
+  },
+  "topRight": {
+    "pill": "KERNEL SPACE",
+    "icon": "🖥️",
+    "bullets": [
+      "Zona VIP com acesso total ao hardware: CPU, memória e discos.",
+      "Só código do sistema operacional entra aqui, nada de programas comuns."
+    ]
+  },
+  "midRight": {
+    "pill": "SYSCALL (CHAMADA DE SISTEMA)",
+    "icon": "{ }",
+    "bullets": [
+      "É o 'pedido formal' que o programa faz ao kernel.",
+      "read(arquivo) ➔ pede permissão pra ler algo do disco."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Todo sistema operacional usa essa divisão: Windows, Linux, macOS.",
+      "Drivers, gerenciadores de memória e escalonadores vivem no kernel."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO DE UMA CHAMADA",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Programa no User Space quer usar o disco",
+      "PASSO 2: Ele faz uma syscall, o kernel assume o controle",
+      "PASSO 3: Kernel executa a tarefa e devolve o resultado com segurança"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que qualquer programa pode acessar o hardware direto, e não pode.",
+      "Confundir 'travar o programa' com 'travar o computador todo' (kernel protege disso)."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Programa pede ➔ Kernel confere e autoriza ➔ Hardware executa em segurança."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "SO",
+  "escola": "01_ciencia_computacao_uninter",
+  "foco_pedagogico": "O árbitro que protege o hardware contra programas maliciosos ou defeituosos"
+}

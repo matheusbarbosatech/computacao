@@ -1,0 +1,64 @@
+{
+  "id": 303,
+  "title": "CONFIGMAPS E SECRETS: CONFIGURAÇÕES DESACOPLADAS",
+  "definition": "São formas de guardar configurações e senhas fora da imagem, para injetar no pod na hora de rodar.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Separe o 'como configurar' do 'como o app foi construído', tipo tomada elétrica universal."
+    ]
+  },
+  "topRight": {
+    "pill": "CONFIGMAP VS SECRET",
+    "icon": "🖥️",
+    "bullets": [
+      "ConfigMap guarda dados normais, tipo URL de API ou nome do ambiente.",
+      "Secret guarda dados sensíveis, senha, token, chave, em base64."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Cria com kubectl ou YAML, depois referencia no pod.",
+      "envFrom: configMapRef: name: minha-config"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Kubernetes, para variáveis de ambiente e arquivos montados em volumes.",
+      "Muito usado com Helm, ArgoCD e pipelines de deploy."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você cria o ConfigMap ou Secret separado da imagem",
+      "PASSO 2: O pod referencia esse recurso como env var ou volume",
+      "PASSO 3: O Kubernetes injeta o valor no container ao iniciar"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Secret não é criptografado de verdade, base64 só disfarça, qualquer um decodifica.",
+      "Mudar o ConfigMap não atualiza o pod já rodando, precisa reiniciar."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Configuração fora do código ➔ Kubernetes injeta no pod ➔ Mesma imagem serve em vários ambientes"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Kubernetes",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Injetando parâmetros e senhas criptografadas nos pods sem recriar imagens"
+}

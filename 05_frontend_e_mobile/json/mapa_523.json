@@ -1,0 +1,64 @@
+{
+  "id": 523,
+  "title": "USEREF: ACESSO DIRETO AO DOM SEM RE-RENDERIZAR",
+  "definition": "useRef guarda uma 'caixa' de valor que sobrevive entre renders sem forçar a tela a atualizar.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como um post-it colado no componente: você anota algo e ele não some, mas também não avisa ninguém."
+    ]
+  },
+  "topRight": {
+    "pill": "ACESSO AO DOM",
+    "icon": "🖥️",
+    "bullets": [
+      "Aponta direto pro elemento HTML real, tipo um input, sem passar pelo React.",
+      "Ideal pra focar, selecionar texto ou ler valor de um campo."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Crie com useRef(null) e ligue no elemento com ref={meuRef}.",
+      "const inputRef = useRef(null); inputRef.current.focus();"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Formulários: focar campo, validar sem re-render, resetar input.",
+      "React, React Native, bibliotecas de máscara de input."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você cria a referência com useRef(valor inicial)",
+      "PASSO 2: Liga ela num elemento ou guarda um valor qualquer",
+      "PASSO 3: Lê ou muda .current quando precisar, sem repintar a tela"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Mudar ref.current não atualiza a tela, então não use pra dados visuais.",
+      "Confundir com useState: se precisa mostrar valor na UI, use state, não ref."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "useRef(valor) ➔ guarda sem alarme ➔ acessa quando quiser via .current"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "React",
+  "escola": "05_frontend_e_mobile",
+  "foco_pedagogico": "Focando campos de formulário e guardando valores que não disparam render"
+}

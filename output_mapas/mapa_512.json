@@ -1,0 +1,64 @@
+{
+  "id": 512,
+  "title": "WEBHOOKS: NOTIFICANDO CLIENTES EXTERNOS EM TEMPO REAL",
+  "definition": "Webhook é o sistema avisando sozinho seu site quando algo acontece, sem você precisar perguntar.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como dar seu telefone para alguém te avisar quando o pedido chegar."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O SISTEMA LIDA COM ISSO",
+    "icon": "🖥️",
+    "bullets": [
+      "Seu servidor fica esperando uma chamada, sem ficar checando toda hora.",
+      "O gateway de pagamento faz uma requisição POST pra sua URL."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Você cria uma rota que recebe os dados enviados pelo gateway.",
+      "app.post('/webhook/pix', (req,res) => { confirmarPagamento(req.body) })"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Confirmação de pagamento PIX, boleto e cartão.",
+      "Usado por Stripe, Mercado Pago, PagSeguro, GitHub, WhatsApp API."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Cliente paga o PIX no gateway de pagamento",
+      "PASSO 2: Gateway detecta o pagamento e dispara um POST pra sua URL cadastrada",
+      "PASSO 3: Sua loja recebe o aviso e libera o pedido automaticamente"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de validar a assinatura e aceitar avisos falsos de qualquer um.",
+      "Não responder rápido com status 200 e o gateway reenviar o aviso várias vezes."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "PIX pago ➔ gateway avisa sua URL ➔ loja libera o pedido sozinha."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Microsserviços",
+  "escola": "04_backend_e_apis",
+  "foco_pedagogico": "Como o gateway de pagamento avisa sua loja que o PIX foi pago"
+}

@@ -1,0 +1,67 @@
+{
+  "id": 417,
+  "title": "ÁLGEBRA BOOLEANA E PORTAS LÓGICAS",
+  "definition": "É a matemática que usa só VERDADEIRO ou FALSO para transformar eletricidade em decisões dentro do computador.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Tudo no computador vira só 2 opções: ligado (1) ou desligado (0)."
+    ]
+  },
+  "topRight": {
+    "pill": "PORTAS LÓGICAS",
+    "icon": "🖥️",
+    "bullets": [
+      "São 'interruptores' feitos de transistores que combinam sinais elétricos.",
+      "Cada porta segue uma regra fixa para decidir a saída."
+    ]
+  },
+  "midRight": {
+    "pill": "AS 5 PORTAS BÁSICAS",
+    "icon": "{ }",
+    "bullets": [
+      "AND: só liga se TODAS as entradas forem 1 (A E B).",
+      "OR: liga se PELO MENOS uma entrada for 1 (A OU B).",
+      "NOT: inverte o valor (se é 1, vira 0).",
+      "XOR: liga só se as entradas forem DIFERENTES.",
+      "NAND: é o AND ao contrário (inverte o resultado)."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Dentro do processador (CPU), em circuitos de memória e chips.",
+      "Em programação: operadores && (AND), || (OR), ! (NOT)."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "COMO O TRANSISTOR DECIDE",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Corrente elétrica entra como sinal (tem ou não tem voltagem).",
+      "PASSO 2: O transistor age como uma torneira, deixando ou bloqueando o fluxo.",
+      "PASSO 3: A combinação de vários transistores gera o resultado lógico (0 ou 1)."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Confundir AND com OR: AND é mais 'exigente', precisa de tudo certo.",
+      "Dica de ouro: pense em AND como 'e', OR como 'ou', NOT como 'negar'."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Eletricidade ➔ Porta Lógica ➔ Decisão (0 ou 1)"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Hardware",
+  "escola": "01_ciencia_computacao_uninter",
+  "foco_pedagogico": "A matemática dos transistores que transforma eletricidade em decisões lógicas"
+}

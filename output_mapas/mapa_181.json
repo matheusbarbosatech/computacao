@@ -1,0 +1,63 @@
+{
+  "id": 181,
+  "title": "O QUE SÃO JOINS? JUNTANDO TABELAS",
+  "definition": "JOIN é o comando que junta informações de duas ou mais tabelas em uma única consulta.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como juntar duas listas usando um dado em comum entre elas."
+    ]
+  },
+  "topRight": {
+    "pill": "MODELO RELACIONAL",
+    "icon": "🖥️",
+    "bullets": [
+      "Tabelas ficam separadas para evitar dados repetidos.",
+      "O JOIN reconecta essas tabelas na hora da consulta."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Une tabelas usando uma coluna em comum, geralmente uma chave.",
+      "SELECT * FROM pedidos JOIN clientes ON pedidos.cliente_id = clientes.id"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Relatórios que cruzam dados de vendas e clientes.",
+      "Usado em MySQL, PostgreSQL, SQL Server e SQLite."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O banco escolhe as tabelas que vão se juntar",
+      "PASSO 2: Ele compara a coluna combinada entre elas",
+      "PASSO 3: Retorna as linhas que combinam entre as tabelas"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer o ON e gerar combinações erradas entre todas as linhas.",
+      "Confundir INNER JOIN com LEFT JOIN e perder dados sem correspondência."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Tabela A ➔ Chave em comum ➔ Tabela unida com dados completos"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "BancoDados",
+  "foco_pedagogico": "A mágica do modelo relacional em ação"
+}

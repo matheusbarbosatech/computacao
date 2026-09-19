@@ -1,0 +1,65 @@
+{
+  "id": 526,
+  "title": "CUSTOM HOOKS: REUTILIZANDO LÓGICA DE COMPONENTES",
+  "definition": "Custom Hook é uma função JavaScript que começa com 'use' e guarda lógica reutilizável do React num lugar só.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É uma função sua, com nome começando em 'use', que embrulha lógica pronta para reusar.",
+      "Em vez de copiar e colar código, você escreve uma vez e chama em vários componentes."
+    ]
+  },
+  "topRight": {
+    "pill": "HOOK PERSONALIZADO",
+    "icon": "🖥️",
+    "bullets": [
+      "O React só avisa sua função quando o valor guardado dentro dela muda.",
+      "Cada componente que chama o Hook recebe sua própria cópia separada do estado."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Regra de ouro: nome sempre começa com 'use' e a função devolve o que o componente precisa.",
+      "function useLocalStorage(chave) { const [v, setV] = useState(null); ... return [v, setV] }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "useFetch busca dados de API, useDebounce segura a digitação, useLocalStorage salva no navegador.",
+      "Comum em React, React Native e bibliotecas como TanStack Query."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você nota a mesma lógica repetida em dois componentes diferentes",
+      "PASSO 2: Copia essa lógica para uma função nova com nome começando em 'use'",
+      "PASSO 3: Importa e chama onde quiser: const { dados } = useFetch(url)"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Chamar Hook dentro de 'if', laço ou função comum quebra a ordem interna do React.",
+      "Esqueceu o 'use' no nome: o React não reconhece e os erros ficam confusos."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Lógica repetida ➔ Virou função useAlgo ➔ Todos os componentes reusam a mesma solução"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "React",
+  "escola": "05_frontend_e_mobile",
+  "foco_pedagogico": "Criando funções useFetch, useDebounce e useLocalStorage reaproveitáveis"
+}

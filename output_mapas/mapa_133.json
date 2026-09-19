@@ -1,0 +1,63 @@
+{
+  "id": 133,
+  "title": "O QUE É UMA API RESTFUL?",
+  "definition": "É um garçom digital que leva seu pedido até o banco de dados e traz a resposta de volta.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É um conjunto de regras para dois sistemas conversarem pela internet."
+    ]
+  },
+  "topRight": {
+    "pill": "O GARÇOM DIGITAL",
+    "icon": "🖥️",
+    "bullets": [
+      "Você (cliente) faz um pedido, o garçom (API) leva até a cozinha (servidor).",
+      "A cozinha (banco de dados) prepara e entrega o prato pelo garçom."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Usa verbos como pedidos do cardápio: GET, POST, PUT, DELETE.",
+      "GET /pratos/5"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Apps de celular buscando dados de um servidor.",
+      "Exemplos: APIs do Instagram, Uber, bancos digitais."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Cliente faz o pedido (requisição) pro garçom.",
+      "PASSO 2: Garçom leva até a cozinha e ela processa o pedido.",
+      "PASSO 3: Garçom traz o prato pronto (resposta) até o cliente."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que a API é o banco de dados, ela só entrega o recado.",
+      "Dica: se der erro, veja o código de status, é o 'recibo' do garçom."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Pedido do cliente ➔ Garçom (API) leva ➔ Resposta da cozinha volta pro cliente."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Web",
+  "foco_pedagogico": "O garçom que leva pedidos entre cliente e banco de dados"
+}

@@ -1,0 +1,64 @@
+{
+  "id": 361,
+  "title": "FASES DE UM PENTEST PROFISSIONAL: PTES E RECONHECIMENTO",
+  "definition": "Pentest é simular um ataque de hacker de forma autorizada para encontrar falhas antes dos criminosos.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como contratar um ladrão ético para testar as fechaduras da sua casa."
+    ]
+  },
+  "topRight": {
+    "pill": "PTES: O MAPA DO TESOURO",
+    "icon": "🖥️",
+    "bullets": [
+      "PTES é o roteiro padrão que organiza todo pentest em 7 etapas.",
+      "Garante que nada importante seja esquecido no teste."
+    ]
+  },
+  "midRight": {
+    "pill": "ESCOPO E CONTRATO",
+    "icon": "{ }",
+    "bullets": [
+      "Documento que diz o que PODE e o que NÃO PODE ser testado.",
+      "escopo = alvos + regras + data_limite"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Empresas de segurança, bancos e times de TI corporativos.",
+      "Ferramentas: Nmap, Shodan, Maltego, Recon-ng."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "DO CONTRATO AO RELATÓRIO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Assinar o contrato de escopo com o cliente",
+      "PASSO 2: Fazer o reconhecimento para mapear o alvo",
+      "PASSO 3: Entregar o relatório executivo com riscos e soluções"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Testar algo fora do escopo pode ser crime, mesmo sem intenção.",
+      "Dica de ouro: sem contrato assinado, nunca inicie o teste."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Contrato ➔ Reconhecimento ➔ Relatório Executivo Final"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Red Team",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "Do contrato de escopo ao relatório executivo final"
+}

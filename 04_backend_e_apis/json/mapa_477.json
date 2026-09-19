@@ -1,0 +1,64 @@
+{
+  "id": 477,
+  "title": "PATTERN OBSERVER: PUBLICADOR/ASSINANTE (PUB/SUB)",
+  "definition": "É um jeito de avisar várias partes do sistema quando algo importante acontece, sem elas ficarem perguntando toda hora.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Imagine um canal de YouTube: você se inscreve e é avisado quando sai vídeo novo."
+    ]
+  },
+  "topRight": {
+    "pill": "PUBLICADOR E ASSINANTES",
+    "icon": "🖥️",
+    "bullets": [
+      "Publicador guarda uma lista de quem quer ser avisado.",
+      "Cada assinante roda sua própria reação ao evento."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Publicador tem métodos subscribe() e notify().",
+      "canal.subscribe(ouvinte) e canal.notify(dado)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Botões de clique, notificações push, chats em tempo real.",
+      "Usado em JavaScript (eventos), Java, Python, sistemas de mensagens."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Assinantes se cadastram no publicador",
+      "PASSO 2: Um evento acontece no publicador",
+      "PASSO 3: Publicador avisa todos os assinantes automaticamente"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de cancelar a inscrição e travar a memória do app.",
+      "Dica: sempre tenha um unsubscribe() para desligar o ouvinte."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Evento acontece ➔ Publicador avisa ➔ Todos os assinantes reagem"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Patterns",
+  "escola": "04_backend_e_apis",
+  "foco_pedagogico": "Notificando automaticamente dezenas de ouvintes quando um evento ocorre"
+}

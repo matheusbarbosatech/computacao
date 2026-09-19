@@ -1,0 +1,63 @@
+{
+  "id": 44,
+  "title": "PARÂMETROS PADRÃO (DEFAULT VALUES)",
+  "definition": "É um valor pronto que a função usa quando ninguém envia nada no lugar dele.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Como um combo de lanchonete: se você não escolher a bebida, vem a padrão."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O SISTEMA TRATA",
+    "icon": "🖥️",
+    "bullets": [
+      "Se o argumento não vier, o valor padrão entra no lugar dele.",
+      "Se o argumento vier, ele substitui o valor padrão normalmente."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Define-se o valor com um sinal de igual junto ao parâmetro.",
+      "function saudacao(nome=\"Visitante\") { return \"Oi, \" + nome; }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Formulários, APIs e configurações com opções opcionais.",
+      "Comum em JavaScript, Python, PHP e outras linguagens modernas."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: A função é chamada pelo programador",
+      "PASSO 2: O sistema checa se o argumento foi enviado",
+      "PASSO 3: Usa o valor enviado ou o valor padrão, se faltar"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que o valor padrão aparece mesmo quando algo é enviado.",
+      "Dica: parâmetros com padrão geralmente vêm por último na lista."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Nada enviado ➔ Valor padrão entra ➔ Função funciona sem travar"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Funções",
+  "foco_pedagogico": "Valores pré-definidos caso o usuário não envie nada"
+}

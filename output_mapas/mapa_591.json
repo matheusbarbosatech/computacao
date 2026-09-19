@@ -1,0 +1,64 @@
+{
+  "id": 591,
+  "title": "ÍNDICES PARCIAIS E ÍNDICES EM EXPRESSÕES",
+  "definition": "Índices que guardam apenas uma parte das linhas ou o resultado de um cálculo, ocupando menos disco e acelerando buscas específicas.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Em vez de criar uma lista gigante com a tabela inteira, você cria uma lista só do pedaço que usa."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O BANCO TRABALHA",
+    "icon": "🖥️",
+    "bullets": [
+      "O banco monta uma lista menor, apenas com as linhas que passam no filtro.",
+      "Lista menor significa menos leitura de disco e resposta muito mais rápida."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Escreva a criação do índice e acrescente um WHERE no final para filtrar.",
+      "CREATE INDEX idx_ativo ON clientes (nome) WHERE ativo = true;"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Cadastros com campo ativo, pedidos pendentes e busca por e-mail em letras minúsculas.",
+      "PostgreSQL, SQLite e SQL Server oferecem índices parciais ou filtrados."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você escreve a consulta usando exatamente o mesmo filtro do índice.",
+      "PASSO 2: O banco reconhece o filtro e escolhe o índice pequeno em vez da tabela toda.",
+      "PASSO 3: Ele lê poucas páginas e devolve o resultado bem mais rápido."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Se a consulta não repetir o mesmo WHERE, o índice parcial é simplesmente ignorado.",
+      "No índice de expressão escreva igual: lower(email), nunca apenas email."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Filtro fixo ➔ índice pequeno ➔ menos disco e busca rápida"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Tuning",
+  "escola": "06_banco_dados_e_ia",
+  "foco_pedagogico": "Indexando apenas linhas ativas (WHERE ativo = true) para economizar disco"
+}

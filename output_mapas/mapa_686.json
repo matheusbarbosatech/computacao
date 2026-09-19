@@ -1,0 +1,69 @@
+{
+  "id": 686,
+  "title": "APRENDER A APRENDER: TÉCNICA FEYNMAN NA COMPUTAÇÃO",
+  "definition": "Ensinar um conceito com palavras simples revela se você realmente entendeu ou só decorou.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Se você não consegue explicar um conceito para uma criança de 8 anos, você ainda não domina ele de verdade."
+    ]
+  },
+  "topRight": {
+    "pill": "POR QUE FUNCIONA",
+    "icon": "🖥️",
+    "bullets": [
+      "O cérebro adora atalhos e finge que entendeu. Ensinar força ele a preencher as lacunas.",
+      "Na computação, decorar sintaxe não serve. Entender a lógica por trás é o que te faz resolver qualquer bug."
+    ]
+  },
+  "midRight": {
+    "pill": "OS 4 PASSOS",
+    "icon": "{ }",
+    "bullets": [
+      "1. Escolha um conceito (ex: loop, variável, API).",
+      "2. Explique no papel como se fosse para uma criança.",
+      "3. Identifique onde você travou ou usou jargão.",
+      "4. Volte ao material, simplifique e repita até fluir.",
+      "exemplo: 'Um loop é como um carteiro que entrega cartas em todas as casas da rua, uma por uma, até terminar.'"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE APLICAR",
+    "icon": "</>",
+    "bullets": [
+      "Explicar algoritmos em voz alta antes de codar.",
+      "Escrever documentação ou comentários como se o leitor nunca tivesse programado.",
+      "Ensinar colegas em grupos de estudo ou mentorias."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Pegue papel e caneta, escreva o nome do conceito no topo.",
+      "PASSO 2: Explique o conceito com analogias do cotidiano, sem usar nenhum termo técnico.",
+      "PASSO 3: Releia e marque toda parte confusa. Essas são suas brechas de conhecimento.",
+      "PASSO 4: Estude só as brechas, reescreva a explicação e teste com alguém leigo."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Usar jargão técnico para esconder que não entendeu (ex: 'É só uma abstração da camada de persistência'). Se não sai em linguagem simples, não é compreensão real.",
+      "Dica de ouro: Grave um áudio de 2 minutos se explicando o conceito e ouça no dia seguinte. O que soar confuso é o que você precisa revisar."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Escolher Conceito ➔ Explicar com Simplicidade ➔ Encontrar Buracos ➔ Revisar e Refinar ➔ Domínio Real."
+    ]
+  },
+  "_modelo_usado": "devworld/deepseek-v4-pro-0813-f",
+  "modulo": "Mentalidade",
+  "escola": "02_logica_e_algoritmos",
+  "foco_pedagogico": "Explicando conceitos difíceis em linguagem simples para fixar o aprendizado"
+}

@@ -1,0 +1,64 @@
+{
+  "id": 253,
+  "title": "POETRY E UV: GERENCIADORES MODERNOS DE PYTHON",
+  "definition": "São ferramentas que instalam, organizam e travam as peças (bibliotecas) que seu projeto Python precisa para funcionar.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Pense neles como um 'carrinho de compras inteligente' para código de terceiros."
+    ]
+  },
+  "topRight": {
+    "pill": "RESOLUÇÃO DE DEPENDÊNCIAS",
+    "icon": "🖥️",
+    "bullets": [
+      "Calculam quais versões de bibliotecas são compatíveis entre si.",
+      "UV faz isso em segundos, usando código em Rust por baixo."
+    ]
+  },
+  "midRight": {
+    "pill": "ARQUIVOS DE CONFIGURAÇÃO",
+    "icon": "{ }",
+    "bullets": [
+      "pyproject.toml guarda o que seu projeto precisa.",
+      "poetry add requests"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Startups e empresas que publicam pacotes no PyPI.",
+      "Substituem pip, virtualenv e setup.py juntos."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você declara as bibliotecas desejadas",
+      "PASSO 2: A ferramenta calcula versões compatíveis (resolve)",
+      "PASSO 3: Cria um 'lockfile' travando tudo para sempre funcionar igual"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de commitar o lockfile quebra o projeto em outras máquinas.",
+      "Misturar pip e Poetry no mesmo projeto causa conflitos."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Declarar dependência ➔ Ferramenta resolve versões ➔ Projeto roda igual em qualquer lugar"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Deploy Python",
+  "escola": "03_python_especialista",
+  "foco_pedagogico": "Resolução veloz de dependências e empacotamento profissional"
+}

@@ -1,0 +1,63 @@
+{
+  "id": 45,
+  "title": "O RETORNO DA FUNÇÃO (RETURN)",
+  "definition": "Return é a resposta que a função entrega de volta depois de fazer seu trabalho.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como pedir um lanche e receber o prato pronto de volta."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O COMPUTADOR TRATA ISSO",
+    "icon": "🖥️",
+    "bullets": [
+      "Ao ver return, a função para tudo e devolve o valor na hora.",
+      "O resultado pode ser guardado em uma variável para usar depois."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "A palavra return sempre vem seguida do valor a entregar.",
+      "resultado = soma(2, 3) guarda o retorno na variável."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Em quase toda função que calcula ou busca algo.",
+      "Comum em Python, JavaScript, Java e C#."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: A função é chamada e começa a executar",
+      "PASSO 2: Ela processa os dados até encontrar o return",
+      "PASSO 3: O valor é entregue de volta para quem chamou"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer o return faz a função devolver vazio (None ou undefined).",
+      "Código depois do return nunca é executado, ele encerra a função."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Função executa ➔ Encontra o return ➔ Entrega o resultado"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Funções",
+  "foco_pedagogico": "A resposta que a função entrega de volta"
+}

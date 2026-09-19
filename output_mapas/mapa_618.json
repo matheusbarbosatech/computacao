@@ -1,0 +1,66 @@
+{
+  "id": 618,
+  "title": "MÉTRICAS DE AVALIAÇÃO: ACURÁCIA, PRECISÃO, RECALL E F1-SCORE",
+  "definition": "Formas de medir o desempenho de um modelo separando os tipos de erro que ele comete.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Acurácia conta acertos totais; precisão e recall revelam o tipo de erro.",
+      "Quando o caso raro é o que importa, acertar o comum engana muito."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O COMPUTADOR LIDA COM ISSO",
+    "icon": "🖥️",
+    "bullets": [
+      "Ele monta uma tabela de quatro caixas comparando previsão com a verdade.",
+      "Depois divide esses números e gera uma nota para cada métrica."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Acurácia = acertos totais dividido pelo número de casos avaliados.",
+      "precisao = VP / (VP + FP)  |  recall = VP / (VP + FN)",
+      "F1 = 2 * (precisao * recall) / (precisao + recall)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Detectar fraude, diagnosticar doenças raras, filtrar spam e ranquear buscas.",
+      "Visto em scikit-learn, TensorFlow, pandas e relatórios de validação de modelos."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O modelo responde sim ou não para cada caso de teste.",
+      "PASSO 2: Compara a resposta com a verdade e conta VP, FP, FN e VN.",
+      "PASSO 3: Calcula as métricas e escolhe a que reflete o custo real do erro."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Acurácia de 99% pode vir de dizer sempre 'não' em 1000 casos com 1 doente.",
+      "Dica de ouro: em doença rara ou fraude, olhe recall e precisão, não acurácia."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Caso raro ➔ acurácia engana ➔ recall alto evita deixar doente ou fraude passar."
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Machine Learning",
+  "escola": "06_banco_dados_e_ia",
+  "foco_pedagogico": "Por que a acurácia é enganosa em diagnósticos de doenças raras ou fraudes"
+}

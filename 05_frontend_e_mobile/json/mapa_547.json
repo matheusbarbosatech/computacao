@@ -1,0 +1,65 @@
+{
+  "id": 547,
+  "title": "VARIÁVEIS CSS NATIVAS (CUSTOM PROPERTIES) E TEMAS CLARO/ESCURO",
+  "definition": "Variáveis CSS são apelidos que guardam valores de estilo, permitindo trocar as cores do site inteiro mudando poucas linhas.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É uma caixa etiquetada que guarda uma cor para você reutilizar quando quiser.",
+      "Pense em interruptor de luz: uma chave troca o clima da sala toda."
+    ]
+  },
+  "topRight": {
+    "pill": "CUSTOM PROPERTIES",
+    "icon": "🖥️",
+    "bullets": [
+      "O navegador lê o apelido, guarda o valor e aplica em todo elemento que o chamar.",
+      "Quando o valor muda, a tela se repinta na hora, sem recarregar a página."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Declare com dois traços dentro do :root; use depois com var(--nome).",
+      ":root { --fundo: #ffffff; } body { background: var(--fundo); }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Botão claro/escuro, painéis de dados, sites de marca branca e produtos temáveis.",
+      "Funciona em CSS puro, Sass, Tailwind, React, Vue e Angular."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: No :root, declare as cores do tema claro como padrão.",
+      "PASSO 2: Troque todas as cores fixas do CSS por var(--nome-da-cor).",
+      "PASSO 3: Crie html.dark { --fundo: #111; } e alterne a classe html."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Escrever var(fundo) sem os dois traços faz a cor sumir sem aviso de erro.",
+      "Variável criada dentro de .card só existe ali; use :root para o tema global."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Uma classe no html ➔ novos valores no :root ➔ interface inteira trocada na hora"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "CSS/Design",
+  "escola": "05_frontend_e_mobile",
+  "foco_pedagogico": "Trocando as cores da interface inteira alterando uma única classe :root"
+}

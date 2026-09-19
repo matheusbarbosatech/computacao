@@ -1,0 +1,64 @@
+{
+  "id": 448,
+  "title": "ALGORITMO DE DIJKSTRA - O CAMINHO MAIS RÁPIDO",
+  "definition": "É um método que encontra a rota mais curta entre dois pontos, testando os caminhos mais baratos primeiro.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Como o Google Maps escolhe a rota mais rápida entre duas esquinas."
+    ]
+  },
+  "topRight": {
+    "pill": "GRAFO E PESOS",
+    "icon": "🖥️",
+    "bullets": [
+      "Ruas são linhas (arestas) e esquinas são pontos (nós).",
+      "Cada rua tem um custo: tempo ou distância pra percorrer."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Guarda a menor distância conhecida até cada esquina.",
+      "distancia[esquina] = infinito, exceto a inicial = 0"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "GPS, jogos, redes de internet e logística de entregas.",
+      "Usado em Python, Java e C++ com filas de prioridade."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Marca a esquina inicial com distância zero.",
+      "PASSO 2: Sempre visita a esquina mais próxima ainda não checada.",
+      "PASSO 3: Atualiza os vizinhos se achar um caminho mais curto."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Não funciona bem com pesos negativos (ruas com custo negativo).",
+      "Dica: pense nele como espalhar água, sempre pelo caminho mais barato."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Ponto inicial ➔ Testa rotas vizinhas mais baratas ➔ Chega no destino mais rápido."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Algoritmos",
+  "escola": "01_ciencia_computacao_uninter",
+  "foco_pedagogico": "Como o Google Maps calcula a rota mais rápida entre duas esquinas"
+}

@@ -1,0 +1,65 @@
+{
+  "id": 567,
+  "title": "EXPO: O ECOSSISTEMA QUE ACELERA PROJETOS REACT NATIVE",
+  "definition": "Expo é um conjunto de ferramentas que simplifica criar e testar apps React Native, inclusive no iPhone sem precisar de um Mac.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Expo é uma caixa de ferramentas pronta que monta e roda seu app de celular.",
+      "Em vez de configurar tudo na mão, você escreve código e já vê funcionando."
+    ]
+  },
+  "topRight": {
+    "pill": "EXPO GO",
+    "icon": "🖥️",
+    "bullets": [
+      "Expo Go é um aplicativo que executa seu projeto lendo um QR Code.",
+      "Seu computador envia o código e o celular mostra o app na hora."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Criar projeto: npx create-expo-app meu-app",
+      "Ligar servidor: npx expo start e escaneie o QR Code"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Prototipar apps, testar em iPhone e Android no mesmo dia.",
+      "Base comum: React Native, TypeScript, expo-camera e expo-router."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Instale o Expo Go no seu iPhone pela App Store.",
+      "PASSO 2: No PC, rode o comando npx expo start no projeto.",
+      "PASSO 3: Escaneie o QR Code e o app abre no seu celular."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que precisa de Mac: o Expo Go roda no iPhone sem Xcode.",
+      "Celular e PC precisam estar na mesma rede Wi-Fi, senão nada conecta."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Escreva código ➔ rode npx expo start ➔ veja no iPhone sem Mac"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Mobile",
+  "escola": "05_frontend_e_mobile",
+  "foco_pedagogico": "Desenvolvendo para iOS sem precisar de um Mac através do aplicativo Expo Go"
+}

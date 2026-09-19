@@ -1,0 +1,63 @@
+{
+  "id": 198,
+  "title": "BANCOS NOSQL DE DOCUMENTOS: O MONGODB",
+  "definition": "MongoDB guarda dados como documentos flexíveis, parecidos com arquivos JSON, em vez de tabelas fixas.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Cada registro é um documento independente, como uma ficha avulsa numa gaveta."
+    ]
+  },
+  "topRight": {
+    "pill": "JSON E BSON",
+    "icon": "🖥️",
+    "bullets": [
+      "JSON é o texto legível que você escreve para representar dados.",
+      "BSON é o mesmo JSON traduzido em binário, mais rápido pro banco ler."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Documento é um conjunto de chave e valor entre chaves.",
+      "{ nome: 'Ana', idade: 28, cidade: 'SP' }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Apps que mudam de estrutura o tempo todo, como redes sociais.",
+      "Usado com Node.js, Python, e o driver oficial do MongoDB."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você monta um documento em JSON com os dados.",
+      "PASSO 2: O MongoDB converte esse JSON para BSON internamente.",
+      "PASSO 3: O documento é salvo dentro de uma coleção."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que coleção é igual tabela do SQL, mas ela aceita formatos diferentes.",
+      "Esquecer aspas nas chaves ao escrever JSON manualmente."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Dados em JSON ➔ MongoDB converte para BSON ➔ Guarda na coleção."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "BancoDados",
+  "foco_pedagogico": "Guardando coleções em formato JSON BSON"
+}

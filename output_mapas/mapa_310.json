@@ -1,0 +1,64 @@
+{
+  "id": 310,
+  "title": "REGIÕES, ZONAS DE DISPONIBILIDADE E ALTA DISPONIBILIDADE",
+  "definition": "É espalhar seus servidores em prédios e cidades diferentes para o sistema nunca parar de funcionar.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Nunca coloque todos os ovos na mesma cesta, ou servidores no mesmo prédio."
+    ]
+  },
+  "topRight": {
+    "pill": "REGIÃO E ZONA (AZ)",
+    "icon": "🖥️",
+    "bullets": [
+      "Região é a cidade, AZ é um prédio (data center) dentro dela.",
+      "Cada região tem várias AZs isoladas entre si."
+    ]
+  },
+  "midRight": {
+    "pill": "ESCOLHENDO ONDE RODAR",
+    "icon": "{ }",
+    "bullets": [
+      "Você escolhe a região e a AZ ao criar um servidor.",
+      "regiao = 'sa-east-1'; az = 'sa-east-1a'"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Sites, apps e bancos de dados que não podem sair do ar.",
+      "AWS, Google Cloud, Azure usam esse modelo."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "COMO A ALTA DISPONIBILIDADE FUNCIONA",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você coloca cópias do sistema em AZs diferentes",
+      "PASSO 2: Um prédio falha (energia, incêndio, rede)",
+      "PASSO 3: As outras AZs continuam atendendo os usuários"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Colocar tudo numa AZ só não é alta disponibilidade, é ilusão.",
+      "Dica de ouro: use no mínimo 2 ou 3 AZs diferentes."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Prédio cai ➔ outro prédio assume ➔ sistema continua no ar."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Cloud",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Espalhando servidores para o sistema nunca cair se um prédio falhar"
+}

@@ -1,0 +1,63 @@
+{
+  "id": 18,
+  "title": "IGUALDADE VS IDENTIDADE (== VS ===)",
+  "definition": "São duas formas de comparar valores: uma é 'flexível' e a outra é 'rigorosa'.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "== compara só o valor. === compara valor E o tipo da informação."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O COMPUTADOR DECIDE",
+    "icon": "🖥️",
+    "bullets": [
+      "Com ==, o computador converte os tipos antes de comparar.",
+      "Com ===, ele não converte nada, compara do jeito que está."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "5 == '5' resulta em true (converteu texto pra número).",
+      "5 === '5' resulta em false (número e texto são diferentes)."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Muito comum em JavaScript, que tem os dois operadores.",
+      "Outras linguagens como Python ou Java não fazem essa distinção assim."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O código pede pra comparar dois valores",
+      "PASSO 2: Se for ==, converte os tipos antes de checar",
+      "PASSO 3: Se for ===, checa direto sem converter nada"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Usar == sem querer e receber true onde esperava false.",
+      "Dica de ouro: prefira sempre === pra evitar comparações confusas."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "== é tolerante ➔ converte tipos ➔ pode confundir. === é estrito ➔ compara exato ➔ mais seguro."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Lógica",
+  "foco_pedagogico": "Comparação de valor vs comparação de valor e tipo"
+}

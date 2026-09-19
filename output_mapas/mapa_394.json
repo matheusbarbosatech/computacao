@@ -1,0 +1,64 @@
+{
+  "id": 394,
+  "title": "ATAQUES DE SUPPLY CHAIN (CADEIA DE SUPRIMENTOS)",
+  "definition": "É quando o criminoso ataca um fornecedor pequeno e confiável para atingir milhares de clientes de uma vez.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Em vez de invadir cada empresa, o hacker envenena a fonte que todas usam."
+    ]
+  },
+  "topRight": {
+    "pill": "BIBLIOTECA INFECTADA",
+    "icon": "🖥️",
+    "bullets": [
+      "Hacker insere código malicioso dentro de um pacote open source popular.",
+      "Milhares de projetos baixam essa 'peça' sem suspeitar de nada."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "O malware fica escondido dentro de uma função normal do pacote.",
+      "npm install biblioteca-popular ➔ vem com vírus junto"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Gerenciadores de pacotes como npm, PyPI, Maven e NuGet.",
+      "Casos reais: SolarWinds, event-stream, xz-utils."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Hacker ganha acesso ao código da biblioteca famosa",
+      "PASSO 2: Insere um código malicioso disfarçado de atualização",
+      "PASSO 3: Empresas atualizam e o vírus entra por dentro do sistema"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que 'biblioteca popular' significa 'biblioteca segura'.",
+      "Dica de ouro: sempre confira a versão antes de atualizar dependências."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Biblioteca confiável infectada ➔ Milhares de empresas atualizam ➔ Todas ficam vulneráveis"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Ameaças",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "Infectando uma biblioteca open source popular para atingir milhares de empresas"
+}

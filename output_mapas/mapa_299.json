@@ -1,0 +1,64 @@
+{
+  "id": 299,
+  "title": "PODS: A MENOR UNIDADE DE EXECUÇÃO DO KUBERNETES",
+  "definition": "Pod é um casulo que abriga um ou mais containers, compartilhando rede e armazenamento.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Pod é a menor peça que o Kubernetes sabe gerenciar, nunca um container solto."
+    ]
+  },
+  "topRight": {
+    "pill": "CASULO COMPARTILHADO",
+    "icon": "🖥️",
+    "bullets": [
+      "Todos os containers de um Pod compartilham o mesmo endereço IP.",
+      "Eles também compartilham os mesmos volumes de disco."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Um arquivo YAML define o Pod e a lista de containers dentro dele.",
+      "kind: Pod / spec: containers: [app, sidecar]"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Toda aplicação no Kubernetes roda dentro de algum Pod.",
+      "Usado com kubectl, Deployments e Helm no dia a dia."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você descreve o Pod e seus containers no YAML",
+      "PASSO 2: O Kubernetes escolhe um nó e cria o casulo com IP único",
+      "PASSO 3: Os containers rodam juntos, compartilhando rede e disco"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que Pod e container são a mesma coisa, não são.",
+      "Dica de ouro: se o Pod morre, os containers dentro dele morrem juntos."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Containers agrupados ➔ Casulo Pod criado ➔ Rede e disco compartilhados"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Kubernetes",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "O casulo que abriga um ou mais containers compartilhando IP e volume"
+}

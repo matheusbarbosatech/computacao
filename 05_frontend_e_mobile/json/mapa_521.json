@@ -1,0 +1,64 @@
+{
+  "id": 521,
+  "title": "O VIRTUAL DOM E A RECONCILIAÇÃO DO REACT",
+  "definition": "É um rascunho invisível da tela que o React usa para descobrir o mínimo necessário a mudar.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Antes de mudar a tela real, o React rascunha uma cópia leve dela na memória."
+    ]
+  },
+  "topRight": {
+    "pill": "DOM REAL VS VIRTUAL",
+    "icon": "🖥️",
+    "bullets": [
+      "DOM real é a página que você vê, é pesada e lenta para alterar toda hora.",
+      "DOM virtual é um objeto JavaScript leve, fácil de recriar e comparar."
+    ]
+  },
+  "midRight": {
+    "pill": "DIFFING (COMPARAÇÃO)",
+    "icon": "{ }",
+    "bullets": [
+      "React compara a árvore antiga com a nova, elemento por elemento.",
+      "if (elementoAntigo !== elementoNovo) marcarParaAtualizar()"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Toda vez que você chama setState ou useState em um componente React.",
+      "Bibliotecas como React, Preact e Inferno usam essa técnica."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO DA RECONCILIAÇÃO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Estado muda, React gera uma nova árvore virtual.",
+      "PASSO 2: Algoritmo compara a árvore nova com a antiga (diffing).",
+      "PASSO 3: Só as diferenças reais são enviadas para atualizar a tela."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer a prop 'key' em listas confunde o React na comparação.",
+      "Dica de ouro: use key única e estável, nunca o índice do array quando a lista muda."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Estado muda ➔ React compara rascunhos ➔ Só o pedaço alterado é atualizado na tela."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "React",
+  "escola": "05_frontend_e_mobile",
+  "foco_pedagogico": "Calculando a diferença mínima na árvore para atualizar apenas o que mudou na tela"
+}

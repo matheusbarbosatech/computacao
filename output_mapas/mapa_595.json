@@ -1,0 +1,68 @@
+{
+  "id": 595,
+  "title": "PARTICIONAMENTO DE TABELAS (TABLE PARTITIONING)",
+  "definition": "Técnica de dividir uma tabela gigante em pedaços menores chamados partições, que o sistema continua enxergando como uma única tabela.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Imagine um armário gigante dividido em gavetas, uma para cada mês.",
+      "Você consulta como se fosse uma tabela só, sem perceber as gavetas."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O BANCO FAZ",
+    "icon": "🖥️",
+    "bullets": [
+      "O banco guarda cada faixa de dados em um arquivo separado no disco.",
+      "Ao filtrar por data, ele lê apenas a gaveta certa e ignora o resto."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Você diz qual coluna divide e o que entra em cada pedaço.",
+      "CREATE TABLE vendas (id INT, data DATE) PARTITION BY RANGE (data);",
+      "PARTITION p2025 VALUES LESS THAN ('2026-01-01')"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Logs, vendas e eventos com bilhões de linhas por ano.",
+      "PostgreSQL, MySQL, Oracle, SQL Server e BigQuery."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Escolha a coluna de corte, quase sempre a data.",
+      "PASSO 2: Crie as partições por mês ou por ano.",
+      "PASSO 3: O banco manda cada linha nova para a partição correta.",
+      "PASSO 4: Consultar ou apagar um período toca só uma partição."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de criar a partição do próximo mês e o insert falhar.",
+      "Filtrar sem a coluna de partição obriga o banco a varrer tudo.",
+      "Chave única precisa incluir a coluna de partição, senão o banco recusa."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Tabela gigante ➔ cortada por data ➔ consultas rápidas e limpeza fácil."
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Tuning",
+  "escola": "06_banco_dados_e_ia",
+  "foco_pedagogico": "Dividindo tabelas com 1 bilhão de linhas por mês ou ano de forma transparente"
+}

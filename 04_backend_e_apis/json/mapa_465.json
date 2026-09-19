@@ -1,0 +1,64 @@
+{
+  "id": 465,
+  "title": "DEPENDENCY INVERSION PRINCIPLE (DIP)",
+  "definition": "Módulos importantes não devem depender de detalhes, ambos devem depender de uma ideia abstrata em comum.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "O chefe não pode depender do estagiário, os dois seguem o mesmo manual de regras."
+    ]
+  },
+  "topRight": {
+    "pill": "ALTO NÍVEL x BAIXO NÍVEL",
+    "icon": "🖥️",
+    "bullets": [
+      "Alto nível decide O QUE fazer, baixo nível decide COMO fazer.",
+      "Nenhum dos dois deve conhecer o outro diretamente."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Crie uma interface e faça as duas partes dependerem dela.",
+      "class Notificador(interface Enviador) { enviador.enviar() }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Injeção de dependência em Java, C#, TypeScript.",
+      "Frameworks como Spring e .NET usam DIP o tempo todo."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Módulo de alto nível pede algo genérico via interface",
+      "PASSO 2: Módulo de baixo nível implementa essa interface",
+      "PASSO 3: Ambos se conectam pela abstração, não um pelo outro"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Confundir com 'Injeção de Dependência', que é só uma técnica para aplicar o DIP.",
+      "Criar a classe concreta direto dentro da classe principal quebra o princípio."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Regra abstrata ➔ Alto e baixo nível seguem ela ➔ Sistema flexível e fácil de trocar peças"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Arquitetura",
+  "escola": "04_backend_e_apis",
+  "foco_pedagogico": "Módulos de alto nível não devem depender de módulos de baixo nível, ambos dependem de abstrações"
+}

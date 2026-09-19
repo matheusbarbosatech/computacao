@@ -1,0 +1,63 @@
+{
+  "id": 12,
+  "title": "TIPOS PRIMITIVOS: TEXTOS (STRINGS)",
+  "definition": "String é um pedaço de texto guardado entre aspas para o computador entender.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como um colar de letras enfiadas uma atrás da outra."
+    ]
+  },
+  "topRight": {
+    "pill": "CADEIA DE CARACTERES",
+    "icon": "🖥️",
+    "bullets": [
+      "Cada letra, número ou espaço dentro das aspas é um 'elo' da cadeia.",
+      "O computador conta cada elo, até os espaços em branco."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Tudo entre aspas simples ou duplas vira texto puro.",
+      "nome = \"Maria\""
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Nomes, mensagens, endereços, senhas digitadas.",
+      "Usado em quase toda linguagem: Python, JavaScript, Java."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você abre uma aspa para começar o texto",
+      "PASSO 2: Escreve as letras que quer guardar",
+      "PASSO 3: Fecha a aspa e o texto fica pronto"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de fechar a aspa quebra o código todo.",
+      "\"10\" é texto, não número, mesmo parecendo igual."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Aspas abrem ➔ letras entram ➔ aspas fecham = String pronta"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Lógica",
+  "foco_pedagogico": "Cadeias de caracteres entre aspas"
+}

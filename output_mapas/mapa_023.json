@@ -1,0 +1,63 @@
+{
+  "id": 23,
+  "title": "DECISÃO SIMPLES: O COMANDO IF",
+  "definition": "O if é um pé de bifurcação: só entra no caminho se a condição for verdadeira.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É uma pergunta de sim ou não que o código faz antes de agir."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O COMPUTADOR PENSA",
+    "icon": "🖥️",
+    "bullets": [
+      "Ele testa a condição e recebe um resultado: verdadeiro ou falso.",
+      "Só executa o bloco de dentro se o resultado for verdadeiro."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "A condição fica entre parênteses e o bloco entre chaves.",
+      "if (idade >= 18) { liberarAcesso(); }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Validar senha, liberar desconto, checar login.",
+      "Presente em quase toda linguagem: JavaScript, Python, Java, C#."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O programa chega até o if e lê a condição",
+      "PASSO 2: A condição é avaliada como verdadeira ou falsa",
+      "PASSO 3: Se for verdadeira, executa o bloco; se não, ignora e segue"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Confundir = (atribuir valor) com == (comparar valores).",
+      "Esquecer as chaves pode fazer só a primeira linha ser condicional."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Condição verdadeira ➔ Executa o bloco ➔ Continua o programa"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Lógica",
+  "foco_pedagogico": "Executa o bloco apenas se a condição for real"
+}

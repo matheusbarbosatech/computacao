@@ -1,0 +1,64 @@
+{
+  "id": 486,
+  "title": "ENTITY FRAMEWORK CORE: CODE-FIRST E MIGRATIONS",
+  "definition": "É uma forma de criar o banco de dados escrevendo classes C#, e não escrevendo SQL na mão.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Você desenha suas classes primeiro, o banco de dados nasce depois disso."
+    ]
+  },
+  "topRight": {
+    "pill": "CODE-FIRST",
+    "icon": "🖥️",
+    "bullets": [
+      "Cada classe C# se transforma em uma tabela no banco.",
+      "Cada propriedade da classe vira uma coluna dessa tabela."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Uma classe simples representa a estrutura da tabela.",
+      "public class Aluno { public int Id; public string Nome; }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Sistemas web em ASP.NET Core com banco SQL Server ou SQLite.",
+      "Ferramenta: EF Core, comando dotnet ef no terminal."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você cria ou altera uma classe C# no projeto",
+      "PASSO 2: dotnet ef migrations add gera um arquivo com as mudanças",
+      "PASSO 3: dotnet ef database update aplica isso de fato no banco"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de rodar database update: a migration existe, mas o banco não mudou.",
+      "Dica: sempre confira a connection string antes de atualizar."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Classe C# ➔ Migration ➔ Banco de dados atualizado"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": ".NET",
+  "escola": "04_backend_e_apis",
+  "foco_pedagogico": "Gerando o banco de dados a partir das classes C# com dotnet ef database update"
+}

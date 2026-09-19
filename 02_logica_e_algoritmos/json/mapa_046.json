@@ -1,0 +1,63 @@
+{
+  "id": 46,
+  "title": "FUNÇÕES SEM RETORNO (PROCEDIMENTOS)",
+  "definition": "É uma função que só faz uma ação na tela, mas não devolve nenhum valor pra usar depois.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como pedir pra alguém gritar um aviso: ela grita, mas não te entrega nada nas mãos."
+    ]
+  },
+  "topRight": {
+    "pill": "VOID",
+    "icon": "🖥️",
+    "bullets": [
+      "O computador executa os comandos internos e depois simplesmente encerra a função.",
+      "Não existe um valor guardado pra usar em outro lugar do código."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Não tem a palavra 'return' com valor dentro da função.",
+      "function avisar() { console.log('Oi!'); }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Mostrar mensagens, imprimir textos, salvar arquivos ou atualizar a tela.",
+      "Comum em JavaScript, Python, Java e C."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você chama a função no código",
+      "PASSO 2: Ela executa a ação (mostrar algo na tela)",
+      "PASSO 3: A função termina sem devolver nada"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Tentar guardar o 'resultado' dessa função numa variável (ela é undefined).",
+      "Dica de ouro: se ela só mostra algo na tela, não espere receber valor de volta."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Chamar função ➔ Executar ação na tela ➔ Nenhum valor retornado"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Funções",
+  "foco_pedagogico": "Apenas executam uma ação na tela"
+}

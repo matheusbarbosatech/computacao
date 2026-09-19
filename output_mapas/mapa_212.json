@@ -1,0 +1,64 @@
+{
+  "id": 212,
+  "title": "GERENCIADOR DE CONTEXTO: O COMANDO WITH",
+  "definition": "É um jeito de abrir algo (arquivo, conexão) e garantir que ele será fechado sozinho, mesmo se der erro.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Pense em pegar uma chave de sala: você entra, usa, e a porta trava sozinha ao saír."
+    ]
+  },
+  "topRight": {
+    "pill": "GERENCIADOR DE CONTEXTO",
+    "icon": "🖥️",
+    "bullets": [
+      "Python cuida da abertura e do fechamento do recurso pra você.",
+      "Evita esquecer de 'desligar' arquivos ou conexões."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Usa a palavra 'with' antes de abrir o recurso.",
+      "with open('dados.txt') as f: conteudo = f.read()"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Abrir e ler arquivos de texto ou planilhas.",
+      "Conectar com bancos de dados, como SQLite ou PostgreSQL."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O 'with' abre o arquivo ou conexão automaticamente.",
+      "PASSO 2: O código dentro do bloco usa esse recurso normalmente.",
+      "PASSO 3: Ao sair do bloco, o recurso é fechado sozinho, sem erro."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Abrir arquivo sem 'with' e esquecer de fechar, travando o sistema.",
+      "Dica de ouro: se abriu algo 'de fora', sempre prefira 'with'."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Abre recurso ➔ Usa dentro do bloco ➔ Fecha automaticamente, sem esforço."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Python Básico",
+  "escola": "03_python_especialista",
+  "foco_pedagogico": "Fechamento automático e seguro de conexões e arquivos"
+}

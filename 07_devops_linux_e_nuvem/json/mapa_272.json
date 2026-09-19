@@ -1,0 +1,64 @@
+{
+  "id": 272,
+  "title": "VARIÁVEIS DE AMBIENTE E ARQUIVOS DE PERFIL",
+  "definition": "São 'post-its' que o sistema guarda na memória com informações que os programas podem consultar, como o PATH que diz onde achar comandos.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "São gavetas de configuração que todo programa pode abrir para ler informações do sistema."
+    ]
+  },
+  "topRight": {
+    "pill": "O QUE É O PATH",
+    "icon": "🖥️",
+    "bullets": [
+      "Lista de pastas onde o sistema procura um comando digitado.",
+      "Se a pasta não está no PATH, o comando 'não é reconhecido'."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Use export para criar e $ para ler o valor.",
+      "export PATH=$PATH:/minha/pasta"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Rodar comandos de terminal como python ou git de qualquer lugar.",
+      "Arquivos: .bashrc (usuário) e /etc/environment (todo o sistema)."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você edita .bashrc ou /etc/environment com a nova variável",
+      "PASSO 2: O sistema lê esse arquivo ao abrir o terminal",
+      "PASSO 3: A variável fica disponível para todos os programas usarem"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Editar o arquivo e esquecer de recarregar com 'source ~/.bashrc'.",
+      "Sobrescrever o PATH inteiro em vez de adicionar a pasta nova."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Editar arquivo ➔ Sistema carrega variável ➔ Comando funciona em qualquer pasta"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Linux",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Configurando o PATH e variáveis de sistema permanentes"
+}

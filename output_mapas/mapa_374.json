@@ -1,0 +1,65 @@
+{
+  "id": 374,
+  "title": "IDS E IPS (SNORT, SURICATA): DETECÇÃO E PREVENÇÃO DE INTRUSÃO",
+  "definition": "São sistemas que vigiam o tráfego da rede e avisam ou bloqueiam conexões suspeitas, como um radar de segurança.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "IDS é o vigia que só avisa quando vê algo estranho na rede.",
+      "IPS é o segurança que já bloqueia a ameaça na hora."
+    ]
+  },
+  "topRight": {
+    "pill": "SNORT E SURICATA",
+    "icon": "🖥️",
+    "bullets": [
+      "São programas famosos que leem cada pacote de dados da rede.",
+      "Comparam o tráfego com uma lista de padrões de ataques conhecidos."
+    ]
+  },
+  "midRight": {
+    "pill": "REGRA DE DETECÇÃO",
+    "icon": "{ }",
+    "bullets": [
+      "Regras dizem o que é suspeito, tipo uma receita de alerta.",
+      "alert tcp any any -> any 80 (msg:\"Ataque!\"; sid:1000001;)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Protege servidores, redes corporativas e data centers.",
+      "Ferramentas: Snort, Suricata, Zeek, Wireshark para análise."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O tráfego de rede passa pelo sensor do IDS/IPS",
+      "PASSO 2: O sistema compara os pacotes com regras de ataques",
+      "PASSO 3: Se achar ameaça, avisa (IDS) ou bloqueia (IPS)"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Confundir IDS (só detecta) com IPS (detecta e bloqueia).",
+      "Regras mal ajustadas geram muitos falsos alarmes."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Pacote suspeito ➔ Sistema analisa ➔ Alerta ou bloqueio"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Blue Team",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "O radar que avisa ou derruba conexões suspeitas na rede"
+}

@@ -1,0 +1,64 @@
+{
+  "id": 328,
+  "title": "GITHUB ACTIONS: WORKFLOWS, JOBS E STEPS EM YAML",
+  "definition": "É um robô dentro do GitHub que executa tarefas automáticas quando algo acontece no seu repositório.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Um assistente que roda tarefas repetitivas sozinho, sem você apertar botão."
+    ]
+  },
+  "topRight": {
+    "pill": "WORKFLOW",
+    "icon": "🖥️",
+    "bullets": [
+      "É a receita completa, escrita em um arquivo .yml na pasta .github/workflows.",
+      "Cada workflow é disparado por um evento, tipo um push ou pull request."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Indentação define hierarquia: workflow > jobs > steps.",
+      "on: push / jobs: build / steps: - run: npm install"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Testar código automaticamente antes de aceitar um pull request.",
+      "Publicar sites, apps ou pacotes sem fazer isso manualmente."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Um evento acontece, como um push no repositório",
+      "PASSO 2: O workflow dispara e os jobs rodam seus steps em ordem",
+      "PASSO 3: Cada step executa um comando e mostra sucesso ou erro"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Um espaço errado no YAML quebra o arquivo inteiro.",
+      "Esquecer 'uses: actions/checkout' e o job não acha seu código."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Evento acontece ➔ Job executa Steps ➔ Resultado aparece no GitHub"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "CI/CD",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "A estrutura de automação nativa do GitHub para desenvolvedores"
+}

@@ -1,0 +1,72 @@
+{
+  "id": 551,
+  "title": "DESIGN SYSTEMS: DESIGN TOKENS DE COR, TIPOGRAFIA E ESPAÇAMENTO",
+  "definition": "Tokens são nomes que guardam valores de estilo, criando uma fonte única da verdade entre designers e programadores.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Um token é um apelido para um valor: no lugar de decorar códigos, você usa um nome claro.",
+      "Cor, tamanho de letra e espaço viram palavras combinadas, não números soltos espalhados.",
+      "Assim, designer e engenheiro leem exatamente o mesmo nome e veem a mesma coisa."
+    ]
+  },
+  "topRight": {
+    "pill": "OS TRÊS PILARES",
+    "icon": "🖥️",
+    "bullets": [
+      "O computador só entende valores brutos: o token traduz o nome amigável para esse valor.",
+      "COR: guarda o código da tinta, como azul principal ou vermelho de erro.",
+      "TIPOGRAFIA: guarda fonte, tamanho e peso, como título grande ou texto de apoio.",
+      "ESPAÇAMENTO: guarda distâncias e margens, como espaço pequeno, médio e grande."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Um token é sempre um par: nome de um lado, valor do outro, dentro de um arquivo de configuração.",
+      "cor-primaria = #1E90FF",
+      "espaco-medio = 16px",
+      "fonte-titulo = 24px"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "No dia a dia, você muda a cor da marca em um token e o site inteiro obedece.",
+      "Ferramentas comuns: variáveis do Figma, Style Dictionary, CSS variables e Tailwind.",
+      "Linguagens e telas: sites, aplicativos, painéis e sistemas internos de qualquer empresa."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Liste os valores repetidos de cor, letra e espaço que aparecem na tela.",
+      "PASSO 2: Dê um nome claro para cada valor, criando o token único e oficial.",
+      "PASSO 3: Designer e programador usam só o nome; trocar o valor muda tudo de uma vez."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Erro clássico: escrever a cor na mão em cada tela e depois esquecer de trocar em todas.",
+      "Outro erro: criar cem tokens quase iguais e ficar sem saber qual usar no projeto.",
+      "Dica de ouro: comece com poucos tokens e agrupe por função, como ação, alerta e fundo."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Valor bruto repetido ➔ Token com nome claro ➔ Fonte única da verdade para todos"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "CSS/Design",
+  "escola": "05_frontend_e_mobile",
+  "foco_pedagogico": "A fonte única da verdade que alinha designers de produto e engenheiros de software"
+}

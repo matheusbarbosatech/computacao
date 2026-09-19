@@ -1,0 +1,65 @@
+{
+  "id": 408,
+  "title": "AUTOMAÇÃO DE SEGURANÇA COM PYTHON (SCAPY E REQUESTS)",
+  "definition": "Usar Python para criar robôs que testam e verificam a segurança de uma rede automaticamente.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como ter um assistente que bate na porta de cada casa da rua para ver quem responde."
+    ]
+  },
+  "topRight": {
+    "pill": "SCAPY E REQUESTS",
+    "icon": "🖥️",
+    "bullets": [
+      "Scapy cria e envia pacotes de rede, como cartas personalizadas.",
+      "Requests conversa com sites, como fazer uma pergunta e ouvir a resposta."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Scapy monta o pacote antes de enviar.",
+      "sr1(IP(dst='192.168.0.1')/ICMP())",
+      "requests.get('http://site.com')"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Verificar se um computador da rede está ligado e respondendo.",
+      "Testar se um site aceita conexões seguras ou tem falhas simples."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O script monta um pacote ou pedido de teste",
+      "PASSO 2: Ele envia para o alvo e espera a resposta",
+      "PASSO 3: O script analisa a resposta e mostra o resultado"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Testar redes sem permissão é ilegal, sempre peça autorização antes.",
+      "Esquecer de tratar erros faz o script travar quando não há resposta."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Monta pacote/pedido ➔ Envia e espera resposta ➔ Analisa resultado da rede"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Laboratório",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "Criando seus próprios scripts de teste e verificação de rede"
+}

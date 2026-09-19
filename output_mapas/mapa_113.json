@@ -1,0 +1,63 @@
+{
+  "id": 113,
+  "title": "EXCEÇÕES PERSONALIZADAS COM CLASSES",
+  "definition": "É criar seu próprio tipo de erro, com nome e mensagem que você escolhe.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Em vez de usar erros genéricos, você inventa um erro com nome específico do seu problema."
+    ]
+  },
+  "topRight": {
+    "pill": "HERANÇA DE ERRO",
+    "icon": "🖥️",
+    "bullets": [
+      "Sua classe de erro nasce de uma classe de erro já existente do sistema.",
+      "Ela herda os poderes de ser 'lançada' e 'capturada'."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Crie uma classe que herda de Exception ou Error.",
+      "class SaldoInsuficienteError(Exception): pass"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Sistemas bancários, validação de formulários, regras de negócio.",
+      "Comum em Python, Java, JavaScript, C#."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você cria a classe do erro com um nome que faz sentido",
+      "PASSO 2: O código lança esse erro quando a regra é quebrada",
+      "PASSO 3: Outro trecho de código captura e trata esse erro específico"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de herdar da classe de erro base do sistema.",
+      "Criar erro genérico demais, sem nome claro do problema real."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Regra quebrada ➔ Erro sob medida é criado ➔ Programa entende o problema exato"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "POO",
+  "foco_pedagogico": "Criando seus próprios tipos de erros"
+}

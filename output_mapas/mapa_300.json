@@ -1,0 +1,64 @@
+{
+  "id": 300,
+  "title": "DEPLOYMENTS E REPLICASETS NO K8S",
+  "definition": "É o mecanismo que garante que sua API tenha sempre N cópias vivas, mesmo se algo quebrar.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Você diz 'quero 5 cópias' e o Kubernetes cuida disso pra sempre."
+    ]
+  },
+  "topRight": {
+    "pill": "REPLICASET",
+    "icon": "🖥️",
+    "bullets": [
+      "É o 'contador' que garante o número certo de Pods rodando.",
+      "Se um Pod morre, ele cria outro na hora."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "replicas: 5 define quantas cópias devem existir sempre.",
+      "kubectl scale deployment app --replicas=10"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "APIs em produção que não podem parar de responder.",
+      "Usado com kubectl, YAML e Helm."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Deployment define quantas cópias (replicas) quer.",
+      "PASSO 2: ReplicaSet monitora e recria Pods que caem.",
+      "PASSO 3: Tráfego continua sendo atendido sem downtime."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Editar o Pod direto não funciona, o ReplicaSet desfaz a mudança.",
+      "Sempre edite o Deployment, nunca o ReplicaSet manualmente."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Deployment pede N cópias ➔ ReplicaSet garante N cópias ➔ API nunca cai."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Kubernetes",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Garantindo que sempre existam N cópias da sua API ativas sem downtime"
+}

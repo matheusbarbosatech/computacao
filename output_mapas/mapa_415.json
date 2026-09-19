@@ -1,0 +1,64 @@
+{
+  "id": 415,
+  "title": "PIPELINING NA CPU: LINHA DE MONTAGEM DE INSTRUÇÕES",
+  "definition": "É dividir a execução de uma instrução em etapas menores para processar várias ao mesmo tempo, em estágios diferentes.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Como uma fábrica de carros: cada estação monta uma peça diferente ao mesmo tempo."
+    ]
+  },
+  "topRight": {
+    "pill": "ESTÁGIOS DA CPU",
+    "icon": "🖥️",
+    "bullets": [
+      "A CPU divide o trabalho em fases: buscar, decodificar, executar, gravar.",
+      "Cada instrução passa por essas fases em sequência, mas várias andam juntas."
+    ]
+  },
+  "midRight": {
+    "pill": "CICLOS DE CLOCK",
+    "icon": "{ }",
+    "bullets": [
+      "Cada estágio leva 1 ciclo de clock para terminar sua parte.",
+      "Ciclo1: Busca I1 | Ciclo2: Decodifica I1, Busca I2"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Presente em quase todo processador moderno, de celular a servidor.",
+      "Arquiteturas como x86, ARM e RISC-V usam pipelining."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: A CPU busca a instrução 1 na memória",
+      "PASSO 2: Enquanto decodifica a instrução 1, já busca a instrução 2",
+      "PASSO 3: Instruções vão se sobrepondo até todas serem concluídas"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que pipelining executa uma instrução mais rápido, na verdade acelera o conjunto.",
+      "Dica: o ganho é na velocidade total, não na instrução individual."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Dividir tarefa ➔ Sobrepor etapas ➔ Processar mais rápido no total"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Hardware",
+  "escola": "01_ciencia_computacao_uninter",
+  "foco_pedagogico": "Processando várias instruções simultaneamente em estágios diferentes sem esperar uma acabar"
+}

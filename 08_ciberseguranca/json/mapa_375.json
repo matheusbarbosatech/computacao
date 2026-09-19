@@ -1,0 +1,64 @@
+{
+  "id": 375,
+  "title": "WAF (WEB APPLICATION FIREWALL): CLOUDFLARE E AWS WAF",
+  "definition": "É um segurança na porta que examina cada visitante e bloqueia ataques antes de chegarem na sua API.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "WAF é um filtro que fica na frente do seu site checando cada requisição."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO FUNCIONA",
+    "icon": "🖥️",
+    "bullets": [
+      "Analisa URL, headers e corpo da requisição em busca de padrões maliciosos.",
+      "Compara com regras conhecidas de SQLi, XSS e bots."
+    ]
+  },
+  "midRight": {
+    "pill": "REGRA (WAF RULE)",
+    "icon": "{ }",
+    "bullets": [
+      "Regra diz: se detectar padrão suspeito, bloqueia ou desafia.",
+      "if (input contém \"' OR 1=1\") então BLOCK"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Protege sites, APIs REST e aplicações web expostas na internet.",
+      "Ferramentas: Cloudflare WAF, AWS WAF, ModSecurity."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Usuário envia uma requisição para o site.",
+      "PASSO 2: WAF inspeciona o conteúdo antes de deixar passar.",
+      "PASSO 3: Se for ataque, bloqueia; se for seguro, libera para a API."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que WAF resolve tudo e esquecer de corrigir o código vulnerável.",
+      "Dica: configure regras customizadas, não confie só no padrão."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Requisição chega ➔ WAF inspeciona ➔ Ataque bloqueado antes da API."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Blue Team",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "A barreira inteligente que bloqueia SQLi, XSS e bots antes de tocar sua API"
+}

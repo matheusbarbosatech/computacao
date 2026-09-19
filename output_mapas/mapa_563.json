@@ -1,0 +1,68 @@
+{
+  "id": 563,
+  "title": "ESTADOS DE INTERFACE: IDEAL, VAZIO, CARREGANDO, ERRO E SUCESSO",
+  "definition": "São as cinco situações que uma tela pode mostrar: os dados chegaram, não há nada, ainda está vindo, deu problema ou deu certo.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Uma tela nunca tem só uma cara: ela muda conforme a situação dos dados.",
+      "Desenhar as cinco caras evita tela branca, travada ou confusa para o usuário."
+    ]
+  },
+  "topRight": {
+    "pill": "CONCEITO 1: O COMPUTADOR ESPERA",
+    "icon": "🖥️",
+    "bullets": [
+      "Pedir dado na rede leva tempo: o sistema precisa avisar que está ocupado.",
+      "Enquanto espera, o computador pode mostrar esqueleto, giro ou barra de progresso.",
+      "Se nada volta, ele precisa saber desistir e avisar o erro."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Regra: um estado por vez. Se está carregando, não mostre vazio nem erro junto.",
+      "if (carregando) return <Giro/>; if (erro) return <Erro/>; if (lista.length === 0) return <Vazio/>;"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Toda lista, busca, formulário, painel e tela de app usa esses cinco estados.",
+      "React, Vue, Flutter, Android, iOS e sites em geral seguem a mesma ideia."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Usuário abre a tela. Sistema mostra CARREGANDO com esqueleto ou giro.",
+      "PASSO 2: Resposta chega. Se falhou, mostra ERRO com botão de tentar de novo.",
+      "PASSO 3: Se veio lista vazia, mostra VAZIO com dica de ação.",
+      "PASSO 4: Se veio dado, mostra IDEAL. Se a ação deu certo, mostra SUCESSO."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Erro clássico: desenhar só a tela bonita cheia de dados e esquecer as outras quatro.",
+      "Dica de ouro: tela vazia precisa dizer o que fazer, não só ficar em branco.",
+      "Nunca use só vermelho para erro: escreva também, pois cor sozinha não se explica."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Cinco estados ➔ Carregando, Vazio, Erro, Ideal, Sucesso ➔ Tela nunca surpreende o usuário."
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "UX/UI",
+  "escola": "05_frontend_e_mobile",
+  "foco_pedagogico": "Os 5 estados obrigatórios que toda tela bem desenhada precisa contemplar"
+}

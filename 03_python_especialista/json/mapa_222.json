@@ -1,0 +1,66 @@
+{
+  "id": 222,
+  "title": "PARSEANDO HTML COM BEAUTIFULSOUP4",
+  "definition": "BeautifulSoup transforma uma página HTML bagunçada em uma árvore organizada que você pode explorar e buscar.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como abrir uma caixa de brinquedos e separar tudo por tipo e cor para achar rápido."
+    ]
+  },
+  "topRight": {
+    "pill": "PARSER E ÁRVORE",
+    "icon": "🖥️",
+    "bullets": [
+      "O parser lê o HTML e monta uma árvore de tags aninhadas.",
+      "Cada tag vira um objeto que você pode navegar e buscar."
+    ]
+  },
+  "midRight": {
+    "pill": "FIND E FIND_ALL",
+    "icon": "{ }",
+    "bullets": [
+      "find() traz só o primeiro resultado que combina com a busca.",
+      "find_all() traz uma lista com todos os resultados.",
+      "soup.find('div', class_='titulo')",
+      "soup.find_all('a', id='link1')"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Web scraping para coletar preços, notícias e dados públicos.",
+      "Usado com requests em Python para baixar e ler páginas."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você carrega o HTML dentro do BeautifulSoup",
+      "PASSO 2: Usa find ou find_all passando tag, classe ou id",
+      "PASSO 3: Recebe a tag encontrada ou a lista de tags"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "class_ tem underscore porque class já é palavra reservada em Python.",
+      "find_all sempre devolve uma lista, mesmo com um só resultado."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "HTML bruto ➔ soup organiza em árvore ➔ find/find_all acham as tags certas"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Web Scraping",
+  "escola": "03_python_especialista",
+  "foco_pedagogico": "Encontrando tags, classes e IDs com find e find_all"
+}

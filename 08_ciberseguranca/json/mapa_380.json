@@ -1,0 +1,64 @@
+{
+  "id": 380,
+  "title": "HARDENING DE SERVIDORES: MENOS PORTAS, MENOS RISCO",
+  "definition": "Hardening é deixar o servidor só com o essencial ligado, fechando tudo que não é usado.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Cada serviço ligado é uma porta destrancada na sua casa."
+    ]
+  },
+  "topRight": {
+    "pill": "SUPERFÍCIE DE ATAQUE",
+    "icon": "🖥️",
+    "bullets": [
+      "É o total de pontos que um invasor pode tentar usar.",
+      "Quanto menos serviços rodando, menos portas abertas."
+    ]
+  },
+  "midRight": {
+    "pill": "COMANDOS ÚTEIS",
+    "icon": "{ }",
+    "bullets": [
+      "Linux desliga serviço: systemctl disable --now nome",
+      "Windows fecha porta: New-NetFirewallRule -Action Block"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Servidores web, bancos de dados e nuvem (AWS, Azure).",
+      "Ferramentas: firewalld, iptables, Windows Defender Firewall."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Liste todos os serviços e portas ativas no servidor",
+      "PASSO 2: Identifique o que realmente é usado pela aplicação",
+      "PASSO 3: Desative serviços extras e bloqueie portas não usadas"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Desligar serviço sem saber pra que serve pode travar o sistema.",
+      "Dica: teste em ambiente de homologação antes de aplicar em produção."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Serviço parado ➔ Porta fechada ➔ Menos chance de invasão"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Blue Team",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "Desativando serviços desnecessários e fechando portas para reduzir a superfície de ataque"
+}

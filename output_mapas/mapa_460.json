@@ -1,0 +1,64 @@
+{
+  "id": 460,
+  "title": "ALGORITMOS QUÂNTICOS BÁSICOS: SHOR E GROVER",
+  "definition": "São receitas especiais que computadores quânticos usam para resolver certos problemas muito mais rápido que computadores normais.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Um computador quântico testa várias respostas ao mesmo tempo, como abrir mil portas juntas."
+    ]
+  },
+  "topRight": {
+    "pill": "PARALELISMO QUÂNTICO",
+    "icon": "🖥️",
+    "bullets": [
+      "Bits normais são 0 ou 1, um de cada vez, como interruptores.",
+      "Qubits ficam em várias possibilidades ao mesmo tempo, como um pião girando."
+    ]
+  },
+  "midRight": {
+    "pill": "SHOR vs GROVER",
+    "icon": "{ }",
+    "bullets": [
+      "Shor(numero) → acha os fatores primos escondidos.",
+      "Grover(lista) → encontra o item certo numa busca gigante."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Shor ameaça a criptografia RSA usada em bancos e sites.",
+      "Grover acelera buscas em bancos de dados e senhas."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Qubits entram em superposição, testando todas as opções juntos",
+      "PASSO 2: Interferência quântica reforça as respostas certas e cancela as erradas",
+      "PASSO 3: Medição revela a resposta final, muito mais rápido que no jeito tradicional"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que quântico é só 'mais rápido sempre': só ajuda em problemas específicos.",
+      "RSA não quebra hoje: ainda faltam computadores quânticos grandes o suficiente."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Superposição ➔ Testa tudo ao mesmo tempo ➔ Resposta certa muito mais rápido"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Algoritmos",
+  "escola": "01_ciencia_computacao_uninter",
+  "foco_pedagogico": "Como o paralelismo quântico ameaça a fatoração RSA e acelera buscas"
+}

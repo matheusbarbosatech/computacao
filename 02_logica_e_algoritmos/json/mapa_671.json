@@ -1,0 +1,63 @@
+{
+  "id": 671,
+  "title": "COMO FUNCIONA UM ENCURTADOR DE URL (BITLY)",
+  "definition": "Transforma links enormes em atalhos curtos, redirecionando o navegador automaticamente para o destino original.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Você coloca um link longo, o sistema gera um código único de 6 a 8 caracteres e guarda a ligação entre o código curto e o link real."
+    ]
+  },
+  "topRight": {
+    "pill": "GERANDO IDS ÚNICOS",
+    "icon": "🖥️",
+    "bullets": [
+      "O servidor transforma um número (ID do banco) em texto usando Base62: 62 símbolos (A-Z + a-z + 0-9).",
+      "Assim 1 milhão vira '4c92', ocupando pouquíssimos caracteres na URL."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Base62 usa divisão por 62: pegue o resto como caractere (0-9, A-Z, a-z) e repita até o número zerar.",
+      "Exemplo: ID 12345 vira '3d7', ID 238327 vira 'ZZZ', quanto menor o número, menor o código."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Encurtadores como Bitly, TinyURL, Rebrandly; links de marketing por e-mail e SMS; QR Codes; redes sociais com limite de caracteres."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Usuário envia URL longa → sistema salva no banco e gera um ID numérico único.",
+      "PASSO 2: O ID é convertido para Base62, formando o código curto (ex: bit.ly/abc123).",
+      "PASSO 3: Ao acessar o link curto, o servidor busca o código no banco e devolve HTTP 301 (permanente) ou 302 (temporário) com a URL real no cabeçalho Location."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "301 cacheia no navegador e o atalho nunca mais consulta o servidor — use 302 se quiser contar cliques.",
+      "Colisão de IDs: jamais gere código aleatório sem checar duplicata no banco antes de salvar."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "URL longa ➔ salva no banco com ID numérico ➔ converte ID para Base62 ➔ código curto ➔ HTTP 301/302 redireciona o navegador ao destino final."
+    ]
+  },
+  "_modelo_usado": "devworld/deepseek-v4-pro-0813-f",
+  "modulo": "Mundo Real",
+  "escola": "02_logica_e_algoritmos",
+  "foco_pedagogico": "Gerando IDs únicos em Base62 e redirecionamento HTTP 301/302"
+}

@@ -1,0 +1,63 @@
+{
+  "id": 76,
+  "title": "PERCORRENDO ARRAYS COM FOR CLÁSSICO",
+  "definition": "É usar um contador que vai crescendo para visitar cada posição do array, uma por uma.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Imagine caixas numeradas em fila e você abre uma por vez, em ordem."
+    ]
+  },
+  "topRight": {
+    "pill": "O ÍNDICE I",
+    "icon": "🖥️",
+    "bullets": [
+      "'i' é uma variável que guarda a posição atual do array.",
+      "Ela começa em 0 porque arrays começam a contar do zero."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Estrutura: início, condição e incremento juntos.",
+      "for (let i = 0; i < arr.length; i++) { arr[i] }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Somar valores, buscar itens, imprimir listas na tela.",
+      "Usado em JavaScript, Java, C, Python e quase toda linguagem."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: i começa valendo 0",
+      "PASSO 2: verifica se i é menor que o tamanho do array",
+      "PASSO 3: usa arr[i], depois soma 1 em i e repete"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Usar i <= length causa erro de posição inexistente.",
+      "Esquecer i++ trava o loop para sempre."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "i começa em 0 ➔ percorre até length-1 ➔ visita cada elemento"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Coleções",
+  "foco_pedagogico": "O loop tradicional com índice i de 0 até length"
+}

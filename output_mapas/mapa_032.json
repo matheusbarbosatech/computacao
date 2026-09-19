@@ -1,0 +1,63 @@
+{
+  "id": 32,
+  "title": "O LOOP FAÇA...ENQUANTO (DO...WHILE)",
+  "definition": "É um loop que executa o bloco de código primeiro e só depois checa se deve repetir.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Faz a ação uma vez antes de perguntar se pode continuar."
+    ]
+  },
+  "topRight": {
+    "pill": "TESTE NO FINAL",
+    "icon": "🖥️",
+    "bullets": [
+      "O computador executa o bloco e só depois avalia a condição.",
+      "Diferente do while, que testa antes de rodar."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "A condição fica entre parênteses depois do bloco.",
+      "do { comer(); } while (aindaTemFome);"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Menus que pedem para o usuário escolher pelo menos uma vez.",
+      "Comum em C, Java, JavaScript e C#."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Executa o bloco de código sem checar nada",
+      "PASSO 2: Depois de rodar, testa a condição",
+      "PASSO 3: Se for verdadeira, repete; se não, encerra"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer o ponto e vírgula depois do while(condição).",
+      "Usar do...while quando o certo era testar antes com while."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Executa primeiro ➔ Testa depois ➔ Repete se for verdade"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Lógica",
+  "foco_pedagogico": "Garante ao menos uma execução antes de testar"
+}

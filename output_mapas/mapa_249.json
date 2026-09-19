@@ -1,0 +1,64 @@
+{
+  "id": 249,
+  "title": "INTRODUÇÃO AO NUMPY: ARRAYS E OPERAÇÕES VETORIAIS",
+  "definition": "NumPy é uma biblioteca que guarda números em blocos organizados e faz contas em todos de uma vez, sem loop.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Em vez de calcular número por número, você calcula a lista inteira de uma vez só."
+    ]
+  },
+  "topRight": {
+    "pill": "ARRAY NUMPY",
+    "icon": "🖥️",
+    "bullets": [
+      "É como uma fileira de gavetas numeradas, todas do mesmo tipo de item.",
+      "Ocupa menos memória e roda muito mais rápido que uma lista comum."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Você cria o array e aplica a conta direto nele, sem 'for'.",
+      "np.array([1,2,3]) * 2 → [2,4,6]"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Ciência de dados, inteligência artificial e análise financeira.",
+      "Base de bibliotecas como Pandas, TensorFlow e Scikit-learn."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você cria um array com vários números juntos",
+      "PASSO 2: Aplica uma operação (soma, multiplicação etc) no array todo",
+      "PASSO 3: NumPy calcula tudo em lote, de forma ultrarrápida"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Confundir array do NumPy com lista comum do Python, elas se comportam diferente.",
+      "Dica de ouro: some+ multiplique arrays direto, nunca use loop para isso."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Array NumPy ➔ Operação em lote ➔ Cálculo ultrarrápido sem loops"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Data Python",
+  "escola": "03_python_especialista",
+  "foco_pedagogico": "Cálculos matemáticos ultrarrápidos em lote sem usar loops"
+}

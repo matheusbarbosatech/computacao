@@ -1,0 +1,65 @@
+{
+  "id": 688,
+  "title": "INGLÊS PARA PROGRAMADORES: O VOCABULÁRIO ESSENCIAL",
+  "definition": "Você não precisa falar inglês fluente, só dominar cerca de 100 palavras que se repetem em toda documentação, código e mensagem de erro.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "O inglês da programação é um dialeto técnico e repetitivo, não literatura.",
+      "Aprenda o verbo e o que ele faz no sistema, não a gramática perfeita."
+    ]
+  },
+  "topRight": {
+    "pill": "VERBOS QUE MANDAM",
+    "icon": "🖥️",
+    "bullets": [
+      "get, set, add, remove, update: os quatro verbos que movem quase todo dado.",
+      "get traz informação, set guarda, add inclui, remove apaga, update altera."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Nome de função ou variável é em inglês, minúsculo e sem espaço entre palavras.",
+      "getUserName() / addItem() / const totalPrice = 10"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Ler documentação, seguir tutorial, entender erro vermelho no console.",
+      "Git, terminal, JavaScript, Python, React, banco de dados."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você bate numa palavra desconhecida na documentação.",
+      "PASSO 2: Procure o exemplo de código ao lado dela, o contexto explica tudo.",
+      "PASSO 3: Anote a palavra no seu caderninho e reutilize no próximo projeto."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que precisa de inglês avançado para começar a programar.",
+      "Dica de ouro: traduza sempre pela ação no código, nunca palavra por palavra."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Termo em inglês ➔ ação no sistema ➔ nome usado no seu código."
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Mentalidade",
+  "escola": "02_logica_e_algoritmos",
+  "foco_pedagogico": "Desmistificando termos em inglês que destravam toda a documentação global"
+}

@@ -1,0 +1,64 @@
+{
+  "id": 643,
+  "title": "FILAS DE PRIORIDADE E HEAPS BINÁRIOS (MIN-HEAP E MAX-HEAP)",
+  "definition": "Estrutura que atende primeiro o item mais urgente, e não o que chegou antes.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Fila comum respeita a ordem de chegada; a fila de prioridade respeita a gravidade."
+    ]
+  },
+  "topRight": {
+    "pill": "HEAP BINÁRIO",
+    "icon": "🖥️",
+    "bullets": [
+      "Árvore binária completa onde o pai é sempre mais urgente que os filhos.",
+      "Min-Heap chama o menor valor; Max-Heap chama o maior."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Regra de ouro: o item novo sobe trocando com o pai até achar seu lugar.",
+      "exemplo: pai = (indice - 1) / 2;  heapq.heappush(f, (grave, nome))"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Escalonador de processos, filas de eventos e algoritmos de menor caminho.",
+      "Python heapq, Java PriorityQueue e C++ priority_queue."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Paciente chega e recebe uma cor de gravidade",
+      "PASSO 2: Ele sobe na árvore comparando com o pai acima",
+      "PASSO 3: A raiz da árvore é sempre o próximo a ser chamado"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que o heap é lista ordenada: ele só garante o topo da árvore.",
+      "Em Python heapq faz só Min-Heap; para Max-Heap, use valores negativos."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Urgência entra ➔ item sobe na árvore ➔ topo é atendido primeiro"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Algoritmos",
+  "escola": "02_logica_e_algoritmos",
+  "foco_pedagogico": "Atendimento prioritário em emergências de hospital gerenciado em árvore"
+}

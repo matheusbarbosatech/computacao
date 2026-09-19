@@ -1,0 +1,63 @@
+{
+  "id": 106,
+  "title": "PILAR 3: HERANÇA (A RELAÇÃO É-UM)",
+  "definition": "Herança é quando uma classe filha nasce com o código e as características de uma classe mãe.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Um Cachorro É-UM Animal, então herda o que todo Animal já tem."
+    ]
+  },
+  "topRight": {
+    "pill": "CLASSE MÃE E FILHA",
+    "icon": "🖥️",
+    "bullets": [
+      "A classe mãe guarda o código geral e comum.",
+      "A classe filha reaproveita esse código sem copiar nada."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "A filha usa uma palavra especial para dizer 'eu venho dela'.",
+      "class Cachorro extends Animal { }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Criar variações de um mesmo conceito sem repetir código.",
+      "Java, C#, Python e quase toda linguagem orientada a objetos."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Existe uma classe mãe com atributos e ações",
+      "PASSO 2: A classe filha herda tudo isso automaticamente",
+      "PASSO 3: A filha ainda pode adicionar ou mudar seu próprio comportamento"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Herdar de tudo cria uma família gigante e confusa de classes.",
+      "Ouro: só use herança se a relação for realmente É-UM."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Classe Mãe ➔ Passa o código ➔ Classe Filha herda e reaproveita"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "POO",
+  "foco_pedagogico": "A classe filha herda código da classe mãe"
+}

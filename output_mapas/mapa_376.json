@@ -1,0 +1,64 @@
+{
+  "id": 376,
+  "title": "HONEYPOTS: ARMADILHAS PARA ATRAIR E ESTUDAR INVASORES",
+  "definition": "Honeypot é um sistema fingindo ser um alvo real para atrair e estudar invasores.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É uma isca digital: parece um servidor real, mas é só uma armadilha vigiada."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO FUNCIONA",
+    "icon": "🖥️",
+    "bullets": [
+      "Simula portas, arquivos e serviços falsos para parecer atraente ao invasor.",
+      "Toda ação dentro dele é gravada em detalhes, sem risco ao sistema real."
+    ]
+  },
+  "midRight": {
+    "pill": "TIPOS DE HONEYPOT",
+    "icon": "{ }",
+    "bullets": [
+      "Baixa interação: simula poucos serviços, mais seguro e simples.",
+      "Alta interação: sistema quase real, captura mais dados do ataque."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Empresas de segurança e times de resposta a incidentes.",
+      "Ferramentas como Honeyd, Cowrie e T-Pot."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Servidor falso é criado e exposto na rede",
+      "PASSO 2: Invasor encontra e ataca o honeypot pensando ser real",
+      "PASSO 3: Time de segurança analisa os dados coletados sobre o ataque"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que honeypot substitui firewall ou antivírus, o que é falso.",
+      "Isolar mal o honeypot pode deixar ele virar porta de entrada real."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Isca falsa ➔ invasor cai na armadilha ➔ dados do ataque são estudados"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Blue Team",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "Servidores fictícios criados exclusivamente para coletar inteligência sobre cibercriminosos"
+}

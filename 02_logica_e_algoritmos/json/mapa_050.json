@@ -1,0 +1,64 @@
+{
+  "id": 50,
+  "title": "FUNÇÕES DE ORDEM SUPERIOR",
+  "definition": "São funções que recebem outras funções como entrada ou devolvem uma função como resultado.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Função é tratada como um valor comum, igual número ou texto.",
+      "Você passa uma 'receita' para dentro de outra receita."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO FUNCIONA",
+    "icon": "🖥️",
+    "bullets": [
+      "A função de fora chama a função de dentro quando precisa.",
+      "O resultado pode mudar dependendo da função recebida."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Uma função vira parâmetro entre parênteses.",
+      "lista.map(numero => numero * 2)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Muito comum em JavaScript, Python e Java.",
+      "Aparece em map, filter e reduce."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você cria uma função pequena e específica",
+      "PASSO 2: Passa essa função como argumento para outra maior",
+      "PASSO 3: A função maior executa a pequena internamente"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Confundir chamar a função com apenas citar seu nome.",
+      "Esquecer os parênteses muda tudo: função vira valor."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Função pequena ➔ entra em função grande ➔ comportamento flexível."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Funções",
+  "foco_pedagogico": "Funções que recebem ou retornam outras funções"
+}

@@ -1,0 +1,64 @@
+{
+  "id": 589,
+  "title": "TIPOS DE ÍNDICES NO POSTGRESQL: B-TREE, HASH, GIN E GIST",
+  "definition": "Índices são como o sumário de um livro: ajudam o banco de dados a encontrar dados sem folhear todas as páginas.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Cada tipo de índice é uma ferramenta diferente — como chave de fenda, martelo e alicate. Usar a ferramenta errada deixa a consulta lenta."
+    ]
+  },
+  "topRight": {
+    "pill": "B-TREE (PADRÃO)",
+    "icon": "🌳",
+    "bullets": [
+      "Organiza dados como uma árvore balanceada — tudo fica ordenado de forma hierárquica.",
+      "Ideal para números, datas e buscas com <, >, BETWEEN ou ORDER BY."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Sintaxe: CREATE INDEX nome ON tabela USING btree (coluna);",
+      "Exemplo real: CREATE INDEX idx_salario ON funcionarios USING btree (salario);"
+    ]
+  },
+  "bottomRight": {
+    "pill": "HASH (IGUALDADE)",
+    "icon": "#️⃣",
+    "bullets": [
+      "Só resolve uma pergunta: 'é igual?'. Rápido como um dicionário que vai direto na página certa.",
+      "Perfeito para chaves primárias e consultas com =, mas inútil para ordenar ou buscar faixas."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "GIN (BUSCA EM CONTEÚDO)",
+    "icon": "🔍",
+    "bullets": [
+      "PASSO 1: O PostgreSQL fatiou o texto ou JSON em pedacinhos (tokens).",
+      "PASSO 2: Cada pedacinho aponta para todas as linhas onde aparece.",
+      "PASSO 3: Sua busca por 'cachorro' dentro de um JSON gigante vira um simples clique no índice."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "GIST (GEOMETRIA E MAIS)",
+    "icon": "🗺️",
+    "bullets": [
+      "Feito para dados que não são só números ou textos: mapas, coordenadas,全文busca customizada.",
+      "Exemplo clássico: 'Quais restaurantes estão a menos de 2 km da minha localização?'"
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Números e ordenação ➔ B-Tree | Igualdade exata ➔ Hash | JSON e textos ➔ GIN | Mapas e geometria ➔ GiST"
+    ]
+  },
+  "_modelo_usado": "devworld/deepseek-v4-pro-0813-f",
+  "modulo": "Tuning",
+  "escola": "06_banco_dados_e_ia",
+  "foco_pedagogico": "Escolhendo a estrutura de índice perfeita para números, textos ou buscas JSON"
+}

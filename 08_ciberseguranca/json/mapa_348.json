@@ -1,0 +1,64 @@
+{
+  "id": 348,
+  "title": "ASSINATURAS DIGITAIS E INFRAESTRUTURA DE CHAVES PÚBLICAS (PKI)",
+  "definition": "É um jeito matemático de provar quem escreveu algo, sem margem para fingir ser outra pessoa.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como um selo de cera exclusivo que só você consegue fazer, mas todo mundo consegue verificar."
+    ]
+  },
+  "topRight": {
+    "pill": "CHAVE PÚBLICA E PRIVADA",
+    "icon": "🖥️",
+    "bullets": [
+      "Cada pessoa tem duas chaves: uma secreta (privada) e uma aberta (pública).",
+      "O que uma chave fecha, só a outra chave do par consegue abrir ou confirmar."
+    ]
+  },
+  "midRight": {
+    "pill": "COMO FUNCIONA NA PRÁTICA",
+    "icon": "{ }",
+    "bullets": [
+      "Você assina com a chave PRIVADA, todos verificam com a chave PÚBLICA.",
+      "assinatura = criptografar(hash(documento), chave_privada)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Certificados de site (HTTPS), assinatura de contratos e notas fiscais.",
+      "Git commits assinados, apps de banco, certificado digital (ICP-Brasil)."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O sistema gera um 'resumo único' (hash) do documento.",
+      "PASSO 2: Esse resumo é assinado com a chave privada do autor.",
+      "PASSO 3: Qualquer pessoa usa a chave pública para confirmar que bate."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Confundir assinatura digital com senha: são coisas totalmente diferentes.",
+      "Perder a chave privada é como perder sua identidade: proteja-a sempre."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Chave privada assina ➔ Chave pública confere ➔ Autoria fica provada."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Criptografia",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "Como provar com certeza matemática quem foi o autor de um documento ou código"
+}

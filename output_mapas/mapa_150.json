@@ -1,0 +1,63 @@
+{
+  "id": 150,
+  "title": "MODELOS DE LINGUAGEM (LLMs) E TOKENS",
+  "definition": "LLMs são programas treinados para prever a próxima palavra ou pedaço de palavra em um texto.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "A IA não 'entende' como humano, ela calcula qual pedaço de texto tem mais chance de vir depois."
+    ]
+  },
+  "topRight": {
+    "pill": "O QUE É UM TOKEN",
+    "icon": "🖥️",
+    "bullets": [
+      "Token é um pedacinho de texto: palavra, parte de palavra ou pontuação.",
+      "'Gato' pode ser 1 token, 'Extraordinário' pode virar 3 ou 4."
+    ]
+  },
+  "midRight": {
+    "pill": "PREVISÃO DE TOKENS",
+    "icon": "{ }",
+    "bullets": [
+      "A IA calcula a probabilidade de cada token possível vir a seguir.",
+      "entrada: 'O céu é' → saída provável: 'azul' (92%)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Chatbots como GPT, Claude e Gemini geram texto assim.",
+      "Também em tradução, resumo de textos e geração de código."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "COMO A IA GERA UMA RESPOSTA",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Sua frase é quebrada em tokens numéricos",
+      "PASSO 2: O modelo calcula o token mais provável de seguir",
+      "PASSO 3: Repete token por token até formar a resposta completa"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que a IA 'pensa' como humano, quando ela só prevê padrões.",
+      "Confundir token com palavra: 1 palavra pode ser vários tokens."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Texto ➔ quebrado em tokens ➔ IA prevê o próximo, um a um."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "IA",
+  "foco_pedagogico": "Como IAs como GPT, Claude e Gemini preveem palavras"
+}

@@ -1,0 +1,65 @@
+{
+  "id": 335,
+  "title": "OS 3 PILARES DA OBSERVABILIDADE",
+  "definition": "São as 3 fontes de informação que mostram o que está acontecendo dentro de um sistema em produção.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Observabilidade é entender o interior do sistema só olhando o que ele expõe pra fora."
+    ]
+  },
+  "topRight": {
+    "pill": "OS 3 PILARES",
+    "icon": "🖥️",
+    "bullets": [
+      "Logs: os detalhes escritos de cada evento que aconteceu.",
+      "Métricas e Traces: números e caminhos que revelam padrões e rotas."
+    ]
+  },
+  "midRight": {
+    "pill": "CADA PILAR EM CÓDIGO",
+    "icon": "{ }",
+    "bullets": [
+      "Log: log.error('pagamento falhou, pedido 123')",
+      "Métrica: requisicoes_falhas_total += 1",
+      "Trace: span('checkout') ➔ span('pagamento')"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Monitorar apps em produção 24h por dia.",
+      "Ferramentas: Grafana, Prometheus, Jaeger, ELK."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO DE UM INCIDENTE",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Métrica dispara alerta (algo está errado agora)",
+      "PASSO 2: Trace mostra em qual serviço da cadeia travou",
+      "PASSO 3: Log revela a mensagem exata do porquê falhou"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que só logs bastam, sem visão do fluxo entre serviços.",
+      "Confundir monitoramento (saber que quebrou) com observabilidade (saber por quê)."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Métrica avisa ➔ Trace localiza ➔ Log explica o motivo real."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Observabilidade",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Diferença crucial entre saber que falhou e saber onde e por que falhou"
+}

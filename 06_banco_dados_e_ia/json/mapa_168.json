@@ -1,0 +1,63 @@
+{
+  "id": 168,
+  "title": "BUSCANDO PADRÕES DE TEXTO COM LIKE",
+  "definition": "LIKE é o comando SQL que procura textos parecidos com um padrão, em vez de exigir igualdade exata.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como buscar um contato no celular digitando só parte do nome."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O BANCO TRATA ISSO",
+    "icon": "🖥️",
+    "bullets": [
+      "O banco compara cada texto da coluna com o padrão que você escreveu.",
+      "Retorna só as linhas que combinam com o formato pedido."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "% substitui qualquer quantidade de caracteres, até zero.",
+      "WHERE nome LIKE 'A%' → nomes que começam com A"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Buscas de clientes, produtos ou emails em sistemas reais.",
+      "Usado em MySQL, PostgreSQL, SQL Server e SQLite."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você escreve o padrão, ex: 'A%'",
+      "PASSO 2: O banco varre a coluna comparando cada valor",
+      "PASSO 3: Só as linhas que combinam com o padrão aparecem"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer o % faz o LIKE funcionar como um '=' exato.",
+      "'A%' pega nomes que começam com A, não que contêm A em qualquer lugar."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Padrão com % ➔ Comparação flexível ➔ Resultados parecidos"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "BancoDados",
+  "foco_pedagogico": "O uso do coringa % (ex: nomes que começam com 'A')"
+}

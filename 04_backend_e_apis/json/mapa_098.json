@@ -1,0 +1,63 @@
+{
+  "id": 98,
+  "title": "OBJETOS: A CASA CONSTRUÍDA",
+  "definition": "Objeto é a casa de verdade, construída a partir da planta (classe), que passa a existir e viver na memória do computador.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "A classe é a planta do arquiteto, o objeto é a casa pronta e habitada."
+    ]
+  },
+  "topRight": {
+    "pill": "INSTÂNCIA NA MEMÓRIA",
+    "icon": "🖥️",
+    "bullets": [
+      "O computador reserva um espaço na memória RAM para essa casa existir de fato.",
+      "Cada objeto criado é único, mesmo vindo da mesma planta original."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "A palavra 'new' é a ordem de serviço para construir a casa agora.",
+      "meuCarro = new Carro();"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Games, apps e sites usam objetos para representar jogadores, botões e dados reais.",
+      "Java, Python, C# e JavaScript trabalham com objetos o tempo todo."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: A classe existe apenas como planta, sem ocupar memória real.",
+      "PASSO 2: O comando 'new' pede a construção da casa na memória.",
+      "PASSO 3: O objeto vivo é entregue, pronto para usar e guardar dados."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Confundir a planta (classe) com a casa (objeto) já construída.",
+      "Achar que dois objetos da mesma classe são sempre idênticos."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Classe (planta) ➔ new (construção) ➔ Objeto (casa viva na memória)"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "POO",
+  "foco_pedagogico": "A instância viva do molde na memória"
+}

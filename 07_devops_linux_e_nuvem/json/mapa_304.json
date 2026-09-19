@@ -1,0 +1,64 @@
+{
+  "id": 304,
+  "title": "NAMESPACES: ORGANIZANDO AMBIENTES (DEV, STAGING, PROD)",
+  "definition": "Namespace é uma divisória virtual que separa recursos dentro do mesmo cluster, como paredes dentro de uma casa.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Um cluster é um prédio e os namespaces são os apartamentos separados dentro dele."
+    ]
+  },
+  "topRight": {
+    "pill": "ISOLAMENTO LÓGICO",
+    "icon": "🖥️",
+    "bullets": [
+      "Times e projetos ficam em áreas separadas sem se misturar nem colidir.",
+      "Mesmo nome de recurso pode existir em namespaces diferentes sem conflito."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Define o ambiente onde o recurso vai viver.",
+      "kubectl create namespace staging"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Separar times, projetos e ambientes dentro de clusters Kubernetes.",
+      "Usado em Kubernetes, OpenShift e ferramentas de orquestração."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Time cria um namespace para seu projeto ou ambiente.",
+      "PASSO 2: Recursos como pods e serviços são criados dentro dele.",
+      "PASSO 3: Outros times ficam isolados e não interferem nesse espaço."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que namespace isola rede e recursos de CPU sozinho, sem políticas extras.",
+      "Esquecer de especificar o namespace e cair sempre no 'default'."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Cluster único ➔ Namespaces separam times ➔ Ambientes organizados e sem bagunça"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Kubernetes",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Isolando times e projetos dentro do mesmo cluster físico"
+}

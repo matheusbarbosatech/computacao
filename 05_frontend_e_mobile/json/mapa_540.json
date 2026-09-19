@@ -1,0 +1,64 @@
+{
+  "id": 540,
+  "title": "NAVEGAÇÃO E ROTAS NOMEADAS COM GOROUTER",
+  "definition": "GoRouter é como um GPS do seu app: ele decide qual tela mostrar baseado no caminho que o usuário segue.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Imagine um livro com páginas numeradas: cada rota é uma página e o GoRouter é o marcador que vira para a página certa."
+    ]
+  },
+  "topRight": {
+    "pill": "ROTA NOMEADA",
+    "icon": "🖥️",
+    "bullets": [
+      "Em vez de decorar endereços como '/produto/42', você chama a rota pelo apelido 'produto'.",
+      "Isso deixa o código mais humano e evita erros de digitação em URLs espalhadas pelo app."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Declare a rota com GoRoute(name: 'detalhe', path: '/produto/:id') e navegue com context.goNamed('detalhe', pathParameters: {'id': '42'}).",
+      "Parâmetros extras via query: context.goNamed('busca', queryParameters: {'q': 'tênis'})."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Apps Flutter com muitas telas: e-commerce, redes sociais, bancos digitais.",
+      "Funciona com Flutter Web, Android e iOS usando o mesmo código de navegação."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O usuário toca em um produto ➔ o app chama goNamed('detalhe', params).",
+      "PASSO 2: GoRouter localiza a rota pelo nome, encaixa os parâmetros na URL e empilha a nova tela no histórico.",
+      "PASSO 3: O botão voltar desempilha (pop) a tela atual e retorna exatamente onde o usuário estava antes."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Usar go() quando deveria usar push(): o go() apaga o histórico e o usuário perde o botão voltar.",
+      "Dica de ouro: push() empilha telas como cartas; go() troca o baralho inteiro. Pense antes de escolher."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Rota Nomeada ➔ Chame pelo apelido ➔ Passe parâmetros no bolso ➔ Histórico preservado com push(). Simples assim."
+    ]
+  },
+  "_modelo_usado": "devworld/deepseek-v4-pro-0813-f",
+  "modulo": "Flutter",
+  "escola": "05_frontend_e_mobile",
+  "foco_pedagogico": "Passando parâmetros e gerenciando histórico de telas no app mobile"
+}

@@ -1,0 +1,66 @@
+{
+  "id": 639,
+  "title": "MLOps: MONITORAMENTO E VERSIONAMENTO DE MODELOS COM MLFLOW",
+  "definition": "MLOps é a engenharia que conecta inteligência artificial ao mundo real, e o MLflow é o caderninho digital que registra cada teste do modelo até ele ir para produção.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "MLOps é como uma linha de montagem inteligente: você treina, testa, guarda e libera modelos de IA sem bagunça."
+    ]
+  },
+  "topRight": {
+    "pill": "MLFLOW TRACKING",
+    "icon": "🖥️",
+    "bullets": [
+      "O MLflow registra cada parâmetro, métrica e arquivo do modelo como se fosse um diário de bordo automático.",
+      "Você compara experimentos lado a lado para decidir qual versão é a campeã."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Todo experimento começa com mlflow.start_run() e termina com mlflow.end_run().",
+      "mlflow.log_param('taxa_aprendizado', 0.01)",
+      "mlflow.log_metric('precisao', 0.95)",
+      "mlflow.sklearn.log_model(modelo, 'modelo_rf')"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Empresas que atualizam modelos sem derrubar o sistema: bancos, e-commerces, apps de streaming.",
+      "Ferramentas irmãs: MLflow Registry (vitrine de modelos), Docker, Kubernetes, GitHub Actions."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Treine o modelo e registre tudo no MLflow Tracking (parâmetros, métricas, artefatos).",
+      "PASSO 2: Compare experimentos no painel do MLflow e escolha o melhor — promova para o Registry.",
+      "PASSO 3: O modelo registrado vira API com deploy contínuo: novo treino ➔ nova versão ➔ produção atualizada."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de dar nome único para cada experimento — depois vira um cemitério de execuções sem dono.",
+      "Dica de ouro: sempre defina um tracking URI fixo e use tags para separar ambiente de teste do ambiente real."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Treino com registro ➔ Comparação de versões ➔ Promoção para produção sem susto."
+    ]
+  },
+  "_modelo_usado": "devworld/deepseek-v4-pro-0813-f",
+  "modulo": "IA Generativa",
+  "escola": "06_banco_dados_e_ia",
+  "foco_pedagogico": "Registrando experimentos de IA e fazendo deploy contínuo de modelos em produção"
+}

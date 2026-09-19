@@ -1,0 +1,63 @@
+{
+  "id": 80,
+  "title": "ACUMULANDO VALORES COM .REDUCE()",
+  "definition": "É pegar todos os itens de uma lista e transformá-los em um único valor final.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Imagine juntar várias moedas em um só cofrinho no final."
+    ]
+  },
+  "topRight": {
+    "pill": "ACUMULADOR",
+    "icon": "🖥️",
+    "bullets": [
+      "Guarda o resultado parcial a cada volta do array.",
+      "Ele 'carrega' o valor de um item para o próximo."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "reduce(function(acumulador, itemAtual))",
+      "array.reduce((soma, n) => soma + n, 0)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Somar valores de um carrinho de compras.",
+      "Usado em JavaScript, Python (reduce/functools), Java Streams."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Começa com um valor inicial (ex: 0)",
+      "PASSO 2: Passa por cada item somando ou combinando",
+      "PASSO 3: Devolve um único valor final, não um array"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer o valor inicial pode quebrar o código.",
+      "Confundir com .map(), que devolve um array, não um valor único."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Lista de números ➔ soma item por item ➔ um total final"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Coleções",
+  "foco_pedagogico": "Somando tudo ou transformando o array em um único dado"
+}

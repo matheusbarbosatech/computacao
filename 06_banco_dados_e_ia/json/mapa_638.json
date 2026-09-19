@@ -1,0 +1,72 @@
+{
+  "id": 638,
+  "title": "MODELOS OPEN-SOURCE VS APIs PROPRIETÁRIAS",
+  "definition": "Open-source é o modelo que roda no SEU computador e é seu; API proprietária é alugada na nuvem de outra empresa.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Você escolhe entre ter o motor na sua garagem ou pagar por corrida.",
+      "Llama 3 é grátis e aberto; GPT-4 e Claude são fechados e cobrados por uso.",
+      "Liberdade e privacidade de um lado, potência e comodidade do outro."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO FUNCIONA",
+    "icon": "🖥️",
+    "bullets": [
+      "Open-source: o arquivo do modelo desce para o seu HD e trabalha offline.",
+      "API: você manda o texto pela internet e recebe a resposta pronta de volta.",
+      "Local exige placa de vídeo boa; na nuvem, o hardware pesado é do fornecedor."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Local: você baixa os pesos e chama o modelo dentro do seu próprio código.",
+      "exemplo(ollama run llama3 -> resposta sem internet)",
+      "API: você envia uma chave secreta e paga por cada palavra processada.",
+      "exemplo(client.chat(model='gpt-4', messages=[...]))"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Open-source: dados médicos, jurídicos ou pessoais que não podem sair da empresa.",
+      "Ferramentas: Ollama, LM Studio, llama.cpp com Llama 3 e Mistral.",
+      "APIs: chatbots rápidos, atendimento ao cliente e protótipos lançados em um dia."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você escreve a pergunta e escolhe o destino: seu PC ou a nuvem",
+      "PASSO 2: Local processa no seu hardware; API envia o texto para o servidor",
+      "PASSO 3: Você recebe a resposta e decide o custo: conta de luz ou conta em dólar"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que 'open-source' significa sempre mais fraco: não é regra, depende do tamanho.",
+      "Esquecer a chave de API em repositório público e vazar a sua conta inteira.",
+      "Rodar modelo gigante em notebook simples e travar tudo por falta de memória."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Privacidade total ➔ Modelo local aberto ➔ Zero custo por uso e controle dos dados",
+      "Máxima qualidade ➔ API proprietária ➔ Custo por token e dados na nuvem"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "IA Generativa",
+  "escola": "06_banco_dados_e_ia",
+  "foco_pedagogico": "Privacidade total rodando na sua máquina vs comodidade de APIs em nuvem"
+}

@@ -1,0 +1,64 @@
+{
+  "id": 231,
+  "title": "HERANÇA SIMPLES E A FUNÇÃO SUPER()",
+  "definition": "Herança é quando uma classe filha aproveita tudo que a classe mãe já sabe fazer.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como herdar traços da família e ainda desenvolver características próprias."
+    ]
+  },
+  "topRight": {
+    "pill": "CLASSE MÃE E FILHA",
+    "icon": "🖥️",
+    "bullets": [
+      "A classe mãe guarda comportamentos e dados básicos e comuns.",
+      "A classe filha reaproveita isso e adiciona coisas novas."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "A filha usa parênteses da mãe para herdar.",
+      "class Cachorro(Animal): super().__init__(nome)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Evitar reescrever código repetido em sistemas grandes.",
+      "Muito comum em Python, Java, C# e JavaScript."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Classe mãe define comportamentos básicos",
+      "PASSO 2: Classe filha chama super() para herdar isso",
+      "PASSO 3: Filha adiciona ou ajusta o que for exclusivo dela"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer o super() e perder o que a mãe já configurou.",
+      "Dica de ouro: chame super() antes de criar algo novo na filha."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Classe mãe ➔ super() ➔ Classe filha estendida"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "POO Python",
+  "escola": "03_python_especialista",
+  "foco_pedagogico": "Aproveitando a lógica da classe mãe e estendendo comportamentos"
+}

@@ -1,0 +1,64 @@
+{
+  "id": 428,
+  "title": "O PROBLEMA DO DEADLOCK (AS 4 CONDIÇÕES DE COFFMAN)",
+  "definition": "Deadlock é quando dois ou mais processos travam pra sempre, cada um esperando o outro liberar um recurso.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É um 'abraço mortal': ninguém solta o recurso e ninguém avança nunca mais."
+    ]
+  },
+  "topRight": {
+    "pill": "AS 4 CONDIÇÕES DE COFFMAN",
+    "icon": "🖥️",
+    "bullets": [
+      "Exclusão Mútua: só um processo usa o recurso por vez.",
+      "Posse e Espera: processo guarda um recurso e pede outro."
+    ]
+  },
+  "midRight": {
+    "pill": "MAIS 2 CONDIÇÕES",
+    "icon": "{ }",
+    "bullets": [
+      "Sem Preempção: ninguém pode tirar o recurso à força.",
+      "Espera Circular: A espera B, B espera A (ou um ciclo maior)."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO (OU EVITADO)",
+    "icon": "</>",
+    "bullets": [
+      "Bancos de dados travando linhas de tabelas simultaneamente.",
+      "Sistemas operacionais gerenciando threads e locks (mutex, semáforo)."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "COMO O DEADLOCK ACONTECE",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Processo A pega o Recurso 1 e não solta.",
+      "PASSO 2: Processo B pega o Recurso 2 e pede o Recurso 1.",
+      "PASSO 3: A pede o Recurso 2, mas B não solta. Trava total."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Pensar que é só 'lentidão': na verdade é uma parada permanente.",
+      "Dica de ouro: quebre a espera circular pedindo recursos em ordem fixa."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "4 condições juntas ➔ ciclo de espera ➔ sistema congela pra sempre."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "SO",
+  "escola": "01_ciencia_computacao_uninter",
+  "foco_pedagogico": "O abraço mortal quando dois processos travam esperando um pelo recurso do outro"
+}

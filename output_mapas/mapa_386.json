@@ -1,0 +1,64 @@
+{
+  "id": 386,
+  "title": "PRIVACY BY DESIGN E PRIVACY BY DEFAULT",
+  "definition": "É construir a proteção dos dados do usuário desde o primeiro rascunho do sistema, não depois.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Privacidade não é um remendo, é um tijolo da fundação do software."
+    ]
+  },
+  "topRight": {
+    "pill": "BY DESIGN vs BY DEFAULT",
+    "icon": "🖥️",
+    "bullets": [
+      "By Design: pensar em privacidade em cada decisão de arquitetura.",
+      "By Default: o app já nasce configurado no modo mais privado possível."
+    ]
+  },
+  "midRight": {
+    "pill": "REGRA NA PRÁTICA",
+    "icon": "{ }",
+    "bullets": [
+      "Coletar só o dado essencial, nunca 'tudo que der'.",
+      "usuario.compartilharLocalizacao = false // padrão inicial"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Cadastros, apps de saúde, redes sociais, sistemas bancários.",
+      "Base de leis como LGPD e GDPR."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Antes de codar, mapeia-se quais dados realmente são necessários.",
+      "PASSO 2: O sistema é desenhado com privacidade e criptografia embutidas.",
+      "PASSO 3: O usuário recebe as opções mais privadas já ativadas de início."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que privacidade é só termo de uso, e sim é código e arquitetura.",
+      "Deixar compartilhamento de dados ligado por padrão é erro grave."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Planejar cedo ➔ Coletar o mínimo ➔ Usuário protegido desde o início"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Governança",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "Pensando na proteção de dados do usuário desde o desenho da arquitetura do software"
+}

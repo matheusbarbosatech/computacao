@@ -1,0 +1,64 @@
+{
+  "id": 338,
+  "title": "CENTRALIZAÇÃO DE LOGS COM GRAFANA LOKI OU ELASTIC (ELK)",
+  "definition": "É juntar os registros de todos os servidores em um só lugar, pesquisável por uma única barra.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Em vez de abrir 50 servidores um por um, você pesquisa tudo em um só lugar."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO FUNCIONA",
+    "icon": "🖥️",
+    "bullets": [
+      "Cada servidor envia seus logs para um coletor central.",
+      "Um banco de dados guarda tudo organizado por tempo e origem."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Loki usa 'labels' para marcar de qual servidor veio o log.",
+      "{app=\"pagamento\", servidor=\"srv-23\"} |= \"erro\""
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Times de DevOps investigando falhas em produção.",
+      "Ferramentas: Grafana Loki, Elasticsearch, Logstash, Kibana, Promtail."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Cada um dos 50 servidores gera logs localmente",
+      "PASSO 2: Um agente coleta e envia esses logs para o sistema central",
+      "PASSO 3: Você digita um termo na barra e vê resultados de todos ao mesmo tempo"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que dá para guardar logs para sempre sem custo de armazenamento.",
+      "Esquecer de marcar a origem do log e depois não saber de qual servidor ele veio."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "50 servidores gerando logs ➔ Envio para sistema central ➔ Uma busca só encontra tudo"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Observabilidade",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Buscando em tempo real logs de 50 servidores em uma única barra de pesquisa"
+}

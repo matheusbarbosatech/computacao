@@ -1,0 +1,65 @@
+{
+  "id": 632,
+  "title": "BANCOS DE DADOS VETORIAIS (PINECONE, CHROMADB, PGVECTOR)",
+  "definition": "Sistemas que guardam conteúdos como listas de números e encontram os mais parecidos em milissegundos.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Imagine uma biblioteca onde você busca pelo significado, não pelo título exato.",
+      "Cada texto vira uma seta num mapa gigante; assuntos parecidos ficam vizinhos."
+    ]
+  },
+  "topRight": {
+    "pill": "EMBEDDINGS E SIMILARIDADE",
+    "icon": "🖥️",
+    "bullets": [
+      "Embedding é uma lista de números que representa o significado de um conteúdo.",
+      "O banco mede a distância entre vetores e devolve os vizinhos mais próximos."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Você envia o vetor com um identificador; o banco monta um índice para acelerar.",
+      "db.insert(vectors=[{\"id\": \"doc1\", \"values\": [0.1, 0.9, ...]}])"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Chatbots que respondem com base em documentos da sua empresa, técnica de RAG.",
+      "Pinecone, ChromaDB, pgvector, Weaviate, Qdrant e Milvus."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Seu texto passa por um modelo e vira um vetor de números.",
+      "PASSO 2: O índice HNSW ou IVFFlat compara esse vetor com milhões guardados.",
+      "PASSO 3: Em milissegundos volta a lista dos itens mais parecidos."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Trocar o modelo de embedding invalida tudo: é preciso reprocessar a base inteira.",
+      "Distância não é relevância: teste cosseno, L2 e produto interno antes de decidir."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Conteúdo ➔ Vetor numérico ➔ Índice ➔ Busca por vizinhos ➔ Resposta relevante"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "IA Generativa",
+  "escola": "06_banco_dados_e_ia",
+  "foco_pedagogico": "Armazenando e consultando milhões de embeddings em frações de segundo"
+}

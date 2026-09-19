@@ -1,0 +1,64 @@
+{
+  "id": 242,
+  "title": "MIGRAÇÕES DE BANCO COM ALEMBIC",
+  "definition": "Alembic guarda o histórico das mudanças no banco de dados como arquivos de código versionados.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como um 'histórico do Word' para a estrutura do seu banco de dados."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O SISTEMA VÊ ISSO",
+    "icon": "🖥️",
+    "bullets": [
+      "Cada mudança de esquema gera um arquivo com um ID único.",
+      "Alembic sabe qual versão do banco está ativa agora."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Cada migração tem função upgrade() e downgrade().",
+      "op.add_column('users', Column('idade', Integer))"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Projetos Python com SQLAlchemy e frameworks como FastAPI e Flask.",
+      "Times que precisam sincronizar banco entre dev, teste e produção."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você altera um modelo (ex: adiciona uma coluna)",
+      "PASSO 2: Alembic gera um arquivo de migração automaticamente",
+      "PASSO 3: Você aplica a migração e o banco é atualizado"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de rodar a migração e achar que o banco já mudou.",
+      "Editar migração antiga já aplicada em produção causa bagunça."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Mudou o modelo ➔ Alembic gera migração ➔ Banco atualizado com histórico"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "APIs Python",
+  "escola": "03_python_especialista",
+  "foco_pedagogico": "Histórico de versão do esquema do banco de dados em código"
+}

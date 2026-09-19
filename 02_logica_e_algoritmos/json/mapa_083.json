@@ -1,0 +1,65 @@
+{
+  "id": 83,
+  "title": "VERIFICAÇÕES GLOBAIS: SOME E EVERY",
+  "definition": "São perguntas que você faz para uma lista toda: 'pelo menos um serve?' ou 'todos servem?'.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Em vez de checar item por item na mão, a lista se checa sozinha."
+    ]
+  },
+  "topRight": {
+    "pill": "SOME (PELO MENOS UM)",
+    "icon": "🖥️",
+    "bullets": [
+      "Pergunta: 'existe ALGUM item que passa no teste?'",
+      "Basta UM item verdadeiro para o resultado ser true."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "lista.some(item => condição)",
+      "[1,3,5].some(n => n % 2 === 0) // false",
+      "lista.every(item => condição)",
+      "[2,4,6].every(n => n % 2 === 0) // true"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Validar formulários: 'algum campo está vazio?'",
+      "Usado em JavaScript, Python (any/all), Java (anyMatch/allMatch)."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: A lista recebe uma condição para testar",
+      "PASSO 2: SOME para no primeiro 'sim'; EVERY para no primeiro 'não'",
+      "PASSO 3: Devolve um único true ou false para a lista toda"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Lista vazia: every() sempre retorna true, some() sempre retorna false.",
+      "Confundir os dois: some é 'basta um', every é 'todos, sem exceção'."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Lista + condição ➔ SOME (1 basta) ou EVERY (todos precisam) ➔ true/false"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Coleções",
+  "foco_pedagogico": "Pelo menos um atende? Todos atendem?"
+}

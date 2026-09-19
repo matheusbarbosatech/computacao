@@ -1,0 +1,63 @@
+{
+  "id": 39,
+  "title": "BOAS PRÁTICAS DE NOMENCLATURA",
+  "definition": "É a arte de dar nomes claros às coisas no código, como etiquetar caixas para saber o que tem dentro.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Nomear bem é escrever para humanos, não só para o computador entender."
+    ]
+  },
+  "topRight": {
+    "pill": "ESTILOS DE ESCRITA",
+    "icon": "🖥️",
+    "bullets": [
+      "camelCase junta palavras e começa cada nova com letra maiúscula.",
+      "snake_case junta palavras usando underscore entre elas."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "camelCase: nomeDoUsuario, calcularTotal.",
+      "snake_case: nome_do_usuario, calcular_total."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "JavaScript e Java preferem camelCase para variáveis e funções.",
+      "Python e Ruby preferem snake_case como padrão da comunidade."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Pense no que a variável representa de verdade.",
+      "PASSO 2: Escolha palavras que descrevem isso sem ambiguidade.",
+      "PASSO 3: Aplique o estilo (camelCase ou snake_case) da linguagem usada."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Misturar camelCase e snake_case no mesmo projeto confunde a leitura.",
+      "Nomes como x, dado1 ou temp não dizem nada sobre o conteúdo."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Nome claro ➔ Código legível ➔ Menos erros e retrabalho."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Lógica",
+  "foco_pedagogico": "camelCase, snake_case e nomes significativos"
+}

@@ -1,0 +1,65 @@
+{
+  "id": 355,
+  "title": "FALHAS DE AUTENTICAÇÃO: BRUTE FORCE & CREDENTIAL STUFFING",
+  "definition": "É quando um invasor tenta adivinhar senhas repetidamente até acertar e entrar num sistema.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como testar todas as chaves de um chaveiro até uma abrir a porta."
+    ]
+  },
+  "topRight": {
+    "pill": "TIPOS DE ATAQUE",
+    "icon": "🖥️",
+    "bullets": [
+      "Brute Force: testa TODAS as combinações possíveis de senha.",
+      "Ataque de Dicionário: testa só senhas comuns, tipo '123456' e 'senha123'.",
+      "Credential Stuffing: usa senhas roubadas de outros sites vazados."
+    ]
+  },
+  "midRight": {
+    "pill": "RATE LIMITING",
+    "icon": "{ }",
+    "bullets": [
+      "Limita quantas tentativas de login um IP ou usuário pode fazer por tempo.",
+      "if (tentativas > 5) bloquear_por(60_segundos)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Login de sites, apps bancários, painéis administrativos.",
+      "Ferramentas: Fail2Ban, AWS WAF, Cloudflare, middlewares Express/Django."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "BLOQUEIO PROGRESSIVO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Usuário erra a senha algumas vezes seguidas",
+      "PASSO 2: Sistema aumenta o tempo de espera a cada erro novo",
+      "PASSO 3: Após muitas falhas, conta é bloqueada temporariamente"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Bloquear só por IP não funciona, atacante troca de IP facilmente.",
+      "Ouro: combine CAPTCHA, MFA e limite por conta + por IP juntos."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Muitas tentativas erradas ➔ Sistema desconfia ➔ Bloqueia e atrasa o invasor"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "OWASP",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "Ataques de dicionário e como implementar rate limiting e bloqueio progressivo"
+}

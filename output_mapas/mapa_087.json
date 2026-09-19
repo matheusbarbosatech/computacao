@@ -1,0 +1,65 @@
+{
+  "id": 87,
+  "title": "ACESSANDO PROPRIEDADES (.PONTO VS ['CHAVE'])",
+  "definition": "São duas formas diferentes de pedir um valor guardado dentro de um objeto.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Um objeto é como uma gaveta com etiquetas, e você escolhe como ler a etiqueta."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O SISTEMA INTERPRETA",
+    "icon": "🖥️",
+    "bullets": [
+      "O ponto só funciona se o nome for uma palavra válida e fixa.",
+      "Os colchetes aceitam qualquer texto, até com espaço ou variável."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Ponto: nome fixo e conhecido no código.",
+      "objeto.nome",
+      "Colchete: nome dinâmico ou com caracteres especiais.",
+      "objeto['nome do usuário']"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Muito comum em JavaScript, Python (dicionários usam só colchete).",
+      "APIs, JSON e formulários dinâmicos usam colchete o tempo todo."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você sabe o nome da propriedade antecipadamente?",
+      "PASSO 2: Se sim, use ponto. Se o nome vier de uma variável, use colchete",
+      "PASSO 3: O valor da propriedade é retornado do mesmo jeito"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Usar ponto com nomes que têm espaço ou número no início quebra o código.",
+      "Esquecer as aspas dentro dos colchetes gera erro de variável inexistente."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Nome fixo ➔ use ponto ➔ código mais limpo. Nome variável ➔ use colchete ➔ mais flexível."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Coleções",
+  "foco_pedagogico": "Quando usar cada tipo de notação"
+}

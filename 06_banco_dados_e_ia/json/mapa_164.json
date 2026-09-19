@@ -1,0 +1,63 @@
+{
+  "id": 164,
+  "title": "A CONSULTA BÁSICA: SELECT E FROM",
+  "definition": "É o comando que você usa para pedir dados guardados dentro de uma tabela.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como fazer um pedido num cardápio: você escolhe o quê e de onde vem."
+    ]
+  },
+  "topRight": {
+    "pill": "SELECT E FROM",
+    "icon": "🖥️",
+    "bullets": [
+      "SELECT diz quais colunas você quer ver.",
+      "FROM diz de qual tabela essas colunas vêm."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "O asterisco (*) significa 'todas as colunas, sem exceção'.",
+      "SELECT * FROM clientes;"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Usado em qualquer banco de dados, como MySQL, PostgreSQL ou SQL Server.",
+      "Primeiro comando que todo iniciante aprende em SQL."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você escreve SELECT * para pedir tudo",
+      "PASSO 2: Você escreve FROM e o nome da tabela",
+      "PASSO 3: O banco devolve todas as linhas e colunas"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer o ponto e vírgula (;) no final do comando.",
+      "Usar * em tabelas gigantes pode trazer dados demais e travar."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "SELECT * ➔ pede tudo ➔ FROM tabela ➔ mostra todas as colunas"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "BancoDados",
+  "foco_pedagogico": "Pegando todas as colunas de uma tabela"
+}

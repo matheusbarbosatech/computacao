@@ -1,0 +1,66 @@
+{
+  "id": 555,
+  "title": "CORE WEB VITALS: LCP, INP E CLS",
+  "definition": "São as três notas oficiais do Google que medem se uma página carrega, responde e se mantém estável para o usuário.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Não é sobre o site ser bonito, é sobre ele ser rápido e previsível.",
+      "O Google mede a experiência real de pessoas navegando, não só a sua máquina."
+    ]
+  },
+  "topRight": {
+    "pill": "AS TRÊS MÉTRICAS",
+    "icon": "🖥️",
+    "bullets": [
+      "LCP: quanto tempo até o maior elemento da tela aparecer.",
+      "INP: quanto tempo a página demora para reagir ao seu clique.",
+      "CLS: o quanto o conteúdo pula e sai do lugar enquanto você lê."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Metas oficiais: LCP abaixo de 2,5s, INP abaixo de 200ms, CLS abaixo de 0,1.",
+      "CLS = impacto(0 a 1) x distância(0 a 1), sempre fique abaixo de 0,1."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Ajuda a definir seu ranking de busca e a taxa de abandono do site.",
+      "Teste no PageSpeed Insights, Lighthouse e no relatório de Experiência da Página."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O usuário abre o link e o navegador começa a baixar os arquivos.",
+      "PASSO 2: A página desenha o conteúdo e responde aos cliques do usuário.",
+      "PASSO 3: O Google coleta os três números e gera sua nota de experiência."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Colocar imagem gigante sem tamanho definido: o layout pula e o CLS explode.",
+      "Rodar script pesado no clique: o INP sobe e o usuário acha que travou."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Página lenta ➔ Otimizar imagem e código ➔ Nota melhor e usuário satisfeito."
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Performance",
+  "escola": "05_frontend_e_mobile",
+  "foco_pedagogico": "As três métricas oficiais do Google que determinam a velocidade percebida e ranking de busca"
+}

@@ -1,0 +1,63 @@
+{
+  "id": 66,
+  "title": "O QUE É UMA COLEÇÃO DE DADOS?",
+  "definition": "É um jeito de guardar vários valores juntos, dentro de uma única variável.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Em vez de 1 caixa por item, usamos 1 caixa grande com várias divisórias."
+    ]
+  },
+  "topRight": {
+    "pill": "POR QUE AGRUPAR DADOS",
+    "icon": "🖥️",
+    "bullets": [
+      "Criar 100 variáveis soltas seria impossível de gerenciar.",
+      "Agrupar deixa fácil percorrer, buscar e organizar tudo junto."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Uma coleção guarda vários valores sob um só nome.",
+      "frutas = [\"maçã\", \"banana\", \"uva\"]"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Listas de clientes, produtos, mensagens de chat, notas de alunos.",
+      "Presente em quase toda linguagem: listas, arrays, vetores."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você tem vários dados parecidos (nomes, números, itens).",
+      "PASSO 2: Coloca todos dentro de uma única coleção organizada.",
+      "PASSO 3: Agora pode acessar, alterar ou percorrer todos de uma vez."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que precisa de uma variável nova para cada dado novo.",
+      "Dica de ouro: se os dados são parecidos, agrupe em uma coleção."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Muitos dados soltos ➔ Agrupar em coleção ➔ Organização e controle"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Coleções",
+  "foco_pedagogico": "Por que precisamos agrupar múltiplos dados"
+}

@@ -1,0 +1,64 @@
+{
+  "id": 430,
+  "title": "PAGE FAULT E ALGORITMOS DE SUBSTITUIÇÃO DE PÁGINA",
+  "definition": "É quando o programa pede um dado que não está na RAM, e o sistema precisa buscá-lo no disco.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "A RAM é uma mesa pequena, o disco é um armário grande e lento no fundo da sala."
+    ]
+  },
+  "topRight": {
+    "pill": "PAGE FAULT",
+    "icon": "🖥️",
+    "bullets": [
+      "O processador procura o dado na RAM e não encontra a página.",
+      "O sistema pausa o programa e vai buscar a página no disco."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Cada página tem um bit dizendo se está presente na memória.",
+      "if (bit_presente == 0) { gerar_page_fault(); }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Sistemas operacionais como Windows, Linux e macOS gerenciam isso.",
+      "Fica visível no Gerenciador de Tarefas como 'memória virtual'."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Programa pede um dado que não está na RAM",
+      "PASSO 2: SO escolhe uma página antiga pra sair (FIFO ou LRU)",
+      "PASSO 3: SO traz a página nova do disco pra RAM"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que Page Fault é sempre um erro grave, na verdade é normal.",
+      "Confundir FIFO (mais antiga sai) com LRU (menos usada sai)."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Dado não está na RAM ➔ SO busca no disco ➔ RAM atualizada com o dado"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "SO",
+  "escola": "01_ciencia_computacao_uninter",
+  "foco_pedagogico": "O que acontece quando o dado solicitado não está na RAM e precisa vir do disco"
+}

@@ -1,0 +1,64 @@
+{
+  "id": 506,
+  "title": "SERVICE MESH (ISTIO / LINKERD)",
+  "definition": "Uma camada invisível que controla como os microsserviços conversam entre si, com segurança e visibilidade.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como um sistema de correios dentro da empresa que cuida das entregas entre setores."
+    ]
+  },
+  "topRight": {
+    "pill": "SIDECAR PROXY",
+    "icon": "🖥️",
+    "bullets": [
+      "Cada microsserviço ganha um 'ajudante' (proxy) ao lado dele.",
+      "Esse ajudante intercepta toda conversa antes de sair ou entrar."
+    ]
+  },
+  "midRight": {
+    "pill": "CONFIGURAÇÃO DECLARATIVA",
+    "icon": "{ }",
+    "bullets": [
+      "Você descreve as regras de tráfego em YAML, não em código.",
+      "kind: VirtualService"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Empresas com muitos microsserviços em Kubernetes.",
+      "Ferramentas: Istio, Linkerd, Consul."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Serviço A quer falar com Serviço B",
+      "PASSO 2: O sidecar intercepta, criptografa (mTLS) e roteia",
+      "PASSO 3: A mesh registra métricas e entrega a mensagem"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que é só 'mais um proxy' e ignorar o custo de latência extra.",
+      "Dica: comece testando em poucos serviços antes de adotar tudo."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Microsserviço fala ➔ Sidecar protege e observa ➔ Tráfego seguro chega ao destino"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Microsserviços",
+  "escola": "04_backend_e_apis",
+  "foco_pedagogico": "A camada de infraestrutura que gerencia tráfego, mTLS e telemetria de microsserviços"
+}

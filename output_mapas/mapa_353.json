@@ -1,0 +1,64 @@
+{
+  "id": 353,
+  "title": "QUEBRA DE CONTROLE DE ACESSO (IDOR)",
+  "definition": "É quando o sistema esquece de checar se o dado pedido é realmente seu, e não do outro usuário.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como trocar o número do seu quarto de hotel e entrar no quarto de outra pessoa sem ninguém perguntar nada."
+    ]
+  },
+  "topRight": {
+    "pill": "IDOR",
+    "icon": "🖥️",
+    "bullets": [
+      "O sistema usa um ID direto (ex: número da conta) sem verificar o dono.",
+      "Trocar '123' por '124' na URL abre dados de outro usuário."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Falta comparar o ID da URL com o ID logado.",
+      "if (pedido.id == usuarioLogado.id) permitir()"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Comum em APIs REST e painéis com URLs como /pedido?id=45.",
+      "Testado em pentests com Burp Suite e OWASP ZAP."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Usuário acessa sua própria página com um ID na URL",
+      "PASSO 2: Ele muda o número do ID manualmente",
+      "PASSO 3: Sistema entrega o dado sem checar o dono, e vaza informação"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que 'esconder' o ID no front-end já protege o dado.",
+      "Regra de ouro: sempre valide a posse do recurso no back-end."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Trocar ID na URL ➔ Sistema não verifica dono ➔ Vazamento de dados de outro usuário"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "OWASP",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "Acessando dados de outro usuário apenas alterando o ID na barra de URL"
+}

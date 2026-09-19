@@ -1,0 +1,65 @@
+{
+  "id": 562,
+  "title": "HIERARQUIA VISUAL E TIPOGRAFIA NA CONSTRUÇÃO DE INTERFACES",
+  "definition": "Hierarquia visual é organizar tamanho, peso, cor e espaço para o olho saber o que ler primeiro.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como a capa de uma revista: o título grita, o texto sussurra.",
+      "Cada elemento tem um nível de importância e recebe um peso diferente."
+    ]
+  },
+  "topRight": {
+    "pill": "PESO, TAMANHO E CONTRASTE",
+    "icon": "🖥️",
+    "bullets": [
+      "A tela só pinta o que o CSS manda: tamanho, peso e cor.",
+      "Muito contraste chama o olho; pouco contraste deixa em segundo plano."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Regra de ouro: um título forte, subtítulos médios e corpo leve.",
+      "h1 { font-size: 32px; font-weight: 700; color: #111; }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Botões, cards, menus, telas de login e páginas de venda.",
+      "CSS, Tailwind, Figma, Material Design e Apple HIG."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Liste o que o usuário precisa ver primeiro.",
+      "PASSO 2: Dê a cada item seu tamanho, peso e cor.",
+      "PASSO 3: Separe os blocos com espaço e teste apertando os olhos."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Deixar tudo em negrito: nada se destaca quando tudo grita.",
+      "Cinza claro demais: bonito no editor, ilegível na rua."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Importância ➔ Tamanho, peso e cor ➔ Olho guiado sem esforço"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "UX/UI",
+  "escola": "05_frontend_e_mobile",
+  "foco_pedagogico": "Guiando o olho do leitor com pesos de fonte, contrastes e espaçamentos adequados"
+}

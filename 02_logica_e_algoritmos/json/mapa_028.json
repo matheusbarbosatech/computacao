@@ -1,0 +1,63 @@
+{
+  "id": 28,
+  "title": "BLOCOS DE CÓDIGO E INDENTAÇÃO",
+  "definition": "Indentação é o espaçamento que mostra quais linhas de código pertencem juntas, como parágrafos em um texto.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Um bloco é um grupo de instruções que rodam juntas, como uma caixa dentro de outra."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O COMPUTADOR VÊ ISSO",
+    "icon": "🖥️",
+    "bullets": [
+      "O espaçamento indica o 'nível' de cada linha na hierarquia do código.",
+      "Linguagens como Python usam a indentação para saber onde um bloco começa e termina."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Cada nível de bloco recebe um recuo extra (geralmente 4 espaços ou 1 tab).",
+      "if idade >= 18:\n    print('Pode dirigir')"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Dentro de condições (if), repetições (for, while) e funções.",
+      "Python exige indentação certa; Java e C usam chaves { } mas indentar ainda ajuda a ler."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O programa encontra uma instrução que abre um bloco",
+      "PASSO 2: Tudo recuado abaixo dela pertence a esse bloco",
+      "PASSO 3: A linha sem recuo indica que o bloco terminou"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Misturar espaços e tabs quebra a indentação e gera erro.",
+      "Dica de ouro: escolha um padrão (4 espaços) e mantenha em todo o código."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Espaçamento certo ➔ Bloco identificado ➔ Código organizado e sem erro"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Lógica",
+  "foco_pedagogico": "Espaçamento que organiza a hierarquia do código"
+}

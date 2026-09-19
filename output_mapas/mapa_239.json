@@ -1,0 +1,64 @@
+{
+  "id": 239,
+  "title": "INJEÇÃO DE DEPENDÊNCIAS (DEPENDS) NO FASTAPI",
+  "definition": "É uma forma de o FastAPI entregar prontos, para sua função, recursos como conexão de banco ou usuário logado.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Em vez de você criar o recurso, você pede e o FastAPI entrega na porta."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O FASTAPI RESOLVE",
+    "icon": "🖥️",
+    "bullets": [
+      "Antes de rodar sua rota, o FastAPI executa a dependência primeiro.",
+      "O resultado dela é passado como parâmetro da sua função."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Use Depends() dentro do parâmetro da rota.",
+      "def rota(db = Depends(get_db)):"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Compartilhar a mesma conexão de banco entre várias rotas.",
+      "Verificar se o usuário está autenticado antes de liberar acesso."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Requisição chega e o FastAPI vê que a rota usa Depends",
+      "PASSO 2: A função de dependência roda (ex: abre conexão, valida token)",
+      "PASSO 3: O resultado é injetado direto na sua função de rota"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de fechar a conexão do banco (use yield para isso).",
+      "Confundir Depends(algo) com Depends(algo()), o parêntese muda tudo."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Pedido chega ➔ Depends prepara o recurso ➔ Rota usa recurso pronto"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "APIs Python",
+  "escola": "03_python_especialista",
+  "foco_pedagogico": "Compartilhando conexão com banco e autenticação de forma limpa"
+}

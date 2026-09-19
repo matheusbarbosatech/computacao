@@ -1,0 +1,66 @@
+{
+  "id": 264,
+  "title": "PERMISSÕES DE ARQUIVOS: CHMOD, CHOWN E OCTAL (RWX)",
+  "definition": "É o sistema que diz quem pode ler, escrever ou executar cada arquivo no computador.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Cada arquivo tem um crachá de acesso: o que dono, grupo e outros podem fazer."
+    ]
+  },
+  "topRight": {
+    "pill": "RWX: AS 3 CHAVES",
+    "icon": "🖥️",
+    "bullets": [
+      "r (read) = ler o conteúdo, como abrir um livro.",
+      "w (write) = escrever ou apagar, como editar o livro.",
+      "x (execute) = rodar como programa, como apertar o play."
+    ]
+  },
+  "midRight": {
+    "pill": "OCTAL: O CÓDIGO SECRETO",
+    "icon": "{ }",
+    "bullets": [
+      "r=4, w=2, x=1. Some os valores que quer liberar.",
+      "chmod 755 arquivo.sh",
+      "chmod 777 pasta/"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Servidores Linux, deploy de sites, scripts e permissões de sistema.",
+      "Comandos: chmod, chown, ls -l."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "COMO MONTAR O NÚMERO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Escolha o que o DONO pode fazer (soma rwx).",
+      "PASSO 2: Escolha o que o GRUPO pode fazer (soma rwx).",
+      "PASSO 3: Escolha o que OUTROS podem fazer (soma rwx)."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "777 dá acesso total a todo mundo: é uma porta destrancada, evite em produção.",
+      "chown muda o dono, chmod muda as permissões, não confunda os dois."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Dono+Grupo+Outros ➔ soma rwx em número ➔ 755 é o equilíbrio seguro."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Linux",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "O segredo de 777, 755, leitura, escrita e execução para dono, grupo e outros"
+}

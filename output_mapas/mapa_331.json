@@ -1,0 +1,64 @@
+{
+  "id": 331,
+  "title": "PIPELINE DE BUILD E TESTES AUTOMATIZADOS",
+  "definition": "É uma esteira automática que compila, testa e valida seu código antes dele chegar ao projeto principal.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Um robô checa seu código antes de qualquer humano aprovar."
+    ]
+  },
+  "topRight": {
+    "pill": "PIPELINE DE CI/CD",
+    "icon": "🖥️",
+    "bullets": [
+      "Cada envio de código dispara etapas automáticas em sequência.",
+      "Build compila, testes validam, deploy libera a versão."
+    ]
+  },
+  "midRight": {
+    "pill": "REGRA DE PROTEÇÃO",
+    "icon": "{ }",
+    "bullets": [
+      "Branch protection exige status check 'testes' verde.",
+      "required_status_checks: [\"unit-tests\"]"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Times profissionais usam antes de mesclar Pull Requests.",
+      "GitHub Actions, GitLab CI, Jenkins, CircleCI."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você abre um Pull Request com sua mudança",
+      "PASSO 2: Pipeline compila o código e roda os testes unitários",
+      "PASSO 3: Se algum teste falhar, o botão de merge é bloqueado"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que 'funcionou na minha máquina' garante que passa no pipeline.",
+      "Dica: rode os testes localmente antes de subir o código."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Código enviado ➔ Testes rodam ➔ Falhou trava o merge"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "CI/CD",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Bloqueando merges se os testes unitários falharem"
+}

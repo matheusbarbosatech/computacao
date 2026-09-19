@@ -1,0 +1,64 @@
+{
+  "id": 268,
+  "title": "GERENCIAMENTO DE PACOTES: APT, YUM E DNF",
+  "definition": "São ferramentas que instalam, atualizam e removem programas no Linux, como uma loja de aplicativos do sistema.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Em vez de baixar programas manualmente, você pede ao sistema e ele resolve tudo."
+    ]
+  },
+  "topRight": {
+    "pill": "APT, YUM E DNF",
+    "icon": "🖥️",
+    "bullets": [
+      "APT cuida do Debian e Ubuntu, baixando pacotes .deb.",
+      "YUM e DNF cuidam do RedHat, CentOS e Fedora, com pacotes .rpm."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Sempre use 'sudo' porque instalar programas exige permissão de administrador.",
+      "sudo apt install nginx  /  sudo dnf install nginx"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Configurar servidores web, bancos de dados e ferramentas de DevOps.",
+      "Ubuntu e Debian usam apt; CentOS, RHEL e Fedora usam yum ou dnf."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Atualize a lista de pacotes disponíveis (apt update / dnf check-update)",
+      "PASSO 2: Instale ou atualize o programa desejado (install / upgrade)",
+      "PASSO 3: O sistema baixa, verifica e configura o pacote automaticamente"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de rodar 'update' antes de instalar, usando lista de pacotes desatualizada.",
+      "Confundir apt com yum e tentar usar o comando errado na distribuição."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Pedir programa ➔ Gerenciador busca e resolve dependências ➔ Software instalado"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Linux",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Instalando e atualizando softwares em distribuições Debian e RedHat"
+}

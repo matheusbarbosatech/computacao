@@ -1,0 +1,64 @@
+{
+  "id": 617,
+  "title": "ALGORITMOS DE AGRUPAMENTO: K-MEANS DESMISTIFICADO",
+  "definition": "K-Means é uma técnica que automaticamente separa dados em K grupos, juntando o que é parecido e afastando o que é diferente.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Imagine uma loja que quer dividir clientes em 3 grupos: os que compram muito, os que compram médio e os que compram pouco — o K-Means faz essa separação sozinho, só olhando os números."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O COMPUTADOR PENSA",
+    "icon": "🖥️",
+    "bullets": [
+      "O algoritmo calcula a distância entre cada cliente e um ponto central imaginário chamado centroide.",
+      "Cada cliente é puxado para o centroide mais próximo — como bolinhas sendo atraídas por ímãs espalhados na mesa."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Você define o número K de grupos, o programa posiciona K centroides e itera: atribui pontos, recalcula centros, repete até estabilizar.",
+      "from sklearn.cluster import KMeans\ngrupos = KMeans(n_clusters=3).fit(tabela_clientes)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Marketing: separar clientes por perfil de gasto e enviar ofertas personalizadas para cada grupo.",
+      "Ferramentas: Python (scikit-learn), R (stats), até Excel com add-ins — toda linguagem de dados tem K-Means."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Escolher o número K de grupos e sortear K centroides iniciais no meio dos dados.",
+      "PASSO 2: Cada cliente é rotulado com o grupo do centroide mais próximo; depois os centroides são recalculados para o centro real de cada grupo.",
+      "PASSO 3: Repetir os rótulos e os recálculos até os grupos pararem de mudar — pronto, clientes segmentados!"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Escolher um K qualquer no chute gera grupos sem sentido — use o método do cotovelo para achar o K ideal.",
+      "Se os dados têm escalas diferentes (ex: idade de 0 a 100 e salário de 1000 a 100000), o K-Means enlouquece — normalize tudo antes de rodar."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Tabela de clientes com gastos ➔ K-Means mede distâncias e agrupa por similaridade ➔ Grupos prontos para campanhas de marketing direcionadas."
+    ]
+  },
+  "_modelo_usado": "devworld/deepseek-v4-pro-0813-f",
+  "modulo": "Machine Learning",
+  "escola": "06_banco_dados_e_ia",
+  "foco_pedagogico": "Segmentando clientes em grupos de compras similares pelo comportamento"
+}

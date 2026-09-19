@@ -1,0 +1,63 @@
+{
+  "id": 108,
+  "title": "SOBRESCRITA DE MÉTODOS (OVERRIDE)",
+  "definition": "É quando a classe filha reescreve um método herdado do pai para ter seu próprio jeito de fazer.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "O filho herda o comportamento do pai, mas decide fazer diferente."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O SISTEMA DECIDE",
+    "icon": "🖥️",
+    "bullets": [
+      "O programa sempre usa a versão mais 'próxima' do objeto, a do filho.",
+      "A versão do pai fica escondida, mas ainda existe."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Mesmo nome, mesmos parâmetros, comportamento novo.",
+      "class Filho extends Pai { fazerSom() { ... } }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Muito comum em Java, Python, C#, JavaScript.",
+      "Usado em jogos, apps e sistemas com várias variações de um mesmo comportamento."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O pai define um método padrão",
+      "PASSO 2: O filho reescreve esse método com seu próprio jeito",
+      "PASSO 3: Quando chamado, o filho executa sua versão, não a do pai"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Errar o nome do método faz criar um método novo, não sobrescrever.",
+      "Dica de ouro: use @Override para o computador avisar se algo está errado."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Pai ensina ➔ Filho reaprende do seu jeito ➔ Comportamento novo prevalece"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "POO",
+  "foco_pedagogico": "Filho adaptando o comportamento herdado do pai"
+}

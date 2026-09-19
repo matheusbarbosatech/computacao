@@ -1,0 +1,70 @@
+{
+  "id": 574,
+  "title": "INTERNACIONALIZAÇÃO (I18N): MÚLTIPLOS IDIOMAS E MOEDAS",
+  "definition": "É a arte de fazer seu sistema falar a língua do usuário, mostrando datas, números e mensagens do jeito certo para cada país — sem reescrever o código inteiro.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "I18N significa: 'I' + 18 letras + 'N' — Internacionalização. Um atalho para não digitar a palavra gigante toda vez.",
+      "Pense num cardápio: o mesmo prato (código) é traduzido para português, inglês ou espanhol conforme o freguês."
+    ]
+  },
+  "topRight": {
+    "pill": "LOCALE: O PERFIL DO USUÁRIO",
+    "icon": "🌍",
+    "bullets": [
+      "Locale é uma etiqueta como 'pt-BR', 'en-US' ou 'es-ES' que diz ao sistema: idioma + país.",
+      "pt-BR → português do Brasil, datas dd/MM/aaaa, moeda R$.",
+      "en-US → inglês americano, datas MM/dd/yyyy, moeda $.",
+      "es-ES → espanhol da Espanha, datas dd/MM/aaaa, moeda €."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Sempre use bibliotecas prontas tipo gettext (textos), ICU (pluralização) ou Intl (JavaScript nativo).",
+      "Exemplo JS: new Intl.DateTimeFormat('pt-BR').format(new Date()) → '25/12/2025'.",
+      "Exemplo plural EN: 1 apple / 2 apples. Já em PT: 1 maçã / 2 maçãs. O código adapta sozinho."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "E-commerces globais: preços em R$, US$ e € no mesmo site, trocando conforme o visitante.",
+      "Apps mobile: Uber, WhatsApp e Instagram mudam textos, datas e notificações pela língua do celular.",
+      "Ferramentas: i18next (JS), gettext (PHP/Python), Babel (Python), Rails i18n (Ruby)."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O sistema detecta o idioma do usuário — pelo navegador, app ou escolha manual.",
+      "PASSO 2: O código busca os textos traduzidos num arquivo separado (ex: 'pt.json', 'en.json', 'es.json').",
+      "PASSO 3: Datas, moedas e plurais são formatados automaticamente com base no locale ativo — o usuário vê tudo na sua língua."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "NUNCA coloque textos direto no código ('Bem-vindo!'). Guarde em arquivos de tradução ou dá um nó na cabeça depois.",
+      "Cuidado com plural: inglês tem só singular/plural. Português tem singular + plural. Árabe tem 6 formas! Use ICU MessageFormat.",
+      "Dica de ouro: teste seu sistema com locale árabe (rtl) ou alemão (textos longos). Se o layout não quebrar, você venceu."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Locale detectado ➔ Texto traduzido carregado ➔ Data, moeda e plural formatados por biblioteca especializada ➔ Tela no idioma nativo do usuário."
+    ]
+  },
+  "_modelo_usado": "devworld/deepseek-v4-pro-0813-f",
+  "modulo": "Front-end",
+  "escola": "05_frontend_e_mobile",
+  "foco_pedagogico": "Formatando datas, pluralização e textos em português, inglês e espanhol"
+}

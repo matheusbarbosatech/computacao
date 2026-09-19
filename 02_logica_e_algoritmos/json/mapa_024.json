@@ -1,0 +1,63 @@
+{
+  "id": 24,
+  "title": "DECISÃO DUPLA: IF E ELSE",
+  "definition": "É uma bifurcação no código: se a condição for verdadeira, segue um caminho; se for falsa, segue outro.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Um caminho para o SIM, outro caminho para o NÃO, nunca os dois."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O COMPUTADOR PENSA",
+    "icon": "🖥️",
+    "bullets": [
+      "Ele testa a condição e obtém verdadeiro ou falso.",
+      "Escolhe apenas um dos dois blocos para executar."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "if testa a condição, else cobre todo o resto.",
+      "if (chove) { levar_guarda_chuva() } else { usar_boné() }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Login: senha certa ou errada, dois caminhos possíveis.",
+      "Presente em quase toda linguagem: Python, Java, JavaScript."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O programa avalia a condição do if",
+      "PASSO 2: Se for verdadeira, executa o bloco do if; se falsa, vai para o else",
+      "PASSO 3: Apenas um dos dois blocos roda, nunca ambos"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer que else não precisa de condição própria.",
+      "Dica de ouro: pense sempre em duas portas, só uma abre."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Condição testada ➔ Verdadeiro ou falso ➔ Um caminho é escolhido"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Lógica",
+  "foco_pedagogico": "Um caminho para o sim, outro caminho para o não"
+}

@@ -1,0 +1,67 @@
+{
+  "id": 519,
+  "title": "VERSIONAMENTO DE APIS (URI vs HEADER vs QUERY STRING)",
+  "definition": "É a forma de mudar sua API sem quebrar quem já está usando a versão antiga.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Cada versão da API é como uma 'porta' diferente pro mesmo prédio."
+    ]
+  },
+  "topRight": {
+    "pill": "3 FORMAS DE VERSIONAR",
+    "icon": "🖥️",
+    "bullets": [
+      "URI: a versão vai no próprio endereço da rota.",
+      "Header: a versão vai escondida numa informação extra da requisição.",
+      "Query String: a versão vai como parâmetro depois do '?'."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "URI: /api/v1/usuarios e /api/v2/usuarios",
+      "Header: 'Accept-Version: v2'",
+      "Query: /api/usuarios?version=2"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "URI é comum em APIs públicas (GitHub, Twitter/X).",
+      "Header é usado quando se quer URLs limpas e fixas.",
+      "Query String aparece em APIs internas simples."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "MANTENDO V1 E V2 JUNTAS",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Crie a rota v2 sem tocar na v1 existente",
+      "PASSO 2: As duas rodam em paralelo, cada cliente escolhe a sua",
+      "PASSO 3: Avise os usuários da v1 e desative só quando ninguém mais usar"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Editar direto a v1 quebra todo mundo que já confia nela.",
+      "Ouro: trate cada versão como um contrato, nunca mude o que já foi prometido."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Mudar API ➔ Criar nova versão ➔ Cliente antigo continua funcionando"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Microsserviços",
+  "escola": "04_backend_e_apis",
+  "foco_pedagogico": "Mantendo v1 e v2 ativas simultaneamente sem quebrar clientes legados"
+}

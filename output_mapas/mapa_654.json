@@ -1,0 +1,66 @@
+{
+  "id": 654,
+  "title": "PADRÃO SLIDING WINDOW (JANELA DESLIZANTE)",
+  "definition": "Técnica que percorre uma sequência com uma janela que desliza, reaproveitando o cálculo anterior em vez de refazer tudo do zero.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Imagine olhar uma fila através de uma moldura: você enxerga só um pedaço por vez.",
+      "Ao deslizar a moldura, um item entra e outro sai — o resto já está calculado."
+    ]
+  },
+  "topRight": {
+    "pill": "JANELA DE TAMANHO K",
+    "icon": "🖥️",
+    "bullets": [
+      "Em vez de somar o bloco inteiro de novo, o computador soma o que entra e subtrai o que sai.",
+      "Isso derruba o custo de O(n × k) para apenas O(n).",
+      "Ele guarda somente o melhor resultado visto até agora."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Primeiro some a janela inicial; depois, a cada passo, atualize: soma += entra - sai.",
+      "soma += nums[i] - nums[i - k]"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Maior média de k dias, menor trecho de vendas, maior soma de um intervalo.",
+      "Python, Java e JavaScript — em finanças, análise de dados e métricas de apps."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Some os k primeiros elementos e guarde como melhor resultado.",
+      "PASSO 2: Deslize a janela: some o novo elemento e subtraia o que saiu.",
+      "PASSO 3: Compare com o melhor e repita até acabar a lista."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Refazer a soma de toda a janela a cada passo — o código volta a ficar lento.",
+      "Esquecer de verificar se a lista tem pelo menos k elementos antes de começar."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Janela de tamanho k ➔ soma entra menos sai ➔ maior média em uma única passada"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "LeetCode",
+  "escola": "02_logica_e_algoritmos",
+  "foco_pedagogico": "Calculando a maior média ou menor subsequência sem reprocessar todos os elementos"
+}

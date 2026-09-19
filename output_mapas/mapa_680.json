@@ -1,0 +1,64 @@
+{
+  "id": 680,
+  "title": "COMO FUNCIONA O GERENCIAMENTO DE MEMÓRIA DE JOGOS",
+  "definition": "É a forma como o jogo organiza, usa e recicla o espaço de memória do computador para rodar sem travar.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Memória é a mesa de trabalho do jogo: espaço limitado e precisa estar sempre organizada."
+    ]
+  },
+  "topRight": {
+    "pill": "MEMÓRIA E GARBAGE COLLECTOR",
+    "icon": "🖥️",
+    "bullets": [
+      "O jogo pede memória ao sistema; quando ela acaba, a tela trava ou fecha.",
+      "O Garbage Collector limpa o lixo sozinho, mas faz pausas breves no meio do jogo."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Object Pooling: em vez de criar e destruir, você pega um objeto guardado e reutiliza.",
+      "pool.Obter() ➔ Ativar() ➔ Usar() ➔ pool.Devolver()"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Projéteis, inimigos, partículas, números de dano e efeitos de explosão.",
+      "Presente em Unity, Unreal, Godot e engines próprias em C#, C++ e Java."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: No início, crie uma reserva com 50 projéteis já desativados.",
+      "PASSO 2: Ao atirar, pegue um inativo da reserva e ative na posição do cano.",
+      "PASSO 3: Ao acertar o alvo, desative e devolva à reserva para reutilizar depois."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Erro clássico: criar e destruir a cada tiro, gerando pausas constantes do GC.",
+      "Dica de ouro: sempre desative e devolva o objeto; nunca esqueça o release."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Criar e destruir ➔ lixo acumulado ➔ pausas do GC ➔ travamentos. Reservar e reutilizar ➔ fluxo estável."
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Mundo Real",
+  "escola": "02_logica_e_algoritmos",
+  "foco_pedagogico": "Object Pooling: Reutilizando projéteis e inimigos para evitar pausas do Garbage Collector"
+}

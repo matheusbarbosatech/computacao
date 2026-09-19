@@ -1,0 +1,65 @@
+{
+  "id": 663,
+  "title": "TEST-DRIVEN DEVELOPMENT (TDD): RED, GREEN, REFACTOR",
+  "definition": "Técnica de programação onde você escreve o teste primeiro e só depois o código que faz esse teste passar.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como fazer a prova antes de estudar: o teste diz exatamente o que o código precisa fazer."
+    ]
+  },
+  "topRight": {
+    "pill": "O QUE O COMPUTADOR FAZ",
+    "icon": "🖥️",
+    "bullets": [
+      "O computador roda o teste e mostra vermelho quando a função ainda não existe.",
+      "Quando o código fica certo, ele mostra verde e confirma que tudo funciona."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Primeiro escreva o teste, depois a função. Nunca o contrário.",
+      "teste: soma(2, 3) === 5 -> função: return a + b"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Usado por equipes que precisam de código confiável e sem bugs escondidos.",
+      "Aparece em Java (JUnit), Python (pytest) e JavaScript (Jest)."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: RED — escreva um teste que falha, pois o código ainda não existe.",
+      "PASSO 2: GREEN — crie o código mais simples possível para o teste passar.",
+      "PASSO 3: REFACTOR — melhore o código mantendo todos os testes verdes.",
+      "PASSO 4: REPITA o ciclo para cada nova funcionalidade do sistema."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Escrever o código primeiro e o teste depois, perdendo o sentido do TDD.",
+      "Dica de ouro: se o teste não falhou no início, ele não prova nada."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Teste que falha ➔ código mínimo ➔ código limpo e testado"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Prática Dev",
+  "escola": "02_logica_e_algoritmos",
+  "foco_pedagogico": "Escrevendo o teste que falha antes de escrever qualquer linha de implementação"
+}

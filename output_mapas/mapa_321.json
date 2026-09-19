@@ -1,0 +1,64 @@
+{
+  "id": 321,
+  "title": "INFRAESTRUTURA COMO CÓDIGO (IaC)",
+  "definition": "É criar servidores, redes e sistemas escrevendo código, em vez de clicar em telas manualmente.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Em vez de configurar servidor na mão, você escreve um arquivo que descreve como ele deve ser."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O SISTEMA ENTENDE ISSO",
+    "icon": "🖥️",
+    "bullets": [
+      "Uma ferramenta lê seu arquivo de código e cria tudo automaticamente na nuvem.",
+      "Se você mudar o arquivo, a infraestrutura muda sozinha para acompanhar."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Você descreve 'o que quer', não 'como clicar'.",
+      "resource servidor { tipo = 'web', memoria = '2GB' }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Empresas que precisam criar servidores rápido e sem erro humano.",
+      "Ferramentas: Terraform, Ansible, AWS CloudFormation."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você escreve um arquivo descrevendo o servidor desejado.",
+      "PASSO 2: Salva esse arquivo no Git, como qualquer código.",
+      "PASSO 3: A ferramenta lê o arquivo e cria a infraestrutura real."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Iniciante clica direto na nuvem e esquece de atualizar o código, gerando divergência.",
+      "Dica de ouro: o código no Git é a verdade, nunca mude nada manualmente."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Escrever código ➔ Versionar no Git ➔ Servidor nasce automaticamente"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "IaC",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Criando servidores e redes através de código versionado no Git sem cliques manuais"
+}

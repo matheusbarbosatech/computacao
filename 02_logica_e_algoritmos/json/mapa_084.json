@@ -1,0 +1,63 @@
+{
+  "id": 84,
+  "title": "ORDENANDO LISTAS COM .SORT()",
+  "definition": ".sort() é o comando que organiza os itens de uma lista, do menor pro maior ou de A a Z.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Imagine embaralhar cartas e pedir pro computador arrumar em ordem sozinho."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O SISTEMA DECIDE",
+    "icon": "🖥️",
+    "bullets": [
+      "O computador compara os itens dois a dois, um contra o outro.",
+      "Por padrão, ele trata os números como se fossem texto."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Sem regra extra, o sort() compara caractere por caractere.",
+      "lista.sort((a, b) => a - b) força ordem numérica correta."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Ranking de pontuação, lista de preços, ordem alfabética de nomes.",
+      "Comum em JavaScript, Python, Java e planilhas."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: A lista chega desorganizada pro .sort()",
+      "PASSO 2: Ele compara os itens dois a dois seguindo uma regra",
+      "PASSO 3: Devolve a lista rearranjada na nova ordem"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "[10, 1, 2].sort() pode virar [1, 10, 2], porque '10' vem antes de '2' no texto.",
+      "Dica de ouro: sempre passe uma função de comparação pra números."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Lista bagunçada ➔ .sort() compara os itens ➔ Lista organizada (com cuidado nos números!)"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Coleções",
+  "foco_pedagogico": "A pegadinha da ordem alfabética vs numérica"
+}

@@ -1,0 +1,65 @@
+{
+  "id": 373,
+  "title": "EDR VS ANTIVÍRUS TRADICIONAL",
+  "definition": "Antivírus procura vilões conhecidos numa lista, EDR observa o comportamento de todos os processos para pegar vilões novos.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Antivírus é vigia com álbum de fotos de bandidos conhecidos.",
+      "EDR é detetive que observa ações suspeitas de qualquer um."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO FUNCIONA",
+    "icon": "🖥️",
+    "bullets": [
+      "Antivírus compara arquivos com uma lista de assinaturas ruins.",
+      "EDR grava e analisa o comportamento dos processos em tempo real."
+    ]
+  },
+  "midRight": {
+    "pill": "SINAL DE ALERTA",
+    "icon": "{ }",
+    "bullets": [
+      "Regra tipo: SE processo.abrir_arquivo == 'assinatura_conhecida'.",
+      "EDR usa: SE processo.criptografar_muitos_arquivos_rapido == suspeito."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Empresas usam EDR para proteger notebooks e servidores.",
+      "Ferramentas: CrowdStrike, SentinelOne, Microsoft Defender for Endpoint."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO DE DETECÇÃO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Processo desconhecido começa a agir no computador",
+      "PASSO 2: EDR observa o comportamento, não o nome do arquivo",
+      "PASSO 3: Ação suspeita é bloqueada e time de segurança é avisado"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que antivírus tradicional pega tudo, inclusive malware novo.",
+      "Ouro: malware inédito não tem assinatura, só comportamento denuncia."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Comportamento estranho ➔ EDR investiga ação ➔ Ameaça nova é pega antes do estrago"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Blue Team",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "Monitoramento comportamental de processos em computadores contra malware inédito"
+}

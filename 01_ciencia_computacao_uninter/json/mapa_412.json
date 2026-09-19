@@ -1,0 +1,64 @@
+{
+  "id": 412,
+  "title": "A ULA E OS REGISTRADORES",
+  "definition": "A ULA é o coração que faz contas dentro do processador, e os registradores são bolsos rápidos para guardar números na hora.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "A ULA soma, subtrai e compara números dentro da CPU."
+    ]
+  },
+  "topRight": {
+    "pill": "REGISTRADORES",
+    "icon": "🖥️",
+    "bullets": [
+      "São gavetinhas minúsculas dentro da CPU, mais rápidas que a memória RAM.",
+      "Guardam os números que a ULA está usando agora mesmo."
+    ]
+  },
+  "midRight": {
+    "pill": "OPERAÇÃO DA ULA",
+    "icon": "{ }",
+    "bullets": [
+      "Ela recebe dois valores e um comando do tipo 'soma' ou 'compara'.",
+      "RESULTADO = ULA(valor_A, valor_B, operação)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Toda soma, laço 'for' e comparação 'if' do seu código passa por ali.",
+      "Presente em qualquer processador, de celular a supercomputador."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: A CPU busca dois números e coloca nos registradores",
+      "PASSO 2: A ULA pega esses números e faz a conta pedida",
+      "PASSO 3: O resultado volta para um registrador, pronto para usar"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que a ULA guarda dados: ela só calcula, não armazena para sempre.",
+      "Confundir registrador com memória RAM: registrador é muito mais rápido e pequeno."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Registrador guarda número ➔ ULA calcula ➔ Resultado volta pro registrador"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Hardware",
+  "escola": "01_ciencia_computacao_uninter",
+  "foco_pedagogico": "O coração que faz contas de somar e os bolsos ultrarrápidos dentro da CPU"
+}

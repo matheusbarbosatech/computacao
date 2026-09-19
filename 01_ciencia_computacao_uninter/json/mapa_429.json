@@ -1,0 +1,64 @@
+{
+  "id": 429,
+  "title": "MEMÓRIA VIRTUAL E PAGINAÇÃO: O ESPAÇO DE ENDEREÇAMENTO",
+  "definition": "É a mágica que faz cada programa pensar que tem a RAM inteira só para ele.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Cada programa vive numa ilusão: acha que é o único dono da memória."
+    ]
+  },
+  "topRight": {
+    "pill": "ENDEREÇAMENTO VIRTUAL",
+    "icon": "🖥️",
+    "bullets": [
+      "O programa usa endereços falsos, como um apelido para a memória real.",
+      "O sistema operacional traduz esse apelido para o lugar verdadeiro na RAM."
+    ]
+  },
+  "midRight": {
+    "pill": "PÁGINAS E QUADROS",
+    "icon": "{ }",
+    "bullets": [
+      "Memória é dividida em blocos do mesmo tamanho chamados páginas.",
+      "pagina_virtual_5 ➔ quadro_fisico_12"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Todo sistema operacional moderno usa isso: Windows, Linux, macOS.",
+      "Fundamental em Java, C, Python, qualquer app rodando no seu PC."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Programa pede um endereço de memória virtual.",
+      "PASSO 2: A tabela de páginas traduz para o endereço físico real.",
+      "PASSO 3: O dado é entregue como se nada tivesse acontecido."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que o endereço que o programa vê é o lugar real na RAM.",
+      "Dica de ouro: pense num hotel, o quarto 101 muda de prédio, mas o hóspede nem percebe."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Endereço falso ➔ Tradução pelo sistema ➔ Programa feliz e ileso"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "SO",
+  "escola": "01_ciencia_computacao_uninter",
+  "foco_pedagogico": "A ilusão mágica que faz cada programa achar que tem a RAM inteira só para si"
+}

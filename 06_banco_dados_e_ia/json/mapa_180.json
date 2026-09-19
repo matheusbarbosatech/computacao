@@ -1,0 +1,63 @@
+{
+  "id": 180,
+  "title": "FILTRANDO GRUPOS COM HAVING",
+  "definition": "HAVING é o filtro que aplica regras depois que os dados já foram agrupados e somados.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É um filtro para grupos, não para linhas individuais."
+    ]
+  },
+  "topRight": {
+    "pill": "WHERE vs HAVING",
+    "icon": "🖥️",
+    "bullets": [
+      "WHERE filtra ANTES de agrupar, linha por linha.",
+      "HAVING filtra DEPOIS de agrupar, grupo por grupo."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Sempre vem depois do GROUP BY na consulta.",
+      "SELECT depto, COUNT(*) FROM func GROUP BY depto HAVING COUNT(*) > 5"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Relatórios que mostram só grupos relevantes.",
+      "Usado em SQL: MySQL, PostgreSQL, SQL Server."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: GROUP BY junta as linhas em grupos",
+      "PASSO 2: Funções como COUNT e SUM calculam cada grupo",
+      "PASSO 3: HAVING descarta os grupos que não passam a regra"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Usar WHERE com COUNT() dá erro, o cálculo ainda não existe ali.",
+      "Ordem certa é: WHERE, GROUP BY, HAVING, ORDER BY."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Agrupar dados ➔ Calcular totais ➔ HAVING escolhe quais totais interessam"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "BancoDados",
+  "foco_pedagogico": "O WHERE que atua sobre dados já agregados"
+}

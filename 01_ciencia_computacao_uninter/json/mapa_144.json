@@ -1,0 +1,63 @@
+{
+  "id": 144,
+  "title": "LISTAS ENCADEADAS E NÓS",
+  "definition": "É uma fila de caixas espalhadas na memória, onde cada caixa aponta o caminho para a próxima.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Cada elemento é uma caixa com dado e uma seta para a próxima caixa."
+    ]
+  },
+  "topRight": {
+    "pill": "O QUE É UM NÓ",
+    "icon": "🖥️",
+    "bullets": [
+      "Nó guarda duas coisas: o valor e o endereço do próximo nó.",
+      "As caixas não ficam juntas na memória, ficam espalhadas."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Um nó tem 'dado' e 'próximo' (ponteiro).",
+      "no.proximo = outroNo"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Filas de atendimento, histórico de navegador, playlists de música.",
+      "Comum em C, C++, Java e Python."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você cria o primeiro nó, chamado de cabeça (head)",
+      "PASSO 2: Cada nó guarda a seta (ponteiro) até o próximo nó",
+      "PASSO 3: O último nó aponta para 'nada' (fim da lista)"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de atualizar o ponteiro e perder o resto da lista.",
+      "Dica: sempre confira se a última caixa aponta para 'nulo'."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Nó guarda dado ➔ Ponteiro liga ao próximo ➔ Lista se forma"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "UNINTER",
+  "foco_pedagogico": "Ponteiros ligando caixas espalhadas na memória"
+}

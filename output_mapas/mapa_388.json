@@ -1,0 +1,64 @@
+{
+  "id": 388,
+  "title": "SEGURANÇA EM NUVEM: RESPONSABILIDADE COMPARTILHADA",
+  "definition": "É a divisão de tarefas de segurança: uma parte é do provedor de nuvem, outra é sua.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Nuvem é como um prédio alugado: síndico cuida da estrutura, você cuida do seu apartamento."
+    ]
+  },
+  "topRight": {
+    "pill": "DEVER DO PROVEDOR",
+    "icon": "🖥️",
+    "bullets": [
+      "Cuida da segurança 'DA nuvem': prédios, servidores, cabos, energia.",
+      "Protege data centers, hardware e rede física."
+    ]
+  },
+  "midRight": {
+    "pill": "DEVER DA SUA EMPRESA",
+    "icon": "{ }",
+    "bullets": [
+      "Cuida da segurança 'NA nuvem': dados, senhas, configurações.",
+      "config: bucket_privado = true (você define isso!)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Todo serviço em nuvem: AWS, Azure, Google Cloud.",
+      "S3, EC2, banco de dados, contas de usuário."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Provedor entrega a infraestrutura pronta e protegida",
+      "PASSO 2: Sua empresa configura acessos, senhas e dados",
+      "PASSO 3: Falha de configuração sua = vulnerabilidade sua, não do provedor"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que 'está na nuvem' significa 'está seguro automaticamente'.",
+      "Deixar bucket ou banco de dados público por esquecer a configuração."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Provedor protege a infra ➔ Você protege os dados ➔ Falha de config é sua culpa"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Governança",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "O que é dever do provedor de nuvem (AWS/Azure) vs o que é dever da sua empresa"
+}

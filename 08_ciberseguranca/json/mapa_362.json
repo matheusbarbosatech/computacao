@@ -1,0 +1,64 @@
+{
+  "id": 362,
+  "title": "OSINT: COLETA DE INFORMAÇÕES PÚBLICAS",
+  "definition": "É a arte de encontrar informações valiosas que já estão públicas na internet, sem invadir nada.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Como um detetive, você junta pistas espalhadas na web para montar um quadro completo."
+    ]
+  },
+  "topRight": {
+    "pill": "TIPOS DE ALVO",
+    "icon": "🖥️",
+    "bullets": [
+      "Funcionários: nomes, cargos e redes sociais da empresa.",
+      "E-mails vazados: contas expostas em brechas antigas."
+    ]
+  },
+  "midRight": {
+    "pill": "FERRAMENTAS OU COMANDO",
+    "icon": "{ }",
+    "bullets": [
+      "Buscas avançadas filtram resultados específicos no Google.",
+      "site:empresa.com filetype:pdf"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Pentest e auditoria de segurança autorizada por empresas.",
+      "Ferramentas: theHarvester, Maltego, Shodan, LinkedIn."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Definir o alvo autorizado (domínio ou empresa)",
+      "PASSO 2: Buscar em redes sociais, sites e bancos de vazamentos",
+      "PASSO 3: Organizar tudo num mapa de funcionários e tecnologias"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que 'público' significa 'permitido usar para qualquer fim'.",
+      "Sempre tenha autorização antes de investigar uma empresa real."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Dado público disperso ➔ Coleta organizada ➔ Mapa de riscos da empresa"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Red Team",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "Mapeando funcionários, e-mails vazados e tecnologias usando fontes abertas"
+}

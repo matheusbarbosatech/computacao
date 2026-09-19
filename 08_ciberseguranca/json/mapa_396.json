@@ -1,0 +1,64 @@
+{
+  "id": 396,
+  "title": "ENGENHARIA REVERSA DE BINÁRIOS COM GHIDRA",
+  "definition": "É abrir um programa já pronto (sem o código original) e descobrir o que ele faz por dentro.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como desmontar um liquidificador para entender como ele funciona, sem manual."
+    ]
+  },
+  "topRight": {
+    "pill": "BINÁRIO E DESCOMPILAÇÃO",
+    "icon": "🖥️",
+    "bullets": [
+      "O programa compilado é só números (bytes), ilegível para humanos.",
+      "Ghidra traduz esses números em código parecido com C."
+    ]
+  },
+  "midRight": {
+    "pill": "ASSEMBLY E PSEUDOCÓDIGO",
+    "icon": "{ }",
+    "bullets": [
+      "Assembly é a linguagem quase-máquina, cheia de MOV, JMP, CALL.",
+      "if (var1 == 5) { chamar_funcao(); }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Análise de malware, achar falhas de segurança, recuperar código perdido.",
+      "Ferramentas parecidas: IDA Pro, Radare2, Binary Ninja."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você importa o arquivo binário para o Ghidra.",
+      "PASSO 2: Ele analisa e transforma o código em funções legíveis.",
+      "PASSO 3: Você renomeia variáveis e entende a lógica escondida."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que o pseudocódigo é perfeito, ele pode ter erros de tradução.",
+      "Dica de ouro: comece pela função 'main', é o ponto de partida."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Binário misterioso ➔ Ghidra traduz ➔ Você entende a lógica interna"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Ameaças",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "Desmontando programas compilados para entender o que eles fazem internamente"
+}

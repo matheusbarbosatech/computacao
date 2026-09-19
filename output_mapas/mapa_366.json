@@ -1,0 +1,66 @@
+{
+  "id": 366,
+  "title": "FUZZING DE DIRETÓRIOS COM GOBUSTER E FFUF",
+  "definition": "É testar centenas de nomes de pastas e arquivos em um site para achar o que está escondido, mas não apagado.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como bater em toda porta de um prédio pra ver quais existem, mesmo sem placa na frente."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO A FERRAMENTA PENSA",
+    "icon": "🖥️",
+    "bullets": [
+      "A ferramenta pega uma lista gigante de palavras (wordlist) e testa uma por uma na URL.",
+      "Ela olha a resposta do servidor pra saber se a página existe ou não."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Gobuster: você escolhe o modo dir e a wordlist.",
+      "gobuster dir -u http://site.com -w wordlist.txt",
+      "ffuf usa FUZZ no lugar da parte que muda.",
+      "ffuf -u http://site.com/FUZZ -w wordlist.txt"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Testes de invasão (pentest) autorizados em sites e sistemas.",
+      "Ferramentas: Gobuster, ffuf, dirb, wfuzz."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você escolhe uma lista de nomes comuns (admin, backup, login).",
+      "PASSO 2: A ferramenta testa cada nome na URL do site, um por um.",
+      "PASSO 3: Ela mostra quais respostas deram 'existe' e quais deram 'não existe'."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Rodar sem permissão do dono do site é crime, não é brincadeira de laboratório.",
+      "Ignorar o código de status da resposta e achar que tudo existe."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Lista de palavras ➔ Testa cada uma na URL ➔ Encontra painel admin ou backup esquecido."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Red Team",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "Descobrindo páginas secretas, painéis administrativos e arquivos de backup esquecidos"
+}

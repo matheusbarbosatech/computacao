@@ -1,0 +1,63 @@
+{
+  "id": 103,
+  "title": "PILAR 1: ENCAPSULAMENTO",
+  "definition": "É esconder os dados internos de um objeto e só permitir acesso por portas controladas.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Trate o objeto como uma caixa fechada com segredos protegidos por dentro."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O SISTEMA LIDA",
+    "icon": "🖥️",
+    "bullets": [
+      "Atributos ficam privados e escondidos de acesso direto de fora.",
+      "Métodos públicos são as únicas portas de entrada e saída."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Marque o atributo como privado com underscore ou palavra private.",
+      "conta._saldo = 100 (errado) vs conta.depositar(100) (certo)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Sistemas bancários, cadastros e qualquer dado sensível do usuário.",
+      "Usado em Java, Python, C#, JavaScript com classes."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Dado interno fica trancado dentro do objeto.",
+      "PASSO 2: Método público (getter/setter) valida o pedido de acesso.",
+      "PASSO 3: Só depois da validação o dado é lido ou alterado."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Deixar todo atributo público destrói a proteção do encapsulamento.",
+      "Dica de ouro: se pode mudar de fora sem regra, não está protegido."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Dado escondido ➔ Acesso via método ➔ Segurança garantida."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "POO",
+  "foco_pedagogico": "Protegendo os dados internos do objeto contra alterações indevidas"
+}

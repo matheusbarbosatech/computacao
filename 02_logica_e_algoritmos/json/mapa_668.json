@@ -1,0 +1,68 @@
+{
+  "id": 668,
+  "title": "CONVENTIONAL COMMITS E SEMVER",
+  "definition": "É um jeito padronizado de escrever mensagens de commit que permite ao computador calcular sozinho a próxima versão do seu software.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Cada commit é uma etiqueta: diz se você consertou, criou ou só arrumou a casa.",
+      "O texto da etiqueta vale ponto: MAJOR quebra, MINOR adiciona, PATCH conserta."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O SISTEMA USA",
+    "icon": "🖥️",
+    "bullets": [
+      "Uma ferramenta lê seus commits, conta os tipos e decide a nova versão sozinha.",
+      "Nada de escolher número na mão: o histórico virou a fonte da verdade."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Formato fixo: tipo(escopo): descrição curta no imperativo, em minúsculas.",
+      "feat(login): adiciona botao de sair",
+      "fix(carrinho): corrige total zerado",
+      "chore: atualiza dependencias do projeto",
+      "BREAKING CHANGE: remove campo antigo do usuario"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Projetos com muitas pessoas precisam entender o histórico sem perguntar a ninguém.",
+      "Liberação automática de versão usa Conventional Commits e SemVer juntos."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você escreve o commit com tipo e escopo claros.",
+      "PASSO 2: A ferramenta lê tudo e classifica: quebra, novidade ou correção.",
+      "PASSO 3: Ela gera a nova versão e a nota de mudanças automaticamente."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Escrever mensagem vaga como ajustes ou wip: a ferramenta não entende e a versão trava.",
+      "Regra de ouro: mudou algo que quebra o uso, avise no próprio commit."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Commit etiquetado ➔ ferramenta lê o histórico ➔ versão MAJOR.MINOR.PATCH correta."
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Prática Dev",
+  "escola": "02_logica_e_algoritmos",
+  "foco_pedagogico": "feat, fix, chore e versionamento semântico (MAJOR.MINOR.PATCH)"
+}

@@ -1,0 +1,68 @@
+{
+  "id": 675,
+  "title": "COMO FUNCIONA A CONCORRÊNCIA DE INGRESSOS DE SHOWS",
+  "definition": "É o conjunto de técnicas que impede milhares de fãs de comprarem o mesmo assento no mesmo segundo.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Show lotado: 100 mil pessoas clicam em COMPRAR no mesmo instante.",
+      "O sistema precisa decidir quem fica com cada cadeira, sem vender duas vezes."
+    ]
+  },
+  "topRight": {
+    "pill": "FILA VIRTUAL COM REDIS",
+    "icon": "🖥️",
+    "bullets": [
+      "Redis é uma memória ultrarrápida, como um painel de senhas de banco.",
+      "Milhões entram na fila; só os primeiros da vez podem comprar.",
+      "Libera uma leva por vez, protegendo o banco de dados de travar."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "A regra é: quem chega primeiro no Redis trava o assento e ganha tempo.",
+      "SETNX reserva:assento42 user777 EX 300",
+      "Tradução: cria a reserva só se não existir, expira em 300 segundos."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Ingressos de shows, cinema, voos, consultas médicas e estoque de promoções.",
+      "Linguagens e ferramentas: Python, Java, Node.js, Redis, PostgreSQL, Kafka."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Usuário entra na fila virtual e recebe uma posição.",
+      "PASSO 2: Chegou a vez: ele reserva o assento no Redis por alguns minutos.",
+      "PASSO 3: Paga dentro do prazo, o banco grava a compra de forma definitiva."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Vender dois ingressos iguais: acontece quando dois cliques leem o mesmo dado.",
+      "Solução ACID: Atomicidade, Consistência, Isolamento e Durabilidade.",
+      "Reserva sem expiração trava assentos e esvazia o show com cadeiras vazias."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Fila no Redis ➔ Assento travado por 5 min ➔ Pagamento ACID confirma ➔ Ingresso é seu"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Mundo Real",
+  "escola": "02_logica_e_algoritmos",
+  "foco_pedagogico": "Filas virtuais com Redis, transações ACID e retenção temporária de assentos"
+}

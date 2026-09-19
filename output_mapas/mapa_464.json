@@ -1,0 +1,64 @@
+{
+  "id": 464,
+  "title": "INTERFACE SEGREGATION PRINCIPLE (ISP)",
+  "definition": "Ninguém deve ser forçado a depender de métodos que nunca vai usar.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Muitas interfaces pequenas e específicas são melhores que uma gigante genérica."
+    ]
+  },
+  "topRight": {
+    "pill": "INTERFACE GORDA",
+    "icon": "🖥️",
+    "bullets": [
+      "Uma interface com métodos demais obriga classes a implementar coisas inúteis.",
+      "Isso cria dependências falsas e código frágil."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Quebre a interface grande em várias pequenas e coesas.",
+      "interface Voa {}; interface Nada {} em vez de interface Animal { voar(); nadar(); }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Em Java, C# e TypeScript ao definir contratos entre classes.",
+      "Muito comum em sistemas com plugins, drivers e APIs modulares."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você percebe uma interface enorme com métodos variados",
+      "PASSO 2: Você separa os métodos em grupos por responsabilidade",
+      "PASSO 3: Cada classe implementa só as interfaces que realmente usa"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Criar métodos vazios só para 'satisfazer' uma interface é sinal de erro.",
+      "Dica de ouro: se um método não faz sentido pra classe, a interface está errada."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Interface gorda ➔ divida em pedaços menores ➔ classes usam só o que precisam"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Arquitetura",
+  "escola": "04_backend_e_apis",
+  "foco_pedagogico": "Muitas interfaces específicas são melhores que uma interface gorda genérica"
+}

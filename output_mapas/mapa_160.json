@@ -1,0 +1,63 @@
+{
+  "id": 160,
+  "title": "O QUE É SQL?",
+  "definition": "SQL é a linguagem que usamos para pedir, guardar e organizar dados dentro de um banco de dados.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "SQL é como conversar com um arquivo gigante e organizado de informações."
+    ]
+  },
+  "topRight": {
+    "pill": "BANCO DE DADOS",
+    "icon": "🖥️",
+    "bullets": [
+      "O banco guarda os dados em tabelas, parecidas com planilhas.",
+      "SQL é a linguagem padrão aceita por quase todo banco relacional."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Comandos em inglês simples descrevem o que você quer fazer.",
+      "SELECT nome FROM clientes;"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Sistemas de vendas, apps, sites e relatórios usam SQL o tempo todo.",
+      "MySQL, PostgreSQL, SQLite e SQL Server são exemplos famosos."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você escreve um comando SQL pedindo algo",
+      "PASSO 2: O banco de dados interpreta e busca a informação",
+      "PASSO 3: O banco devolve o resultado pronto para você"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer o ponto e vírgula no final do comando trava o código.",
+      "Dica de ouro: sempre confira o nome exato da tabela e coluna."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Pergunta em SQL ➔ Banco processa ➔ Dados retornam organizados"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "BancoDados",
+  "foco_pedagogico": "A linguagem padrão para conversar com o banco"
+}

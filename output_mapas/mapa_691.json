@@ -1,0 +1,66 @@
+{
+  "id": 691,
+  "title": "OPEN SOURCE: COMO FAZER SUA PRIMEIRA CONTRIBUIÇÃO PÚBLICA",
+  "definition": "Open Source é um projeto de código aberto onde qualquer pessoa pode ler, melhorar e enviar mudanças de graça.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Milhares de projetos precisam de ajuda e aceitam iniciantes de braços abertos.",
+      "Você não precisa ser gênio: corrigir um erro de escrita já é contribuir."
+    ]
+  },
+  "topRight": {
+    "pill": "GITHUB E REPOSITÓRIOS",
+    "icon": "🖥️",
+    "bullets": [
+      "O GitHub é a vitrine online onde o projeto vive e guarda todo o histórico.",
+      "Repositório é a pasta do projeto: código, documentação, issues e discussões juntos.",
+      "O computador compara sua versão com a original antes de aceitar qualquer mudança."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "git clone copia o projeto para sua máquina; git checkout -b cria sua branch de trabalho.",
+      "exemplo: git clone https://github.com/projeto/repo.git"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Todo dia: corrigir bugs, escrever documentação, traduzir textos e criar testes.",
+      "Linguagens e ferramentas: Python, JavaScript, GitHub, Git e VS Code."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Ache uma issue marcada como good first issue no repositório escolhido.",
+      "PASSO 2: Faça um fork, clone, crie sua branch e conserte a tarefa com calma.",
+      "PASSO 3: Abra o Pull Request descrevendo o que mudou e aguarde a revisão."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Erro clássico: mexer na branch main em vez de criar uma branch só sua.",
+      "Dica de ouro: comente na issue antes de começar e leia o guia CONTRIBUTING."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Issue fácil ➔ Fork e correção ➔ Pull Request aprovado"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Mentalidade",
+  "escola": "02_logica_e_algoritmos",
+  "foco_pedagogico": "Encontrando boas primeiras issues (Good First Issues) e abrindo Pull Requests"
+}

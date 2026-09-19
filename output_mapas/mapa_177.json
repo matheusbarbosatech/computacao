@@ -1,0 +1,63 @@
+{
+  "id": 177,
+  "title": "FUNÇÕES DE AGREGAÇÃO: SUM() E AVG()",
+  "definition": "São funções que juntam vários números de uma coluna em um único resultado, como somar ou tirar a média.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Em vez de olhar linha por linha, o banco calcula tudo de uma vez pra você."
+    ]
+  },
+  "topRight": {
+    "pill": "SUM() E AVG()",
+    "icon": "🖥️",
+    "bullets": [
+      "SUM() soma todos os valores de uma coluna numérica.",
+      "AVG() calcula a média, ou seja, soma dividido pela quantidade."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Use dentro do SELECT, apontando a coluna numérica.",
+      "SELECT SUM(salario), AVG(salario) FROM funcionarios;"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Relatórios de vendas, folha de pagamento, notas escolares.",
+      "Usado em SQL: MySQL, PostgreSQL, SQL Server, Oracle."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O banco pega todos os valores da coluna escolhida",
+      "PASSO 2: Soma tudo (SUM) ou soma e divide pela quantidade (AVG)",
+      "PASSO 3: Devolve um único número como resultado"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer que valores NULL são ignorados no cálculo da média.",
+      "Dica: use GROUP BY se quiser somas separadas por categoria."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Coluna de números ➔ SUM() ou AVG() ➔ Um valor final resumido"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "BancoDados",
+  "foco_pedagogico": "Somando valores e calculando médias"
+}

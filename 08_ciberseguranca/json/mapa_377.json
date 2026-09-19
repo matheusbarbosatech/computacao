@@ -1,0 +1,64 @@
+{
+  "id": 377,
+  "title": "RESPOSTA A INCIDENTES: AS 6 FASES DO NIST",
+  "definition": "É o passo a passo que uma equipe segue para lidar com um ataque, do primeiro sinal até o aprendizado final.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como um plano de incêndio: todo mundo sabe o que fazer antes do fogo começar."
+    ]
+  },
+  "topRight": {
+    "pill": "AS 6 FASES DO NIST",
+    "icon": "🖥️",
+    "bullets": [
+      "Preparação, Identificação, Contenção, Erradicação, Recuperação e Lições Aprendidas.",
+      "Cada fase só começa quando a anterior termina bem."
+    ]
+  },
+  "midRight": {
+    "pill": "REGRA DE ORO",
+    "icon": "{ }",
+    "bullets": [
+      "Contenção não é excluir o problema, é isolar antes.",
+      "isolar_maquina() ➔ depois investigar_causa()"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Times de SOC (Security Operations Center) em empresas.",
+      "Ferramentas como SIEM, EDR e playbooks de resposta."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO DAS 6 FASES",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Preparação - montar plano, ferramentas e equipe antes do ataque",
+      "PASSO 2: Identificação e Contenção - detectar o incidente e isolar o dano",
+      "PASSO 3: Erradicação, Recuperação e Lições Aprendidas - remover, restaurar e melhorar"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Pular a fase de Lições Aprendidas e repetir o mesmo erro depois.",
+      "Confundir Erradicação com Recuperação, são etapas diferentes."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Detectar ➔ Isolar ➔ Limpar ➔ Restaurar ➔ Aprender"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Blue Team",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "Preparação, Identificação, Contenção, Erradicação, Recuperação e Lições Aprendidas"
+}

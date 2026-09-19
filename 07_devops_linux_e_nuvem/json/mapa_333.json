@@ -1,0 +1,64 @@
+{
+  "id": 333,
+  "title": "ESTRATÉGIAS DE DEPLOY: BLUE/GREEN VS CANARY",
+  "definition": "São formas de trocar a versão de um sistema em produção sem os usuários perceberem ou sofrerem pane.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Trocar o motor do avião sem ele parar de voar."
+    ]
+  },
+  "topRight": {
+    "pill": "BLUE/GREEN",
+    "icon": "🖥️",
+    "bullets": [
+      "Existem 2 ambientes idênticos: Azul (atual) e Verde (novo).",
+      "O tráfego muda de uma vez só, tipo um interruptor de luz."
+    ]
+  },
+  "midRight": {
+    "pill": "CANARY",
+    "icon": "{ }",
+    "bullets": [
+      "Libera a nova versão para uma pequena % de usuários primeiro.",
+      "if (grupo == teste) usa_v2(); else usa_v1();"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Grandes apps como Netflix, Google e times de e-commerce.",
+      "Ferramentas: Kubernetes, AWS CodeDeploy, Istio, Spinnaker."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Nova versão sobe em ambiente separado ou para poucos usuários",
+      "PASSO 2: Sistema monitora erros, lentidão e falhas em tempo real",
+      "PASSO 3: Se tudo estiver bem, libera para todo mundo; se não, volta atrás"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que Blue/Green é grátis: manter 2 ambientes custa o dobro.",
+      "Ouro: sempre tenha um botão de rollback rápido e testado."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Nova versão pronta ➔ Testa com poucos ou troca tudo ➔ Zero downtime para o usuário"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "CI/CD",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Atualizando produção sem derrubar usuários ativos com zero downtime"
+}

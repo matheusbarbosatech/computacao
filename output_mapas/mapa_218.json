@@ -1,0 +1,64 @@
+{
+  "id": 218,
+  "title": "AUTOMAÇÃO DE MOUSE E TECLADO COM PYAUTOGUI",
+  "definition": "É uma biblioteca Python que controla o mouse e o teclado como se fosse um humano invisível.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Um robô que move o mouse, clica e digita sozinho na tela."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O SISTEMA ENTENDE",
+    "icon": "🖥️",
+    "bullets": [
+      "A tela é um mapa de coordenadas X e Y, tipo um tabuleiro.",
+      "O pyautogui manda comandos direto pro sistema operacional."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Cada ação é uma função simples do módulo.",
+      "pyautogui.click(300, 400) clica na posição."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Automatizar tarefas repetitivas em qualquer programa.",
+      "Testes automatizados, preenchimento de formulários, jogos."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você descobre as coordenadas do que quer clicar",
+      "PASSO 2: O código manda o mouse ir até lá e clicar",
+      "PASSO 3: O teclado digita o texto ou aperta a tecla"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Se a tela mudar de posição, o clique erra o alvo.",
+      "Sempre teste com time.sleep() antes pra não perder controle."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Coordenada na tela ➔ Comando pyautogui ➔ Ação automática"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Automação",
+  "escola": "03_python_especialista",
+  "foco_pedagogico": "O robô que clica e digita na tela simulando o humano"
+}

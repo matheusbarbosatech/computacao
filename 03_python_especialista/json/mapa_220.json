@@ -1,0 +1,64 @@
+{
+  "id": 220,
+  "title": "AGENDAMENTO DE SCRIPTS COM SCHEDULE E CRON",
+  "definition": "É ensinar o computador a rodar seu script sozinho, num horário marcado, sem você precisar apertar play.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Um despertador para o seu código: ele toca e o script executa na hora certa."
+    ]
+  },
+  "topRight": {
+    "pill": "AGENDADOR",
+    "icon": "🖥️",
+    "bullets": [
+      "O sistema fica de olho no relógio o tempo todo, mesmo sem você olhar.",
+      "Quando a hora marcada chega, ele dispara o script automaticamente."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Com a lib 'schedule' em Python, você diz a hora e a tarefa.",
+      "schedule.every().day.at('08:00').do(minha_funcao)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Enviar relatório diário, fazer backup, avisar por email todo dia.",
+      "Python (schedule, APScheduler), Linux (crontab), Windows (Task Scheduler)."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você define a regra: 'rodar todo dia às 8h'.",
+      "PASSO 2: O programa fica em loop, checando se já é a hora.",
+      "PASSO 3: Quando bate 8h, ele executa o script sozinho."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer que o script precisa ficar rodando (loop) pra 'schedule' funcionar.",
+      "No cron, confundir fuso horário do servidor com o seu horário local."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Definir horário ➔ Sistema espera e verifica ➔ Script roda sozinho às 8h."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Automação",
+  "escola": "03_python_especialista",
+  "foco_pedagogico": "Fazendo seu script rodar todo dia às 8h da manhã sozinho"
+}

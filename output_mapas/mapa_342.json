@@ -1,0 +1,64 @@
+{
+  "id": 342,
+  "title": "AMEAÇA, VULNERABILIDADE, EXPLOIT E RISCO",
+  "definition": "São 4 peças diferentes do mesmo quebra-cabeça de segurança: a brecha, o perigo, a arma e o estrago.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Pense numa casa: fechadura quebrada, ladrão querendo entrar, chave mestra e o que ele rouba."
+    ]
+  },
+  "topRight": {
+    "pill": "VULNERABILIDADE vs AMEAÇA",
+    "icon": "🖥️",
+    "bullets": [
+      "Vulnerabilidade é a fechadura quebrada, o defeito que já existe no sistema.",
+      "Ameaça é o ladrão, alguém ou algo com potencial de causar dano."
+    ]
+  },
+  "midRight": {
+    "pill": "FÓRMULA DO RISCO",
+    "icon": "{ }",
+    "bullets": [
+      "Risco nasce da combinação dos outros três elementos.",
+      "Risco = Ameaça x Vulnerabilidade x Impacto"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Times de segurança usam isso para priorizar o que corrigir primeiro.",
+      "Aparece em relatórios de pentest, CVE e análises de risco."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: A vulnerabilidade existe, a fechadura está frágil",
+      "PASSO 2: A ameaça (invasor) usa um exploit para forçar a fechadura",
+      "PASSO 3: O risco se concreliza como o prejuízo real causado"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que vulnerabilidade e ameaça são a mesma coisa, não são.",
+      "Dica de ouro: sem exploit funcionando, a vulnerabilidade pode nunca virar risco."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Brecha (vulnerabilidade) ➔ Invasor usa arma (exploit) ➔ Vira estrago real (risco)"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Fundamentos",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "A diferença vital entre a brecha, a arma, o invasor e o impacto real"
+}

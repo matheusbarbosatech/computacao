@@ -1,0 +1,65 @@
+{
+  "id": 458,
+  "title": "DETECÇÃO DE CICLOS EM GRAFOS E ORDENAÇÃO TOPOLÓGICA",
+  "definition": "É descobrir se dependências formam um loop e, se não formarem, decidir a ordem certa de execução.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Pacotes que dependem uns dos outros formam um grafo de setas.",
+      "Ciclo é quando A depende de B e B depende de A."
+    ]
+  },
+  "topRight": {
+    "pill": "DFS E CORES",
+    "icon": "🖥️",
+    "bullets": [
+      "Computador marca cada pacote com uma cor: branco, cinza, preto.",
+      "Cinza revisitado durante a busca significa ciclo encontrado."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Se visitar um nó já 'em progresso' (cinza), é ciclo.",
+      "if (cor[v] == CINZA) throw CicloDetectado();"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Gerenciadores de pacotes como npm, pip e Maven usam isso.",
+      "Compiladores e sistemas de build como Make e Webpack."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Monte o grafo ligando cada pacote às suas dependências",
+      "PASSO 2: Percorra com DFS verificando se algum ciclo aparece",
+      "PASSO 3: Se não houver ciclo, gere a ordem topológica de instalação"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Confundir 'já visitado' com 'ainda sendo visitado' na busca.",
+      "Esquecer que grafo direcionado é diferente de não direcionado."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Dependências ➔ Detectar ciclo ➔ Ordenar instalação sem quebrar nada"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Algoritmos",
+  "escola": "01_ciencia_computacao_uninter",
+  "foco_pedagogico": "Descobrindo dependências circulares em pacotes e compilando na ordem certa"
+}

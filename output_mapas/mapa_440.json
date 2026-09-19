@@ -1,0 +1,64 @@
+{
+  "id": 440,
+  "title": "FASES DE UM COMPILADOR: DO CÓDIGO FONTE AO CÓDIGO DE MÁQUINA",
+  "definition": "Compilador é um tradutor que transforma código escrito por humanos em instruções que a máquina entende.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Compilar é traduzir texto humano em passos que o processador executa direto."
+    ]
+  },
+  "topRight": {
+    "pill": "ANÁLISE LÉXICA E SINTÁTICA",
+    "icon": "🖥️",
+    "bullets": [
+      "Léxico separa o texto em 'palavras' válidas, como cortar frase em pedaços.",
+      "Sintático organiza essas palavras numa árvore, checando a gramática do código."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Léxico vê tokens: 'x', '=', '5', ';'.",
+      "Sintático monta árvore: (atribuição x 5)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Todo compilador real usa essas fases: GCC, Clang, javac.",
+      "Interpretadores como Python também fazem análise parecida antes de rodar."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Léxico quebra o código em tokens (palavras reconhecíveis).",
+      "PASSO 2: Sintático e Semântico organizam e checam sentido e regras.",
+      "PASSO 3: Otimização melhora e Geração de Código produz instruções de máquina."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Confundir erro de sintaxe (gramática errada) com erro semântico (sentido errado).",
+      "Dica de ouro: pense nas fases como revisar um texto: ortografia, gramática, depois sentido."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Código fonte ➔ Léxico ➔ Sintático ➔ Semântico ➔ Otimização ➔ Código de Máquina"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Compiladores",
+  "escola": "01_ciencia_computacao_uninter",
+  "foco_pedagogico": "Léxico, Sintático, Semântico, Otimização e Geração de Código"
+}

@@ -1,0 +1,63 @@
+{
+  "id": 2,
+  "title": "O QUE É UM ALGORITMO?",
+  "definition": "É uma sequência finita de passos, bem definidos, para resolver um problema.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como uma receita de bolo: passos em ordem levam a um resultado certo."
+    ]
+  },
+  "topRight": {
+    "pill": "PASSOS BEM DEFINIDOS",
+    "icon": "🖥️",
+    "bullets": [
+      "Cada passo precisa ser claro, sem ambiguidade ou dúvida.",
+      "O computador só entende ordens exatas e diretas."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Um algoritmo pode ser escrito em pseudocódigo antes do código real.",
+      "SE fome ENTÃO comer, SENÃO esperar"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Toda função e programa nasce de um algoritmo por trás.",
+      "Usado em apps, jogos, buscas do Google e redes sociais."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Entender qual problema precisa ser resolvido",
+      "PASSO 2: Organizar as ações em uma ordem lógica",
+      "PASSO 3: Seguir os passos e chegar ao resultado esperado"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que algoritmo é a mesma coisa que código de programação.",
+      "Esquecer que os passos precisam ter um fim (ser finitos)."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Problema ➔ Passos organizados ➔ Solução alcançada"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Fundamentos",
+  "foco_pedagogico": "Sequência finita de passos para resolver um problema"
+}

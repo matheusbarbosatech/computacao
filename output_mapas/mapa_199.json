@@ -1,0 +1,63 @@
+{
+  "id": 199,
+  "title": "BACKUPS E CÓPIAS DE SEGURANÇA",
+  "definition": "Backup é uma cópia dos seus dados guardada em outro lugar, para não perder tudo se algo der errado.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como fotocopiar documentos importantes antes de sair de casa."
+    ]
+  },
+  "topRight": {
+    "pill": "DUMP DE BANCO DE DADOS",
+    "icon": "🖥️",
+    "bullets": [
+      "Dump é tirar uma 'foto completa' de todos os dados do banco.",
+      "Vira um arquivo que pode ser guardado ou movido."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Comando gera um arquivo .sql ou .dump com tudo dentro.",
+      "pg_dump meubanco > backup.sql"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Antes de atualizar sistemas ou migrar servidores.",
+      "Ferramentas: MySQL Dump, pg_dump, mongodump."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Sistema gera o dump com os dados atuais",
+      "PASSO 2: Arquivo é guardado em local seguro (nuvem/HD externo)",
+      "PASSO 3: Se algo quebrar, o dump é restaurado no banco"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Fazer backup só num lugar é arriscado, use a regra 3-2-1.",
+      "Nunca testar a restauração é o erro mais caro de todos."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Dump dos dados ➔ Guardar em local seguro ➔ Restaurar se precisar"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "BancoDados",
+  "foco_pedagogico": "Dump, restauração e políticas contra desastres"
+}

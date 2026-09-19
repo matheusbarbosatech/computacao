@@ -1,0 +1,65 @@
+{
+  "id": 481,
+  "title": "SPRING SECURITY & AUTENTICAÇÃO STATELESS COM JWT",
+  "definition": "É um sistema de segurança que checa um crachá digital (token) a cada requisição, sem guardar login na memória.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Cada requisição chega sozinha, sem 'memória' do login anterior.",
+      "O token JWT funciona como um crachá que prova quem você é."
+    ]
+  },
+  "topRight": {
+    "pill": "FILTROS DE SEGURANÇA",
+    "icon": "🖥️",
+    "bullets": [
+      "Filtro é um 'segurança de porta' que analisa a requisição antes dela entrar.",
+      "Ele extrai o token do cabeçalho e verifica se é válido."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Filtro herda de OncePerRequestFilter e roda uma vez por requisição.",
+      "Authorization: Bearer <token_aqui>"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "APIs REST que não guardam sessão no servidor (stateless).",
+      "Comum em Spring Boot, apps mobile e microsserviços."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Requisição chega com o token no cabeçalho.",
+      "PASSO 2: Filtro valida assinatura, prazo e perfil (role) do token.",
+      "PASSO 3: Se válido, libera acesso; se não, bloqueia com erro 401/403."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de adicionar o prefixo 'Bearer ' antes do token.",
+      "Confundir 401 (não autenticado) com 403 (sem permissão)."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Token chega ➔ Filtro valida perfil ➔ Acesso liberado ou bloqueado"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Java/Spring",
+  "escola": "04_backend_e_apis",
+  "foco_pedagogico": "Filtros de segurança que interceptam requisições e validam perfis de acesso"
+}

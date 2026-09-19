@@ -1,0 +1,66 @@
+{
+  "id": 520,
+  "title": "TEOREMA CAP",
+  "definition": "Em um sistema distribuído, você só pode garantir 2 das 3 propriedades: Consistência, Disponibilidade e Tolerância a Partição.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Imagine várias filiais de um banco que precisam concordar sobre o mesmo saldo, sempre."
+    ]
+  },
+  "topRight": {
+    "pill": "AS 3 LETRAS DO CAP",
+    "icon": "🖥️",
+    "bullets": [
+      "C = Consistência: todo mundo vê o mesmo dado ao mesmo tempo.",
+      "A = Disponibilidade: o sistema sempre responde, mesmo com falhas.",
+      "P = Partição: a rede pode cair e separar os servidores."
+    ]
+  },
+  "midRight": {
+    "pill": "POR QUE É IMPOSSÍVEL TER OS 3",
+    "icon": "{ }",
+    "bullets": [
+      "Se a rede quebra (P), os servidores ficam isolados e não conversam.",
+      "Sem conversar, só resta escolher: responder com dado desatualizado (A) ou recusar responder (C).",
+      "Não existe mágica que resolva a falta de comunicação."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Bancos de dados distribuídos como Cassandra (prioriza A) e MongoDB (prioriza C).",
+      "Sistemas globais como redes sociais e serviços de nuvem em larga escala."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "O QUE ACONTECE QUANDO A REDE CAI",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Um cabo de rede rompe e dois servidores perdem contato (partição).",
+      "PASSO 2: Um cliente pede um dado para o servidor isolado.",
+      "PASSO 3: O sistema decide: responder algo talvez errado (disponível) ou esperar e recusar (consistente)."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que dá pra 'configurar' o sistema pra ter os 3 juntos, isso não existe.",
+      "P não é opcional: em rede real, partições sempre acontecem um dia."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Rede falha ➔ servidores isolados ➔ escolha obrigatória entre resposta rápida ou resposta certa"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Microsserviços",
+  "escola": "04_backend_e_apis",
+  "foco_pedagogico": "Por que é matematicamente impossível ter os 3 em um sistema distribuído na rede"
+}

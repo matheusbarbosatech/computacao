@@ -1,0 +1,63 @@
+{
+  "id": 170,
+  "title": "FILTRO DE LISTA COM IN",
+  "definition": "IN filtra itens que estão dentro de um conjunto específico de valores.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como perguntar: 'esse valor está nesta lista de opções?'"
+    ]
+  },
+  "topRight": {
+    "pill": "COMO FUNCIONA",
+    "icon": "🖥️",
+    "bullets": [
+      "O sistema compara cada item com todos os valores do conjunto.",
+      "Se encontrar igualdade com pelo menos um, o item passa no filtro."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Sintaxe básica: coluna IN (valor1, valor2, valor3).",
+      "SELECT * FROM clientes WHERE cidade IN ('SP','RJ')"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Consultas em bancos de dados: SQL, PostgreSQL, MySQL.",
+      "Também existe em Python (in), JavaScript (includes)."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você define o conjunto de valores aceitos",
+      "PASSO 2: O sistema verifica cada item da lista original",
+      "PASSO 3: Só sobram os itens que bateram com o conjunto"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer aspas em valores de texto causa erro.",
+      "IN não funciona bem com listas gigantes, pode ficar lento."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Conjunto de valores ➔ Comparação item a item ➔ Lista filtrada"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "BancoDados",
+  "foco_pedagogico": "Valores contidos em um conjunto específico"
+}

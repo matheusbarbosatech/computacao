@@ -1,0 +1,65 @@
+{
+  "id": 497,
+  "title": "COMUNICAÇÃO SÍNCRONA VS ASSÍNCRONA",
+  "definition": "É a diferença entre ligar e esperar na linha, ou mandar uma carta e seguir sua vida.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Síncrono: você pergunta e fica esperando a resposta na hora.",
+      "Assíncrono: você envia o pedido e continua fazendo outra coisa."
+    ]
+  },
+  "topRight": {
+    "pill": "SÍNCRONO (REST/gRPC)",
+    "icon": "🖥️",
+    "bullets": [
+      "Cliente trava esperando o servidor responder antes de continuar.",
+      "Se o servidor demora ou cai, quem pediu fica travado também."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Chamada direta que bloqueia até vir a resposta.",
+      "resposta = api.buscarPedido(id) // espera aqui"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Login, consulta de saldo, checar status de pagamento agora.",
+      "Ferramentas: REST, gRPC, GraphQL, chamadas HTTP comuns."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Cliente envia a pergunta e aguarda.",
+      "PASSO 2: Servidor processa (síncrono) ou só recebe e enfileira (assíncrono).",
+      "PASSO 3: Resposta imediata volta, ou o sistema segue depois em background."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Usar síncrono para tarefa longa deixa o usuário travado esperando.",
+      "Dica de ouro: se não precisa da resposta agora, dispare e esqueça com fila."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Precisa saber já ➔ use REST/gRPC ➔ resposta imediata. Pode esperar ➔ use fila ➔ processa depois."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Microsserviços",
+  "escola": "04_backend_e_apis",
+  "foco_pedagogico": "Quando esperar resposta imediata e quando disparar e esquecer"
+}

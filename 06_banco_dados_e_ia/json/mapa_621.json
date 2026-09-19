@@ -1,0 +1,65 @@
+{
+  "id": 621,
+  "title": "VALIDAÇÃO CRUZADA (CROSS-VALIDATION K-FOLD)",
+  "definition": "Técnica que divide os dados em várias partes e testa o algoritmo em cada uma delas para medir se ele acerta de forma consistente.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Em vez de testar uma vez só, o algoritmo é testado várias vezes, em pedaços diferentes dos dados.",
+      "Como um aluno que faz cinco provas diferentes em vez de uma só, para provar que aprendeu de verdade."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O COMPUTADOR FAZ",
+    "icon": "🖥️",
+    "bullets": [
+      "O computador embaralha os dados e corta tudo em K pedaços iguais, chamados dobras.",
+      "Treina K vezes: cada rodada usa uma dobra para testar e o resto para treinar."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Você diz quantas dobras quer com o parâmetro cv, e a função devolve a nota de cada rodada.",
+      "exemplo(codigo): notas = cross_val_score(modelo, X, y, cv=5); print(notas.mean())"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Usado sempre que se quer saber se um modelo é confiável antes de colocá-lo em produção.",
+      "Ferramentas: scikit-learn em Python, caret em R, Keras e TensorFlow para redes neurais."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Embaralhar os dados e dividir em K partes iguais, normalmente 5 ou 10.",
+      "PASSO 2: Treinar com K-1 partes e testar na parte que sobrou, repetindo K vezes.",
+      "PASSO 3: Juntar as K notas, calcular a média e ver se o resultado é estável e confiável."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Normalizar ou escalar os dados antes de separar as dobras: isso vaza informação do teste para o treino.",
+      "Dica de ouro: dentro do pipeline! Assim cada rodada se ajusta apenas com os dados do seu próprio treino."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Dados divididos em K dobras ➔ Treinar K vezes trocando quem é o teste ➔ Média das notas confirma a consistência"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Machine Learning",
+  "escola": "06_banco_dados_e_ia",
+  "foco_pedagogico": "Dividindo os dados em vários pedaços para testar a consistência do algoritmo"
+}

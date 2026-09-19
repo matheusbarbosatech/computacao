@@ -1,0 +1,64 @@
+{
+  "id": 369,
+  "title": "MOVIMENTAÇÃO LATERAL E ESCALAÇÃO DE PRIVILÉGIOS",
+  "definition": "É quando o invasor, já dentro do sistema como usuário comum, encontra brechas até virar o 'chefe' da máquina.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como um zelador achando a chave-mestra do prédio e virando o síndico."
+    ]
+  },
+  "topRight": {
+    "pill": "NÍVEIS DE PODER",
+    "icon": "🖥️",
+    "bullets": [
+      "No Linux o chefão é 'root', no Windows é 'Administrator'.",
+      "Usuário comum só abre poucas portas do sistema."
+    ]
+  },
+  "midRight": {
+    "pill": "SINAIS DE FALHA",
+    "icon": "{ }",
+    "bullets": [
+      "Comando revela permissões abertas por engano.",
+      "sudo -l (Linux) / whoami /priv (Windows)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Testes de segurança autorizados (pentest) e CTFs.",
+      "Ferramentas de análise: LinPEAS, WinPEAS, BloodHound."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Invasor entra como usuário comum e comum apenas.",
+      "PASSO 2: Ele procura arquivo, serviço ou senha mal configurada.",
+      "PASSO 3: Usa a brecha e assume controle total (root/Admin)."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que só senha forte resolve, ignorando permissões erradas.",
+      "Dica de ouro: sempre revisar quem pode acessar o quê."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Usuário comum ➔ Explora falha de configuração ➔ Vira root/Administrator"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Red Team",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "Como um invasor pula de um usuário comum para root ou Administrator"
+}

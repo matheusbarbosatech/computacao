@@ -1,0 +1,998 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevSketch Academy — 700 Mapas Mentais da Ciência da Computação</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800;900&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg-dark: #07090e;
+      --bg-card: #0f1420;
+      --bg-card-hover: #161e31;
+      --paper: #faf8f5;
+      --paper-card: #ffffff;
+      
+      --accent-yellow: #facc15;
+      --accent-cyan: #38bdf8;
+      --accent-purple: #a855f7;
+      --accent-green: #22c55e;
+      --accent-orange: #f97316;
+      --accent-red: #ef4444;
+      
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      --text-dark: #0f172a;
+      
+      --border-dark: rgba(255, 255, 255, 0.08);
+      --border-accent: rgba(56, 189, 248, 0.3);
+      
+      --glow-cyan: rgba(56, 189, 248, 0.15);
+      --glow-purple: rgba(168, 85, 247, 0.15);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    
+    html { scroll-behavior: smooth; }
+    
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--bg-dark);
+      color: var(--text-main);
+      overflow-x: hidden;
+      line-height: 1.6;
+    }
+
+    /* BARRA SUPERIOR DE ALERTA */
+    .top-banner {
+      background: linear-gradient(90deg, #9333ea, #2563eb, #0d9488);
+      color: #ffffff;
+      text-align: center;
+      padding: 10px 16px;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+    }
+    .top-banner span { background: rgba(0,0,0,0.3); padding: 3px 8px; border-radius: 4px; margin-right: 8px; }
+
+    /* HEADER & NAV */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 48px;
+      max-width: 1280px;
+      margin: 0 auto;
+      border-bottom: 1px solid var(--border-dark);
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      color: #fff;
+    }
+    .logo-badge {
+      background: var(--accent-yellow);
+      color: var(--text-dark);
+      font-family: 'Outfit', sans-serif;
+      font-weight: 900;
+      font-size: 18px;
+      padding: 6px 12px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(250, 204, 21, 0.3);
+    }
+    .logo-text {
+      font-family: 'Outfit', sans-serif;
+      font-weight: 800;
+      font-size: 20px;
+      letter-spacing: -0.5px;
+    }
+    .logo-text span { color: var(--accent-cyan); }
+
+    .nav-links { display: flex; gap: 28px; align-items: center; }
+    .nav-links a { color: var(--text-muted); text-decoration: none; font-size: 14px; font-weight: 500; transition: 0.2s; }
+    .nav-links a:hover { color: #fff; }
+    
+    .btn-nav {
+      background: linear-gradient(135deg, #facc15, #eab308);
+      color: var(--text-dark);
+      font-weight: 700;
+      font-size: 14px;
+      padding: 10px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: 0.2s;
+    }
+    .btn-nav:hover { transform: translateY(-2px); box-shadow: 0 4px 16px rgba(250, 204, 21, 0.4); }
+
+    /* HERO SECTION */
+    .hero {
+      position: relative;
+      padding: 70px 24px 60px;
+      max-width: 1200px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .hero-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(56, 189, 248, 0.1);
+      border: 1px solid rgba(56, 189, 248, 0.3);
+      padding: 6px 16px;
+      border-radius: 100px;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--accent-cyan);
+      margin-bottom: 24px;
+    }
+    .hero h1 {
+      font-family: 'Outfit', sans-serif;
+      font-size: clamp(34px, 5.5vw, 64px);
+      font-weight: 900;
+      line-height: 1.15;
+      letter-spacing: -1.5px;
+      margin-bottom: 24px;
+      max-width: 980px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .hero h1 span.gradient {
+      background: linear-gradient(135deg, #facc15, #38bdf8, #c084fc);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .hero p.lead {
+      font-size: clamp(16px, 2vw, 20px);
+      color: var(--text-muted);
+      max-width: 780px;
+      margin: 0 auto 36px;
+      line-height: 1.6;
+    }
+
+    .hero-cta-group {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 48px;
+    }
+    .btn-hero {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      background: linear-gradient(135deg, #facc15, #f59e0b);
+      color: #0f172a;
+      font-family: 'Outfit', sans-serif;
+      font-size: 20px;
+      font-weight: 800;
+      padding: 20px 48px;
+      border-radius: 14px;
+      text-decoration: none;
+      box-shadow: 0 10px 30px rgba(245, 158, 11, 0.4);
+      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .btn-hero:hover {
+      transform: translateY(-4px) scale(1.02);
+      box-shadow: 0 16px 40px rgba(245, 158, 11, 0.6);
+    }
+    .guarantee-micro {
+      font-size: 13px;
+      color: var(--text-muted);
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .guarantee-micro span { display: flex; align-items: center; gap: 6px; }
+
+    /* MOCKUP 3D HERO */
+    .hero-mockup-wrapper {
+      position: relative;
+      max-width: 960px;
+      margin: 0 auto;
+      perspective: 1200px;
+    }
+    .hero-mockup-card {
+      background: #faf8f5;
+      border: 3px solid #1e293b;
+      border-radius: 20px;
+      padding: 30px;
+      box-shadow: 0 25px 60px rgba(0,0,0,0.6), 0 0 80px rgba(56, 189, 248, 0.15);
+      color: var(--text-dark);
+      text-align: left;
+      transform: rotateX(8deg);
+      transition: 0.5s ease;
+    }
+    .hero-mockup-card:hover { transform: rotateX(0deg); }
+    
+    .mockup-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px dashed #cbd5e1;
+      padding-bottom: 16px;
+      margin-bottom: 20px;
+    }
+    .mockup-title { font-family: 'Caveat', cursive; font-size: 32px; font-weight: 700; color: #0f172a; }
+    .mockup-ribbon {
+      background: var(--accent-yellow);
+      font-family: 'Outfit', sans-serif;
+      font-weight: 800;
+      font-size: 13px;
+      padding: 4px 12px;
+      border-radius: 6px;
+      text-transform: uppercase;
+    }
+
+    .mockup-grid {
+      display: grid;
+      grid-template-columns: 1fr 1.2fr 1fr;
+      gap: 16px;
+      align-items: center;
+    }
+    .mockup-box {
+      background: #ffffff;
+      border: 2px solid #e2e8f0;
+      border-radius: 12px;
+      padding: 16px;
+      box-shadow: 2px 3px 0px rgba(0,0,0,0.06);
+    }
+    .mockup-box h4 { font-size: 13px; font-weight: 800; margin-bottom: 6px; display: flex; align-items: center; gap: 6px; }
+    .mockup-box p { font-size: 12px; color: #475569; line-height: 1.4; }
+
+    .mockup-center {
+      background: #fef08a;
+      border: 3px solid #0f172a;
+      border-radius: 16px;
+      padding: 24px 16px;
+      text-align: center;
+      box-shadow: 4px 6px 0px #0f172a;
+    }
+    .mockup-center h3 { font-family: 'Outfit', sans-serif; font-size: 22px; font-weight: 900; margin-bottom: 8px; }
+    .mockup-center p { font-size: 12px; font-weight: 600; color: #334155; }
+
+    /* SEÇÃO PROVA SOCIAL NUMÉRICA */
+    .metrics-bar {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 24px;
+      padding: 40px 24px;
+      background: rgba(15, 20, 32, 0.7);
+      border-top: 1px solid var(--border-dark);
+      border-bottom: 1px solid var(--border-dark);
+      margin: 60px 0;
+    }
+    .metric-item { text-align: center; }
+    .metric-num {
+      font-family: 'Outfit', sans-serif;
+      font-size: 42px;
+      font-weight: 900;
+      color: #fff;
+    }
+    .metric-num span { color: var(--accent-cyan); }
+    .metric-label { font-size: 14px; color: var(--text-muted); }
+
+    /* SEÇÃO DO PROBLEMA (A DOR DO ALUNO) */
+    .section-pain {
+      max-width: 1000px;
+      margin: 80px auto;
+      padding: 0 24px;
+      text-align: center;
+    }
+    .section-tag {
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: var(--accent-red);
+      margin-bottom: 12px;
+    }
+    .section-title {
+      font-family: 'Outfit', sans-serif;
+      font-size: clamp(28px, 4vw, 44px);
+      font-weight: 800;
+      margin-bottom: 20px;
+      letter-spacing: -0.5px;
+    }
+    .section-desc {
+      font-size: 17px;
+      color: var(--text-muted);
+      max-width: 680px;
+      margin: 0 auto 48px;
+    }
+
+    .pain-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 24px;
+      text-align: left;
+    }
+    .pain-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-dark);
+      padding: 30px;
+      border-radius: 16px;
+      position: relative;
+    }
+    .pain-card .icon-pain { font-size: 36px; margin-bottom: 16px; }
+    .pain-card h3 { font-family: 'Outfit', sans-serif; font-size: 20px; font-weight: 700; margin-bottom: 12px; color: #fff; }
+    .pain-card p { font-size: 14px; color: var(--text-muted); line-height: 1.6; }
+
+    /* SEÇÃO METODOLOGIA TRÍPLICE */
+    .section-method {
+      max-width: 1100px;
+      margin: 100px auto;
+      padding: 0 24px;
+    }
+    .method-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 28px;
+      margin-top: 48px;
+    }
+    .method-card {
+      background: linear-gradient(180deg, var(--bg-card) 0%, rgba(15,20,32,0.4) 100%);
+      border: 1px solid var(--border-dark);
+      border-radius: 20px;
+      padding: 36px;
+      position: relative;
+      overflow: hidden;
+    }
+    .method-card:hover { border-color: var(--border-accent); }
+    .method-badge {
+      display: inline-block;
+      font-size: 12px;
+      font-weight: 800;
+      padding: 4px 10px;
+      border-radius: 6px;
+      margin-bottom: 20px;
+    }
+    .mb-uninter { background: rgba(56, 189, 248, 0.2); color: var(--accent-cyan); }
+    .mb-alura { background: rgba(168, 85, 247, 0.2); color: var(--accent-purple); }
+    .mb-feynman { background: rgba(250, 204, 21, 0.2); color: var(--accent-yellow); }
+    .method-card h3 { font-family: 'Outfit', sans-serif; font-size: 24px; font-weight: 800; margin-bottom: 12px; }
+    .method-card p { font-size: 15px; color: var(--text-muted); line-height: 1.6; }
+
+    /* TABELA COMPARATIVA (TRADICIONAL VS DEVSKETCH) */
+    .comparison-section {
+      max-width: 900px;
+      margin: 80px auto;
+      padding: 0 24px;
+    }
+    .comp-table {
+      width: 100%;
+      border-collapse: collapse;
+      background: var(--bg-card);
+      border-radius: 16px;
+      overflow: hidden;
+      border: 1px solid var(--border-dark);
+    }
+    .comp-table th, .comp-table td {
+      padding: 18px 24px;
+      text-align: left;
+      font-size: 15px;
+      border-bottom: 1px solid var(--border-dark);
+    }
+    .comp-table th { background: rgba(255,255,255,0.04); font-family: 'Outfit', sans-serif; font-size: 16px; }
+    .comp-bad { color: #f87171; }
+    .comp-good { color: #4ade80; font-weight: 700; }
+
+    /* AS 8 ESCOLAS */
+    .section-schools {
+      max-width: 1200px;
+      margin: 100px auto;
+      padding: 0 24px;
+    }
+    .schools-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+      margin-top: 48px;
+    }
+    .school-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-dark);
+      border-radius: 16px;
+      padding: 24px;
+      transition: 0.3s ease;
+    }
+    .school-card:hover {
+      transform: translateY(-4px);
+      border-color: var(--accent-cyan);
+      box-shadow: 0 12px 30px rgba(0,0,0,0.5);
+    }
+    .sc-count {
+      font-family: 'Outfit', sans-serif;
+      font-size: 12px;
+      font-weight: 800;
+      color: var(--accent-cyan);
+      margin-bottom: 8px;
+    }
+    .sc-title {
+      font-family: 'Outfit', sans-serif;
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 10px;
+      color: #fff;
+    }
+    .sc-desc { font-size: 13px; color: var(--text-muted); line-height: 1.5; }
+
+    /* BÔNUS SECTION */
+    .section-bonus {
+      background: linear-gradient(180deg, rgba(15,20,32,0.8) 0%, rgba(7,9,14,1) 100%);
+      padding: 80px 24px;
+      border-top: 1px solid var(--border-dark);
+      border-bottom: 1px solid var(--border-dark);
+    }
+    .bonus-container { max-width: 1000px; margin: 0 auto; text-align: center; }
+    .bonus-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 24px;
+      margin-top: 48px;
+      text-align: left;
+    }
+    .bonus-card {
+      background: var(--bg-card);
+      border: 1px solid rgba(250, 204, 21, 0.3);
+      border-radius: 16px;
+      padding: 32px;
+      position: relative;
+    }
+    .bonus-tag {
+      position: absolute;
+      top: -12px;
+      right: 24px;
+      background: var(--accent-yellow);
+      color: var(--text-dark);
+      font-size: 11px;
+      font-weight: 900;
+      padding: 4px 10px;
+      border-radius: 4px;
+    }
+    .bonus-card h3 { font-family: 'Outfit', sans-serif; font-size: 20px; font-weight: 800; margin-bottom: 8px; color: #fff; }
+    .bonus-val { font-size: 13px; color: var(--text-muted); text-decoration: line-through; margin-bottom: 12px; }
+    .bonus-card p { font-size: 14px; color: #cbd5e1; line-height: 1.5; }
+
+    /* SEÇÃO DE OFERTA E PREÇO */
+    .section-pricing {
+      max-width: 760px;
+      margin: 100px auto;
+      padding: 0 24px;
+      text-align: center;
+    }
+    .pricing-box {
+      background: linear-gradient(180deg, #131b2e 0%, #0c121e 100%);
+      border: 2px solid var(--accent-yellow);
+      border-radius: 24px;
+      padding: 50px 36px;
+      box-shadow: 0 20px 60px rgba(250, 204, 21, 0.2);
+      position: relative;
+    }
+    .pricing-popular-badge {
+      position: absolute;
+      top: -16px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: var(--accent-yellow);
+      color: var(--text-dark);
+      font-family: 'Outfit', sans-serif;
+      font-size: 13px;
+      font-weight: 900;
+      padding: 6px 20px;
+      border-radius: 100px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    .price-was { font-size: 18px; color: var(--text-muted); text-decoration: line-through; margin-bottom: 4px; }
+    .price-now {
+      font-family: 'Outfit', sans-serif;
+      font-size: clamp(48px, 8vw, 76px);
+      font-weight: 900;
+      color: #fff;
+      line-height: 1;
+      margin-bottom: 8px;
+    }
+    .price-now span { font-size: 24px; vertical-align: top; color: var(--accent-yellow); }
+    .price-installments { font-size: 15px; color: var(--text-muted); margin-bottom: 28px; }
+
+    .pricing-features {
+      text-align: left;
+      margin: 32px auto;
+      max-width: 480px;
+    }
+    .pf-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 15px;
+      margin-bottom: 14px;
+      color: #e2e8f0;
+    }
+    .pf-item svg { flex-shrink: 0; color: var(--accent-green); }
+
+    .btn-checkout {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      width: 100%;
+      max-width: 480px;
+      margin: 32px auto 16px;
+      background: linear-gradient(135deg, #facc15, #f59e0b);
+      color: #0f172a;
+      font-family: 'Outfit', sans-serif;
+      font-size: 22px;
+      font-weight: 900;
+      padding: 22px;
+      border-radius: 16px;
+      text-decoration: none;
+      box-shadow: 0 10px 30px rgba(245, 158, 11, 0.4);
+      transition: 0.3s;
+    }
+    .btn-checkout:hover { transform: translateY(-3px); box-shadow: 0 16px 40px rgba(245, 158, 11, 0.6); }
+
+    /* GARANTIA */
+    .guarantee-box {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      max-width: 680px;
+      margin: 40px auto 0;
+      background: rgba(255,255,255,0.02);
+      border: 1px solid var(--border-dark);
+      padding: 24px;
+      border-radius: 16px;
+      text-align: left;
+    }
+    .guarantee-icon { font-size: 48px; }
+    .guarantee-text h4 { font-family: 'Outfit', sans-serif; font-size: 18px; font-weight: 700; margin-bottom: 4px; }
+    .guarantee-text p { font-size: 13px; color: var(--text-muted); line-height: 1.5; }
+
+    /* FAQ ACCORDION */
+    .section-faq {
+      max-width: 800px;
+      margin: 100px auto;
+      padding: 0 24px;
+    }
+    .faq-item {
+      background: var(--bg-card);
+      border: 1px solid var(--border-dark);
+      border-radius: 12px;
+      margin-bottom: 14px;
+      overflow: hidden;
+    }
+    .faq-question {
+      padding: 20px 24px;
+      font-family: 'Outfit', sans-serif;
+      font-size: 17px;
+      font-weight: 700;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      user-select: none;
+    }
+    .faq-answer {
+      padding: 0 24px 20px;
+      font-size: 14px;
+      color: var(--text-muted);
+      line-height: 1.6;
+      display: none;
+    }
+    .faq-item.active .faq-answer { display: block; }
+    .faq-item.active .faq-icon { transform: rotate(180deg); }
+    .faq-icon { transition: 0.2s; }
+
+    /* FOOTER */
+    footer {
+      text-align: center;
+      padding: 50px 24px;
+      border-top: 1px solid var(--border-dark);
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+
+    @media (max-width: 768px) {
+      header { padding: 16px 20px; }
+      .nav-links { display: none; }
+      .mockup-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- BARRA SUPERIOR -->
+  <div class="top-banner">
+    <span>OFERTA DE LANÇAMENTO</span> Os 700 Mapas Mentais + 2.100 Flashcards do Anki com 87% de desconto por tempo limitado!
+  </div>
+
+  <!-- NAVEGAÇÃO -->
+  <header>
+    <a href="#" class="logo">
+      <div class="logo-badge">DEV</div>
+      <div class="logo-text">DevSketch <span>Academy</span></div>
+    </a>
+    <div class="nav-links">
+      <a href="#metodologia">Metodologia</a>
+      <a href="#escolas">As 8 Escolas</a>
+      <a href="#bonus">Bônus Anki</a>
+      <a href="#faq">Dúvidas</a>
+    </div>
+    <a href="#oferta" class="btn-nav">Garantir Acesso</a>
+  </header>
+
+  <!-- HERO SECTION -->
+  <main>
+    <section class="hero">
+      <div class="hero-pill">
+        <span>⚡</span> METODOLOGIA TRÍPLICE: UNINTER + ALURA + RICHARD FEYNMAN
+      </div>
+      
+      <h1>
+        Cansado de cursos de 80 horas onde você assiste e <span class="gradient">esquece tudo em 3 dias?</span>
+      </h1>
+      
+      <p class="lead">
+        Domine a Ciência da Computação através de <strong>700 Mapas Mentais Sketchnote desenhados à mão</strong>. Do hardware mais primitivo à Inteligência Artificial moderna, sem jargões confusos e com retenção visual acelerada.
+      </p>
+
+      <div class="hero-cta-group">
+        <a href="#oferta" class="btn-hero">
+          <span>🚀</span> QUERO MEUS 700 MAPAS MENTAIS POR R$ 37
+        </a>
+        <div class="guarantee-micro">
+          <span>🔒 Pagamento Seguro via Kiwify</span>
+          <span>⚡ Acesso Imediato em PDF</span>
+          <span>🛡️ 7 Dias de Garantia</span>
+        </div>
+      </div>
+
+      <!-- MOCKUP DO LIVRO ABERTO -->
+      <div class="hero-mockup-wrapper">
+        <div class="hero-mockup-card">
+          <div class="mockup-header">
+            <div class="mockup-title">#001 - Arquitetura de Von Neumann</div>
+            <div class="mockup-ribbon">A4 PAISAGEM • 300 DPI</div>
+          </div>
+          <div class="mockup-grid">
+            <div class="mockup-box">
+              <h4 style="color:#854d0e;">💡 IDEIA CENTRAL</h4>
+              <p>O computador que guarda dados e instruções na mesmíssima memória de trabalho (RAM).</p>
+            </div>
+            <div class="mockup-center">
+              <h3>CPU & MEMÓRIA</h3>
+              <p>Ciclo Busca ➔ Decodificação ➔ Execução</p>
+            </div>
+            <div class="mockup-box">
+              <h4 style="color:#991b1b;">⚠️ GARGALO CLÁSSICO</h4>
+              <p>Gargalo de Von Neumann: a CPU é um foguete, mas o barramento com a RAM é uma estrada lenta.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BARRA DE MÉTRICAS -->
+    <section class="metrics-bar">
+      <div class="metric-item">
+        <div class="metric-num">700</div>
+        <div class="metric-label">Mapas Mentais Únicos</div>
+      </div>
+      <div class="metric-item">
+        <div class="metric-num">8</div>
+        <div class="metric-label">Escolas Temáticas em PDF</div>
+      </div>
+      <div class="metric-item">
+        <div class="metric-num">2.100<span>+</span></div>
+        <div class="metric-label">Flashcards do Anki (SRS)</div>
+      </div>
+      <div class="metric-item">
+        <div class="metric-num">85<span>%</span></div>
+        <div class="metric-label">Mais Retenção Visual</div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO DA DOR -->
+    <section class="section-pain">
+      <div class="section-tag">O Problema Real</div>
+      <h2 class="section-title">Por que a maioria dos estudantes trava na programação?</h2>
+      <p class="section-desc">O ensino tradicional de tecnologia foi desenhado de forma arcaica, criando a falsa ilusão de que você precisa ser um gênio da matemática para programar.</p>
+
+      <div class="pain-grid">
+        <div class="pain-card">
+          <div class="icon-pain">🥱</div>
+          <h3>A Ilusão de Competência</h3>
+          <p>Você passa 4 horas assistindo a um professor digitar código no YouTube. Na hora você acha que entendeu, mas ao abrir o editor sozinho, sua mente fica em branco total.</p>
+        </div>
+        <div class="pain-card">
+          <div class="icon-pain">📚</div>
+          <h3>Livros de 1.000 Páginas</h3>
+          <p>Livros acadêmicos clássicos são densos, prolixos e cheios de linguajar formal que dá sono na terceira página. Falta conexão visual e síntese prática.</p>
+        </div>
+        <div class="pain-card">
+          <div class="icon-pain">😰</div>
+          <h3>Pânico em Entrevistas Técnicas</h3>
+          <p>Quando o recrutador de uma Big Tech pergunta sobre Complexidade Big-O, Deadlock ou ACID em bancos de dados, você gagueja porque decorou a sintaxe, mas nunca compreendeu o conceito.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO DA METODOLOGIA TRÍPLICE -->
+    <section class="section-method" id="metodologia">
+      <div style="text-align: center;">
+        <div class="section-tag" style="color: var(--accent-cyan);">A Revolução Visual</div>
+        <h2 class="section-title">A Metodologia Tríplice DevSketch</h2>
+        <p class="section-desc">Unimos os três maiores pilares educacionais do Brasil e do mundo em um formato que seu cérebro adora consumir.</p>
+      </div>
+
+      <div class="method-grid">
+        <div class="method-card">
+          <div class="method-badge mb-uninter">PILAR ACADÊMICO</div>
+          <h3>Rigor UNINTER</h3>
+          <p>Toda a base sólida das ciências exatas: Arquitetura de Computadores, Sistemas Operacionais, Redes, Lógica Formal e Algoritmos Clássicos.</p>
+        </div>
+        <div class="method-card">
+          <div class="method-badge mb-alura">PILAR DE MERCADO</div>
+          <h3>Prática Alura & Techs</h3>
+          <p>O ecossistema real que as empresas contratam hoje: Docker, Kubernetes, APIs RESTful, Microsserviços, React, Python, Cloud AWS e Cibersegurança.</p>
+        </div>
+        <div class="method-card">
+          <div class="method-badge mb-feynman">PILAR COGNITIVO</div>
+          <h3>Didática Feynman</h3>
+          <p>O prêmio Nobel Richard Feynman provou: <em>"Se você não consegue explicar algo com um desenho simples para uma criança de 10 anos, você não entendeu nada"</em>.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- TABELA COMPARATIVA -->
+    <section class="comparison-section">
+      <table class="comp-table">
+        <thead>
+          <tr>
+            <th>Critério de Aprendizado</th>
+            <th>Método Tradicional</th>
+            <th style="color: var(--accent-cyan);">Método DevSketch</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Formato</strong></td>
+            <td class="comp-bad">Vídeos de 80 horas ou PDFs de 900 págs</td>
+            <td class="comp-good">Lâminas visuais A4 Paisagem (300 DPI)</td>
+          </tr>
+          <tr>
+            <td><strong>Retenção após 72h</strong></td>
+            <td class="comp-bad">Menos de 15% (Curva do Esquecimento)</td>
+            <td class="comp-good">Mais de 85% com Anki SRS incluso</td>
+          </tr>
+          <tr>
+            <td><strong>Tempo para dominar 1 tema</strong></td>
+            <td class="comp-bad">2 a 4 horas de aula monótona</td>
+            <td class="comp-good">3 a 5 minutos de leitura visual ativa</td>
+          </tr>
+          <tr>
+            <td><strong>Pegadinhas de entrevista</strong></td>
+            <td class="comp-bad">Nunca explicam onde o dev erra</td>
+            <td class="comp-good">Card dedicado em 100% dos 700 mapas</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- AS 8 ESCOLAS -->
+    <section class="section-schools" id="escolas">
+      <div style="text-align: center;">
+        <div class="section-tag" style="color: var(--accent-purple);">Acervo Enciclopédico</div>
+        <h2 class="section-title">O que você vai receber: As 8 Escolas Temáticas</h2>
+        <p class="section-desc">8 Artbooks em PDF prontos para celular, tablet ou encadernação gráfica Wire-o.</p>
+      </div>
+
+      <div class="schools-grid">
+        <div class="school-card">
+          <div class="sc-count">VOLUME 01 • 63 MAPAS</div>
+          <div class="sc-title">Ciência da Computação UNINTER</div>
+          <div class="sc-desc">Von Neumann, Memória, Processadores, Sistemas Operacionais e Teoria.</div>
+        </div>
+        <div class="school-card">
+          <div class="sc-count">VOLUME 02 • 155 MAPAS</div>
+          <div class="sc-title">Lógica & Algoritmos</div>
+          <div class="sc-desc">Estruturas de dados, ponteiros, ordenação, grafos e árvores binárias.</div>
+        </div>
+        <div class="school-card">
+          <div class="sc-count">VOLUME 03 • 60 MAPAS</div>
+          <div class="sc-title">Python Especialista</div>
+          <div class="sc-desc">Do zero à automação: scripts, web scraping, manipulação de arquivos e regex.</div>
+        </div>
+        <div class="school-card">
+          <div class="sc-count">VOLUME 04 • 80 MAPAS</div>
+          <div class="sc-title">Back-end & APIs RESTful</div>
+          <div class="sc-desc">POO, microsserviços, mensageria, autenticação JWT e arquitetura limpa.</div>
+        </div>
+        <div class="school-card">
+          <div class="sc-count">VOLUME 05 • 79 MAPAS</div>
+          <div class="sc-title">Front-end, Mobile & UX</div>
+          <div class="sc-desc">DOM, JavaScript moderno, Promises, React, Flutter e arquitetura web.</div>
+        </div>
+        <div class="school-card">
+          <div class="sc-count">VOLUME 06 • 112 MAPAS</div>
+          <div class="sc-title">Banco de Dados & IA</div>
+          <div class="sc-desc">Modelagem relacional SQL, NoSQL, Machine Learning, LLMs e Embeddings.</div>
+        </div>
+        <div class="school-card">
+          <div class="sc-count">VOLUME 07 • 80 MAPAS</div>
+          <div class="sc-title">DevOps, Linux & Nuvem</div>
+          <div class="sc-desc">Linha de comando Linux, Docker, contêineres, CI/CD, Kubernetes e AWS.</div>
+        </div>
+        <div class="school-card">
+          <div class="sc-count">VOLUME 08 • 71 MAPAS</div>
+          <div class="sc-title">Cibersegurança & Hacking</div>
+          <div class="sc-desc">Criptografia, OWASP Top 10, Red Team, Blue Team, forense e hardening.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BÔNUS -->
+    <section class="section-bonus" id="bonus">
+      <div class="bonus-container">
+        <div class="section-tag" style="color: var(--accent-yellow);">Presentes Especiais</div>
+        <h2 class="section-title">Bônus Exclusivos inclusos no seu acesso hoje</h2>
+        <p class="section-desc">Ferramentas para garantir que você nunca mais esqueça uma linha do que aprendeu.</p>
+
+        <div class="bonus-grid">
+          <div class="bonus-card">
+            <div class="bonus-tag">GRÁTIS HOJE</div>
+            <h3>Baralho Oficial do Anki (.apkg)</h3>
+            <div class="bonus-val">Vendido separadamente por R$ 97,00</div>
+            <p>2.100 Flashcards atômicos com o algoritmo de repetição espaçada (SRS). Instale no seu celular ou PC e revise cada mapa em 10 segundos por dia.</p>
+          </div>
+          <div class="bonus-card">
+            <div class="bonus-tag">GRÁTIS HOJE</div>
+            <h3>Estúdio Web Interativo</h3>
+            <div class="bonus-val">Vendido separadamente por R$ 147,00</div>
+            <p>Um mecanismo de busca instantâneo na web. Precisa lembrar de um conceito antes da sua prova ou entrevista? Digite e ache o mapa mental em 1 segundo.</p>
+          </div>
+          <div class="bonus-card">
+            <div class="bonus-tag">GRÁTIS HOJE</div>
+            <h3>Guia de Pegadinhas Técnicas</h3>
+            <div class="bonus-val">Vendido separadamente por R$ 67,00</div>
+            <p>Compilação de todas as pegadinhas clássicas que mais derrubam candidatos em testes de código de empresas e concursos públicos de TI.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRECIFICAÇÃO E CHECKOUT -->
+    <section class="section-pricing" id="oferta">
+      <div class="pricing-box">
+        <div class="pricing-popular-badge">OFERTA ESPECIAL COMPLETA</div>
+        
+        <h3 style="font-family: 'Outfit'; font-size: 26px; font-weight: 800; margin-bottom: 12px; color: #fff;">
+          Coleção Completa DevSketch Academy
+        </h3>
+        <p style="font-size: 14px; color: var(--text-muted); margin-bottom: 24px;">
+          Todos os 8 E-books A4 Paisagem + Baralho Anki de 2.100 Flashcards + Estúdio Web
+        </p>
+
+        <div class="price-was">De R$ 297,00 por apenas</div>
+        <div class="price-now">
+          <span>R$</span> 37<span style="font-size: 28px;">,00</span>
+        </div>
+        <div class="price-installments">ou 4x de R$ 9,90 no cartão de crédito • Pagamento Único</div>
+
+        <div class="pricing-features">
+          <div class="pf-item">
+            <svg width="20" height="20" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+            <span><strong>700 Mapas Mentais</strong> em Alta Resolução (300 DPI)</span>
+          </div>
+          <div class="pf-item">
+            <svg width="20" height="20" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+            <span><strong>8 E-books A4 Paisagem</strong> diagramados para gráfica</span>
+          </div>
+          <div class="pf-item">
+            <svg width="20" height="20" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+            <span><strong>BÔNUS 1:</strong> 2.100 Flashcards do Anki (.apkg oficial)</span>
+          </div>
+          <div class="pf-item">
+            <svg width="20" height="20" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+            <span><strong>BÔNUS 2:</strong> Acesso Perpétuo ao Estúdio Web Interativo</span>
+          </div>
+          <div class="pf-item">
+            <svg width="20" height="20" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+            <span><strong>BÔNUS 3:</strong> Guia de Pegadinhas Técnicas e Entrevistas</span>
+          </div>
+        </div>
+
+        <!-- LINK DE CHECKOUT (KIWIFY CONFIGURÁVEL) -->
+        <a href="https://pay.kiwify.com.br/seu-checkout-aqui" class="btn-checkout" id="checkout-btn">
+          <span>⚡</span> COMPRAR AGORA COM ACESSO IMEDIATO
+        </a>
+
+        <div style="font-size: 12px; color: var(--text-muted); margin-top: 14px;">
+          🔒 Checkout criptografado de 256 bits com entrega instantânea por e-mail
+        </div>
+      </div>
+
+      <!-- BOX DE GARANTIA -->
+      <div class="guarantee-box">
+        <div class="guarantee-icon">🛡️</div>
+        <div class="guarantee-text">
+          <h4>Garantia Incondicional de 7 Dias</h4>
+          <p>Se você folhear os mapas mentais e sentir que não aprendeu em 10 minutos o que demorou meses tentando entender em videoaulas, basta nos enviar um e-mail. Devolvemos 100% do seu dinheiro, sem letras miúdas.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section-faq" id="faq">
+      <div style="text-align: center; margin-bottom: 40px;">
+        <div class="section-tag" style="color: var(--accent-cyan);">Dúvidas Frequentes</div>
+        <h2 class="section-title">Tudo o que você precisa saber</h2>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          Como eu recebo o material após a compra?
+          <span class="faq-icon">▼</span>
+        </div>
+        <div class="faq-answer">
+          O acesso é imediato! Assim que seu pagamento for confirmado (no PIX cai em 5 segundos, no cartão em 1 minuto), você recebe no seu e-mail um link para baixar todos os 8 PDFs em alta resolução e os baralhos do Anki.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          Posso imprimir os mapas mentais para estudar no papel?
+          <span class="faq-icon">▼</span>
+        </div>
+        <div class="faq-answer">
+          Sim, com certeza! Todos os 8 livros foram diagramados no padrão internacional A4 Paisagem (297 x 210 mm) em 300 DPI, com margens perfeitas para encadernação em Wire-o ou fichário.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          Eu sou iniciante total, esse material serve para mim?
+          <span class="faq-icon">▼</span>
+        </div>
+        <div class="faq-answer">
+          Ele foi feito sob medida para você! O maior erro dos iniciantes é começar por livros de 800 páginas cheios de jargões matemáticos. Com a técnica Feynman dos mapas mentais, você entende a ideia visual primeiro antes de se preocupar com código complexo.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          Como funcionam os baralhos do Anki inclusos?
+          <span class="faq-icon">▼</span>
+        </div>
+        <div class="faq-answer">
+          O Anki é um software gratuito para computador e celular que usa o algoritmo científico de Repetição Espaçada. Nosso baralho oficial já vem com 2.100 cartões pré-configurados. Você só precisa dar um duplo clique no arquivo .apkg e o Anki programa suas revisões diárias automaticamente!
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 DevSketch Academy — Todos os direitos reservados.</p>
+    <p style="margin-top: 8px; font-size: 11px; opacity: 0.7;">Este produto não garante emprego, mas garante que você nunca mais passará vergonha ao explicar um conceito de computação.</p>
+  </footer>
+
+  <script>
+    // Interatividade do FAQ Accordion
+    document.querySelectorAll('.faq-question').forEach(item => {
+      item.addEventListener('click', () => {
+        const parent = item.parentElement;
+        parent.classList.toggle('active');
+      });
+    });
+  </script>
+</body>
+</html>

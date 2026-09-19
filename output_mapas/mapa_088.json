@@ -1,0 +1,63 @@
+{
+  "id": 88,
+  "title": "ADICIONANDO E REMOVENDO PROPRIEDADES",
+  "definition": "Objetos são como caixas flexíveis: você pode colocar ou tirar itens (propriedades) a qualquer momento.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Um objeto não é fixo, ele pode crescer ou encolher enquanto o programa roda."
+    ]
+  },
+  "topRight": {
+    "pill": "MODIFICAÇÃO DINÂMICA",
+    "icon": "🖥️",
+    "bullets": [
+      "O computador guarda o objeto na memória e atualiza a lista de propriedades em tempo real.",
+      "Não precisa recriar o objeto do zero para mudar algo."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Para adicionar: objeto.novaChave = valor;",
+      "Para remover: delete objeto.chave;"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Atualizar dados de usuário sem recarregar tudo, como em formulários dinâmicos.",
+      "Usado em JavaScript, Python (dicionários) e outras linguagens flexíveis."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O objeto já existe com algumas propriedades",
+      "PASSO 2: Você atribui um novo valor ou usa delete",
+      "PASSO 3: O objeto é atualizado instantaneamente na memória"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Tentar remover uma propriedade que não existe não gera erro, só não faz nada.",
+      "Esquecer que delete só remove a chave, não apaga o objeto inteiro."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Objeto existe ➔ Você adiciona ou remove chave ➔ Objeto atualizado sem recriar nada"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Coleções",
+  "foco_pedagogico": "Modificando objetos dinamicamente"
+}

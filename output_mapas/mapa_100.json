@@ -1,0 +1,63 @@
+{
+  "id": 100,
+  "title": "ATRIBUTOS: O QUE O OBJETO TEM",
+  "definition": "Atributos são as características e informações que um objeto guarda dentro de si.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Atributo é uma informação que descreve o objeto, como cor ou idade."
+    ]
+  },
+  "topRight": {
+    "pill": "OBJETO NA MEMÓRIA",
+    "icon": "🖥️",
+    "bullets": [
+      "Cada objeto guarda seus próprios valores de atributos separadamente.",
+      "Mudar o atributo de um objeto não afeta outro objeto."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Atributo é declarado dentro da classe com um tipo e um nome.",
+      "carro.cor = 'vermelho'"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Usado em toda Programação Orientada a Objetos, tipo Java, Python, C#.",
+      "Exemplo: nome, idade, saldo, velocidade."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: A classe define quais atributos o objeto vai ter",
+      "PASSO 2: Ao criar o objeto, cada atributo recebe um valor",
+      "PASSO 3: O objeto passa a carregar esses valores consigo"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Confundir atributo (o que o objeto TEM) com método (o que ele FAZ).",
+      "Esquecer de dar um valor inicial ao atributo antes de usá-lo."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Classe define ➔ Objeto herda o atributo ➔ Objeto guarda seu próprio valor"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "POO",
+  "foco_pedagogico": "As características e dados do objeto"
+}

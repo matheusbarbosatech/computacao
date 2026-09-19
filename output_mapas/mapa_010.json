@@ -1,0 +1,63 @@
+{
+  "id": 10,
+  "title": "TIPOS PRIMITIVOS: NÚMEROS INTEIROS",
+  "definition": "É o tipo de dado usado para guardar números sem casas decimais, como 1, 42 ou -7.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Pense em contar objetos: você nunca conta '3 pessoas e meia'."
+    ]
+  },
+  "topRight": {
+    "pill": "INT (INTEGER)",
+    "icon": "🖥️",
+    "bullets": [
+      "O computador reserva um espaço fixo na memória só para esse número.",
+      "Aceita positivos, negativos e o zero, mas nunca vírgula."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Declare o tipo antes ou deixe a linguagem detectar automaticamente.",
+      "int idade = 25;"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Contar itens no carrinho, idade, quantidade de curtidas.",
+      "Java, C, C#, Python (int), JavaScript (Number)."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você escreve um número sem ponto decimal",
+      "PASSO 2: O computador guarda ele como valor 'inteiro puro'",
+      "PASSO 3: Cálculos entre inteiros também geram inteiros"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Dividir dois inteiros pode 'cortar' a parte decimal sem avisar.",
+      "Usar int quando na verdade precisa de decimais (use float/double)."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Número sem vírgula ➔ Guardado como int ➔ Usado para contar coisas"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Lógica",
+  "foco_pedagogico": "Contagens e valores sem vírgula (int)"
+}

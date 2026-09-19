@@ -1,0 +1,63 @@
+{
+  "id": 135,
+  "title": "A ARQUITETURA DE VON NEUMANN",
+  "definition": "É o modelo básico que explica como quase todo computador é montado por dentro: CPU, memória e E/S trocando dados.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Um computador guarda dados e instruções no mesmo lugar: a memória."
+    ]
+  },
+  "topRight": {
+    "pill": "CPU: ULA + UC",
+    "icon": "🖥️",
+    "bullets": [
+      "UC (Unidade de Controle) é o maestro: manda quem faz o quê e quando.",
+      "ULA (Unidade Lógica e Aritmética) é a calculadora: soma, compara e decide."
+    ]
+  },
+  "midRight": {
+    "pill": "MEMÓRIA",
+    "icon": "{ }",
+    "bullets": [
+      "Guarda dados e programas em 'gavetas' numeradas chamadas endereços.",
+      "endereco[0] = 'instrução' | endereco[1] = 'dado'"
+    ]
+  },
+  "bottomRight": {
+    "pill": "DISPOSITIVOS DE E/S",
+    "icon": "</>",
+    "bullets": [
+      "Entrada: teclado, mouse, sensor mandam informação para dentro.",
+      "Saída: tela, impressora, caixa de som mostram o resultado."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: CPU busca a instrução guardada na memória",
+      "PASSO 2: ULA processa o dado seguindo a ordem da UC",
+      "PASSO 3: Resultado é salvo na memória ou enviado para a saída"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que CPU e memória são a mesma peça: são componentes separados que se comunicam.",
+      "Dica de ouro: pense na CPU como o cérebro e na memória como o caderno de anotações."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Memória guarda ➔ CPU processa ➔ E/S mostra o resultado"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Hardware",
+  "foco_pedagogico": "CPU (ULA + UC), Memória e Dispositivos de E/S"
+}

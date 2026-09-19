@@ -1,0 +1,64 @@
+{
+  "id": 372,
+  "title": "SIEM: CENTRALIZANDO EVENTOS DE SEGURANÇA COM SPLUNK / ELASTIC",
+  "definition": "SIEM é um sistema que junta todos os registros de segurança da empresa num só lugar para detectar ataques.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como uma central de câmeras que junta vídeos de toda a casa num só monitor."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O SISTEMA FUNCIONA",
+    "icon": "🖥️",
+    "bullets": [
+      "Coleta logs de firewalls, servidores e bancos de dados em tempo real.",
+      "Guarda tudo organizado para buscar e comparar depois."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Regras de correlação cruzam eventos de fontes diferentes.",
+      "index=firewall OR index=server login_failed > 5"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Times de segurança (SOC) monitoram ataques 24 horas por dia.",
+      "Ferramentas: Splunk, Elastic Stack (ELK), Wazuh."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Firewall, servidor e banco enviam logs para o SIEM",
+      "PASSO 2: O sistema correlaciona eventos suspeitos entre as fontes",
+      "PASSO 3: Se o padrão bater com invasão, gera um alerta"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que só coletar logs já resume a segurança da empresa.",
+      "Dica: sem regras de correlação, o SIEM só acumula dados inúteis."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Logs espalhados ➔ Centralização e correlação ➔ Detecção de invasão"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Blue Team",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "Correlacionando alertas de firewalls, servidores e bancos para detectar invasões"
+}

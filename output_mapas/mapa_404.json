@@ -1,0 +1,65 @@
+{
+  "id": 404,
+  "title": "SEGURANÇA EM CONTÊINERES: TRIVY E DOCKER BENCH SECURITY",
+  "definition": "É como revistar as malas de um viajante antes de embarcar, garantindo que nada perigoso entre em produção.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Toda imagem Docker pode esconder pacotes com falhas conhecidas.",
+      "Escanear antes de publicar evita levar problemas para o mundo real."
+    ]
+  },
+  "topRight": {
+    "pill": "TRIVY",
+    "icon": "🖥️",
+    "bullets": [
+      "Lê camadas da imagem e compara pacotes com bancos de vulnerabilidades.",
+      "Aponta nível de risco: baixo, médio, alto ou crítico."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Comando roda o scanner apontando para a imagem criada.",
+      "trivy image minha-app:1.0"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Dentro de pipelines de CI/CD antes do deploy final.",
+      "GitHub Actions, GitLab CI, Jenkins e ambientes Kubernetes."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Build gera a imagem Docker com suas dependências.",
+      "PASSO 2: Trivy escaneia pacotes e o Bench Security audita configurações do host.",
+      "PASSO 3: Pipeline bloqueia o deploy se achar falha crítica."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Ignorar vulnerabilidades 'médias' que se acumulam e viram porta de entrada.",
+      "Rodar Docker Bench Security no host, não na imagem, para checar configs perigosas."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Imagem criada ➔ Scanner verifica pacotes ➔ Só vai pra produção se estiver segura"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Laboratório",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "Escaneando imagens em busca de pacotes vulneráveis antes de ir para produção"
+}

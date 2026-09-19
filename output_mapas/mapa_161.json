@@ -1,0 +1,63 @@
+{
+  "id": 161,
+  "title": "COMANDOS DDL VS DML",
+  "definition": "DDL constrói a estrutura das tabelas, DML manipula os dados que ficam dentro delas.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Pense num armário: DDL monta as gavetas, DML guarda ou tira as roupas."
+    ]
+  },
+  "topRight": {
+    "pill": "DDL (DATA DEFINITION)",
+    "icon": "🖥️",
+    "bullets": [
+      "Cria, altera ou apaga a estrutura das tabelas e do banco.",
+      "Muda a 'forma' do banco, não o conteúdo dele."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "DDL: CREATE TABLE, ALTER TABLE, DROP TABLE.",
+      "DML: INSERT INTO, UPDATE, DELETE, SELECT."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "DDL: quando o programador projeta o banco de dados.",
+      "DML: no dia a dia do sistema, ao salvar ou buscar dados."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: DDL cria a tabela (a gaveta vazia)",
+      "PASSO 2: DML insere, edita ou remove os dados dentro dela",
+      "PASSO 3: A estrutura fica fixa, os dados mudam sempre"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que DROP TABLE apaga só os dados: ele apaga a tabela toda.",
+      "Confundir DELETE (dado) com DROP (estrutura)."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "DDL cria a casa ➔ DML mora nela ➔ Estrutura e conteúdo são coisas diferentes"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "BancoDados",
+  "foco_pedagogico": "Comandos que criam estrutura vs comandos que mexem em dados"
+}

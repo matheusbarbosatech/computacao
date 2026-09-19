@@ -1,0 +1,67 @@
+{
+  "id": 568,
+  "title": "GESTÃO DE TECLADO E TELAS PEQUENAS NO MOBILE",
+  "definition": "Técnica que empurra a tela para cima quando o teclado abre, impedindo que ele esconda campos e botões.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Imagine uma bandeja que sobe junto com o teclado: o conteúdo se ajusta automaticamente para continuar visível."
+    ]
+  },
+  "topRight": {
+    "pill": "KEYBOARDAVOIDINGVIEW",
+    "icon": "🖥️",
+    "bullets": [
+      "Componente do React Native que detecta quando o teclado aparece na tela.",
+      "Ele reposiciona todo o conteúdo filho para cima, liberando a área que seria coberta."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Envolva TUDO dentro de <KeyboardAvoidingView> como se fosse uma moldura mágica.",
+      "behavior='padding' (iOS) ou 'height' (Android) define como o ajuste acontece.",
+      "keyboardVerticalOffset={90} cria uma folga extra pros botões respirarem."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Telas de login, cadastro e checkout onde o botão fica no rodapé.",
+      "Formulários longos com vários campos empilhados.",
+      "Apps React Native para iOS e Android com teclado nativo."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Usuário toca no campo de texto — o teclado sobe.",
+      "PASSO 2: KeyboardAvoidingView detecta a altura do teclado e empurra a view pra cima.",
+      "PASSO 3: O botão de confirmar fica acima do teclado — visível e clicável."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer o keyboardVerticalOffset: no iOS o botão ainda pode sumir atrás da barra de sugestões.",
+      "Não usar flex: 1 na view pai — o ajuste quebra e o layout não sobe.",
+      "Colocar o KeyboardAvoidingView por fora de TUDO e colocar ScrollView por dentro."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Teclado sobe ➔ View empurra conteúdo ➔ Botão fica visível ➔ Usuário não se frustra."
+    ]
+  },
+  "_modelo_usado": "devworld/deepseek-v4-pro-0813-f",
+  "modulo": "Mobile",
+  "escola": "05_frontend_e_mobile",
+  "foco_pedagogico": "Evitando que o teclado virtual tampe o botão de confirmar ou os campos de formulário"
+}

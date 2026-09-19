@@ -1,0 +1,63 @@
+{
+  "id": 153,
+  "title": "TABELAS, LINHAS E COLUNAS",
+  "definition": "É a forma de guardar dados organizados como uma planilha, com informações do mesmo tipo agrupadas.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Uma tabela é uma gaveta organizada para guardar um tipo de dado."
+    ]
+  },
+  "topRight": {
+    "pill": "LINHAS (REGISTROS)",
+    "icon": "🖥️",
+    "bullets": [
+      "Cada linha é um item único, como uma pessoa ou produto.",
+      "Também chamada de 'registro' ou 'tupla'."
+    ]
+  },
+  "midRight": {
+    "pill": "COLUNAS (CAMPOS)",
+    "icon": "{ }",
+    "bullets": [
+      "Cada coluna define um tipo de informação, como nome ou idade.",
+      "id | nome | idade"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Bancos de dados de sistemas, sites e apps.",
+      "MySQL, PostgreSQL, SQL Server, Excel."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "COMO SE MONTA UMA TABELA",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você define as colunas (o tipo de dado)",
+      "PASSO 2: Cada linha nova preenche essas colunas",
+      "PASSO 3: A tabela fica cheia de registros organizados"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Confundir linha com coluna: linha é horizontal, coluna é vertical.",
+      "Cada linha deve ter um valor em toda coluna (mesmo que vazio)."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Tabela ➔ Colunas definem o tipo ➔ Linhas guardam os dados reais"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "BancoDados",
+  "foco_pedagogico": "A estrutura de uma entidade relacional"
+}

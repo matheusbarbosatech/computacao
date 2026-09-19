@@ -1,0 +1,69 @@
+{
+  "id": 631,
+  "title": "SIMILARIDADE DE COSSENO PARA BUSCA SEMÂNTICA",
+  "definition": "É uma conta que mede o ângulo entre dois vetores para descobrir se dois textos falam da mesma ideia.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Compare o significado, não as palavras exatas: 'carro' e 'automóvel' apontam para o mesmo lado.",
+      "Cada texto vira uma flecha no espaço; flechas na mesma direção significam ideias parecidas."
+    ]
+  },
+  "topRight": {
+    "pill": "VETORES E ÂNGULO",
+    "icon": "🖥️",
+    "bullets": [
+      "O computador transforma cada frase numa lista de números chamada vetor (embedding).",
+      "Ele ignora o tamanho do texto e olha só a direção: ângulo pequeno, significado próximo.",
+      "Resultado perto de 1 = quase iguais; perto de 0 = assuntos diferentes."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Fórmula: multiplica os números correspondentes, soma tudo e divide pelos comprimentos.",
+      "exemplo(codigo): cos(A,B) = (A · B) / (|A| * |B|)  ->  valor entre -1 e 1",
+      "exemplo(codigo): from sklearn.metrics.pairwise import cosine_similarity"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Buscadores que entendem a intenção da pergunta, não só as palavras digitadas.",
+      "Recomendação de filmes, agrupamento de notícias e memória de chatbots (RAG).",
+      "Ferramentas: Python, NumPy, scikit-learn, FAISS, embeddings de OpenAI."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Converter a pergunta e os textos em vetores numéricos.",
+      "PASSO 2: Calcular o cosseno do ângulo entre a pergunta e cada texto.",
+      "PASSO 3: Ordenar do maior para o menor e mostrar os resultados no topo."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que texto maior é mais parecido: o cosseno ignora o tamanho, só olha a direção.",
+      "Comparar vetores de modelos diferentes: cada modelo cria um espaço próprio.",
+      "Dica de ouro: vetor zero dá erro de divisão, sempre trate esse caso."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Texto ➔ Vetor ➔ Ângulo pequeno ➔ Mesma ideia ➔ Busca certeira"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "IA Generativa",
+  "escola": "06_banco_dados_e_ia",
+  "foco_pedagogico": "Medindo o ângulo entre vetores para encontrar textos com ideias semelhantes"
+}

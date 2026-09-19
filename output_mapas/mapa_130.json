@@ -1,0 +1,63 @@
+{
+  "id": 130,
+  "title": "FAZENDO REQUISIÇÕES COM FETCH()",
+  "definition": "fetch() é como enviar um garçom até outro restaurante para buscar um prato e trazer de volta.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Seu código pede dados a um servidor na internet e espera a resposta chegar."
+    ]
+  },
+  "topRight": {
+    "pill": "REQUISIÇÃO ASSÍNCRONA",
+    "icon": "🖥️",
+    "bullets": [
+      "O navegador não trava esperando: continua fazendo outras coisas enquanto espera.",
+      "A resposta chega depois, então usamos Promises para lidar com ela."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "fetch(url) devolve uma Promise que resolve com a resposta.",
+      "fetch('https://api.com/dados').then(res => res.json()).then(dados => console.log(dados))"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Buscar previsão do tempo, posts de rede social, preços de produtos.",
+      "Usado em JavaScript no navegador e também no Node.js."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você chama fetch() passando o endereço (URL) do servidor",
+      "PASSO 2: O servidor recebe o pedido e envia uma resposta com os dados",
+      "PASSO 3: Você converte a resposta (ex: .json()) e usa os dados no seu código"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de usar .then() ou await e tentar usar os dados antes de chegarem.",
+      "Não tratar erros: use .catch() ou try/catch para requisições que falham."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Pedir dados ➔ Esperar resposta do servidor ➔ Usar os dados recebidos"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Async",
+  "foco_pedagogico": "Buscando dados em servidores remotos via internet"
+}

@@ -1,0 +1,63 @@
+{
+  "id": 95,
+  "title": "O FORMATO JSON",
+  "definition": "JSON é um jeito de escrever dados como texto, fácil pra humano ler e pra máquina entender.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "JSON é uma 'caixa organizadora' de informação escrita em texto puro."
+    ]
+  },
+  "topRight": {
+    "pill": "OBJETO E LISTA",
+    "icon": "🖥️",
+    "bullets": [
+      "Chaves { } guardam pares de nome e valor, tipo uma ficha.",
+      "Colchetes [ ] guardam listas de itens em sequência."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Nomes ficam entre aspas duplas, sempre.",
+      "{\"nome\": \"Ana\", \"idade\": 30}"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "APIs de sites e apps trocam dados em JSON o tempo todo.",
+      "Usado em JavaScript, Python, Java e quase tudo que conversa na web."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "STRINGIFY E PARSE",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: JS tem um objeto na memória, tipo uma caixa de dados viva.",
+      "PASSO 2: JSON.stringify() transforma essa caixa em texto pra enviar pela internet.",
+      "PASSO 3: JSON.parse() no outro lado transforma o texto de volta em objeto usável."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer aspas duplas no nome da chave quebra o JSON.",
+      "Vírgula sobrando depois do último item dá erro na hora de ler."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Objeto na memória ➔ stringify (vira texto) ➔ viaja na rede ➔ parse (volta a objeto)"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Coleções",
+  "foco_pedagogico": "JSON.stringify e JSON.parse para comunicação na web"
+}

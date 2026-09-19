@@ -1,0 +1,64 @@
+{
+  "id": 312,
+  "title": "AWS EC2: MÁQUINAS VIRTUAIS ELÁSTICAS NA NUVEM",
+  "definition": "EC2 é um computador virtual que você aluga na nuvem e pode ligar, desligar ou redimensionar quando quiser.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como alugar um PC na internet, pagando só pelo tempo de uso."
+    ]
+  },
+  "topRight": {
+    "pill": "COMPONENTES DA MÁQUINA",
+    "icon": "🖥️",
+    "bullets": [
+      "CPU (vCPU) é o poder de processamento, tipo o cérebro da máquina.",
+      "RAM é a memória rápida usada enquanto o programa roda."
+    ]
+  },
+  "midRight": {
+    "pill": "TIPOS DE INSTÂNCIA",
+    "icon": "{ }",
+    "bullets": [
+      "Nome mostra a família e o tamanho da máquina.",
+      "t3.micro (pequena) ou m5.large (média/geral)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Hospedar sites, apps, bancos de dados e sistemas de empresas.",
+      "Usado com Linux, Windows Server, Amazon Linux."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO DE CRIAÇÃO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Escolha o sistema operacional (AMI)",
+      "PASSO 2: Defina o tipo de instância (CPU e RAM)",
+      "PASSO 3: A máquina liga e fica pronta para uso"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer a instância ligada gera custo mesmo sem uso.",
+      "Escolher máquina grande demais desperdiça dinheiro."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Escolher SO ➔ Definir CPU/RAM ➔ Ligar a máquina na nuvem"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Cloud",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Escolhendo poder computacional, memória e sistemas operacionais"
+}

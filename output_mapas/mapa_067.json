@@ -1,0 +1,63 @@
+{
+  "id": 67,
+  "title": "ARRAYS / LISTAS: O BÁSICO",
+  "definition": "É uma caixa organizada que guarda várias coisas em ordem, cada uma com um número de posição.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Uma lista de compras onde cada item tem um número fixo de posição na fila."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O COMPUTADOR VÊ",
+    "icon": "🖥️",
+    "bullets": [
+      "Guarda os itens um ao lado do outro, em ordem, na memória.",
+      "Cada item tem um endereço próprio chamado índice."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Colchetes [ ] marcam o início e o fim da lista.",
+      "compras = ['leite', 'pão', 'ovos']"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Listas de produtos, notas de alunos, nomes de usuários.",
+      "Usado em Python, JavaScript, Java, C# e quase toda linguagem."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você cria a lista entre colchetes [ ]",
+      "PASSO 2: Cada item recebe uma posição, começando do zero",
+      "PASSO 3: Você acessa ou muda um item usando sua posição"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "A contagem começa no 0, não no 1: o primeiro item é posição 0.",
+      "Pedir uma posição que não existe trava o programa."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Itens ➔ Colchetes [ ] ➔ Lista organizada por posição"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Coleções",
+  "foco_pedagogico": "A lista de compras ordenada entre colchetes [ ]"
+}

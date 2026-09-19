@@ -1,0 +1,69 @@
+{
+  "id": 607,
+  "title": "DATA LAKES vs DATA WAREHOUSES vs DATA LAKEHOUSES",
+  "definition": "Três formas de guardar dados: o lago bruto e bagunçado, o armazém organizado e a casa inteligente que une os dois mundos.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "DATA LAKE = lago de dados crus, sem tratamento, qualquer formato.",
+      "DATA WAREHOUSE = armazém com dados limpos, tipados e prontos para relatórios.",
+      "DATA LAKEHOUSE = junta o melhor dos dois: guarda bruto mas consulta como se fosse organizado."
+    ]
+  },
+  "topRight": {
+    "pill": "DATA LAKE (LAGO BRUTO)",
+    "icon": "🌊",
+    "bullets": [
+      "Guarda TUDO no formato original: fotos, PDFs, logs, vídeos, JSONs bagunçados.",
+      "Sem schema fixo — você decide a estrutura só na hora de usar (schema-on-read).",
+      "Barato e escalável: usa Hadoop, S3, Azure Blob. Ideal para big data e IA."
+    ]
+  },
+  "midRight": {
+    "pill": "DATA WAREHOUSE (ARMAZÉM)",
+    "icon": "🏗️",
+    "bullets": [
+      "Só entram dados LIMPOS, TIPADOS e MODELADOS em tabelas (schema-on-write).",
+      "SQL puro, rápido, previsível. Ex: `SELECT vendas FROM tabela WHERE ano=2024`",
+      "Caro e rígido — mudar a estrutura depois dói. Ferramentas: Snowflake, BigQuery, Redshift."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "LAKE = time de dados guarda tudo que a empresa produz sem filtro.",
+      "WAREHOUSE = time de BI gera dashboards e relatórios executivos com dados confiáveis.",
+      "LAKEHOUSE = engenheiros de ML treinam modelos direto no lago, analistas fazem SQL no mesmo lugar."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Dados brutos chegam de várias fontes (apps, sensores, redes sociais).",
+      "PASSO 2: No LAKE ficam crus. No WAREHOUSE são limpos e tipados antes de entrar.",
+      "PASSO 3: LAKEHOUSE mantém o dado cru mas aplica schema na consulta — limpeza sob demanda."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "ERRO CLÁSSICO: jogar tudo no lago sem catálogo vira pântano de dados — ninguém acha nada.",
+      "DICA DE OURO: Comece pelo warehouse se precisa de relatórios. Vá pro lake se tem dados não estruturados. Use lakehouse quando quiser os dois com custo justo."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "LAKE = guarda qualquer coisa barato ➔ WAREHOUSE = organiza em tabelas caras ➔ LAKEHOUSE = guarda barato + consulta organizado."
+    ]
+  },
+  "_modelo_usado": "devworld/deepseek-v4-pro-0813-f",
+  "modulo": "Engenharia Dados",
+  "escola": "06_banco_dados_e_ia",
+  "foco_pedagogico": "Armazenamento bruto de dados não estruturados vs dados limpos e tipados"
+}

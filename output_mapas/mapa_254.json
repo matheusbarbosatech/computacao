@@ -1,0 +1,64 @@
+{
+  "id": 254,
+  "title": "CRIANDO UM EXECUTÁVEL .EXE COM PYINSTALLER",
+  "definition": "PyInstaller empacota seu script Python e tudo que ele precisa dentro de um único arquivo .exe.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Transforma seu código em um programa que roda sozinho, sem instalar Python."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O PYINSTALLER FUNCIONA",
+    "icon": "🖥️",
+    "bullets": [
+      "Ele copia o Python e as bibliotecas usadas para dentro do pacote final.",
+      "Cria uma pasta 'dist' com o .exe pronto para entregar."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Instale a ferramenta e gere o executável pelo terminal.",
+      "pyinstaller --onefile --noconsole meu_script.py"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Entregar sistemas simples para clientes sem conhecimento técnico.",
+      "Automação de planilhas, relatórios e ferramentas internas."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Escreva e teste seu script Python normalmente.",
+      "PASSO 2: Rode o comando pyinstaller apontando para o script.",
+      "PASSO 3: Envie o arquivo .exe da pasta 'dist' para o cliente."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer '--noconsole' e abrir uma tela preta feia junto com o programa.",
+      "Antivírus pode bloquear o .exe por ser desconhecido, é normal."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Script Python ➔ PyInstaller empacota ➔ Cliente clica e usa"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Deploy Python",
+  "escola": "03_python_especialista",
+  "foco_pedagogico": "Entregando seu script para o cliente final rodar com 2 cliques sem instalar Python"
+}

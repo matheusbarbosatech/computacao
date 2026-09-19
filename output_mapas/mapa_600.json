@@ -1,0 +1,67 @@
+{
+  "id": 600,
+  "title": "ESTRUTURAS DE DADOS AVANÇADAS NO REDIS",
+  "definition": "Redis guarda dados na memória RAM usando estruturas especializadas que vão muito além de simples 'chave e valor'.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Redis é como uma caixa de ferramentas turbo: cada estrutura resolve um tipo específico de problema com velocidade de microssegundos."
+    ]
+  },
+  "topRight": {
+    "pill": "BITMAPS",
+    "icon": "📊",
+    "bullets": [
+      "Cada bit representa um estado (0 ou 1) — presente ou ausente, online ou offline.",
+      "Contador de presença diária: 1 milhão de usuários ocupam só 125 KB de memória."
+    ]
+  },
+  "midRight": {
+    "pill": "BITMAPS NA PRÁTICA",
+    "icon": "{ }",
+    "bullets": [
+      "SETBIT presenca:2025-01-15 42 1 — Usuário 42 marcou presença.",
+      "BITCOUNT presenca:2025-01-15 — Total de presentes no dia.",
+      "BITOP AND resultado chave1 chave2 — Interseção entre dois bitmaps (ex: quem foi dois dias seguidos)."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Controle de presença em eventos e plataformas de ensino.",
+      "Análise de usuários ativos diários (DAU) e funis de retenção."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Jogador faz 1500 pontos → ZADD placar 1500 'nickname'",
+      "PASSO 2: Redis insere e já reposiciona o elemento na árvore interna balanceada.",
+      "PASSO 3: ZREVRANGE devolve o top 10 instantâneo — sem loop, sem sort manual."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS DOS BITMAPS",
+    "icon": "⚠️",
+    "bullets": [
+      "O offset do bit cresce com o ID do usuário — IDs esparsos desperdiçam memória.",
+      "Use IDs sequenciais compactos mapeados dos seus UUIDs para economizar até 100x de RAM."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "HASH ➔ Guarda objeto com campos ➔ Perfil de jogador.",
+      "SORTED SET ➔ Sempre ordenado por score ➔ Placar automático.",
+      "BITMAP ➔ 1 bit por estado ➔ 1 milhão de presenças em 125 KB."
+    ]
+  },
+  "_modelo_usado": "devworld/deepseek-v4-pro-0813-f",
+  "modulo": "NoSQL",
+  "escola": "06_banco_dados_e_ia",
+  "foco_pedagogico": "Criando placares de jogos e contadores de presença com velocidade de memória pura"
+}

@@ -1,0 +1,63 @@
+{
+  "id": 200,
+  "title": "O FUTURO DOS DADOS: DATA WAREHOUSES E VETORES",
+  "definition": "É a evolução de guardar dados em tabelas para guardar 'significados' que a IA entende.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Bancos vetoriais guardam o 'sentido' das coisas, não só o texto puro."
+    ]
+  },
+  "topRight": {
+    "pill": "BANCO VETORIAL",
+    "icon": "🖥️",
+    "bullets": [
+      "Transforma texto, imagem ou som em uma lista de números (vetor).",
+      "Compara esses números para achar itens parecidos em significado."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Cada dado vira um vetor de embeddings.",
+      "resultado = db.search(vetor_pergunta, top_k=5)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Chatbots de IA que buscam contexto em documentos.",
+      "Ferramentas: Pinecone, Weaviate, Qdrant, pgvector."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Um texto entra e é convertido em vetor (embedding)",
+      "PASSO 2: O banco compara esse vetor com todos os outros salvos",
+      "PASSO 3: Retorna os itens com significado mais próximo"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que é busca por palavra exata, mas é busca por 'parecença' de sentido.",
+      "Dica de ouro: qualidade do embedding importa mais que o tamanho do banco."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Dado ➔ Vira vetor de significado ➔ IA acha o que é parecido"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "BancoDados",
+  "foco_pedagogico": "Bancos vetoriais para IA e busca semântica"
+}

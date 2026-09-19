@@ -1,0 +1,63 @@
+{
+  "id": 122,
+  "title": "CÓDIGO SÍNCRONO VS ASSÍNCRONO",
+  "definition": "É a diferença entre esperar uma tarefa terminar ou seguir fazendo outras coisas enquanto ela termina.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Síncrono é fila de banco: um de cada vez. Assíncrono é pegar senha e sentar."
+    ]
+  },
+  "topRight": {
+    "pill": "BLOQUEANTE VS NÃO BLOQUEANTE",
+    "icon": "🖥️",
+    "bullets": [
+      "Bloqueante: o programa trava parado até a tarefa acabar.",
+      "Não bloqueante: o programa continua e é avisado depois."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "async/await marca uma tarefa que pode demorar.",
+      "await pausaEsperaAqui() // só essa linha espera"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Buscar dados na internet, ler arquivos, consultar banco de dados.",
+      "JavaScript (Promises), Python (asyncio), C# (async/await)."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO NA LINHA DO TEMPO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Tarefa demorada é disparada (ex: baixar imagem)",
+      "PASSO 2: Síncrono trava tudo | Assíncrono libera a linha e segue",
+      "PASSO 3: Quando a tarefa termina, o resultado chega e é usado"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que assíncrono é 'mais rápido': ele só não trava a fila.",
+      "Esquecer o await e usar um resultado que ainda não chegou."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Tarefa demorada ➔ Espera (trava) ou Segue (livre) ➔ Resultado chega no seu tempo"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Async",
+  "foco_pedagogico": "Bloqueante vs não bloqueante na linha do tempo"
+}

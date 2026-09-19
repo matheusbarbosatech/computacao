@@ -1,0 +1,63 @@
+{
+  "id": 197,
+  "title": "BANCOS EM MEMÓRIA: O REDIS",
+  "definition": "Redis é um banco de dados que guarda tudo na memória RAM para responder em uma fração de segundo.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Redis é como um post-it na sua mesa: pega a informação sem levantar."
+    ]
+  },
+  "topRight": {
+    "pill": "CHAVE-VALOR",
+    "icon": "🖥️",
+    "bullets": [
+      "Cada dado tem um nome (chave) e um conteúdo (valor).",
+      "Buscar pela chave é quase instantâneo, sem varrer tudo."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Comandos simples de texto para salvar e buscar dados.",
+      "SET usuario:1 \"João\" / GET usuario:1"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Cache de sites, sessões de login, filas de tarefas.",
+      "Usado com Node.js, Python, Java, PHP e outros."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: App pede um dado que já está no Redis",
+      "PASSO 2: Redis entrega da memória RAM, sem tocar no disco",
+      "PASSO 3: Resposta chega em milissegundos, super rápido"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Se o servidor reinicia, os dados na memória podem se perder.",
+      "Dica de ouro: use Redis para dados temporários, não para tudo."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Dado pedido ➔ Redis busca na RAM ➔ Resposta ultrarrápida"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "BancoDados",
+  "foco_pedagogico": "Cache ultrarrápido chave-valor"
+}

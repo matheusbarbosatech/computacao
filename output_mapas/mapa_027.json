@@ -1,0 +1,63 @@
+{
+  "id": 27,
+  "title": "ESTRUTURA SWITCH / CASE",
+  "definition": "É um cardápio de opções: você escolhe um valor exato e o programa vai direto na resposta certa.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como um totem de autoatendimento: escolha uma opção e ele te leva direto ao caminho certo."
+    ]
+  },
+  "topRight": {
+    "pill": "SWITCH x IF/ELSE",
+    "icon": "🖥️",
+    "bullets": [
+      "Switch compara um valor com várias opções fixas de uma vez.",
+      "Fica mais limpo que muitos if/else seguidos."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Cada opção é um 'case', com um valor exato pra comparar.",
+      "switch(dia) { case 1: ... break; default: ... }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Menus de app, dias da semana, status de pedido.",
+      "Usado em JavaScript, Java, C, C#, PHP."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O programa pega o valor da variável escolhida",
+      "PASSO 2: Ele compara com cada 'case' até achar igual",
+      "PASSO 3: Executa aquele bloco e sai (break)"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer o 'break' faz o código continuar nos casos seguintes.",
+      "Dica de ouro: sempre coloque um 'default' pro caso nenhuma opção bater."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Valor exato ➔ Compara com opções ➔ Executa a opção certa"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Lógica",
+  "foco_pedagogico": "Menu de opções para valores exatos"
+}

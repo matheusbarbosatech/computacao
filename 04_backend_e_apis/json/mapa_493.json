@@ -1,0 +1,64 @@
+{
+  "id": 493,
+  "title": "PRISMA ORM: TIPAGEM EXTREMA DE BANCO DE DADOS",
+  "definition": "Prisma lê um arquivo de schema e gera um cliente TypeScript que conhece cada tabela e coluna do seu banco.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como um tradutor que transforma tabelas do banco em código TypeScript confiável."
+    ]
+  },
+  "topRight": {
+    "pill": "SCHEMA DECLARATIVO",
+    "icon": "🖥️",
+    "bullets": [
+      "Você descreve os modelos em um arquivo schema.prisma, sem escrever SQL.",
+      "O Prisma usa esse arquivo como fonte única da verdade do banco."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Cada model no schema vira um objeto tipado no cliente gerado.",
+      "model User { id Int @id, name String }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Comum em APIs Node.js e Next.js que precisam de dados seguros.",
+      "Funciona com PostgreSQL, MySQL, SQLite e outros bancos."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você escreve os modelos no arquivo schema.prisma",
+      "PASSO 2: O comando 'prisma generate' cria o cliente tipado",
+      "PASSO 3: Você usa esse cliente e o editor avisa erros antes de rodar"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de rodar 'prisma generate' após mudar o schema causa tipos desatualizados.",
+      "Dica de ouro: sempre rode migrate e generate juntos após alterações."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Schema definido ➔ Cliente gerado ➔ Código sem erro de tipo no banco"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Node/Nest",
+  "escola": "04_backend_e_apis",
+  "foco_pedagogico": "O schema declarativo que gera cliente TypeScript 100% type-safe"
+}

@@ -1,0 +1,64 @@
+{
+  "id": 356,
+  "title": "AUTENTICAÇÃO MULTIFATOR (MFA/2FA) COM TOTP",
+  "definition": "É uma senha extra que muda a cada 30 segundos para provar que você é você mesmo.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Além da senha, você prova sua identidade com um código que expira rápido."
+    ]
+  },
+  "topRight": {
+    "pill": "TOTP (TIME-BASED ONE-TIME PASSWORD)",
+    "icon": "🖥️",
+    "bullets": [
+      "Um 'segredo' secreto é combinado com a hora atual para gerar o código.",
+      "Servidor e app calculam o mesmo código, sem precisar se comunicar."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "codigo = HASH(segredo + horario_atual_em_blocos_de_30s)",
+      "totp.generate(secretKey)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Login em bancos, e-mails e redes sociais.",
+      "Apps: Google Authenticator, Authy, Microsoft Authenticator."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você escaneia um QR Code que contém um segredo único",
+      "PASSO 2: O app usa esse segredo + a hora atual para gerar um número de 6 dígitos",
+      "PASSO 3: Você digita o número e o servidor confirma se ele bate com o que ele mesmo calculou"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Se o relógio do celular estiver desregulado, o código não bate.",
+      "Perder o celular sem backup do segredo trava o acesso à conta."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Segredo + Hora ➔ Cálculo Matemático ➔ Código de 6 dígitos temporário"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "OWASP",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "Como funcionam os códigos temporários do Google Authenticator"
+}

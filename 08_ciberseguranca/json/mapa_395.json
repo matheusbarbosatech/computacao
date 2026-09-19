@@ -1,0 +1,64 @@
+{
+  "id": 395,
+  "title": "ZERO-DAY EXPLOITS E O MERCADO DE VULNERABILIDADES",
+  "definition": "É uma falha secreta em um software que nem o próprio fabricante sabe que existe.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Imagine uma fechadura com defeito de fábrica que ninguém percebeu ainda."
+    ]
+  },
+  "topRight": {
+    "pill": "ZERO-DAY",
+    "icon": "🖥️",
+    "bullets": [
+      "O nome vem de 'zero dias' para o fabricante corrigir o problema.",
+      "Quem descobre primeiro tem vantagem enorme sobre todo mundo."
+    ]
+  },
+  "midRight": {
+    "pill": "EXPLOIT",
+    "icon": "{ }",
+    "bullets": [
+      "É o código feito para explorar essa falha escondida.",
+      "exploit.py --target=falha_secreta --executar()"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Espionagem, ataques cibernéticos e pesquisa de segurança.",
+      "Empresas como Zerodium e governos compram esses achados."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Alguém encontra uma falha desconhecida no software",
+      "PASSO 2: Decide vender, usar em ataque ou avisar o fabricante",
+      "PASSO 3: Fabricante corrige com uma atualização (patch)"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que atualizações são chatas e não importam.",
+      "Dica de ouro: sempre atualize seus programas, elas fecham essas falhas."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Falha oculta ➔ Alguém descobre antes do fabricante ➔ Vira arma ou dinheiro"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Ameaças",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "Falhas que nem o próprio fabricante do software descobriu ainda"
+}

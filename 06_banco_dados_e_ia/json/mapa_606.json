@@ -1,0 +1,65 @@
+{
+  "id": 606,
+  "title": "MODELAGEM DIMENSIONAL: ESQUEMA ESTRELA E FLOCO DE NEVE",
+  "definition": "Jeito de organizar dados para análise: uma tabela de números no centro, cercada por tabelas de contexto.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Guarde o que dá para somar no meio, e o contexto de cada número ao redor.",
+      "Pense numa planilha de vendas: valores no centro, nomes e datas nas laterais."
+    ]
+  },
+  "topRight": {
+    "pill": "FATO VERSUS DIMENSÃO",
+    "icon": "🖥️",
+    "bullets": [
+      "Fato = o que se mede: valor da venda, quantidade, desconto. É longa e cheia de números.",
+      "Dimensão = o contexto: quem, o quê, quando, onde. É menor e cheia de textos."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Regra: toda tabela fato tem chaves estrangeiras apontando para cada dimensão.",
+      "Estrela: dimensões ligadas direto ao fato. Floco: dimensões divididas em subtabelas."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Base de todo dashboard, relatório de vendas e sistema de business intelligence.",
+      "Ferramentas comuns: Power BI, Tableau, BigQuery, Snowflake e dbt."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Escolha o processo do negócio, como cada venda realizada.",
+      "PASSO 2: Defina a métrica e liste os contextos: produto, data, cliente e loja.",
+      "PASSO 3: Monte as chaves e consulte somando fatos por qualquer dimensão."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Encher a tabela fato com textos descritivos e deixar as somas lentas.",
+      "Dica de ouro: fato sem dimensão não diz nada. Todo número precisa de contexto."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Fato com números ➔ Dimensões com contextos ➔ Análise por qualquer ângulo."
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Engenharia Dados",
+  "escola": "06_banco_dados_e_ia",
+  "foco_pedagogico": "Tabelas Fato com métricas e Tabelas Dimensão com contextos analíticos"
+}

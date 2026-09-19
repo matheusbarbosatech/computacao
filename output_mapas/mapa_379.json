@@ -1,0 +1,64 @@
+{
+  "id": 379,
+  "title": "THREAT INTELLIGENCE E FRAMEWORK MITRE ATT&CK",
+  "definition": "É um catálogo global que organiza como os hackers atacam, do início ao fim de uma invasão.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Um mapa que mostra os truques que criminosos usam para invadir sistemas."
+    ]
+  },
+  "topRight": {
+    "pill": "TÁTICAS, TÉCNICAS E PROCEDIMENTOS",
+    "icon": "🖥️",
+    "bullets": [
+      "Tática é o objetivo do atacante, tipo roubar senha.",
+      "Técnica é o método usado, procedimento é o passo exato aplicado."
+    ]
+  },
+  "midRight": {
+    "pill": "ESTRUTURA DA MATRIZ",
+    "icon": "{ }",
+    "bullets": [
+      "Cada coluna é uma tática, cada célula é uma técnica.",
+      "T1078 (usar conta legítima roubada)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Times de segurança usam para caçar ameaças e treinar defesas.",
+      "Ferramentas como SIEM, EDR e relatórios de threat intel."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Atacante escolhe uma tática, como acesso inicial",
+      "PASSO 2: Aplica uma técnica, como phishing por e-mail",
+      "PASSO 3: Time de defesa identifica o padrão e bloqueia"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que o ATT&CK é uma ferramenta, na verdade é um catálogo de referência.",
+      "Dica: comece pelas táticas antes de estudar cada técnica isolada."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Ataque real ➔ Mapeado no catálogo ➔ Defesa mais rápida e precisa"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Blue Team",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "O catálogo global que mapeia táticas, técnicas e procedimentos (TTPs) de hackers"
+}

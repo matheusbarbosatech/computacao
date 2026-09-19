@@ -1,0 +1,69 @@
+{
+  "id": 602,
+  "title": "BANCOS DE DADOS EM GRAFO COM NEO4J E CYPHER",
+  "definition": "Um banco de dados que guarda informações como se fossem pessoas conectadas por linhas: cada pessoa é um ponto, cada amizade é uma seta.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Tudo vira NÓ (pessoa, produto, conta) + RELACIONAMENTO (amizade, compra, transferência).",
+      "Consultas percorrem conexões diretas, sem precisar juntar tabelas gigantes como no Excel.",
+      "Perfeito quando o que importa é COMO os dados se ligam, não só o que eles são."
+    ]
+  },
+  "topRight": {
+    "pill": "MODELO DE GRAFO",
+    "icon": "🖥️",
+    "bullets": [
+      "NÓS: são os objetos do mundo real — (Pessoa), (Conta), (Empresa).",
+      "RELACIONAMENTOS: são verbos entre nós — [:AMIGO_DE], [:TRANSFERIU_PARA], [:MORA_EM].",
+      "PROPRIEDADES: são os detalhes dentro de cada nó — nome, idade, valor."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "MATCH (p:Pessoa)-[:AMIGO_DE]->(amigo) RETURN amigo.nome — encontra todos os amigos diretos.",
+      "MATCH caminho = (a)-[*2..4]->(b) RETURN caminho — acha conexões de 2 a 4 pulos entre pessoas.",
+      "WHERE, COUNT, COLLECT — filtros e agregações como no SQL, mas navegando pelas setas do grafo."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Redes sociais: sugestão de amigos, feed de notícias, comunidades (Facebook, LinkedIn, X).",
+      "Detecção de fraude: achar anéis criminosos, lavagem de dinheiro, contas falsas interligadas.",
+      "Recomendações: 'quem comprou X também comprou Y' — Amazon, Netflix, Spotify."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O Neo4j recebe a consulta Cypher e localiza o NÓ DE PARTIDA no grafo.",
+      "PASSO 2: O motor percorre os RELACIONAMENTOS pulando de nó em nó, igual seguir setas no mapa.",
+      "PASSO 3: Para cada padrão encontrado, ele coleta os dados e monta a resposta — rápido, mesmo com milhões de conexões."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer a direção da seta: (a)->(b) é diferente de (a)<-(b). Se errar, a consulta retorna vazio.",
+      "Criar índices nos nós principais (CREATE INDEX) — sem índice, cada consulta varre o grafo inteiro e fica lerda."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Nós (o quê) ➔ Relacionamentos (como se ligam) ➔ Cypher (pergunte navegando) ➔ Resposta instantânea em teia."
+    ]
+  },
+  "_modelo_usado": "devworld/deepseek-v4-pro-0813-f",
+  "modulo": "NoSQL",
+  "escola": "06_banco_dados_e_ia",
+  "foco_pedagogico": "Consultando relacionamentos complexos de redes sociais e detecção de fraudes"
+}

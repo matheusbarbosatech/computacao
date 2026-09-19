@@ -1,0 +1,64 @@
+{
+  "id": 322,
+  "title": "FUNDAMENTOS DO TERRAFORM: PROVIDERS, RESOURCES E HCL",
+  "definition": "Terraform é uma ferramenta que cria e gerencia infraestrutura descrevendo em texto como ela deve ficar.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Você escreve 'o que quer' e não 'como fazer', igual uma planta de casa."
+    ]
+  },
+  "topRight": {
+    "pill": "DECLARATIVO VS IMPERATIVO",
+    "icon": "🖥️",
+    "bullets": [
+      "Declarativo: descreve o resultado final desejado.",
+      "Terraform calcula sozinho os passos para chegar lá."
+    ]
+  },
+  "midRight": {
+    "pill": "HCL, PROVIDER E RESOURCE",
+    "icon": "{ }",
+    "bullets": [
+      "HCL é a linguagem de texto usada nos arquivos .tf.",
+      "resource \"aws_instance\" \"web\" { ami = \"abc123\" }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Criar servidores, bancos e redes na nuvem sem clicar em telas.",
+      "Usado com AWS, Azure, Google Cloud e outros."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você escreve o arquivo .tf descrevendo os recursos",
+      "PASSO 2: Terraform compara o desejado com o que já existe",
+      "PASSO 3: Terraform cria, altera ou apaga para bater com o plano"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que precisa dizer 'como' fazer, igual em programação normal.",
+      "Dica: sempre rode 'terraform plan' antes de aplicar mudanças."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Você descreve ➔ Provider traduz para a nuvem ➔ Infraestrutura é criada"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "IaC",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "A linguagem declarativa para descrever a infraestrutura desejada"
+}

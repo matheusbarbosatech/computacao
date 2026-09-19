@@ -1,0 +1,64 @@
+{
+  "id": 685,
+  "title": "A SÍNDROME DO IMPOSTOR NO DESENVOLVIMENTO DE SOFTWARE",
+  "definition": "É a sensação constante de não merecer o próprio sucesso, mesmo com provas reais de competência.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É o medo de ser 'descoberto' como fraude, mesmo entregando trabalho bom."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO A CABEÇA REAGE",
+    "icon": "🧠",
+    "bullets": [
+      "Você compara seu dia comum com o portfólio perfeito dos outros.",
+      "Cada erro vira prova de incapacidade; cada acerto vira sorte."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Regra do ofício: não saber de cor é normal, saber pesquisar é a habilidade.",
+      "exemplo: buscarNaDocumentacao(erro) -> solucao"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Todo dev pesquisa diariamente: documentação, fóruns, colegas e IA.",
+      "Python, JavaScript e Java têm manual oficial grátis e aberto."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você recebe a tarefa e sente que não vai dar conta.",
+      "PASSO 2: Pesquisa, testa, erra, pergunta — e o código funciona.",
+      "PASSO 3: Reconheça o mérito: você resolveu, não teve sorte."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que todo mundo sabe tudo, menos você.",
+      "Dica de ouro: liste cada problema que você já resolveu e releia."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Dúvida ➔ Pesquisa e teste ➔ Solução entregue ➔ Confiança real"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Mentalidade",
+  "escola": "02_logica_e_algoritmos",
+  "foco_pedagogico": "Compreendendo que ninguém sabe tudo e que pesquisar faz parte do ofício"
+}

@@ -1,0 +1,64 @@
+{
+  "id": 326,
+  "title": "MÓDULOS NO TERRAFORM: REUTILIZANDO CÓDIGO DE INFRA",
+  "definition": "Módulo é uma caixa fechada com uma infraestrutura pronta que você reaproveita em vários projetos.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como uma receita de bolo: você escreve uma vez e reusa sempre que precisar."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O TERRAFORM TRATA ISSO",
+    "icon": "🖥️",
+    "bullets": [
+      "Cada módulo é uma pasta separada com seus próprios arquivos .tf.",
+      "O Terraform trata o módulo como um bloco isolado e reutilizável."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Você chama o módulo passando variáveis de entrada.",
+      "module \"rede\" { source = \"./modulos/vpc\" cidr = \"10.0.0.0/16\" }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Empacotar rede (VPC, sub-redes) e banco de dados prontos para reuso.",
+      "Times de DevOps compartilham módulos entre projetos e empresas."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você cria a pasta do módulo com rede e banco definidos",
+      "PASSO 2: Outro projeto chama esse módulo passando variáveis próprias",
+      "PASSO 3: O Terraform cria a infraestrutura completa automaticamente"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de declarar variáveis de entrada trava a criação do módulo.",
+      "Dica de ouro: sempre documente as saídas (outputs) do módulo."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Módulo pronto ➔ Chamada em outro projeto ➔ Infra completa reaproveitada"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "IaC",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Empacotando arquiteturas inteiras de rede e banco para reutilizar em projetos"
+}

@@ -1,0 +1,64 @@
+{
+  "id": 238,
+  "title": "OPERAÇÕES CRUD NO FASTAPI (GET, POST, PUT, DELETE)",
+  "definition": "CRUD é o ciclo completo de Criar, Ler, Atualizar e Apagar dados de um sistema.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como gerenciar uma gaveta: guardar, ver, trocar e jogar fora itens."
+    ]
+  },
+  "topRight": {
+    "pill": "OS 4 VERBOS HTTP",
+    "icon": "🖥️",
+    "bullets": [
+      "Cada verbo é uma ordem que o navegador manda pro servidor.",
+      "GET busca, POST cria, PUT atualiza, DELETE remove."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Cada rota usa um decorador com o verbo e o caminho.",
+      "@app.post('/itens')"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "APIs de e-commerce, redes sociais e apps de tarefas.",
+      "FastAPI, Django REST, Express e Flask."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Cliente envia requisição com verbo e dados",
+      "PASSO 2: FastAPI identifica a rota e valida os dados",
+      "PASSO 3: Servidor responde com o resultado (JSON e status)"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Confundir PUT (troca tudo) com PATCH (troca só um pedaço).",
+      "Esquecer de tratar item inexistente e travar com erro feio."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Pedido do cliente ➔ Rota certa no FastAPI ➔ Ação no banco de dados"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "APIs Python",
+  "escola": "03_python_especialista",
+  "foco_pedagogico": "O ciclo completo de leitura, cadastro, atualização e exclusão"
+}

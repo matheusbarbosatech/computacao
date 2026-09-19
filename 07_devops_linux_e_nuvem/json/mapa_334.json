@@ -1,0 +1,64 @@
+{
+  "id": 334,
+  "title": "GITOPS COM ARGOCD NO KUBERNETES",
+  "definition": "GitOps é usar o Git como fonte única da verdade para manter seu cluster Kubernetes sempre igual ao que está escrito no repositório.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "O Git guarda a 'foto ideal' do cluster e o ArgoCD copia essa foto para a realidade."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O ARGOCD FUNCIONA",
+    "icon": "🖥️",
+    "bullets": [
+      "Ele fica de olho no repositório Git a cada poucos segundos.",
+      "Compara o que está no Git com o que está rodando no cluster."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Você define um recurso 'Application' apontando pro repositório.",
+      "kind: Application / source.repoURL: git@repo / destination.namespace: prod"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Empresas que fazem deploy contínuo em Kubernetes sem tocar no cluster manualmente.",
+      "Ferramentas parecidas: Flux CD, Argo Rollouts."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você altera um arquivo YAML e faz commit no Git",
+      "PASSO 2: O ArgoCD detecta a diferença entre Git e cluster",
+      "PASSO 3: Ele aplica a mudança automaticamente no cluster"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Alterar o cluster direto pelo kubectl e esquecer de atualizar o Git gera 'drift'.",
+      "Dica: sempre trate o Git como verdade absoluta, nunca o cluster."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Commit no Git ➔ ArgoCD compara ➔ Cluster se atualiza sozinho."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "CI/CD",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Sincronizando o estado do cluster K8s diretamente com um repositório Git"
+}

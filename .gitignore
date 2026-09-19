@@ -1,0 +1,27 @@
+# Ambientes Virtuais e Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# Variáveis de Ambiente & Chaves Sensíveis
+.env
+*.session
+*.session-journal
+my_session.session
+credentials.json
+token.json
+rclone.conf
+
+# Arquivos Temporários de Renderização e Frames
+temp_frames/
+*.tmp
+*.log
+
+# PDFs Gigantes de Amostra (Manter código e scripts leves)
+*.mp4
+*.mkv

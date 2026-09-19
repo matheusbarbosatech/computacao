@@ -1,0 +1,64 @@
+{
+  "id": 352,
+  "title": "CROSS-SITE REQUEST FORGERY (CSRF) E TOKENS ANTI-CSRF",
+  "definition": "É quando um site malicioso faz seu navegador enviar uma ação sem você querer, usando seu login.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "O golpista não rouba sua senha, ele usa sua sessão já logada contra você."
+    ]
+  },
+  "topRight": {
+    "pill": "TRANSFERÊNCIA SEM CONSENTIMENTO",
+    "icon": "🖥️",
+    "bullets": [
+      "Você abre um site falso enquanto está logado no banco em outra aba.",
+      "O navegador envia seus cookies automaticamente, e a transferência é feita."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "O servidor exige um token secreto extra em cada formulário sensível.",
+      "<input type='hidden' name='csrf_token' value='xyz123'>"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Bancos, e-commerces e painéis administrativos protegem formulários assim.",
+      "Frameworks como Django, Rails e Spring já geram esse token."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você loga no banco e recebe um cookie de sessão.",
+      "PASSO 2: Um site malicioso cria um formulário escondido que aponta pro banco.",
+      "PASSO 3: Sem token válido, o servidor bloqueia a transferência forjada."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que HTTPS por si só já impede CSRF, mas não impede.",
+      "Dica de ouro: sempre valide o token no servidor, nunca confie só no cookie."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Sessão ativa ➔ Requisição forjada ➔ Token ausente bloqueia o ataque."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "OWASP",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "Forçando um usuário logado a executar transferências sem consentimento"
+}

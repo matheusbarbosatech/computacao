@@ -1,0 +1,65 @@
+{
+  "id": 622,
+  "title": "ENGENHARIA DE FEATURES: NORMALIZAÇÃO, ONE-HOT ENCODING E IMPUTAÇÃO",
+  "definition": "Transformar uma tabela bagunçada em números limpos e organizados para os algoritmos conseguirem aprender padrões.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Algoritmos só comem números — texto, nulo e escalas diferentes travam a máquina.",
+      "Feature Engineering é cozinhar os dados crus antes de servir ao modelo de Machine Learning."
+    ]
+  },
+  "topRight": {
+    "pill": "NORMALIZAÇÃO",
+    "icon": "📏",
+    "bullets": [
+      "Coloca todos os números na mesma régua (ex: de 0 a 1) para nenhuma coluna gritar mais alto.",
+      "Idade (0 a 100) e salário (0 a 100.000) viram valores entre 0 e 1, com o mesmo peso."
+    ]
+  },
+  "midRight": {
+    "pill": "ONE-HOT ENCODING",
+    "icon": "🏷️",
+    "bullets": [
+      "Transforma categorias de texto (cor, cidade) em colunas de 0 e 1 — tipo liga/desliga.",
+      "Ex: coluna 'Cor' com Azul, Vermelho vira Cor_Azul=1, Cor_Vermelho=0 — sem hierarquia falsa."
+    ]
+  },
+  "bottomRight": {
+    "pill": "IMPUTAÇÃO",
+    "icon": "🧩",
+    "bullets": [
+      "Preenche buracos da tabela (valores NaN) com a média, mediana ou valor mais frequente da coluna.",
+      "Ferramentas: Pandas (fillna), Scikit-learn (SimpleImputer). Sempre impute depois de separar treino e teste."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Separar treino e teste — nunca vazar informação do teste na preparação.",
+      "PASSO 2: Imputar os vazios (média no treino, aplica a mesma no teste).",
+      "PASSO 3: Normalizar os números e aplicar One-Hot nas categorias — tabela 100% numérica pronta para o modelo."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Aplicar One-Hot antes de separar treino/teste — vaza informação e infla o resultado artificialmente.",
+      "Esquecer de remover a categoria original depois do One-Hot — gera coluna duplicada e confunde o modelo."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Tabela Suja ➔ Imputar Vazios ➔ Normalizar Números ➔ Codificar Texto ➔ Tabela Numérica Limpa Pronta para o Algoritmo Aprender"
+    ]
+  },
+  "_modelo_usado": "devworld/deepseek-v4-pro-0813-f",
+  "modulo": "Machine Learning",
+  "escola": "06_banco_dados_e_ia",
+  "foco_pedagogico": "Preparando tabelas brutas para os algoritmos matemáticos conseguirem aprender"
+}

@@ -1,0 +1,64 @@
+{
+  "id": 478,
+  "title": "PATTERN REPOSITORY: DESACOPLANDO O DOMÍNIO DO BANCO DE DADOS",
+  "definition": "É uma 'gaveta mágica' que finge ser uma lista de objetos, mas por trás fala com o banco de dados.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Seu código pede dados como se pedisse itens de uma caixa, sem saber de onde vêm."
+    ]
+  },
+  "topRight": {
+    "pill": "COLEÇÃO EM MEMÓRIA",
+    "icon": "🖥️",
+    "bullets": [
+      "O Repository parece uma lista comum: adicionar, buscar, remover.",
+      "Por dentro, ele traduz isso em SQL ou chamadas de ORM escondidas."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Uma interface define o contrato, sem detalhes de banco.",
+      "pedidoRepository.buscarPorId(10)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Sistemas empresariais com regras de negócio complexas.",
+      "Comum em Java (Spring), C# (.NET), PHP (Laravel)."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O domínio pede um objeto pelo Repository.",
+      "PASSO 2: O Repository monta a query ou chama o ORM por trás.",
+      "PASSO 3: Ele devolve um objeto puro, sem rastro de SQL."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Erro: deixar SQL vazar para dentro das regras de negócio.",
+      "Dica: se o domínio 'vê' uma tabela, o Repository falhou."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Domínio pede objeto ➔ Repository esconde o banco ➔ Código fica limpo"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Patterns",
+  "escola": "04_backend_e_apis",
+  "foco_pedagogico": "A coleção em memória que esconde queries SQL ou chamadas ORM"
+}

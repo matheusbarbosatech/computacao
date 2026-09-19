@@ -1,0 +1,71 @@
+{
+  "id": 561,
+  "title": "LEIS DA PSICOLOGIA EM UX: LEI DE FITTS E LEI DE HICK",
+  "definition": "Duas regras que explicam por que botões grandes e perto são fáceis de clicar, e por que muitas opções travam o usuário.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Fitts: quanto maior e mais perto o alvo, mais rápido e fácil acertar.",
+      "Hick: quanto mais opções você mostra, mais tempo o cérebro demora para decidir."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O CÉREBRO E A TELA AGEM",
+    "icon": "🖥️",
+    "bullets": [
+      "Seu cérebro mira o alvo: tempo aumenta com a distância e diminui com o tamanho.",
+      "Com muitas escolhas, o cérebro compara tudo antes de agir e a decisão empaca.",
+      "O sistema só mede pixels e milissegundos, mas quem sente o esforço é a pessoa."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Fitts: tempo de clique = distancia / tamanho do alvo.",
+      "Hick: tempo de decisão = log2(numero de opcoes + 1).",
+      "Nao precisa decorar: so lembrar que tamanho ajuda e excesso de opcoes atrapalha."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Botões de ação, menus, formulários, apps móveis e sites de compra.",
+      "Regra dos 44x44 pixels em telas de toque: Apple e Google recomendam esse mínimo.",
+      "Usado por designers em Figma, Material Design e Human Interface Guidelines."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Usuário olha a tela e vê os botões e as opções disponíveis.",
+      "PASSO 2: Cérebro calcula o esforço do clique e compara as alternativas.",
+      "PASSO 3: Ele clica no alvo fácil ou desiste quando há opções demais."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Erro clássico: botão minúsculo no canto oposto da tela, longe do dedo.",
+      "Erro clássico: menu com 40 itens que paralisa o usuário e gera abandono.",
+      "Dica de ouro: reduza opções, agrupe por etapas e deixe o botão principal grande e perto."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Alvo grande e perto ➔ clique rápido ➔ usuário satisfeito",
+      "Opções demais ➔ dúvida e cansaço ➔ usuário desiste",
+      "Menos escolhas e alvos generosos ➔ decisão fácil ➔ mais conversão"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "UX/UI",
+  "escola": "05_frontend_e_mobile",
+  "foco_pedagogico": "Tamanho e distância de botões e por que ter opções demais paralisa o usuário"
+}

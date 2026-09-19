@@ -1,0 +1,64 @@
+{
+  "id": 504,
+  "title": "IDEMPOTÊNCIA EM APIS E WEBHOOKS",
+  "definition": "Repetir a mesma operação várias vezes deve dar sempre o mesmo resultado, sem cobrar duas vezes.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como apertar o botão do elevador: apertar 5 vezes não chama 5 elevadores."
+    ]
+  },
+  "topRight": {
+    "pill": "CHAVE DE IDEMPOTÊNCIA",
+    "icon": "🖥️",
+    "bullets": [
+      "O sistema guarda um código único por tentativa de pagamento.",
+      "Se o código repetir, ele reusa a resposta salva e não cobra de novo."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Envie um cabeçalho com ID único a cada tentativa de compra.",
+      "Idempotency-Key: 8f14e-abc123"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Pagamentos com cartão, Pix, boletos e webhooks de confirmação.",
+      "Stripe, PagSeguro, Mercado Pago e Amazon Pay usam essa técnica."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Cliente clica em 'Pagar' e o app gera uma chave única.",
+      "PASSO 2: Se o clique repetir (internet caiu, botão duplo), a mesma chave é enviada.",
+      "PASSO 3: Servidor reconhece a chave repetida e devolve o resultado antigo, sem cobrar de novo."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Gerar uma chave nova a cada tentativa anula toda a proteção.",
+      "Dica de ouro: a chave deve nascer no clique do usuário, não a cada requisição."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Mesma chave ➔ Servidor reconhece repetição ➔ Cobra só uma vez"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Microsserviços",
+  "escola": "04_backend_e_apis",
+  "foco_pedagogico": "Como garantir que passar o mesmo cartão duas vezes não cobre o cliente em dobro"
+}

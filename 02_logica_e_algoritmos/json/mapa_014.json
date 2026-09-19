@@ -1,0 +1,63 @@
+{
+  "id": 14,
+  "title": "OPERADORES ARITMÉTICOS BÁSICOS",
+  "definition": "São os sinais de matemática que o computador usa para calcular valores no seu código.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "São contas de matemática da escola, só que escritas para o computador entender."
+    ]
+  },
+  "topRight": {
+    "pill": "OS 4 OPERADORES",
+    "icon": "🖥️",
+    "bullets": [
+      "+ soma, - subtrai, * multiplica, / divide dois valores.",
+      "O computador segue a ordem matemática normal (parênteses primeiro)."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "resultado = numero1 + numero2",
+      "preco_total = preco * quantidade"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Calculadoras, carrinhos de compra, jogos e folhas de pagamento.",
+      "Presente em toda linguagem: Python, JavaScript, Java, C#."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O programa lê os dois números envolvidos",
+      "PASSO 2: Aplica o operador escolhido (+ - * /) entre eles",
+      "PASSO 3: Guarda ou mostra o resultado da conta"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Dividir por zero trava ou gera erro, sempre confira antes.",
+      "Divisão às vezes retorna número quebrado, não inteiro."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Dois números ➔ Operador matemático ➔ Resultado calculado"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Lógica",
+  "foco_pedagogico": "Soma (+), subtração (-), multiplicação (*) e divisão (/)"
+}

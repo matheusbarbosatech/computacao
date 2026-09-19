@@ -1,0 +1,63 @@
+{
+  "id": 196,
+  "title": "O QUE É UM ORM (OBJECT-RELATIONAL MAPPING)?",
+  "definition": "ORM é uma ferramenta que transforma classes do seu código em tabelas do banco de dados, sem precisar escrever SQL.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É um tradutor entre a linguagem do programador e a linguagem do banco de dados."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O SISTEMA FUNCIONA",
+    "icon": "🖥️",
+    "bullets": [
+      "Cada classe do código representa uma tabela do banco.",
+      "Cada objeto criado representa uma linha (registro) dessa tabela."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Você chama métodos no objeto, o ORM gera o SQL por trás.",
+      "usuario.save() em vez de INSERT INTO usuarios..."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Em quase todo sistema que salva dados: apps, sites, APIs.",
+      "Exemplos: Prisma, TypeORM, Sequelize, Hibernate, Django ORM."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você cria uma classe (ex: Usuario) no código",
+      "PASSO 2: O ORM traduz essa classe em comandos SQL",
+      "PASSO 3: O banco executa e devolve o dado como objeto"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que o ORM elimina a necessidade de entender banco de dados.",
+      "Dica de ouro: entenda o SQL gerado, não use o ORM no escuro."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Classe no código ➔ ORM traduz ➔ Tabela no banco"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "BancoDados",
+  "foco_pedagogico": "Mexendo no banco através de classes em código"
+}

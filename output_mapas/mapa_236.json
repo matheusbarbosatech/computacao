@@ -1,0 +1,64 @@
+{
+  "id": 236,
+  "title": "INTRODUÇÃO AO FASTAPI E SWAGGER UI AUTOMÁTICO",
+  "definition": "FastAPI é uma ferramenta para criar APIs em Python que gera documentação interativa sozinha.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "FastAPI é como um garçom que recebe pedidos e entrega respostas prontas pela internet."
+    ]
+  },
+  "topRight": {
+    "pill": "ENDPOINT",
+    "icon": "🖥️",
+    "bullets": [
+      "É um 'endereço' na internet que espera um pedido e devolve uma resposta.",
+      "Cada função Python vira uma porta de entrada do seu sistema."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Use decoradores para dizer qual caminho e ação a função representa.",
+      "@app.get('/') \\n def home(): \\n    return {'mensagem': 'Oi!'}"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Criação de APIs para apps, sites e sistemas conversarem entre si.",
+      "Usado com Uvicorn para rodar o servidor localmente."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você escreve uma função Python simples",
+      "PASSO 2: Adiciona um decorador dizendo o caminho (rota)",
+      "PASSO 3: FastAPI cria o endpoint e a documentação Swagger sozinho"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de instalar o Uvicorn e achar que o FastAPI sozinho já roda o servidor.",
+      "Confundir /docs (Swagger) com a própria API, são coisas diferentes."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Função Python ➔ Decorador de rota ➔ Endpoint com documentação automática em /docs"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "APIs Python",
+  "escola": "03_python_especialista",
+  "foco_pedagogico": "Criando seu primeiro endpoint / com documentação interativa grátis"
+}

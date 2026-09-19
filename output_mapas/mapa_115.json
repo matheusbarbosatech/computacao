@@ -1,0 +1,63 @@
+{
+  "id": 115,
+  "title": "DESIGN PATTERN BÁSICO: FACTORY",
+  "definition": "Factory é uma fábrica de objetos que decide qual criar sem você precisar escolher na mão.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Em vez de criar objetos direto, você pede pra uma fábrica criar."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO FUNCIONA",
+    "icon": "🖥️",
+    "bullets": [
+      "A fábrica recebe um pedido e escolhe qual objeto montar.",
+      "Quem pede não precisa saber os detalhes da montagem."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Um método recebe um tipo e retorna o objeto certo.",
+      "criarAnimal('cachorro') -> retorna new Cachorro()"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Criar botões, conexões de banco, ou personagens de jogo.",
+      "Muito comum em Java, C#, PHP e frameworks web."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você diz o que precisa, tipo 'quero um carro'",
+      "PASSO 2: A fábrica decide qual classe usar pra montar",
+      "PASSO 3: Você recebe o objeto pronto pra usar"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Usar Factory pra tudo, até quando um new simples resolveria.",
+      "Dica: use quando a criação do objeto muda de acordo com a situação."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Pedido ➔ Fábrica escolhe ➔ Objeto certo entregue"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "POO",
+  "foco_pedagogico": "Fábricas que instanciam objetos conforme a necessidade"
+}

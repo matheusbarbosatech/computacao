@@ -1,0 +1,64 @@
+{
+  "id": 345,
+  "title": "CRIPTOGRAFIA ASSIMÉTRICA (RSA E CURVAS ELÍPTICAS ECC)",
+  "definition": "É um sistema com duas chaves diferentes: uma para trancar e outra para abrir a informação.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como uma caixa de correio: qualquer um coloca carta, só você tem a chave que abre."
+    ]
+  },
+  "topRight": {
+    "pill": "CHAVE PÚBLICA VS PRIVADA",
+    "icon": "🖥️",
+    "bullets": [
+      "A chave pública é o cadeado: você espalha para todo mundo usar.",
+      "A chave privada é a chave real: fica só na sua máquina, nunca é enviada."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Criptografa com a pública, só a privada correspondente descriptografa.",
+      "gerarChaves() ➔ {publica, privada}"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "HTTPS do seu navegador, apps de mensagem e assinaturas digitais.",
+      "Exemplos: RSA (bancos, servidores), ECC (Bitcoin, WhatsApp, celulares)."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você gera um par de chaves matematicamente ligadas",
+      "PASSO 2: Envia a chave pública, guarda a privada em segredo",
+      "PASSO 3: Só quem tem a privada consegue abrir o que foi trancado com a pública"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que a chave pública precisa ficar em segredo, ela não precisa.",
+      "Dica de ouro: se a chave privada escapar, todo o sistema fica quebrado."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Chave pública trancafia ➔ Chave privada abre ➔ Comunicação segura garantida."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Criptografia",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "A chave pública que qualquer um pode ver vs a chave privada que nunca sai da máquina"
+}

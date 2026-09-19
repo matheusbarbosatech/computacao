@@ -1,0 +1,63 @@
+{
+  "id": 78,
+  "title": "TRANSFORMANDO DADOS COM .MAP()",
+  "definition": ".map() cria um array novo aplicando uma transformação em cada elemento do array original.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como uma máquina que pega cada item, transforma e devolve outro item no lugar."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO FUNCIONA",
+    "icon": "🖥️",
+    "bullets": [
+      "Percorre o array original item por item, sem pular nenhum.",
+      "Para cada item, roda a função que você escreveu e guarda o resultado."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "array.map(item => transformação)",
+      "[1,2,3].map(n => n * 2) resulta em [2,4,6]"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Converter preços, formatar textos, ajustar dados de uma API.",
+      "Muito comum em JavaScript, TypeScript, React e Python (list comprehension)."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você tem um array original de dados",
+      "PASSO 2: .map() aplica a mesma regra em cada item",
+      "PASSO 3: Um array NOVO é criado com os resultados"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer o 'return' dentro de funções com chaves {} trava o resultado.",
+      "Dica de ouro: .map() NUNCA muda o array original, ele cria um novo."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Array original ➔ Transformação item a item ➔ Array novo do mesmo tamanho"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Coleções",
+  "foco_pedagogico": "Gera um novo array transformando cada elemento"
+}

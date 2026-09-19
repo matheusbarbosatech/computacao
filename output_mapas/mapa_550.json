@@ -1,0 +1,66 @@
+{
+  "id": 550,
+  "title": "COMPONENTES ESTILIZADOS COM TAILWIND E SHADCN/UI",
+  "definition": "Jeito moderno de montar telas: Tailwind dá o estilo por classes e Shadcn/UI entrega componentes prontos que você copia.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Você não compra uma biblioteca fechada: recebe o código e vira dono dele.",
+      "Estilo e estrutura ficam juntos, fáceis de ler e de mudar depois."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O SISTEMA LIDA",
+    "icon": "🖥️",
+    "bullets": [
+      "O visual nasce de classes curtas escritas direto na marcação, sem arquivo CSS separado.",
+      "O Shadcn/UI gera o arquivo do componente dentro da sua pasta, já com acessibilidade embutida."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Cada classe é uma instrução pequena: cor, espaço, borda e tamanho em sequência.",
+      "exemplo(<Button className=\"bg-blue-600 rounded-lg px-4 py-2\">Salvar</Button>)",
+      "Componentes do Shadcn/UI aceitam as mesmas classes, então você ajusta tudo no lugar."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Criar telas e painéis em React com aparência uniforme e sem CSS gigante.",
+      "Comum com React, Next.js, TypeScript, Radix UI e Tailwind CSS."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Instale o Tailwind e rode o comando que configura o Shadcn/UI",
+      "PASSO 2: Copie o componente para o projeto e ajuste as classes de estilo",
+      "PASSO 3: Use na tela e teste teclado, foco e leitores de tela"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Botão só com ícone sem rótulo acessível: leitor de tela fica mudo.",
+      "Dica de ouro: junte classes condicionais com uma função auxiliar como cn()."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Tailwind ➔ classes de estilo ➔ componente copiado, acessível e seu"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "CSS/Design",
+  "escola": "05_frontend_e_mobile",
+  "foco_pedagogico": "Componentes acessíveis, customizáveis e que você copia direto para o projeto"
+}

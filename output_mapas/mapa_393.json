@@ -1,0 +1,64 @@
+{
+  "id": 393,
+  "title": "ATAQUES MAN-IN-THE-MIDDLE (MITM) E ARP SPOOFING",
+  "definition": "É quando um invasor se coloca escondido entre duas pessoas conversando para escutar ou alterar tudo que passa.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Imagine um carteiro que abre suas cartas, lê, e às vezes troca o conteúdo antes de entregar."
+    ]
+  },
+  "topRight": {
+    "pill": "ARP SPOOFING",
+    "icon": "🖥️",
+    "bullets": [
+      "Invasor mente para a rede dizendo 'eu sou o roteador'.",
+      "Todo tráfego passa por ele antes de seguir viagem."
+    ]
+  },
+  "midRight": {
+    "pill": "TABELA ARP FALSIFICADA",
+    "icon": "{ }",
+    "bullets": [
+      "ARP liga endereço IP ao endereço físico (MAC) do dispositivo.",
+      "IP_roteador -> MAC_invasor (mentira inserida na tabela)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Testes de segurança em redes Wi-Fi corporativas e domésticas.",
+      "Ferramentas: Ettercap, Bettercap, Wireshark."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO DO ATAQUE",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Invasor envia mensagens ARP falsas na rede",
+      "PASSO 2: Vítima e roteador passam a mandar dados para o invasor",
+      "PASSO 3: Invasor lê, altera ou repassa o tráfego sem ser notado"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que HTTPS sozinho impede todo tipo de MitM.",
+      "Ignorar alertas de certificado inválido no navegador."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Mentira no ARP ➔ Tráfego desviado ➔ Invasor no meio da conversa"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Ameaças",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "O invasor que se coloca no meio da conversa para escutar e modificar tráfego"
+}

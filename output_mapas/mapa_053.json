@@ -1,0 +1,63 @@
+{
+  "id": 53,
+  "title": "O CASO BASE NA RECURSÃO",
+  "definition": "É a condição de parada que impede uma função recursiva de chamar a si mesma para sempre.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É o freio de mão da recursão: sem ele, a função nunca para."
+    ]
+  },
+  "topRight": {
+    "pill": "PILHA DE CHAMADAS",
+    "icon": "🖥️",
+    "bullets": [
+      "Cada chamada recursiva ocupa um espaço na memória (pilha).",
+      "Sem caso base, a pilha cresce até travar o programa."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "O caso base fica sempre no topo da função, como um 'if' de saída.",
+      "if (n == 0) return 1;"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Cálculo de fatorial, Fibonacci e busca em árvores.",
+      "Comum em Python, Java, C e JavaScript."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: A função verifica se chegou na condição de parada",
+      "PASSO 2: Se não chegou, chama a si mesma com um valor menor",
+      "PASSO 3: Se chegou, retorna o valor final sem chamar de novo"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer o caso base causa 'Stack Overflow' (estouro de pilha).",
+      "Dica de ouro: sempre escreva o caso base antes da chamada recursiva."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Condição de parada ➔ Freia a recursão ➔ Evita travamento do programa"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Funções",
+  "foco_pedagogico": "O freio obrigatório para evitar o estouro de pilha"
+}

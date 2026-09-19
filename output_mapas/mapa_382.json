@@ -1,0 +1,64 @@
+{
+  "id": 382,
+  "title": "ANÁLISE ESTÁTICA DE CÓDIGO (SAST) COM SONARQUBE",
+  "definition": "É como um revisor de texto que lê seu código à procura de erros e riscos, sem precisar rodar o programa.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Encontrar problemas no código só de lê-lo, como um professor corrigindo uma redação."
+    ]
+  },
+  "topRight": {
+    "pill": "SAST",
+    "icon": "🖥️",
+    "bullets": [
+      "Sigla para Static Application Security Testing, teste de segurança estático.",
+      "Analisa o código-fonte parado, sem executar nada."
+    ]
+  },
+  "midRight": {
+    "pill": "REGRAS E QUALITY GATE",
+    "icon": "{ }",
+    "bullets": [
+      "SonarQube compara seu código com regras prontas de boas práticas.",
+      "sonar-scanner -Dsonar.projectKey=meu-app"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Integrado em pipelines de CI/CD antes do deploy.",
+      "Usado com Java, JavaScript, Python, C#, entre outras."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Código é enviado para o SonarQube analisar",
+      "PASSO 2: Ferramenta varre linha por linha buscando falhas conhecidas",
+      "PASSO 3: Gera relatório com bugs, vulnerabilidades e code smells"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que passar no SonarQube significa código 100% seguro.",
+      "Ignorar falsos positivos sem analisar o contexto real."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Código escrito ➔ SonarQube analisa sem executar ➔ Relatório de falhas de segurança"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "DevSecOps",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "Encontrando falhas de segurança no código-fonte sem precisar executá-lo"
+}

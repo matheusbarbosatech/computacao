@@ -1,0 +1,66 @@
+{
+  "id": 543,
+  "title": "PERSISTÊNCIA LOCAL: SHAREDPREFERENCES E HIVE/ISAR",
+  "definition": "Guardar dados dentro do próprio celular para o app lembrar do usuário mesmo sem internet.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É um caderninho dentro do celular onde o app anota o que não pode esquecer.",
+      "Sem isso, o usuário faria login de novo toda vez que abrisse o app."
+    ]
+  },
+  "topRight": {
+    "pill": "SHAREDPREFERENCES",
+    "icon": "🖥️",
+    "bullets": [
+      "É uma gaveta simples de chave e valor, perfeita para pouca informação.",
+      "Hive e Isar são bancos locais ultrarrápidos para listas e objetos maiores."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Você grava e lê sempre usando o mesmo nome de chave.",
+      "prefs.setString('token', 'abc123'); var t = prefs.getString('token');"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Salvar token de login, tema escuro, idioma e tutorial já visto.",
+      "No Flutter: pacotes shared_preferences, hive e isar."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Usuário faz login e o app recebe o token",
+      "PASSO 2: O app grava o token no banco local do celular",
+      "PASSO 3: Ao reabrir, o app lê o token e entra direto"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Nunca salve senha ou cartão em texto puro no aparelho.",
+      "O token expira: trate o erro 401 e apague o dado salvo."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Dado pequeno ➔ SharedPreferences ➔ Lê rapidinho",
+      "Dado grande ➔ Hive ou Isar ➔ Consulta ultrarrápida offline"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Flutter",
+  "escola": "05_frontend_e_mobile",
+  "foco_pedagogico": "Guardando o token do usuário e preferências offline em banco ultrarrápido"
+}

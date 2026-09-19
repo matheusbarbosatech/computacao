@@ -1,0 +1,63 @@
+{
+  "id": 69,
+  "title": "ACESSANDO E MODIFICANDO ITENS",
+  "definition": "É like abrir uma gaveta numerada de um armário e trocar o que tem dentro dela.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Cada item de uma lista tem um número de posição fixo chamado índice."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O COMPUTADOR VÊ",
+    "icon": "🖥️",
+    "bullets": [
+      "A lista fica guardada na memória como gavetas numeradas em sequência.",
+      "O índice sempre começa em 0, não em 1."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Use colchetes com o número da posição para acessar ou trocar o valor.",
+      "lista[0] = novoValor"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Atualizar um item de um carrinho de compras ou lista de tarefas.",
+      "Comum em Python, JavaScript, Java e quase toda linguagem."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O programa localiza a gaveta pelo número do índice",
+      "PASSO 2: O valor antigo daquela posição é apagado",
+      "PASSO 3: O novoValor entra no lugar do valor antigo"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que lista[0] é o primeiro item quando na real é o item na posição zero.",
+      "Usar um índice que não existe na lista e travar o programa com erro."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Escolher gaveta ➔ lista[0] = novoValor ➔ Item antigo é substituído"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Coleções",
+  "foco_pedagogico": "lista[0] = novoValor"
+}

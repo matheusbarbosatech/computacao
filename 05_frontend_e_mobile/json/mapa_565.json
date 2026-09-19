@@ -1,0 +1,65 @@
+{
+  "id": 565,
+  "title": "TESTES DE USABILIDADE E ARQUITETURA DA INFORMAÇÃO",
+  "definition": "Arquitetura da Informação organiza e nomeia o conteúdo; o teste de usabilidade prova se pessoas reais conseguem achá-lo sozinhas.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Pense numa biblioteca: livro em ordem certa qualquer pessoa acha em segundos.",
+      "Se o conteúdo está bagunçado, o usuário desiste e culpa o site, não ele mesmo."
+    ]
+  },
+  "topRight": {
+    "pill": "ARQUITETURA DA INFORMAÇÃO",
+    "icon": "🖥️",
+    "bullets": [
+      "O sistema junta conteúdos parecidos em categorias e monta uma árvore de navegação.",
+      "O usuário caminha por ramos: home ➔ seção ➔ subseção ➔ página final."
+    ]
+  },
+  "midRight": {
+    "pill": "CARD SORTING",
+    "icon": "{ }",
+    "bullets": [
+      "Usuários recebem cartões com nomes de conteúdos e agrupam os que combinam.",
+      "Aberto: eles criam os grupos. Fechado: encaixam nos grupos que você já definiu."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Menus de e-commerce, apps de banco, portais de governo e sistemas internos.",
+      "Ferramentas: OptimalSort, Maze, Treejack, Figma e testes de árvore com usuários."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Liste todo o conteúdo e escreva cada item em um cartão separado.",
+      "PASSO 2: Usuários agrupam e nomeiam; você desenha a árvore de navegação.",
+      "PASSO 3: Dê tarefas reais, veja onde se perdem e reorganize o que falhou."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Criar categorias com nomes internos que só quem trabalha na empresa entende.",
+      "Testar só com colegas do time: eles já sabem o caminho e mascaram o problema."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Conteúdo ➔ Card sorting ➔ Árvore de navegação ➔ Teste com usuários ➔ Ajuste final"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "UX/UI",
+  "escola": "05_frontend_e_mobile",
+  "foco_pedagogico": "Card sorting, árvores de navegação e identificando onde usuários reais se perdem"
+}

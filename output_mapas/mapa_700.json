@@ -1,0 +1,64 @@
+{
+  "id": 700,
+  "title": "O MANIFESTO DO PROGRAMADOR VITALÍCIO (LIFELONG LEARNER)",
+  "definition": "Aprender um pouquinho todo dia é o superpoder que mantém o programador relevante a vida inteira.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Programar não é decorar tudo: é manter a curiosidade ligada todos os dias."
+    ]
+  },
+  "topRight": {
+    "pill": "CURIOSIDADE DIÁRIA",
+    "icon": "🖥️",
+    "bullets": [
+      "A tecnologia muda muito rápido, e a curiosidade é o que te mantém atualizado.",
+      "Quem estuda 20 minutos por dia aprende mais que quem estuda 6 horas por mês."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Regra simples: todo dia leia, teste e anote uma coisa nova.",
+      "exemplo(ler_doc() ➔ testar_no_terminal() ➔ anotar_dica())"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "No dia a dia: ler documentação, ver vídeo curto e ler código de outros devs.",
+      "Ferramentas e linguagens: Python, JavaScript, Git e qualquer doc oficial."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Escolha um tema pequeno e bem específico para hoje.",
+      "PASSO 2: Leia, teste no computador e erre sem medo de quebrar nada.",
+      "PASSO 3: Anote o que aprendeu e repita amanhã com outro tema."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que já sabe tudo depois do primeiro curso congela a sua carreira.",
+      "Tentar aprender tudo de uma vez trava você: escolha um assunto por vez."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Curiosidade diária ➔ prática pequena e constante ➔ carreira longa e viva"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Mentalidade",
+  "escola": "02_logica_e_algoritmos",
+  "foco_pedagogico": "A certeza de que na computação a curiosidade diária é o maior superpoder"
+}

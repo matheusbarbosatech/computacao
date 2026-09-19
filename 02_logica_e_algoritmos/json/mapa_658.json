@@ -1,0 +1,66 @@
+{
+  "id": 658,
+  "title": "ALGORITMO DE BACKTRACKING: N-RAINHAS E SUDOKU",
+  "definition": "Backtracking é tentar um caminho, e se der errado, voltar um passo e tentar outro até achar a solução.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Você anda até bater na parede; então volta e escolhe outra porta.",
+      "É tentativa e erro organizado, sem repetir o que já falhou."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO A MÁQUINA PENSA",
+    "icon": "🖥️",
+    "bullets": [
+      "O computador testa uma escolha por vez e guarda o caminho na memória.",
+      "Se a escolha quebra uma regra, ele desfaz e tenta a próxima opção.",
+      "Isso é recursão: a função chama a si mesma para o próximo passo."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "A regra tem sempre três partes: tentar, checar se é válido, desfazer.",
+      "exemplo( if (valido) { marcar(); tentar(); desmarcar(); } )"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Resolver Sudoku, N-Rainhas, labirintos e quebra-cabeças de encaixe.",
+      "Também aparece em jogos, rotas de entrega e escolha de horários."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Escolha uma posição livre e coloque a peça ou o número.",
+      "PASSO 2: Verifique se essa escolha viola alguma regra do problema.",
+      "PASSO 3: Se violou, remova a peça, volte um passo e tente outra opção."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de desfazer a jogada e deixar o tabuleiro sujo para o próximo teste.",
+      "Desistir cedo: sem solução no caminho atual, ainda existem outros caminhos."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Escolha ➔ Teste a regra ➔ Se falhar, desfaça e tente outra ➔ Solução encontrada"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "LeetCode",
+  "escola": "02_logica_e_algoritmos",
+  "foco_pedagogico": "Tentando um caminho e voltando atrás no primeiro erro até achar a solução"
+}

@@ -1,0 +1,65 @@
+{
+  "id": 454,
+  "title": "ÁRVORES AVL E RED-BLACK TREES (AUTO-BALANCEÁVEIS)",
+  "definition": "São árvores de busca que se reorganizam sozinhas para nunca ficarem tortas e lentas.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Uma árvore normal pode virar uma fila torta e ficar lenta como uma lista.",
+      "Estas árvores se auto-ajeitam a cada inserção para continuar 'redondinhas'."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O COMPUTADOR RESOLVE",
+    "icon": "🖥️",
+    "bullets": [
+      "AVL mede a 'altura' dos dois lados de cada nó e gira se a diferença passar de 1.",
+      "Red-Black pinta os nós de vermelho ou preto e usa essas cores como regra de equilíbrio."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Regra AVL: altura(esquerda) - altura(direita) deve ser -1, 0 ou 1.",
+      "if (fatorBalanco > 1) rotacionar(no);"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Bancos de dados e índices para buscas rápidas em milhões de registros.",
+      "TreeMap do Java e map/set do C++ usam Red-Black Tree por dentro."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Insere o novo valor normalmente, como numa árvore comum.",
+      "PASSO 2: Verifica se algum galho ficou desequilibrado ou com cor errada.",
+      "PASSO 3: Gira os nós (rotação) para restaurar o equilíbrio automaticamente."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que a rotação muda os valores: ela só troca a posição dos nós.",
+      "Achar que precisa balancear manualmente: o algoritmo faz isso a cada inserção."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Insere valor ➔ Detecta desequilíbrio ➔ Gira nós ➔ Busca continua O(log n)."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Algoritmos",
+  "escola": "01_ciencia_computacao_uninter",
+  "foco_pedagogico": "Garantindo busca O(log n) constante mesmo após milhares de inserções"
+}

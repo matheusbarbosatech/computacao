@@ -1,0 +1,64 @@
+{
+  "id": 336,
+  "title": "COLETA DE MÉTRICAS COM PROMETHEUS",
+  "definition": "Prometheus é um sistema que visita seus programas de tempos em tempos e anota números sobre eles.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como um médico que mede sua pressão a cada 15 segundos e guarda o histórico."
+    ]
+  },
+  "topRight": {
+    "pill": "SÉRIE TEMPORAL",
+    "icon": "🖥️",
+    "bullets": [
+      "Cada métrica é uma lista de números com data e hora coladas.",
+      "Tudo fica guardado em disco local, sem banco externo."
+    ]
+  },
+  "midRight": {
+    "pill": "PROMQL BÁSICO",
+    "icon": "{ }",
+    "bullets": [
+      "Linguagem própria para perguntar coisas aos números salvos.",
+      "rate(erros_total[5m])"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Monitorar servidores, APIs e containers em produção.",
+      "Comum com Grafana, Kubernetes e Docker."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: App expõe números numa página /metrics",
+      "PASSO 2: Prometheus visita essa página e salva com timestamp",
+      "PASSO 3: Você consulta e visualiza com PromQL"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Confundir 'counter' (só sobe) com 'gauge' (sobe e desce).",
+      "Esquecer a janela de tempo [5m] e a consulta trava ou erra."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "App gera número ➔ Prometheus guarda no tempo ➔ PromQL responde perguntas"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Observabilidade",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Armazenamento de séries temporais e consultas em PromQL"
+}

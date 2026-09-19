@@ -1,0 +1,64 @@
+{
+  "id": 469,
+  "title": "DDD AVANÇADO: BOUNDED CONTEXTS E CONTEXT MAPPING",
+  "definition": "É desenhar fronteiras claras entre 'departamentos' do sistema para que cada um tenha seu próprio significado das palavras.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Cada parte da empresa entende a mesma palavra de um jeito diferente, e isso é normal."
+    ]
+  },
+  "topRight": {
+    "pill": "BOUNDED CONTEXT",
+    "icon": "🖥️",
+    "bullets": [
+      "É como uma 'sala fechada' onde os termos têm um único significado combinado.",
+      "Fora dessa sala, a mesma palavra pode significar outra coisa."
+    ]
+  },
+  "midRight": {
+    "pill": "EXEMPLO DE FRONTEIRA",
+    "icon": "{ }",
+    "bullets": [
+      "'Cliente' no Financeiro tem CPF e dívida.",
+      "'Cliente' no Marketing tem preferências e histórico de cliques."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Arquitetura de microsserviços e sistemas corporativos grandes.",
+      "Ferramentas: Context Mapper, diagramas C4, Event Storming."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "COMO MAPEAR CONTEXTOS",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Identifique os subdomínios da empresa (Vendas, Estoque, Entrega)",
+      "PASSO 2: Descubra onde a mesma palavra muda de significado",
+      "PASSO 3: Desenhe as relações entre eles (Context Map)"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que existe um 'modelo único' que serve para toda a empresa.",
+      "Dica de ouro: se a equipe discute o significado de um termo, ali existe uma fronteira."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Subdomínio diferente ➔ Significado diferente ➔ Contexto separado"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Arquitetura",
+  "escola": "04_backend_e_apis",
+  "foco_pedagogico": "Delimitando fronteiras conceituais entre sistemas diferentes na mesma empresa"
+}

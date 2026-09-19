@@ -1,0 +1,68 @@
+{
+  "id": 537,
+  "title": "STATELESSWIDGET VS STATEFULWIDGET NO FLUTTER",
+  "definition": "StatelessWidget é uma tela que nunca muda sozinha; StatefulWidget é uma tela que muda quando o usuário interage.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Pense em foto na parede (estática) contra lousa que você apaga e reescreve (muda).",
+      "Um widget é só um pedaço de tela: botão, texto, card ou a página inteira."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O FLUTTER DECIDE",
+    "icon": "🖥️",
+    "bullets": [
+      "Se o visual depende de algo que muda, o Flutter precisa ser avisado para redesenhar.",
+      "O aviso se chama setState: ele diz 'ei, atualizei um dado, desenhe de novo'."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "StatelessWidget só tem build() e devolve sempre o mesmo visual.",
+      "StatefulWidget tem createState() e o State guarda os dados que mudam ao toque.",
+      "setState(() { contador++; }) avisa o Flutter para redesenhar a tela."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Stateless: textos fixos, ícones, cabeçalhos, cards de produto sem interação.",
+      "Stateful: contadores, formulários, carrinhos, checkboxes, animações e telas com login.",
+      "O mesmo projeto Flutter mistura os dois o tempo todo."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O usuário toca no botão e um dado muda dentro do State.",
+      "PASSO 2: Você chama setState e o Flutter marca a tela como desatualizada.",
+      "PASSO 3: build() roda de novo e mostra o novo número na tela."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Mudar variável sem setState: o dado muda, mas a tela continua travada no valor antigo.",
+      "Chamar setState no meio do build: erro clássico que trava o app iniciante."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Visual fixo ➔ StatelessWidget ➔ Foto na parede.",
+      "Visual que reage ao toque ➔ StatefulWidget + setState ➔ Lousa sendo reescrita."
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Flutter",
+  "escola": "05_frontend_e_mobile",
+  "foco_pedagogico": "Elementos visuais estáticos vs telas que reagem a toques com setState"
+}

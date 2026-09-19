@@ -1,0 +1,64 @@
+{
+  "id": 252,
+  "title": "GERENCIAMENTO DE PACOTES COM PIP E REQUIREMENTS.TXT",
+  "definition": "É a forma de instalar e guardar as versões exatas das bibliotecas que seu projeto Python precisa.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Uma lista de compras que garante que todo mundo instale as mesmas ferramentas."
+    ]
+  },
+  "topRight": {
+    "pill": "PIP",
+    "icon": "🖥️",
+    "bullets": [
+      "É o gerenciador que baixa e instala bibliotecas da internet (PyPI).",
+      "Sem ele você teria que copiar código manualmente."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Use == para travar a versão exata da biblioteca.",
+      "requests==2.31.0"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Em qualquer projeto Python compartilhado em equipe ou publicado.",
+      "Comandos: pip freeze, pip install -r requirements.txt"
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você instala as bibliotecas no seu ambiente",
+      "PASSO 2: Roda 'pip freeze > requirements.txt' para congelar versões",
+      "PASSO 3: Outra pessoa roda 'pip install -r requirements.txt' e recebe tudo igual"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de recriar o requirements.txt após instalar algo novo.",
+      "Usar >= em vez de == e receber uma versão que quebra o código."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Instalar libs ➔ Congelar versões ➔ Projeto funciona igual em qualquer máquina"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Deploy Python",
+  "escola": "03_python_especialista",
+  "foco_pedagogico": "Congelando e instalando versões exatas de bibliotecas"
+}

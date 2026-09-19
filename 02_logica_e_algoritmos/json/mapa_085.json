@@ -1,0 +1,63 @@
+{
+  "id": 85,
+  "title": "MATRIZES (ARRAYS 2D)",
+  "definition": "É uma tabela de dados organizada em linhas e colunas, como uma planilha.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Imagine um tabuleiro de jogo com quadradinhos organizados em fileiras e colunas."
+    ]
+  },
+  "topRight": {
+    "pill": "LINHAS E COLUNAS",
+    "icon": "🖥️",
+    "bullets": [
+      "O computador guarda cada valor numa posição exata de linha e coluna.",
+      "A linha é horizontal, a coluna é vertical, como um cruzamento."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Acesse com dois índices: primeiro a linha, depois a coluna.",
+      "lista[linha][coluna] = 10"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Tabuleiros de jogos, planilhas, imagens (pixels) e mapas.",
+      "Comum em Python, Java, C e JavaScript."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Crie a tabela definindo quantas linhas e colunas ela terá",
+      "PASSO 2: Percorra cada linha e, dentro dela, cada coluna",
+      "PASSO 3: Leia ou altere o valor guardado naquela posição exata"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Inverter linha e coluna por engano bagunça toda a lógica.",
+      "Dica de ouro: sempre pense 'primeiro a fileira, depois a coluna'."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Tabela ➔ Escolhe linha e coluna ➔ Encontra o valor exato"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Coleções",
+  "foco_pedagogico": "Tabelas com linhas e colunas lista[linha][coluna]"
+}

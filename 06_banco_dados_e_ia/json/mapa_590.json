@@ -1,0 +1,68 @@
+{
+  "id": 590,
+  "title": "ÍNDICES COMPOSTOS E A REGRA DO PREFIXO MAIS À ESQUERDA",
+  "definition": "Um índice composto é como um catálogo de loja organizado por seção, depois por cor e depois por tamanho. Só funciona se você buscar na ordem certa.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Um índice com várias colunas só acelera a busca se o filtro começar pela primeira coluna dele. Tipo lista telefônica: sem o sobrenome primeiro, o resto não ajuda.",
+      "As colunas no índice têm posição fixa. Pular a 1ª coluna no WHERE quebra o uso do índice."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O BANCO PENSA",
+    "icon": "🖥️",
+    "bullets": [
+      "O banco organiza os dados em uma árvore B-Tree, ordenando pela Coluna 1, depois pela 2, depois pela 3 — sempre nessa hierarquia fixa.",
+      "Se o WHERE não filtra a Coluna 1, o banco ignora o índice e varre a tabela inteira — o famoso full scan que derruba performance."
+    ]
+  },
+  "midRight": {
+    "pill": "SINTAXE NA PRÁTICA",
+    "icon": "{ }",
+    "bullets": [
+      "CREATE INDEX idx_vendas ON vendas (pais, estado, cidade);",
+      "✅ WHERE pais = 'BR' AND cidade = 'SP' → usa o índice nas 2 colunas que casam.",
+      "❌ WHERE estado = 'SP' → ignora o índice porque pais não está no filtro."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Bancos relacionais: MySQL, PostgreSQL, Oracle e SQL Server usam essa mesma lógica de prefixo.",
+      "Dashboards, e-commerces e sistemas de log aplicam índices compostos em relatórios com múltiplos filtros frequentes."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Defina qual coluna tem mais filtros de igualdade no dia a dia — ela vira a 1ª do índice.",
+      "PASSO 2: A 2ª coluna deve ser a próxima com mais variação nos filtros. Colunas de range (>, <, BETWEEN) vêm por último.",
+      "PASSO 3: Teste com EXPLAIN. Se aparecer 'Using Index', acertou. Se aparecer 'Full Scan', a ordem está errada."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Erro clássico: criar índice (A, B, C) e filtrar só por B e C. O banco ignora tudo e varre a tabela inteira.",
+      "Dica de ouro: colunas de maior seletividade primeiro. Estado é melhor que gênero. CPF é melhor que status."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Filtro começa pela 1ª coluna ➔ índice é usado ➔ busca instantânea.",
+      "Filtro pula a 1ª coluna ➔ índice ignorado ➔ lentidão total.",
+      "Colunas mais seletivas + filtros de igualdade = as primeiras do índice."
+    ]
+  },
+  "_modelo_usado": "devworld/deepseek-v4-pro-0813-f",
+  "modulo": "Tuning",
+  "escola": "06_banco_dados_e_ia",
+  "foco_pedagogico": "A ordem correta das colunas ao criar um índice para multi-filtros"
+}

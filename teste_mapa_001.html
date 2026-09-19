@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Sketchnote #1 - O QUE É PROGRAMAÇÃO?</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Kalam:wght@400;700&family=Caveat:wght@700&family=Fira+Code:wght@500;600&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    
+    body {
+      width: 1536px;
+      height: 1024px;
+      background-color: #FAF8F5;
+      font-family: 'Kalam', cursive;
+      color: #1E293B;
+      position: relative;
+      overflow: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* CAMADA DE SETAS BÉZIER ORGÂNICAS */
+    .arrows-layer {
+      position: absolute;
+      top: 0; left: 0;
+      width: 1536px;
+      height: 1024px;
+      pointer-events: none;
+      z-index: 2;
+    }
+    .sketch-arrow {
+      fill: none;
+      stroke-width: 3.5;
+      stroke-linecap: round;
+    }
+
+    /* NÓ CENTRAL COM ESTÉTICA SKETCHNOTE */
+    .center-container {
+      position: absolute;
+      left: 768px;
+      top: 485px;
+      transform: translate(-50%, -50%);
+      width: 480px;
+      text-align: center;
+      z-index: 10;
+    }
+    .center-rays {
+      font-size: 2.3rem;
+      color: #EAB308;
+      line-height: 1;
+      letter-spacing: 10px;
+      margin-bottom: 2px;
+      font-weight: 700;
+    }
+    .title-wrapper {
+      position: relative;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 14px;
+    }
+    .center-title {
+      font-family: 'Patrick Hand', cursive;
+      font-size: 3.8rem;
+      font-weight: 700;
+      line-height: 0.95;
+      text-transform: uppercase;
+      color: #0F172A;
+      letter-spacing: 1px;
+    }
+    .title-dashes {
+      font-size: 2.6rem;
+      color: #8B5CF6;
+      font-weight: 700;
+      letter-spacing: -2px;
+      user-select: none;
+    }
+    /* Sublinhado duplo em marcador de texto lilás */
+    .center-underline {
+      margin: 4px auto 14px auto;
+      display: block;
+    }
+    .center-definition {
+      background: #FFFFFF;
+      border: 3.2px solid #8B5CF6;
+      border-radius: 255px 22px 225px 22px/22px 225px 22px 255px;
+      padding: 12px 24px;
+      font-size: 1.32rem;
+      color: #1E293B;
+      line-height: 1.3;
+      box-shadow: 2px 4px 0px rgba(0,0,0,0.06);
+    }
+
+    /* CARDS DO SKETCHNOTE COM BORDAS ORGÂNICAS */
+    .sketch-card {
+      position: absolute;
+      background: #FFFFFF;
+      border: 3.5px solid;
+      border-radius: 255px 20px 225px 20px/20px 225px 20px 255px;
+      box-shadow: 3px 4px 0px rgba(0,0,0,0.06);
+      padding: 18px 22px;
+      display: flex;
+      flex-direction: column;
+      z-index: 5;
+    }
+
+    .marker-ribbon {
+      position: absolute;
+      top: -24px;
+      left: 18px;
+      transform: rotate(-1.2deg);
+    }
+
+    .card-body {
+      margin-top: 10px;
+      display: flex;
+      gap: 16px;
+      align-items: center;
+      height: 100%;
+    }
+
+    .card-text {
+      flex: 1;
+      font-size: 1.22rem;
+      line-height: 1.35;
+      color: #1E293B;
+    }
+    .card-text ul { list-style: none; }
+    .card-text li {
+      position: relative;
+      padding-left: 20px;
+      margin-bottom: 6px;
+    }
+    .card-text li::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      font-size: 1.8rem;
+      line-height: 0.9;
+      color: var(--accent-color);
+    }
+
+    .code-box {
+      font-family: 'Fira Code', monospace;
+      background: #F8FAFC;
+      border: 2px dashed #94A3B8;
+      border-radius: 8px;
+      padding: 4px 10px;
+      font-size: 1.05rem;
+      color: #0F172A;
+      display: inline-block;
+      margin-top: 6px;
+    }
+
+    .doodle-icon {
+      width: 74px;
+      height: 74px;
+      flex-shrink: 0;
+      filter: drop-shadow(1px 2px 1px rgba(0,0,0,0.08));
+    }
+
+    /* COORDENADAS E CORES DOS 8 CARDS ORBITANDO EM CURVA ORGÂNICA */
+    /* COLUNA ESQUERDA (4 CARDS) */
+    .c-top-left {
+      top: 35px; left: 40px; width: 440px; min-height: 175px;
+      border-color: #8B5CF6; --accent-color: #8B5CF6;
+    }
+    .c-mid-left-upper {
+      top: 260px; left: 35px; width: 380px; min-height: 165px;
+      border-color: #0284C7; --accent-color: #0284C7;
+    }
+    .c-mid-left-lower {
+      top: 480px; left: 35px; width: 380px; min-height: 180px;
+      border-color: #DC2626; --accent-color: #DC2626;
+    }
+    .c-bottom-left {
+      top: 710px; left: 40px; width: 440px; min-height: 185px;
+      border-color: #EA580C; --accent-color: #EA580C;
+    }
+
+    /* COLUNA DIREITA (4 CARDS) */
+    .c-top-right {
+      top: 35px; right: 40px; width: 480px; min-height: 175px;
+      border-color: #16A34A; --accent-color: #16A34A;
+    }
+    .c-mid-right-upper {
+      top: 260px; right: 35px; width: 390px; min-height: 165px;
+      border-color: #0D9488; --accent-color: #0D9488;
+    }
+    .c-mid-right-lower {
+      top: 480px; right: 35px; width: 390px; min-height: 180px;
+      border-color: #F97316; --accent-color: #F97316;
+    }
+    .c-bottom-right {
+      top: 710px; right: 40px; width: 460px; min-height: 185px;
+      border-color: #2563EB; --accent-color: #2563EB;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- CAMADA DE SETAS BÉZIER ORGÂNICAS EM SVG -->
+  <svg class="arrows-layer" viewBox="0 0 1536 1024">
+    <defs>
+      <marker id="arrow-purple" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto">
+        <path d="M0,0 L0,6 L9,3 z" fill="#8B5CF6" />
+      </marker>
+      <marker id="arrow-sky" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto">
+        <path d="M0,0 L0,6 L9,3 z" fill="#0284C7" />
+      </marker>
+      <marker id="arrow-red" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto">
+        <path d="M0,0 L0,6 L9,3 z" fill="#DC2626" />
+      </marker>
+      <marker id="arrow-orange" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto">
+        <path d="M0,0 L0,6 L9,3 z" fill="#EA580C" />
+      </marker>
+      <marker id="arrow-green" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto">
+        <path d="M0,0 L0,6 L9,3 z" fill="#16A34A" />
+      </marker>
+      <marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto">
+        <path d="M0,0 L0,6 L9,3 z" fill="#0D9488" />
+      </marker>
+      <marker id="arrow-coral" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto">
+        <path d="M0,0 L0,6 L9,3 z" fill="#F97316" />
+      </marker>
+      <marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto">
+        <path d="M0,0 L0,6 L9,3 z" fill="#2563EB" />
+      </marker>
+    </defs>
+
+    <!-- Setas curvas partindo do centro para os 8 cards -->
+    <!-- Top-Left (Ideia Central) -->
+    <path d="M 670, 420 C 580, 310 520, 240 485, 190" class="sketch-arrow" stroke="#8B5CF6" marker-end="url(#arrow-purple)"/>
+    <!-- Mid-Left Upper (Resumo Expresso) -->
+    <path d="M 580, 465 C 520, 430 470, 390 420, 345" class="sketch-arrow" stroke="#0284C7" marker-end="url(#arrow-sky)"/>
+    <!-- Mid-Left Lower (Pegadinhas) -->
+    <path d="M 580, 535 C 520, 550 470, 560 420, 565" class="sketch-arrow" stroke="#DC2626" marker-end="url(#arrow-red)"/>
+    <!-- Bottom-Left (Exemplo Prático) -->
+    <path d="M 670, 580 C 580, 680 520, 750 485, 790" class="sketch-arrow" stroke="#EA580C" marker-end="url(#arrow-orange)"/>
+
+    <!-- Top-Right (Mecânica / Computador) -->
+    <path d="M 865, 420 C 955, 310 1015, 240 1050, 190" class="sketch-arrow" stroke="#16A34A" marker-end="url(#arrow-green)"/>
+    <!-- Mid-Right Upper (Código) -->
+    <path d="M 955, 465 C 1015, 430 1065, 390 1110, 345" class="sketch-arrow" stroke="#0D9488" marker-end="url(#arrow-teal)"/>
+    <!-- Mid-Right Lower (Linguagens) -->
+    <path d="M 955, 535 C 1015, 550 1065, 560 1110, 565" class="sketch-arrow" stroke="#F97316" marker-end="url(#arrow-coral)"/>
+    <!-- Bottom-Right (Fluxo) -->
+    <path d="M 865, 580 C 955, 680 1015, 750 1070, 790" class="sketch-arrow" stroke="#2563EB" marker-end="url(#arrow-blue)"/>
+  </svg>
+
+  <!-- NÓ CENTRAL COM RAIO DE SOL, ACENTOS E SUBLINHADO DUPLO -->
+  <div class="center-container">
+    <div class="center-rays">\ | /</div>
+    <div class="title-wrapper">
+      <div class="title-dashes">=</div>
+      <div class="center-title">1. O QUE É PROGRAMAÇÃO?</div>
+      <div class="title-dashes">=</div>
+    </div>
+    
+    <svg class="center-underline" width="300" height="24" viewBox="0 0 300 24">
+      <path d="M 10 7 Q 150 17 290 7" stroke="#8B5CF6" stroke-width="5" stroke-linecap="round" fill="none"/>
+      <path d="M 35 17 Q 150 24 265 16" stroke="#8B5CF6" stroke-width="3" stroke-linecap="round" fill="none"/>
+    </svg>
+
+    <div class="center-definition">
+      Programação é dar instruções exatas para um computador seguir sem pensar.
+    </div>
+  </div>
+
+  <!-- COLUNA ESQUERDA: 4 CARDS -->
+  <!-- 1. TOP-LEFT: IDEIA CENTRAL -->
+  <div class="sketch-card c-top-left">
+    
+    <svg class="marker-ribbon" width="234" height="46" viewBox="0 0 234 46" style="overflow: visible;">
+      <defs>
+        <filter id="brush-shadow-589" x="-5%" y="-5%" width="115%" height="120%">
+          <feDropShadow dx="2" dy="3" stdDeviation="1.5" flood-color="rgba(0,0,0,0.14)"/>
+        </filter>
+      </defs>
+      <!-- Traço orgânico do marcador chanfrado com pontas arredondadas e leve curvatura -->
+      <path d="M 12 7 C 93.60000000000001 4, 187.20000000000002 3, 224 7 C 236 9, 237 37, 222 40 C 140.4 43, 46.800000000000004 44, 10 40 C -1 37, -1 9, 12 7 Z"
+            fill="#8B5CF6" filter="url(#brush-shadow-589)"/>
+      <!-- Estrias horizontais de tinta/textura do marcador -->
+      <path d="M 18 13 C 117.0 10, 187.20000000000002 11, 214 14"
+            stroke="rgba(255,255,255,0.30)" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+      <path d="M 15 35 C 93.60000000000001 37, 175.5 36, 216 33"
+            stroke="rgba(0,0,0,0.12)" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+      <!-- Texto em branco estilo hand-lettering -->
+      <text x="117.0" y="29" fill="#FFFFFF"
+            font-family="'Patrick Hand', 'Kalam', cursive"
+            font-size="21" font-weight="700"
+            letter-spacing="1.2px"
+            text-anchor="middle">IDEIA CENTRAL</text>
+    </svg>
+    
+    <div class="card-body">
+      
+    <svg viewBox="0 0 100 100" class="doodle-icon">
+      <!-- Glow Rays -->
+      <line x1="50" y1="8" x2="50" y2="1" stroke="#EAB308" stroke-width="3.5" stroke-linecap="round"/>
+      <line x1="20" y1="18" x2="13" y2="11" stroke="#EAB308" stroke-width="3.5" stroke-linecap="round"/>
+      <line x1="80" y1="18" x2="87" y2="11" stroke="#EAB308" stroke-width="3.5" stroke-linecap="round"/>
+      <line x1="10" y1="42" x2="2" y2="42" stroke="#EAB308" stroke-width="3.5" stroke-linecap="round"/>
+      <line x1="90" y1="42" x2="98" y2="42" stroke="#EAB308" stroke-width="3.5" stroke-linecap="round"/>
+      <!-- Bulbo da Lampada -->
+      <path d="M50,14 C33,14 24,26 24,42 C24,53 33,61 37,67 L37,73 C37,75 39,77 41,77 L59,77 C61,77 63,75 63,73 L63,67 C67,61 76,53 76,42 C76,26 67,14 50,14 Z" fill="#FACC15" stroke="#1E293B" stroke-width="3.5" stroke-linejoin="round"/>
+      <!-- Filamento -->
+      <path d="M41,47 Q45,35 50,47 Q55,35 59,47" fill="none" stroke="#1E293B" stroke-width="3" stroke-linecap="round"/>
+      <!-- Rosca da Base -->
+      <path d="M39,77 L61,77 L59,85 L41,85 Z" fill="#E2E8F0" stroke="#1E293B" stroke-width="3"/>
+      <path d="M43,85 Q50,91 57,85" fill="#94A3B8" stroke="#1E293B" stroke-width="2.5"/>
+    </svg>
+    
+      <div class="card-text">
+        <ul><li>O computador é burro e obediente: só faz o que você escreveu.</li></ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. MID-LEFT UPPER: RESUMO EXPRESSO -->
+  <div class="sketch-card c-mid-left-upper">
+    
+    <svg class="marker-ribbon" width="263" height="46" viewBox="0 0 263 46" style="overflow: visible;">
+      <defs>
+        <filter id="brush-shadow-696" x="-5%" y="-5%" width="115%" height="120%">
+          <feDropShadow dx="2" dy="3" stdDeviation="1.5" flood-color="rgba(0,0,0,0.14)"/>
+        </filter>
+      </defs>
+      <!-- Traço orgânico do marcador chanfrado com pontas arredondadas e leve curvatura -->
+      <path d="M 12 7 C 105.2 4, 210.4 3, 253 7 C 265 9, 266 37, 251 40 C 157.79999999999998 43, 52.6 44, 10 40 C -1 37, -1 9, 12 7 Z"
+            fill="#0284C7" filter="url(#brush-shadow-696)"/>
+      <!-- Estrias horizontais de tinta/textura do marcador -->
+      <path d="M 18 13 C 131.5 10, 210.4 11, 243 14"
+            stroke="rgba(255,255,255,0.30)" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+      <path d="M 15 35 C 105.2 37, 197.25 36, 245 33"
+            stroke="rgba(0,0,0,0.12)" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+      <!-- Texto em branco estilo hand-lettering -->
+      <text x="131.5" y="29" fill="#FFFFFF"
+            font-family="'Patrick Hand', 'Kalam', cursive"
+            font-size="21" font-weight="700"
+            letter-spacing="1.2px"
+            text-anchor="middle">RESUMO EXPRESSO</text>
+    </svg>
+    
+    <div class="card-body">
+      
+    <svg viewBox="0 0 100 100" class="doodle-icon">
+      <!-- Balão de Fala Sketchnote com 3 Pontos -->
+      <path d="M22,24 Q50,14 78,24 Q90,48 78,66 Q50,76 34,68 L18,78 L24,62 Q10,44 22,24 Z" fill="#E0F2FE" stroke="#0284C7" stroke-width="3.5" stroke-linejoin="round"/>
+      <circle cx="39" cy="45" r="4" fill="#0284C7"/>
+      <circle cx="50" cy="45" r="4" fill="#0284C7"/>
+      <circle cx="61" cy="45" r="4" fill="#0284C7"/>
+    </svg>
+    
+      <div class="card-text">
+        <ul><li>Você escreve ➔ Máquina obedece ➔ Ação acontece</li></ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3. MID-LEFT LOWER: PEGADINHAS -->
+  <div class="sketch-card c-mid-left-lower">
+    
+    <svg class="marker-ribbon" width="191" height="46" viewBox="0 0 191 46" style="overflow: visible;">
+      <defs>
+        <filter id="brush-shadow-123" x="-5%" y="-5%" width="115%" height="120%">
+          <feDropShadow dx="2" dy="3" stdDeviation="1.5" flood-color="rgba(0,0,0,0.14)"/>
+        </filter>
+      </defs>
+      <!-- Traço orgânico do marcador chanfrado com pontas arredondadas e leve curvatura -->
+      <path d="M 12 7 C 76.4 4, 152.8 3, 181 7 C 193 9, 194 37, 179 40 C 114.6 43, 38.2 44, 10 40 C -1 37, -1 9, 12 7 Z"
+            fill="#DC2626" filter="url(#brush-shadow-123)"/>
+      <!-- Estrias horizontais de tinta/textura do marcador -->
+      <path d="M 18 13 C 95.5 10, 152.8 11, 171 14"
+            stroke="rgba(255,255,255,0.30)" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+      <path d="M 15 35 C 76.4 37, 143.25 36, 173 33"
+            stroke="rgba(0,0,0,0.12)" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+      <!-- Texto em branco estilo hand-lettering -->
+      <text x="95.5" y="29" fill="#FFFFFF"
+            font-family="'Patrick Hand', 'Kalam', cursive"
+            font-size="21" font-weight="700"
+            letter-spacing="1.2px"
+            text-anchor="middle">PEGADINHAS</text>
+    </svg>
+    
+    <div class="card-body">
+      
+    <svg viewBox="0 0 100 100" class="doodle-icon">
+      <!-- Triângulo 3D Chanfrado de Alerta -->
+      <polygon points="50,12 88,80 12,80" fill="#FEE2E2" stroke="#DC2626" stroke-width="4.5" stroke-linejoin="round"/>
+      <polygon points="50,22 80,74 20,74" fill="#FFFFFF" stroke="#DC2626" stroke-width="2.5" stroke-linejoin="round"/>
+      <!-- Exclamação -->
+      <line x1="50" y1="36" x2="50" y2="56" stroke="#DC2626" stroke-width="5.5" stroke-linecap="round"/>
+      <circle cx="50" cy="65" r="4" fill="#DC2626"/>
+      <!-- Traços de Impacto -->
+      <line x1="10" y1="46" x2="2" y2="44" stroke="#DC2626" stroke-width="3" stroke-linecap="round"/>
+      <line x1="90" y1="46" x2="98" y2="44" stroke="#DC2626" stroke-width="3" stroke-linecap="round"/>
+      <line x1="50" y1="6" x2="50" y2="1" stroke="#DC2626" stroke-width="3" stroke-linecap="round"/>
+    </svg>
+    
+      <div class="card-text">
+        <ul><li>Achar que o computador 'entende' o que você quis dizer.</li>
+<li>Dica de ouro: seja específico, a máquina só segue a letra.</li></ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- 4. BOTTOM-LEFT: EXEMPLO PRÁTICO -->
+  <div class="sketch-card c-bottom-left">
+    
+    <svg class="marker-ribbon" width="263" height="46" viewBox="0 0 263 46" style="overflow: visible;">
+      <defs>
+        <filter id="brush-shadow-200" x="-5%" y="-5%" width="115%" height="120%">
+          <feDropShadow dx="2" dy="3" stdDeviation="1.5" flood-color="rgba(0,0,0,0.14)"/>
+        </filter>
+      </defs>
+      <!-- Traço orgânico do marcador chanfrado com pontas arredondadas e leve curvatura -->
+      <path d="M 12 7 C 105.2 4, 210.4 3, 253 7 C 265 9, 266 37, 251 40 C 157.79999999999998 43, 52.6 44, 10 40 C -1 37, -1 9, 12 7 Z"
+            fill="#EA580C" filter="url(#brush-shadow-200)"/>
+      <!-- Estrias horizontais de tinta/textura do marcador -->
+      <path d="M 18 13 C 131.5 10, 210.4 11, 243 14"
+            stroke="rgba(255,255,255,0.30)" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+      <path d="M 15 35 C 105.2 37, 197.25 36, 245 33"
+            stroke="rgba(0,0,0,0.12)" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+      <!-- Texto em branco estilo hand-lettering -->
+      <text x="131.5" y="29" fill="#FFFFFF"
+            font-family="'Patrick Hand', 'Kalam', cursive"
+            font-size="21" font-weight="700"
+            letter-spacing="1.2px"
+            text-anchor="middle">EXEMPLO PRÁTICO</text>
+    </svg>
+    
+    <div class="card-body">
+      <div class="card-text">
+        <ul><li>Entrada: 2 e 3</li>
+<li>Regra: somar</li>
+<li>Saída: 5</li></ul>
+      </div>
+      
+    <svg viewBox="0 0 100 100" class="doodle-icon">
+      <!-- Prancheta com Checklist e Resultado -->
+      <rect x="20" y="16" width="60" height="76" rx="8" fill="#FFFBEB" stroke="#1E293B" stroke-width="3.5"/>
+      <!-- Clipe Superior -->
+      <rect x="36" y="10" width="28" height="12" rx="4" fill="#E2E8F0" stroke="#1E293B" stroke-width="3"/>
+      <circle cx="50" cy="16" r="2.5" fill="#1E293B"/>
+      <!-- Linhas de Tarefa -->
+      <text x="27" y="38" font-family="'Patrick Hand', cursive" font-size="16" font-weight="700" fill="#1E293B">2</text>
+      <line x1="38" y1="35" x2="68" y2="35" stroke="#94A3B8" stroke-width="2.5" stroke-linecap="round"/>
+      <text x="27" y="52" font-family="'Patrick Hand', cursive" font-size="16" font-weight="700" fill="#1E293B">3</text>
+      <line x1="38" y1="49" x2="68" y2="49" stroke="#94A3B8" stroke-width="2.5" stroke-linecap="round"/>
+      <!-- Círculo com Resultado 5 -->
+      <circle cx="50" cy="74" r="14" fill="#FEF2F2" stroke="#DC2626" stroke-width="3"/>
+      <text x="50" y="80" font-family="'Patrick Hand', cursive" font-size="22" font-weight="700" text-anchor="middle" fill="#DC2626">5</text>
+    </svg>
+    
+    </div>
+  </div>
+
+  <!-- COLUNA DIREITA: 4 CARDS -->
+  <!-- 5. TOP-RIGHT: COMO A MÁQUINA PENSA / MECÂNICA -->
+  <div class="sketch-card c-top-right">
+    
+    <svg class="marker-ribbon" width="191" height="46" viewBox="0 0 191 46" style="overflow: visible;">
+      <defs>
+        <filter id="brush-shadow-355" x="-5%" y="-5%" width="115%" height="120%">
+          <feDropShadow dx="2" dy="3" stdDeviation="1.5" flood-color="rgba(0,0,0,0.14)"/>
+        </filter>
+      </defs>
+      <!-- Traço orgânico do marcador chanfrado com pontas arredondadas e leve curvatura -->
+      <path d="M 12 7 C 76.4 4, 152.8 3, 181 7 C 193 9, 194 37, 179 40 C 114.6 43, 38.2 44, 10 40 C -1 37, -1 9, 12 7 Z"
+            fill="#16A34A" filter="url(#brush-shadow-355)"/>
+      <!-- Estrias horizontais de tinta/textura do marcador -->
+      <path d="M 18 13 C 95.5 10, 152.8 11, 171 14"
+            stroke="rgba(255,255,255,0.30)" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+      <path d="M 15 35 C 76.4 37, 143.25 36, 173 33"
+            stroke="rgba(0,0,0,0.12)" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+      <!-- Texto em branco estilo hand-lettering -->
+      <text x="95.5" y="29" fill="#FFFFFF"
+            font-family="'Patrick Hand', 'Kalam', cursive"
+            font-size="21" font-weight="700"
+            letter-spacing="1.2px"
+            text-anchor="middle">COMPUTADOR</text>
+    </svg>
+    
+    <div class="card-body">
+      <div class="card-text">
+        <ul><li>Ela não interpreta intenção, só executa ordens ao pé da letra.</li>
+<li>Sem instrução clara, ela trava ou erra.</li></ul>
+      </div>
+      
+    <svg viewBox="0 0 100 100" class="doodle-icon">
+      <!-- Monitor CRT Retrô -->
+      <rect x="12" y="14" width="76" height="54" rx="12" fill="#F0FDF4" stroke="#15803D" stroke-width="3.5"/>
+      <rect x="20" y="22" width="60" height="38" rx="8" fill="#DCFCE7" stroke="#15803D" stroke-width="2.5"/>
+      <!-- Rostinho Sorridente -->
+      <circle cx="40" cy="38" r="3.5" fill="#15803D"/>
+      <circle cx="60" cy="38" r="3.5" fill="#15803D"/>
+      <path d="M42,47 Q50,55 58,47" fill="none" stroke="#15803D" stroke-width="3" stroke-linecap="round"/>
+      <!-- Base e Teclado -->
+      <rect x="44" y="68" width="12" height="10" fill="#E2E8F0" stroke="#15803D" stroke-width="3"/>
+      <path d="M18,84 L82,84 L78,78 L22,78 Z" fill="#F0FDF4" stroke="#15803D" stroke-width="3" stroke-linejoin="round"/>
+      <line x1="28" y1="81" x2="72" y2="81" stroke="#15803D" stroke-width="1.8"/>
+    </svg>
+    
+    </div>
+  </div>
+
+  <!-- 6. MID-RIGHT UPPER: CÓDIGO OU REGRA -->
+  <div class="sketch-card c-mid-right-upper">
+    
+    <svg class="marker-ribbon" width="170" height="46" viewBox="0 0 170 46" style="overflow: visible;">
+      <defs>
+        <filter id="brush-shadow-480" x="-5%" y="-5%" width="115%" height="120%">
+          <feDropShadow dx="2" dy="3" stdDeviation="1.5" flood-color="rgba(0,0,0,0.14)"/>
+        </filter>
+      </defs>
+      <!-- Traço orgânico do marcador chanfrado com pontas arredondadas e leve curvatura -->
+      <path d="M 12 7 C 68.0 4, 136.0 3, 160 7 C 172 9, 173 37, 158 40 C 102.0 43, 34.0 44, 10 40 C -1 37, -1 9, 12 7 Z"
+            fill="#0D9488" filter="url(#brush-shadow-480)"/>
+      <!-- Estrias horizontais de tinta/textura do marcador -->
+      <path d="M 18 13 C 85.0 10, 136.0 11, 150 14"
+            stroke="rgba(255,255,255,0.30)" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+      <path d="M 15 35 C 68.0 37, 127.5 36, 152 33"
+            stroke="rgba(0,0,0,0.12)" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+      <!-- Texto em branco estilo hand-lettering -->
+      <text x="85.0" y="29" fill="#FFFFFF"
+            font-family="'Patrick Hand', 'Kalam', cursive"
+            font-size="21" font-weight="700"
+            letter-spacing="1.2px"
+            text-anchor="middle">CÓDIGO</text>
+    </svg>
+    
+    <div class="card-body">
+      <div class="card-text">
+        <p>Código é a receita escrita numa língua que a máquina entende.</p>
+<div class="code-box">print('Oi')</div>
+      </div>
+      
+    <svg viewBox="0 0 100 100" class="doodle-icon">
+      <!-- Chaves de Código Grandes -->
+      <path d="M38,18 Q22,18 22,38 Q22,50 12,50 Q22,50 22,62 Q22,82 38,82" fill="none" stroke="#0D9488" stroke-width="4.5" stroke-linecap="round"/>
+      <path d="M62,18 Q78,18 78,38 Q78,50 88,50 Q78,50 78,62 Q78,82 62,82" fill="none" stroke="#0D9488" stroke-width="4.5" stroke-linecap="round"/>
+      <!-- Faíscas Laterais -->
+      <line x1="6" y1="36" x2="1" y2="34" stroke="#0D9488" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="6" y1="64" x2="1" y2="66" stroke="#0D9488" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="94" y1="36" x2="99" y2="34" stroke="#0D9488" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="94" y1="64" x2="99" y2="66" stroke="#0D9488" stroke-width="2.5" stroke-linecap="round"/>
+    </svg>
+    
+    </div>
+  </div>
+
+  <!-- 7. MID-RIGHT LOWER: LINGUAGENS / ONDE É USADO -->
+  <div class="sketch-card c-mid-right-lower">
+    
+    <svg class="marker-ribbon" width="191" height="46" viewBox="0 0 191 46" style="overflow: visible;">
+      <defs>
+        <filter id="brush-shadow-51" x="-5%" y="-5%" width="115%" height="120%">
+          <feDropShadow dx="2" dy="3" stdDeviation="1.5" flood-color="rgba(0,0,0,0.14)"/>
+        </filter>
+      </defs>
+      <!-- Traço orgânico do marcador chanfrado com pontas arredondadas e leve curvatura -->
+      <path d="M 12 7 C 76.4 4, 152.8 3, 181 7 C 193 9, 194 37, 179 40 C 114.6 43, 38.2 44, 10 40 C -1 37, -1 9, 12 7 Z"
+            fill="#F97316" filter="url(#brush-shadow-51)"/>
+      <!-- Estrias horizontais de tinta/textura do marcador -->
+      <path d="M 18 13 C 95.5 10, 152.8 11, 171 14"
+            stroke="rgba(255,255,255,0.30)" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+      <path d="M 15 35 C 76.4 37, 143.25 36, 173 33"
+            stroke="rgba(0,0,0,0.12)" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+      <!-- Texto em branco estilo hand-lettering -->
+      <text x="95.5" y="29" fill="#FFFFFF"
+            font-family="'Patrick Hand', 'Kalam', cursive"
+            font-size="21" font-weight="700"
+            letter-spacing="1.2px"
+            text-anchor="middle">LINGUAGENS</text>
+    </svg>
+    
+    <div class="card-body">
+      <div class="card-text">
+        <ul><li>Apps, sites, jogos, caixas eletrônicos, geladeiras inteligentes.</li>
+<li>Linguagens comuns: Python, JavaScript, Java.</li></ul>
+      </div>
+      
+    <svg viewBox="0 0 100 100" class="doodle-icon">
+      <!-- Tag </> com traço artístico -->
+      <path d="M34,26 L14,50 L34,74" fill="none" stroke="#EA580C" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M44,78 L56,22" fill="none" stroke="#EA580C" stroke-width="4.5" stroke-linecap="round"/>
+      <path d="M66,26 L86,50 L66,74" fill="none" stroke="#EA580C" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    
+    </div>
+  </div>
+
+  <!-- 8. BOTTOM-RIGHT: FLUXO / PASSO A PASSO -->
+  <div class="sketch-card c-bottom-right">
+    
+    <svg class="marker-ribbon" width="220" height="46" viewBox="0 0 220 46" style="overflow: visible;">
+      <defs>
+        <filter id="brush-shadow-865" x="-5%" y="-5%" width="115%" height="120%">
+          <feDropShadow dx="2" dy="3" stdDeviation="1.5" flood-color="rgba(0,0,0,0.14)"/>
+        </filter>
+      </defs>
+      <!-- Traço orgânico do marcador chanfrado com pontas arredondadas e leve curvatura -->
+      <path d="M 12 7 C 88.0 4, 176.0 3, 210 7 C 222 9, 223 37, 208 40 C 132.0 43, 44.0 44, 10 40 C -1 37, -1 9, 12 7 Z"
+            fill="#2563EB" filter="url(#brush-shadow-865)"/>
+      <!-- Estrias horizontais de tinta/textura do marcador -->
+      <path d="M 18 13 C 110.0 10, 176.0 11, 200 14"
+            stroke="rgba(255,255,255,0.30)" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+      <path d="M 15 35 C 88.0 37, 165.0 36, 202 33"
+            stroke="rgba(0,0,0,0.12)" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+      <!-- Texto em branco estilo hand-lettering -->
+      <text x="110.0" y="29" fill="#FFFFFF"
+            font-family="'Patrick Hand', 'Kalam', cursive"
+            font-size="21" font-weight="700"
+            letter-spacing="1.2px"
+            text-anchor="middle">FLUXO BÁSICO</text>
+    </svg>
+    
+    <div class="card-body">
+      <div class="card-text">
+        <ul><li>PASSO 1: Você escreve as instruções em ordem</li>
+<li>PASSO 2: O computador lê e executa uma por uma</li>
+<li>PASSO 3: O resultado aparece na tela</li></ul>
+      </div>
+      
+    <svg viewBox="0 0 100 100" class="doodle-icon">
+      <!-- Engrenagem Central Azul -->
+      <circle cx="50" cy="50" r="21" fill="#EFF6FF" stroke="#2563EB" stroke-width="3.5"/>
+      <circle cx="50" cy="50" r="7" fill="#FFFFFF" stroke="#2563EB" stroke-width="3"/>
+      <!-- Dentes -->
+      <rect x="46" y="19" width="8" height="8" rx="2" fill="#93C5FD" stroke="#2563EB" stroke-width="2"/>
+      <rect x="46" y="73" width="8" height="8" rx="2" fill="#93C5FD" stroke="#2563EB" stroke-width="2"/>
+      <rect x="19" y="46" width="8" height="8" rx="2" fill="#93C5FD" stroke="#2563EB" stroke-width="2"/>
+      <rect x="73" y="46" width="8" height="8" rx="2" fill="#93C5FD" stroke="#2563EB" stroke-width="2"/>
+      <rect x="28" y="28" width="8" height="8" rx="2" fill="#93C5FD" stroke="#2563EB" stroke-width="2" transform="rotate(45 32 32)"/>
+      <rect x="64" y="64" width="8" height="8" rx="2" fill="#93C5FD" stroke="#2563EB" stroke-width="2" transform="rotate(45 68 68)"/>
+      <rect x="64" y="28" width="8" height="8" rx="2" fill="#93C5FD" stroke="#2563EB" stroke-width="2" transform="rotate(45 68 32)"/>
+      <rect x="28" y="64" width="8" height="8" rx="2" fill="#93C5FD" stroke="#2563EB" stroke-width="2" transform="rotate(45 32 68)"/>
+      <!-- Seta Circular de Fluxo -->
+      <path d="M18,50 A33,33 0 0,0 52,84" fill="none" stroke="#1D4ED8" stroke-width="3" stroke-linecap="round"/>
+      <polygon points="58,83 48,78 51,88" fill="#1D4ED8"/>
+    </svg>
+    
+    </div>
+  </div>
+
+</body>
+</html>

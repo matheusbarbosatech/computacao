@@ -1,0 +1,64 @@
+{
+  "id": 426,
+  "title": "CONDIÇÕES DE CORRIDA E REGIÕES CRÍTICAS",
+  "definition": "É quando dois ou mais threads tentam mudar a mesma variável ao mesmo tempo e o resultado final vira uma loteria.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Duas pessoas escrevendo no mesmo caderno ao mesmo tempo apagam uma a resposta da outra."
+    ]
+  },
+  "topRight": {
+    "pill": "REGIÃO CRÍTICA",
+    "icon": "🖥️",
+    "bullets": [
+      "É o trecho de código que acessa um recurso compartilhado, tipo uma variável.",
+      "Só um thread pode entrar nesse trecho por vez."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Trava (lock) o trecho antes de mexer no dado compartilhado.",
+      "lock.acquire(); saldo += 10; lock.release();"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Apps bancários, jogos multiplayer, sistemas de estoque online.",
+      "Java (synchronized), Python (threading.Lock), C++ (mutex)."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Thread A lê o valor da variável compartilhada",
+      "PASSO 2: Thread B lê o mesmo valor antes de A salvar a mudança",
+      "PASSO 3: Um dos dois sobrescreve o resultado do outro, gerando dado errado"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que o bug é raro porque só aparece de vez em quando, dependendo da sorte do timing.",
+      "Esquecer de liberar a trava e travar o programa inteiro (deadlock)."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Dois threads ➔ mesma variável sem trava ➔ resultado imprevisível e bugado"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "SO",
+  "escola": "01_ciencia_computacao_uninter",
+  "foco_pedagogico": "Quando dois threads tentam alterar a mesma variável ao mesmo tempo e geram caos"
+}

@@ -1,0 +1,63 @@
+{
+  "id": 1,
+  "title": "O QUE É PROGRAMAÇÃO?",
+  "definition": "Programação é dar instruções exatas para um computador seguir sem pensar.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "O computador é burro e obediente: só faz o que você escreveu."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO A MÁQUINA PENSA",
+    "icon": "🖥️",
+    "bullets": [
+      "Ela não interpreta intenção, só executa ordens ao pé da letra.",
+      "Sem instrução clara, ela trava ou erra."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Código é a receita escrita numa língua que a máquina entende.",
+      "print('Oi')"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Apps, sites, jogos, caixas eletrônicos, geladeiras inteligentes.",
+      "Linguagens comuns: Python, JavaScript, Java."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você escreve as instruções em ordem",
+      "PASSO 2: O computador lê e executa uma por uma",
+      "PASSO 3: O resultado aparece na tela"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que o computador 'entende' o que você quis dizer.",
+      "Dica de ouro: seja específico, a máquina só segue a letra."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Você escreve ➔ Máquina obedece ➔ Ação acontece"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Fundamentos",
+  "foco_pedagogico": "Instruções que a máquina segue cegamente"
+}

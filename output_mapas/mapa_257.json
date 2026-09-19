@@ -1,0 +1,65 @@
+{
+  "id": 257,
+  "title": "CONCORRÊNCIA: THREADING VS MULTIPROCESSING",
+  "definition": "São duas formas de fazer várias tarefas 'ao mesmo tempo', mas usando estratégias diferentes.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Threads são vários garçons na mesma cozinha; processos são cozinhas separadas."
+    ]
+  },
+  "topRight": {
+    "pill": "THREADING",
+    "icon": "🖥️",
+    "bullets": [
+      "Várias tarefas compartilham a mesma memória e o mesmo processo.",
+      "Ótimo para esperar coisas, como internet ou arquivo."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Python: threading.Thread() cria uma linha de execução leve.",
+      "multiprocessing.Process() cria um processo isolado."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Threads: baixar arquivos, chamadas de API, servidores web.",
+      "Processos: processar imagens, treinar modelos, cálculos pesados."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "COMO DECIDIR",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: A tarefa passa mais tempo esperando ou calculando?",
+      "PASSO 2: Se espera (I/O bound), use THREADS.",
+      "PASSO 3: Se calcula (CPU bound), use PROCESSOS."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Usar threads para cálculo pesado em Python não acelera por causa do GIL.",
+      "Processos consomem mais memória, não use à toa."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Espera (rede/disco) ➔ Threading ➔ Rapidez sem travar",
+      "Cálculo pesado ➔ Multiprocessing ➔ Usa todos os núcleos"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Deploy Python",
+  "escola": "03_python_especialista",
+  "foco_pedagogico": "Quando usar I/O bound com threads e quando usar CPU bound com processos"
+}

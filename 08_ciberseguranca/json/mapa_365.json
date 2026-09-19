@@ -1,0 +1,64 @@
+{
+  "id": 365,
+  "title": "INTERCEPÇÃO DE REQUISIÇÕES COM BURP SUITE",
+  "definition": "É um 'carteiro espião' que para sua mensagem no meio do caminho antes de ela chegar ao servidor.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Burp Suite se coloca entre seu navegador e o site para ver tudo que passa."
+    ]
+  },
+  "topRight": {
+    "pill": "PROXY INTERCEPTADOR",
+    "icon": "🖥️",
+    "bullets": [
+      "Navegador envia dados para o Burp em vez de ir direto ao servidor.",
+      "Burp segura a requisição em pausa antes de liberar."
+    ]
+  },
+  "midRight": {
+    "pill": "EDITANDO A REQUISIÇÃO",
+    "icon": "{ }",
+    "bullets": [
+      "Você troca valores como se editasse um texto simples.",
+      "price=100 ➔ price=1"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Testes de segurança em apps web e APIs.",
+      "Usado por pentesters e times de segurança ofensiva."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Navegador manda a requisição pro proxy do Burp",
+      "PASSO 2: Burp congela e mostra pra você editar os dados",
+      "PASSO 3: Você libera e a requisição alterada segue pro servidor"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer o proxy ligado deixa a navegação toda travada.",
+      "Sempre confirme autorização antes de testar um sistema real."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Requisição sai ➔ Burp intercepta e edita ➔ Servidor recebe versão alterada"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Red Team",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "O proxy interceptador que permite alterar requisições antes de chegarem ao servidor"
+}

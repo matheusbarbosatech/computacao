@@ -1,0 +1,63 @@
+{
+  "id": 104,
+  "title": "GETTERS E SETTERS",
+  "definition": "São métodos que controlam a leitura e a alteração dos atributos de um objeto.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "São como portas controladas para acessar o 'cofre' de dados de um objeto."
+    ]
+  },
+  "topRight": {
+    "pill": "GETTER E SETTER",
+    "icon": "🖥️",
+    "bullets": [
+      "Getter: devolve o valor guardado, sem deixar alterar direto.",
+      "Setter: recebe um valor novo e decide se aceita ou recusa."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Atributo fica privado, métodos ficam públicos.",
+      "getIdade() retorna idade; setIdade(x) valida x antes de salvar."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Muito comum em Java, C#, Python e PHP.",
+      "Usado em classes que representam pessoas, contas, produtos etc."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Alguém pede para ler ou mudar um atributo",
+      "PASSO 2: O getter ou setter intercepta o pedido",
+      "PASSO 3: O valor é devolvido ou salvo, se for válido"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Deixar o atributo público e ignorar o setter, quebrando o controle.",
+      "Dica: sempre valide dados dentro do setter antes de salvar."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Atributo privado ➔ porta controlada ➔ dado seguro e validado"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "POO",
+  "foco_pedagogico": "Portas controladas para ler e alterar atributos"
+}

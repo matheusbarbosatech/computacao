@@ -1,0 +1,64 @@
+{
+  "id": 243,
+  "title": "TESTES AUTOMATIZADOS DE API COM PYTEST E TESTCLIENT",
+  "definition": "É um robô que testa sua API sozinho, antes de qualquer pessoa usar.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Um código que chama sua API e confere se a resposta é a esperada."
+    ]
+  },
+  "topRight": {
+    "pill": "TESTCLIENT",
+    "icon": "🖥️",
+    "bullets": [
+      "Simula um usuário fazendo requisições, sem precisar de servidor rodando.",
+      "Funciona com FastAPI, Flask e outros frameworks Python."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Toda função de teste começa com 'test_'.",
+      "def test_get_usuario(): response = client.get('/usuarios/1'); assert response.status_code == 200"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Antes de cada deploy, em pipelines de CI/CD.",
+      "FastAPI, Django, Flask com pytest e httpx."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você escreve o resultado esperado de cada endpoint",
+      "PASSO 2: O pytest roda todas as chamadas automaticamente",
+      "PASSO 3: Se algo quebrou, o teste falha e avisa antes do deploy"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de testar erros, só testar o caminho 'feliz'.",
+      "Dica de ouro: rode os testes sempre antes de subir código novo."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Escrever teste ➔ Rodar pytest ➔ Deploy seguro sem surpresas"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "APIs Python",
+  "escola": "03_python_especialista",
+  "foco_pedagogico": "Garantindo que nenhum deploy quebre endpoints existentes"
+}

@@ -1,0 +1,64 @@
+{
+  "id": 472,
+  "title": "PATTERN BUILDER: CONSTRUINDO OBJETOS COMPLEXOS PASSO A PASSO",
+  "definition": "Builder é uma forma de montar um objeto complicado dando um passo de cada vez, em vez de tudo de uma vez.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como montar um sanduíche: você escolhe pão, depois carne, depois molho, um item por vez."
+    ]
+  },
+  "topRight": {
+    "pill": "PROBLEMA QUE RESOLVE",
+    "icon": "🖥️",
+    "bullets": [
+      "Evita construtor com 15 parâmetros opcionais difícil de ler e usar.",
+      "Deixa claro qual valor é qual, sem precisar contar posição."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Cada método do builder define uma parte e devolve o próprio builder.",
+      "new PizzaBuilder().tamanho('G').borda('catupiry').build()"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Montar consultas SQL, requisições HTTP, configurações de objetos.",
+      "Comum em Java, C#, JavaScript e bibliotecas de UI."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você cria um builder vazio",
+      "PASSO 2: Você chama métodos definindo cada parte, um a um",
+      "PASSO 3: Você chama build() e recebe o objeto pronto"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de chamar build() no final e usar o builder por engano.",
+      "Dica: se um objeto tem muitos parâmetros opcionais, é hora de usar Builder."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Builder vazio ➔ Define partes passo a passo ➔ Objeto completo e legível"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Patterns",
+  "escola": "04_backend_e_apis",
+  "foco_pedagogico": "Evitando construtores gigantes com 15 parâmetros opcionais"
+}

@@ -1,0 +1,63 @@
+{
+  "id": 11,
+  "title": "TIPOS PRIMITIVOS: NÚMEROS DECIMAIS",
+  "definition": "É o tipo de dado usado para guardar números com vírgula, como preços e medidas.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Serve para representar valores 'quebrados', com parte inteira e decimal."
+    ]
+  },
+  "topRight": {
+    "pill": "FLOAT NA MEMÓRIA",
+    "icon": "🖥️",
+    "bullets": [
+      "O computador guarda decimais em binário, e isso gera imprecisão.",
+      "Nem todo número decimal tem representação exata na memória."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Use ponto, não vírgula, para separar as casas decimais.",
+      "preco = 19.90"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Preços de produtos, notas escolares, medidas de peso e altura.",
+      "Tipos comuns: float (Python/Java), double (mais precisão)."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você digita um número com vírgula, ex: 9,99",
+      "PASSO 2: O programa converte para ponto: 9.99",
+      "PASSO 3: O valor é guardado como número decimal (float)"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "0.1 + 0.2 pode dar 0.30000000000000004, não 0.3 exato.",
+      "Nunca compare floats com '==' para somas de dinheiro."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Valor com vírgula ➔ Guardado como float ➔ Pode ter erro de precisão"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Lógica",
+  "foco_pedagogico": "Preços, medidas e ponto flutuante (float)"
+}

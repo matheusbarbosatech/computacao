@@ -1,0 +1,66 @@
+{
+  "id": 661,
+  "title": "PENSAMENTO COMPUTACIONAL: OS 4 PILARES MENTAIS",
+  "definition": "É a forma de pensar que quebra problemas grandes em passos simples que qualquer pessoa ou máquina pode seguir.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Não é saber programar: é saber pensar como um resolvedor de problemas.",
+      "Você usa isso ao organizar uma mudança de casa ou uma receita de bolo."
+    ]
+  },
+  "topRight": {
+    "pill": "DECOMPOSIÇÃO",
+    "icon": "🧩",
+    "bullets": [
+      "Dividir o problemão em partes pequenas e fáceis de atacar uma por uma.",
+      "Exemplo: fazer um site vira escolher cores, montar menu e criar botão."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Um algoritmo é uma lista ordenada de instruções sem ambiguidade.",
+      "passo1 ➔ passo2 ➔ se(chover) guardaChuva ➔ fim"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Planejar tarefas, criar apps, organizar dados e automatizar tarefas repetitivas.",
+      "Python, JavaScript, Excel, robótica e até organização da rotina diária."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: DECOMPOR: quebre o problema em partes menores.",
+      "PASSO 2: PADRÃO: ache o que se repete nas partes.",
+      "PASSO 3: ABSTRAIR: ignore detalhes e guarde o essencial.",
+      "PASSO 4: ALGORITMO: escreva os passos na ordem certa."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Querer resolver tudo de uma vez e travar sem começar.",
+      "Dica de ouro: resolva um pedacinho por dia e teste sempre."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Dividir ➔ Achar padrões ➔ Simplificar ➔ Criar os passos ➔ Problema resolvido."
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Prática Dev",
+  "escola": "02_logica_e_algoritmos",
+  "foco_pedagogico": "Os 4 pilares mentais para resolver qualquer desafio do mundo real com tecnologia"
+}

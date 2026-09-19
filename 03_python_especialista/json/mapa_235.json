@@ -1,0 +1,64 @@
+{
+  "id": 235,
+  "title": "TIPAGEM ESTÁTICA (TYPE HINTS) E MYPY",
+  "definition": "É avisar o tipo de cada variável antes de rodar o código, pra pegar erros mais cedo.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como rotular caixas antes de guardar as coisas dentro delas."
+    ]
+  },
+  "topRight": {
+    "pill": "PYTHON DINÂMICO",
+    "icon": "🖥️",
+    "bullets": [
+      "Python normalmente só descobre o tipo quando o código já está rodando.",
+      "Type hints avisam o tipo antes, mesmo sem travar a execução."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Escreva ': tipo' depois do nome da variável ou parâmetro.",
+      "def somar(a: int, b: int) -> int: return a + b"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Projetos grandes em Python, APIs e times que trabalham juntos.",
+      "Ferramentas: MyPy, Pyright, editores como VS Code."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você escreve o código com os tipos indicados.",
+      "PASSO 2: O MyPy lê o código sem executá-lo e confere os tipos.",
+      "PASSO 3: Ele mostra erros de tipo antes do programa rodar."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Type hints não travam o código, Python ainda roda mesmo com tipo errado.",
+      "Dica de ouro: sempre rode o MyPy antes de confiar no código."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Indicar tipo ➔ MyPy confere ➔ Bug encontrado antes de executar."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "POO Python",
+  "escola": "03_python_especialista",
+  "foco_pedagogico": "Prevenindo bugs antes da execução indicando tipos nas variáveis"
+}

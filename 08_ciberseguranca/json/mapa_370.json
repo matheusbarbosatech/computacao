@@ -1,0 +1,64 @@
+{
+  "id": 370,
+  "title": "ATAQUES DE NEGAÇÃO DE SERVIÇO (DoS vs DDoS)",
+  "definition": "É lotar um serviço de pedidos falsos até ele travar e parar de atender pedidos reais.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Imagine uma loja com 1 caixa e 1000 pessoas fingindo comprar só para travar a fila."
+    ]
+  },
+  "topRight": {
+    "pill": "DoS vs DDoS",
+    "icon": "🖥️",
+    "bullets": [
+      "DoS: um único atacante, um único computador atacando.",
+      "DDoS: um exército de computadores infectados (botnet) atacando juntos."
+    ]
+  },
+  "midRight": {
+    "pill": "SYN FLOOD E UDP FLOOD",
+    "icon": "{ }",
+    "bullets": [
+      "SYN Flood: começa milhares de 'apertos de mão' TCP e nunca termina nenhum.",
+      "UDP Flood: envia lixo de dados UDP para entupir a banda da rede."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE ISSO ACONTECE",
+    "icon": "</>",
+    "bullets": [
+      "Servidores web, jogos online, bancos e provedores de internet.",
+      "Ferramentas de defesa: firewalls, WAF, Cloudflare, AWS Shield."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO DO ATAQUE",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Atacante controla vários dispositivos infectados (botnet)",
+      "PASSO 2: Todos enviam tráfego falso ao mesmo tempo para o alvo",
+      "PASSO 3: Servidor esgota memória, banda ou processamento e cai"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Confundir DDoS com invasão: aqui não roubam dados, só travam o serviço.",
+      "Achar que é só volume: ataque de camada 7 (aplicação) usa poucos pedidos, mas 'pesados'."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Tráfego falso em massa ➔ Recursos do servidor esgotam ➔ Serviço fica indisponível"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Red Team",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "Inundação volumétrica (SYN Flood, UDP Flood) e ataques em camada de aplicação"
+}

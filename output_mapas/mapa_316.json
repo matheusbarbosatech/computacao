@@ -1,0 +1,64 @@
+{
+  "id": 316,
+  "title": "AWS RDS: BANCO DE DADOS RELACIONAL GERENCIADO",
+  "definition": "É um serviço da Amazon que cuida do seu banco de dados (Postgres, MySQL etc.) enquanto você só usa ele.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como alugar um apartamento mobiliado: você mora, a AWS cuida da manutenção."
+    ]
+  },
+  "topRight": {
+    "pill": "GERENCIADO DE VERDADE",
+    "icon": "🖥️",
+    "bullets": [
+      "A AWS instala o sistema operacional e o banco pra você.",
+      "Você nunca acessa o servidor, só o banco de dados."
+    ]
+  },
+  "midRight": {
+    "pill": "CONECTANDO NO BANCO",
+    "icon": "{ }",
+    "bullets": [
+      "Você usa o mesmo comando de sempre, só troca o endereço.",
+      "psql -h meubanco.rds.amazonaws.com -U admin -d loja"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Sites, apps e sistemas que precisam guardar dados com segurança.",
+      "Suporta Postgres, MySQL, MariaDB, SQL Server e Oracle."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "COMO FUNCIONA NA PRÁTICA",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você escolhe o motor (Postgres ou MySQL) e o tamanho da máquina",
+      "PASSO 2: A AWS cria backups automáticos todos os dias sem você pedir",
+      "PASSO 3: Se algo falhar, a réplica assume e ninguém percebe a queda"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que backup automático guarda pra sempre: tem prazo de retenção.",
+      "Confundir réplica de leitura com backup de segurança, são coisas diferentes."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Você cria o banco ➔ AWS cuida do SO e backup ➔ Você só usa os dados"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Cloud",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Postgres e MySQL com backups automáticos, replicação e sem cuidar de SO"
+}

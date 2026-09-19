@@ -1,0 +1,64 @@
+{
+  "id": 323,
+  "title": "O CICLO TERRAFORM: INIT, PLAN, APPLY E DESTROY",
+  "definition": "É a receita de 4 passos para criar, ajustar e apagar recursos na nuvem com segurança.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Você descreve a nuvem que quer em um arquivo, e o Terraform constrói exatamente isso."
+    ]
+  },
+  "topRight": {
+    "pill": "INIT: PREPARAÇÃO",
+    "icon": "🖥️",
+    "bullets": [
+      "Baixa os plugins necessários para falar com a nuvem escolhida.",
+      "Só precisa rodar de novo se mudar de provedor ou módulo."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Cada comando é digitado direto no terminal, em ordem.",
+      "terraform init / plan / apply / destroy"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Para criar servidores, bancos de dados e redes na AWS, Azure ou GCP.",
+      "Ferramentas: Terraform, OpenTofu, Terragrunt."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: INIT prepara o ambiente e baixa as ferramentas",
+      "PASSO 2: PLAN mostra um rascunho de tudo que vai mudar",
+      "PASSO 3: APPLY executa o rascunho e cria de verdade"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Rodar APPLY sem ler o PLAN antes é como assinar um contrato sem ler.",
+      "DESTROY apaga tudo, sem pedir confirmação extra depois de aceitar."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Escrever código ➔ Ver o preview no PLAN ➔ Aplicar com APPLY"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "IaC",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Verificando o que vai mudar antes de aplicar as alterações na nuvem"
+}

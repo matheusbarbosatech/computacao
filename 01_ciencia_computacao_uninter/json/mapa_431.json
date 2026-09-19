@@ -1,0 +1,67 @@
+{
+  "id": 431,
+  "title": "COMUNICAÇÃO INTERPROCESSOS (IPC)",
+  "definition": "IPC é o jeito de programas diferentes trocarem mensagens entre si, mesmo rodando separados.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Processos são como pessoas em salas separadas que precisam se falar de algum jeito."
+    ]
+  },
+  "topRight": {
+    "pill": "TIPOS DE IPC",
+    "icon": "🖥️",
+    "bullets": [
+      "Pipe: um tubo que liga a saída de um processo à entrada de outro.",
+      "Socket: uma linha telefônica entre programas, até em máquinas diferentes.",
+      "Memória Compartilhada: uma quadro-negro que todos podem ler e escrever."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Pipe liga só processos parentes, na mesma máquina.",
+      "os.pipe() ou comando | no terminal.",
+      "socket.connect((host, porta)) para conversar à distância."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Comando 'ls | grep nome' usa pipe no Linux.",
+      "Chat e navegador usam sockets para internet.",
+      "Bancos de dados rápidos usam memória compartilhada."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Um processo escreve uma mensagem no canal escolhido",
+      "PASSO 2: O sistema operacional entrega ou guarda essa mensagem",
+      "PASSO 3: Outro processo lê e usa a mensagem recebida"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de sincronizar memória compartilhada causa dados corrompidos.",
+      "Dica: sempre combine um sinal de 'terminei de escrever' entre os processos."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Processo A escreve ➔ Canal (pipe/socket/memória) ➔ Processo B lê"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "SO",
+  "escola": "01_ciencia_computacao_uninter",
+  "foco_pedagogico": "Como processos independentes trocam mensagens de forma coordenada"
+}

@@ -1,0 +1,64 @@
+{
+  "id": 315,
+  "title": "AWS SECURITY GROUPS E NETWORK ACLS",
+  "definition": "São os firewalls virtuais que decidem quem pode entrar e sair das suas instâncias na nuvem.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "São como seguranças de prédio: um na porta do apartamento, outro na porta do condomínio."
+    ]
+  },
+  "topRight": {
+    "pill": "SECURITY GROUP",
+    "icon": "🖥️",
+    "bullets": [
+      "Age na porta da instância (nível de EC2), é 'stateful'.",
+      "Se a entrada é liberada, a resposta de saída é liberada automaticamente."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Regra básica: Tipo, Porta, Protocolo e Origem.",
+      "Ex: SSH, TCP, porta 22, origem 200.1.1.1/32"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Proteger EC2, RDS, Load Balancers e outros recursos da AWS.",
+      "Configurado via Console AWS, Terraform ou CloudFormation."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Pacote de dados tenta entrar na rede (subnet)",
+      "PASSO 2: Network ACL analisa a regra numerada e permite ou nega",
+      "PASSO 3: Security Group checa a regra da instância antes de entregar o pacote"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer que NACL é 'stateless': tem que liberar entrada E saída manualmente.",
+      "Achar que Security Group bloqueia por regra: ele só tem regras de permissão."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Tráfego chega ➔ NACL filtra a subnet ➔ Security Group filtra a instância"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Cloud",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Os firewalls virtuais que controlam quem entra e sai das suas instâncias"
+}

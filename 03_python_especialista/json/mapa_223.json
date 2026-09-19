@@ -1,0 +1,64 @@
+{
+  "id": 223,
+  "title": "NAVEGAÇÃO AUTOMATIZADA COM SELENIUM WEBDRIVER",
+  "definition": "É controlar um navegador de internet usando código, como se um robô clicasse e digitasse por você.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Selenium finge ser uma pessoa usando o site, mas quem manda é o código."
+    ]
+  },
+  "topRight": {
+    "pill": "AGUARDANDO ELEMENTOS",
+    "icon": "🖥️",
+    "bullets": [
+      "O site demora a carregar, então o robô precisa esperar antes de agir.",
+      "Sem espera, o código tenta clicar em algo que ainda não existe."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "WebDriverWait espera até um elemento aparecer na tela.",
+      "wait.until(EC.presence_of_element_located((By.ID, 'login')))"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Testar sites automaticamente antes de lançar no ar.",
+      "Usado com Python, Java, C# e navegadores como Chrome e Firefox."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Abrir o navegador e a página desejada",
+      "PASSO 2: Esperar o campo aparecer e preencher o formulário",
+      "PASSO 3: Clicar em enviar e confirmar o resultado"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Usar time.sleep() fixo trava o robô sem necessidade e é lento.",
+      "Dica: prefira sempre esperas inteligentes (WebDriverWait) às esperas fixas."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Esperar elemento ➔ Preencher campo ➔ Enviar formulário"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Web Scraping",
+  "escola": "03_python_especialista",
+  "foco_pedagogico": "Preenchendo formulários, lidando com JavaScript e aguardando elementos"
+}

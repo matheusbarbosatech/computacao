@@ -1,0 +1,72 @@
+{
+  "id": 531,
+  "title": "NEXT.JS APP ROUTER: PASTAS QUE VIRAM PÁGINAS",
+  "definition": "No Next.js moderno, cada pasta dentro de app/ vira automaticamente uma rota do seu site.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "A estrutura de pastas do projeto É o mapa do seu site.",
+      "Criar pasta = criar endereço. Sem configurar rotas na mão."
+    ]
+  },
+  "topRight": {
+    "pill": "ROTEAMENTO POR PASTAS",
+    "icon": "🖥️",
+    "bullets": [
+      "O Next lê as pastas de app/ e monta a árvore de rotas sozinho.",
+      "Nome da pasta vira o nome da URL, exatamente como você escreveu.",
+      "page.tsx é o arquivo que diz: aqui existe uma página de verdade."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Cada page.tsx exporta um componente React e vira uma tela.",
+      "layout.tsx envolve as páginas filhas e recebe children.",
+      "app/dashboard/page.tsx  ->  site.com/dashboard",
+      "app/dashboard/loading.tsx -> aparece enquanto carrega"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Todo site profissional feito com Next.js 13 ou superior.",
+      "Bom para blogs, lojas, painéis e sistemas internos.",
+      "Ferramentas: Next.js, React, TypeScript, Vercel, Tailwind."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Crie a pasta app/ e dentro dela a pasta da rota, ex: sobre/",
+      "PASSO 2: Adicione page.tsx com o texto que aparece na tela.",
+      "PASSO 3: Se quiser, adicione layout.tsx e loading.tsx na mesma pasta.",
+      "PASSO 4: Abra site.com/sobre. O Next encontra e monta tudo automaticamente."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Pasta sem page.tsx não gera rota: o endereço dá erro 404.",
+      "layout.tsx sem children quebra a página inteira.",
+      "loading.tsx sozinho não cria página: ele só funciona com page.tsx.",
+      "Evite maiúsculas e espaços no nome das pastas para não confundir a URL."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Pasta app/ ➔ page.tsx = rota ➔ layout.tsx e loading.tsx melhoram a experiência"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Next.js",
+  "escola": "05_frontend_e_mobile",
+  "foco_pedagogico": "Rotas baseadas em diretórios com layout.tsx, page.tsx e loading.tsx"
+}

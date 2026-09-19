@@ -1,0 +1,63 @@
+{
+  "id": 187,
+  "title": "ÍNDICES: O SUMÁRIO QUE EVITA LER O LIVRO TODO",
+  "definition": "Índice é uma lista organizada que aponta direto onde a informação está, sem precisar procurar página por página.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como o sumário de um livro: você vai direto ao capítulo certo."
+    ]
+  },
+  "topRight": {
+    "pill": "SEM ÍNDICE",
+    "icon": "🖥️",
+    "bullets": [
+      "O banco de dados lê linha por linha até achar o que você quer.",
+      "Isso se chama 'full scan', e é lento em tabelas grandes."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Cria-se um índice numa coluna usada em buscas frequentes.",
+      "CREATE INDEX idx_nome ON clientes(nome);"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Bancos de dados como MySQL, PostgreSQL e MongoDB.",
+      "Em buscas, filtros (WHERE) e ordenações (ORDER BY)."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você pede um dado específico (ex: cliente 'Ana').",
+      "PASSO 2: O sistema consulta o índice, igual olha o sumário do livro.",
+      "PASSO 3: Ele pula direto pro lugar certo e entrega o resultado."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Criar índice em toda coluna deixa as escritas (INSERT) mais lentas.",
+      "Índice só ajuda se a busca realmente usar essa coluna."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Busca sem índice ➔ Lê tudo ➔ Lento. Com índice ➔ Vai direto ➔ Rápido."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "BancoDados",
+  "foco_pedagogico": "O sumário do livro que evita ler tudo"
+}

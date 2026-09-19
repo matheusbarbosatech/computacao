@@ -1,0 +1,67 @@
+{
+  "id": 534,
+  "title": "OTIMIZAÇÃO DE IMAGENS E FONTES COM NEXT/IMAGE E NEXT/FONT",
+  "definition": "Recursos do Next.js que entregam imagens leves em WebP e fontes sem piscar, evitando que o layout pule na tela.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "A imagem certa, no tamanho certo, na hora certa: sem susto visual para quem usa."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O NAVEGADOR RECEBE",
+    "icon": "🖥️",
+    "bullets": [
+      "next/image gera vários tamanhos e converte para WebP automaticamente.",
+      "next/font baixa a fonte no build e serve do seu próprio domínio.",
+      "CLS é o quanto a tela pula; reservar espaço resolve isso."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Regra de ouro: largura, altura e alt são obrigatórios na Image.",
+      "<Image src=\"/foto.jpg\" width={600} height={400} alt=\"Foto\" />",
+      "const inter = Inter({ subsets: [\"latin\"] })"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Cards de produto, avatares, banners, hero e logos do site.",
+      "Funciona no App Router e no Pages Router do Next.js."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você escreve Image com largura e altura definidas.",
+      "PASSO 2: O Next.js otimiza no build: WebP, srcset e tamanhos.",
+      "PASSO 3: O navegador baixa só o tamanho exato e nada pula."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer width e height: a página treme ao carregar.",
+      "Usar img puro e perder WebP automático e srcset responsivo.",
+      "Dica de ouro: sempre pergunte 'que tamanho isso ocupa?' antes de codar."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "next/image + next/font ➔ WebP e tamanhos automáticos ➔ CLS quase zero."
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Next.js",
+  "escola": "05_frontend_e_mobile",
+  "foco_pedagogico": "Evitando Layout Shifts e gerando imagens WebP responsivas automaticamente"
+}

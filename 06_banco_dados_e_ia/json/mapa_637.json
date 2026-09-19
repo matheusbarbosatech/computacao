@@ -1,0 +1,66 @@
+{
+  "id": 637,
+  "title": "FINE-TUNING DE LLMs COM LoRA E QLoRA",
+  "definition": "Fine-tuning é ensinar uma IA já treinada a falar uma nova língua — como jargão médico ou jurídico — gastando pouco poder de computação.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como dar um curso intensivo para um tradutor que já sabe 50 línguas — você só ensina os termos do hospital ou do tribunal, sem fazer ele reaprender a falar português do zero."
+    ]
+  },
+  "topRight": {
+    "pill": "LoRA E QLoRA",
+    "icon": "🖥️",
+    "bullets": [
+      "LoRA: Adiciona pequenas matrizes de ajuste ao modelo original. Os pesos principais ficam congelados — só os adaptadores novos aprendem.",
+      "QLoRA: Mesma ideia, mas comprime os números do modelo para 4 bits. Cabe na sua placa de vídeo doméstica sem chorar."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Quanto menor o rank (r), mais leve o treino. Configure r=8 ou r=16 para começar.",
+      "from peft import LoraConfig → config = LoraConfig(r=8, lora_alpha=16, target_modules=[\"q_proj\", \"v_proj\"])",
+      "QLoRA ativado: BitsAndBytesConfig(load_in_4bit=True) + mesma LoraConfig."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Hugging Face (bibliotecas transformers + peft + bitsandbytes) — o mais famoso.",
+      "Unsloth: treina LoRA até 2x mais rápido com menos memória.",
+      "Plataformas no-code: Replicate e Monster API aceitam upload de LoRA pronto."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Monte um dataset com frases reais da área — laudos médicos ou petições jurídicas com perguntas e respostas.",
+      "PASSO 2: Carregue o modelo base (ex: Llama 3 ou Mistral) com quantização 4-bit e aplique os adaptadores LoRA.",
+      "PASSO 3: Treine por algumas horas em GPU consumer. Pronto: a IA agora entende termos como 'apendicectomia' ou 'agravo de instrumento' com precisão."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Erro clássico: dataset muito pequeno (menos de 100 exemplos) — o modelo decora em vez de aprender.",
+      "Dica de ouro: Sempre teste o modelo ajustado com perguntas que NÃO estavam no dataset de treino. Se acertar, o fine-tuning funcionou de verdade."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Modelo base congelado ➔ Adaptadores LoRA aprendem jargão ➔ Resultado: IA especialista em medicina ou direito rodando no seu notebook."
+    ]
+  },
+  "_modelo_usado": "devworld/deepseek-v4-pro-0813-f",
+  "modulo": "IA Generativa",
+  "escola": "06_banco_dados_e_ia",
+  "foco_pedagogico": "Ajustando os pesos de uma LLM para especializá-la em jargões médicos ou jurídicos"
+}

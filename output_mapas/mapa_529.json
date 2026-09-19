@@ -1,0 +1,64 @@
+{
+  "id": 529,
+  "title": "FORMULÁRIOS DE ALTA PERFORMANCE COM REACT HOOK FORM E ZOD",
+  "definition": "React Hook Form cuida dos campos com poucas renderizações, e o Zod valida tudo de uma vez usando um esquema único.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Você descreve as regras dos campos no Zod (tipo, tamanho, obrigatório) e o React Hook Form aplica tudo automaticamente."
+    ]
+  },
+  "topRight": {
+    "pill": "POR QUE É RÁPIDO",
+    "icon": "🖥️",
+    "bullets": [
+      "React Hook Form usa refs em vez de estado, então o componente não renderiza de novo a cada tecla digitada.",
+      "O Zod valida todos os campos de uma só vez com um esquema, sem ficar checando campo por campo manualmente."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Você cria um schema com z.object({ nome: z.string().min(3), idade: z.number() }) e conecta ao useForm com o resolver do Zod.",
+      "const { register, handleSubmit } = useForm({ resolver: zodResolver(meuSchema) })"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Em qualquer formulário React: cadastro, login, checkout, pesquisas, dashboards.",
+      "Funciona com React (web) e React Native (mobile). O mesmo schema Zod pode ser reaproveitado no front e no back."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O schema Zod define o formato esperado dos dados (ex: e-mail válido, senha com 8+ caracteres).",
+      "PASSO 2: O usuário preenche e clica em enviar. O resolver do Zod compara tudo com o schema em milissegundos.",
+      "PASSO 3: Se passar, os dados chegam limpos e tipados na função onSubmit. Se falhar, os erros aparecem direto nos campos."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de instalar o @hookform/resolvers faz o resolver zodResolver não funcionar.",
+      "Não usar o mode do useForm (ex: mode: 'onBlur') pode fazer a validação disparar tarde demais ou cedo demais."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Schema Zod ➔ Resolver conecta ➔ useForm gerencia ➔ Dados validados e tipados sem esforço manual."
+    ]
+  },
+  "_modelo_usado": "devworld/deepseek-v4-pro-0813-f",
+  "modulo": "React",
+  "escola": "05_frontend_e_mobile",
+  "foco_pedagogico": "Validação ultrarrápida de dados com validação de esquema unificada"
+}

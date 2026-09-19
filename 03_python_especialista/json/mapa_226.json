@@ -1,0 +1,64 @@
+{
+  "id": 226,
+  "title": "EXTRAÇÃO DE DADOS COM EXPRESSÕES REGULARES (RE)",
+  "definition": "Regex é um detetive de textos que encontra padrões escondidos, como CPFs, telefones e e-mails.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Regex é uma receita de busca que descreve como o dado 'se parece', não o valor exato."
+    ]
+  },
+  "topRight": {
+    "pill": "MÓDULO RE",
+    "icon": "🖥️",
+    "bullets": [
+      "Python usa a biblioteca 're' para ler o texto e comparar com o padrão criado.",
+      "O padrão é escrito como uma string com símbolos especiais."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "\\d captura número, {n} repete n vezes, [] define opções de caractere.",
+      "re.findall(r'\\d{3}\\.\\d{3}\\.\\d{3}-\\d{2}', texto) # pega CPF"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Validar formulários, limpar planilhas e extrair dados de documentos.",
+      "Usado em Python, JavaScript, Java e ferramentas como grep."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você define o padrão do que quer achar (CPF, telefone, e-mail)",
+      "PASSO 2: O 're' varre o texto procurando trechos parecidos",
+      "PASSO 3: Retorna os trechos encontrados como uma lista"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer o 'r' antes da string faz a barra invertida virar bagunça.",
+      "Padrão muito genérico captura lixo, muito específico não acha nada."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Padrão definido ➔ 're' escaneia o texto ➔ dados extraídos (CPF/telefone/e-mail)"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Web Scraping",
+  "escola": "03_python_especialista",
+  "foco_pedagogico": "Capturando CPFs, telefones e e-mails com padrões de Regex"
+}

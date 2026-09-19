@@ -1,0 +1,64 @@
+{
+  "id": 378,
+  "title": "FORENSE DIGITAL E CADEIA DE CUSTÓDIA",
+  "definition": "É o processo de coletar e proteger provas digitais para que elas continuem válidas e confiáveis num tribunal.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como embalar uma prova de crime: se violar o lacre, ela perde valor no julgamento."
+    ]
+  },
+  "topRight": {
+    "pill": "CADEIA DE CUSTÓDIA",
+    "icon": "🖥️",
+    "bullets": [
+      "Registro de quem tocou na evidência, quando e por quê, do início ao fim.",
+      "Qualquer falha nesse histórico pode anular a prova."
+    ]
+  },
+  "midRight": {
+    "pill": "HASH: A IMPRESSÃO DIGITAL",
+    "icon": "{ }",
+    "bullets": [
+      "Um código único gerado a partir do arquivo, prova que nada foi alterado.",
+      "sha256sum evidencia.img"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Investigação de crimes, perícia policial e casos judiciais.",
+      "Ferramentas: Autopsy, FTK, EnCase."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO DA PERÍCIA",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Isolar o dispositivo e gerar uma cópia exata (imagem forense)",
+      "PASSO 2: Calcular o hash da cópia para comprovar integridade",
+      "PASSO 3: Analisar a cópia, nunca o original, e documentar tudo"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Analisar o dispositivo original destrói a prova para o tribunal.",
+      "Dica de ouro: documente cada passo, sem registro não existe prova."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Coletar com cuidado ➔ Provar que não mudou ➔ Prova aceita na justiça"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Blue Team",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "Preservando evidências digitais para terem validade jurídica em tribunais"
+}

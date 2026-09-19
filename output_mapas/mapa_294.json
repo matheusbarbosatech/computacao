@@ -1,0 +1,64 @@
+{
+  "id": 294,
+  "title": "DOCKER COMPOSE: ORQUESTRANDO MÚLTIPLOS SERVIÇOS",
+  "definition": "Docker Compose liga vários containers juntos e os liga com um único comando.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É a receita que descreve todos os 'aparelhos' da sua cozinha e como ligá-los juntos."
+    ]
+  },
+  "topRight": {
+    "pill": "SERVIÇOS COMO PEÇAS",
+    "icon": "🖥️",
+    "bullets": [
+      "Cada serviço é um container: API, banco de dados, Redis.",
+      "Compose cria uma rede interna para eles se falarem."
+    ]
+  },
+  "midRight": {
+    "pill": "ARQUIVO YAML",
+    "icon": "{ }",
+    "bullets": [
+      "Tudo fica no docker-compose.yml, um arquivo de texto.",
+      "services: api: build: . / db: image: postgres"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Ambiente de desenvolvimento local sem instalar nada na máquina.",
+      "Projetos com API + Postgres + Redis + Nginx."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você escreve os serviços no docker-compose.yml",
+      "PASSO 2: Roda 'docker compose up' e o Docker lê o arquivo",
+      "PASSO 3: API, banco e Redis sobem juntos e já se conectam"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Usar 'localhost' entre containers não funciona, use o nome do serviço.",
+      "Esquecer 'depends_on' faz a API subir antes do banco estar pronto."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Arquivo YAML ➔ docker compose up ➔ API, DB e Redis rodando juntos."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Docker",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Subindo API, Banco de Dados e Redis com um único comando docker compose up"
+}

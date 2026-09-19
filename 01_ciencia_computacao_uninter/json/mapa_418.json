@@ -1,0 +1,64 @@
+{
+  "id": 418,
+  "title": "CIRCUITOS COMBINACIONAIS: SOMADORES, MULTIPLEXADORES E DECODIFICADORES",
+  "definition": "São blocos feitos de portas lógicas combinadas para calcular, escolher ou traduzir sinais binários.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Juntar portas lógicas simples cria blocos que resolvem tarefas maiores."
+    ]
+  },
+  "topRight": {
+    "pill": "SOMADOR (ADDER)",
+    "icon": "🖥️",
+    "bullets": [
+      "Soma dois bits e gera resultado mais o 'vai um' (carry).",
+      "Vários somadores em fila formam contas com números grandes."
+    ]
+  },
+  "midRight": {
+    "pill": "MUX E DECODER",
+    "icon": "{ }",
+    "bullets": [
+      "MUX escolhe 1 entrada entre várias, usando bits de seleção.",
+      "Decoder liga apenas 1 saída, conforme o código de entrada."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Processadores usam somadores para fazer cálculos matemáticos.",
+      "Memórias RAM usam decoders para escolher o endereço certo."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Bits entram no circuito combinacional",
+      "PASSO 2: Portas lógicas processam tudo ao mesmo tempo",
+      "PASSO 3: Saída aparece na hora, sem guardar memória"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que o circuito 'lembra' algo: ele não guarda estado, só calcula.",
+      "Esquecer o carry: sem ele, somas com números grandes ficam erradas."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Bits de entrada ➔ Portas combinadas ➔ Resultado imediato na saída"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Hardware",
+  "escola": "01_ciencia_computacao_uninter",
+  "foco_pedagogico": "Construindo blocos de cálculo unindo portas lógicas"
+}

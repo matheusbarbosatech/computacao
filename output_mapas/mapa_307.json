@@ -1,0 +1,64 @@
+{
+  "id": 307,
+  "title": "HEALTH CHECKS: LIVENESS E READINESS PROBES",
+  "definition": "São perguntas que o Kubernetes faz sem parar para saber se sua aplicação está viva e pronta para trabalhar.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como um enfermeiro checando o pulso do paciente de tempos em tempos."
+    ]
+  },
+  "topRight": {
+    "pill": "LIVENESS PROBE",
+    "icon": "🖥️",
+    "bullets": [
+      "Pergunta: 'você travou?'. Se não responder, o K8s mata e reinicia o pod.",
+      "Serve pra corrigir travamentos internos tipo deadlock ou loop infinito."
+    ]
+  },
+  "midRight": {
+    "pill": "READINESS PROBE",
+    "icon": "{ }",
+    "bullets": [
+      "Pergunta: 'você está pronto pra receber tráfego?'.",
+      "livenessProbe: httpGet path: /health port: 8080"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Deployments no Kubernetes de qualquer app web ou API.",
+      "Configurado no YAML do Pod ou Deployment."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: K8s bate na rota de health check a cada X segundos",
+      "PASSO 2: App responde OK (200) ou falha (erro/timeout)",
+      "PASSO 3: Se falhar liveness, reinicia o pod; se falhar readiness, tira do tráfego"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Confundir os dois probes e reiniciar o pod à toa quando só faltava esperar carregar.",
+      "Dica de ouro: use readiness pra inicialização lenta e liveness só pra travamento real."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Pod trava ➔ Liveness falha ➔ K8s reinicia o pod sozinho"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Kubernetes",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Ensinando o K8s a saber se a aplicação travou para reiniciá-la na hora"
+}

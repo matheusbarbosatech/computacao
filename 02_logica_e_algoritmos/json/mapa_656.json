@@ -1,0 +1,64 @@
+{
+  "id": 656,
+  "title": "PADRÃO MONOTONIC STACK (PILHA MONOTÔNICA)",
+  "definition": "Uma pilha que guarda índices em ordem crescente ou decrescente para achar o próximo elemento maior em O(n).",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É uma pilha comum, mas você a mantém sempre ordenada antes de guardar algo nela."
+    ]
+  },
+  "topRight": {
+    "pill": "PILHA DECRESCENTE",
+    "icon": "🖥️",
+    "bullets": [
+      "O computador varre o array uma vez e remove da pilha quem já achou seu maior.",
+      "Quem sobra na pilha até o fim não tem elemento maior à direita e recebe -1."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Enquanto o topo da pilha for menor que o número atual, ele sai e o atual é a resposta.",
+      "while stack and nums[stack[-1]] < nums[i]: idx = stack.pop(); res[idx] = nums[i]"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Achar próximo maior, próximo menor, área de histograma e dias mais quentes.",
+      "LeetCode 739, 496, 503 e 84; funciona em Python, C++, Java e JavaScript."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Percorra o array da esquerda para a direita, um número por vez.",
+      "PASSO 2: Compare o número atual com o topo da pilha e desempilhe todos os menores.",
+      "PASSO 3: Empilhe o índice atual e siga; cada índice entra e sai só uma vez."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Usar dois loops aninhados, resolver o problema e cair em O(n²) sem perceber.",
+      "Guardar valores em vez de índices: depois não se sabe onde escrever a resposta."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Pilha com índices ➔ desempilha os menores ➔ próximo maior em O(n)"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "LeetCode",
+  "escola": "02_logica_e_algoritmos",
+  "foco_pedagogico": "Encontrando o próximo elemento maior à direita em tempo linear O(n)"
+}

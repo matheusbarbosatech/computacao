@@ -1,0 +1,64 @@
+{
+  "id": 293,
+  "title": "O ARQUIVO .DOCKERIGNORE",
+  "definition": "É uma lista de arquivos e pastas que o Docker deve ignorar ao construir a imagem.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como uma lista de 'itens proibidos' na mala antes de uma viagem."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O DOCKER USA ISSO",
+    "icon": "🖥️",
+    "bullets": [
+      "Antes de copiar arquivos, o Docker lê essa lista de exclusões.",
+      "Tudo que está na lista nunca entra na imagem final."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Cada linha do arquivo é um padrão de nome a ignorar.",
+      "node_modules\n*.log\n.env\n.git"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Fica na raiz do projeto, junto do Dockerfile.",
+      "Usado em projetos Node.js, Python, Java e outros."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você roda 'docker build' no seu projeto",
+      "PASSO 2: Docker verifica o .dockerignore antes de copiar arquivos",
+      "PASSO 3: Pastas como node_modules ficam de fora da imagem"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer o arquivo deixa a imagem gigante e lenta pra buildar.",
+      "Dica de ouro: sempre ignore node_modules e arquivos .env."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Lista de exclusão ➔ Docker ignora lixo ➔ Imagem final leve e limpa"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Docker",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Evitando enviar node_modules ou arquivos temporários para dentro da imagem"
+}

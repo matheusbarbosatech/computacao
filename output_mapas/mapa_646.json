@@ -1,0 +1,64 @@
+{
+  "id": 646,
+  "title": "ÁRVORES BINÁRIAS DE BUSCA (BST)",
+  "definition": "Estrutura de dados onde cada nó tem no máximo dois filhos: menores à esquerda, maiores à direita.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É uma árvore organizada: cada nó decide se o valor vai para a esquerda ou direita."
+    ]
+  },
+  "topRight": {
+    "pill": "NÓ E PONTEIROS",
+    "icon": "🖥️",
+    "bullets": [
+      "Cada nó guarda um valor, um ponteiro esquerdo e um ponteiro direito.",
+      "Buscar descarta metade do caminho por passo, como procurar palavra no dicionário."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Regra de ouro: menor que o nó vai à esquerda, maior vai à direita.",
+      "se (valor < no.valor) vaParaEsquerda(); senao vaParaDireita();"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Bancos de dados, índices e busca rápida em listas ordenadas.",
+      "Implementado em Java, Python e C++ com classes ou structs de nós."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Comparo o valor novo com a raiz da árvore.",
+      "PASSO 2: Menor desce à esquerda, maior desce à direita, repetindo até achar espaço.",
+      "PASSO 3: O nó vazio recebe o valor; no percurso em-ordem a lista sai ordenada."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Inserir valores já ordenados gera árvore torta, lenta como uma lista comum.",
+      "Dica de ouro: desenhe a árvore no papel antes de testar o código."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Menor à esquerda ➔ maior à direita ➔ percurso em-ordem devolve tudo ordenado"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Algoritmos",
+  "escola": "02_logica_e_algoritmos",
+  "foco_pedagogico": "Elementos menores à esquerda e maiores à direita com percurso em-ordem"
+}

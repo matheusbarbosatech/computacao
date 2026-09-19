@@ -1,0 +1,65 @@
+{
+  "id": 261,
+  "title": "A ÁRVORE DE DIRETÓRIOS DO LINUX",
+  "definition": "No Linux, tudo começa em uma raiz única (/) e se espalha em pastas com funções fixas, como galhos de uma árvore.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "No Linux, tudo é um arquivo: programas, configurações e até dispositivos."
+    ]
+  },
+  "topRight": {
+    "pill": "A RAIZ (/)",
+    "icon": "🖥️",
+    "bullets": [
+      "Tudo começa em uma única pasta chamada raiz, representada por /.",
+      "Não existe C: ou D:, só uma árvore só."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Cada barra separa uma pasta dentro da outra.",
+      "cd /etc/network"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Configurar servidores, instalar programas, guardar arquivos pessoais.",
+      "Ubuntu, Debian, Fedora, qualquer distro Linux."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "AS 4 PASTAS PRINCIPAIS",
+    "icon": "⚙️",
+    "bullets": [
+      "/bin: guarda os programas essenciais que você executa",
+      "/etc: guarda as configurações do sistema",
+      "/var: guarda dados que mudam, como logs",
+      "/home: guarda os arquivos pessoais de cada usuário"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Confundir /home com pasta raiz (/), são coisas diferentes.",
+      "Apagar algo em /etc sem saber o que é: sistema pode parar de funcionar."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Raiz (/) ➔ se divide em pastas fixas ➔ cada uma com um papel específico"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Linux",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "A organização do sistema de arquivos onde tudo é um arquivo"
+}

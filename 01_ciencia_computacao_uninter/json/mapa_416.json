@@ -1,0 +1,64 @@
+{
+  "id": 416,
+  "title": "ARQUITETURAS RISC VS CISC (ARM VS X86-64)",
+  "definition": "São duas filosofias diferentes de como o processador entende e executa comandos.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "RISC usa instruções curtas e simples, CISC usa instruções longas e complexas."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O CHIP PENSA",
+    "icon": "🖥️",
+    "bullets": [
+      "RISC faz várias instruções pequenas, uma por vez, bem rápido.",
+      "CISC faz uma instrução grande que já resolve várias etapas juntas."
+    ]
+  },
+  "midRight": {
+    "pill": "EXEMPLO DE INSTRUÇÃO",
+    "icon": "{ }",
+    "bullets": [
+      "RISC: soma dois números só depois de já tê-los na mão.",
+      "CISC: 'busca, soma e guarda' tudo numa única ordem."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "ARM (RISC) está em celulares, tablets e Macs recentes.",
+      "x86-64 (CISC) está em PCs e notebooks tradicionais Intel/AMD."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO DE EXECUÇÃO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O processador recebe uma instrução do programa",
+      "PASSO 2: RISC quebra em passos simples, CISC processa tudo de uma vez",
+      "PASSO 3: RISC gasta menos energia, CISC resolve em menos linhas de código"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que RISC é 'mais fraco' porque é simples, na verdade é eficiente.",
+      "Achar que CISC é sempre mais rápido, mas ele gasta mais energia."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Simplicidade ➔ economia de energia ➔ ideal para celular (ARM/RISC)."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Hardware",
+  "escola": "01_ciencia_computacao_uninter",
+  "foco_pedagogico": "Instruções simples e eficientes para celulares vs instruções complexas de computadores"
+}

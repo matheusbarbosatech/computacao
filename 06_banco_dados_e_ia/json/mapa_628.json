@@ -1,0 +1,66 @@
+{
+  "id": 628,
+  "title": "ENGENHARIA DE PROMPTS: FEW-SHOT, CHAIN-OF-THOUGHT E REACT",
+  "definition": "A arte de escrever o pedido certo para a IA raciocinar em etapas antes de responder, em vez de inventar.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Prompt é o pedido que você faz para a IA: pedido vago gera resposta vaga.",
+      "Ensinar o modelo a pensar por partes reduz muito a invenção de fatos."
+    ]
+  },
+  "topRight": {
+    "pill": "MODELO DE LINGUAGEM",
+    "icon": "🖥️",
+    "bullets": [
+      "O modelo prevê a próxima palavra provável, não consulta uma verdade guardada.",
+      "Sem exemplos e sem etapas, ele chuta o padrão mais comum e pode alucinar."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Few-shot: mostre 2 ou 3 exemplos de entrada e saída antes do pedido real.",
+      "CoT: escreva \"pense passo a passo antes de dar a resposta final\".",
+      "ReAct: alterne \"raciocine, use a ferramenta, observe o resultado\"."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Chatbots, análise de dados, resumo de documentos e agentes autônomos.",
+      "Ferramentas: ChatGPT, Gemini, Claude, LangChain e APIs de modelos."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Defina papel, contexto e objetivo claro para o modelo.",
+      "PASSO 2: Dê exemplos (few-shot) e peça raciocínio em etapas (CoT).",
+      "PASSO 3: Faltando dado, o modelo busca ferramenta (ReAct) e só então responde."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Pedir raciocínio em etapas e cortar a resposta final depois desperdiça o CoT.",
+      "CoT reduz invenção, mas não zera: confira fatos em fonte externa."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Exemplos ➔ Raciocínio em etapas ➔ Uso de ferramenta ➔ Resposta confiável"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "IA Generativa",
+  "escola": "06_banco_dados_e_ia",
+  "foco_pedagogico": "Instruindo o modelo a raciocinar passo a passo para não inventar respostas"
+}

@@ -1,0 +1,63 @@
+{
+  "id": 182,
+  "title": "O INNER JOIN",
+  "definition": "INNER JOIN junta duas tabelas e mostra só as linhas que têm correspondência em ambas.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como cruzar duas listas e guardar só os nomes que aparecem nas duas."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O BANCO PENSA",
+    "icon": "🖥️",
+    "bullets": [
+      "Compara os valores de uma coluna em comum entre as tabelas.",
+      "Descarta automaticamente quem não tem par na outra tabela."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Usa ON para dizer qual coluna liga as duas tabelas.",
+      "SELECT * FROM clientes INNER JOIN pedidos ON clientes.id = pedidos.cliente_id;"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Relatórios que cruzam dados de tabelas diferentes.",
+      "Usado em MySQL, PostgreSQL, SQL Server, SQLite."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O banco olha a coluna de ligação nas duas tabelas",
+      "PASSO 2: Ele compara linha por linha em busca de valores iguais",
+      "PASSO 3: Só as linhas com par nas duas tabelas aparecem no resultado"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer o ON e gerar combinações erradas de todas as linhas.",
+      "Achar que INNER JOIN mostra tudo, mas ele some com quem não tem par."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Duas tabelas ➔ Comparar chave em comum ➔ Só os pares aparecem"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "BancoDados",
+  "foco_pedagogico": "Apenas os registros que têm par correspondente em ambas"
+}

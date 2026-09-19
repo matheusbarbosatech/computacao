@@ -1,0 +1,65 @@
+{
+  "id": 629,
+  "title": "ALUCINAÇÕES EM LLMS: POR QUE OCORREM E COMO MITIGAR",
+  "definition": "Alucinação é quando a IA inventa uma resposta com total confiança, mesmo sem ter o dado verdadeiro.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "A IA adivinha a próxima palavra por estatística, não por consulta à verdade.",
+      "Ela completa padrões que soam plausíveis, mesmo quando o fato não existe."
+    ]
+  },
+  "topRight": {
+    "pill": "MECANISMO INTERNO",
+    "icon": "🖥️",
+    "bullets": [
+      "O modelo gera texto por probabilidade, sem checar fontes reais.",
+      "Sem dados no contexto, ele preenche as lacunas inventando."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Temperatura baixa (0 a 0.3) deixa a resposta mais previsível e fiel.",
+      "exemplo(temperature=0.0, top_p=0.1) para fatos, números e regras"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Chatbots de atendimento, resumos, tradução e busca com RAG.",
+      "LangChain, OpenAI API e LlamaIndex para ancorar em documentos."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Recebe a pergunta e busca trechos reais na base.",
+      "PASSO 2: Gera a resposta usando só o contexto encontrado.",
+      "PASSO 3: Valida a saída e cita a fonte antes de entregar."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Confiar em número, data ou lei sem conferir a fonte citada.",
+      "Dica de ouro: exija citação e teste com perguntas que você já sabe a resposta."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Contexto real ➔ Temperatura baixa ➔ Validação ➔ Resposta confiável"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "IA Generativa",
+  "escola": "06_banco_dados_e_ia",
+  "foco_pedagogico": "Estratégias de temperatura, ancoragem em contexto real e validação de saídas"
+}

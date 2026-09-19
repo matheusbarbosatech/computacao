@@ -1,0 +1,65 @@
+{
+  "id": 441,
+  "title": "ANÁLISE LÉXICA (LEXING / SCANNING) E TOKENS",
+  "definition": "É a etapa que lê o código como um texto corrido e o quebra em pequenos pedaços com significado, chamados tokens.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como cortar uma frase em palavras separadas antes de entender a frase inteira."
+    ]
+  },
+  "topRight": {
+    "pill": "TOKEN",
+    "icon": "🖥️",
+    "bullets": [
+      "Token é a menor peça com sentido: palavra-chave, nome, número ou símbolo.",
+      "O computador não lê o código todo de uma vez, lê token por token."
+    ]
+  },
+  "midRight": {
+    "pill": "TIPOS DE TOKEN",
+    "icon": "{ }",
+    "bullets": [
+      "Palavras-chave: if, while, return.",
+      "Identificadores: idade, total, nomeUsuario.",
+      "Pontuação: ( ) { } ; ="
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Primeira fase de todo compilador ou interpretador.",
+      "Usado em Python, Java, C, JavaScript e até em editores de código."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O scanner lê o código caractere por caractere",
+      "PASSO 2: Agrupa caracteres em pedaços com sentido (tokens)",
+      "PASSO 3: Entrega a lista de tokens pronta para a próxima etapa"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Confundir análise léxica com análise de significado (isso é outra etapa).",
+      "Dica: espaços e comentários geralmente são ignorados, não viram token."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Código bruto ➔ Scanner separa palavras ➔ Lista de tokens organizada"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Compiladores",
+  "escola": "01_ciencia_computacao_uninter",
+  "foco_pedagogico": "Quebrando o texto do código em palavras-chave, identificadores e pontuações"
+}

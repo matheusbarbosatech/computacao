@@ -1,0 +1,64 @@
+{
+  "id": 363,
+  "title": "VARREDURA DE REDES COM NMAP: PORT SCANNING E DETECÇÃO DE SO",
+  "definition": "Nmap é uma ferramenta que bate na porta de cada computador da rede pra ver quem está em casa.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Nmap manda pacotes de rede e escuta as respostas pra mapear máquinas e serviços."
+    ]
+  },
+  "topRight": {
+    "pill": "PORT SCANNING",
+    "icon": "🖥️",
+    "bullets": [
+      "Cada porta é como uma porta numerada de um prédio, algumas trancadas e outras abertas.",
+      "Nmap testa milhares de portas e classifica como aberta, fechada ou filtrada."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Comando básico define alvo e tipo de varredura.",
+      "nmap -sV -O -p 1-1000 192.168.1.10"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Pentests, auditorias de segurança e administração de redes corporativas.",
+      "Usado com Wireshark, Metasploit e scripts NSE em conjunto."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Nmap envia pacotes de teste pra cada porta do alvo",
+      "PASSO 2: Analisa as respostas pra descobrir portas abertas e serviços rodando",
+      "PASSO 3: Cruza dados de resposta com banco interno pra adivinhar o sistema operacional"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Escanear rede sem autorização é crime, sempre peça permissão antes.",
+      "Firewalls podem mascarar portas como filtradas, confundindo o diagnóstico."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Enviar pacote ➔ Analisar resposta ➔ Mapear portas, serviços e SO do alvo"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Red Team",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "Identificando portas abertas, versões de serviços e scripts NSE"
+}

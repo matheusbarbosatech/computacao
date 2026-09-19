@@ -1,0 +1,65 @@
+{
+  "id": 171,
+  "title": "VALORES NULOS E IS NULL",
+  "definition": "NULL representa a ausência total de valor, é diferente de zero ou de texto vazio.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "NULL é um campo em branco que ninguém preencheu, não é 'nada escrito'."
+    ]
+  },
+  "topRight": {
+    "pill": "ZERO x VAZIO x NULO",
+    "icon": "🖥️",
+    "bullets": [
+      "0 é um número real, contado nas contas.",
+      "'' é texto vazio, existe mas sem letras.",
+      "NULL é desconhecido, o campo nunca foi respondido."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Nunca use = ou != para comparar com NULL.",
+      "WHERE idade IS NULL",
+      "WHERE idade IS NOT NULL"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Bancos de dados como MySQL, PostgreSQL e SQL Server.",
+      "Cadastros com campos opcionais, tipo telefone ou apelido."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Coluna é criada permitindo valor ausente.",
+      "PASSO 2: Registro é salvo sem preencher esse campo.",
+      "PASSO 3: Banco guarda NULL, não zero nem texto vazio."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Usar WHERE campo = NULL nunca funciona, sempre retorna vazio.",
+      "Achar que salário NULL significa salário zero, são coisas diferentes."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Campo sem resposta ➔ Banco marca NULL ➔ Use IS NULL para encontrar"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "BancoDados",
+  "foco_pedagogico": "A diferença entre zero, texto vazio e valor ausente"
+}

@@ -1,0 +1,66 @@
+{
+  "id": 61,
+  "title": "CICLO DO GIT: WORKING, STAGING, COMMIT",
+  "definition": "É o caminho que suas alterações percorrem até serem salvas de forma definitiva no histórico do projeto.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Git guarda 'fotos' do seu projeto em etapas, como salvar um jogo em pontos de checkpoint."
+    ]
+  },
+  "topRight": {
+    "pill": "AS TRÊS ÁREAS",
+    "icon": "🖥️",
+    "bullets": [
+      "Working Directory: sua mesa de trabalho, onde você edita os arquivos.",
+      "Staging Area: a caixa de separação do que vai entrar na foto.",
+      "Repository: o álbum de fotos salvas para sempre."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "git status mostra o que mudou e onde está cada arquivo.",
+      "git add arquivo.txt",
+      "git commit -m \"mensagem clara\""
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Todo projeto que usa controle de versão profissional.",
+      "GitHub, GitLab, Bitbucket e qualquer time de dev."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Edite o arquivo (fica no Working Directory)",
+      "PASSO 2: git add manda ele para a Staging Area",
+      "PASSO 3: git commit -m grava a foto no histórico"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer o git add antes do commit e nada é salvo.",
+      "Commit sem mensagem clara vira um mistério no futuro.",
+      "Sempre rode git status antes de qualquer comando."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Editar ➔ git add ➔ git commit -m ➔ histórico salvo"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Git",
+  "foco_pedagogico": "git add, git commit -m e git status"
+}

@@ -1,0 +1,63 @@
+{
+  "id": 137,
+  "title": "MEMÓRIA CACHE (L1, L2, L3)",
+  "definition": "É uma gaveta rápida colada no processador para guardar o que ele usa com mais frequência.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Cache guarda cópias de dados importantes perto do processador para ganhar tempo."
+    ]
+  },
+  "topRight": {
+    "pill": "NÍVEIS L1, L2, L3",
+    "icon": "🖥️",
+    "bullets": [
+      "L1 é a gaveta mais próxima, pequena e super rápida.",
+      "L2 e L3 são gavetas maiores, um pouco mais longe e mais lentas."
+    ]
+  },
+  "midRight": {
+    "pill": "HIT E MISS",
+    "icon": "{ }",
+    "bullets": [
+      "Cache Hit: achou o dado na gaveta rápida.",
+      "Cache Miss: precisou buscar na memória RAM, mais devagar."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Em todo processador de computador, celular e videogame.",
+      "Presente em CPUs Intel, AMD, Apple e ARM."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Processador precisa de um dado",
+      "PASSO 2: Ele procura primeiro no L1, depois L2 e L3",
+      "PASSO 3: Se achar, usa rápido. Se não, busca na RAM"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que cache é a mesma coisa que RAM, mas é muito menor e mais rápido.",
+      "Esquecer que cache maior nem sempre significa computador mais rápido."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Dado usado ➔ Guarda na gaveta rápida ➔ Processador economiza tempo"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Hardware",
+  "foco_pedagogico": "A gaveta rápida colada no processador"
+}

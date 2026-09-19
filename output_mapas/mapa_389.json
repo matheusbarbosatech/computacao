@@ -1,0 +1,64 @@
+{
+  "id": 389,
+  "title": "IAM: RBAC vs ABAC",
+  "definition": "É a forma de decidir quem pode acessar o quê, baseado em cargo (RBAC) ou em características do contexto (ABAC).",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Controle de acesso é dar crachás diferentes pra cada pessoa entrar em salas diferentes."
+    ]
+  },
+  "topRight": {
+    "pill": "RBAC (PAPÉIS)",
+    "icon": "🖥️",
+    "bullets": [
+      "Permissão é ligada ao cargo, tipo 'gerente' ou 'estagiário'.",
+      "Simples de configurar, mas rígido para casos especiais."
+    ]
+  },
+  "midRight": {
+    "pill": "ABAC (ATRIBUTOS)",
+    "icon": "{ }",
+    "bullets": [
+      "Regra combina vários atributos: usuário, recurso, hora, local.",
+      "SE (departamento=RH E horário=comercial) ENTÃO permitir"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Sistemas corporativos, nuvem (AWS IAM), bancos e hospitais.",
+      "Ferramentas: Azure AD, Keycloak, AWS Policies, Open Policy Agent."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Usuário pede acesso a um recurso",
+      "PASSO 2: Sistema verifica papel (RBAC) ou atributos (ABAC)",
+      "PASSO 3: Acesso é liberado ou negado na hora"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Confundir RBAC com ABAC pensando que são a mesma coisa.",
+      "Dica: RBAC pergunta 'quem é você', ABAC pergunta 'em que situação'."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Papel ou Atributo ➔ Regra de Acesso ➔ Permitir ou Bloquear"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Governança",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "Controle de permissões baseado em papéis ou em atributos contextuais"
+}

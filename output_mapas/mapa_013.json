@@ -1,0 +1,63 @@
+{
+  "id": 13,
+  "title": "TIPOS PRIMITIVOS: BOOLEANOS",
+  "definition": "Booleano é um tipo de dado que só pode guardar dois valores: verdadeiro ou falso.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como um interruptor de luz: só existe ligado ou desligado, nada no meio."
+    ]
+  },
+  "topRight": {
+    "pill": "TRUE OU FALSE",
+    "icon": "🖥️",
+    "bullets": [
+      "O computador guarda apenas dois estados possíveis para esse tipo.",
+      "Não existe 'talvez' ou 'mais ou menos' em um booleano."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Se declara o valor direto, sem aspas, pois não é texto.",
+      "let ligado = true;"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Usado em decisões, filtros e verificações do sistema.",
+      "Presente em JavaScript, Python, Java e quase toda linguagem."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O programa faz uma pergunta (ex: idade maior que 18?)",
+      "PASSO 2: A resposta só pode ser verdadeira ou falsa",
+      "PASSO 3: O sistema decide o que fazer com base nesse resultado"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Escrever 'true' ou 'false' entre aspas transforma em texto, não booleano.",
+      "Dica de ouro: pense sempre em pergunta de sim ou não."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Pergunta ➔ Resposta (true/false) ➔ Decisão do programa"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Lógica",
+  "foco_pedagogico": "Apenas dois estados: verdadeiro ou falso (true/false)"
+}

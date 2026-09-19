@@ -1,0 +1,64 @@
+{
+  "id": 456,
+  "title": "BLOOM FILTERS: ESTRUTURA PROBABILÍSTICA DE PERTENCIMENTO",
+  "definition": "É uma estrutura que responde rápido se algo definitivamente NÃO está numa lista, usando pouquíssima memória.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Uma lista de presença mágica: nunca erra o 'não', mas pode errar o 'sim'."
+    ]
+  },
+  "topRight": {
+    "pill": "VETOR DE BITS",
+    "icon": "🖥️",
+    "bullets": [
+      "Guarda só 0s e 1s num array minúsculo, tipo um checklist compacto.",
+      "Várias funções hash marcam posições diferentes com 1."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Cada item passa por N funções hash que apontam posições no vetor.",
+      "bloom.add('joao@mail.com')"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Bancos de dados como Cassandra e HBase para evitar buscas em disco.",
+      "Navegadores (checar URLs maliciosas) e caches distribuídos."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Item entra e passa por várias funções hash",
+      "PASSO 2: Cada hash liga um bit específico no vetor",
+      "PASSO 3: Para checar, se algum bit esperado for 0, o item NÃO existe com certeza"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que 'sim' é garantia: pode ser falso positivo por colisão de hash.",
+      "Não dá pra remover itens de um Bloom Filter comum, só adicionar."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Item entra ➔ Bits são marcados ➔ Resposta rápida e barata sobre ausência"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Algoritmos",
+  "escola": "01_ciencia_computacao_uninter",
+  "foco_pedagogico": "Respondendo com certeza se um elemento NÃO está no conjunto gastando 1% de memória"
+}

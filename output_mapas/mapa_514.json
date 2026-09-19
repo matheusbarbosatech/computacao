@@ -1,0 +1,64 @@
+{
+  "id": 514,
+  "title": "WEBSOCKETS: COMUNICAÇÃO BIDIRECIONAL EM TEMPO REAL",
+  "definition": "É uma linha telefônica aberta entre navegador e servidor, onde os dois falam ao mesmo tempo sem desligar.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Em vez de perguntar e esperar resposta, a conexão fica sempre aberta pros dois lados."
+    ]
+  },
+  "topRight": {
+    "pill": "HTTP vs WEBSOCKET",
+    "icon": "🖥️",
+    "bullets": [
+      "HTTP é como enviar carta: pede, recebe, encerra a cada vez.",
+      "WebSocket é como ligação telefônica: fica conectado até alguém desligar."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Cria a conexão com 'new WebSocket(url)' e escuta eventos.",
+      "socket.onmessage = (e) => console.log(e.data)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Chats ao vivo, jogos multiplayer e cotações da bolsa em tempo real.",
+      "Usado com Socket.IO, ws (Node.js) e APIs nativas do navegador."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Navegador pede um 'handshake' pra abrir a conexão especial",
+      "PASSO 2: Servidor aceita e a linha fica aberta dos dois lados",
+      "PASSO 3: Dados trafegam instantaneamente sem precisar pedir de novo"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de tratar a queda da conexão trava o app sem aviso.",
+      "Dica de ouro: sempre implemente reconexão automática."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Conexão aberta ➔ Dados fluem os dois lados ➔ Atualização instantânea"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Microsserviços",
+  "escola": "04_backend_e_apis",
+  "foco_pedagogico": "Mantendo uma conexão aberta para chats, jogos e cotações da bolsa"
+}

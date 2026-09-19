@@ -1,0 +1,65 @@
+{
+  "id": 664,
+  "title": "CODE REVIEW: O QUE AVALIAR NO CÓDIGO DE COLEGAS DE EQUIPE",
+  "definition": "Code Review é revisar o código de um colega com respeito e atenção, como corrigir um rascunho antes de publicar um livro.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Revisar código não é caçar culpados, é garantir que o time todo entenda e confie no que foi escrito."
+    ]
+  },
+  "topRight": {
+    "pill": "LEGIBILIDADE",
+    "icon": "👀",
+    "bullets": [
+      "Nomes de variáveis devem contar uma história: 'idadeCliente' em vez de 'x'.",
+      "Funções curtas, com um único propósito, como parágrafos bem escritos."
+    ]
+  },
+  "midRight": {
+    "pill": "SEGURANÇA",
+    "icon": "🔒",
+    "bullets": [
+      "Nunca confie em dados que vêm do usuário: sempre validar e sanitizar entradas.",
+      "Cuidado com senhas e chaves expostas no código — elas são como deixar a chave de casa na porta."
+    ]
+  },
+  "bottomRight": {
+    "pill": "CASOS DE BORDA",
+    "icon": "🧪",
+    "bullets": [
+      "O que acontece se o usuário digitar um número negativo, zero ou deixar o campo vazio?",
+      "Testar com listas vazias, textos muito longos e caracteres especiais evita surpresas."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO DO REVIEW",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Entenda o contexto — leia a descrição da tarefa antes de olhar o código.",
+      "PASSO 2: Rode o código na sua máquina e veja se faz sentido o comportamento.",
+      "PASSO 3: Deixe comentários objetivos: o que está confuso, o que pode quebrar, o que pode melhorar."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "EMPATIA NA COMUNICAÇÃO",
+    "icon": "💬",
+    "bullets": [
+      "Evite frases como 'isso está errado'. Prefira: 'Fiquei confuso aqui, pode explicar o raciocínio?'.",
+      "Elogie o que está bom primeiro. Feedback é sanduíche: elogio + sugestão + incentivo."
+    ]
+  },
+  "midLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Revisar com pressa e só apontar erro de estilo, ignorando falhas de lógica.",
+      "Levar crítica para o lado pessoal. Código não é identidade: revisão melhora o produto, não julga você."
+    ]
+  },
+  "_modelo_usado": "devworld/deepseek-v4-pro-0813-f",
+  "modulo": "Prática Dev",
+  "escola": "02_logica_e_algoritmos",
+  "foco_pedagogico": "Legibilidade, segurança, casos de borda e empatia na comunicação técnica"
+}

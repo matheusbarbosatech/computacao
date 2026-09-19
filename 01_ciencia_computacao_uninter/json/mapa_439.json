@@ -1,0 +1,64 @@
+{
+  "id": 439,
+  "title": "NP-COMPLETO E O CAIXEIRO VIAJANTE",
+  "definition": "É a categoria de problemas tão difíceis que testar todas as respostas possíveis levaria tempo absurdo, mesmo pra um computador.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Alguns problemas não têm atalho: só dá pra testar quase tudo pra achar o melhor caminho."
+    ]
+  },
+  "topRight": {
+    "pill": "P vs NP",
+    "icon": "🖥️",
+    "bullets": [
+      "P: problemas fáceis, o computador resolve rápido.",
+      "NP: fácil checar a resposta, mas difícil de achar."
+    ]
+  },
+  "midRight": {
+    "pill": "EXPLOSÃO COMBINATÓRIA",
+    "icon": "{ }",
+    "bullets": [
+      "Rotas possíveis = fatorial das cidades.",
+      "50! ≈ 3×10^64 rotas diferentes"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Logística de entregas, roteamento de redes, criptografia.",
+      "Algoritmos genéticos, heurísticas, otimização"
+    ]
+  },
+  "bottomCenter": {
+    "pill": "POR QUE DEMORA BILHÕES DE ANOS",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Computador lista todas as rotas possíveis entre as cidades",
+      "PASSO 2: Cada cidade nova multiplica o número de rotas, não soma",
+      "PASSO 3: Com 50 cidades, nem o computador mais rápido termina antes do fim do universo"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que 'mais poder de processamento' resolve o problema.",
+      "Dica de ouro: use aproximações boas, não a solução perfeita."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Mais cidades ➔ rotas crescem absurdamente ➔ resposta exata é inviável"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Teoria",
+  "escola": "01_ciencia_computacao_uninter",
+  "foco_pedagogico": "Por que achar a melhor rota para 50 cidades exigiria bilhões de anos"
+}

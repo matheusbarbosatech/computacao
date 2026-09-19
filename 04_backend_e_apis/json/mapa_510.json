@@ -1,0 +1,64 @@
+{
+  "id": 510,
+  "title": "DATABASE PER SERVICE",
+  "definition": "Cada microsserviço tem seu próprio banco de dados privado, que nenhum outro serviço pode acessar direto.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Cada serviço é dono exclusivo dos seus dados, como uma casa com chave própria."
+    ]
+  },
+  "topRight": {
+    "pill": "ISOLAMENTO DE DADOS",
+    "icon": "🖥️",
+    "bullets": [
+      "Serviço A não pode consultar tabelas do banco do Serviço B.",
+      "Se A precisa de um dado de B, tem que pedir pela API."
+    ]
+  },
+  "midRight": {
+    "pill": "COMO SE COMUNICAM",
+    "icon": "{ }",
+    "bullets": [
+      "Nunca acessam o banco um do outro diretamente.",
+      "GET /pedidos/123 (chamada de API, não SQL direto)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Arquiteturas de microsserviços em empresas grandes.",
+      "Netflix, Amazon, Uber usam esse padrão."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Serviço de Pedidos precisa saber o nome do cliente",
+      "PASSO 2: Ele chama a API do Serviço de Clientes (não o banco dele)",
+      "PASSO 3: Recebe a resposta pronta, sem tocar no banco alheio"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Erro: criar um 'banco compartilhado' para facilitar (isso é anti-padrão!).",
+      "Dica: pense em cada banco como um cofre privado, só o dono tem a chave."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Serviço próprio ➔ Banco próprio ➔ Independência total"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Microsserviços",
+  "escola": "04_backend_e_apis",
+  "foco_pedagogico": "Por que cada microsserviço deve ser dono exclusivo do seu próprio banco"
+}

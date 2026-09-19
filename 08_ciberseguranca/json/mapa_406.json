@@ -1,0 +1,64 @@
+{
+  "id": 406,
+  "title": "SEGURANÇA EM AD E KERBEROS",
+  "definition": "É o sistema que verifica quem você é e o que pode acessar dentro de uma empresa.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Active Directory é a lista de todos os usuários e computadores da empresa."
+    ]
+  },
+  "topRight": {
+    "pill": "KERBEROS",
+    "icon": "🖥️",
+    "bullets": [
+      "Sistema de bilhetes que prova sua identidade sem repetir a senha.",
+      "Cada acesso gera um tíquete temporário e criptografado."
+    ]
+  },
+  "midRight": {
+    "pill": "FLUXO DO TÍQUETE",
+    "icon": "{ }",
+    "bullets": [
+      "TGT = bilhete geral de acesso ao domínio.",
+      "TGS(TGT) → acesso a serviço específico"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Login em computadores de empresas e servidores internos.",
+      "Ferramentas: Windows Server, PowerShell, BloodHound"
+    ]
+  },
+  "bottomCenter": {
+    "pill": "COMO O LOGIN FUNCIONA",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você digita usuário e senha no computador",
+      "PASSO 2: O KDC confere e entrega um bilhete (TGT)",
+      "PASSO 3: Esse bilhete libera acesso aos sistemas da empresa"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Confundir domínio com floresta: floresta pode ter vários domínios.",
+      "Golden Ticket: invasor forja um bilhete mestre e vira admin."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Login ➔ Bilhete Kerberos ➔ Acesso liberado na floresta AD"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Laboratório",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "Como funciona o login corporativo e como defender a floresta de domínios"
+}

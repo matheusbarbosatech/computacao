@@ -1,0 +1,65 @@
+{
+  "id": 544,
+  "title": "ACESSANDO RECURSOS NATIVOS: CÂMERA, GPS E NOTIFICAÇÕES PUSH",
+  "definition": "Recursos nativos são funções do próprio celular, como câmera e GPS, que o seu app acessa por meio de plugins.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "O celular já vem com peças prontas: câmera, GPS, alto-falante e vibração.",
+      "Seu app não nasce sabendo usá-las; ele pede ajuda a um plugin."
+    ]
+  },
+  "topRight": {
+    "pill": "O PAPEL DO PLUGIN",
+    "icon": "🖥️",
+    "bullets": [
+      "O plugin é um tradutor entre o seu código e o sistema do celular.",
+      "Android fala Java ou Kotlin; iOS fala Swift; o plugin conversa com os dois."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Instale o plugin, importe no projeto e chame a função pronta dele.",
+      "exemplo: Camera.getPhoto({ quality: 90 })"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "App de entrega usa GPS; rede social usa câmera e notificação push.",
+      "Plugins famosos: Capacitor, Cordova, Expo e pacotes do Flutter."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O app pede permissão ao usuário para usar o recurso.",
+      "PASSO 2: O plugin aciona o hardware e o sistema nativo responde.",
+      "PASSO 3: O app recebe o dado: foto, coordenadas ou mensagem."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer a permissão: o app trava, fecha sozinho ou volta vazio.",
+      "Testar câmera e GPS só no navegador engana: no celular real é diferente."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Recurso nativo ➔ plugin faz a ponte ➔ pede permissão ➔ dado chega no app"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Flutter",
+  "escola": "05_frontend_e_mobile",
+  "foco_pedagogico": "Utilizando plugins para interagir com o hardware do Android e iOS"
+}

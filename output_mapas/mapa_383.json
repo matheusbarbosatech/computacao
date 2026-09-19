@@ -1,0 +1,64 @@
+{
+  "id": 383,
+  "title": "ANÁLISE DINÂMICA DE SEGURANÇA (DAST) COM OWASP ZAP",
+  "definition": "É atacar sua própria aplicação rodando, como um ladrão testaria as fechaduras de uma casa.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Testar o app enquanto ele está funcionando, não só o código parado."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O ZAP FUNCIONA",
+    "icon": "🖥️",
+    "bullets": [
+      "Ele navega pelo site sozinho, clicando em tudo (crawling).",
+      "Depois envia dados maliciosos em cada campo para ver o que quebra."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Rodar via linha de comando no pipeline de CI/CD.",
+      "zap-baseline.py -t https://meusite.com"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Antes de colocar o site no ar (ambiente de staging).",
+      "Integrado no GitHub Actions, GitLab CI ou Jenkins."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: ZAP mapeia todas as páginas e formulários do site",
+      "PASSO 2: Ele ataca cada campo com SQL Injection, XSS e outros truques",
+      "PASSO 3: Gera um relatório listando as portas destrancadas"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Rodar o ataque em produção sem avisar e derrubar o site.",
+      "Ignorar falsos positivos e perder tempo caçando fantasma."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "App no ar ➔ ZAP ataca de fora ➔ Relatório de brechas reais"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "DevSecOps",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "Atacando a aplicação em tempo de execução para encontrar vulnerabilidades ativas"
+}

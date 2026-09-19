@@ -1,0 +1,63 @@
+{
+  "id": 57,
+  "title": "ORGANIZAÇÃO DE PASTAS DE UM PROJETO",
+  "definition": "É o jeito de guardar cada arquivo do projeto numa gaveta certa, para nada virar um bagunça.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Pastas são como cômodos de uma casa, cada coisa tem seu lugar certo."
+    ]
+  },
+  "topRight": {
+    "pill": "PASTAS PRINCIPAIS",
+    "icon": "🖥️",
+    "bullets": [
+      "src guarda o código-fonte, o coração do projeto.",
+      "public e assets guardam arquivos estáticos como imagens e fontes."
+    ]
+  },
+  "midRight": {
+    "pill": "ESTRUTURA TÍPICA",
+    "icon": "{ }",
+    "bullets": [
+      "Cada pasta vira uma 'gaveta' referenciada por caminho.",
+      "src/components/Botao.js"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Em quase todo projeto web: React, Vue, Node, Angular.",
+      "docs guarda manuais e explicações do projeto."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você cria a pasta raiz do projeto",
+      "PASSO 2: Divide em src, public, assets, components e docs",
+      "PASSO 3: O sistema sabe onde buscar cada arquivo"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Misturar imagem com código deixa tudo confuso e difícil de achar.",
+      "Dica de ouro: comece pequeno, mas já separe por função."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Arquivo criado ➔ vai para a pasta certa ➔ projeto fica organizado"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Funções",
+  "foco_pedagogico": "src, public, assets, components e docs"
+}

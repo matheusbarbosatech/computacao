@@ -1,0 +1,65 @@
+{
+  "id": 262,
+  "title": "NAVEGAÇÃO E MANIPULAÇÃO: cd, ls, mkdir, cp, mv, rm",
+  "definition": "São os comandos básicos para andar e organizar pastas e arquivos direto pelo terminal.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "O terminal é tipo um controle remoto para navegar nas pastas do computador."
+    ]
+  },
+  "topRight": {
+    "pill": "NAVEGAÇÃO (cd, ls)",
+    "icon": "🖥️",
+    "bullets": [
+      "cd muda de pasta, como abrir uma gaveta.",
+      "ls mostra o que tem dentro da gaveta atual."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "cd nome_pasta entra na pasta.",
+      "cd .. volta uma pasta.",
+      "ls -la mostra tudo, até arquivos ocultos."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Terminal do Linux, Mac e Windows (PowerShell/Git Bash).",
+      "Essencial para programadores, DevOps e sysadmins."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Use ls para ver onde você está.",
+      "PASSO 2: Use cd para entrar na pasta certa.",
+      "PASSO 3: Use mkdir, cp, mv ou rm para organizar."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "rm apaga direto, sem lixeira, sem chance de desfazer.",
+      "Sempre confira com ls antes de usar rm em algo."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Localizar (ls/cd) ➔ Organizar (mkdir/cp/mv) ➔ Limpar com cuidado (rm)."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Linux",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Comandos fundamentais do terminal sem medo de perder arquivos"
+}

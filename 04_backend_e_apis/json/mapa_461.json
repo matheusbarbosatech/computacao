@@ -1,0 +1,64 @@
+{
+  "id": 461,
+  "title": "SINGLE RESPONSIBILITY PRINCIPLE (SRP)",
+  "definition": "Uma classe deve ter apenas um motivo para mudar, ou seja, uma única responsabilidade.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Cada peça do código deve fazer só uma coisa e fazer bem."
+    ]
+  },
+  "topRight": {
+    "pill": "CANIVETE SUÍÇO VS FACA",
+    "icon": "🖥️",
+    "bullets": [
+      "Classe com várias funções é como um canivete suíço confuso.",
+      "Melhor ter ferramentas simples, cada uma com seu papel."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Separe cálculo, salvamento e impressão em classes diferentes.",
+      "class Relatorio { calcular() } class Salvador { salvar() }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Arquitetura de sistemas orientados a objetos.",
+      "Java, C#, Python, PHP e frameworks como Spring e .NET."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Identifique as várias tarefas que a classe faz",
+      "PASSO 2: Separe cada tarefa em sua própria classe",
+      "PASSO 3: Cada classe muda só por um motivo específico"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Criar classes gigantes que fazem tudo ao mesmo tempo.",
+      "Dica de ouro: se a classe tem 'E' no nome da função, divida."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Uma tarefa ➔ Uma classe ➔ Código fácil de manter"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Arquitetura",
+  "escola": "04_backend_e_apis",
+  "foco_pedagogico": "Uma classe deve ter apenas um motivo para mudar"
+}

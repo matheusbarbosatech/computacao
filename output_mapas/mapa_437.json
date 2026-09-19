@@ -1,0 +1,64 @@
+{
+  "id": 437,
+  "title": "AUTÔMATOS DE PILHA E LINGUAGENS LIVRES DE CONTEXTO",
+  "definition": "É uma máquina com memória (uma pilha) que verifica se aberturas e fechamentos combinam certinho.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Imagine uma pilha de pratos: o último que você empilhou é o primeiro que você retira."
+    ]
+  },
+  "topRight": {
+    "pill": "AUTÔMATO DE PILHA",
+    "icon": "🖥️",
+    "bullets": [
+      "Toda vez que abre um parêntese, empilha um marcador.",
+      "Toda vez que fecha, retira o marcador do topo."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Se a pilha esvaziar no fim, está balanceado.",
+      "if (pilha.pop() != abre) return 'ERRO'"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Editores de código que checam parênteses e chaves.",
+      "Compiladores, navegadores (HTML) e formatadores JSON/XML."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Lê o texto caractere por caractere",
+      "PASSO 2: Abriu? Empilha. Fechou? Compara com o topo da pilha",
+      "PASSO 3: Pilha vazia no final = tudo balanceado corretamente"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de checar se a pilha ficou vazia no final.",
+      "Fechar uma tag errada, como </div> quando abriu <span>."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Abre parêntese ➔ empilha marcador ➔ fecha e compara com o topo"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Teoria",
+  "escola": "01_ciencia_computacao_uninter",
+  "foco_pedagogico": "Como validar abertura e fechamento de parênteses, chaves e tags HTML"
+}

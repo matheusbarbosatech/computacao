@@ -1,0 +1,63 @@
+{
+  "id": 6,
+  "title": "COMPILADORES VS INTERPRETADORES",
+  "definition": "São duas formas diferentes de traduzir seu código para a linguagem que o computador entende.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Computador só entende 0 e 1, então alguém precisa traduzir seu código."
+    ]
+  },
+  "topRight": {
+    "pill": "COMPILADOR",
+    "icon": "🖥️",
+    "bullets": [
+      "Traduz TODO o código de uma vez, antes de rodar.",
+      "Gera um arquivo executável pronto (.exe)."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "C/C++ compila antes de executar.",
+      "gcc programa.c -o programa"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Compilado: C, C++, Rust (jogos, sistemas operacionais).",
+      "Interpretado: Python, JavaScript (scripts, sites)."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Compilador lê tudo e traduz de uma vez",
+      "PASSO 2: Interpretador lê e executa linha por linha",
+      "PASSO 3: Um gera arquivo pronto, outro roda na hora"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que interpretado é sempre mais lento sem entender o motivo.",
+      "Esquecer que erro em compilado trava tudo antes de rodar."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Código ➔ Tradução (tudo ou linha a linha) ➔ Computador executa"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Fundamentos",
+  "foco_pedagogico": "C/C++ vs Python/JavaScript"
+}

@@ -1,0 +1,64 @@
+{
+  "id": 265,
+  "title": "O PODER DO PIPE (|) E REDIRECIONAMENTO (>, >>, 2>&1)",
+  "definition": "É a forma de conectar comandos, como canos de água, para a saída de um virar a entrada do outro.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Em vez de fazer tudo manualmente, você liga um comando no outro como um encanamento."
+    ]
+  },
+  "topRight": {
+    "pill": "PIPE (|)",
+    "icon": "🖥️",
+    "bullets": [
+      "Pega a saída (o que apareceu na tela) de um comando e entrega direto pro próximo.",
+      "Não salva nada em arquivo, é só uma passagem."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "comando1 | comando2 (a saída de 1 entra em 2)",
+      "cat lista.txt | grep 'nome'"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Terminal Linux, macOS e PowerShell no Windows.",
+      "Filtrar logs, contar palavras, buscar erros em arquivos gigantes."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Comando 1 roda e gera uma saída de texto",
+      "PASSO 2: O pipe (|) intercepta essa saída sem mostrar na tela",
+      "PASSO 3: Comando 2 recebe esse texto como entrada e processa"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Confundir > (sobrescreve arquivo) com >> (adiciona no final).",
+      "Esquecer que 2>&1 redireciona erros junto com a saída normal."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Saída do comando A ➔ Pipe transporta ➔ Comando B usa como entrada"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Linux",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Encadeando a saída de um comando direto na entrada do outro"
+}

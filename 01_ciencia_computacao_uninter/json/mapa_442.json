@@ -1,0 +1,64 @@
+{
+  "id": 442,
+  "title": "ÁRVORE SINTÁTICA ABSTRATA (AST)",
+  "definition": "É o jeito do computador desenhar seu código como uma árvore de galhos, mostrando o que executar primeiro.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É a 'receita organizada' do seu código, sem letras soltas, só a estrutura das ordens."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O COMPUTADOR VÊ",
+    "icon": "🖥️",
+    "bullets": [
+      "Transforma texto solto em galhos e nós conectados por hierarquia.",
+      "Ignora espaços e comentários, guarda só o que importa."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Cada operação vira um 'nó' com filhos ligados a ela.",
+      "2 + 3 * 4 ➔ nó '+' tem filhos '2' e nó '*' com '3' e '4'"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Compiladores e interpretadores usam para entender seu código.",
+      "Ferramentas como Babel, ESLint e Prettier dependem disso."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O código é lido e quebrado em pedacinhos (tokens)",
+      "PASSO 2: Os pedacinhos são organizados em uma árvore hierárquica",
+      "PASSO 3: O computador percorre a árvore para executar na ordem certa"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que AST guarda o texto exato do código, ela guarda só o significado.",
+      "Confundir ordem de escrita com ordem de execução na árvore."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Código escrito ➔ Vira árvore organizada ➔ Computador executa em ordem certa"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Compiladores",
+  "escola": "01_ciencia_computacao_uninter",
+  "foco_pedagogico": "A representação em árvore que dá sentido hierárquico às instruções"
+}

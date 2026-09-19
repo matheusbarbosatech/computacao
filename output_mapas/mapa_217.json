@@ -1,0 +1,64 @@
+{
+  "id": 217,
+  "title": "MANIPULAÇÃO DE PDFs COM PYPDF E PDFPLUMBER",
+  "definition": "São ferramentas em Python para ler, extrair, juntar e dividir arquivos PDF sem abrir nenhum programa.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "PDF é uma pilha de páginas: você pode juntar, separar ou ler o conteúdo de cada uma."
+    ]
+  },
+  "topRight": {
+    "pill": "PYPDF VS PDFPLUMBER",
+    "icon": "🖥️",
+    "bullets": [
+      "pypdf: junta, divide e reorganiza páginas do PDF.",
+      "pdfplumber: é ótimo para extrair texto e tabelas com precisão."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Juntar: PdfWriter().append(arquivo)",
+      "Extrair texto: pagina.extract_text()"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Automação de relatórios financeiros e contratos.",
+      "Extração de dados de notas fiscais e boletins."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Abrir o PDF com a biblioteca escolhida",
+      "PASSO 2: Escolher a ação: juntar, extrair ou dividir",
+      "PASSO 3: Salvar o novo arquivo ou o texto extraído"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de fechar o arquivo final com writer.close().",
+      "PDFs escaneados (imagem) não têm texto para extrair."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Vários PDFs ➔ pypdf junta tudo ➔ Relatório único pronto"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Automação",
+  "escola": "03_python_especialista",
+  "foco_pedagogico": "Juntando relatórios, extraindo texto e dividindo páginas"
+}

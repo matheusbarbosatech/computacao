@@ -1,0 +1,64 @@
+{
+  "id": 256,
+  "title": "LOGGING PROFISSIONAL NO PYTHON",
+  "definition": "É a forma organizada de registrar o que o programa está fazendo, com data e nível de importância.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Em vez de usar print, você registra mensagens com contexto e gravidade."
+    ]
+  },
+  "topRight": {
+    "pill": "NÍVEIS DE SEVERIDADE",
+    "icon": "🖥️",
+    "bullets": [
+      "Cada mensagem tem um grau de importância, do aviso leve ao erro grave.",
+      "DEBUG < INFO < WARNING < ERROR < CRITICAL."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Cria um logger e define o nível mínimo que ele mostra.",
+      "logging.info('Usuário logado com sucesso')"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Em APIs, scripts automáticos e sistemas que rodam sem supervisão humana.",
+      "Muito usado com módulo logging, Django, Flask e FastAPI."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O código chama logging.info() ou logging.error()",
+      "PASSO 2: O logger verifica o nível e adiciona timestamp automático",
+      "PASSO 3: A mensagem é salva em arquivo ou mostrada no terminal"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Usar print() em produção deixa o app sem histórico rastreável.",
+      "Configure o nível certo, senão mensagens importantes ficam escondidas."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Evento no código ➔ logging registra com hora e nível ➔ histórico confiável para debugar"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Deploy Python",
+  "escola": "03_python_especialista",
+  "foco_pedagogico": "Substituindo print por logs com timestamp e níveis de severidade"
+}

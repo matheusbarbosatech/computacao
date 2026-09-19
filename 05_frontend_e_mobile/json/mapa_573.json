@@ -1,0 +1,64 @@
+{
+  "id": 573,
+  "title": "WEBASSEMBLY (WASM): RODANDO C++, RUST E GO NO NAVEGADOR",
+  "definition": "WebAssembly é um formato que permite rodar programas super-rápidos, escritos em C++, Rust ou Go, diretamente dentro do navegador, como se fossem aplicativos instalados no computador.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como colocar um motor de Ferrari dentro do navegador: seu código pesado roda quase na velocidade de um programa nativo, sem travar a página."
+    ]
+  },
+  "topRight": {
+    "pill": "POR QUE ISSO É REVOLUCIONÁRIO",
+    "icon": "🖥️",
+    "bullets": [
+      "Antes: navegador só rodava JavaScript, que é lento para tarefas pesadas como edição de vídeo ou jogos 3D.",
+      "Agora: o navegador vira uma plataforma universal que executa softwares profissionais inteiros sem instalar nada."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Você escreve em C++, Rust ou Go e compila para um arquivo .wasm, que o navegador entende e executa direto.",
+      "Exemplo: emscripten codigo.cpp -o app.wasm gera o binário que roda na web com JavaScript apenas como cola."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Figma: editor de design profissional rodando liso no navegador. Photoshop Web: edição de imagem pesada sem download.",
+      "Google Earth, Unity e Unreal Engine exportam jogos 3D direto para a web usando WASM."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você escreve o código pesado (ex: filtro de vídeo, física de jogo) em C++ ou Rust.",
+      "PASSO 2: O compilador traduz esse código para WebAssembly (.wasm), um binário ultracompacto e otimizado.",
+      "PASSO 3: O navegador carrega o .wasm, compila em milissegundos e executa direto no hardware, sensação nativa."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que WASM substitui JavaScript: na verdade, eles trabalham juntos. JS faz a interface, WASM faz o trabalho pesado.",
+      "Esquecer que WASM não acessa o DOM direto: para mexer em botões e telas, você precisa de JavaScript como ponte."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Código C++/Rust/Go ➔ Compilador gera .wasm ➔ Navegador executa em velocidade nativa ➔ Softwares pesados e jogos rodam na web como se fossem nativos."
+    ]
+  },
+  "_modelo_usado": "devworld/deepseek-v4-pro-0813-f",
+  "modulo": "Front-end",
+  "escola": "05_frontend_e_mobile",
+  "foco_pedagogico": "Executando softwares pesados de edição de vídeo e jogos na web com velocidade nativa"
+}

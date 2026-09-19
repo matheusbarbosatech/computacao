@@ -1,0 +1,65 @@
+{
+  "id": 682,
+  "title": "A FALÁCIA DOS CUSTOS IRRECUPERÁVEIS NO SOFTWARE",
+  "definition": "Continuar um código ruim só porque você já investiu muito tempo nele, mesmo sabendo que parar agora seria melhor.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Você já gastou semanas naquele código. Esse tempo não volta mais.",
+      "A falácia é insistir só porque 'já investi demais pra largar'."
+    ]
+  },
+  "topRight": {
+    "pill": "CUSTO IRRECUPERÁVEL",
+    "icon": "🖥️",
+    "bullets": [
+      "O computador não sabe quanto você já gastou. Ele só roda o que existe.",
+      "O custo real é manter, corrigir e ensinar esse código todos os dias."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Decida olhando apenas o futuro: o passado não entra na conta.",
+      "exemplo(se custo_futuro > valor_futuro: descartar_codigo())"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Apagar código morto, trocar framework velho, reescrever módulo travado.",
+      "Aparece em commits no Git, tarefas no Jira e decisões de arquitetura."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você percebe que o código está travando o time",
+      "PASSO 2: Ignore o que já gastou e compare só o custo daqui pra frente",
+      "PASSO 3: Descarte ou reescreva cedo, antes que fique caro demais"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Erro clássico: 'já escrevi três meses, não posso jogar fora'. Isso é a falácia.",
+      "Dica de ouro: pergunte 'se eu começasse hoje, faria assim de novo?'"
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Tempo já gasto ➔ não volta ➔ decida pelo futuro, não pelo passado"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Mentalidade",
+  "escola": "02_logica_e_algoritmos",
+  "foco_pedagogico": "A coragem de descartar código ruim antes que ele custe caro demais para manter"
+}

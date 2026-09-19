@@ -1,0 +1,67 @@
+{
+  "id": 653,
+  "title": "PADRÃO TWO POINTERS (DOIS PONTEIROS)",
+  "definition": "Técnica que usa dois índices andando pelo mesmo texto ou lista ao mesmo tempo.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Imagine duas mãos apontando para o mesmo papel: uma no começo, outra no fim.",
+      "Em vez de varrer tudo várias vezes, os dois dedos se aproximam e resolvem junto."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O COMPUTADOR FAZ",
+    "icon": "🖥️",
+    "bullets": [
+      "O computador guarda dois números simples: posição da esquerda e posição da direita.",
+      "Os dois avançam na mesma passada, então cada item é visitado pouquíssimas vezes."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Regra de ouro: enquanto a esquerda for menor que a direita, faça a troca.",
+      "while (esq < dir) { troca(a[esq], a[dir]); esq++; dir--; }",
+      "esq++ anda um passo para frente e dir-- anda um passo para trás."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Inverter textos, checar palíndromos e achar pares que somam um valor alvo.",
+      "Aparece em Python, JavaScript, Java, C++ e em quase toda entrevista de emprego."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Coloque um ponteiro no início e outro no último item.",
+      "PASSO 2: Compare ou troque os valores e mova os dois ponteiros para dentro.",
+      "PASSO 3: Quando os ponteiros se cruzarem, o trabalho está concluído."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de mover um ponteiro: o laço roda para sempre e trava o programa.",
+      "Usar menor ou igual em vez de menor e trocar um item com ele mesmo.",
+      "Dica de ouro: para buscar somas, a lista precisa estar ordenada antes."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Dois índices ➔ Andam em direções opostas ➔ Solução rápida em uma só passada"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "LeetCode",
+  "escola": "02_logica_e_algoritmos",
+  "foco_pedagogico": "Dois índices andando em direções opostas para inverter strings ou achar somas"
+}

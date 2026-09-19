@@ -1,0 +1,64 @@
+{
+  "id": 387,
+  "title": "ARQUITETURA ZERO TRUST: NUNCA CONFIE, SEMPRE VERIFIQUE",
+  "definition": "É um modelo de segurança onde nenhum usuário ou dispositivo é confiável, mesmo estando dentro da rede da empresa.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Imagine um prédio onde todo mundo precisa mostrar crachá em cada porta, até para quem já entrou."
+    ]
+  },
+  "topRight": {
+    "pill": "SEM REDE INTERNA SEGURA",
+    "icon": "🖥️",
+    "bullets": [
+      "O antigo 'castelo com muralha' não existe mais, dentro não é sinônimo de seguro.",
+      "Cada requisição é tratada como se viesse da internet aberta."
+    ]
+  },
+  "midRight": {
+    "pill": "REGRA DE VERIFICAÇÃO",
+    "icon": "{ }",
+    "bullets": [
+      "Toda chamada precisa provar identidade e permissão antes de passar.",
+      "if (identidade_valida && permissao_ok) { libera_acesso() }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Empresas com times remotos, nuvem e múltiplos dispositivos acessando sistemas.",
+      "Ferramentas: IAM, MFA, VPN Zero Trust, Google BeyondCorp."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Usuário ou sistema pede acesso a um recurso",
+      "PASSO 2: Identidade, dispositivo e contexto são verificados na hora",
+      "PASSO 3: Acesso liberado só ao mínimo necessário, por tempo limitado"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que 'já estar logado' significa acesso permanente a tudo.",
+      "Dica de ouro: sempre valide de novo, mesmo que a pessoa já esteja dentro."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Pedido de acesso ➔ Verificação constante ➔ Liberação mínima e temporária"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Governança",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "Eliminando o conceito de rede interna segura e validando cada requisição"
+}

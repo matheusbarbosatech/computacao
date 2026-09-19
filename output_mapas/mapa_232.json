@@ -1,0 +1,64 @@
+{
+  "id": 232,
+  "title": "HERANÇA MÚLTIPLA E O MRO",
+  "definition": "MRO é a fila que o Python segue para decidir de qual classe puxar um método quando existem várias 'mães'.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Uma classe pode herdar características de mais de um 'pai' ao mesmo tempo."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O PYTHON DECIDE",
+    "icon": "🖥️",
+    "bullets": [
+      "Ele monta uma lista de busca chamada MRO antes de rodar qualquer método.",
+      "Usa o algoritmo C3 Linearization para evitar bagunça na ordem."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Toda classe herda de várias entre parênteses, separadas por vírgula.",
+      "class C(A, B): pass"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Frameworks como Django usam herança múltipla em Views e Mixins.",
+      "Comum em Python; outras linguagens como Java evitam isso."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Python olha primeiro na própria classe filha",
+      "PASSO 2: Depois segue a ordem dos pais, da esquerda pra direita",
+      "PASSO 3: Usa .mro() para ver a fila exata de busca"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que a ordem dos pais no parêntese não importa: importa muito!",
+      "Dica de ouro: rode ClasseX.mro() para tirar qualquer dúvida na hora."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Várias classes-mãe ➔ Python cria uma fila (MRO) ➔ Busca método na ordem certa"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "POO Python",
+  "escola": "03_python_especialista",
+  "foco_pedagogico": "A ordem de busca dos métodos quando uma classe herda de várias"
+}

@@ -1,0 +1,67 @@
+{
+  "id": 267,
+  "title": "GERENCIAMENTO DE PROCESSOS: PS, TOP, HTOP, KILL E KILL -9",
+  "definition": "É como olhar o painel de controle do computador e decidir quais programas continuam ligados ou são encerrados.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Todo programa aberto é um processo, e você pode ver e controlar cada um deles."
+    ]
+  },
+  "topRight": {
+    "pill": "PS E TOP/HTOP",
+    "icon": "🖥️",
+    "bullets": [
+      "ps mostra uma foto parada dos processos rodando agora.",
+      "top e htop mostram uma tela viva, atualizada em tempo real."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Cada processo tem um número único chamado PID.",
+      "ps aux",
+      "top",
+      "kill 1234",
+      "kill -9 1234"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Administração de servidores Linux e macOS no terminal.",
+      "Usado por devs, sysadmins e times de DevOps."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Rode top ou htop para ver quem está consumindo CPU/memória",
+      "PASSO 2: Identifique o PID do processo travado ou pesado",
+      "PASSO 3: Use kill (pedido educado) ou kill -9 (forçado) para encerrar"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Usar kill -9 direto sem tentar kill normal antes pode corromper dados.",
+      "Matar o processo errado pelo PID trocado trava o sistema todo."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Ver processo (top) ➔ Achar o culpado (PID) ➔ Encerrar (kill/kill -9)"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Linux",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Identificando processos que travam a CPU e liberando memória"
+}

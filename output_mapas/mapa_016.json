@@ -1,0 +1,64 @@
+{
+  "id": 16,
+  "title": "OPERADORES DE ATRIBUIÇÃO E INCREMENTO",
+  "definition": "São atalhos para guardar valores em uma variável e aumentar ou diminuir esse valor.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como um contador que soma ou subtrai sozinho, sem você refazer a conta toda."
+    ]
+  },
+  "topRight": {
+    "pill": "ATRIBUIÇÃO SIMPLES",
+    "icon": "🖥️",
+    "bullets": [
+      "O sinal = guarda um valor dentro da variável, não é 'igual' de matemática.",
+      "x = 5 significa 'coloque 5 dentro de x'."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "x++ soma 1 a x (x = x + 1).",
+      "x-- subtrai 1 de x (x = x - 1).",
+      "x += 5 soma 5 a x (x = x + 5)."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Contadores em loops (for, while) e placares de jogos.",
+      "Usado em JavaScript, Java, C, Python (sem ++ nativo)."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: A variável já tem um valor guardado, ex: x = 10",
+      "PASSO 2: O operador aplica a operação, ex: x++ soma 1",
+      "PASSO 3: O novo valor substitui o antigo, x agora é 11"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Confundir x++ (usa valor antigo depois) com ++x (usa valor novo antes).",
+      "Python não tem x++, use x += 1 no lugar."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Variável ➔ Operador (++, --, +=) ➔ Valor atualizado guardado"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Lógica",
+  "foco_pedagogico": "x++, x--, x += 5"
+}

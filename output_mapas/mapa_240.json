@@ -1,0 +1,64 @@
+{
+  "id": 240,
+  "title": "AUTENTICAÇÃO JWT NO FASTAPI",
+  "definition": "JWT é um crachá digital assinado que prova quem você é sem precisar mostrar senha de novo.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Um token é como um bilhete selado que comprova seu login por um tempo."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O SISTEMA LIDA",
+    "icon": "🖥️",
+    "bullets": [
+      "O servidor cria o token na hora do login e assina com uma senha secreta.",
+      "A cada requisição, ele checa a assinatura antes de liberar acesso."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Usa a lib python-jose ou pyjwt para assinar e conferir tokens.",
+      "jwt.encode({'sub': usuario}, SECRET, algorithm='HS256')"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Proteger rotas como /perfil ou /pedidos de usuários logados.",
+      "Comum em APIs FastAPI, Flask, Node.js e apps mobile."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Usuário envia login e senha corretos",
+      "PASSO 2: Servidor gera token assinado com dados e prazo de validade",
+      "PASSO 3: Cliente envia token no header para acessar rotas protegidas"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de definir tempo de expiração deixa o token válido para sempre.",
+      "Nunca guarde a chave secreta direto no código, use variável de ambiente."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Login válido ➔ Gera token assinado ➔ Rota protegida libera acesso"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "APIs Python",
+  "escola": "03_python_especialista",
+  "foco_pedagogico": "Gerando tokens assinados para rotas protegidas de usuários"
+}

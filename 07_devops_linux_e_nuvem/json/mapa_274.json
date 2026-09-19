@@ -1,0 +1,64 @@
+{
+  "id": 274,
+  "title": "COMPACTAÇÃO E BACKUP: TAR, GZIP, ZIP E RSYNC",
+  "definition": "São ferramentas para empacotar, encolher e copiar arquivos de forma segura e rápida.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Guardar e mover arquivos gastando o mínimo de espaço e tempo possível."
+    ]
+  },
+  "topRight": {
+    "pill": "TAR VS GZIP VS ZIP",
+    "icon": "🖥️",
+    "bullets": [
+      "Tar junta vários arquivos em uma 'mala' só, sem encolher nada.",
+      "Gzip encolhe essa mala; zip junta e encolhe ao mesmo tempo."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "tar cria e compacta junto com uma letra extra.",
+      "tar -czvf backup.tar.gz pasta/"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Backups de servidores, envio de projetos e deploys em nuvem.",
+      "Comum em Linux, servidores AWS e scripts de automação."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO DO RSYNC",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Rsync compara arquivo local e remoto",
+      "PASSO 2: Ele identifica só as partes que mudaram",
+      "PASSO 3: Envia apenas essa diferença pela rede"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer a barra '/' no fim da pasta muda o resultado do rsync.",
+      "Achar que zip e gzip são a mesma coisa é engano clássico."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Arquivo grande ➔ Rsync compara diferenças ➔ Só o novo trecho viaja pela rede"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Linux",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Sincronizando arquivos eficientemente pela rede com rsync"
+}

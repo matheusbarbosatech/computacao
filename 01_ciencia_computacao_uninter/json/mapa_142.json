@@ -1,0 +1,63 @@
+{
+  "id": 142,
+  "title": "PILHAS (STACKS): PRINCÍPIO LIFO",
+  "definition": "Pilha é uma estrutura onde o último item que entra é o primeiro que sai.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Imagine uma pilha de pratos: você só tira o de cima primeiro."
+    ]
+  },
+  "topRight": {
+    "pill": "LIFO (LAST IN, FIRST OUT)",
+    "icon": "🖥️",
+    "bullets": [
+      "O computador guarda os dados em ordem, um empilhado sobre o outro.",
+      "Só existe acesso ao item que está no topo da pilha."
+    ]
+  },
+  "midRight": {
+    "pill": "OPERAÇÕES BÁSICAS",
+    "icon": "{ }",
+    "bullets": [
+      "push() coloca um item no topo da pilha.",
+      "pop() remove e retorna o item do topo."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Botão de desfazer (Ctrl+Z) em editores e programas.",
+      "Usado em Java, Python, JavaScript e no histórico do navegador."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você faz uma ação e ela entra no topo da pilha",
+      "PASSO 2: Ao apertar Ctrl+Z, o sistema pega o item do topo",
+      "PASSO 3: Essa última ação é desfeita e removida da pilha"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que dá para acessar itens do meio da pilha direto: não dá.",
+      "Dica de ouro: pense sempre 'o último a chegar sai primeiro'."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Ação entra (push) ➔ fica no topo ➔ sai primeiro (pop) no Ctrl+Z"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "UNINTER",
+  "foco_pedagogico": "Último a entrar, primeiro a sair (ex: desfazer / Ctrl+Z)"
+}

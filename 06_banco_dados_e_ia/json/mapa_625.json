@@ -1,0 +1,65 @@
+{
+  "id": 625,
+  "title": "REDES RECORRENTES (RNN) E LSTMs PARA SÉRIES TEMPORAIS",
+  "definition": "Redes neurais com memória: elas olham o passado da sequência para prever o próximo item.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É uma rede neural que tem memória do que já viu antes.",
+      "Funciona como ler uma frase: cada palavra depende das anteriores."
+    ]
+  },
+  "topRight": {
+    "pill": "MEMÓRIA INTERNA",
+    "icon": "🖥️",
+    "bullets": [
+      "A RNN guarda um resumo do passado e leva para o próximo passo.",
+      "A LSTM usa portões para decidir o que lembrar e o que esquecer."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Regra de ouro: saída = entrada de agora mais memória anterior.",
+      "exemplo(h_t = ativacao(W * x_t + U * h_(t-1)))"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Prever cotações de ações e a próxima palavra de um texto.",
+      "Em Python, com PyTorch, Keras ou TensorFlow."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: A rede recebe o dado do momento atual.",
+      "PASSO 2: Os portões decidem o que guardar na memória.",
+      "PASSO 3: Ela devolve a previsão do próximo valor ou palavra."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "RNN simples esquece o começo em sequências longas demais.",
+      "Sem normalizar os dados, o treino trava e não aprende."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Sequência entra ➔ LSTM guarda o essencial ➔ Previsão do próximo item"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Machine Learning",
+  "escola": "06_banco_dados_e_ia",
+  "foco_pedagogico": "Modelos que possuem memória para prever cotações e próximas palavras de textos"
+}

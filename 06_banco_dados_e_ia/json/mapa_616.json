@@ -1,0 +1,65 @@
+{
+  "id": 616,
+  "title": "ÁRVORES DE DECISÃO E RANDOM FOREST",
+  "definition": "Uma árvore de decisão é um jogo de perguntas de sim ou não até chegar a uma resposta; a Random Forest junta centenas de árvores e deixa todas votarem.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como um jogo de perguntas encadeadas: cada resposta leva a uma nova pergunta até a conclusão.",
+      "Uma árvore só pode errar muito; um time de árvores erra menos porque vota em conjunto."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O COMPUTADOR APRENDE",
+    "icon": "🖥️",
+    "bullets": [
+      "O computador testa várias perguntas sobre os dados e escolhe a que melhor separa os grupos.",
+      "Na Random Forest, cada árvore vê uma amostra diferente dos dados e das colunas disponíveis."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Criar o modelo é só chamar uma função e informar quantas árvores você quer no time.",
+      "modelo = RandomForestClassifier(n_estimators=100).fit(X, y)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Detectar spam, aprovar crédito, prever doenças e recomendar produtos em lojas online.",
+      "Disponível em Python com scikit-learn, em R e em ferramentas de dados como Spark ML."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Sortear muitas amostras diferentes dos dados de treino",
+      "PASSO 2: Cada árvore faz suas perguntas e dá um palpite sozinha",
+      "PASSO 3: A resposta com mais votos vira a previsão final do time"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Apostar em uma única árvore: ela decora o treino e erra feio em dados novos.",
+      "Esquecer de limitar a profundidade das árvores: o modelo fica lento e confuso."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Perguntas simples ➔ Centenas de árvores votando ➔ Previsão mais estável e confiável"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Machine Learning",
+  "escola": "06_banco_dados_e_ia",
+  "foco_pedagogico": "Combinando centenas de árvores de decisão para criar previsões robustas"
+}

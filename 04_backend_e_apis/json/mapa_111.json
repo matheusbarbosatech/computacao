@@ -1,0 +1,63 @@
+{
+  "id": 111,
+  "title": "INTERFACES E CONTRATOS",
+  "definition": "É uma lista de regras que promete quais ações uma classe deve saber fazer.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Como um contrato de trabalho: define o que precisa ser entregue, não como fazer."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O SISTEMA TRATA ISSO",
+    "icon": "🖥️",
+    "bullets": [
+      "O compilador checa se a promessa foi cumprida antes de rodar.",
+      "Se faltar um método obrigatório, dá erro na hora."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Interface só declara o nome do método, sem corpo.",
+      "interface Animal { emitirSom(); }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Java, C#, TypeScript usam interfaces o tempo todo.",
+      "Comum em APIs, plugins e sistemas plugáveis."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: A interface define os métodos obrigatórios",
+      "PASSO 2: A classe assina o contrato implementando a interface",
+      "PASSO 3: O compilador confirma que tudo foi cumprido"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de implementar um método gera erro de compilação.",
+      "Interface não guarda dados, só define comportamentos."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Contrato define regra ➔ Classe assina e cumpre ➔ Sistema garante confiança"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "POO",
+  "foco_pedagogico": "Regras estritas que garantem que métodos obrigatórios existam"
+}

@@ -1,0 +1,64 @@
+{
+  "id": 233,
+  "title": "DECORATORS NO PYTHON: FUNÇÕES QUE ENVOLVEM FUNÇÕES",
+  "definition": "Decorator é uma função que embrulha outra função para adicionar um comportamento extra sem mudar seu código original.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como uma embalagem de presente: a função original continua igual, só ganha algo por fora."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O PYTHON EXECUTA",
+    "icon": "🖥️",
+    "bullets": [
+      "O Python troca a função original pela versão 'embrulhada' automaticamente.",
+      "Quem chama a função nem percebe a troca acontecendo."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Use @nome_do_decorator bem acima da função que quer envolver.",
+      "@medir_tempo\ndef processar():\n    ..."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Medir tempo de execução, checar login e registrar logs.",
+      "Muito usado em Flask, Django e FastAPI para proteger rotas."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: A função é chamada, mas o decorator entra em ação primeiro",
+      "PASSO 2: O decorator faz sua checagem (tempo, login) antes ou depois",
+      "PASSO 3: A função original executa e o resultado final é entregue"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de retornar a função interna faz o código quebrar.",
+      "Dica de ouro: sempre use *args e **kwargs para aceitar qualquer parâmetro."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Função original ➔ Decorator adiciona verificação ➔ Resultado com extra (tempo medido ou login validado)"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "POO Python",
+  "escola": "03_python_especialista",
+  "foco_pedagogico": "Medindo tempo de execução e checando login com @decorador"
+}

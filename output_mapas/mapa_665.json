@@ -1,0 +1,66 @@
+{
+  "id": 665,
+  "title": "REFATORAÇÃO DE CÓDIGO: IDENTIFICANDO E ELIMINANDO CODE SMELLS",
+  "definition": "Refatorar é melhorar a organização do código sem mudar o que ele faz para o usuário.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Code smell é cheiro de código ruim: funciona, mas é confuso, longo ou repetido.",
+      "Refatorar é arrumar a casa por dentro sem mudar o comportamento de fora."
+    ]
+  },
+  "topRight": {
+    "pill": "OS 3 CHEIROS CLÁSSICOS",
+    "icon": "🖥️",
+    "bullets": [
+      "Função longa: uma função com 80 linhas que faz 5 coisas diferentes.",
+      "Classe Deus: uma classe que sabe de tudo e é usada em todo o sistema.",
+      "Código duplicado: a mesma lógica copiada e colada em vários arquivos."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Regra de ouro: uma função faz uma coisa só. Se o nome tem 'e', divida em duas.",
+      "exemplo(ruim: calcularEValidarEEnviarEmail()) ➔ exemplo(bom: calcular(), validar(), enviar())"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "No dia a dia: antes de adicionar recurso, limpe primeiro o trecho que vai mexer.",
+      "Ferramentas que apontam cheiros: SonarQube, ESLint, Pylint e avisos da própria IDE."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Rode os testes e confirme que tudo passa antes de tocar no código.",
+      "PASSO 2: Ache o cheiro e faça uma mudança pequena: renomear, extrair ou juntar.",
+      "PASSO 3: Rode os testes de novo. Se passaram, siga; se não, desfaça essa mudança."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Erro clássico: reescrever tudo de uma vez e quebrar o sistema sem perceber.",
+      "Dica de ouro: mude pouco por vez com testes rodando. Refatorar sem teste é aposta."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Cheiro no código ➔ Passos pequenos com teste verde ➔ Código limpo e fácil de mudar"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Prática Dev",
+  "escola": "02_logica_e_algoritmos",
+  "foco_pedagogico": "Funções longas, classes com muitas responsabilidades e código duplicado"
+}

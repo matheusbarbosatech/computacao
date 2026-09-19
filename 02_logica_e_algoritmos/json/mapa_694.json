@@ -1,0 +1,65 @@
+{
+  "id": 694,
+  "title": "ERGONOMIA E SAÚDE DO PROGRAMADOR",
+  "definition": "Como cuidar do corpo e da visão para programar por décadas sem sentir dor.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Seu corpo é sua ferramenta principal. Ignorar sinais de dor pode encerrar sua carreira mais cedo do que você imagina."
+    ]
+  },
+  "topRight": {
+    "pill": "LER E DORT",
+    "icon": "🖥️",
+    "bullets": [
+      "LER: inflamação nos tendões causada por movimentos repetitivos como digitar e clicar sem parar.",
+      "DORT: dor crônica em músculos e articulações por postura ruim mantida por horas."
+    ]
+  },
+  "midRight": {
+    "pill": "REGRAS DE OURO",
+    "icon": "{ }",
+    "bullets": [
+      "Regra 20-20-20: a cada 20 min, olhe para algo a 6 metros por 20 segundos.",
+      "Regra 50-10: 50 min de foco total, depois 10 min de pausa ativa longe da tela.",
+      "Pomodoro(25,5): 25 min codando, 5 min alongando. Repita 4x e faça pausa maior."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Home office, escritórios de TI, coworkings — qualquer lugar com tela e teclado.",
+      "Apps que ajudam: Stretchly, Workrave, Pomodoro Timer e alarmes no celular."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO DO SETUP IDEAL",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Cadeira com pés apoiados no chão e joelhos dobrados a 90 graus.",
+      "PASSO 2: Monitor com o topo da tela na altura dos olhos e a um braço de distância.",
+      "PASSO 3: Pausa ativa — levante, alongue pulsos, ombros, pescoço e pisque bastante."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Cadeira gamer cara não é garantia de ergonomia; ajuste sempre lombar e altura.",
+      "Formigamento nos dedos é alerta vermelho de túnel do carpo — procure um médico cedo."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Postura alinhada ➔ Pausas frequentes ➔ Monitor na altura certa ➔ Carreira longa e sem dor."
+    ]
+  },
+  "_modelo_usado": "devworld/deepseek-v4-pro-0813-f",
+  "modulo": "Mentalidade",
+  "escola": "02_logica_e_algoritmos",
+  "foco_pedagogico": "Postura, pausas ativas e ajustes de monitor para uma carreira longa e saudável"
+}

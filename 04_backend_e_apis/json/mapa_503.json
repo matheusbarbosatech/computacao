@@ -1,0 +1,64 @@
+{
+  "id": 503,
+  "title": "PATTERN OUTBOX: GARANTINDO ENTREGA DE EVENTOS",
+  "definition": "É salvar o dado e o aviso de que algo aconteceu na mesma caixa, ao mesmo tempo, para nunca perder a mensagem.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Em vez de salvar o dado e enviar a mensagem separado, você salva os dois juntos no banco."
+    ]
+  },
+  "topRight": {
+    "pill": "O PROBLEMA QUE RESOLVE",
+    "icon": "🖥️",
+    "bullets": [
+      "Sem isso, o sistema pode salvar o pedido mas cair antes de avisar o estoque.",
+      "Isso causa dados perdidos ou avisos duplicados."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Uma transação grava nas duas tabelas: negócio e outbox.",
+      "BEGIN; INSERT pedido; INSERT outbox_evento; COMMIT;"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Sistemas de e-commerce, bancos e apps com filas de mensagem.",
+      "Usado com Kafka, RabbitMQ, SQS e bancos como Postgres."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Sistema salva o dado e o evento na mesma transação",
+      "PASSO 2: Um processo separado lê a tabela outbox de tempos em tempos",
+      "PASSO 3: Esse processo envia o evento para a fila e marca como enviado"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Enviar a mensagem direto na fila sem salvar no banco primeiro é o erro clássico.",
+      "Esqueça 'salvar e enviar separado': é a receita da inconsistência."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Salva dado + evento juntos ➔ processo entrega depois ➔ nada se perde"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Microsserviços",
+  "escola": "04_backend_e_apis",
+  "foco_pedagogico": "Gravando na mesma transação local o dado de negócio e a mensagem a ser enviada"
+}

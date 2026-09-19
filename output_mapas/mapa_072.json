@@ -1,0 +1,63 @@
+{
+  "id": 72,
+  "title": "REMOVENDO DO FIM (POP)",
+  "definition": "Pop é tirar o último item de uma lista e guardar o valor dele.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como tirar o último prato de uma pilha e segurar ele na mão."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O SISTEMA FAZ",
+    "icon": "🖥️",
+    "bullets": [
+      "O programa acha o último espaço da lista e copia o valor.",
+      "Depois apaga esse espaço e a lista fica menor."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "pop() sem número tira o último item automaticamente.",
+      "lista.pop() → guarda o valor removido numa variável"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Desfazer ações (Ctrl+Z) usa pop numa pilha de histórico.",
+      "Comum em Python, JavaScript, Java (Stack, List)."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O programa olha o fim da lista",
+      "PASSO 2: Guarda o valor daquele item numa variável",
+      "PASSO 3: Remove o item e a lista diminui de tamanho"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Fazer pop numa lista vazia gera erro, sempre verifique antes.",
+      "Esquecer de guardar o valor retornado e perder o item."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Lista com itens ➔ pop() no último ➔ valor guardado + lista menor"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Coleções",
+  "foco_pedagogico": "Tirando o último item e pegando seu valor"
+}

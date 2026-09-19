@@ -1,0 +1,71 @@
+{
+  "id": 657,
+  "title": "MANIPULAÇÃO DE BITS (BITWISE)",
+  "definition": "Operações diretas nos bits (0 e 1) que compõem os números, permitindo cálculos ultrarrápidos e truques inteligentes.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Todo número no computador é feito de bits (0s e 1s). Bitwise mexe direto nesses bits, como interruptores microscópicos de liga/desliga."
+    ]
+  },
+  "topRight": {
+    "pill": "OS 4 OPERADORES PRINCIPAIS",
+    "icon": "🖥️",
+    "bullets": [
+      "AND (&): só dá 1 se os DOIS bits forem 1. Funciona como um filtro seletivo.",
+      "OR (|): dá 1 se PELO MENOS UM bit for 1. É o operador 'somar sem levar'.",
+      "XOR (^): dá 1 se os bits forem DIFERENTES. É o detector de disparidade.",
+      "SHIFT (<< e >>): empurra todos os bits para esquerda ou direita. Multiplica ou divide por 2 instantaneamente."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "AND: 5 & 3 = 1 (0101 & 0011 = 0001). Use para mascarar bits específicos.",
+      "OR: 5 | 3 = 7 (0101 | 0011 = 0111). Use para ligar bits.",
+      "XOR: 5 ^ 3 = 6 (0101 ^ 0011 = 0110). Use para alternar bits.",
+      "Shift: 5 << 1 = 10 (multiplica por 2). 8 >> 2 = 2 (divide por 4)."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Flags e permissões de sistema (cada bit = um sim/não).",
+      "Criptografia leve e checksums (XOR é rei aqui).",
+      "Gráficos e processamento de imagem (máscaras RGB).",
+      "C, C++, Rust, Go e sistemas embarcados usam direto no hardware."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "TRUQUES RELÂMPAGO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1 - ÍMPAR OU PAR?: Faça n & 1. Resultado 1 = ímpar, 0 = par. O bit final entrega a verdade.",
+      "PASSO 2 - POTÊNCIA DE 2?: Faça n & (n-1). Se der 0 e n > 0, é potência exata de 2. Mágica pura.",
+      "PASSO 3 - DOBRAR OU METADE: n << 1 dobra o valor. n >> 1 divide por 2 (inteiro). Sem mutiplicação, sem demora."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Confundir & (AND bit a bit) com && (E lógico): o primeiro compara bits, o segundo compara verdades inteiras.",
+      "Shift com sinal em números negativos: >> pode manter o sinal (shift aritmético) ou não — depende da linguagem!",
+      "Dica de ouro: sempre use parênteses. A precedência dos bitwise é traiçoeira e inverte suas contas sem aviso."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Bits são tijolos mínimos ➔ Operadores manipulam tijolos ➔ Resultado: velocidade extrema e truques que valem ouro no baixo nível."
+    ]
+  },
+  "_modelo_usado": "devworld/deepseek-v4-pro-0813-f",
+  "modulo": "LeetCode",
+  "escola": "02_logica_e_algoritmos",
+  "foco_pedagogico": "Truques de baixo nível para testar números ímpares e potência de 2 instantaneamente"
+}

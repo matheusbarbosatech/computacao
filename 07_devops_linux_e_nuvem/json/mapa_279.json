@@ -1,0 +1,66 @@
+{
+  "id": 279,
+  "title": "DIAGNÓSTICO DE REDE: PING, TRACEROUTE, NETSTAT, SS E CURL",
+  "definition": "São ferramentas que mostram por onde seus dados passam e onde eles travam no caminho.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Cada ferramenta é um detetive que investiga uma parte diferente da viagem dos dados."
+    ]
+  },
+  "topRight": {
+    "pill": "PING E TRACEROUTE",
+    "icon": "🖥️",
+    "bullets": [
+      "Ping testa se o destino está vivo e responde rápido.",
+      "Traceroute mostra cada 'parada' até chegar lá."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Comandos simples no terminal, sem instalar nada extra.",
+      "ping google.com",
+      "traceroute google.com",
+      "curl -v https://site.com"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Suporte técnico, DevOps e programadores resolvendo lentidão.",
+      "Terminal Linux/Mac e Prompt/PowerShell no Windows."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: PING confirma se o servidor está acessível",
+      "PASSO 2: TRACEROUTE acha em qual salto o atraso começa",
+      "PASSO 3: NETSTAT/SS e CURL confirmam se a porta e a resposta funcionam"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que ping falhou significa site fora do ar (pode ser firewall bloqueando).",
+      "Confundir traceroute lento com internet ruim, quando é só um salto específico."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Ping testa vida ➔ Traceroute acha o salto travado ➔ Curl confirma a resposta real"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Redes",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Descobrindo exatamente onde um pacote de dados está travando"
+}

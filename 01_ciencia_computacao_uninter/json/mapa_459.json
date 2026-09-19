@@ -1,0 +1,64 @@
+{
+  "id": 459,
+  "title": "TEOREMA DE BELLMAN-FORD PARA GRAFOS COM PESOS NEGATIVOS",
+  "definition": "É um método que encontra o caminho mais barato entre lugares, mesmo quando existem 'descontos' (pesos negativos) no meio do caminho.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Imagine trocar moedas: cada troca tem um custo ou lucro, e queremos achar o melhor caminho."
+    ]
+  },
+  "topRight": {
+    "pill": "GRAFO DE MOEDAS",
+    "icon": "🖥️",
+    "bullets": [
+      "Cada moeda (USD, EUR, BRL) é um ponto no mapa.",
+      "Cada taxa de câmbio é uma seta com um peso (custo)."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Repita V-1 vezes: relaxe todas as arestas do grafo.",
+      "if dist[u] + peso(u,v) < dist[v]: dist[v] = dist[u] + peso(u,v)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Sistemas de trading automático e mesas de câmbio.",
+      "Usado em Python com bibliotecas como NetworkX ou implementação própria."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Converta taxas de câmbio em pesos usando log negativo.",
+      "PASSO 2: Rode Bellman-Ford relaxando todas as arestas repetidamente.",
+      "PASSO 3: Se algum caminho ainda melhora após V-1 rodadas, achou ciclo de arbitragem!"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de converter a taxa com -log(taxa) antes de somar os pesos.",
+      "Confundir 'ciclo negativo' com erro: na arbitragem, ele é o tesouro que você procura."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Taxas de câmbio ➔ Relaxamento repetido ➔ Ciclo negativo = lucro garantido sem risco"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Algoritmos",
+  "escola": "01_ciencia_computacao_uninter",
+  "foco_pedagogico": "Detectando ciclos de arbitragem cambial em finanças"
+}

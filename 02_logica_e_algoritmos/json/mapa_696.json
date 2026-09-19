@@ -1,0 +1,64 @@
+{
+  "id": 696,
+  "title": "SOFT SKILLS QUE DOBRAM O SALÁRIO DO DESENVOLVEDOR",
+  "definition": "Soft skills são habilidades de comunicação, escuta e negociação que fazem seu trabalho técnico valer muito mais para o time.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Programar é metade técnica: a outra metade é entender gente, ouvir e combinar prazos realistas."
+    ]
+  },
+  "topRight": {
+    "pill": "EMPATIA E ESCUTA ATIVA",
+    "icon": "❤️",
+    "bullets": [
+      "Empatia é olhar o problema pelos olhos de quem pediu a tarefa.",
+      "Escuta ativa: ouça até o fim, repita o pedido e confirme antes de codar."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Traduza o técnico para o negócio: zero siglas, use analogias simples.",
+      "exemplo: 'vou criar um atalho na estrada' em vez de 'otimizar a query'."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Dailies, reuniões de sprint, entrevistas e negociação de proposta salarial.",
+      "Vale em qualquer stack: Python, Java, JavaScript ou o que vier depois."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Ouça o pedido inteiro sem interromper e anote as palavras-chave.",
+      "PASSO 2: Repita o que entendeu e pergunte qual é o prazo real do cliente.",
+      "PASSO 3: Negocie entregas parciais e diga quando vem o restante do trabalho."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Aceitar todo prazo impossível com 'sim' e depois virar a noite culpando o gerente.",
+      "Dica de ouro: 'entrego isso na sexta e o resto na terça seguinte' funciona melhor que silêncio."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Escuta ativa ➔ Prazo negociado ➔ Entrega previsível ➔ Confiança ➔ Salário maior"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Mentalidade",
+  "escola": "02_logica_e_algoritmos",
+  "foco_pedagogico": "Empatia, negociação de prazos, escuta ativa e clareza na transmissão de ideias"
+}

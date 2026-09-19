@@ -1,0 +1,65 @@
+{
+  "id": 539,
+  "title": "LISTAS DINÂMICAS DE ALTA PERFORMANCE COM LISTVIEW.BUILDER",
+  "definition": "É um construtor de listas que cria cada item só quando ele aparece na tela, em vez de montar tudo de uma vez.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Pense numa esteira de sushi: só vem o prato que você vai pegar agora.",
+      "Mil itens na lista não significam mil itens desenhados no celular ao mesmo tempo."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O FLUTTER PENSA",
+    "icon": "🖥️",
+    "bullets": [
+      "O Flutter calcula a altura da tela e desenha apenas os itens visíveis mais uns poucos vizinhos.",
+      "Ao rolar, itens que saem da tela são reciclados e reaproveitados nos próximos."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "builder recebe o contexto e o índice do item; você devolve só aquele item pronto.",
+      "ListView.builder(itemCount: 5000, itemBuilder: (ctx, i) => Text('Item $i'))"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Feed de rede social, lista de contatos, histórico de mensagens e catálogo de produtos.",
+      "Padrão do Flutter, também em React Native (FlatList) e no Android (RecyclerView)."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O widget mede a tela e descobre quantos itens cabem nela.",
+      "PASSO 2: itemBuilder é chamado apenas para os índices que precisam aparecer.",
+      "PASSO 3: Ao rolar, itens velhos saem da memória e novos são criados na hora."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Criar widget dentro de outro widget: o Flutter remonta tudo e o scroll engasga.",
+      "Nunca esqueça itemCount, e evite listas sem rolagem dentro de outra lista."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Lista enorme ➔ constrói só o visível ➔ scroll leve e memória baixa"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Flutter",
+  "escola": "05_frontend_e_mobile",
+  "foco_pedagogico": "Renderizando milhares de itens na tela sem engasgar o scroll"
+}

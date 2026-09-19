@@ -1,0 +1,72 @@
+{
+  "id": 641,
+  "title": "PILHAS (STACKS): CONCEITO LIFO E CASOS DE USO REAIS",
+  "definition": "Pilha é uma coleção de dados onde o último que entra é o primeiro que sai — igual a uma pilha de pratos no armário.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "LIFO = Last In, First Out (Último a Entrar, Primeiro a Sair).",
+      "Você só acessa o topo da pilha — não fuça no meio.",
+      "Imagine uma pilha de livros: você tira o de cima primeiro."
+    ]
+  },
+  "topRight": {
+    "pill": "OPERAÇÕES PRINCIPAIS",
+    "icon": "🖥️",
+    "bullets": [
+      "PUSH: Empilhar — coloca um item no topo da pilha.",
+      "POP: Desempilhar — remove e retorna o item do topo.",
+      "PEEK (ou TOP): Espiar — olha o topo sem remover nada."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "push(item) coloca no topo, pop() tira do topo e devolve o valor.",
+      "pilha.push('Ação1'); pilha.push('Ação2'); pilha.pop(); // Sai 'Ação2'.",
+      "Em Python use list: pilha.append(x) e pilha.pop(). Em JS use array: push() e pop()."
+    ]
+  },
+  "bottomRight": {
+    "pill": "CTRL+Z E NAVEGADOR",
+    "icon": "</>",
+    "bullets": [
+      "Cada tecla ou ação vai para o topo da pilha de histórico.",
+      "Ctrl+Z dá pop(): remove a última ação e restaura o estado anterior.",
+      "Botão Voltar do navegador: cada página nova é um push; voltar é pop()."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO DO CTRL+Z",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você digita 'Casa' — push('C'), push('a'), push('s'), push('a').",
+      "PASSO 2: Aperta Ctrl+Z — pop() remove o 'a', texto volta a 'Cas'.",
+      "PASSO 3: Ctrl+Z de novo — pop() remove 's', texto fica 'Ca'. Cada pop desfaz uma ação."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Erro: tentar dar pop() em pilha vazia (Stack Underflow).",
+      "Achar que dá para acessar o item do meio — pilha só mostra o topo.",
+      "Dica de ouro: Sempre verifique se a pilha está vazia antes de desempilhar."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Push (empilha) ➔ Ação vai pro topo ➔ Pop (desempilha) desfaz a última ação.",
+      "Tudo que precisa de 'voltar atrás' usa pilha: editores, browsers, calculadoras.",
+      "LIFO é a memória de curto prazo do computador — simples e poderosa."
+    ]
+  },
+  "_modelo_usado": "devworld/deepseek-v4-pro-0813-f",
+  "modulo": "Algoritmos",
+  "escola": "02_logica_e_algoritmos",
+  "foco_pedagogico": "O botão Desfazer (Ctrl+Z) e o histórico de navegação do browser"
+}

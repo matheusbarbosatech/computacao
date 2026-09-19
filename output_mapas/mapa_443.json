@@ -1,0 +1,64 @@
+{
+  "id": 443,
+  "title": "ANÁLISE SEMÂNTICA E VERIFICAÇÃO DE TIPOS",
+  "definition": "É a etapa em que o compilador confere se o que você escreveu realmente faz sentido, não só se está escrito certo.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Depois de checar a gramática, o compilador checa o significado das coisas."
+    ]
+  },
+  "topRight": {
+    "pill": "VERIFICAÇÃO DE TIPOS",
+    "icon": "🖥️",
+    "bullets": [
+      "O compilador dá um 'rótulo' pra cada valor: texto, número, data, etc.",
+      "Ele proíbe operações que misturam rótulos incompatíveis."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Somar tipos diferentes gera erro antes do programa rodar.",
+      "string nome = \"Ana\"; date hoje = 2024-01-01; nome + hoje; ❌"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Linguagens estáticas como Java, C#, TypeScript e Rust.",
+      "Todo compilador antes de gerar o programa final."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Compilador lê a expressão 'texto + data'",
+      "PASSO 2: Verifica os tipos dos dois lados da operação",
+      "PASSO 3: Tipos incompatíveis? Erro de compilação, programa nem roda"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que o computador vai 'adivinhar' e converter o tipo pra você.",
+      "Dica de ouro: converta explicitamente antes de operar, tipo data.paraTexto()."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Tipo errado ➔ Compilador bloqueia ➔ Erro pego antes de executar"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Compiladores",
+  "escola": "01_ciencia_computacao_uninter",
+  "foco_pedagogico": "Garantindo que você não some um texto com uma data em linguagens estáticas"
+}

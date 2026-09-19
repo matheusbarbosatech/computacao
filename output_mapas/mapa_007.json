@@ -1,0 +1,63 @@
+{
+  "id": 7,
+  "title": "O AMBIENTE DO DEV: EDITOR E TERMINAL",
+  "definition": "É o espaço de trabalho onde você escreve, testa e executa seu código.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "O editor é sua mesa de trabalho e o terminal é sua ferramenta de comando."
+    ]
+  },
+  "topRight": {
+    "pill": "VS CODE",
+    "icon": "🖥️",
+    "bullets": [
+      "Editor de código gratuito, leve e usado pela maioria dos devs.",
+      "Organiza arquivos em pastas chamadas 'projetos'."
+    ]
+  },
+  "midRight": {
+    "pill": "COMANDOS DO TERMINAL",
+    "icon": "{ }",
+    "bullets": [
+      "Você digita ordens de texto em vez de clicar em botões.",
+      "cd pasta, ls, mkdir novo_projeto"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Criar arquivos, rodar programas e instalar ferramentas.",
+      "Git, Node.js, Python usam o terminal o tempo todo."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você abre o VS Code e cria um arquivo",
+      "PASSO 2: Abre o terminal integrado e digita um comando",
+      "PASSO 3: O computador executa e mostra o resultado na tela"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Digitar o comando na pasta errada e nada funcionar.",
+      "Esquecer de salvar o arquivo antes de executar."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Escrever código ➔ Digitar comando ➔ Ver resultado na tela"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Fundamentos",
+  "foco_pedagogico": "VS Code, extensões e linha de comando"
+}

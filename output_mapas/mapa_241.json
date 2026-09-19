@@ -1,0 +1,64 @@
+{
+  "id": 241,
+  "title": "CONEXÃO COM BANCO DE DADOS USANDO SQLALCHEMY 2.0",
+  "definition": "É uma forma de fazer o Python conversar com um banco de dados tratando tabelas como objetos.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Em vez de escrever SQL puro, você escreve classes Python normais."
+    ]
+  },
+  "topRight": {
+    "pill": "MAPEAMENTO OBJETO-RELACIONAL (ORM)",
+    "icon": "🖥️",
+    "bullets": [
+      "Cada classe Python representa uma tabela do banco.",
+      "Cada instância da classe é uma linha da tabela."
+    ]
+  },
+  "midRight": {
+    "pill": "MODELO DECLARATIVO 2.0",
+    "icon": "{ }",
+    "bullets": [
+      "Usa 'Mapped' e 'mapped_column' para tipar os campos.",
+      "class Usuario(Base): id: Mapped[int] = mapped_column(primary_key=True)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "APIs com FastAPI, sistemas web com Flask ou Django.",
+      "Funciona com PostgreSQL, MySQL, SQLite e outros."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Criar a 'Engine' que sabe onde está o banco",
+      "PASSO 2: Abrir uma 'Session' para conversar com ele",
+      "PASSO 3: Adicionar, buscar ou alterar objetos e salvar"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de chamar session.commit() e perder os dados.",
+      "Confundir Session (conversa) com Engine (conexão física)."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Classe Python ➔ Session grava ➔ Linha aparece no banco"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "APIs Python",
+  "escola": "03_python_especialista",
+  "foco_pedagogico": "Mapeamento Objeto-Relacional moderno no Python"
+}

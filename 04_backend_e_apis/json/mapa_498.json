@@ -1,0 +1,65 @@
+{
+  "id": 498,
+  "title": "FILAS DE MENSAGENS COM RABBITMQ",
+  "definition": "É um sistema que entrega mensagens entre programas, como um carteiro confiável para tarefas.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Um programa manda uma tarefa e outro programa a executa depois, sem travar ninguém."
+    ]
+  },
+  "topRight": {
+    "pill": "EXCHANGES, QUEUES E BINDINGS",
+    "icon": "🖥️",
+    "bullets": [
+      "Exchange é o carteiro: recebe a mensagem e decide para onde ela vai.",
+      "Queue é a caixa de correio: guarda a mensagem até alguém pegar.",
+      "Binding é o endereço: liga a exchange à fila certa."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Publisher envia, exchange roteia, fila armazena, consumer processa.",
+      "channel.basic_publish(exchange='pedidos', routing_key='novo', body='pedido123')"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Envio de e-mails, processamento de imagens e pagamentos em segundo plano.",
+      "Usado com Python, Java, Node.js e frameworks como Celery e Spring AMQP."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Aplicação publica uma mensagem na exchange",
+      "PASSO 2: Exchange usa o binding para rotear até a fila certa",
+      "PASSO 3: Consumer pega a mensagem da fila e confirma o processamento (ack)"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer o 'ack' faz a mensagem voltar pra fila e ser reprocessada.",
+      "Dica de ouro: sempre trate erros no consumer para não perder tarefas."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Mensagem ➔ Exchange roteia ➔ Fila guarda ➔ Consumer executa"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Microsserviços",
+  "escola": "04_backend_e_apis",
+  "foco_pedagogico": "Exchanges, Queues, Bindings e entrega garantida de tarefas em segundo plano"
+}

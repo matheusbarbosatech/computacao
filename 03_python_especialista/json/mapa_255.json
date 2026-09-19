@@ -1,0 +1,64 @@
+{
+  "id": 255,
+  "title": "VARIÁVEIS DE AMBIENTE COM PYTHON-DOTENV",
+  "definition": "É uma forma de guardar senhas e chaves secretas fora do código, num arquivo separado.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Segredos como senha de banco não devem aparecer escritos no código."
+    ]
+  },
+  "topRight": {
+    "pill": "ARQUIVO .ENV",
+    "icon": "🖥️",
+    "bullets": [
+      "É um arquivo de texto simples que guarda pares chave=valor.",
+      "Fica na raiz do projeto, fora da pasta pública."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "load_dotenv() lê o arquivo .env e carrega tudo.",
+      "os.getenv('API_KEY') busca o valor guardado."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Chaves de API, senhas de banco de dados, tokens de acesso.",
+      "Usado em Python, Node.js, projetos web e apps de nuvem."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você cria o arquivo .env com SENHA=123456",
+      "PASSO 2: O código chama load_dotenv() para ler esse arquivo",
+      "PASSO 3: A senha vira uma variável de ambiente disponível no programa"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de colocar .env no .gitignore expõe a senha no GitHub.",
+      "Dica de ouro: nunca compartilhe o .env, só o .env.example vazio."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Senha no .env ➔ dotenv carrega ➔ código usa sem expor o segredo"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Deploy Python",
+  "escola": "03_python_especialista",
+  "foco_pedagogico": "Escondendo senhas e chaves de API fora do código fonte"
+}

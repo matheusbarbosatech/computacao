@@ -1,0 +1,63 @@
+{
+  "id": 4,
+  "title": "HARDWARE VS SOFTWARE",
+  "definition": "Hardware é o corpo físico do computador e software é a mente que dá as ordens.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Máquina precisa de corpo (hardware) e de instruções (software) para funcionar."
+    ]
+  },
+  "topRight": {
+    "pill": "HARDWARE",
+    "icon": "🖥️",
+    "bullets": [
+      "É tudo que você pode tocar: tela, teclado, processador.",
+      "Sem energia elétrica, o hardware não faz nada."
+    ]
+  },
+  "midRight": {
+    "pill": "SOFTWARE",
+    "icon": "{ }",
+    "bullets": [
+      "São as instruções escritas em código que o hardware executa.",
+      "print('oi') é um exemplo de instrução de software."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Todo app, jogo ou site é software rodando em algum hardware.",
+      "Exemplos: Windows, Instagram, sensores de carro."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você liga o hardware (energia chega aos componentes)",
+      "PASSO 2: O software envia comandos para o hardware executar",
+      "PASSO 3: O hardware processa e mostra o resultado na tela"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que trocar o software resolve problema de peça quebrada.",
+      "Dica: hardware é o corpo, software é o comportamento."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Hardware ➔ Executa ordens ➔ Software decide o que fazer"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Fundamentos",
+  "foco_pedagogico": "A máquina física e a inteligência lógica"
+}

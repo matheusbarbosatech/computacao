@@ -1,0 +1,65 @@
+{
+  "id": 583,
+  "title": "COMMON TABLE EXPRESSIONS (CTEs) E O COMANDO WITH",
+  "definition": "CTEs são consultas temporárias com nome, criadas com WITH, que funcionam como tabelas auxiliares para dividir um SQL gigante em etapas legíveis.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É dar um apelido a um pedaço da consulta e depois usar esse apelido como se fosse tabela.",
+      "Você monta a resposta em blocos, um em cima do outro, como peças de montar."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O BANCO LIDA COM ISSO",
+    "icon": "🖥️",
+    "bullets": [
+      "O banco resolve a CTE primeiro e segura o resultado num espaço temporário de trabalho.",
+      "Esse resultado vive só dentro daquela consulta: nasce, serve e desaparece no fim."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "WITH nome AS ( sua consulta ) e depois SELECT ... FROM nome: escreva a etapa, nomeie, use o nome.",
+      "exemplo: WITH vendas AS (SELECT * FROM pedidos) SELECT * FROM vendas;"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Limpar dados brutos antes de calcular relatórios, somas e indicadores de negócio.",
+      "Existe em PostgreSQL, MySQL 8+, SQL Server, Oracle e SQLite: nomes de sintaxe quase iguais."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: WITH etapa AS define e nomeia a primeira consulta menor",
+      "PASSO 2: as etapas seguintes leem e reutilizam o nome da etapa anterior",
+      "PASSO 3: o SELECT final junta as etapas e entrega o resultado pronto"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer a vírgula entre duas CTEs e levar erro de sintaxe na cara.",
+      "Achar que a CTE guarda dados para sempre: ela morre ao fim da consulta."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "SQL monstruoso ➔ quebre em CTEs nomeadas ➔ reutilize cada etapa ➔ leitura limpa e resultado confiável"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "SQL Avançado",
+  "escola": "06_banco_dados_e_ia",
+  "foco_pedagogico": "Quebrando consultas SQL monstruosas em etapas legíveis e reutilizáveis"
+}

@@ -1,0 +1,64 @@
+{
+  "id": 549,
+  "title": "TAILWIND CSS: UTILITÁRIOS EM PRIMEIRO LUGAR",
+  "definition": "Um jeito de estilizar telas escrevendo classes pequenas direto no HTML ou JSX, sem criar arquivos CSS separados.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Em vez de inventar nomes de classe, você junta pecinhas prontas e monta o visual ali mesmo."
+    ]
+  },
+  "topRight": {
+    "pill": "UTILITY-FIRST",
+    "icon": "🖥️",
+    "bullets": [
+      "Cada classe faz uma coisa só: cor, espaço, tamanho, borda ou sombra.",
+      "O navegador recebe apenas o CSS final; você escreve atalhos curtos."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Classes seguem o padrão propriedade-valor com hífen, tipo bg-blue-500.",
+      "<div class=\"bg-blue-500 p-4 rounded\">Ola</div>"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Criar telas rápido em React, Vue, Next.js e HTML puro.",
+      "Também combina com bibliotecas de componentes como shadcn/ui."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você escreve classes utilitárias direto no elemento da tela.",
+      "PASSO 2: O Tailwind lê seu código e gera só o CSS que você usou.",
+      "PASSO 3: O arquivo tailwind.config.js define cores, fontes e espaçamentos."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Misturar CSS antigo com utilitários gera conflito e estilo imprevisível.",
+      "Lista de classes gigante? Agrupe em componentes para não virar bagunça."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Classes pequenas ➔ montadas no JSX ➔ CSS enxuto gerado pelo tema."
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "CSS/Design",
+  "escola": "05_frontend_e_mobile",
+  "foco_pedagogico": "Estilizando interfaces rapidamente sem sair do arquivo JSX/HTML"
+}

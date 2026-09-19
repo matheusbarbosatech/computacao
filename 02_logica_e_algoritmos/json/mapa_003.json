@@ -1,0 +1,63 @@
+{
+  "id": 3,
+  "title": "COMO O COMPUTADOR PENSA",
+  "definition": "O computador só entende dois estados: ligado ou desligado, e com isso constrói todo o raciocínio.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Computador não pensa como gente, ele só reconhece pulsos elétricos ligados ou desligados."
+    ]
+  },
+  "topRight": {
+    "pill": "BINÁRIO (0 E 1)",
+    "icon": "🖥️",
+    "bullets": [
+      "0 é interruptor apagado, 1 é interruptor aceso, nada além disso.",
+      "Toda letra, foto e som vira uma sequência gigante de 0s e 1s."
+    ]
+  },
+  "midRight": {
+    "pill": "PORTAS LÓGICAS",
+    "icon": "{ }",
+    "bullets": [
+      "São pequenos interruptores que decidem passar ou bloquear o sinal.",
+      "AND(1,1)=1 | OR(0,1)=1 | NOT(1)=0"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Dentro de todo processador, do celular ao computador da NASA.",
+      "Base de eletrônica digital, chips e linguagem assembly."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Sinal elétrico entra como 0 (sem energia) ou 1 (com energia)",
+      "PASSO 2: Portas lógicas combinam esses sinais seguindo regras fixas",
+      "PASSO 3: O resultado final vira uma decisão ou informação na tela"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que binário é 'código secreto', na verdade é só contar com dois dígitos.",
+      "Dica de ouro: pense em interruptor de luz, não em números difíceis."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Energia elétrica ➔ Vira 0 ou 1 ➔ Portas lógicas decidem o resultado"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Fundamentos",
+  "foco_pedagogico": "Binário, 0s e 1s e portas lógicas"
+}

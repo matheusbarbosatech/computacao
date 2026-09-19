@@ -1,0 +1,64 @@
+{
+  "id": 271,
+  "title": "AGENDAMENTO COM CRONTAB NO LINUX",
+  "definition": "Crontab é um despertador do sistema que executa tarefas automáticas em horários que você define.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É um robô que roda comandos sozinho, sem você precisar clicar em nada."
+    ]
+  },
+  "topRight": {
+    "pill": "CRON DAEMON",
+    "icon": "🖥️",
+    "bullets": [
+      "Um programa fica sempre ativo checando o relógio a cada minuto.",
+      "Quando a hora bate com sua regra, ele dispara a tarefa."
+    ]
+  },
+  "midRight": {
+    "pill": "SINTAXE DAS 5 ESTRELAS",
+    "icon": "{ }",
+    "bullets": [
+      "Ordem fixa: minuto hora dia mês dia-da-semana comando.",
+      "0 3 * * * backup.sh (todo dia às 3h da manhã)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Backups automáticos de banco de dados e arquivos.",
+      "Servidores Linux, VPS, tarefas de limpeza e envio de relatórios."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você escreve a regra com crontab -e",
+      "PASSO 2: O cron verifica o relógio a cada minuto",
+      "PASSO 3: Bateu a hora, o comando é executado sozinho"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer o asterisco (*) muda o significado da regra inteira.",
+      "Sempre teste o comando manualmente antes de agendar."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Definir horário ➔ Cron verifica ➔ Tarefa roda automática"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Linux",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Sintaxe das 5 estrelas (* * * * *) para tarefas automáticas de manutenção"
+}

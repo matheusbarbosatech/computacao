@@ -1,0 +1,71 @@
+{
+  "id": 564,
+  "title": "DESIGN RESPONSIVO: MOBILE-FIRST VS DESKTOP-FIRST",
+  "definition": "Duas estratégias opostas para fazer um site se adaptar a qualquer tamanho de tela, partindo do celular ou do computador.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Mobile-First: comece pelo menor espaço possível. Se funciona no celular, funciona em qualquer lugar.",
+      "Desktop-First: comece pela tela grande e depois vá removendo ou empilhando elementos ao encolher.",
+      "A lógica mobile-first obriga você a priorizar só o essencial desde o início."
+    ]
+  },
+  "topRight": {
+    "pill": "DESKTOP-FIRST (CLÁSSICO)",
+    "icon": "🖥️",
+    "bullets": [
+      "O CSS base é escrito para telas grandes (1200px+). Depois usa max-width para adaptar.",
+      "Problema: sobra muito conteúdo no mobile, causando poluição visual e lentidão.",
+      "Exemplo real: site corporativo antigo que no celular vira uma bagunça de colunas."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Mobile-First usa min-width: 'A partir de 768px, mude o layout.' O padrão já é mobile.",
+      "Desktop-First usa max-width: 'Até no máximo 768px, faça isso.' O padrão é desktop.",
+      "@media (min-width: 768px) { .container { flex-direction: row; } }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Mobile-First: padrão em frameworks como Bootstrap 5, Tailwind CSS e projetos modernos.",
+      "Desktop-First: ainda comum em sistemas internos, dashboards e sites legados.",
+      "Google prioriza sites mobile-first no ranking de busca (SEO)."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO MOBILE-FIRST",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Escreva o CSS base para a menor tela (320px a 480px). Layout empilhado, uma coluna.",
+      "PASSO 2: Conforme a tela cresce, adicione media queries com min-width para liberar mais colunas e recursos.",
+      "PASSO 3: No desktop, o site está completo, mas cada elemento teve seu espaço conquistado, não jogado de qualquer jeito."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Erro clássico: escrever mobile-first mas testar só no desktop. Sempre teste no celular primeiro.",
+      "Achar que mobile-first é só sobre tamanho de tela. É também sobre toque, velocidade 4G e polegares.",
+      "Dica de ouro: o conteúdo que importa deve aparecer nos primeiros 10cm de rolagem no celular."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Mobile-First ➔ Comece pequeno e restrito ➔ Adicione complexidade com min-width ➔ Site enxuto e rápido em qualquer tela.",
+      "Desktop-First ➔ Comece grande e cheio ➔ Remova com max-width ➔ Risco de site pesado e truncado no celular."
+    ]
+  },
+  "_modelo_usado": "devworld/deepseek-v4-pro-0813-f",
+  "modulo": "UX/UI",
+  "escola": "05_frontend_e_mobile",
+  "foco_pedagogico": "Construindo para a tela menor e mais restritiva antes de expandir para telas grandes"
+}

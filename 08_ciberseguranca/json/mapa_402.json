@@ -1,0 +1,64 @@
+{
+  "id": 402,
+  "title": "PLATAFORMAS DE TREINAMENTO: HACK THE BOX E TRYHACKME",
+  "definition": "São academias virtuais onde você invade máquinas de propósito, de forma legal, para aprender segurança na prática.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Aprender hacking é como jogar um videogame com fases e recompensas reais de conhecimento."
+    ]
+  },
+  "topRight": {
+    "pill": "GAMIFICAÇÃO",
+    "icon": "🖥️",
+    "bullets": [
+      "Pontos, rankings e badges motivam você a continuar treinando todos os dias.",
+      "Cada máquina vulnerável é uma 'fase' com dificuldade crescente."
+    ]
+  },
+  "midRight": {
+    "pill": "FLAG (A MOEDA DO JOGO)",
+    "icon": "{ }",
+    "bullets": [
+      "A prova de que você invadiu é um código secreto chamado flag.",
+      "user.txt / root.txt"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Preparação para carreira de Pentest e Segurança Ofensiva.",
+      "Hack The Box, TryHackMe, Kali Linux, Nmap, Burp Suite."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você escolhe uma máquina virtual vulnerável para atacar",
+      "PASSO 2: Você escaneia, encontra falhas e ganha acesso ao sistema",
+      "PASSO 3: Você captura a flag e sobe no ranking da plataforma"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Iniciante quer pular etapas e ignora a fase de reconhecimento do alvo.",
+      "Dica de ouro: anote tudo, todo detalhe pode ser a chave da invasão."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Máquina vulnerável ➔ Invasão guiada por desafios ➔ Habilidade real de segurança"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Laboratório",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "Gamificação de invasão de máquinas para acelerar a curva de aprendizado"
+}

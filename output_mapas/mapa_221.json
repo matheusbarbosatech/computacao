@@ -1,0 +1,64 @@
+{
+  "id": 221,
+  "title": "REQUISIÇÕES HTTP COM A BIBLIOTECA REQUESTS",
+  "definition": "É como um carteiro que leva seu pedido até um site na internet e traz a resposta de volta.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Seu programa pede informações a um servidor e recebe uma resposta."
+    ]
+  },
+  "topRight": {
+    "pill": "GET E POST",
+    "icon": "🖥️",
+    "bullets": [
+      "GET pede algo pronto, tipo ler um cardápio no site.",
+      "POST envia dados novos, tipo fazer um pedido no cardápio."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "requests.get(url) busca dados de um endereço.",
+      "requests.post(url, data=dados) envia informações."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Consumir APIs, buscar dados de sites e enviar formulários.",
+      "Muito usado em Python com bibliotecas como requests e httpx."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você monta a requisição com URL, headers e dados",
+      "PASSO 2: O servidor recebe, processa e prepara a resposta",
+      "PASSO 3: Você recebe status code, headers e o conteúdo de volta"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer o timeout e o programa travar esperando resposta pra sempre.",
+      "Confundir status 200 (sucesso) com 404 (não encontrado) ou 500 (erro no servidor)."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Requisição ➔ Servidor processa ➔ Resposta com status e dados"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Web Scraping",
+  "escola": "03_python_especialista",
+  "foco_pedagogico": "GET, POST, Headers, status codes e timeout na prática"
+}

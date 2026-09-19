@@ -1,0 +1,64 @@
+{
+  "id": 201,
+  "title": "VARIÁVEIS E F-STRINGS NO PYTHON 3",
+  "definition": "Variável guarda um valor com um nome, e f-string coloca esse valor dentro de um texto sem confusão.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Variável é uma caixa com etiqueta que guarda uma informação para usar depois."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O PYTHON GUARDA ISSO",
+    "icon": "🖥️",
+    "bullets": [
+      "Python cria a variável na memória quando você escreve nome = valor.",
+      "Não precisa avisar o tipo antes, o Python descobre sozinho."
+    ]
+  },
+  "midRight": {
+    "pill": "SINTAXE DA F-STRING",
+    "icon": "{ }",
+    "bullets": [
+      "Coloque um f antes das aspas e a variável dentro de chaves.",
+      "nome = 'Ana'; print(f'Olá, {nome}!')"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Mensagens para o usuário, logs e relatórios formatados.",
+      "Usado em Python 3.6+, comum em Django, scripts e APIs."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você cria a variável e guarda um valor nela",
+      "PASSO 2: Você escreve f'texto {variavel} texto'",
+      "PASSO 3: Python substitui a chave pelo valor real na tela"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer o 'f' antes das aspas faz o texto aparecer sem substituição.",
+      "Usar concatenação com + mistura tipos e gera erro, f-string evita isso."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Variável guarda valor ➔ f-string insere o valor no texto ➔ resultado limpo e legível"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Python Básico",
+  "escola": "03_python_especialista",
+  "foco_pedagogico": "Interpolação moderna de variáveis com f-strings sem concatenações confusas"
+}

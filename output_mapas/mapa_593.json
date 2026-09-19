@@ -1,0 +1,66 @@
+{
+  "id": 593,
+  "title": "LOCKS NO BANCO DE DADOS: PESSIMISTA vs OTIMISTA",
+  "definition": "São estratégias para evitar que duas pessoas alterem o mesmo dado ao mesmo tempo e baguncem tudo.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Imagina um documento do Google Docs: o lock pessimista bloqueia o arquivo inteiro enquanto você edita; o lock otimista deixa todo mundo editar e avisa se houve conflito na hora de salvar."
+    ]
+  },
+  "topRight": {
+    "pill": "LOCK PESSIMISTA",
+    "icon": "🔒",
+    "bullets": [
+      "O banco trava a linha fisicamente. Ninguém mais lê ou escreve até você liberar.",
+      "É como trancar a porta do banheiro: só sai um, entra outro.",
+      "SELECT FOR UPDATE é o comando que faz essa trava."
+    ]
+  },
+  "midRight": {
+    "pill": "SELECT FOR UPDATE",
+    "icon": "{ }",
+    "bullets": [
+      "BEGIN; SELECT saldo FROM conta WHERE id=5 FOR UPDATE; -- agora ninguém mexe nessa linha. UPDATE conta SET saldo=saldo-100 WHERE id=5; COMMIT;",
+      "A trava só dura até o COMMIT ou ROLLBACK. Depois, a linha é liberada automaticamente."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Sistemas bancários, reserva de ingressos, controle de estoque com baixa simultânea.",
+      "PostgreSQL, MySQL (InnoDB), Oracle e SQL Server suportam SELECT FOR UPDATE."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: PESSIMISTA → Usuário A dá BEGIN e trava a linha com FOR UPDATE. Usuário B tenta ler e fica esperando na fila.",
+      "PASSO 2: OTIMISTA → Usuário A e B leem a versão=3 do registro ao mesmo tempo. Cada um faz sua alteração.",
+      "PASSO 3: OTIMISTA → A salva primeiro: versão sobe para 4. B tenta salvar e o banco rejeita porque a versão que B leu (3) já não é a atual."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Pessimista: esquecer o COMMIT ou ROLLBACK trava tudo e derruba o sistema.",
+      "Otimista: achar que é mágico. Você precisa programar a lógica de 'tentar de novo' quando o update falhar por versão antiga."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Pessimista ➔ Trava agora, edita seguro, libera depois ➔ Ideal para conflitos frequentes e operações críticas.",
+      "Otimista ➔ Lê versão, edita, compara versão ao salvar ➔ Ideal para conflitos raros e sistemas com muitas leituras."
+    ]
+  },
+  "_modelo_usado": "devworld/deepseek-v4-pro-0813-f",
+  "modulo": "Tuning",
+  "escola": "06_banco_dados_e_ia",
+  "foco_pedagogico": "Travando registros no SELECT FOR UPDATE vs checando versão do registro antes de salvar"
+}

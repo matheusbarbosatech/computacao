@@ -1,0 +1,65 @@
+{
+  "id": 577,
+  "title": "SEGURANÇA NO FRONT-END: CLICKJACKING E XSS",
+  "definition": "Proteger a página contra códigos maliciosos injetados por usuários e contra cliques sequestrados por sites falsos.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "XSS é como alguém colar um bilhete falso dentro da sua carta oficial.",
+      "Clickjacking é um vidro invisível sobre o botão: o clique vai para o ladrão."
+    ]
+  },
+  "topRight": {
+    "pill": "XSS E CLICKJACKING",
+    "icon": "🖥️",
+    "bullets": [
+      "XSS: o navegador confia no texto do usuário e executa o script escondido nele.",
+      "Clickjacking: um site falso cobre a sua tela e rouba cliques reais."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Regra de ouro: nunca jogue texto de usuário direto no innerHTML.",
+      "DOMPurify.sanitize(textoDoUsuario) ➔ devolve HTML limpo e seguro"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Comentários, chats, perfis e qualquer campo que mostra texto de terceiros.",
+      "Ferramentas: DOMPurify, React, Angular, Content-Security-Policy e X-Frame-Options."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O usuário escreve ou envia qualquer texto para o site.",
+      "PASSO 2: DOMPurify apaga tags e atributos perigosos desse texto.",
+      "PASSO 3: Só o HTML limpo aparece na tela, sem rodar script."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Usar innerHTML confiando no usuário, ou só apagar a palavra script, não protege.",
+      "Dica de ouro: sanitize sempre na saída e use CSP como segunda barreira."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Dado do usuário ➔ DOMPurify ➔ HTML limpo na tela"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Front-end",
+  "escola": "05_frontend_e_mobile",
+  "foco_pedagogico": "Sanitizando dados inseridos por usuários com bibliotecas como DOMPurify"
+}

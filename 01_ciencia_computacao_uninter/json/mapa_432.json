@@ -1,0 +1,64 @@
+{
+  "id": 432,
+  "title": "SISTEMAS DE ARQUIVOS (INODES, JOURNALING, NTFS, EXT4)",
+  "definition": "É o jeito que o disco organiza, guarda e encontra seus arquivos e pastas.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Um sistema de arquivos é como um bibliotecário que organiza tudo no disco."
+    ]
+  },
+  "topRight": {
+    "pill": "INODES",
+    "icon": "🖥️",
+    "bullets": [
+      "Cada arquivo tem uma 'ficha' com dados: tamanho, dono, local no disco.",
+      "O nome do arquivo é só um rótulo apontando para essa ficha."
+    ]
+  },
+  "midRight": {
+    "pill": "JOURNALING",
+    "icon": "{ }",
+    "bullets": [
+      "O sistema anota 'vou fazer isso' antes de fazer, tipo um diário.",
+      "log: escrever ➔ confirmar ➔ apagar log"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Windows usa NTFS, Linux usa ext4, Mac usa APFS.",
+      "Todo HD, SSD e pendrive precisa de um sistema desses."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Sistema anota no diário (journal) a mudança planejada",
+      "PASSO 2: Grava os dados de fato no disco",
+      "PASSO 3: Se faltar luz, o journal ajuda a corrigir tudo na religada"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que apagar um arquivo apaga os dados na hora (só remove a ficha).",
+      "Desligar o PC sem 'ejetar' pode corromper arquivos sem journaling."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Arquivo criado ➔ Inode registra dados ➔ Journal garante recuperação"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "SO",
+  "escola": "01_ciencia_computacao_uninter",
+  "foco_pedagogico": "Como o disco organiza pastas, metadados e se recupera de quedas de energia"
+}

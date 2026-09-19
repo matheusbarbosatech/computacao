@@ -1,0 +1,64 @@
+{
+  "id": 420,
+  "title": "PONTO FLUTUANTE E O PADRÃO IEEE 754",
+  "definition": "É a forma que o computador usa para guardar números com casas decimais em bits, e por isso 0.1 + 0.2 não dá exatamente 0.3.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Computador só entende 0 e 1, então números decimais são 'aproximados' em bits."
+    ]
+  },
+  "topRight": {
+    "pill": "SINAL, EXPOENTE E MANTISSA",
+    "icon": "🖥️",
+    "bullets": [
+      "O número é dividido em 3 partes: sinal (+/-), expoente (tamanho) e mantissa (precisão).",
+      "É como uma notação científica: 1,25 x 10² guardada em bits."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Em 64 bits (double): 1 bit de sinal, 11 de expoente, 52 de mantissa.",
+      "print(0.1 + 0.2) → 0.30000000000000004"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Em cálculos científicos, jogos, gráficos e qualquer conta com decimais.",
+      "Presente em Python, Java, JavaScript, C, quase toda linguagem."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O número decimal é convertido para binário.",
+      "PASSO 2: Como o binário nem sempre é exato, ele é arredondado para caber nos bits.",
+      "PASSO 3: O resultado guardado é uma aproximação, não o valor exato."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Comparar 'if (0.1 + 0.2 == 0.3)' pode dar falso e confundir o iniciante.",
+      "Dica de ouro: nunca compare floats direto, use uma margem de erro (tolerância)."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Decimal ➔ vira binário aproximado ➔ pequenos erros de arredondamento aparecem."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Hardware",
+  "escola": "01_ciencia_computacao_uninter",
+  "foco_pedagogico": "Como números reais são codificados em bits de sinal, expoente e mantissa"
+}

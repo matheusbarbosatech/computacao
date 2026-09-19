@@ -1,0 +1,63 @@
+{
+  "id": 120,
+  "title": "O QUE SÃO EVENTOS NO NAVEGADOR",
+  "definition": "Evento é um aviso que o navegador manda quando algo acontece na página.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "A página fica esperando ações do usuário, como uma campainha esperando ser tocada."
+    ]
+  },
+  "topRight": {
+    "pill": "TIPOS DE EVENTO",
+    "icon": "🖥️",
+    "bullets": [
+      "Clique (click), digitação (keydown), rolagem (scroll) e envio (submit).",
+      "Cada ação do usuário dispara um tipo diferente de aviso."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Você 'escuta' o evento e diz o que fazer quando ele ocorrer.",
+      "botao.addEventListener('click', funcao)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Formulários, botões, menus e jogos no navegador.",
+      "Muito comum em JavaScript, React e Vue."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Usuário clica, digita ou rola a tela",
+      "PASSO 2: Navegador detecta a ação e dispara o evento",
+      "PASSO 3: A função escutando esse evento é executada"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de usar preventDefault() e o formulário recarrega a página.",
+      "Colocar o listener antes do elemento existir e ele não funciona."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Ação do usuário ➔ Navegador detecta ➔ Função é chamada"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Web",
+  "foco_pedagogico": "Reagindo a cliques, digitação, scroll e envios"
+}

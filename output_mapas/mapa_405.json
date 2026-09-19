@@ -1,0 +1,64 @@
+{
+  "id": 405,
+  "title": "SEGURANÇA EM KUBERNETES: POD SECURITY STANDARDS E RBAC",
+  "definition": "São as regras que travam containers para não virarem 'chave mestra' da máquina.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Container não é uma caixa mágica isolada, ele pode escapar e tocar o servidor real."
+    ]
+  },
+  "topRight": {
+    "pill": "POD SECURITY STANDARDS",
+    "icon": "🖥️",
+    "bullets": [
+      "São 3 níveis de rigor: Privileged, Baseline e Restricted.",
+      "Restricted bloqueia root e acesso ao host do node."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "No YAML do Pod, define o comportamento permitido.",
+      "runAsNonRoot: true / privileged: false"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Times de DevSecOps protegendo clusters em produção.",
+      "Ferramentas: kubectl, OPA/Gatekeeper, Kyverno."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Pod pede permissão para rodar no cluster",
+      "PASSO 2: Kubernetes checa Pod Security Standard e RBAC do usuário",
+      "PASSO 3: Se violar regra (ex: rodar como root), Pod é bloqueado"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que 'isolado' significa 'seguro', não é a mesma coisa.",
+      "Esquecer hostPath e hostNetwork, portas de fuga pro node."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Container pede acesso ➔ Regra Restricted barra root/host ➔ Cluster protegido"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Laboratório",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "Impedindo que containers rodem como root e acessem o nó do host"
+}

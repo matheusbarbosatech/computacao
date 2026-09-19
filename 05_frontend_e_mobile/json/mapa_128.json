@@ -1,0 +1,63 @@
+{
+  "id": 128,
+  "title": "CONSUMINDO PROMISES (.THEN E .CATCH)",
+  "definition": "É a forma clássica de dizer 'quando a resposta chegar, faça isso; se der erro, faça aquilo'.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Uma Promise é como um pedido de comida: você pega a senha e espera o resultado chegar."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O JS LIDA COM ISSO",
+    "icon": "🖥️",
+    "bullets": [
+      "O código não trava esperando a resposta, ele segue rodando.",
+      "Quando a Promise termina, o JS chama o .then ou o .catch."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      ".then() roda quando dá certo (sucesso).",
+      "buscarDados().then(res => console.log(res)).catch(err => console.log(err))"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Buscar dados de uma API antes de mostrar na tela.",
+      "Usado em fetch(), axios e bibliotecas de banco de dados."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você chama a função que retorna uma Promise",
+      "PASSO 2: O JS espera a resposta chegar em segundo plano",
+      "PASSO 3: .then() pega o sucesso, .catch() pega o erro"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer o .catch() e o app quebra silenciosamente no erro.",
+      "Dica: sempre encadeie .catch() no final da cadeia de .then()."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Promise ➔ .then (deu certo) ou .catch (deu erro) ➔ Resultado tratado"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Async",
+  "foco_pedagogico": "A forma clássica de encadear respostas assíncronas"
+}

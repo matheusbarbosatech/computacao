@@ -1,0 +1,63 @@
+{
+  "id": 56,
+  "title": "MÓDULOS: EXPORT E IMPORT",
+  "definition": "É dividir o código em vários arquivos e conectar as peças quando precisar delas.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Cada arquivo é uma gaveta com ferramentas específicas dentro."
+    ]
+  },
+  "topRight": {
+    "pill": "EXPORT E IMPORT",
+    "icon": "🖥️",
+    "bullets": [
+      "Export abre a gaveta para outros arquivos usarem.",
+      "Import pega a ferramenta de dentro dessa gaveta."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Em cada arquivo você exporta o que quer compartilhar.",
+      "export function soma() {} / import { soma } from './math.js'"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Projetos grandes com várias páginas e funcionalidades.",
+      "JavaScript (ES Modules), Python, Java, e quase toda linguagem moderna."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você cria uma função útil em um arquivo separado",
+      "PASSO 2: Marca ela com 'export' para liberar o acesso",
+      "PASSO 3: Em outro arquivo, usa 'import' para trazê-la e utilizá-la"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de exportar e o import não encontrar nada.",
+      "Confundir o caminho do arquivo (./ pasta errada trava tudo)."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Criar em um arquivo ➔ Exportar ➔ Importar em outro lugar"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Funções",
+  "foco_pedagogico": "Separando código em vários arquivos organizados"
+}

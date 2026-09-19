@@ -1,0 +1,64 @@
+{
+  "id": 209,
+  "title": "FUNÇÕES LAMBDA E MAP/FILTER NO PYTHON",
+  "definition": "Lambda é uma função sem nome usada para tarefas rápidas e descartáveis.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Uma função pequena, usada uma vez, sem precisar de nome nem def."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO FUNCIONA",
+    "icon": "🖥️",
+    "bullets": [
+      "O Python cria a função na hora, usa e descarta em seguida.",
+      "Serve para transformar ou filtrar dados de forma imediata."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "lambda argumento: expressão que retorna um valor.",
+      "dobro = lambda x: x * 2"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Dentro de map(), filter() e sorted() para ações rápidas.",
+      "Muito comum em processamento de listas e dados."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você tem uma lista de valores para tratar",
+      "PASSO 2: map() transforma cada item ou filter() seleciona itens",
+      "PASSO 3: Retorna uma nova lista com o resultado"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer que map/filter retornam um objeto, não uma lista direto.",
+      "Dica: envolva com list() para ver o resultado, ex: list(map(...))."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Lista original ➔ lambda aplica regra ➔ nova lista transformada"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Python Básico",
+  "escola": "03_python_especialista",
+  "foco_pedagogico": "Pequenas funções anônimas para transformações imediatas"
+}

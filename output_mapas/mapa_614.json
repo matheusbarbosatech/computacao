@@ -1,0 +1,72 @@
+{
+  "id": 614,
+  "title": "APRENDIZADO SUPERVISIONADO VS NÃO SUPERVISIONADO VS POR REFORÇO",
+  "definition": "São três jeitos de ensinar um computador: com respostas prontas, sem respostas ou por tentativa e erro.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "A máquina não nasce sabendo: ela aprende vendo exemplos, padrões ou erros.",
+      "A diferença entre os três está no tipo de ajuda que o computador recebe."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO A MÁQUINA APRENDE",
+    "icon": "🖥️",
+    "bullets": [
+      "SUPERVISIONADO: recebe pergunta e resposta certa em cada exemplo do treino.",
+      "NÃO SUPERVISIONADO: recebe só os dados, sem rótulo, e busca grupos parecidos.",
+      "REFORÇO: age no ambiente, recebe prêmio ou castigo e ajusta a próxima ação."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "A regra é simples: tem rótulo? supervisionado. Não tem? não supervisionado. Tem recompensa? reforço.",
+      "model.fit(X, y)  # supervisionado: X são dados, y são respostas",
+      "KMeans(n_clusters=3).fit(X)  # agrupamento sem labels",
+      "env.step(acao)  # reforço: age, mede recompensa, aprende"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Supervisionado: prever preço de casa, filtrar spam, reconhecer rosto em foto.",
+      "Não supervisionado: separar clientes por perfil, agrupar notícias, detectar fraude estranha.",
+      "Reforço: robô que anda, carro autônomo, jogo de xadrez, recomendação de vídeo."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Definir o problema e ver se você tem as respostas certas em mãos.",
+      "PASSO 2: Escolher o tipo de aprendizado e treinar o modelo com muitos dados.",
+      "PASSO 3: Testar com dados novos e corrigir até o resultado ficar confiável."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Usar dado sem rótulo no supervisionado: o modelo não aprende e só chuta.",
+      "Confundir agrupamento com classificação: agrupar não diz o nome do grupo.",
+      "Dica de ouro: decore 'com resposta, sem resposta, por recompensa' e você não erra."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Tem resposta ➔ aprende copiando ➔ prevê o futuro.",
+      "Sem resposta ➔ aprende sozinho ➔ descobre grupos.",
+      "Tem recompensa ➔ aprende tentando ➔ decide a melhor ação."
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Machine Learning",
+  "escola": "06_banco_dados_e_ia",
+  "foco_pedagogico": "Aprendendo com dados rotulados, descobrindo agrupamentos sozinhos ou tentativa e erro"
+}

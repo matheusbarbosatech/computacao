@@ -1,0 +1,65 @@
+{
+  "id": 528,
+  "title": "GERENCIAMENTO DE ESTADO GLOBAL LEVE COM ZUSTAND",
+  "definition": "Zustand é uma biblioteca pequena que guarda os dados compartilhados do app em um só lugar, sem complicação.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É o quadro branco do app: todos os componentes leem e escrevem os mesmos dados.",
+      "Sem pastas, sem reducers, sem cerimônia: um arquivo resolve quase tudo."
+    ]
+  },
+  "topRight": {
+    "pill": "STORE E HOOK",
+    "icon": "🖥️",
+    "bullets": [
+      "O store guarda o estado e as ações; o hook useStore liga isso ao componente.",
+      "Só o componente que usa aquele dado re-renderiza, o resto fica parado."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "create() monta o store com o estado inicial e funções que o alteram via set.",
+      "exemplo(const useStore = create((set) => ({ count: 0, add: () => set(s => ({ count: s.count + 1 })) })))"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Apps React com carrinho, tema claro/escuro, usuário logado e filtros.",
+      "Funciona com React, Next.js e até em código fora do React."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O componente chama a ação do store, tipo add().",
+      "PASSO 2: set() atualiza o estado e avisa quem usa aquele dado.",
+      "PASSO 3: A tela mostra o novo valor, sem recarregar a página."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Pegar o store inteiro no hook faz o componente re-renderizar demais.",
+      "Dica de ouro: use seletor específico, useStore(s => s.count)."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Store leve ➔ hook no componente ➔ estado global compartilhado sem boilerplate"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "React",
+  "escola": "05_frontend_e_mobile",
+  "foco_pedagogico": "A alternativa moderna e concisa ao Redux sem boilerplate"
+}

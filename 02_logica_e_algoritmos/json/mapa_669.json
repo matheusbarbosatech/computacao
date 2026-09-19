@@ -1,0 +1,64 @@
+{
+  "id": 669,
+  "title": "DOCUMENTAÇÃO TÉCNICA EFICAZ: README, DIAGRAMAS MERMAID E WIKIS",
+  "definition": "Documentação eficaz é o manual que faz outro dev rodar seu projeto em 5 minutos sem te perguntar nada.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Documentar é conversar por escrito com o próximo dev; se ele trava, você falhou."
+    ]
+  },
+  "topRight": {
+    "pill": "README PRIMEIRO",
+    "icon": "🖥️",
+    "bullets": [
+      "O README é a porta de entrada: diz o que é, para que serve e como rodar.",
+      "Ordem ideal: descrição curta, pré-requisitos, instalação, comandos e exemplos."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Todo comando deve ser copiável: use blocos de código, um comando por linha.",
+      "exemplo(git clone URL && cd projeto && npm install && npm run dev)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Todo repositório no GitHub, GitLab ou Bitbucket precisa de README decente.",
+      "Mermaid desenha fluxos com texto: graph TD; A-->B. Wiki guarda guias longos."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Ler o README e entender o objetivo em 30 segundos",
+      "PASSO 2: Instalar dependências e configurar as variáveis de ambiente",
+      "PASSO 3: Rodar o comando de start e ver o projeto funcionando"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer o arquivo .env: o projeto roda na sua máquina, mas quebra na do outro.",
+      "Dica de ouro: peça a alguém para seguir seu guia e anote onde ele travou."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "README claro ➔ Passos copiáveis ➔ Projeto rodando em 5 minutos"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Prática Dev",
+  "escola": "02_logica_e_algoritmos",
+  "foco_pedagogico": "Como documentar para outro dev rodar o projeto em 5 minutos"
+}

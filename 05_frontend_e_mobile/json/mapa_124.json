@@ -1,0 +1,63 @@
+{
+  "id": 124,
+  "title": "O EVENT LOOP DESCOMPLICADO",
+  "definition": "É o maestro que organiza qual tarefa toca agora e qual espera a vez.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "O programa só faz uma coisa por vez, mas parece fazer várias juntas."
+    ]
+  },
+  "topRight": {
+    "pill": "PILHA E FILA",
+    "icon": "🖥️",
+    "bullets": [
+      "A pilha executa o código de cima para baixo, uma tarefa por vez.",
+      "A fila guarda tarefas prontas esperando a pilha esvaziar."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Funções demoradas rodam por fora e voltam quando terminam.",
+      "setTimeout(() => tocar(), 2000)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Buscar dados na internet sem travar a página.",
+      "Comum em JavaScript, Node.js e navegadores."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O código chama uma tarefa demorada, como buscar dados.",
+      "PASSO 2: Enquanto espera, o maestro libera a pilha para outras tarefas.",
+      "PASSO 3: Quando a tarefa termina, ela entra na fila e é tocada depois."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que o código de espera roda na hora que foi escrito.",
+      "Dica de ouro: tarefa demorada sempre toca por último, mesmo escrita primeiro."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Tarefa demorada ➔ Espera na fila ➔ Toca quando a pilha libera"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Async",
+  "foco_pedagogico": "O maestro que gerencia tarefas em espera e fila"
+}

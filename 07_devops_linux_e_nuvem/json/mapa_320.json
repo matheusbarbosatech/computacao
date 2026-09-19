@@ -1,0 +1,64 @@
+{
+  "id": 320,
+  "title": "AWS CLOUDWATCH: MÉTRICAS, LOGS E ALARMES",
+  "definition": "CloudWatch é o painel de controle que vigia seus servidores e te avisa quando algo dá errado.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como um sensor de carro: mostra a 'temperatura' e liga a luz de alerta se passar do limite."
+    ]
+  },
+  "topRight": {
+    "pill": "MÉTRICAS",
+    "icon": "🖥️",
+    "bullets": [
+      "São números que o CloudWatch coleta sozinho, como uso de CPU e memória.",
+      "Cada dado vem com data e hora, formando um gráfico ao longo do tempo."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Um alarme é uma regra: SE métrica > limite POR tempo, ENTÃO dispara.",
+      "aws cloudwatch put-metric-alarm --metric-name CPUUtilization --threshold 80"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Monitorar servidores EC2, bancos de dados e aplicações na nuvem AWS.",
+      "Integra com SNS para enviar SMS, e-mail ou notificação push no celular."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: CloudWatch coleta a métrica de CPU a cada minuto",
+      "PASSO 2: O Alarme compara o valor com o limite definido",
+      "PASSO 3: Se passar do limite, envia alerta via SNS para seu celular"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de configurar o SNS faz o alarme disparar mas ninguém recebe aviso.",
+      "Definir o limite muito baixo gera alertas falsos toda hora."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "CPU sobe demais ➔ Alarme dispara ➔ Notificação chega no seu celular"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Cloud",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Monitorando uso de CPU e recebendo alertas no celular quando algo falhar"
+}

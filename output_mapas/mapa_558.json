@@ -1,0 +1,74 @@
+{
+  "id": 558,
+  "title": "PROGRESSIVE WEB APPS (PWA): SERVICE WORKERS E MANIFESTO WEB",
+  "definition": "Um site comum que ganha superpoderes: instala no celular como app e continua funcionando sem internet.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É um site que se disfarça de aplicativo: abre em tela cheia, com ícone na área de trabalho.",
+      "Duas peças fazem a mágica: o Manifesto (a identidade) e o Service Worker (o cérebro offline).",
+      "Você escreve uma vez e roda no Android, iPhone e computador, sem loja de aplicativos."
+    ]
+  },
+  "topRight": {
+    "pill": "SERVICE WORKER",
+    "icon": "🖥️",
+    "bullets": [
+      "É um arquivo JavaScript que fica escondido entre o site e a internet, sem tela própria.",
+      "Ele guarda cópias dos arquivos num cofre local chamado Cache Storage.",
+      "Quando a internet cai, ele entrega a cópia guardada em vez de mostrar erro de conexão.",
+      "Só funciona em conexão segura (HTTPS) ou em localhost durante os testes."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "O manifesto é um arquivo JSON com nome, ícones e cor do app.",
+      "{ \"name\": \"Meu App\", \"start_url\": \"/\", \"display\": \"standalone\" }",
+      "O service worker é registrado no JavaScript e escuta o evento de busca de arquivos.",
+      "navigator.serviceWorker.register('/sw.js'); depois self.addEventListener('fetch', ...)",
+      "Regra de ouro: o service worker só age em páginas do mesmo domínio que o registrou."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Lojas, bancos, redes sociais e apps de notícias que precisam abrir rápido e sem internet.",
+      "Twitter/X, Spotify, Pinterest e Starbucks usam PWA em produção no mundo real.",
+      "Ferramentas comuns: Workbox, next-pwa, Vite PWA e o Lighthouse para medir a qualidade."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O usuário abre o site e o navegador registra o service worker em segundo plano.",
+      "PASSO 2: O service worker baixa os arquivos principais e guarda tudo no cache local.",
+      "PASSO 3: Sem internet, ele responde do cache; com internet, busca a versão nova e atualiza."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer o HTTPS: sem conexão segura o service worker simplesmente não liga.",
+      "Cachear tudo para sempre e o usuário ficar preso numa versão velha do site.",
+      "Testar só no computador e descobrir no celular que o ícone de instalar nunca aparece.",
+      "Dica de ouro: sempre crie uma versão nova do cache e apague as antigas na ativação."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Site normal ➔ Manifesto + Service Worker ➔ App instalável que funciona offline"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Performance",
+  "escola": "05_frontend_e_mobile",
+  "foco_pedagogico": "Transformando sites em aplicativos instaláveis com funcionamento offline"
+}

@@ -1,0 +1,64 @@
+{
+  "id": 364,
+  "title": "ANÁLISE DE TRÁFEGO DE REDE COM WIRESHARK E TCPDUMP",
+  "definition": "É como abrir o envelope de cada carta que passa pela rede para ver o que realmente está sendo dito.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Toda comunicação na internet vira pacotes, e você pode espiar cada um deles."
+    ]
+  },
+  "topRight": {
+    "pill": "CAPTURA DE PACOTES",
+    "icon": "🖥️",
+    "bullets": [
+      "A placa de rede entra em 'modo promíscuo' e escuta tudo que passa.",
+      "Cada pacote capturado guarda cabeçalho, protocolo e dados."
+    ]
+  },
+  "midRight": {
+    "pill": "FILTROS DE CAPTURA",
+    "icon": "{ }",
+    "bullets": [
+      "Filtros escolhem só o tráfego que interessa, ignorando o resto.",
+      "tcpdump -i eth0 port 80"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Investigar ataques, lentidão de rede e vazamento de dados.",
+      "Ferramentas: Wireshark (interface gráfica) e tcpdump (linha de comando)."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: A interface de rede captura os pacotes que trafegam",
+      "PASSO 2: A ferramenta organiza e decodifica cada protocolo (HTTP, DNS, TCP)",
+      "PASSO 3: Você analisa os dados para encontrar problemas ou provas de invasão"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Capturar tráfego sem autorização é crime, sempre peça permissão.",
+      "Tráfego criptografado (HTTPS) esconde o conteúdo, só mostra o envelope."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Capturar pacote ➔ Decodificar protocolo ➔ Investigar comunicação"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Red Team",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "Capturando e dissecando pacotes de rede para investigar comunicações"
+}

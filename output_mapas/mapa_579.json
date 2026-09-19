@@ -1,0 +1,65 @@
+{
+  "id": 579,
+  "title": "STORYBOOK: DESENVOLVENDO E DOCUMENTANDO COMPONENTES ISOLADOS",
+  "definition": "Storybook é uma oficina visual onde você monta, testa e documenta cada peça da interface sozinha, sem abrir o sistema inteiro.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Pense num catálogo de peças de Lego: cada peça vista sozinha, em todos os seus estados.",
+      "Serve para ver o botão e o card funcionando antes de entrarem na aplicação principal."
+    ]
+  },
+  "topRight": {
+    "pill": "COMPONENTE ISOLADO",
+    "icon": "🖥️",
+    "bullets": [
+      "O sistema renderiza só aquele pedacinho de tela, sem menu, login ou banco de dados.",
+      "Cada variação de um componente vira uma 'story' salva nesse catálogo visual."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Um arquivo de stories descreve os cenários de teste de cada componente.",
+      "export const Primario = () => <Botao texto='Salvar' />"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Times revisam botões, cards e formulários antes de subir qualquer coisa para produção.",
+      "Funciona com React, Vue, Angular, Svelte e até HTML puro."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você cria o componente e abre o Storybook no navegador.",
+      "PASSO 2: Escreve stories com os estados: normal, hover, erro, carregando.",
+      "PASSO 3: Olha o resultado, ajusta e compartilha o link com o time."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Testar só o estado bonito e esquecer erro, vazio e carregando.",
+      "Story que depende da aplicação inteira quebra e não mostra nada na tela."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Componente pronto ➔ escrevo stories ➔ vejo tudo isolado ➔ documento e compartilho"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Front-end",
+  "escola": "05_frontend_e_mobile",
+  "foco_pedagogico": "O catálogo visual interativo para testar botões e cards fora da aplicação principal"
+}

@@ -1,0 +1,71 @@
+{
+  "id": 644,
+  "title": "LISTAS ENCADEADAS SIMPLES VS DUPLAMENTE ENCADEADAS",
+  "definition": "Uma lista encadeada é uma corrente de nós espalhados pela memória, onde cada nó guarda um valor e o endereço do próximo nó.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Pense numa caça ao tesouro: cada bilhete diz onde está o próximo bilhete.",
+      "Os nós não precisam ficar lado a lado, só precisam estar conectados.",
+      "Encadeada simples é uma mão única; dupla é uma via de mão dupla."
+    ]
+  },
+  "topRight": {
+    "pill": "NÓ E PONTEIRO",
+    "icon": "🖥️",
+    "bullets": [
+      "Cada nó é uma caixinha separada na memória, ligada por um ponteiro.",
+      "O computador não move blocos: ele só segue o endereço guardado dentro do nó.",
+      "Simples guarda 1 ponteiro (próximo). Dupla guarda 2 (próximo e anterior)."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "O nó é uma estrutura com um valor e um ponteiro para outro nó.",
+      "struct No { int valor; No* prox; };",
+      "struct No { int valor; No* prox; No* ant; };",
+      "Sem nó seguinte, o ponteiro recebe NULL e a corrente termina ali."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Filas, pilhas, playlists e o histórico de páginas do navegador.",
+      "Listas duplas brilham quando você precisa voltar e avançar rápido.",
+      "Aparecem em C, C++, Java (LinkedList) e Python (collections.deque)."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Cria o nó com o valor e o ponteiro ainda vazio.",
+      "PASSO 2: Liga o ponteiro do nó atual ao endereço do novo nó.",
+      "PASSO 3: Para percorrer, comece na cabeça e siga os ponteiros até NULL."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Perder o ponteiro antes de religar: a corrente se rompe e a memória vaza.",
+      "Esquecer de atualizar o ponteiro anterior na lista dupla quebra a volta.",
+      "Dica de ouro: desenhe as setas no papel antes de escrever o código."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Nó com valor ➔ ponteiro para o próximo ➔ corrente completa sem memória contígua"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Algoritmos",
+  "escola": "02_logica_e_algoritmos",
+  "foco_pedagogico": "Nós que apontam para o próximo elemento na memória sem alocação contígua"
+}

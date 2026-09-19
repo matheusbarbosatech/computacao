@@ -1,0 +1,65 @@
+{
+  "id": 683,
+  "title": "DÉBITO TÉCNICO: O QUE É, COMO GERENCIAR E QUANDO PAGAR",
+  "definition": "Débito técnico é a conta futura gerada por uma solução rápida e imperfeita escolhida hoje.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como um empréstimo: o atalho entra rápido, mas os juros chegam na manutenção.",
+      "Não é erro proibido, é uma troca consciente entre velocidade agora e esforço depois."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O COMPUTADOR SENTE",
+    "icon": "🖥️",
+    "bullets": [
+      "Código bagunçado não quebra sozinho: ele só deixa cada mudança mais lenta e arriscada.",
+      "Cada nova função exige mais testes, mais tempo e mais gente para entender o mesmo arquivo."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Sintoma clássico: a mesma regra copiada em vários arquivos em vez de uma função só.",
+      "exemplo: if (mes === 12) { preco = preco * 0.9; } repetido em 8 telas"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Aparece em qualquer projeto: sites, apps, bancos, jogos e sistemas internos de empresas.",
+      "Times acompanham isso com revisão de código, Jira e ferramentas como SonarQube."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Prazo apertado, então a equipe escolhe o caminho mais rápido e funciona.",
+      "PASSO 2: O atalho fica no código, e cada mudança nova passa a custar mais tempo.",
+      "PASSO 3: A equipe reserva uma parte do mês para limpar, refatorar e pagar a dívida."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Ignorar a dívida até o sistema travar: aí o conserto custa dez vezes mais.",
+      "Dica de ouro: anote cada atalho com data e motivo, e revise a lista a cada sprint."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Atalho hoje ➔ dívida acumula ➔ pagar depois custa mais caro"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Mentalidade",
+  "escola": "02_logica_e_algoritmos",
+  "foco_pedagogico": "O atalho que você toma hoje pagando juros diários em manutenção amanhã"
+}

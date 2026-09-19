@@ -1,0 +1,64 @@
+{
+  "id": 273,
+  "title": "SHELL SCRIPTING: VARIÁVEIS, IF/ELSE E LAÇOS NO BASH",
+  "definition": "Bash é a linguagem que dá ordens ao terminal, automatizando tarefas repetitivas como backup e deploy.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Um script .sh é uma lista de comandos de terminal escritos em ordem, executados automaticamente."
+    ]
+  },
+  "topRight": {
+    "pill": "VARIÁVEIS",
+    "icon": "🖥️",
+    "bullets": [
+      "Guardam informações como caminhos de pastas ou datas do backup.",
+      "Não usam tipo fixo, tudo é tratado como texto."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Sem espaço ao atribuir valor: variavel=valor.",
+      "DATA=$(date +%Y%m%d)  ➔  BACKUP_DIR=\"/backup/$DATA\""
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Servidores Linux para rotinas de backup automático diário.",
+      "Pipelines de deploy em ferramentas como cron, GitHub Actions e Docker."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Script verifica se a pasta ou arquivo existe com if",
+      "PASSO 2: Usa for ou while para copiar múltiplos arquivos em laço",
+      "PASSO 3: Confirma sucesso e envia log ou notificação final"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer espaços dentro dos colchetes do if [ -d $PASTA ].",
+      "Rodar script sem permissão: use chmod +x script.sh antes."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Variável guarda dado ➔ if/else decide ação ➔ laço repete tarefa de backup"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Linux",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Automatizando rotinas de backup e deploy com scripts .sh"
+}

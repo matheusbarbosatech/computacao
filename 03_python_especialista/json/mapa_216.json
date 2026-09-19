@@ -1,0 +1,64 @@
+{
+  "id": 216,
+  "title": "AUTOMAÇÃO DE PLANILHAS COM OPENPYXL",
+  "definition": "É uma biblioteca Python que abre, lê, cria e formata arquivos Excel sem precisar abrir o programa.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como ter um assistente que edita Excel sozinho, seguindo suas ordens em código."
+    ]
+  },
+  "topRight": {
+    "pill": "WORKBOOK E SHEET",
+    "icon": "🖥️",
+    "bullets": [
+      "Workbook é o arquivo Excel inteiro, a planilha (Sheet) é cada aba dentro dele.",
+      "Você abre com load_workbook() ou cria um novo com Workbook()."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Célula é acessada como coordenada, tipo endereço de casa.",
+      "ws['A1'].value = 100 ou ws.cell(row=1, column=1)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Relatórios automáticos, boletins, controle financeiro e dashboards simples.",
+      "Usado com Python puro ou junto de pandas para análise de dados."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Abrir ou criar o arquivo Excel com load_workbook ou Workbook",
+      "PASSO 2: Ler, escrever ou calcular valores nas células e aplicar fórmulas",
+      "PASSO 3: Formatar estilo e salvar o resultado com wb.save('arquivo.xlsx')"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de salvar com wb.save() e achar que a planilha foi alterada.",
+      "Fórmulas ficam como texto, o Excel só calcula quando o arquivo é aberto."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Abrir arquivo ➔ Editar células e fórmulas ➔ Salvar planilha formatada"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Automação",
+  "escola": "03_python_especialista",
+  "foco_pedagogico": "Lendo células, criando fórmulas e formatando planilhas Excel em segundos"
+}

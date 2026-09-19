@@ -1,0 +1,64 @@
+{
+  "id": 485,
+  "title": "ASP.NET CORE: MINIMAL APIS VS CONTROLLERS",
+  "definition": "São duas formas de criar rotas web em C#: uma enxuta e rápida, outra mais robusta e organizada.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Minimal API é um lanche rápido, Controller é um jantar completo com etapas."
+    ]
+  },
+  "topRight": {
+    "pill": "MINIMAL APIS",
+    "icon": "🖥️",
+    "bullets": [
+      "Roda direto no Program.cs, sem classes extras.",
+      "Menos código, inicialização mais rápida do servidor."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Rota é uma linha só, sem cerimônia.",
+      "app.MapGet(\"/oi\", () => \"Olá mundo!\");"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Microserviços pequenos e APIs de alta performance.",
+      "Comum em .NET 6+, projetos leves e serverless."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Requisição chega direto na rota mapeada",
+      "PASSO 2: Função executa sem passar por classe Controller",
+      "PASSO 3: Resposta volta mais rápido, com menos camadas"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que Minimal API não escala: ela aguenta projetos grandes também.",
+      "Misturar os dois estilos sem padronizar a equipe."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Poucas linhas ➔ Menos camadas ➔ Resposta ultrarrápida"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": ".NET",
+  "escola": "04_backend_e_apis",
+  "foco_pedagogico": "Criando rotas ultraleves com alto desempenho e poucas linhas de código"
+}

@@ -1,0 +1,65 @@
+{
+  "id": 698,
+  "title": "A LEI DE AMDAHL: OS LIMITES DA PARALELIZAÇÃO DE PROCESSOS",
+  "definition": "A Lei de Amdahl diz que a parte sequencial de uma tarefa limita o quanto ela pode ficar mais rápida, não importa quantos processadores você adicione.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Toda tarefa tem uma parte que pode ser dividida e outra que só roda em fila.",
+      "Somar processadores acelera só a parte divisível, nunca a parte em fila."
+    ]
+  },
+  "topRight": {
+    "pill": "PARTE SEQUENCIAL E PARTE PARALELA",
+    "icon": "🖥️",
+    "bullets": [
+      "O sistema espalha a parte paralela entre vários núcleos, todos ao mesmo tempo.",
+      "A parte sequencial roda em um único núcleo e vira um gargalo obrigatório."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Regra: ganho = 1 dividido por (parte sequencial + parte paralela dividida pelos núcleos).",
+      "exemplo: 1 / (0.2 + 0.8/4) = 2,5 vezes mais rápido"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Decidir quantos núcleos comprar para servidores, jogos e aplicativos pesados.",
+      "Presente em Python, Java, C++, GPUs, clusters e bancos de dados paralelos."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O programa separa o que pode rodar junto e o que precisa esperar.",
+      "PASSO 2: Vários núcleos trabalham na parte paralela ao mesmo tempo.",
+      "PASSO 3: A parte sequencial termina sozinha e define o tempo final."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que dobrar núcleos dobra a velocidade: a parte sequencial impede isso.",
+      "Dica de ouro: meça a parte sequencial antes de investir em mais hardware."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Tarefa com parte em fila ➔ divisão em núcleos ➔ limite fixo de velocidade"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Mentalidade",
+  "escola": "02_logica_e_algoritmos",
+  "foco_pedagogico": "Por que adicionar mais processadores não acelera tarefas sequenciais obrigatórias"
+}

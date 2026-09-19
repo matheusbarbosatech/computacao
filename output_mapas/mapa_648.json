@@ -1,0 +1,67 @@
+{
+  "id": 648,
+  "title": "BUBBLE SORT E SELECTION SORT: POR QUE SÃO INEFICIENTES?",
+  "definition": "São dois algoritmos simples de ordenação que comparam todos os itens entre si, gerando um custo quadrático O(n²).",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Ordenar é colocar itens em ordem crescente, como organizar cartas na mão.",
+      "Bubble e Selection fazem isso comparando par por par, sem nenhum truque esperto.",
+      "Quanto mais itens, mais comparações: o trabalho explode rápido."
+    ]
+  },
+  "topRight": {
+    "pill": "CUSTO O(n²)",
+    "icon": "🖥️",
+    "bullets": [
+      "Com 10 números são cerca de 100 comparações; com 1000 são quase 1 milhão.",
+      "O custo cresce ao quadrado: dobrar a lista quadruplica o trabalho.",
+      "Por isso o computador demora segundos ou minutos onde deveria levar milésimos."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "A regra é simples: um laço 'for' dentro de outro laço 'for'.",
+      "for i in range(n): for j in range(n-1): comparar e trocar"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Ótimo para listas pequenas, aulas, provas e entrevistas de emprego.",
+      "Exemplos: Python, Java, C++ e qualquer linguagem que tenha laços 'for'."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Bubble olha o primeiro par e troca se estiver fora de ordem.",
+      "PASSO 2: Selection procura o menor item e o coloca na posição correta.",
+      "PASSO 3: Ambos repetem a varredura até a lista ficar totalmente ordenada."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que funciona bem em lista grande: o programa trava com milhões de itens.",
+      "Dica de ouro: em produção use o sort() pronto da linguagem, muito mais rápido."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Comparar todos ➔ Trocar posições ➔ Lista ordenada, mas com custo O(n²)."
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Algoritmos",
+  "escola": "02_logica_e_algoritmos",
+  "foco_pedagogico": "O custo quadrático O(n²) de comparar todos contra todos"
+}

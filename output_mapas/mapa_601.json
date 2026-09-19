@@ -1,0 +1,64 @@
+{
+  "id": 601,
+  "title": "CASSANDRA E BANCOS WIDE-COLUMN: ALTA DISPONIBILIDADE E ESCALA LINEAR",
+  "definition": "Um banco que espalha dados por dezenas de máquinas comuns, nunca cai e aceita escrita frenética 24h por dia.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Imagine um armário com infinitas gavetas. Cada gaveta guarda um pedacinho dos seus dados, copiado em várias gavetas espalhadas pelo mundo. Se uma pegar fogo, as outras salvam tudo."
+    ]
+  },
+  "topRight": {
+    "pill": "ARQUITETURA DESCENTRALIZADA",
+    "icon": "🖥️",
+    "bullets": [
+      "Todos os nós são iguais — não existe chefe. Cada máquina decide sozinha e conversa com as outras por boatos (protocolo Gossip).",
+      "Os dados formam um anel: cada pedaço tem dono certo, calculado por um hash consistente que evita bagunça quando entram ou saem máquinas."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Fator de replicação (RF) define quantas cópias de cada dado existem. Com RF=3, você perde 2 máquinas e ainda lê tudo.",
+      "CREATE TABLE posts (id UUID, autor TEXT, conteudo TEXT, PRIMARY KEY (autor, id)); — a chave primária composta organiza os dados em colunas largas por autor."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Netflix guarda histórico de bilhões de plays. Apple processa notificações push. Instagram armazena feeds. Todos usam Cassandra.",
+      "Qualquer sistema que não pode parar e escreve montanhas de dados por segundo: sensores IoT, fraudes bancárias, rastreamento de encomendas."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O dado chega em qualquer nó (coordenador) e é enviado à memória + arquivo de log — gravação instantânea, sem travar.",
+      "PASSO 2: O coordenador manda cópias para os donos oficiais do dado no anel. Quorum mínimo confirma a escrita e segue a vida.",
+      "PASSO 3: Depois a memória é despejada em disco em tabelas SSTable imutáveis, compactadas de fundo sem parar as leituras."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Modelar como SQL tradicional: fazer JOINs gigantes. Cassandra não tem JOIN — você duplica dados de propósito (denormalização) e prioriza leituras rápidas.",
+      "Esquecer de configurar o RF e deixar 1 cópia só. Caiu uma máquina, perdeu dados. Sempre RF ≥ 3 em produção."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Anel de máquinas iguais ➔ Dados copiados em várias ➔ Escrita sempre aceita, nunca para ➔ Mais máquinas = mais velocidade linear."
+    ]
+  },
+  "_modelo_usado": "devworld/deepseek-v4-pro-0813-f",
+  "modulo": "NoSQL",
+  "escola": "06_banco_dados_e_ia",
+  "foco_pedagogico": "Gravando terabytes por segundo sem ponto único de falha"
+}

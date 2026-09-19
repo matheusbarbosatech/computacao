@@ -1,0 +1,63 @@
+{
+  "id": 60,
+  "title": "O QUE É GIT E CONTROLE DE VERSÃO",
+  "definition": "Git é uma máquina do tempo que salva várias versões do seu código para você nunca perder nada.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como salvar fotos do seu projeto em momentos diferentes."
+    ]
+  },
+  "topRight": {
+    "pill": "COMMIT",
+    "icon": "🖥️",
+    "bullets": [
+      "Cada commit é uma 'foto' guardada do estado do código.",
+      "Você pode voltar a qualquer foto antiga quando quiser."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Comandos básicos para salvar uma versão.",
+      "git add . / git commit -m 'mensagem'"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Times de programadores trabalhando juntos no mesmo projeto.",
+      "GitHub, GitLab, Bitbucket guardam esse histórico na nuvem."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você edita arquivos do projeto normalmente",
+      "PASSO 2: Marca as mudanças e cria um commit (uma foto)",
+      "PASSO 3: O histórico fica salvo e pode ser recuperado depois"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de commitar e perder o controle das mudanças.",
+      "Dica: commite pequeno e com frequência, não deixe acumular."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Editar código ➔ Salvar como commit ➔ Histórico guardado pra sempre"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Git",
+  "foco_pedagogico": "A máquina do tempo para salvar o histórico de código"
+}

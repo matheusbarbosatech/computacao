@@ -1,0 +1,64 @@
+{
+  "id": 500,
+  "title": "ARQUITETURA ORIENTADA A EVENTOS",
+  "definition": "É um jeito de montar sistemas onde cada parte reage a fatos que já aconteceram, em vez de dar ordens diretas.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Um evento é um fato do passado, como 'PedidoCriado', que já aconteceu e não muda mais."
+    ]
+  },
+  "topRight": {
+    "pill": "PRODUTOR E CONSUMIDOR",
+    "icon": "🖥️",
+    "bullets": [
+      "Quem gera o fato é o produtor, quem reage a ele é o consumidor.",
+      "Eles não se conhecem, só trocam mensagens sobre eventos."
+    ]
+  },
+  "midRight": {
+    "pill": "FORMATO DE UM EVENTO",
+    "icon": "{ }",
+    "bullets": [
+      "Geralmente é um objeto com nome e dados do que ocorreu.",
+      "PedidoCriado { id: 123, cliente: 'Ana' }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Sistemas de e-commerce, bancos e apps de entrega em tempo real.",
+      "Ferramentas comuns: Kafka, RabbitMQ, AWS EventBridge."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Algo acontece no sistema, como um pedido sendo fechado",
+      "PASSO 2: O sistema publica o evento 'PedidoCriado' num canal",
+      "PASSO 3: Outros serviços escutam e reagem, como o de pagamento"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que evento é um comando, mas ele só descreve o que já ocorreu.",
+      "Esquecer que a ordem de chegada dos eventos pode variar entre serviços."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "PedidoCriado ➔ Serviço de Pagamento escuta ➔ PagamentoAprovado é gerado"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Microsserviços",
+  "escola": "04_backend_e_apis",
+  "foco_pedagogico": "Sistemas que reagem a fatos passados (Ex: PedidoCriado, PagamentoAprovado)"
+}

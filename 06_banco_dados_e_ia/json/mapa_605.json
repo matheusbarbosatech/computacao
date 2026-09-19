@@ -1,0 +1,71 @@
+{
+  "id": 605,
+  "title": "PIPELINES DE ETL VS ELT",
+  "definition": "ETL e ELT são dois caminhos para levar dados de muitos lugares até um único repositório central.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Empresa com 30 sistemas espalhados quer juntar tudo num só lugar para decidir melhor.",
+      "Pipeline é a esteira que busca, organiza e entrega esses dados automaticamente, todo dia.",
+      "ETL limpa antes de guardar. ELT guarda cru e limpa depois, com a força do destino."
+    ]
+  },
+  "topRight": {
+    "pill": "ONDE A TRANSFORMAÇÃO ACONTECE",
+    "icon": "🖥️",
+    "bullets": [
+      "No ETL, um servidor do meio faz o trabalho pesado antes do dado entrar no destino.",
+      "No ELT, o dado entra cru e quem transforma é o próprio banco central, que é potente.",
+      "Regra prática: ETL protege o destino, ELT usa a potência do destino."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "A ideia é sempre a mesma: buscar ➔ transformar ➔ guardar. Só muda a ordem.",
+      "ETL: busca_dados() ➔ limpa_dados() ➔ salva_no_armazem()",
+      "ELT: busca_dados() ➔ salva_no_armazem() ➔ limpa_com_SQL()"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Bancos, lojas online e hospitais usam isso para montar relatórios e dashboards.",
+      "Ferramentas comuns: Airflow, dbt, Spark, Python e SQL.",
+      "Armazéns na nuvem como BigQuery, Snowflake e Redshift brilham no estilo ELT."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O pipeline se conecta nas fontes e copia os dados brutos.",
+      "PASSO 2: Decide-se a ordem. Limpa antes (ETL) ou guarda cru e limpa depois (ELT).",
+      "PASSO 3: O dado chega limpo no repositório central, pronto para virar relatório."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Erro clássico: achar que ETL é melhor que ELT. Depende do tamanho e da pressa.",
+      "Deixar o dado sujo entrar no destino e nunca limpá-lo envenena todos os relatórios.",
+      "Dica de ouro: comece simples, com uma fonte só, e só depois escale para dezenas."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Muitas fontes ➔ esteira automática ➔ um repositório central confiável.",
+      "ETL transforma antes. ELT transforma depois. O objetivo final é o mesmo."
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Engenharia Dados",
+  "escola": "06_banco_dados_e_ia",
+  "foco_pedagogico": "Como empresas movem dados de dezenas de fontes para um repositório central"
+}

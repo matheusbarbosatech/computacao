@@ -1,0 +1,64 @@
+{
+  "id": 119,
+  "title": "MANIPULANDO TEXTOS E CLASSES CSS",
+  "definition": "É usar código para mudar cor, texto e visibilidade de um elemento na tela.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "O HTML é o esqueleto e o código muda sua roupa e mensagem em tempo real."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O NAVEGADOR VÊ ISSO",
+    "icon": "🖥️",
+    "bullets": [
+      "Cada elemento da página é um objeto que pode ser encontrado e editado.",
+      "Mudar uma classe CSS já aplica todo um novo estilo pronto."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "textContent troca o texto visível do elemento.",
+      "elemento.classList.add('ativo')",
+      "elemento.style.color = 'red'"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Botões que mudam de cor ao clicar, menus que abrem e fecham.",
+      "Usado em JavaScript puro, React, Vue e outras ferramentas web."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O código encontra o elemento na página",
+      "PASSO 2: Ele decide o que mudar (texto, cor ou classe)",
+      "PASSO 3: A tela atualiza sozinha, sem recarregar"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Confundir innerHTML com textContent pode abrir brechas de segurança.",
+      "Esquecer de remover uma classe antiga trava o visual em estado errado."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Encontrar elemento ➔ Trocar classe ou texto ➔ Tela muda na hora"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Web",
+  "foco_pedagogico": "Alterando cores, visibilidade e conteúdo via código"
+}

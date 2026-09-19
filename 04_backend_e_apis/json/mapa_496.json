@@ -1,0 +1,64 @@
+{
+  "id": 496,
+  "title": "API GATEWAY: O PONTO ÚNICO DE ENTRADA DOS MICROSSERVIÇOS",
+  "definition": "É a porta única por onde todos os pedidos passam antes de chegar aos microsserviços.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Imagine um porteiro de prédio que recebe todas as visitas antes de deixar entrar."
+    ]
+  },
+  "topRight": {
+    "pill": "ROTEAMENTO INTELIGENTE",
+    "icon": "🖥️",
+    "bullets": [
+      "O gateway decide para qual microsserviço enviar cada pedido.",
+      "Evita que o cliente precise saber onde cada serviço está."
+    ]
+  },
+  "midRight": {
+    "pill": "REGRA DE ROTA",
+    "icon": "{ }",
+    "bullets": [
+      "Cada caminho da URL aponta para um serviço diferente.",
+      "/pedidos → serviço-pedidos, /usuarios → serviço-usuarios"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Apps que dependem de vários microsserviços por trás de uma API.",
+      "Ferramentas: Kong, AWS API Gateway, Nginx, Apigee"
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO DE UMA REQUISIÇÃO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Cliente envia um único pedido ao gateway",
+      "PASSO 2: Gateway autentica, limita e roteia para os serviços certos",
+      "PASSO 3: Respostas são agregadas e devolvidas como uma só"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que o gateway substitui a lógica de negócio dos serviços.",
+      "Esquecer rate limiting e deixar o sistema vulnerável a sobrecarga."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Pedido chega ➔ Gateway autentica e roteia ➔ Resposta única volta ao cliente"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Microsserviços",
+  "escola": "04_backend_e_apis",
+  "foco_pedagogico": "Roteamento, rate limiting, autenticação e agregação de dados centralizados"
+}

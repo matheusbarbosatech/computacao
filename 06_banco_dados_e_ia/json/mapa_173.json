@@ -1,0 +1,63 @@
+{
+  "id": 173,
+  "title": "LIMITANDO LINHAS COM LIMIT",
+  "definition": "LIMIT diz ao banco de dados quantas linhas de resposta você quer receber, no máximo.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como pedir só as 10 primeiras fotos de um álbum gigante."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O BANCO LIDA",
+    "icon": "🖥️",
+    "bullets": [
+      "O banco monta o resultado todo e depois corta na quantidade pedida.",
+      "Funciona junto com ORDER BY para pegar 'os melhores'."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "LIMIT vem depois do ORDER BY na query.",
+      "SELECT * FROM produtos ORDER BY vendas DESC LIMIT 10;"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Rankings, top 10 produtos, últimas notícias, feeds infinitos.",
+      "MySQL e PostgreSQL usam LIMIT; SQL Server usa TOP."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO DA PAGINAÇÃO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Ordene os dados (ex: por vendas, do maior pro menor)",
+      "PASSO 2: Use LIMIT 10 para pegar a página 1",
+      "PASSO 3: Use OFFSET 10 para pular e trazer a página 2"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Usar LIMIT sem ORDER BY traz resultados em ordem aleatória.",
+      "Confundir LIMIT (quantidade) com OFFSET (posição de início)."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Ordenar dados ➔ Cortar com LIMIT ➔ Paginar com OFFSET"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "BancoDados",
+  "foco_pedagogico": "Paginação de dados (ex: top 10 produtos)"
+}

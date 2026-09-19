@@ -1,0 +1,63 @@
+{
+  "id": 140,
+  "title": "PROCESSOS VS THREADS",
+  "definition": "São duas formas de o computador executar tarefas: como programas separados ou como caminhos dentro do mesmo programa.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Processo é uma casa inteira; thread é um cômodo dentro dela trabalhando."
+    ]
+  },
+  "topRight": {
+    "pill": "PROCESSO",
+    "icon": "🖥️",
+    "bullets": [
+      "Programa em execução com sua própria memória isolada.",
+      "Se um processo trava, os outros continuam normais."
+    ]
+  },
+  "midRight": {
+    "pill": "THREAD",
+    "icon": "{ }",
+    "bullets": [
+      "Menor unidade de execução dentro de um processo.",
+      "new Thread(() => tarefa())"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Navegadores usam processos por aba, threads por tarefa interna.",
+      "Java, Python, C# e Node.js lidam com isso nativamente."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "MULTITAREFA EM NÚCLEOS",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O sistema operacional cria vários processos ou threads",
+      "PASSO 2: Cada núcleo da CPU pega uma tarefa para executar em paralelo",
+      "PASSO 3: Tarefas rodam ao mesmo tempo, tornando tudo mais rápido"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que threads têm memória separada, mas elas compartilham memória do processo.",
+      "Cuidado: threads acessando o mesmo dado juntas podem gerar bugs difíceis."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Processo isolado ➔ Thread compartilhada ➔ CPU distribui entre núcleos"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "SO",
+  "foco_pedagogico": "Programas em execução e multitarefa em múltiplos núcleos"
+}

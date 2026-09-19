@@ -1,0 +1,64 @@
+{
+  "id": 487,
+  "title": "LINQ (LANGUAGE INTEGRATED QUERY) NO C#",
+  "definition": "LINQ é uma forma de perguntar e filtrar dados de listas, tabelas e coleções usando código C# comum.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como fazer uma busca no Google, mas dentro dos seus próprios dados em C#."
+    ]
+  },
+  "topRight": {
+    "pill": "TIPADO E SEGURO",
+    "icon": "🖥️",
+    "bullets": [
+      "O compilador checa erros antes de rodar o programa.",
+      "Autocomplete te ajuda a escrever a consulta certa."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Sintaxe fluente usa pontos e métodos encadeados.",
+      "lista.Where(x => x.Idade > 18).OrderBy(x => x.Nome)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Filtrar listas, arrays e coleções em memória.",
+      "Consultar bancos de dados com Entity Framework."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você tem uma coleção de dados (lista, tabela).",
+      "PASSO 2: Aplica filtros, ordenações ou transformações com LINQ.",
+      "PASSO 3: Recebe um novo resultado já pronto para usar."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer 'using System.Linq;' e o código não compilar.",
+      "Confundir Where (filtra) com Select (transforma)."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Coleção de dados ➔ Consulta com LINQ ➔ Resultado filtrado e organizado."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": ".NET",
+  "escola": "04_backend_e_apis",
+  "foco_pedagogico": "Consultando coleções e tabelas com sintaxe fluente e tipada"
+}

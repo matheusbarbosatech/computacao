@@ -1,0 +1,63 @@
+{
+  "id": 54,
+  "title": "TRATAMENTO DE ERROS COM TRY / CATCH",
+  "definition": "É um jeito de testar um código arriscado e ter um plano B se ele der errado.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Como um airbag: você tenta dirigir normal, mas se bater, algo te protege."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O SISTEMA LIDA COM ISSO",
+    "icon": "🖥️",
+    "bullets": [
+      "O programa tenta executar o 'try' normalmente.",
+      "Se algo falha, ele pula direto pro 'catch' e não trava."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "'try' guarda o código arriscado, 'catch' guarda o plano B.",
+      "try { risco() } catch (erro) { avisa(erro) }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Login, pagamentos, upload de arquivo, chamadas de API.",
+      "Usado em JavaScript, Python, Java, C#, quase tudo."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O programa entra no bloco 'try' e tenta rodar o código",
+      "PASSO 2: Se der erro, ele para ali e desvia pro 'catch'",
+      "PASSO 3: O 'catch' trata o erro e o programa continua vivo"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Colocar 'try/catch' em tudo e escondendo erros que deveriam ser corrigidos.",
+      "Dica de ouro: sempre mostre uma mensagem clara pro usuário, nunca deixe a tela travar."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Código arriscado ➔ Erro acontece ➔ Catch salva o programa"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Funções",
+  "foco_pedagogico": "Evitando que o programa quebre na cara do usuário"
+}

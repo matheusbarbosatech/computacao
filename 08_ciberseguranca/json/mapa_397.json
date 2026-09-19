@@ -1,0 +1,64 @@
+{
+  "id": 397,
+  "title": "SEGURANÇA EM APIS: OWASP API SECURITY TOP 10",
+  "definition": "É a lista dos erros mais perigosos que deixam APIs vulneráveis a ataques e roubo de dados.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "APIs são portas de entrada de dados; se mal trancadas, qualquer um invade."
+    ]
+  },
+  "topRight": {
+    "pill": "BOLA (BROKEN OBJECT LEVEL AUTH)",
+    "icon": "🖥️",
+    "bullets": [
+      "Usuário troca o ID na URL e acessa dados de outra pessoa.",
+      "Sistema não confere se o dono do token é o dono do recurso."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Sempre valide: dono_do_recurso == usuario_logado.",
+      "if (pedido.userId !== token.userId) throw Erro403"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "APIs REST de bancos, apps de saúde e e-commerce.",
+      "Node.js, Django REST, Spring Boot, Express."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Cliente envia requisição com ID de um recurso",
+      "PASSO 2: API verifica se o token pertence ao dono do recurso",
+      "PASSO 3: Libera dados só se a permissão for confirmada"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Mass Assignment: usuário envia campo 'isAdmin:true' e vira admin sozinho.",
+      "Excesso de dados: API retorna senha e CPF sem precisar."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Requisição livre ➔ Falta de checagem ➔ Dado vazado ou conta roubada"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Ameaças",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "Mass Assignment, Broken Object Level Authorization e excesso de dados expostos"
+}

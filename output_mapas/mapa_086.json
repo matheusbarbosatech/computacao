@@ -1,0 +1,63 @@
+{
+  "id": 86,
+  "title": "O QUE SÃO OBJETOS / DICIONÁRIOS?",
+  "definition": "É uma caixa de etiquetas, onde cada etiqueta (chave) aponta para uma informação (valor).",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Um jeito de guardar dados usando nomes em vez de números de posição."
+    ]
+  },
+  "topRight": {
+    "pill": "PARES CHAVE-VALOR",
+    "icon": "🖥️",
+    "bullets": [
+      "Cada dado tem um nome (chave) e um conteúdo (valor).",
+      "O computador busca o valor perguntando pelo nome, não pela ordem."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Usa chaves { } com dois pontos ligando nome e valor.",
+      "pessoa = {\"nome\": \"Ana\", \"idade\": 30}"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Representar coisas do mundo real: usuário, produto, pedido.",
+      "JavaScript (Object), Python (dict), JSON em APIs."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você cria as chaves com nomes que fazem sentido",
+      "PASSO 2: Você guarda um valor dentro de cada chave",
+      "PASSO 3: Você acessa o valor chamando pelo nome da chave"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Digitar a chave errada (maiúscula/minúscula) e não achar o valor.",
+      "Achar que tem ordem fixa como numa lista, mas o foco é o nome."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Nome (chave) ➔ Busca pelo nome ➔ Encontra a informação (valor)"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Coleções",
+  "foco_pedagogico": "Pares de chave e valor representando entidades reais"
+}

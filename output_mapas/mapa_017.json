@@ -1,0 +1,63 @@
+{
+  "id": 17,
+  "title": "OPERADORES DE COMPARAÇÃO",
+  "definition": "São sinais que comparam dois valores e sempre respondem com VERDADEIRO ou FALSO.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como uma balança: você coloca dois valores e ela diz qual é maior, menor ou igual."
+    ]
+  },
+  "topRight": {
+    "pill": "OS 4 SINAIS PRINCIPAIS",
+    "icon": "🖥️",
+    "bullets": [
+      "> significa 'maior que', igual à matemática da escola.",
+      "< significa 'menor que', a mesma seta virada ao contrário."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      ">= junta maior E igual, <= junta menor E igual.",
+      "idade >= 18 (verifica se tem 18 anos ou mais)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Dentro de condições (if) para o programa tomar decisões.",
+      "Usado em quase toda linguagem: Python, Java, JavaScript, C#."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O computador pega os dois valores para comparar.",
+      "PASSO 2: Ele aplica o sinal (>, <, >=, <=) entre eles.",
+      "PASSO 3: O resultado final é sempre TRUE (verdadeiro) ou FALSE (falso)."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Confundir > com >= esquece de incluir o valor igual na regra.",
+      "Dica de ouro: leia em voz alta 'maior OU igual' para não errar o sinal."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Valor A ➔ Comparação (>,<,>=,<=) ➔ Verdadeiro ou Falso"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Lógica",
+  "foco_pedagogico": "Maior (>), menor (<), maior ou igual (>=), menor ou igual (<=)"
+}

@@ -1,0 +1,64 @@
+{
+  "id": 225,
+  "title": "BOAS PRÁTICAS DE SCRAPING: RATE LIMIT E USER-AGENTS",
+  "definition": "É o conjunto de cuidados para coletar dados de um site sem sobrecarregar o servidor ou ser bloqueado.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Scraping educado é como visitar uma loja sem atropelar os funcionários."
+    ]
+  },
+  "topRight": {
+    "pill": "RATE LIMIT",
+    "icon": "🖥️",
+    "bullets": [
+      "O servidor tem limite de pedidos que aguenta por segundo.",
+      "Se você exagerar, ele trava ou te bane."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Use pausas entre requisições com time.sleep().",
+      "time.sleep(random.uniform(2, 5))"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Coleta de preços, notícias e dados públicos na web.",
+      "Ferramentas: Python (Requests, Scrapy), Selenium."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Envie uma requisição com User-Agent variado",
+      "PASSO 2: Aguarde um tempo aleatório antes da próxima",
+      "PASSO 3: Troque IP ou header se notar bloqueio"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Usar sempre o mesmo User-Agent entrega que é um robô.",
+      "Disparar requisições sem pausa derruba o servidor."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Pausa + Header variado ➔ Parece humano ➔ Sem bloqueio"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Web Scraping",
+  "escola": "03_python_especialista",
+  "foco_pedagogico": "Como não derrubar o servidor e evitar bloqueios IP com rotação de headers"
+}

@@ -1,0 +1,63 @@
+{
+  "id": 155,
+  "title": "CHAVE PRIMÁRIA (PRIMARY KEY)",
+  "definition": "É o CPF exclusivo de cada linha da tabela, que nunca se repete e nunca muda.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Cada linha precisa de um identificador único, como o CPF de uma pessoa."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O BANCO USA",
+    "icon": "🖥️",
+    "bullets": [
+      "O banco cria um índice automático para achar a linha rapidinho.",
+      "Impede duas linhas com o mesmo identificador."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Define a coluna como identidade única da tabela.",
+      "CREATE TABLE usuarios (id INT PRIMARY KEY);"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Em toda tabela de banco relacional: MySQL, PostgreSQL, SQL Server.",
+      "Base para conectar tabelas com chave estrangeira."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Nova linha chega para ser salva",
+      "PASSO 2: Banco verifica se o CPF (ID) já existe",
+      "PASSO 3: Se for único, salva; se repetir, dá erro"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Tentar mudar o valor da chave primária depois de criada, o que quebra tudo.",
+      "Usar dados que podem repetir (nome, e-mail) como chave primária."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Linha nova ➔ Recebe ID único ➔ Nunca mais se repete ou muda"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "BancoDados",
+  "foco_pedagogico": "O CPF exclusivo e imutável de cada linha"
+}

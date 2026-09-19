@@ -1,0 +1,66 @@
+{
+  "id": 347,
+  "title": "ARMAZENAMENTO SEGURO DE SENHAS: SALT, PEPPER E BCRYPT/ARGON2",
+  "definition": "É a arte de guardar senhas de um jeito que, mesmo se roubarem o banco de dados, ninguém descubra a senha real.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Nunca guarde a senha, guarde uma 'impressão digital' irreversível dela."
+    ]
+  },
+  "topRight": {
+    "pill": "HASH, SALT E PEPPER",
+    "icon": "🖥️",
+    "bullets": [
+      "Hash transforma a senha num código embaralhado sem volta.",
+      "Salt é um tempero único por usuário, misturado antes do hash.",
+      "Pepper é um segredo extra guardado fora do banco de dados."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Nunca faça isso: hash = md5(senha).",
+      "Faça isso: hash = bcrypt(senha + salt, custo=12)."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Login de sites, apps bancários e redes sociais.",
+      "Bibliotecas como bcrypt, Argon2, PBKDF2 em Node, Python, Java."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Usuário cria a senha no cadastro.",
+      "PASSO 2: Sistema gera um salt único e mistura com a senha antes de aplicar Bcrypt/Argon2.",
+      "PASSO 3: Só o hash final e o salt vão pro banco, a senha original é descartada."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "MD5 e SHA1 são rápidos demais, hackers testam bilhões de senhas por segundo.",
+      "Sem salt, senhas iguais geram o mesmo hash e caem em Rainbow Tables.",
+      "Dica de ouro: use Bcrypt ou Argon2, eles são propositalmente lentos e caros de quebrar."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Senha + Salt único ➔ Bcrypt/Argon2 (lento) ➔ Hash irreconhecível guardado no banco."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Criptografia",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "Por que nunca salvar senhas em MD5 ou texto plano e como frustrar Rainbow Tables"
+}

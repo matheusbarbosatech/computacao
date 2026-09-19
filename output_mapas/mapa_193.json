@@ -1,0 +1,63 @@
+{
+  "id": 193,
+  "title": "O QUE SÃO TRIGGERS (GATILHOS)?",
+  "definition": "Trigger é um código que o banco de dados executa sozinho quando algo acontece nele.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como um alarme: toca sozinho quando um evento específico ocorre na tabela."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O BANCO REAGE",
+    "icon": "🖥️",
+    "bullets": [
+      "O banco monitora eventos como INSERT, UPDATE ou DELETE nas tabelas.",
+      "Ao detectar o evento, ele dispara o trigger automaticamente."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Define-se QUANDO (BEFORE/AFTER) e EM QUAL evento (INSERT).",
+      "CREATE TRIGGER nome AFTER INSERT ON tabela"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Auditoria: registrar quem inseriu um dado e quando.",
+      "Usado em MySQL, PostgreSQL, SQL Server, Oracle."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Alguém tenta inserir um novo registro na tabela",
+      "PASSO 2: O banco verifica se existe trigger BEFORE ou AFTER ligado a esse evento",
+      "PASSO 3: O trigger executa sua ação extra, antes ou depois da inserção"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Confundir BEFORE (antes de salvar) com AFTER (depois de salvar).",
+      "Dica: use BEFORE para validar dados, AFTER para registrar logs."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Inserção acontece ➔ Trigger detecta ➔ Ação automática é executada"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "BancoDados",
+  "foco_pedagogico": "Ações automáticas disparadas antes ou após inserções"
+}

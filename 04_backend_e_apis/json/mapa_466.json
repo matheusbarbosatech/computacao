@@ -1,0 +1,65 @@
+{
+  "id": 466,
+  "title": "CLEAN ARCHITECTURE (ARQUITETURA LIMPA)",
+  "definition": "É organizar seu código em camadas, das regras de negócio mais importantes até os detalhes técnicos mais descartáveis.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Separe 'as regras do jogo' das 'ferramentas usadas para jogar'.",
+      "Quem manda é a regra de negócio, não o banco de dados ou o framework."
+    ]
+  },
+  "topRight": {
+    "pill": "ENTIDADES E CASOS DE USO",
+    "icon": "🖥️",
+    "bullets": [
+      "Entidades: as regras de negócio mais puras, o coração do sistema.",
+      "Casos de Uso: orquestram as entidades para resolver uma tarefa específica."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "As camadas internas nunca conhecem as externas.",
+      "interface Repositorio { buscar(id) }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Sistemas grandes que precisam trocar peças sem quebrar tudo.",
+      "Comum em Java, C#, Node.js com times grandes."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Controlador recebe o pedido do usuário (ex: clique no app)",
+      "PASSO 2: Caso de Uso aciona as Entidades para aplicar as regras",
+      "PASSO 3: Framework (banco, tela, API) só entrega o resultado final"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Erro: colocar regra de negócio dentro do banco de dados ou da tela.",
+      "Dica de ouro: a seta de dependência sempre aponta para dentro."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Pedido externo ➔ Caso de Uso decide ➔ Entidade aplica a regra"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Arquitetura",
+  "escola": "04_backend_e_apis",
+  "foco_pedagogico": "Entidades, Casos de Uso, Controladores e Frameworks na camada externa"
+}

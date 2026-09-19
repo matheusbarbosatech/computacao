@@ -1,0 +1,67 @@
+{
+  "id": 538,
+  "title": "LAYOUTS ESSENCIAIS: COLUMN, ROW, STACK E EXPANDED",
+  "definition": "São as formas básicas de organizar elementos na tela: um embaixo do outro, lado a lado ou sobrepostos.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Imagine arrumar móveis numa sala: cada coisa precisa de um lugar certo.",
+      "Column empilha, Row enfileira, Stack sobrepõe e Expanded divide o espaço."
+    ]
+  },
+  "topRight": {
+    "pill": "COLUMN, ROW, STACK",
+    "icon": "🖥️",
+    "bullets": [
+      "O computador mede cada filho, soma tudo e só depois desenha na tela.",
+      "Se não couber, ele mostra a faixa amarela e preta de erro (overflow)."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Column e Row recebem uma lista de filhos; Expanded vai dentro deles.",
+      "Row(children: [Text('A'), Expanded(child: Text('B'))])"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Aparece em telas de login, listas, menus, botões e barras de navegação.",
+      "No Flutter essas quatro peças montam quase toda interface do app."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Escolha a direção: vertical, horizontal ou sobreposta.",
+      "PASSO 2: Coloque os filhos na ordem em que devem aparecer.",
+      "PASSO 3: Use Expanded para repartir o espaço que sobrar."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer o Expanded e travar com a faixa de overflow na tela.",
+      "Dica de ouro: envolva o filho teimoso em Expanded ou Flexible."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Column ➔ empilha de cima para baixo ➔ lista vertical",
+      "Row ➔ enfileira lado a lado ➔ menu horizontal",
+      "Stack ➔ coloca um sobre o outro ➔ foto com texto em cima"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Flutter",
+  "escola": "05_frontend_e_mobile",
+  "foco_pedagogico": "Organizando interfaces verticais, horizontais e elementos sobrepostos"
+}

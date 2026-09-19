@@ -1,0 +1,63 @@
+{
+  "id": 158,
+  "title": "RELACIONAMENTOS: 1 PARA MUITOS (1:N)",
+  "definition": "É quando um registro de uma tabela pode se conectar a vários registros de outra tabela.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Um cliente pode fazer várias compras, mas cada compra tem só um cliente."
+    ]
+  },
+  "topRight": {
+    "pill": "CHAVE ESTRANGEIRA",
+    "icon": "🖥️",
+    "bullets": [
+      "O 'lado N' guarda o ID do 'lado 1' dentro dele.",
+      "Pedido guarda o id_cliente que fez a compra."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "A tabela pedidos ganha uma coluna extra ligando ao cliente.",
+      "CREATE TABLE pedidos (id_cliente INT REFERENCES clientes(id));"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Bancos de dados relacionais como MySQL e PostgreSQL.",
+      "Lojas online, sistemas de RH, apps de delivery."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Cliente é criado com um ID único.",
+      "PASSO 2: Cada novo pedido guarda esse ID como referência.",
+      "PASSO 3: Um cliente aparece ligado a vários pedidos."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Colocar a chave estrangeira na tabela errada, no lado 1 em vez do lado N.",
+      "Dica: quem tem 'vários' é sempre quem guarda a referência."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "1 Cliente ➔ Guarda vários pedidos ligados a ele ➔ Histórico de compras completo"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "BancoDados",
+  "foco_pedagogico": "Um cliente tem vários pedidos"
+}

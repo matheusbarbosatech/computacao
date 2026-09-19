@@ -1,0 +1,64 @@
+{
+  "id": 360,
+  "title": "HEADERS DE SEGURANÇA HTTP: CSP, HSTS, X-FRAME-OPTIONS",
+  "definition": "São instruções extras que o servidor manda junto com o site, dizendo ao navegador como se proteger.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "O servidor entrega o site e um 'manual de segurança' junto, no cabeçalho da resposta."
+    ]
+  },
+  "topRight": {
+    "pill": "CSP (CONTENT SECURITY POLICY)",
+    "icon": "🖥️",
+    "bullets": [
+      "Diz ao navegador de onde ele PODE carregar scripts, imagens e estilos.",
+      "Bloqueia scripts maliciosos injetados por invasores (XSS)."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Cada header é uma linha de texto simples enviada na resposta HTTP.",
+      "Content-Security-Policy: default-src 'self'"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Configurado no servidor: Nginx, Apache, Node/Express, Cloudflare.",
+      "Toda aplicação web séria usa isso, de bancos a e-commerces."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Navegador pede a página ao servidor",
+      "PASSO 2: Servidor responde com o HTML + headers de segurança",
+      "PASSO 3: Navegador lê os headers e aplica as regras antes de renderizar"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer o HSTS deixa a porta aberta para downgrade de HTTPS para HTTP.",
+      "CSP mal configurada pode quebrar o próprio site, sempre teste antes."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Servidor envia regra ➔ Navegador obedece ➔ Ataque é bloqueado antes de acontecer."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "OWASP",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "Configurando cabeçalhos no servidor para blindar navegadores contra ataques"
+}

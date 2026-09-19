@@ -1,0 +1,66 @@
+{
+  "id": 619,
+  "title": "MATRIZ DE CONFUSÃO: FALSOS POSITIVOS E FALSOS NEGATIVOS",
+  "definition": "É uma tabela de 4 caixas que mostra onde o computador acertou e onde errou ao classificar algo.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "O computador dá um palpite: é fraude ou não é fraude.",
+      "A matriz compara esse palpite com a resposta verdadeira e conta os erros."
+    ]
+  },
+  "topRight": {
+    "pill": "OS 4 RESULTADOS",
+    "icon": "🖥️",
+    "bullets": [
+      "Acerto positivo: era fraude e o sistema apontou fraude.",
+      "Falso positivo: era cliente honesto e o sistema bloqueou a compra dele.",
+      "Falso negativo: era fraude de verdade e o sistema deixou passar."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Você guarda as respostas certas e os palpites do modelo em duas listas.",
+      "confusion_matrix(y_real, y_previsto)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Bancos bloqueando cartões, filtros de spam e exames médicos.",
+      "Ferramentas: scikit-learn, TensorFlow e qualquer painel de antifraude."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O modelo olha a transação e diz fraude ou normal.",
+      "PASSO 2: Comparamos o palpite com o que realmente aconteceu.",
+      "PASSO 3: Contamos os 4 tipos de resultado e medimos o prejuízo."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Comemorar 99% de acerto quando a fraude é raríssima no conjunto.",
+      "Confundir FP com FN: um irrita o cliente, o outro sangra o caixa."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Palpite ➔ Compara com a verdade ➔ 4 caixas ➔ Escolhe qual erro dói menos"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Machine Learning",
+  "escola": "06_banco_dados_e_ia",
+  "foco_pedagogico": "O impacto no mundo real de classificar errado um cliente ou transação"
+}

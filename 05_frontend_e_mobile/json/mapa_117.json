@@ -1,0 +1,63 @@
+{
+  "id": 117,
+  "title": "O QUE É O DOM (ÁRVORE DE ELEMENTOS)",
+  "definition": "O DOM é a forma que o navegador usa para transformar seu HTML em objetos que o JavaScript pode manipular.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "O HTML é seu texto escrito, o DOM é esse texto vivo na memória do navegador."
+    ]
+  },
+  "topRight": {
+    "pill": "ÁRVORE DE OBJETOS",
+    "icon": "🖥️",
+    "bullets": [
+      "O navegador lê o HTML e cria uma 'árvore genealógica' de elementos.",
+      "Cada tag vira um objeto JS com pais, filhos e irmãos."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Você acessa a árvore pelo objeto global 'document'.",
+      "document.querySelector('h1')"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Toda interatividade de página web depende do DOM.",
+      "Usado com JavaScript puro, React, Vue e frameworks web."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Navegador lê o arquivo HTML como texto puro",
+      "PASSO 2: Ele monta uma árvore de objetos (nós) na memória",
+      "PASSO 3: JavaScript acessa e muda esses objetos em tempo real"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "DOM não é o mesmo que o arquivo HTML, é a versão viva dele.",
+      "Mudar o DOM não muda o arquivo .html salvo no disco."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "HTML escrito ➔ Navegador interpreta ➔ Árvore DOM manipulável por JS"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Web",
+  "foco_pedagogico": "Como o navegador enxerga o HTML como objetos JS"
+}

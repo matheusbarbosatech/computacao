@@ -1,0 +1,64 @@
+{
+  "id": 318,
+  "title": "AWS CLOUDFRONT: CDN GLOBAL PARA VELOCIDADE MÁXIMA",
+  "definition": "É uma rede de servidores espalhados pelo mundo que entrega seus arquivos pelo ponto mais próximo do usuário.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Copia seu site para vários pontos do planeta, como filiais de uma loja."
+    ]
+  },
+  "topRight": {
+    "pill": "EDGE LOCATIONS",
+    "icon": "🖥️",
+    "bullets": [
+      "São os 'depósitos regionais' que guardam cópias dos seus arquivos.",
+      "O usuário busca no depósito mais perto, não na loja matriz."
+    ]
+  },
+  "midRight": {
+    "pill": "CONFIGURAÇÃO DA DISTRIBUTION",
+    "icon": "{ }",
+    "bullets": [
+      "Você aponta a origem (S3 ou servidor) e o CloudFront cuida do resto.",
+      "origin: 'meu-bucket.s3.amazonaws.com'"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Sites, imagens, vídeos, downloads e APIs.",
+      "Usado com S3, EC2, Netflix, Vimeo e grandes streamings."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Usuário pede um arquivo do site",
+      "PASSO 2: CloudFront acha o servidor mais próximo dele",
+      "PASSO 3: Arquivo é entregue rápido, direto desse servidor local"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que atualizar o arquivo na origem já atualiza tudo na hora.",
+      "Dica de ouro: use 'invalidation' pra forçar atualização do cache."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Arquivo salvo em cópias ➔ Usuário pede o mais próximo ➔ Entrega ultra rápida"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Cloud",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Entregando arquivos estáticos no servidor mais próximo do usuário no planeta"
+}

@@ -1,0 +1,63 @@
+{
+  "id": 63,
+  "title": "JUNTANDO CÓDIGOS COM GIT MERGE",
+  "definition": "Git merge é o comando que junta o trabalho feito em uma branch de volta na branch principal.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como juntar duas versões de um documento em uma só, sem perder nada."
+    ]
+  },
+  "topRight": {
+    "pill": "MAIN E BRANCH",
+    "icon": "🖥️",
+    "bullets": [
+      "A main é a linha oficial do projeto, sempre estável.",
+      "A branch é uma cópia paralela onde você testa mudanças."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Primeiro entre na main, depois traga a branch para ela.",
+      "git checkout main\ngit merge minha-branch"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Usado quando termina uma feature e quer entregá-la ao time.",
+      "Comum em GitHub, GitLab e Bitbucket via Pull Request."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você vai até a branch main com checkout",
+      "PASSO 2: Roda o merge trazendo as mudanças da outra branch",
+      "PASSO 3: A main ganha todo o histórico e código da branch"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Fazer merge na branch errada e misturar código sem querer.",
+      "Sempre confira em qual branch você está antes de mergear."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Terminou na branch ➔ vai para a main ➔ dá merge para juntar tudo."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Git",
+  "foco_pedagogico": "Trazendo as alterações da branch para a main"
+}

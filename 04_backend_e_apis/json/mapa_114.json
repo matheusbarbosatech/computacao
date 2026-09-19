@@ -1,0 +1,63 @@
+{
+  "id": 114,
+  "title": "INTRODUÇÃO AOS PRINCÍPIOS SOLID",
+  "definition": "SOLID é um conjunto de 5 regras para escrever código organizado, fácil de mudar e sem quebrar tudo.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Cada letra do SOLID é uma boa prática para código limpo e durável."
+    ]
+  },
+  "topRight": {
+    "pill": "AS 5 LETRAS",
+    "icon": "🖥️",
+    "bullets": [
+      "S: uma classe faz só uma coisa.",
+      "O: adicione recursos sem alterar o que já existe."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "L, I, D tratam de como as peças se encaixam.",
+      "class Carro { function ligar() {} }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Muito usado em Java, C#, PHP e sistemas grandes.",
+      "Base da Programação Orientada a Objetos."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você identifica uma responsabilidade do código",
+      "PASSO 2: Aplica a letra do SOLID que resolve o problema",
+      "PASSO 3: Código fica mais fácil de manter e testar"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que SOLID é só para projetos grandes.",
+      "Dica: comece aplicando só o 'S' e já ganha organização."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Código bagunçado ➔ Aplica SOLID ➔ Código limpo e sustentável"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "POO",
+  "foco_pedagogico": "Boas práticas para código limpo e sustentável"
+}

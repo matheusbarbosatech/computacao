@@ -1,0 +1,64 @@
+{
+  "id": 295,
+  "title": "VARIÁVEIS DE AMBIENTE NO DOCKER COMPOSE (ENV_FILE)",
+  "definition": "É um jeito de guardar senhas e configurações fora do código, num arquivo separado que o container lê ao iniciar.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Em vez de escrever a senha no código, você escreve num arquivo .env e o Docker entrega pro container."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O DOCKER LIDA COM ISSO",
+    "icon": "🖥️",
+    "bullets": [
+      "O Compose lê o arquivo .env e injeta cada linha como variável dentro do container.",
+      "O app dentro do container acessa isso como se fosse configuração do sistema operacional."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "No docker-compose.yml você aponta o arquivo com env_file.",
+      "env_file: .env  ➔  dentro do .env: DB_PASS=senha123"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Guardar senha de banco, chave de API e tokens sem expor no código.",
+      "Usado em projetos com PostgreSQL, MySQL, Redis, AWS, Stripe."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você cria um arquivo .env com as credenciais",
+      "PASSO 2: O docker-compose.yml aponta pra esse arquivo com env_file",
+      "PASSO 3: O container sobe já com as variáveis carregadas prontas pra uso"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Subir o .env pro GitHub por engano expõe senhas reais pra qualquer um ver.",
+      "Dica de ouro: sempre coloque .env no arquivo .gitignore."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Credencial no .env ➔ Docker injeta no container ➔ App usa sem expor segredo no código"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Docker",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Injetando credenciais de banco e chaves de forma padronizada"
+}

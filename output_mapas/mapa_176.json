@@ -1,0 +1,63 @@
+{
+  "id": 176,
+  "title": "FUNÇÕES DE AGREGAÇÃO: COUNT()",
+  "definition": "COUNT() é a função que conta quantas linhas existem em uma tabela ou resultado.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como contar quantas fichas tem numa pilha, sem olhar o conteúdo delas."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O BANCO CONTA",
+    "icon": "🖥️",
+    "bullets": [
+      "O banco percorre as linhas do resultado uma a uma.",
+      "Ele soma +1 para cada linha encontrada e devolve o total."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "COUNT(*) conta todas as linhas, mesmo com valores nulos.",
+      "SELECT COUNT(*) FROM clientes;"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Contar usuários, pedidos, produtos em estoque, respostas de formulário.",
+      "Usado em MySQL, PostgreSQL, SQL Server, SQLite."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O banco seleciona as linhas da tabela",
+      "PASSO 2: Ele percorre e conta cada linha uma por uma",
+      "PASSO 3: Devolve um único número como resultado"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "COUNT(coluna) ignora valores nulos, diferente de COUNT(*).",
+      "Dica: use COUNT(*) quando quiser contar linhas de verdade."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Linhas da tabela ➔ COUNT() conta cada uma ➔ Retorna o total."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "BancoDados",
+  "foco_pedagogico": "Contando quantas linhas existem"
+}

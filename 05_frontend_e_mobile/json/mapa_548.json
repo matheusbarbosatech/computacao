@@ -1,0 +1,69 @@
+{
+  "id": 548,
+  "title": "ANIMAÇÕES FLUÍDAS COM CSS: TRANSITIONS, KEYFRAMES E TRANSFORM",
+  "definition": "É fazer elementos da tela se moverem suavemente usando apenas CSS, sem travar a página.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Animar é mudar um estilo aos poucos, como um semáforo que acende devagar.",
+      "Transitions fazem o trajeto simples; keyframes criam a coreografia completa."
+    ]
+  },
+  "topRight": {
+    "pill": "O MOTOR DA GPU",
+    "icon": "🖥️",
+    "bullets": [
+      "Mudar tamanho ou posição obriga o navegador a recalcular tudo: pesado.",
+      "Mudar transform ou opacity só empurra camadas prontas para a placa de vídeo.",
+      "Resultado: o trabalho sai da CPU e vira desenho rápido na GPU."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Transition precisa de uma propriedade, uma duração e um tipo de curva.",
+      "transition: transform 0.3s ease-out;",
+      "Keyframes descrevem o começo (from) e o fim (to) da dança do elemento."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Botões que crescem de leve quando o mouse passa por cima.",
+      "Menus que deslizam, cards que aparecem subindo, loaders girando sem parar.",
+      "Aparece em React, Vue, Tailwind e em qualquer site moderno hoje."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O usuário interage, como passar o mouse ou clicar.",
+      "PASSO 2: O navegador calcula a nova posição e entrega a camada à GPU.",
+      "PASSO 3: A GPU desenha os quadros e a animação roda a 60 por segundo."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Animar width, height, top ou left faz a página engasgar e pular quadros.",
+      "Animar tudo ao mesmo tempo cria briga de camadas e travamento visível.",
+      "Dica de ouro: prefira transform e opacity, e evite animar caixas inteiras."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "transform + opacity ➔ animação na GPU ➔ 60 quadros por segundo estáveis"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "CSS/Design",
+  "escola": "05_frontend_e_mobile",
+  "foco_pedagogico": "Criando micro-interações sem degradar os 60 quadros por segundo da GPU"
+}

@@ -1,0 +1,64 @@
+{
+  "id": 314,
+  "title": "AWS VPC: SUA REDE PRIVADA VIRTUAL NA NUVEM",
+  "definition": "VPC é como um condomínio digital isolado onde você organiza seus servidores em ruas públicas e privadas.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "VPC é seu próprio pedaço isolado da nuvem, com endereços e regras que você define."
+    ]
+  },
+  "topRight": {
+    "pill": "SUB-REDES PÚBLICAS E PRIVADAS",
+    "icon": "🖥️",
+    "bullets": [
+      "Sub-rede pública tem porta pra internet, tipo loja na avenida.",
+      "Sub-rede privada fica escondida, tipo cofre no fundo da casa."
+    ]
+  },
+  "midRight": {
+    "pill": "TABELA DE ROTEAMENTO",
+    "icon": "{ }",
+    "bullets": [
+      "É a placa de sinalização que diz por onde o tráfego deve sair.",
+      "0.0.0.0/0 -> Internet Gateway (rota pública)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Hospedar sites, apps e bancos de dados protegidos na AWS.",
+      "Ferramentas: Console AWS, Terraform, CloudFormation."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Servidor privado quer acessar a internet pra atualizar algo",
+      "PASSO 2: Tráfego passa pela tabela de rotas até o NAT Gateway",
+      "PASSO 3: NAT Gateway sai pela sub-rede pública sem expor o servidor"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Colocar NAT Gateway na sub-rede privada, ele precisa estar na pública.",
+      "Ouro: sub-rede só é pública se a rota apontar pro Internet Gateway."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Servidor privado ➔ passa pelo NAT ➔ acessa internet com segurança"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Cloud",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Criando sub-redes públicas e privadas com tabelas de roteamento e NAT Gateway"
+}

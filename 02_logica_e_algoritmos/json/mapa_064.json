@@ -1,0 +1,63 @@
+{
+  "id": 64,
+  "title": "RESOLVENDO CONFLITOS NO GIT",
+  "definition": "Conflito é quando o Git não sabe qual de duas mudanças na mesma linha deve valer.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como dois amigos editando a mesma frase de um documento ao mesmo tempo."
+    ]
+  },
+  "topRight": {
+    "pill": "CONFLITO DE MERGE",
+    "icon": "🖥️",
+    "bullets": [
+      "O Git tenta juntar as mudanças e trava quando a mesma linha muda dos dois lados.",
+      "Ele marca o arquivo e pede pra você decidir manualmente."
+    ]
+  },
+  "midRight": {
+    "pill": "MARCADORES DE CONFLITO",
+    "icon": "{ }",
+    "bullets": [
+      "Git usa símbolos pra mostrar as duas versões dentro do arquivo.",
+      "<<<<<<< HEAD / sua linha / ======= / linha do outro / >>>>>>> branch"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Acontece em qualquer merge ou rebase entre branches diferentes.",
+      "Comum em GitHub, GitLab, Bitbucket ao juntar Pull Requests."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "PASSO A PASSO PRA RESOLVER",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Git avisa 'CONFLICT' e para o merge no meio",
+      "PASSO 2: Você abre o arquivo e escolhe qual trecho fica (ou mistura os dois)",
+      "PASSO 3: Remove os marcadores, salva, faz 'git add' e 'git commit'"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de apagar os marcadores <<<<<<< e quebrar o código.",
+      "Dica de ouro: converse com o colega antes de decidir qual versão vale."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Duas edições na mesma linha ➔ Git trava e avisa ➔ Você escolhe e finaliza o commit"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Git",
+  "foco_pedagogico": "Quando dois programadores mexem na mesma linha"
+}

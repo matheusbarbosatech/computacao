@@ -1,0 +1,64 @@
+{
+  "id": 401,
+  "title": "MONTANDO SEU LAB DE ESTUDOS COM KALI LINUX E METASPLOITABLE",
+  "definition": "É criar um laboratório virtual seguro para praticar hacking ético sem arriscar seu computador real.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Um lab é uma 'sala de treino' isolada só para testes e erros."
+    ]
+  },
+  "topRight": {
+    "pill": "MÁQUINA VIRTUAL",
+    "icon": "🖥️",
+    "bullets": [
+      "Simula um computador dentro do seu computador real.",
+      "Se algo quebrar, você só apaga a VM, seu PC fica intacto."
+    ]
+  },
+  "midRight": {
+    "pill": "REDE ISOLADA (HOST-ONLY)",
+    "icon": "{ }",
+    "bullets": [
+      "Configuração que impede a VM de acessar a internet real.",
+      "VirtualBox: Configurações > Rede > Modo Somente-Host"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Estudo para certificações como CEH e pentest profissional.",
+      "Ferramentas: VirtualBox, VMware, Kali Linux, Metasploitable."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "PASSO A PASSO DO LAB",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Instale o VirtualBox e crie a rede isolada",
+      "PASSO 2: Suba a VM Kali (ataque) e a Metasploitable (alvo)",
+      "PASSO 3: Pratique ataques só dentro dessa rede fechada"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Deixar a VM em modo 'Bridge', expondo o ataque para a rede real.",
+      "Dica de ouro: sempre confira o modo de rede antes de atacar."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "VM isolada ➔ Kali ataca Metasploitable ➔ Aprendizado sem risco"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Laboratório",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "Ambiente seguro isolado em máquina virtual sem perigo de quebrar seu PC"
+}

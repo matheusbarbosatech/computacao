@@ -1,0 +1,63 @@
+{
+  "id": 82,
+  "title": "VERIFICANDO EXISTÊNCIA (.INCLUDES)",
+  "definition": "É como perguntar para uma lista: 'você tem esse item aqui?' e ela responde sim ou não.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Verifica se um valor existe dentro de uma lista ou texto."
+    ]
+  },
+  "topRight": {
+    "pill": "RETORNO BOOLEANO",
+    "icon": "🖥️",
+    "bullets": [
+      "O computador só devolve true (achou) ou false (não achou).",
+      "Não devolve a posição, só a confirmação."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "lista.includes(valor) retorna true ou false.",
+      "frutas.includes('maçã') // true"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Checar permissões, validar formulários, filtrar dados.",
+      "Usado em JavaScript, e similar em Python (in) e Java (contains)."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você informa o valor que quer procurar",
+      "PASSO 2: O sistema varre a lista item por item",
+      "PASSO 3: Retorna true se achou, false se não achou"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Confundir .includes() com .indexOf() esperando um número.",
+      "Letras maiúsculas e minúsculas diferentes contam como valores diferentes."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Valor procurado ➔ Busca na lista ➔ true ou false"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Coleções",
+  "foco_pedagogico": "Retorna true ou false se o elemento estiver na lista"
+}

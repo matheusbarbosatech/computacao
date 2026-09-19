@@ -1,0 +1,63 @@
+{
+  "id": 42,
+  "title": "DECLARANDO E CHAMANDO FUNÇÕES",
+  "definition": "Função é uma receita guardada que só faz efeito quando você manda ela executar.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Criar a função é escrever a receita, chamar é cozinhar de verdade."
+    ]
+  },
+  "topRight": {
+    "pill": "DECLARAÇÃO VS CHAMADA",
+    "icon": "🖥️",
+    "bullets": [
+      "Declarar só guarda o código na memória, nada roda ainda.",
+      "Chamar é o momento em que o computador executa aquelas linhas."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "function saudacao() { print('Oi') } cria a receita.",
+      "saudacao() executa e imprime 'Oi' na tela."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Toda linguagem de programação usa esse padrão.",
+      "Python, JavaScript, Java, C# e outras."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você declara a função e o computador memoriza a receita",
+      "PASSO 2: Você chama a função pelo nome em outro ponto do código",
+      "PASSO 3: O computador executa o conteúdo salvo e devolve o resultado"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que declarar já executa o código, mas nada acontece sem chamar.",
+      "Esquecer os parênteses () na chamada e a função não roda."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Declarar função ➔ Chamar função ➔ Código executa de fato"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Funções",
+  "foco_pedagogico": "A criação vs a execução real da função"
+}

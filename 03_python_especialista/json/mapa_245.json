@@ -1,0 +1,64 @@
+{
+  "id": 245,
+  "title": "FILTROS E SELEÇÕES NO PANDAS (loc E iloc)",
+  "definition": "São formas de escolher pedaços específicos de uma tabela, usando nomes ou números de posição.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como recortar só as células de uma planilha que você quer ver."
+    ]
+  },
+  "topRight": {
+    "pill": "LOC vs ILOC",
+    "icon": "🖥️",
+    "bullets": [
+      "loc usa o NOME do rótulo (linha/coluna).",
+      "iloc usa a POSIÇÃO numérica, começando do zero."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "df.loc[linhas, colunas] filtra por rótulo.",
+      "df.iloc[0:3, 1:2] filtra por índice numérico."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Análise de dados em Python com Pandas.",
+      "Usado em planilhas de vendas, notas, estoque."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você define uma condição booleana (ex: idade > 18).",
+      "PASSO 2: O Pandas marca True/False em cada linha.",
+      "PASSO 3: Só as linhas True aparecem no resultado final."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Confundir loc (nome) com iloc (número) trava o código.",
+      "iloc não inclui o último índice do intervalo, loc inclui."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Condição booleana ➔ Filtra linhas ➔ Tabela reduzida"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Data Python",
+  "escola": "03_python_especialista",
+  "foco_pedagogico": "Como fatiar linhas e colunas com critérios booleanos"
+}

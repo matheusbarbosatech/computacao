@@ -1,0 +1,64 @@
+{
+  "id": 645,
+  "title": "TABELAS HASH E RESOLUÇÃO DE COLISÕES",
+  "definition": "Tabela Hash é como um armário cheio de gavetas numeradas: a função hash decide em qual gaveta cada coisa vai guardar, para você achar tudo num piscar de olhos.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Função hash = etiquetadora mágica que transforma 'Maria' no número da gaveta 42. Sempre a mesma entrada gera a mesma gaveta."
+    ]
+  },
+  "topRight": {
+    "pill": "FUNÇÃO HASH NA PRÁTICA",
+    "icon": "🖥️",
+    "bullets": [
+      "O computador converte cada letra do texto em número, soma tudo, aplica uma fórmula e tira o resto da divisão pelo total de gavetas.",
+      "Exemplo: 'gato' ➔ (103+97+116+111) % 10 = 427 % 10 = gaveta 7."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Encadeamento: cada gaveta tem uma listinha. Se bater colisão, novo item entra no fim da fila — simples assim.",
+      "Sondagem aberta: se a gaveta já tem dono, procura a próxima vazia (linear), ou pula de N em N (quadrática), ou usa uma segunda função hash (duplo hashing)."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Dicionários e mapas em Python (dict), Java (HashMap), C# (Dictionary), JavaScript (Object/Map) — todos usam hash por baixo dos panos.",
+      "Banco de dados, cache de memória (Redis), verificação de senhas, detecção de duplicatas e tabelas de roteamento."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você fornece a chave (ex: 'NomeDoCliente'). A função hash calcula: índice = hash(chave) % tamanhoDaTabela.",
+      "PASSO 2: Se a gaveta está vazia ➔ guarda ali. Se já tem alguém ➔ COLISÃO! Escolha: encadeia na lista ou sonda a próxima gaveta.",
+      "PASSO 3: Na busca, recalcula o índice do mesmo jeito, vai direto na gaveta certa e encontra o valor quase instantaneamente — O(1) na média."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Muitas colisões = tabela lenta (O(n)). Solução: aumente o número de gavetas e reespalhe os itens (rehashing).",
+      "Sondagem aberta sofre de 'clusterização': gavetas ocupadas grudam umas nas outras. Use sondagem quadrática ou hash duplo para espalhar melhor."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Texto ➔ Função Hash ➔ Índice da Gaveta ➔ Guarda ou resolve colisão (Encadeamento: lista na gaveta | Sondagem: pula até achar vaga) ➔ Busca instantânea."
+    ]
+  },
+  "_modelo_usado": "devworld/deepseek-v4-pro-0813-f",
+  "modulo": "Algoritmos",
+  "escola": "02_logica_e_algoritmos",
+  "foco_pedagogico": "Como a função hash transforma texto em índice e o que fazer se dois caírem na mesma gaveta"
+}

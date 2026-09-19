@@ -1,0 +1,64 @@
+{
+  "id": 81,
+  "title": "BUSCANDO ELEMENTOS (.FIND E .INDEXOF)",
+  "definition": "São métodos que procuram dentro de uma lista e devolvem o primeiro item que combina com o que você quer.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como procurar a primeira pessoa de blusa azul numa fila e parar assim que achar."
+    ]
+  },
+  "topRight": {
+    "pill": "FIND VS INDEXOF",
+    "icon": "🖥️",
+    "bullets": [
+      "find() devolve o item em si, não a posição dele.",
+      "indexOf() devolve a posição do item, não o item."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "find() usa uma condição (função) para testar cada item.",
+      "array.find(item => item > 10)",
+      "array.indexOf(valorExato)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Achar um usuário específico numa lista de usuários.",
+      "Muito comum em JavaScript, usado em listas e arrays."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Ele olha o primeiro item da lista",
+      "PASSO 2: Testa se esse item combina com o critério",
+      "PASSO 3: Se combinar, PARA e devolve o resultado"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Se não achar nada, find() devolve undefined e indexOf devolve -1.",
+      "indexOf só compara valores exatos, não aceita condições."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Lista de itens ➔ Testa um por um ➔ Para no primeiro que combina"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Coleções",
+  "foco_pedagogico": "Encontrando o primeiro item que atende ao critério"
+}

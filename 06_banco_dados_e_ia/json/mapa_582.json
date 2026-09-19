@@ -1,0 +1,70 @@
+{
+  "id": 582,
+  "title": "WINDOW FUNCTIONS ANALÍTICAS: LEAD E LAG",
+  "definition": "LAG e LEAD espiam a linha anterior e a próxima da mesma tabela sem apagar a linha atual.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Imagine uma fila de meses: LAG olha para trás, LEAD olha para frente.",
+      "A linha atual continua ali, só ganha um valor extra ao lado."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O BANCO PENSA",
+    "icon": "🖥️",
+    "bullets": [
+      "O banco ordena as linhas pelo campo que você mandar no ORDER BY.",
+      "Depois desliza uma janela sobre a tabela, linha por linha, sem agrupar nada.",
+      "Cada linha recebe ao lado o valor da vizinha, então nada é somado nem perdido."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Sintaxe geral: FUNCAO(coluna) OVER (ORDER BY coluna_de_ordem).",
+      "LAG(vendas) OVER (ORDER BY mes) devolve o valor do mês anterior.",
+      "LEAD(vendas) OVER (ORDER BY mes) devolve o valor do mês seguinte.",
+      "SELECT mes, vendas, vendas - LAG(vendas) OVER (ORDER BY mes) AS variacao FROM loja;"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Calcular variação diária de vendas, crescimento mês a mês e comparação com meta.",
+      "Achar intervalo entre eventos: tempo desde o último login ou última compra.",
+      "Disponível em PostgreSQL, MySQL 8, SQL Server, Oracle, BigQuery e Snowflake."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: A consulta escolhe as linhas e ordena por data ou mês.",
+      "PASSO 2: LAG busca o valor da linha anterior e cola no lado da linha atual.",
+      "PASSO 3: Você subtrai os dois valores e obtém a variação pronta para exibir."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer o ORDER BY: a janela fica solta e o resultado sai aleatório.",
+      "A primeira linha não tem anterior e devolve NULL, que quebra a conta.",
+      "Use COALESCE(LAG(vendas) OVER (...), 0) para tratar esse NULL e não travar."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Ordenar a tabela por tempo ➔ LAG traz o valor anterior ➔ Subtrair gera a variação"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "SQL Avançado",
+  "escola": "06_banco_dados_e_ia",
+  "foco_pedagogico": "Comparando o valor da linha atual com a anterior para calcular variações de vendas"
+}

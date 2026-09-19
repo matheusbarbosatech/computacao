@@ -1,0 +1,64 @@
+{
+  "id": 283,
+  "title": "O QUE É UM CONTAINER? (CONTAINER VS MÁQUINA VIRTUAL)",
+  "definition": "Container é uma caixinha isolada que empacota um programa e tudo que ele precisa, mas usa o mesmo kernel do computador hospedeiro.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Imagine apartamentos num prédio: cada um isolado, mas compartilham a mesma estrutura do edifício."
+    ]
+  },
+  "topRight": {
+    "pill": "CONTAINER VS MÁQUINA VIRTUAL",
+    "icon": "🖥️",
+    "bullets": [
+      "VM leva o prédio inteiro (sistema operacional completo) para cada apartamento.",
+      "Container só leva os móveis, reaproveitando a estrutura (kernel) já existente."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Um arquivo descreve o que colocar dentro da caixinha.",
+      "FROM ubuntu / RUN instalar_app / CMD iniciar_app"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Rodar apps do mesmo jeito em qualquer computador ou servidor.",
+      "Ferramentas: Docker, Podman, Kubernetes."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você pede para criar um container a partir de uma receita (imagem)",
+      "PASSO 2: O sistema empresta o kernel do hospedeiro, sem duplicar o sistema operacional",
+      "PASSO 3: O app roda isolado, rápido e leve, como se tivesse sua própria máquina"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que container é uma máquina virtual pequena, mas ele não tem SO próprio.",
+      "Dica de ouro: container = SO compartilhado, VM = SO duplicado."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Compartilha kernel ➔ Não duplica sistema ➔ Fica leve e rápido de iniciar"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Docker",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Por que containers são leves compartilhando o kernel do sistema hospedeiro"
+}

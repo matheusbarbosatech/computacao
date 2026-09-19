@@ -1,0 +1,63 @@
+{
+  "id": 101,
+  "title": "MÉTODOS: O QUE O OBJETO FAZ",
+  "definition": "Método é uma ação que o objeto sabe executar, como um verbo ligado a ele.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Se o objeto é um substantivo, o método é o verbo dele."
+    ]
+  },
+  "topRight": {
+    "pill": "ATRIBUTO VS MÉTODO",
+    "icon": "🖥️",
+    "bullets": [
+      "Atributo é o que o objeto TEM (cor, nome, idade).",
+      "Método é o que o objeto FAZ (correr, latir, calcular)."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Métodos são funções escritas dentro da classe.",
+      "cachorro.latir()"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Em qualquer objeto: usuário.logar(), carro.acelerar().",
+      "Java, Python, C#, JavaScript usam esse mesmo conceito."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você chama o método no objeto",
+      "PASSO 2: O método executa suas instruções internas",
+      "PASSO 3: Ele devolve um resultado ou muda algo no objeto"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer os parênteses () e achar que é um atributo.",
+      "Confundir método com atributo: FAZER vs TER."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Objeto ➔ Chama método ➔ Executa ação e retorna resultado"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "POO",
+  "foco_pedagogico": "As ações e comportamentos do objeto"
+}

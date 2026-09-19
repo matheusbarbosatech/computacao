@@ -1,0 +1,64 @@
+{
+  "id": 518,
+  "title": "FEATURE FLAGS EM PRODUÇÃO",
+  "definition": "É um interruptor no código que liga ou desliga uma funcionalidade sem precisar publicar nada de novo.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Imagine um disjuntor de luz: você aperta o botão e a função acende ou apaga na hora."
+    ]
+  },
+  "topRight": {
+    "pill": "ROLLOUT GRADUAL",
+    "icon": "🖥️",
+    "bullets": [
+      "O sistema sorteia quem vê a novidade, tipo uma rifa entre os usuários.",
+      "Só 5% do público recebe a função nova, os outros 95% nem notam."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Uma verificação 'se a flag estiver ligada, faça isso'.",
+      "if (flag.isEnabled('novo_checkout', usuario)) { mostrarNovoCheckout() }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Grandes apps como Netflix e Facebook testam mudanças com poucos usuários primeiro.",
+      "Ferramentas comuns: LaunchDarkly, Unleash, Split.io."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Programador cria a flag e define '5% dos usuários'",
+      "PASSO 2: Sistema verifica cada usuário e decide se mostra a novidade",
+      "PASSO 3: Time observa os dados e decide: liberar para todos ou desligar"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de remover a flag antiga deixa o código cheio de 'lixo'.",
+      "Testar só em 100% ou 0% não é a mesma coisa que testar em 5%."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Flag ligada ➔ Sorteio de usuários ➔ Só 5% vê a novidade sem novo deploy"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Microsserviços",
+  "escola": "04_backend_e_apis",
+  "foco_pedagogico": "Ligando ou desligando funcionalidades para 5% dos usuários sem fazer novo deploy"
+}

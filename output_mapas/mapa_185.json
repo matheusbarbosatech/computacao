@@ -1,0 +1,63 @@
+{
+  "id": 185,
+  "title": "APELIDOS DE TABELAS COM ALIAS (AS)",
+  "definition": "ALIAS é um apelido temporário que você dá a uma tabela ou coluna só durante a consulta.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É tipo chamar 'Estabelecimento Comercial de Alimentos' de 'Padaria' na conversa."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O BANCO ENTENDE",
+    "icon": "🖥️",
+    "bullets": [
+      "O banco troca o nome real pelo apelido só naquela consulta.",
+      "Fora dali, o nome original da tabela continua igual."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Use AS depois do nome da tabela, ou só um espaço.",
+      "FROM funcionarios AS f ➔ f é o apelido."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Muito comum em JOIN de várias tabelas ao mesmo tempo.",
+      "Usado em MySQL, PostgreSQL, SQL Server, Oracle."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você escreve o nome longo da tabela",
+      "PASSO 2: Coloca AS e escolhe um apelido curto",
+      "PASSO 3: Usa esse apelido no resto da consulta"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de usar o apelido depois e continuar com o nome longo.",
+      "Dica: escolha apelidos curtos e que façam sentido, tipo 'f' pra funcionários."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Nome longo ➔ AS apelido ➔ consulta mais curta e legível"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "BancoDados",
+  "foco_pedagogico": "Encurtando nomes longos nas consultas"
+}

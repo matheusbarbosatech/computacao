@@ -1,0 +1,65 @@
+{
+  "id": 670,
+  "title": "COMO LER CÓDIGOS DE TERCEIROS E NAVEGAR EM BASES GRANDES",
+  "definition": "Ler código de outra pessoa é como explorar uma cidade nova: você usa mapas e segue placas até achar o endereço certo.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Você não precisa entender 500 mil linhas. Precisa entender só o trecho que resolve seu problema.",
+      "Código grande não é lido como livro: é consultado como dicionário, uma página por vez."
+    ]
+  },
+  "topRight": {
+    "pill": "A BASE DE CÓDIGO",
+    "icon": "🖥️",
+    "bullets": [
+      "O sistema é um conjunto de pastas, arquivos e funções que conversam entre si por chamadas e nomes.",
+      "A maioria do código já funciona. Seu trabalho é achar onde encostar sem quebrar o resto."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Toda linguagem tem um ponto de entrada: o arquivo que roda primeiro quando o programa liga.",
+      "buscar(\"nomeDaFuncao\") ➔ abre o arquivo que define ➔ mostra onde ela é usada e chamada."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Todo dia no trabalho: corrigir um erro, adicionar um campo, entender uma regra antiga.",
+      "Ferramentas comuns: busca do editor, Git blame, depurador, pull requests e documentação do projeto."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Rode o projeto e anote o caminho de uma ação simples, do clique até o banco de dados.",
+      "PASSO 2: Use a busca do editor para seguir a função, lendo só as partes que interessam.",
+      "PASSO 3: Desenhe o caminho em papel e só então altere o código com teste rodando."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Tentar ler tudo de cima a baixo: cansa, confunde e desiste no primeiro dia de trabalho.",
+      "Trocar código antes de entender o fluxo, sem rodar os testes. Dica de ouro: pergunte a quem escreveu."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Código enorme ➔ siga um caminho por vez ➔ entenda só o trecho necessário ➔ mude com segurança."
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Prática Dev",
+  "escola": "02_logica_e_algoritmos",
+  "foco_pedagogico": "Técnicas para entrar em uma empresa com 500 mil linhas de código sem pânico"
+}

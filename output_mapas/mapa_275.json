@@ -1,0 +1,64 @@
+{
+  "id": 275,
+  "title": "MODELO OSI VS MODELO TCP/IP",
+  "definition": "São dois mapas que explicam como os dados viajam de um computador até outro na internet.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "OSI tem 7 camadas teóricas, TCP/IP tem 4 camadas práticas usadas de verdade."
+    ]
+  },
+  "topRight": {
+    "pill": "CAMADA DE REDE",
+    "icon": "🖥️",
+    "bullets": [
+      "Decide o caminho que os dados percorrem entre redes diferentes.",
+      "Usa endereços IP, como o CEP de uma casa."
+    ]
+  },
+  "midRight": {
+    "pill": "CAMADA DE TRANSPORTE",
+    "icon": "{ }",
+    "bullets": [
+      "Garante que os dados cheguem completos e na ordem certa.",
+      "TCP confere entrega, UDP envia rápido sem checar."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Toda vez que você abre um site ou app, essas camadas trabalham juntas.",
+      "Exemplos: HTTP, FTP, DNS, streaming de vídeo."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Aplicação cria os dados, como uma mensagem de chat",
+      "PASSO 2: Transporte e Rede empacotam e endereçam os dados",
+      "PASSO 3: Dados chegam e as camadas remontam a mensagem original"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que OSI é usado na prática, quando na verdade é só didático.",
+      "Confundir camada de rede com camada de transporte."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Aplicação cria dado ➔ Transporte organiza entrega ➔ Rede encontra o destino"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Redes",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "As camadas de transporte, rede e aplicação explicadas de forma prática"
+}

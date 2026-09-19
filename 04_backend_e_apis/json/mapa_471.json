@@ -1,0 +1,64 @@
+{
+  "id": 471,
+  "title": "FACTORY METHOD VS ABSTRACT FACTORY",
+  "definition": "São formas de criar objetos sem escrever 'new' direto no código, escondendo a lógica de construção.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Em vez de montar o objeto você mesmo, pede pra uma 'fábrica' entregar pronto."
+    ]
+  },
+  "topRight": {
+    "pill": "FACTORY METHOD",
+    "icon": "🖥️",
+    "bullets": [
+      "Uma classe pai define o método, as filhas decidem o que criar.",
+      "É tipo um restaurante: pai pede 'faça o prato', cada filial cozinha diferente."
+    ]
+  },
+  "midRight": {
+    "pill": "ABSTRACT FACTORY",
+    "icon": "{ }",
+    "bullets": [
+      "Uma fábrica que cria várias peças de uma mesma família.",
+      "fabricaMoveis.criarCadeira() + criarMesa() = conjunto combinando."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Interfaces gráficas com temas (Windows, Mac, Linux).",
+      "Java (AbstractFactory), C#, jogos com skins de personagens."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você pede um objeto sem saber o tipo exato",
+      "PASSO 2: A fábrica escolhe qual versão específica montar",
+      "PASSO 3: Você recebe o objeto pronto e usa normalmente"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Confundir os dois: Method cria UM produto, Abstract Factory cria uma FAMÍLIA.",
+      "Dica de ouro: se tem vários objetos que precisam combinar entre si, é Abstract Factory."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Preciso de um objeto ➔ Peço pra fábrica ➔ Recebo sem saber os detalhes internos"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Patterns",
+  "escola": "04_backend_e_apis",
+  "foco_pedagogico": "Criando famílias de objetos relacionados sem expor a lógica de instanciação"
+}

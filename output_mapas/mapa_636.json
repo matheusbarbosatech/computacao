@@ -1,0 +1,64 @@
+{
+  "id": 636,
+  "title": "AGENTES AUTÔNOMOS DE IA E CHAMADA DE FUNÇÕES",
+  "definition": "A IA deixa de apenas conversar e passa a agir: ela decide qual ferramenta usar, executa tarefas reais e aprende com os resultados.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "A IA vira um assistente que pensa, escolhe uma ferramenta e age sozinho, sem você mandar cada passo."
+    ]
+  },
+  "topRight": {
+    "pill": "FERRAMENTAS E AÇÕES",
+    "icon": "🖥️",
+    "bullets": [
+      "Você cadastra funções que o modelo pode chamar: buscar clima, enviar e-mail, consultar banco de dados.",
+      "O modelo analisa o pedido e decide qual ferramenta resolve o problema."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Cada ferramenta é descrita com nome, parâmetros e o que ela faz — como um cardápio de ações para a IA.",
+      "exemplo: funcao buscar_clima(cidade) → retorna temperatura e umidade da cidade informada"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Assistentes que reservam voos, chatbots de suporte que consultam pedidos, agentes que programam sozinhos.",
+      "OpenAI Function Calling, LangChain Tools, Gemini Tool Use, Claude Tool Use."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Usuário pede algo — ex: 'Qual o clima em SP?'",
+      "PASSO 2: IA detecta que precisa da ferramenta buscar_clima e gera a chamada com parâmetro SP.",
+      "PASSO 3: Seu código executa a função de verdade, devolve o resultado, e a IA responde com os dados reais."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Erro: a IA 'inventa' o resultado sem chamar a ferramenta de verdade — sempre execute a função fora do modelo.",
+      "Dica de ouro: valide os parâmetros antes de executar e limite o número de chamadas para evitar loops infinitos."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Pedido do usuário ➔ IA escolhe ferramenta ➔ Código executa ação real ➔ Resultado volta ➔ IA responde com precisão"
+    ]
+  },
+  "_modelo_usado": "devworld/deepseek-v4-pro-0813-f",
+  "modulo": "IA Generativa",
+  "escola": "06_banco_dados_e_ia",
+  "foco_pedagogico": "Permitindo que a IA execute código, consulte APIs e tome decisões dinâmicas"
+}

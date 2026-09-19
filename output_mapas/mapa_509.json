@@ -1,0 +1,64 @@
+{
+  "id": 509,
+  "title": "RATE LIMITING COM TOKEN BUCKET",
+  "definition": "É um balde com fichas limitadas que controla quantas requisições um usuário pode fazer por segundo.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Cada requisição gasta uma ficha, e o balde só reabastece em uma velocidade fixa."
+    ]
+  },
+  "topRight": {
+    "pill": "TOKEN BUCKET",
+    "icon": "🖥️",
+    "bullets": [
+      "O sistema guarda um contador de fichas por usuário ou API key.",
+      "Fichas voltam com o tempo, até um limite máximo do balde."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Se tokens > 0, permite e desconta 1 ficha.",
+      "if (tokens > 0) { tokens--; permitir() } else { bloquear() }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "APIs públicas, logins e proteção contra ataques de força bruta.",
+      "Usado em NGINX, AWS API Gateway, Redis e Stripe."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Usuário faz uma requisição ao servidor",
+      "PASSO 2: Sistema verifica se ainda há fichas no balde",
+      "PASSO 3: Libera e gasta ficha, ou bloqueia com erro 429"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Confundir com fila: aqui não espera, apenas bloqueia se acabar a ficha.",
+      "Esquecer de recarregar o balde gradualmente causa bloqueios permanentes."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Requisição chega ➔ Verifica fichas ➔ Permite ou bloqueia com 429"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Microsserviços",
+  "escola": "04_backend_e_apis",
+  "foco_pedagogico": "Impedindo abusos de requisições limitando a quantidade de chamadas por segundo"
+}

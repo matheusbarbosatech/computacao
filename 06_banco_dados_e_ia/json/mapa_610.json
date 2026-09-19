@@ -1,0 +1,67 @@
+{
+  "id": 610,
+  "title": "FORMATOS DE ARQUIVOS COLUNARES: PARQUET VS AVRO VS CSV",
+  "definition": "São três formas de guardar dados em arquivo; a grande diferença está em COMO as linhas e colunas ficam organizadas no disco.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "CSV guarda linha por linha em texto puro, simples e universal.",
+      "Parquet guarda coluna por coluna, comprimido e muito mais rápido de ler.",
+      "Avro guarda linha por linha com um contrato de tipos embutido."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O COMPUTADOR LÊ",
+    "icon": "🖥️",
+    "bullets": [
+      "CSV obriga o sistema a ler o arquivo inteiro, mesmo precisando de 1 coluna.",
+      "Parquet lê só as colunas pedidas e pula todo o resto do arquivo.",
+      "Avro lê linha completa em sequência, ideal para gravar e transmitir dados aos poucos."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Em Python, você escolhe as colunas na hora de abrir o arquivo.",
+      "pd.read_parquet(\"vendas.parquet\", columns=[\"valor\"])"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Parquet reina em data lakes, BigQuery, Athena, Spark e DuckDB.",
+      "CSV serve para planilhas e trocas simples; Avro brilha em streaming com Kafka."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: A consulta pede apenas 2 colunas de um total de 50.",
+      "PASSO 2: O Parquet lê só essas 2 colunas e ignora as outras 48.",
+      "PASSO 3: Menos dados lidos na nuvem = até 80% menos custo por consulta."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que CSV é mais leve: sendo texto puro, ele ocupa muito mais espaço.",
+      "Parquet não é editável à mão; converta com pandas ou DuckDB em segundos."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Dados em colunas ➔ Ler só o necessário ➔ 80% menos custo na nuvem"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Engenharia Dados",
+  "escola": "06_banco_dados_e_ia",
+  "foco_pedagogico": "Por que o formato colunar Parquet reduz em 80% os custos de consulta na nuvem"
+}

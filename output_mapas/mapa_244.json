@@ -1,0 +1,64 @@
+{
+  "id": 244,
+  "title": "INTRODUÇÃO AO PANDAS: DATAFRAMES E SÉRIES",
+  "definition": "Pandas é uma ferramenta do Python que transforma seus dados numa planilha de Excel turbinada dentro da memória.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Pandas guarda tabelas inteiras dentro do Python, como um Excel invisível e programável."
+    ]
+  },
+  "topRight": {
+    "pill": "DATAFRAME E SÉRIE",
+    "icon": "🖥️",
+    "bullets": [
+      "DataFrame é a planilha completa, com linhas e colunas.",
+      "Série é uma única coluna dessa planilha, isolada."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Importa a biblioteca e cria a tabela a partir de dados.",
+      "import pandas as pd; df = pd.DataFrame(dados)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Análise de dados, relatórios e ciência de dados no dia a dia.",
+      "Usado com Excel, CSV, bancos de dados e Jupyter Notebook."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você carrega os dados (planilha, CSV ou lista)",
+      "PASSO 2: Pandas organiza tudo em linhas e colunas na memória",
+      "PASSO 3: Você filtra, calcula e analisa os dados com facilidade"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Confundir DataFrame (tabela) com Série (uma coluna só).",
+      "Dica de ouro: sempre confira df.head() antes de trabalhar."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Dados brutos ➔ Pandas organiza ➔ Tabela fácil de analisar"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Data Python",
+  "escola": "03_python_especialista",
+  "foco_pedagogico": "A planilha de Excel turbinada na memória do Python"
+}

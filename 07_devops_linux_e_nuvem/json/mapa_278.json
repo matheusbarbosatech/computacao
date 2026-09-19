@@ -1,0 +1,68 @@
+{
+  "id": 278,
+  "title": "PORTAS DE REDE E PROTOCOLOS COMUNS",
+  "definition": "Porta é o número que diz para qual programa dentro do computador uma mensagem de rede deve ir.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "O IP é o endereço do prédio, a porta é o número do apartamento certo."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O SISTEMA ESCUTA",
+    "icon": "🖥️",
+    "bullets": [
+      "Cada serviço 'reserva' uma porta e fica esperando conexões nela.",
+      "Só um programa pode usar a mesma porta por vez na máquina."
+    ]
+  },
+  "midRight": {
+    "pill": "PORTAS MAIS COMUNS",
+    "icon": "{ }",
+    "bullets": [
+      "80 = HTTP (site sem cadeado)",
+      "443 = HTTPS (site com cadeado)",
+      "22 = SSH (acesso remoto seguro)",
+      "5432 = PostgreSQL (banco de dados)",
+      "3306 = MySQL (banco de dados)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Navegador acessa sites pelas portas 80 e 443.",
+      "Programador conecta no servidor via SSH na porta 22.",
+      "Aplicação backend fala com o banco pela porta 5432 ou 3306."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO DA CONEXÃO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Cliente pede conexão no IP + número da porta",
+      "PASSO 2: Sistema verifica quem está escutando naquela porta",
+      "PASSO 3: Serviço correspondente responde e a conversa começa"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que porta é só para internet, ela vale para qualquer serviço na rede.",
+      "Esquecer de abrir a porta no firewall e achar que o serviço está com defeito."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Serviço escolhe porta ➔ Sistema escuta nela ➔ Cliente conecta certo"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Redes",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Os canais de comunicação onde cada serviço escuta conexões"
+}

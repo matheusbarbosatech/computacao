@@ -1,0 +1,63 @@
+{
+  "id": 184,
+  "title": "O RIGHT JOIN",
+  "definition": "Pega todos os dados da tabela da direita, com ou sem correspondência na esquerda.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Tabela da direita é a VIP: ela aparece inteira, sempre."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O BANCO PENSA",
+    "icon": "🖥️",
+    "bullets": [
+      "Lê a tabela direita e busca par na esquerda.",
+      "Se não achar par, preenche com NULL."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "SELECT * FROM A RIGHT JOIN B ON A.id = B.id;",
+      "B é a direita: nenhuma linha dela se perde."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "MySQL, PostgreSQL, SQL Server.",
+      "Listar pedidos mesmo sem cliente cadastrado."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Pega cada linha da tabela da direita.",
+      "PASSO 2: Procura um par igual na tabela da esquerda.",
+      "PASSO 3: Sem par? Mostra a linha da direita com NULL."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Confundir com LEFT JOIN e trocar as tabelas.",
+      "Dica: RIGHT JOIN A,B é igual a LEFT JOIN B,A."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Tabela direita ➔ Sempre completa ➔ Esquerda pode faltar (NULL)"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "BancoDados",
+  "foco_pedagogico": "Todos da direita, mesmo sem par na esquerda"
+}

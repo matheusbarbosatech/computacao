@@ -1,0 +1,63 @@
+{
+  "id": 129,
+  "title": "SINTAXE MODERNA: ASYNC E AWAIT",
+  "definition": "É um jeito de escrever código que espera coisas demoradas, mas parece código normal de cima para baixo.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Async e await deixam código assíncrono com cara de sequência simples, sem parecer bagunçado."
+    ]
+  },
+  "topRight": {
+    "pill": "PROMISES POR TRÁS",
+    "icon": "🖥️",
+    "bullets": [
+      "Por baixo dos panos, await está esperando uma Promise terminar.",
+      "O programa não trava, ele só pausa aquela função ali."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Toda função com await precisa ter a palavra async antes dela.",
+      "async function pedirPizza() { let r = await buscarDados(); }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Buscar dados em APIs, ler arquivos, consultar bancos de dados.",
+      "Muito comum em JavaScript, Python, C# e outras linguagens modernas."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O código chega numa linha com await e para ali",
+      "PASSO 2: Ele deixa a tarefa demorada rodar sem travar tudo",
+      "PASSO 3: Quando termina, o código continua de onde parou"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Usar await fora de uma função async gera erro na maioria das linguagens.",
+      "Esquecer o await faz o código seguir sem esperar o resultado chegar."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Tarefa demorada ➔ await espera com calma ➔ código continua como se nada tivesse pausado."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Async",
+  "foco_pedagogico": "Escrevendo código assíncrono com cara de síncrono"
+}

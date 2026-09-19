@@ -1,0 +1,64 @@
+{
+  "id": 490,
+  "title": "O EVENT LOOP DO NODE.JS",
+  "definition": "É o mecanismo que permite o JavaScript fazer várias tarefas de espera sem travar, usando só uma thread.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "JavaScript só tem um garçom (thread), mas ele nunca fica parado esperando o pedido ficar pronto."
+    ]
+  },
+  "topRight": {
+    "pill": "CALL STACK",
+    "icon": "🖥️",
+    "bullets": [
+      "É a pilha onde as funções entram e saem na ordem em que são chamadas.",
+      "Só uma função executa por vez, de cada vez."
+    ]
+  },
+  "midRight": {
+    "pill": "MICROTASKS VS MACROTASKS",
+    "icon": "{ }",
+    "bullets": [
+      "Microtasks (Promises) sempre furam a fila e rodam primeiro.",
+      "setTimeout(fn, 0) // vai pra fila de macrotask"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Servidores Node.js atendendo milhares de requisições ao mesmo tempo.",
+      "APIs, leitura de arquivos, chamadas de banco de dados."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Call stack executa o código síncrono até esvaziar",
+      "PASSO 2: Libuv cuida das tarefas demoradas fora da thread principal",
+      "PASSO 3: Event loop pega o resultado pronto e devolve pra call stack"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que setTimeout(fn, 0) roda imediatamente, mas ele espera a fila.",
+      "Esquecer que Promises sempre furam a fila do setTimeout."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Tarefa demorada ➔ Libuv processa fora da thread ➔ Event loop devolve o resultado"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Node/Nest",
+  "escola": "04_backend_e_apis",
+  "foco_pedagogico": "Call stack, libuv, microtasks e macrotasks sem travar a thread única"
+}

@@ -1,0 +1,64 @@
+{
+  "id": 371,
+  "title": "O QUE FAZ UM SOC (SECURITY OPERATIONS CENTER)?",
+  "definition": "É a torre de controle que vigia os sistemas de uma empresa 24 horas por dia contra ataques digitais.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Um time que fica de olho na 'saúde digital' da empresa sem parar."
+    ]
+  },
+  "topRight": {
+    "pill": "TORRE DE CONTROLE",
+    "icon": "🖥️",
+    "bullets": [
+      "Telas mostram tudo que acontece na rede em tempo real.",
+      "Cada movimento estranho gera um alerta automático."
+    ]
+  },
+  "midRight": {
+    "pill": "ALERTA OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Sistema compara ações com padrões normais e suspeitos.",
+      "SE login estranho ENTÃO dispara alarme."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Bancos, hospitais e empresas de tecnologia usam SOC.",
+      "Ferramentas comuns: SIEM, firewall, antivírus corporativo."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Sensores captam tudo que passa pela rede",
+      "PASSO 2: Analistas investigam o que parece perigoso",
+      "PASSO 3: Time age rápido para bloquear a ameaça"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que SOC só reage, mas ele também previne ataques.",
+      "Ignorar alertas pequenos pode virar um problema gigante."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Vigilância constante ➔ Detecção rápida ➔ Empresa protegida"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Blue Team",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "A torre de controle que vigia ameaças digitais 24 horas por dia"
+}

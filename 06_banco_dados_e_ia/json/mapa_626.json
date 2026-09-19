@@ -1,0 +1,64 @@
+{
+  "id": 626,
+  "title": "A ARQUITETURA TRANSFORMER E O MECANISMO DE ATENÇÃO",
+  "definition": "Uma arquitetura de IA que lê frases inteiras de uma vez, prestando atenção em todas as palavras ao mesmo tempo para entender o contexto.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Antes: modelos liam palavra por palavra e esqueciam o início da frase. Agora: o Transformer olha para TUDO simultaneamente e decide o que importa."
+    ]
+  },
+  "topRight": {
+    "pill": "ATENÇÃO É TUDO",
+    "icon": "🔍",
+    "bullets": [
+      "O mecanismo de atenção calcula uma nota de relevância entre cada par de palavras da frase.",
+      "Ex: em 'O gato bebeu leite porque estava com sede', o modelo liga 'gato' a 'sede' mesmo com 7 palavras de distância."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Atenção = softmax(Q × Kᵀ ÷ √d) × V. Q (consulta), K (chave), V (valor) são as palavras em 3 versões matemáticas diferentes.",
+      "Self-Attention faz cada palavra 'conversar' com todas as outras da frase numa única operação paralela."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "ChatGPT, Google Tradutor, DALL-E, GitHub Copilot: todos usam Transformers.",
+      "Bibliotecas: Hugging Face, PyTorch, TensorFlow. Modelos famosos: GPT-4, BERT, Claude, Llama."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: A frase inteira vira vetores numéricos (embeddings) + marcadores de posição.",
+      "PASSO 2: Camadas de atenção calculam a força de conexão entre TODAS as palavras em paralelo.",
+      "PASSO 3: Uma rede neural comum processa o resultado e gera a saída (tradução, resposta, etc.)."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que atenção é mágica: ela só funciona bem com MUITOS dados de treino e GPUs potentes.",
+      "Dica de ouro: o custo cresce com o quadrado do tamanho da frase (N²). Frases muito longas exigem truncamento ou técnicas como sparse attention."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Frase inteira ➔ Cálculo de relevância entre todas as palavras ➔ Contexto global entendido ➔ Resposta coerente."
+    ]
+  },
+  "_modelo_usado": "devworld/deepseek-v4-pro-0813-f",
+  "modulo": "IA Generativa",
+  "escola": "06_banco_dados_e_ia",
+  "foco_pedagogico": "A revolução que permitiu aos modelos de IA entender o contexto global de frases longas"
+}

@@ -1,0 +1,68 @@
+{
+  "id": 585,
+  "title": "OPERADORES DE CONJUNTO: UNION, UNION ALL, INTERSECT E EXCEPT",
+  "definition": "Empilham o resultado de dois SELECTs em uma lista só, como juntar duas pilhas de fichas na mesma mesa.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Juntar ou comparar resultados de duas consultas, sem precisar de chave em comum.",
+      "Funciona por posição da coluna, não por nome: é empilhar linhas, uma embaixo da outra."
+    ]
+  },
+  "topRight": {
+    "pill": "COMPATIBILIDADE DE COLUNAS",
+    "icon": "🖥️",
+    "bullets": [
+      "Cada SELECT precisa ter o mesmo número de colunas, na mesma ordem.",
+      "Os tipos devem combinar: texto com texto, número com número.",
+      "O nome do cabeçalho final vem sempre do primeiro SELECT."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "SELECT nome FROM clientes UNION SELECT nome FROM fornecedores;",
+      "UNION ALL mantém repetidos; INTERSECT pega só o que existe nos dois; EXCEPT pega o que sobra no primeiro."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Unir relatórios de filiais, bases antigas e listas de contatos num só resultado.",
+      "Comparar tabelas parecidas para achar faltas ou sobras de cadastro.",
+      "Ferramentas: PostgreSQL, SQL Server, MySQL 8+, Oracle (lá EXCEPT se chama MINUS)."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O banco roda cada SELECT sozinho e monta duas listas.",
+      "PASSO 2: Confere se as colunas batem em número, ordem e tipo.",
+      "PASSO 3: Aplica o operador escolhido e devolve a lista final."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Errar a quantidade de colunas ou trocar a ordem gera resultado sem sentido.",
+      "UNION remove duplicados e ordena (mais lento); UNION ALL é rápido, mas repete linhas.",
+      "Dica de ouro: sempre teste os dois SELECTs separados antes de juntar."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Colunas iguais ➔ UNION empilha sem repetir ➔ INTERSECT acha o comum ➔ EXCEPT acha o que sobra."
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "SQL Avançado",
+  "escola": "06_banco_dados_e_ia",
+  "foco_pedagogico": "Combinando resultados de tabelas diferentes respeitando a compatibilidade de colunas"
+}

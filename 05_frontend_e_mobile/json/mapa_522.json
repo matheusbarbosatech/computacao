@@ -1,0 +1,64 @@
+{
+  "id": 522,
+  "title": "REACT HOOKS ESSENCIAIS: USESTATE E USEEFFECT NA PRÁTICA",
+  "definition": "Hooks são funções que dão superpoderes aos componentes, sem precisar escrever classes.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Hooks deixam um componente 'lembrar' coisas e 'reagir' a mudanças."
+    ]
+  },
+  "topRight": {
+    "pill": "USESTATE",
+    "icon": "🖥️",
+    "bullets": [
+      "É a memória do componente, guarda um valor que pode mudar.",
+      "Quando o valor muda, a tela é redesenhada automaticamente."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "const [valor, setValor] = useState(0)",
+      "setValor(valor + 1) // atualiza e redesenha a tela"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Contadores, formulários, botões de like, listas dinâmicas.",
+      "Usado em React, React Native e Next.js."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Componente nasce com um estado inicial (useState)",
+      "PASSO 2: useEffect roda após a tela aparecer, buscando dados ou eventos",
+      "PASSO 3: Estado muda ➔ tela atualiza ➔ useEffect roda de novo se necessário"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer o array de dependências do useEffect causa loop infinito.",
+      "Nunca mude o estado direto, sempre use a função set."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "useState guarda dado ➔ useEffect reage a mudanças ➔ tela se atualiza sozinha"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "React",
+  "escola": "05_frontend_e_mobile",
+  "foco_pedagogico": "Gerenciando estados locais e efeitos colaterais sem usar classes antigas"
+}

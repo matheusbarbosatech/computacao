@@ -1,0 +1,63 @@
+{
+  "id": 89,
+  "title": "MÉTODOS DENTRO DE OBJETOS",
+  "definition": "Método é uma função guardada dentro de um objeto, que representa uma ação que ele sabe fazer.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Objeto tem características (dados) e habilidades (ações que ele executa)."
+    ]
+  },
+  "topRight": {
+    "pill": "PROPRIEDADE VIRA FUNÇÃO",
+    "icon": "🖥️",
+    "bullets": [
+      "Quando o valor de uma propriedade é uma função, ela se torna um método.",
+      "O objeto passa a 'saber fazer' algo, não só 'ter' algo."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Sintaxe: cachorro.latir()",
+      "let cachorro = { nome: 'Rex', latir: function() { return 'Au au!'; } }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Botões que respondem a clique, carrinhos de compra, jogos.",
+      "Presente em JavaScript, Python, Java e quase toda linguagem moderna."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você chama o método com parênteses, ex: objeto.acao()",
+      "PASSO 2: O computador executa o código guardado dentro daquela função",
+      "PASSO 3: O método devolve um resultado ou realiza uma ação"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer os parênteses () faz você acessar a função, não executá-la.",
+      "Confundir propriedade normal (dado) com método (ação) trava o raciocínio."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Propriedade = função ➔ Chamar com () ➔ Objeto executa a ação"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Coleções",
+  "foco_pedagogico": "Quando uma propriedade do objeto é uma função"
+}

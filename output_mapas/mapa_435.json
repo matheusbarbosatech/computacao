@@ -1,0 +1,64 @@
+{
+  "id": 435,
+  "title": "HIERARQUIA DE CHOMSKY",
+  "definition": "É um sistema que organiza as linguagens formais em 4 níveis, do mais simples ao mais complexo.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Existem 4 'caixas' de regras para criar frases válidas, cada uma mais poderosa que a anterior."
+    ]
+  },
+  "topRight": {
+    "pill": "OS 4 NÍVEIS",
+    "icon": "🖥️",
+    "bullets": [
+      "Tipo 3: Regular (mais simples, tipo boneco de lego).",
+      "Tipo 0: Irrestrita (mais complexa, faz quase tudo)."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Cada tipo usa uma 'máquina' diferente para reconhecer frases.",
+      "Regular = Autômato Finito | Livre de Contexto = Pilha (Pushdown)."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Regular: busca de texto e emails válidos (regex).",
+      "Livre de Contexto: compiladores checando código de programação."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você escolhe um tipo de gramática (regras).",
+      "PASSO 2: A gramática gera ou valida uma frase (string).",
+      "PASSO 3: Uma máquina específica confirma se a frase é válida."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que regex resolve tudo (não resolve parênteses aninhados!).",
+      "Confundir 'mais poderoso' com 'melhor' — poder gera complexidade."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Regras simples ➔ Máquina simples ➔ Linguagem simples (e vice-versa)."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Teoria",
+  "escola": "01_ciencia_computacao_uninter",
+  "foco_pedagogico": "Linguagens regulares, livres de contexto, sensíveis ao contexto e irrestritas"
+}

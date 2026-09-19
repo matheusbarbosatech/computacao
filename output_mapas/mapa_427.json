@@ -1,0 +1,64 @@
+{
+  "id": 427,
+  "title": "MECANISMOS DE SINCRONIZAÇÃO: MUTEX, SEMÁFOROS E LOCKS",
+  "definition": "São ferramentas que garantem que só um processo use um recurso compartilhado por vez.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É a chave do banheiro público: só quem tem a chave entra na seção crítica."
+    ]
+  },
+  "topRight": {
+    "pill": "MUTEX vs SEMÁFORO",
+    "icon": "🖥️",
+    "bullets": [
+      "Mutex: uma chave única, só uma pessoa entra por vez.",
+      "Semáforo: várias chaves, permite N pessoas ao mesmo tempo."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Trava antes de usar o recurso, destrava depois de terminar.",
+      "mutex.lock(); usa_recurso(); mutex.unlock();"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Bancos de dados, sistemas operacionais e apps multithread.",
+      "Java (synchronized), Python (threading.Lock), C (pthread_mutex)."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Processo pede a chave (lock) para entrar no banheiro",
+      "PASSO 2: Se a chave está livre, ele entra e trava a porta",
+      "PASSO 3: Ele sai e devolve a chave (unlock) para o próximo"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de devolver a chave (unlock) trava o sistema para sempre.",
+      "Dica de ouro: sempre use unlock mesmo se der erro no meio."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Pede a chave ➔ Usa o recurso sozinho ➔ Devolve a chave para outro usar."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "SO",
+  "escola": "01_ciencia_computacao_uninter",
+  "foco_pedagogico": "A chave do banheiro público: só quem tem a chave pode entrar na seção crítica"
+}

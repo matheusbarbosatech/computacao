@@ -1,0 +1,65 @@
+{
+  "id": 403,
+  "title": "CERTIFICAÇÕES DE CIBERSEGURANÇA: SECURITY+, CEH E OSCP",
+  "definition": "Certificações são provas que comprovam sua habilidade em segurança digital para o mercado mundial.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Certificado é como um diploma que valida seu conhecimento prático em hackear e defender sistemas."
+    ]
+  },
+  "topRight": {
+    "pill": "OS 3 NÍVEIS DO ROADMAP",
+    "icon": "🖥️",
+    "bullets": [
+      "Security+ é a base teórica de segurança para todo iniciante.",
+      "CEH ensina a pensar como um invasor de forma ética.",
+      "OSCP prova na prática que você invade sistemas reais."
+    ]
+  },
+  "midRight": {
+    "pill": "COMO SÃO AS PROVAS",
+    "icon": "{ }",
+    "bullets": [
+      "Security+ e CEH são provas de múltipla escolha teóricas.",
+      "OSCP é 24h invadindo máquinas reais sem gabarito."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Exigido em vagas de analista SOC, pentester e red team.",
+      "Reconhecido em empresas como Google, IBM e bancos globais."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "PASSO A PASSO DA CARREIRA",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Tire o Security+ para entender fundamentos de redes e defesa",
+      "PASSO 2: Faça o CEH para aprender ferramentas e mentalidade de ataque",
+      "PASSO 3: Conquiste o OSCP e prove na prática que você é um hacker ético"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que decorar teoria substitui prática em laboratório real.",
+      "Pular etapas e tentar OSCP sem base gera frustração e reprovação."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Teoria (Security+) ➔ Mentalidade ofensiva (CEH) ➔ Prática comprovada (OSCP)"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Laboratório",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "O roadmap de validação profissional para entrar no mercado global"
+}

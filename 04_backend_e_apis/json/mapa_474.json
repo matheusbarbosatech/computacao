@@ -1,0 +1,64 @@
+{
+  "id": 474,
+  "title": "PATTERN ADAPTER: FAZENDO INTERFACES INCOMPATÍVEIS CONVERSAREM",
+  "definition": "É um encaixe que traduz uma interface em outra, sem mudar o que já existe.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Como o adaptador de tomada: plugue diferente, energia igual chegando."
+    ]
+  },
+  "topRight": {
+    "pill": "ADAPTER",
+    "icon": "🖥️",
+    "bullets": [
+      "Envolve a classe antiga e oferece a interface que o cliente espera.",
+      "O código legado nunca é alterado, só ganha uma capa nova."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Classe Adapter implementa a interface nova e chama o objeto antigo por dentro.",
+      "novaApi.pagar() -> adapter.pagar() -> sistemaLegado.processarPagamentoAntigo()"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Integrar sua API com sistemas legados de terceiros sem reescrevê-los.",
+      "Comum em Java, C#, Python, principalmente em bibliotecas e SDKs externos."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Seu sistema chama a interface nova esperada",
+      "PASSO 2: O Adapter recebe a chamada e traduz para o formato antigo",
+      "PASSO 3: O sistema legado responde e o Adapter devolve no formato certo"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Confundir Adapter com Facade: Adapter traduz, Facade simplifica.",
+      "Não abuse do padrão: se você controla os dois lados, talvez nem precise dele."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Sistema novo pede algo ➔ Adapter traduz ➔ Sistema legado entende e responde."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Patterns",
+  "escola": "04_backend_e_apis",
+  "foco_pedagogico": "O adaptador de tomada que conecta sua API ao sistema legado de terceiro"
+}

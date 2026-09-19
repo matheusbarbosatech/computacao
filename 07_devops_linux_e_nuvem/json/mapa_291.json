@@ -1,0 +1,66 @@
+{
+  "id": 291,
+  "title": "REDES NO DOCKER (BRIDGE, HOST, OVERLAY)",
+  "definition": "É o sistema que permite containers se encontrarem e conversarem entre si, como se fosse a rede Wi-Fi da sua casa.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Cada container é uma casa isolada, a rede é a rua que liga todas elas."
+    ]
+  },
+  "topRight": {
+    "pill": "TIPOS DE REDE",
+    "icon": "🖥️",
+    "bullets": [
+      "Bridge: rede privada dentro da máquina, padrão para a maioria dos casos.",
+      "Host: container usa a rede da máquina real, sem isolamento.",
+      "Overlay: conecta containers em máquinas diferentes, como uma rede entre cidades."
+    ]
+  },
+  "midRight": {
+    "pill": "CRIANDO E LIGANDO",
+    "icon": "{ }",
+    "bullets": [
+      "Crie uma rede própria em vez de usar a padrão.",
+      "docker network create minha-rede",
+      "docker run --network=minha-rede --name=api minha-api"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Docker Compose já cria uma rede bridge automática para os serviços.",
+      "Comum em apps com API, banco de dados e cache separados."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "API CONVERSANDO COM O BANCO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: API e banco entram na mesma rede Docker.",
+      "PASSO 2: API usa o NOME do container do banco como endereço.",
+      "PASSO 3: Docker traduz o nome pro IP certo, conexão funciona sem IP fixo."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Usar 'localhost' na API pra achar o banco: não funciona, cada container tem seu próprio localhost.",
+      "Containers em redes diferentes não se veem, mesmo rodando na mesma máquina."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Mesma rede ➔ nome do container como endereço ➔ API acha o banco."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Docker",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Permitindo que a API converse com o banco pelo nome do container"
+}

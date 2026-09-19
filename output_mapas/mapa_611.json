@@ -1,0 +1,64 @@
+{
+  "id": 611,
+  "title": "DATA WAREHOUSES MODERNOS NA NUVEM: BIGQUERY, SNOWFLAKE E REDSHIFT",
+  "definition": "Armazéns de dados na nuvem que guardam petabytes e respondem perguntas em SQL comum cobrando pelo volume lido.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É um galpão gigante de dados na nuvem, organizado para responder perguntas de negócio em segundos."
+    ]
+  },
+  "topRight": {
+    "pill": "COMPUTAÇÃO SEPARADA DO ARMAZENAMENTO",
+    "icon": "🖥️",
+    "bullets": [
+      "O dado fica guardado num cofre barato e o motor de consulta liga só na hora de processar.",
+      "Você paga armazenamento o tempo todo, mas computação apenas quando dispara uma consulta."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Você escreve SELECT...FROM normalmente; a fatura olha quantos bytes foram lidos.",
+      "SELECT nome FROM clientes WHERE estado = 'SP' LIMIT 100"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Análise de vendas, relatórios de negócio e dashboards alimentados por petabytes de histórico.",
+      "BigQuery (Google), Snowflake (multi-nuvem) e Redshift (AWS)."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O dado bruto chega das origens e é carregado em tabelas colunares.",
+      "PASSO 2: Você envia um SQL; o motor lê só as colunas e partições necessárias.",
+      "PASSO 3: O resultado volta rápido e a conta registra apenas os bytes escaneados."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "SELECT * varre a tabela inteira: é o jeito mais rápido de queimar orçamento sem perceber.",
+      "Filtre sempre pela coluna de data ou partição; uma consulta ruim custa mais que um mês de uso normal."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "SQL padrão ➔ lê apenas as colunas e partições necessárias ➔ resposta rápida pagando por bytes escaneados"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Engenharia Dados",
+  "escola": "06_banco_dados_e_ia",
+  "foco_pedagogico": "Consultando petabytes com SQL padrão pagando apenas pelos bytes escaneados"
+}

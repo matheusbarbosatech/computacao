@@ -1,0 +1,64 @@
+{
+  "id": 508,
+  "title": "CACHE DISTRIBUÍDO COM REDIS: CACHE-ASIDE E WRITE-THROUGH",
+  "definition": "Redis guarda uma cópia rápida dos dados na RAM para não bater no banco toda hora.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Ler da memória RAM é muito mais rápido que ler do disco do banco."
+    ]
+  },
+  "topRight": {
+    "pill": "CACHE-ASIDE",
+    "icon": "🖥️",
+    "bullets": [
+      "App pergunta ao Redis primeiro, só vai ao banco se não achar.",
+      "Depois de buscar no banco, o app salva no Redis pra próxima vez."
+    ]
+  },
+  "midRight": {
+    "pill": "WRITE-THROUGH",
+    "icon": "{ }",
+    "bullets": [
+      "Toda escrita vai direto pro Redis e pro banco ao mesmo tempo.",
+      "SET usuario:1 nome=Ana (grava nos dois lugares)."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Sites com muito tráfego de leitura, como feeds e catálogos.",
+      "Redis, Memcached, AWS ElastiCache."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO DE LEITURA",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: App pede o dado ao Redis (memória RAM).",
+      "PASSO 2: Achou? Devolve em 1ms. Não achou? Busca no banco (200ms).",
+      "PASSO 3: Salva no Redis pra próxima consulta ser instantânea."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de atualizar o cache gera dado velho (cache desatualizado).",
+      "Dica: sempre defina um tempo de expiração (TTL) pros dados."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Pedido chega ➔ Redis responde rápido ➔ Banco só é usado se precisar."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Microsserviços",
+  "escola": "04_backend_e_apis",
+  "foco_pedagogico": "Acelerando leituras de banco de 200ms para 1ms na memória RAM"
+}

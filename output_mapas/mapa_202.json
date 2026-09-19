@@ -1,0 +1,64 @@
+{
+  "id": 202,
+  "title": "LISTAS E MÉTODOS: APPEND, POP E SLICING",
+  "definition": "Uma lista é uma gaveta grande com várias gavetinhas numeradas dentro, guardando itens em ordem.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Lista é uma fileira de gavetas numeradas a partir do zero."
+    ]
+  },
+  "topRight": {
+    "pill": "APPEND E POP",
+    "icon": "🖥️",
+    "bullets": [
+      "append() adiciona um item novo no final da fileira.",
+      "pop() remove e devolve o último item da fileira."
+    ]
+  },
+  "midRight": {
+    "pill": "SLICING [inicio:fim:passo]",
+    "icon": "{ }",
+    "bullets": [
+      "Fatiamento pega um pedaço da lista sem tirar o original.",
+      "lista[1:4:2] pega da gaveta 1 até antes da 4, de 2 em 2."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Organizar carrinhos de compra, filas e históricos.",
+      "Muito usado em Python, JavaScript (arrays) e Java."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você cria a lista com itens dentro das gavetas",
+      "PASSO 2: Usa append, pop ou slicing para mudar ou olhar pedaços",
+      "PASSO 3: A lista fica atualizada ou você recebe um recorte dela"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer que a contagem começa em 0, não em 1.",
+      "No slicing, o 'fim' nunca é incluído no recorte."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Gaveta numerada ➔ append/pop/slicing ➔ lista organizada e sob controle"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Python Básico",
+  "escola": "03_python_especialista",
+  "foco_pedagogico": "Manipulando gavetas sequenciais com fatiamento dinâmico [inicio:fim:passo]"
+}

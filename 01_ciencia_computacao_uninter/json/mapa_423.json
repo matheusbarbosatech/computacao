@@ -1,0 +1,65 @@
+{
+  "id": 423,
+  "title": "PROCESSOS VS THREADS",
+  "definition": "Processo é uma casa isolada com suas próprias coisas; thread é um cômodo dividido dentro da mesma casa.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Processo é o app inteiro rodando com sua própria memória privada.",
+      "Thread é uma linha de execução dentro desse app, compartilhando tudo."
+    ]
+  },
+  "topRight": {
+    "pill": "ISOLAMENTO DE MEMÓRIA",
+    "icon": "🖥️",
+    "bullets": [
+      "Cada processo tem seu próprio espaço de memória, trancado dos outros.",
+      "Threads do mesmo processo leem e escrevem na mesma memória juntas."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Criar processo custa caro: copia memória inteira do zero.",
+      "criar_thread() ➔ mais rápido, só adiciona uma linha de execução."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Navegadores abrem uma aba por processo para não travar tudo.",
+      "Apps com multithreading: jogos, servidores web, editores de imagem."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Sistema operacional cria um processo com memória própria.",
+      "PASSO 2: Processo pode abrir várias threads dentro dele.",
+      "PASSO 3: Threads trabalham em paralelo, compartilhando os mesmos dados."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que threads são totalmente independentes, sem risco de conflito.",
+      "Dica de ouro: duas threads mexendo no mesmo dado ao mesmo tempo pode dar bug."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Processo isolado ➔ Thread compartilha ➔ Cuidado com dados em comum."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "SO",
+  "escola": "01_ciencia_computacao_uninter",
+  "foco_pedagogico": "A diferença vital entre clonar um aplicativo inteiro e criar linhas de execução leves"
+}

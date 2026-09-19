@@ -1,0 +1,65 @@
+{
+  "id": 446,
+  "title": "GRAFOS: MATRIZ VS LISTA DE ADJACÊNCIA",
+  "definition": "Duas formas diferentes de guardar no computador quem está conectado com quem.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Grafo é uma rede de pontos (nós) ligados por linhas (conexões).",
+      "Amigos no Instagram, estações de metrô e computadores são exemplos de nós."
+    ]
+  },
+  "topRight": {
+    "pill": "MATRIZ DE ADJACÊNCIA",
+    "icon": "🖥️",
+    "bullets": [
+      "É uma tabela gigante tipo planilha, com 0 e 1 marcando quem se conecta a quem.",
+      "Rápida para checar se A e B são amigos, mas gasta memória com espaços vazios."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Matriz: linha e coluna indicam a conexão entre duas pessoas.",
+      "matriz[A][B] = 1 (existe conexão) ou matriz[A][B] = 0 (não existe)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Lista: ideal para redes sociais gigantes como Facebook e LinkedIn.",
+      "Matriz: usada em mapas de metrô pequenos e algoritmos de rotas densas."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O sistema recebe a lista de pessoas ou estações (nós)",
+      "PASSO 2: Ele escolhe matriz (tabela) ou lista (agenda) para guardar as ligações",
+      "PASSO 3: O programa consulta essa estrutura para achar conexões e caminhos"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Usar matriz em redes sociais gigantes trava o computador com espaço desperdiçado.",
+      "Dica de ouro: poucas conexões use lista, muitas conexões use matriz."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Rede de conexões ➔ Escolher matriz ou lista ➔ Consultas rápidas de caminhos"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Algoritmos",
+  "escola": "01_ciencia_computacao_uninter",
+  "foco_pedagogico": "Modelando redes sociais, mapas de metrô e conexões de rede"
+}

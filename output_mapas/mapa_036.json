@@ -1,0 +1,63 @@
+{
+  "id": 36,
+  "title": "PULANDO VOLTAS COM CONTINUE",
+  "definition": "Continue é um botão de 'pular essa parte' dentro de um loop, sem parar tudo.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Ignora o resto da volta atual e já vai pra próxima."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O COMPUTADOR PENSA",
+    "icon": "🖥️",
+    "bullets": [
+      "Ele para de executar o código restante daquela volta.",
+      "Volta direto pro início do loop, testa a condição de novo."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Fica dentro de um if, dentro de um loop.",
+      "for x in lista: if x==0: continue"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Filtrar dados indesejados sem sair do loop.",
+      "Usado em Python, JavaScript, Java, C#."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Loop chega numa condição especial",
+      "PASSO 2: Continue é acionado, pula o resto do bloco",
+      "PASSO 3: Loop recomeça na próxima volta normalmente"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Confundir continue com break: continue não sai do loop.",
+      "Esquecer que o código depois do continue nunca roda naquela volta."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Condição bate ➔ continue dispara ➔ loop pula pra próxima volta"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Lógica",
+  "foco_pedagogico": "Pula a iteração atual e vai para a próxima"
+}

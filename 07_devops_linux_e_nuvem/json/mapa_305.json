@@ -1,0 +1,64 @@
+{
+  "id": 305,
+  "title": "PERSISTENTVOLUMES (PV) E PERSISTENTVOLUMECLAIMS (PVC)",
+  "definition": "É como reservar um HD externo permanente para seus dados sobreviverem mesmo se o pod morrer.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Pods são temporários, mas seus dados não precisam ser."
+    ]
+  },
+  "topRight": {
+    "pill": "PV (O DISCO REAL)",
+    "icon": "🖥️",
+    "bullets": [
+      "É o pedaço de armazenamento físico ou em nuvem já criado.",
+      "Existe independente do pod, como um armário de aluguel."
+    ]
+  },
+  "midRight": {
+    "pill": "PVC (O PEDIDO)",
+    "icon": "{ }",
+    "bullets": [
+      "É o pod pedindo 'quero 5GB de espaço, por favor'.",
+      "kind: PersistentVolumeClaim / storage: 5Gi"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Bancos de dados que não podem perder informação ao reiniciar.",
+      "AWS EBS, GCP Disk, NFS, Azure Disk."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Admin cria um PV (o espaço disponível no armazém)",
+      "PASSO 2: Pod cria um PVC pedindo espaço com o tamanho certo",
+      "PASSO 3: Kubernetes casa o PVC com um PV compatível (bind)"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer que apagar o PVC pode apagar os dados junto.",
+      "Pedir um tamanho que nenhum PV disponível tem, e ficar 'Pending' pra sempre."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "PV existe ➔ PVC pede espaço ➔ Kubernetes conecta os dois."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Kubernetes",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Requisitando discos e storage permanente para pods do Kubernetes"
+}

@@ -1,0 +1,64 @@
+{
+  "id": 306,
+  "title": "HPA (HORIZONTAL POD AUTOSCALER)",
+  "definition": "É um sistema que aumenta ou diminui a quantidade de pods automaticamente conforme o uso.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Como contratar garçons extras só quando o restaurante fica cheio."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O KUBERNETES DECIDE",
+    "icon": "🖥️",
+    "bullets": [
+      "Ele mede CPU, memória ou métricas customizadas dos pods.",
+      "Compara com a meta definida e calcula quantos pods faltam."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Define min, max e a métrica alvo em um YAML.",
+      "kubectl autoscale deployment app --min=2 --max=10 --cpu-percent=70"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "E-commerces em promoções e apps com picos de tráfego.",
+      "Usado em clusters Kubernetes, EKS, GKE, AKS."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Muitos usuários acessam e a CPU dos pods sobe",
+      "PASSO 2: HPA percebe que passou da meta definida",
+      "PASSO 3: Novos pods são criados até normalizar a carga"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de definir 'requests' de CPU faz o HPA não funcionar.",
+      "Definir max muito baixo trava o crescimento na hora do pico."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Pico de acesso ➔ HPA detecta ➔ Cria mais pods automaticamente"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Kubernetes",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Multiplicando o número de pods automaticamente durante picos de acessos"
+}

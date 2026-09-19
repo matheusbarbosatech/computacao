@@ -1,0 +1,63 @@
+{
+  "id": 190,
+  "title": "ALTERANDO ESTRUTURA COM ALTER TABLE",
+  "definition": "ALTER TABLE é o comando que muda a estrutura de uma tabela que já existe, sem apagar os dados.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como reformar uma casa já construída, sem derrubar as paredes que já existem."
+    ]
+  },
+  "topRight": {
+    "pill": "ADICIONANDO COLUNAS",
+    "icon": "🖥️",
+    "bullets": [
+      "O banco cria uma nova 'gaveta' vazia em cada linha da tabela.",
+      "Linhas antigas recebem valor NULL na coluna nova."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Sintaxe: ADD COLUMN indica o nome e o tipo do dado novo.",
+      "ALTER TABLE clientes ADD COLUMN telefone VARCHAR(15);"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Muito comum quando o sistema cresce e precisa guardar mais informações.",
+      "Usado em MySQL, PostgreSQL, SQL Server e SQLite."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você escolhe a tabela que já existe no banco",
+      "PASSO 2: Define o nome e o tipo da nova coluna",
+      "PASSO 3: O banco insere a coluna vazia em todas as linhas"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de definir um tipo de dado compatível com o que será guardado.",
+      "Dica de ouro: teste em uma tabela pequena antes de aplicar em produção."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Tabela existente ➔ ALTER TABLE ADD COLUMN ➔ Nova coluna criada sem perder dados"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "BancoDados",
+  "foco_pedagogico": "Adicionando novas colunas em tabelas existentes"
+}

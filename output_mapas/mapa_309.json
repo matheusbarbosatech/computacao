@@ -1,0 +1,65 @@
+{
+  "id": 309,
+  "title": "O QUE É COMPUTAÇÃO EM NUVEM? (IAAS, PAAS, SAAS)",
+  "definition": "É alugar computadores e serviços de gigantes datacenters ao invés de comprar e manter os seus.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Como alugar um carro em vez de comprar um, você paga só pelo uso."
+    ]
+  },
+  "topRight": {
+    "pill": "OS 3 MODELOS",
+    "icon": "🖥️",
+    "bullets": [
+      "IaaS: aluga o computador vazio (infraestrutura).",
+      "PaaS: aluga o computador já com ferramentas prontas.",
+      "SaaS: usa o programa pronto, tipo Gmail."
+    ]
+  },
+  "midRight": {
+    "pill": "CAMADAS DE ENTREGA",
+    "icon": "{ }",
+    "bullets": [
+      "Cada modelo entrega mais 'pronto' que o anterior.",
+      "IaaS < PaaS < SaaS (menos trabalho seu)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Sites, apps, streaming, armazenamento de arquivos.",
+      "AWS, Google Cloud, Azure, Heroku, Netflix."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você pede um servidor pela internet",
+      "PASSO 2: A empresa liga uma máquina em um datacenter distante",
+      "PASSO 3: Você usa e paga só pelo tempo/recurso gasto"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que 'nuvem' é algo mágico, é só um computador de outra empresa.",
+      "Esquecer de desligar recursos e receber uma conta cara."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Precisa de poder computacional ➔ Aluga na nuvem ➔ Paga só pelo uso"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Cloud",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Alugando servidores e serviços sob demanda em datacenters globais"
+}

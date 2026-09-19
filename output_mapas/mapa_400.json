@@ -1,0 +1,64 @@
+{
+  "id": 400,
+  "title": "BUG BOUNTY: FATURANDO AO CAÇAR FALHAS LEGALMENTE",
+  "definition": "Bug Bounty é um programa onde empresas pagam para você achar e reportar falhas de segurança nos sistemas delas.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como um caça-tesouro: você acha a falha, a empresa te paga a recompensa."
+    ]
+  },
+  "topRight": {
+    "pill": "PLATAFORMAS INTERMEDIÁRIAS",
+    "icon": "🖥️",
+    "bullets": [
+      "HackerOne e Bugcrowd conectam hackers éticos a empresas com programas abertos.",
+      "Elas definem regras, escopo e pagam com segurança para os dois lados."
+    ]
+  },
+  "midRight": {
+    "pill": "ESCOPO E REGRAS",
+    "icon": "{ }",
+    "bullets": [
+      "Cada programa define o que pode e o que não pode ser testado.",
+      "escopo: *.empresa.com (permitido) vs app-interno.com (fora)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Testes em sites, apps mobile, APIs e redes de empresas reais.",
+      "Ferramentas comuns: Burp Suite, Nmap, OWASP ZAP, Postman."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO DO CAÇADOR",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Escolha um programa e leia o escopo com atenção",
+      "PASSO 2: Investigue o sistema procurando falhas dentro das regras",
+      "PASSO 3: Reporte com provas claras e receba a recompensa"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Testar fora do escopo é ilegal, mesmo em plataforma de bug bounty.",
+      "Relatório bem escrito vale mais que a falha em si, seja claro e objetivo."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Achar falha ➔ Reportar com evidências ➔ Receber pagamento pela empresa"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Ameaças",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "Trabalhando em plataformas como HackerOne e Bugcrowd de forma ética e lucrativa"
+}

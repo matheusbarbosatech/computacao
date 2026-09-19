@@ -1,0 +1,74 @@
+{
+  "id": 581,
+  "title": "WINDOW FUNCTIONS NO SQL: ROW_NUMBER, RANK E DENSE_RANK",
+  "definition": "São funções que numeram e ranqueiam cada linha da consulta sem juntar as linhas em uma só.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "A janela olha para um grupo de linhas, mas devolve um valor para cada linha separada.",
+      "É como dar notas de colocação em uma fila sem apagar ninguém da lista.",
+      "Agrupar junta linhas em uma só; janela mantém todas e só acrescenta um número."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O BANCO ENXERGA",
+    "icon": "🖥️",
+    "bullets": [
+      "O banco separa as linhas em grupos (partições), ordena dentro de cada grupo e conta.",
+      "Cada linha recebe seu número no fim, sem perder as demais colunas da tabela original.",
+      "PARTITION BY é opcional: sem ele, todas as linhas viram uma única janela."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Sintaxe: função() OVER (PARTITION BY coluna ORDER BY coluna).",
+      "ROW_NUMBER() OVER (PARTITION BY turma ORDER BY nota DESC) AS posicao",
+      "RANK() OVER (ORDER BY nota DESC) e DENSE_RANK() OVER (ORDER BY nota DESC)",
+      "Com notas 10, 9, 9, 8: ROW_NUMBER dá 1-2-3-4, RANK dá 1-2-2-4, DENSE_RANK dá 1-2-2-3."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Criar ranking de vendas, notas, curtidas ou pontuação por equipe e por mês.",
+      "Remover duplicados: numere as repetições e apague tudo com número maior que 1.",
+      "Pegar o top 3 de cada categoria, o primeiro e o último pedido de cada cliente.",
+      "Funciona em PostgreSQL, MySQL 8, SQL Server, Oracle, BigQuery e Snowflake."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O banco lê a tabela e separa as linhas por partição com PARTITION BY.",
+      "PASSO 2: Dentro de cada partição ele ordena pela coluna do ORDER BY.",
+      "PASSO 3: Cada linha ganha seu número ou posição, e todos os dados continuam ali."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Erro clássico: tentar usar o apelido do ranking no mesmo WHERE que o criou.",
+      "Janela não é GROUP BY: usar GROUP BY junto junta linhas e estraga o ranking.",
+      "Empate? ROW_NUMBER sorteia a ordem; use RANK ou DENSE_RANK se o empate importa.",
+      "Para filtrar o próprio ranking, envolva a consulta em uma subconsulta ou use WITH."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "PARTITION BY ➔ separa grupos ➔ OVER numera cada linha sem apagar dados",
+      "ROW_NUMBER conta sempre seguido ➔ RANK pula após empate ➔ DENSE_RANK não pula"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "SQL Avançado",
+  "escola": "06_banco_dados_e_ia",
+  "foco_pedagogico": "Calculando rankings e numerações de linhas sem precisar agrupar a consulta inteira"
+}

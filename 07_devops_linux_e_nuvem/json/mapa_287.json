@@ -1,0 +1,64 @@
+{
+  "id": 287,
+  "title": "CRIANDO SEU DOCKERFILE: FROM, WORKDIR, COPY E RUN",
+  "definition": "Dockerfile é uma receita de bolo que ensina o Docker a montar sua aplicação do zero.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Um arquivo de texto com passos para criar sua caixa (container) pronta pra usar."
+    ]
+  },
+  "topRight": {
+    "pill": "FROM: A BASE",
+    "icon": "🖥️",
+    "bullets": [
+      "Escolhe o 'ponto de partida', como a massa pronta de um bolo.",
+      "Define o sistema e a versão da linguagem que você vai usar."
+    ]
+  },
+  "midRight": {
+    "pill": "WORKDIR E COPY",
+    "icon": "{ }",
+    "bullets": [
+      "WORKDIR cria e entra numa pasta de trabalho dentro da caixa.",
+      "COPY leva seus arquivos do computador pra dentro dela. Ex: COPY . /app"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Todo projeto que vira container passa por isso.",
+      "Usado em Node.js, Python, Java, PHP e quase tudo mais."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: FROM escolhe a base (ex: python:3.11)",
+      "PASSO 2: WORKDIR e COPY organizam e trazem os arquivos",
+      "PASSO 3: RUN instala as dependências e finaliza a receita"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer o WORKDIR e os arquivos caírem em lugar errado dentro da caixa.",
+      "Ordem importa: mude menos, copie primeiro o que muda menos (cache)."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "FROM (base) ➔ COPY (leva arquivos) ➔ RUN (instala) ➔ App empacotada"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Docker",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "A receita passo a passo para empacotar sua aplicação com suas dependências"
+}

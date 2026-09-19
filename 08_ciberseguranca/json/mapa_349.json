@@ -1,0 +1,64 @@
+{
+  "id": 349,
+  "title": "OWASP TOP 10: O PADRÃO OURO DE RISCOS EM APLICAÇÕES WEB",
+  "definition": "É uma lista das dez falhas de segurança mais perigosas que existem em sites e sistemas web.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Um raio-x dos erros que hackers mais exploram em aplicações."
+    ]
+  },
+  "topRight": {
+    "pill": "QUEM CRIA A LISTA",
+    "icon": "🖥️",
+    "bullets": [
+      "A OWASP é uma organização sem fins lucrativos de segurança.",
+      "Atualiza o ranking a cada poucos anos com dados reais."
+    ]
+  },
+  "midRight": {
+    "pill": "EXEMPLO DE FALHA",
+    "icon": "{ }",
+    "bullets": [
+      "Injeção de código acontece quando dados do usuário não são filtrados.",
+      "SELECT * FROM users WHERE nome = 'input_do_usuario'"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Guia para times de desenvolvimento, QA e segurança da informação.",
+      "Usado em testes de invasão (pentest) e auditorias."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "COMO A LISTA FUNCIONA",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Pesquisadores coletam falhas reais encontradas no mundo todo",
+      "PASSO 2: As mais frequentes e graves são ranqueadas de 1 a 10",
+      "PASSO 3: Times usam a lista como checklist de proteção"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que seguir a lista uma vez basta, ela muda com o tempo.",
+      "Confundir a lista com um manual de código, ela é um guia de riscos."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Falha comum ➔ Lista prioriza risco ➔ Time corrige antes do ataque"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "OWASP",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "O guia das dez vulnerabilidades mais críticas da internet"
+}

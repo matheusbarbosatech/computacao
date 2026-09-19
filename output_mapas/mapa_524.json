@@ -1,0 +1,68 @@
+{
+  "id": 524,
+  "title": "USEMEMO E USECALLBACK: OTIMIZANDO DESEMPENHO E RE-RENDERS",
+  "definition": "São dois 'cofres' do React que guardam resultados e funções entre renderizações, evitando trabalho repetido.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "O React redesenha a tela toda vez que algo muda; isso pode refazer cálculos pesados sem necessidade.",
+      "Memorizar é como guardar a resposta pronta numa gaveta, em vez de refazer a conta a cada pergunta."
+    ]
+  },
+  "topRight": {
+    "pill": "NOME DO CONCEITO 1",
+    "icon": "🖥️",
+    "bullets": [
+      "useMemo guarda o RESULTADO de um cálculo e só refaz quando as peças mudam.",
+      "useCallback guarda a FUNÇÃO em si, mantendo a mesma referência entre renderizações.",
+      "React compara referências: função nova a cada render faz componentes filhos atualizarem à toa."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Regra de ouro: informe no final a lista de dependências entre colchetes.",
+      "const total = useMemo(() => somar(itens), [itens]);",
+      "const clicar = useCallback(() => enviar(id), [id]);"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Listas gigantes, filtros, ordenações e gráficos com muitos dados em tela.",
+      "React, React Native, Next.js e bibliotecas como Redux e React Router."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: A tela renderiza e o React olha a lista de dependências.",
+      "PASSO 2: Se nada mudou, ele devolve o valor ou a função guardada no cofre.",
+      "PASSO 3: Se algo mudou, recalcula, salva de novo e só então atualiza a tela."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer uma dependência: o valor fica velho e a tela mostra dado errado.",
+      "Criar dependência nova a cada render, como objeto ou array solto, anula o ganho."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Cálculo caro ➔ useMemo guarda o resultado ➔ menos trabalho por render.",
+      "Função para filho ➔ useCallback mantém a referência ➔ menos re-renders."
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "React",
+  "escola": "05_frontend_e_mobile",
+  "foco_pedagogico": "Memorizando cálculos caros e referências de funções entre renderizações"
+}

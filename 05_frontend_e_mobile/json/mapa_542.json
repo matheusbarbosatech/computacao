@@ -1,0 +1,67 @@
+{
+  "id": 542,
+  "title": "CONSUMINDO APIs REST NO FLUTTER COM A BIBLIOTECA DIO",
+  "definition": "Dio é a biblioteca do Flutter que envia pedidos para servidores web e traz os dados de volta.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Dio é o carteiro do app: leva seu pedido e devolve a resposta do servidor.",
+      "Você informa o endereço da API e recebe dados em formato JSON."
+    ]
+  },
+  "topRight": {
+    "pill": "INTERCEPTORS E CANCELAMENTO",
+    "icon": "🖥️",
+    "bullets": [
+      "Interceptors são filtros que passam por cada requisição antes de sair.",
+      "Eles adicionam token de login e tratam erros automaticamente.",
+      "CancelToken aborta pedidos antigos quando o usuário sai da tela."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Sintaxe simples: dio.get(url), dio.post(url, data: corpo), dio.put(url), dio.delete(url).",
+      "Exemplo: response = await dio.get('/users', cancelToken: token);"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Fazer login, carregar listas de produtos, enviar formulários e baixar arquivos.",
+      "Flutter com Dio, Retrofit, Chopper ou http puro."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O app monta a requisição com URL, headers e token",
+      "PASSO 2: O interceptor ajusta o pedido e o servidor responde JSON",
+      "PASSO 3: A serialização vira objeto e a tela mostra os dados"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer o await: o código roda antes da resposta chegar.",
+      "Erro clássico: acessar campo do JSON com nome errado e receber nulo.",
+      "Dica de ouro: teste no Postman antes e sempre trate falhas de rede."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Requisição ➔ Interceptor ➔ JSON vira objeto ➔ Tela atualiza"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Flutter",
+  "escola": "05_frontend_e_mobile",
+  "foco_pedagogico": "Interceptors, cancelamento de requisições e serialização de JSON"
+}

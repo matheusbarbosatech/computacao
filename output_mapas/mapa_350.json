@@ -1,0 +1,66 @@
+{
+  "id": 350,
+  "title": "SQL INJECTION (SQLi): ANATOMIA E DEFESA COM PREPARED STATEMENTS",
+  "definition": "É quando um invasor digita código SQL num campo de texto para enganar o banco de dados.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Formulário confia demais no que o usuário digita e executa como comando."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O SISTEMA SOFRE O ATAQUE",
+    "icon": "🖥️",
+    "bullets": [
+      "O texto digitado é colado direto dentro da consulta SQL.",
+      "O banco não sabe diferenciar 'dado' de 'comando'."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Errado: concatenar texto direto na query.",
+      "SELECT * FROM users WHERE nome = '\" + input + \"'",
+      "Certo: usar placeholder e passar valor separado.",
+      "SELECT * FROM users WHERE nome = ?"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Login, busca e cadastro em sites e apps.",
+      "Prepared Statements existem em Java (JDBC), PHP (PDO), Python (psycopg2), Node (pg)."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Usuário digita algo suspeito, tipo ' OR 1=1 --",
+      "PASSO 2: Sistema separa comando fixo do dado (Prepared Statement).",
+      "PASSO 3: Banco trata o texto só como valor, ataque não funciona."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que só 'escapar aspas' já resolve o problema.",
+      "Ouro: nunca monte SQL com + ou f-string, sempre use parâmetros."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Texto do usuário ➔ Prepared Statement separa comando de dado ➔ Ataque neutralizado."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "OWASP",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "Injeção de comandos SQL via campos de texto e como parametrizar consultas"
+}

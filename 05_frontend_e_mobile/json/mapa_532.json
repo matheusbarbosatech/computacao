@@ -1,0 +1,66 @@
+{
+  "id": 532,
+  "title": "REACT SERVER COMPONENTS (RSC): O QUE RODA NO SERVIDOR VS CLIENTE",
+  "definition": "RSC é um tipo de componente React que roda apenas no servidor e envia só HTML pronto, sem mandar JavaScript para o navegador.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Pense no servidor como a cozinha do restaurante: ele prepara o prato e serve pronto.",
+      "O navegador é o cliente na mesa: recebe a comida pronta e não precisa cozinhar."
+    ]
+  },
+  "topRight": {
+    "pill": "SERVIDOR VS CLIENTE",
+    "icon": "🖥️",
+    "bullets": [
+      "Servidor: sem 'use client', pode ser async, lê banco e arquivos direto.",
+      "Cliente: com 'use client', usa cliques, estados e efeitos no navegador."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Sem a linha 'use client', o componente roda no servidor por padrão.",
+      "Ex: async function Lista() { const dados = await db.query() }",
+      "Só o HTML do resultado viaja para o navegador do usuário."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Listagens, dashboards e páginas que só mostram dados do banco.",
+      "Next.js App Router, Remix e frameworks React modernos."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O usuário pede a página ao servidor.",
+      "PASSO 2: O componente roda, faz a busca no banco e monta o resultado.",
+      "PASSO 3: Chega HTML pronto; zero JavaScript desse componente no bundle."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Erro clássico: usar useState ou onClick em componente de servidor.",
+      "Dica de ouro: se precisa de interação, isole num componente 'use client'."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Componente no servidor ➔ Busca no banco ➔ HTML pronto ➔ Bundle menor e site mais rápido"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Next.js",
+  "escola": "05_frontend_e_mobile",
+  "foco_pedagogico": "Executando buscas de banco direto no componente e enviando zero JavaScript de bundle"
+}

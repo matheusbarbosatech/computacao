@@ -1,0 +1,64 @@
+{
+  "id": 413,
+  "title": "CICLO DE BUSCA, DECODIFICAÇÃO E EXECUÇÃO",
+  "definition": "É a dança repetida bilhões de vezes por segundo que faz o processador executar programas.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "O processador lê uma instrução, entende o que ela pede e faz acontecer."
+    ]
+  },
+  "topRight": {
+    "pill": "OS TRÊS PASSOS",
+    "icon": "🖥️",
+    "bullets": [
+      "Fetch busca a instrução na memória usando um endereço.",
+      "Decode traduz o código binário em uma ordem clara."
+    ]
+  },
+  "midRight": {
+    "pill": "QUEM PARTICIPA",
+    "icon": "{ }",
+    "bullets": [
+      "PC (Program Counter) guarda o endereço da próxima instrução.",
+      "PC = PC + 1 (aponta pra próxima instrução)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Acontece dentro de todo processador, do celular ao supercomputador.",
+      "Arquiteturas como x86, ARM e RISC-V seguem esse ciclo."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1 (FETCH): Busca a instrução na memória usando o PC",
+      "PASSO 2 (DECODE): Decodifica o que essa instrução significa",
+      "PASSO 3 (EXECUTE): Executa a ação e atualiza o PC pra próxima"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que o ciclo é lento: na verdade se repete milhões de vezes por segundo.",
+      "Confundir dado com instrução: os dois são só números binários."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Busca ➔ Decodifica ➔ Executa ➔ repete pra sempre."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Hardware",
+  "escola": "01_ciencia_computacao_uninter",
+  "foco_pedagogico": "A dança contínua que o processador repete bilhões de vezes por segundo"
+}

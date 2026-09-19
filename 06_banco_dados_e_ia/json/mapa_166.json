@@ -1,0 +1,63 @@
+{
+  "id": 166,
+  "title": "OPERADORES NO SQL (=, !=, <, >)",
+  "definition": "São os sinais que você usa para comparar valores e filtrar exatamente o que quer ver na tabela.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como uma pergunta de sim ou não feita para cada linha da tabela."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O BANCO INTERPRETA",
+    "icon": "🖥️",
+    "bullets": [
+      "Ele testa cada linha e só devolve as que passam no teste.",
+      "Compara números direto, mas textos precisam de aspas."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Use dentro do WHERE para filtrar registros.",
+      "SELECT * FROM alunos WHERE idade > 18"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Filtrar preços, idades, datas e nomes em qualquer consulta.",
+      "Presente em MySQL, PostgreSQL, SQLite e SQL Server."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você escreve a condição depois do WHERE",
+      "PASSO 2: O banco compara cada linha com essa condição",
+      "PASSO 3: Só as linhas verdadeiras aparecem no resultado"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer aspas em texto: nome = Ana dá erro, precisa ser nome = 'Ana'.",
+      "Confundir = (igual) com == de outras linguagens, em SQL é só um sinal."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Condição no WHERE ➔ Comparação linha a linha ➔ Apenas dados que combinam"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "BancoDados",
+  "foco_pedagogico": "Filtros numéricos e textuais"
+}

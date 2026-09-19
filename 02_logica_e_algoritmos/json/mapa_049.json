@@ -1,0 +1,63 @@
+{
+  "id": 49,
+  "title": "O QUE É UMA FUNÇÃO CALLBACK?",
+  "definition": "Callback é uma função que você entrega para outra função executar depois, no seu lugar.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como entregar uma receita pronta para alguém usar quando precisar."
+    ]
+  },
+  "topRight": {
+    "pill": "PASSANDO FUNÇÃO COMO ARGUMENTO",
+    "icon": "🖥️",
+    "bullets": [
+      "Uma função vira 'dado' e é enviada dentro dos parênteses de outra.",
+      "Quem recebe decide o momento certo de chamá-la."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Passe o nome da função sem os parênteses, sem executar antes.",
+      "avisar(function() { console.log('Pronto!'); });"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Botões de clique, requisições de internet, leitura de arquivos.",
+      "Muito comum em JavaScript, Python e Node.js."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você cria a função callback",
+      "PASSO 2: Entrega ela como argumento para outra função",
+      "PASSO 3: A função principal chama o callback no momento certo"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Colocar parênteses e executar a função antes da hora, por engano.",
+      "Dica: passe só o nome, deixe quem recebe decidir quando rodar."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Você cria função ➔ entrega como argumento ➔ ela roda depois, no momento certo."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Funções",
+  "foco_pedagogico": "Passando uma função como argumento para outra"
+}

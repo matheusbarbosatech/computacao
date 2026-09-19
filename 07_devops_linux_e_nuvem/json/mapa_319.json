@@ -1,0 +1,64 @@
+{
+  "id": 319,
+  "title": "AWS ROUTE 53: DNS ALTAMENTE DISPONÍVEL",
+  "definition": "É o serviço da AWS que traduz nomes de sites em endereços de servidores, sempre escolhendo o melhor caminho.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Route 53 é como uma lista telefônica gigante que nunca fica fora do ar."
+    ]
+  },
+  "topRight": {
+    "pill": "GERENCIAMENTO DE DOMÍNIOS",
+    "icon": "🖥️",
+    "bullets": [
+      "Você compra e registra o nome do site direto na AWS.",
+      "Zonas hospedadas guardam todos os registros do domínio."
+    ]
+  },
+  "midRight": {
+    "pill": "TIPOS DE REGISTRO",
+    "icon": "{ }",
+    "bullets": [
+      "Registros dizem para onde o nome do site aponta.",
+      "meusite.com A 192.0.2.1"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Sites, APIs e apps que precisam estar sempre acessíveis.",
+      "Usado com EC2, S3, CloudFront e Load Balancers."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO DE ROTEAMENTO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Usuário digita o endereço do site",
+      "PASSO 2: Route 53 verifica saúde e localização do servidor",
+      "PASSO 3: Usuário é direcionado ao servidor mais rápido e saudável"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de configurar health check e o tráfego ir para um servidor quebrado.",
+      "Dica: sempre teste o roteamento geográfico antes de ir para produção."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Health check verifica servidor ➔ Geolocalização escolhe rota ➔ Usuário chega rápido e sem erro"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Cloud",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Gerenciamento de domínios, health checks e roteamento geográfico"
+}

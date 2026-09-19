@@ -1,0 +1,65 @@
+{
+  "id": 445,
+  "title": "GARBAGE COLLECTION: COLETA DE LIXO MARK-AND-SWEEP E GERACIONAL",
+  "definition": "É o mecanismo automático que limpa da memória os objetos que o programa não usa mais.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Imagine um quarto que se enche de objetos e alguém joga fora o que ninguém mais usa."
+    ]
+  },
+  "topRight": {
+    "pill": "MARK-AND-SWEEP",
+    "icon": "🖥️",
+    "bullets": [
+      "MARK: o sistema marca todos os objetos ainda 'vivos' (alcançáveis).",
+      "SWEEP: tudo que não foi marcado é varrido e liberado da memória."
+    ]
+  },
+  "midRight": {
+    "pill": "GERACIONAL",
+    "icon": "{ }",
+    "bullets": [
+      "Objetos novos ficam na 'geração jovem', checada com frequência.",
+      "Objetos que sobrevivem muito tempo vão para a 'geração velha', checada raramente."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Java: JVM usa GC geracional (Serial, G1, ZGC).",
+      "Python: usa contagem de referências + GC geracional para ciclos.",
+      "JavaScript: motores V8/SpiderMonkey usam Mark-and-Sweep geracional."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Programa cria objetos e usa memória livremente",
+      "PASSO 2: GC verifica quais objetos ainda têm referência ativa",
+      "PASSO 3: Objetos sem referência são apagados e memória é reaproveitada"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que 'sem GC' significa 'sem vazamento de memória' é erro comum.",
+      "Referências esquecidas (ex: listeners, closures) impedem a coleta e causam leaks."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Objeto sem referência ➔ GC marca e varre ➔ memória liberada automaticamente"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Compiladores",
+  "escola": "01_ciencia_computacao_uninter",
+  "foco_pedagogico": "Como Java, Python e JavaScript limpam a memória sem vazamentos"
+}

@@ -1,0 +1,65 @@
+{
+  "id": 586,
+  "title": "SUBCONSULTAS CORRELACIONADAS VS SUBCONSULTAS SIMPLES",
+  "definition": "Subconsulta simples roda sozinha uma única vez; a correlacionada depende de cada linha da consulta externa.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Subconsulta é uma pergunta dentro da pergunta principal, como uma consulta dentro de outra.",
+      "A diferença toda está em uma pergunta: ela precisa da linha de fora para funcionar?"
+    ]
+  },
+  "topRight": {
+    "pill": "SUBCONSULTA SIMPLES",
+    "icon": "🖥️",
+    "bullets": [
+      "O banco resolve essa lista uma única vez e guarda o resultado pronto.",
+      "Depois ele só compara cada linha de fora com essa lista já montada."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Simples: roda sozinha, sem olhar a linha externa. Correlacionada: usa a linha de fora por dentro.",
+      "exemplo(SELECT nome FROM clientes c WHERE EXISTS (SELECT 1 FROM pedidos p WHERE p.id_cliente = c.id))"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Filtrar listas, checar se algo existe e montar relatórios do dia a dia.",
+      "Presente em SQL, PostgreSQL, MySQL, Oracle e SQL Server."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O banco pega a primeira linha da tabela de fora.",
+      "PASSO 2: Ele roda a subconsulta de novo usando o valor dessa linha.",
+      "PASSO 3: Repete para cada linha, uma por uma, até o fim da tabela."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Correlacionada roda uma vez por linha: 1 milhão de linhas vira 1 milhão de consultas internas.",
+      "Dica de ouro: use índice na coluna comparada e teste sempre com EXPLAIN antes de subir."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Sem dependência ➔ roda uma vez ➔ rápido. Com dependência ➔ roda N vezes ➔ cuidado com a lentidão."
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "SQL Avançado",
+  "escola": "06_banco_dados_e_ia",
+  "foco_pedagogico": "Subqueries que dependem da linha externa e os riscos de lentidão extrema"
+}

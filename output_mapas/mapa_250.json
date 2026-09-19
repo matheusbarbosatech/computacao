@@ -1,0 +1,64 @@
+{
+  "id": 250,
+  "title": "JUPYTER NOTEBOOKS: O PLAYGROUND CIENTÍFICO",
+  "definition": "É um caderno digital onde você mistura código, texto e gráficos em blocos separados que rodam quando você quiser.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Um documento dividido em blocos chamados células, cada um roda de forma independente."
+    ]
+  },
+  "topRight": {
+    "pill": "CÉLULAS DE CÓDIGO E TEXTO",
+    "icon": "🖥️",
+    "bullets": [
+      "O notebook guarda cada célula com seu resultado, sem precisar rodar tudo de novo.",
+      "Células de texto usam Markdown, células de código usam Python ou outra linguagem."
+    ]
+  },
+  "midRight": {
+    "pill": "EXECUTANDO UMA CÉLULA",
+    "icon": "{ }",
+    "bullets": [
+      "Aperte Shift+Enter para rodar a célula selecionada e ir para a próxima.",
+      "print('Olá, ciência de dados!')"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Ciência de dados, machine learning, análise estatística e ensino.",
+      "Ferramentas comuns: JupyterLab, Google Colab, VS Code com extensão Jupyter."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você escreve código ou texto numa célula.",
+      "PASSO 2: Executa a célula e o resultado aparece embaixo dela.",
+      "PASSO 3: Gráficos, tabelas e números ficam salvos ali, prontos para revisão."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Rodar células fora de ordem pode gerar resultados confusos ou variáveis desatualizadas.",
+      "Dica de ouro: use 'Restart & Run All' para garantir que tudo rode do zero."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Célula ➔ Código roda ➔ Resultado aparece na hora, ao lado da explicação."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Data Python",
+  "escola": "03_python_especialista",
+  "foco_pedagogico": "Células interativas que misturam código, anotações e gráficos"
+}

@@ -1,0 +1,64 @@
+{
+  "id": 288,
+  "title": "CMD vs ENTRYPOINT NO DOCKERFILE",
+  "definition": "São duas formas de definir qual comando roda quando o container liga.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "São a 'ação padrão' que o container executa ao nascer."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O DOCKER TRATA CADA UM",
+    "icon": "🖥️",
+    "bullets": [
+      "CMD é o argumento padrão, fácil de trocar na hora de rodar.",
+      "ENTRYPOINT é o comando fixo, difícil de trocar sem forçar."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "CMD [\"npm\", \"start\"] roda por padrão, mas pode ser sobrescrito.",
+      "ENTRYPOINT [\"python3\"] fixa o programa principal."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Imagens de apps prontos, como servidores web ou scripts.",
+      "Usado em Dockerfile junto com Docker, Kubernetes e CI/CD."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Docker lê o ENTRYPOINT como o programa fixo a rodar.",
+      "PASSO 2: Docker usa o CMD como os argumentos desse programa.",
+      "PASSO 3: 'docker run' pode sobrescrever só o CMD, não o ENTRYPOINT."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Misturar os dois e achar que CMD sempre sobrescreve tudo.",
+      "Dica: use ENTRYPOINT para o programa fixo e CMD para parâmetros trocáveis."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "ENTRYPOINT define o quê ➔ CMD define os detalhes ➔ Juntos formam o comando final."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Docker",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Definindo o comando padrão de execução e parâmetros customizáveis"
+}

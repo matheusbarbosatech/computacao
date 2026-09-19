@@ -1,0 +1,64 @@
+{
+  "id": 419,
+  "title": "CIRCUITOS SEQUENCIAIS: FLIP-FLOPS E CLOCKS",
+  "definition": "É a parte do computador que guarda um estado (memória) e usa um relógio interno para saber quando mudar.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Circuito normal só reage agora; circuito sequencial lembra o que aconteceu antes."
+    ]
+  },
+  "topRight": {
+    "pill": "FLIP-FLOP",
+    "icon": "🖥️",
+    "bullets": [
+      "É uma 'caixinha' que guarda 1 bit (0 ou 1) até alguém mandar trocar.",
+      "Funciona como um interruptor com memória, não apaga sozinho."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Flip-flop tipo D só copia a entrada quando o clock 'bate'.",
+      "Q <= D (na borda de subida do clock)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Registradores da CPU, memórias RAM e contadores digitais.",
+      "Usado em VHDL, Verilog e no design de processadores."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O clock emite um pulso, como um metrônomo batendo.",
+      "PASSO 2: No instante exato da batida, o flip-flop 'olha' o valor de entrada.",
+      "PASSO 3: Ele guarda esse valor e mantém até a próxima batida."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que o flip-flop muda o tempo todo; ele só muda na batida do clock.",
+      "Dica: pense no clock como o 'tique-taque' que organiza a fila de mudanças."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Clock bate ➔ Flip-flop registra valor ➔ Estado é lembrado até a próxima batida."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Hardware",
+  "escola": "01_ciencia_computacao_uninter",
+  "foco_pedagogico": "Como o computador consegue 'lembrar' de um estado e sincronizar batimentos"
+}

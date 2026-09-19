@@ -1,0 +1,67 @@
+{
+  "id": 552,
+  "title": "ACESSIBILIDADE WEB (A11Y) E AS DIRETRIZES WCAG",
+  "definition": "Acessibilidade web é garantir que qualquer pessoa, com ou sem deficiência, consiga navegar, entender e usar um site sem barreiras.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "A web foi feita para todos. A11y remove muros invisíveis que excluem milhões de pessoas com deficiência visual, motora, auditiva ou cognitiva.",
+      "WCAG é o manual oficial de boas práticas — um checklist internacional com 4 pilares: Perceptível, Operável, Compreensível e Robusto."
+    ]
+  },
+  "topRight": {
+    "pill": "CONTRASTES MÍNIMOS DE COR",
+    "icon": "🎨",
+    "bullets": [
+      "Texto normal precisa de contraste mínimo de 4.5:1 contra o fundo. Texto grande (acima de 18px) exige 3:1.",
+      "Nunca use cor como único jeito de transmitir informação — daltônicos não distinguiriam o alerta."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Use HTML semântico: <button>, <nav>, <main> no lugar de <div> genérica. O leitor de tela entende a intenção.",
+      "aria-label='Fechar' — atributos ARIA explicam o que o elemento faz quando a imagem ou ícone não fala por si só.",
+      "WCAG nível AA é o mínimo obrigatório por lei em muitos países. Nível AAA é o ideal, mas nem sempre possível."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Todo formulário, botão, menu e imagem de sites públicos, lojas virtuais e apps do governo devem seguir a WCAG.",
+      "Ferramentas: axe DevTools, Lighthouse, WAVE, leitor NVDA (grátis) e contraste checker como o WebAIM."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Estruture com HTML semântico — cada tag no lugar certo: <header>, <main>, <footer>, <h1> ao <h6> em ordem.",
+      "PASSO 2: Teste com teclado: aperte Tab para navegar entre links e botões. Tudo que o mouse faz, o teclado também deve fazer.",
+      "PASSO 3: Rode o leitor de telas (NVDA ou VoiceOver) e ouça se a página faz sentido sem olhar para a tela."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Erro clássico: colocar texto cinza-claro em fundo branco — parece elegante, mas é invisível para quem tem baixa visão.",
+      "Outro vacilo: esquecer o :focus visível ao navegar por Tab. Sem ele, a pessoa não sabe onde está na página.",
+      "Dica de ouro: feche os olhos e use só o teclado. Se você se perdeu, seu site não está acessível."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "HTML semântico + Contraste de cores ➔ Teclado funcional + Foco visível ➔ Leitor de telas compreende tudo ➔ Site para todos."
+    ]
+  },
+  "_modelo_usado": "devworld/deepseek-v4-pro-0813-f",
+  "modulo": "CSS/Design",
+  "escola": "05_frontend_e_mobile",
+  "foco_pedagogico": "Contrastes mínimos de cor, navegação por teclado e suporte a leitores de tela"
+}

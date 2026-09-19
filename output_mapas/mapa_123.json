@@ -1,0 +1,63 @@
+{
+  "id": 123,
+  "title": "CALL STACK (PILHA DE EXECUÇÃO)",
+  "definition": "É a lista de tarefas que o JavaScript empilha para lembrar o que fazer e em que ordem voltar.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Imagine uma pilha de pratos: você só tira o de cima primeiro."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O MOTOR EMPILHA",
+    "icon": "🖥️",
+    "bullets": [
+      "Cada função chamada entra no topo da pilha (push).",
+      "Quando a função termina, ela sai do topo (pop)."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Toda chamada de função gera um novo 'quadro' na pilha.",
+      "funcaoA() chama funcaoB() que chama funcaoC()"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Aparece nos erros 'Stack Overflow' no console.",
+      "Usado em debugging no Chrome DevTools e Node.js."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Uma função é chamada e entra no topo da pilha",
+      "PASSO 2: Se ela chama outra função, essa também entra no topo",
+      "PASSO 3: Ao terminar, a função sai e o motor volta pra anterior"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Recursão sem fim causa 'Maximum call stack exceeded'.",
+      "A pilha é síncrona: ela não espera código assíncrono terminar."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Função chamada ➔ Empilha no topo ➔ Executa e desempilha"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Async",
+  "foco_pedagogico": "Como o motor de JavaScript empilha as tarefas"
+}

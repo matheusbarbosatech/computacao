@@ -1,0 +1,63 @@
+{
+  "id": 40,
+  "title": "DEPURAÇÃO (DEBUGGING) E TRATAMENTO DE ERROS",
+  "definition": "Depurar é investigar com calma por que o programa não fez o que você esperava.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Bug é uma pista, não um monstro. O erro te ajuda a achar o problema."
+    ]
+  },
+  "topRight": {
+    "pill": "MENSAGEM DE ERRO",
+    "icon": "🖥️",
+    "bullets": [
+      "O computador aponta a linha e o tipo do problema, não te ataca.",
+      "Leia de baixo para cima: a última linha diz o erro real."
+    ]
+  },
+  "midRight": {
+    "pill": "TRY / CATCH",
+    "icon": "{ }",
+    "bullets": [
+      "Tente algo arriscado e prepare um plano B se falhar.",
+      "try { risco() } catch (erro) { avisa(erro) }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Em qualquer app: login, formulário, conexão com internet.",
+      "Presente em Python, JavaScript, Java e quase toda linguagem."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "COMO CAÇAR O BUG",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Leia a mensagem de erro com calma, sem pânico",
+      "PASSO 2: Ache a linha e o tipo de erro indicados",
+      "PASSO 3: Teste pequenos pedaços até achar a causa"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Ignorar o erro e sair mudando código ao acaso piora tudo.",
+      "Copie a mensagem exata e pesquise, você não é o primeiro."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Erro aparece ➔ Você lê com calma ➔ Encontra e corrige a causa"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Lógica",
+  "foco_pedagogico": "Lendo mensagens de erro com calma e achando bugs"
+}

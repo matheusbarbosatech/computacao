@@ -1,0 +1,64 @@
+{
+  "id": 473,
+  "title": "PATTERN SINGLETON: VANTAGENS, PERIGOS E TESTABILIDADE",
+  "definition": "Singleton garante que uma classe tenha só um objeto criado em todo o programa.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como ter só um presidente: todo mundo usa o mesmo, ninguém cria outro."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O SISTEMA CONTROLA ISSO",
+    "icon": "🖥️",
+    "bullets": [
+      "A classe esconde seu construtor e só ela pode se criar.",
+      "Guarda a única instância numa variável estática interna."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Construtor privado + método getInstance() que retorna sempre o mesmo objeto.",
+      "if (instancia == null) instancia = new Classe();"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Conexão única com banco de dados ou arquivo de configuração.",
+      "Comum em Java, C#, Python (módulos já são singletons)."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Programa pede a instância pela primeira vez",
+      "PASSO 2: Classe verifica se já existe uma, se não, cria",
+      "PASSO 3: Toda chamada futura devolve essa mesma instância"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Vira 'variável global disfarçada' e esconde dependências do código.",
+      "Dificulta testes: você não consegue trocar por um objeto falso (mock)."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Só uma instância ➔ acesso global fácil ➔ risco de acoplamento e testes frágeis"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Patterns",
+  "escola": "04_backend_e_apis",
+  "foco_pedagogico": "Garantindo uma única instância global e por que ele pode virar antipattern"
+}

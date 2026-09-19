@@ -1,0 +1,68 @@
+{
+  "id": 604,
+  "title": "O QUE É ENGENHARIA DE DADOS? (OLTP VS OLAP)",
+  "definition": "Engenharia de Dados constrói os caminhos que levam o dado bruto até virar uma boa decisão.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Existem dois tipos de banco: um para o dia a dia, outro para pensar o futuro.",
+      "Engenheiro de Dados é quem constrói a ponte entre esses dois mundos."
+    ]
+  },
+  "topRight": {
+    "pill": "OLTP VS OLAP",
+    "icon": "🖥️",
+    "bullets": [
+      "OLTP: grava e lê poucas linhas na hora, sem atraso nenhum.",
+      "OLAP: lê milhões de linhas de uma vez para achar padrões."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "No OLTP você mexe em uma linha por vez: inserir, atualizar ou apagar.",
+      "No OLAP você pergunta o total: somar, tirar média e agrupar.",
+      "Exemplo: SELECT SUM(valor) FROM vendas GROUP BY mes;"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "OLTP: app de banco, caixa da loja, carrinho de compras.",
+      "OLAP: painel de vendas, metas e relatórios da diretoria.",
+      "Ferramentas: PostgreSQL e MySQL no OLTP; BigQuery, Snowflake e Spark no OLAP."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O app grava cada venda no banco transacional, o OLTP.",
+      "PASSO 2: Os dados são copiados e organizados num armazém analítico.",
+      "PASSO 3: O time consulta o OLAP e decide com base nos números."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Rodar relatório pesado no banco do dia a dia e travar o sistema inteiro.",
+      "Confundir dado bruto com dado limpo e pronto para análise.",
+      "Dica de ouro: quem grava rápido não é quem analisa bem."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "OLTP ➔ grava rápido ➔ copia para OLAP ➔ analisa ➔ decisão melhor."
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Engenharia Dados",
+  "escola": "06_banco_dados_e_ia",
+  "foco_pedagogico": "Bancos transacionais de dia a dia vs bancos analíticos para tomada de decisão"
+}

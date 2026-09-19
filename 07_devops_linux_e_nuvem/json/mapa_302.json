@@ -1,0 +1,64 @@
+{
+  "id": 302,
+  "title": "INGRESS CONTROLLERS: ROTEAMENTO HTTP/HTTPS NO CLUSTER",
+  "definition": "É a recepção do prédio que olha o nome na porta e manda cada visitante pro andar certo.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Uma porta de entrada única direciona tráfego pra vários serviços internos."
+    ]
+  },
+  "topRight": {
+    "pill": "INGRESS vs INGRESS CONTROLLER",
+    "icon": "🖥️",
+    "bullets": [
+      "Ingress é a lista de regras escrita, o Controller é quem executa essas regras.",
+      "Sem controller instalado, o Ingress não faz nada sozinho."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Regras usam 'host' para separar domínios diferentes.",
+      "host: api.empresa.com ➔ service: api-service"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Expor várias APIs e sites com um só IP público no Kubernetes.",
+      "Ferramentas comuns: NGINX Ingress, Traefik, HAProxy."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Requisição chega em api.empresa.com no IP do cluster",
+      "PASSO 2: Controller lê o host e escolhe a rota certa",
+      "PASSO 3: Tráfego é enviado ao serviço correto (api ou app)"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Criar o Ingress sem instalar o Controller e achar que já funciona.",
+      "Dica de ouro: confirme o DNS apontando pro IP do Ingress antes de testar."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Domínio chega ➔ Controller decide o caminho ➔ Serviço certo responde."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Kubernetes",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "O ponto de entrada único para direcionar api.empresa.com e app.empresa.com"
+}

@@ -1,0 +1,64 @@
+{
+  "id": 248,
+  "title": "GRÁFICOS RÁPIDOS COM MATPLOTLIB E SEABORN",
+  "definition": "São ferramentas Python que transformam números em desenhos para você ver tendências rapidinho.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Transformar tabelas de dados em imagens fáceis de entender."
+    ]
+  },
+  "topRight": {
+    "pill": "MATPLOTLIB VS SEABORN",
+    "icon": "🖥️",
+    "bullets": [
+      "Matplotlib é o pincel básico, dá para tudo mas exige mais linhas.",
+      "Seaborn é o pincel decorado, pronto e bonito com menos código."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "plt.plot() desenha linha, plt.bar() desenha barra.",
+      "sns.scatterplot(x, y) faz dispersão com uma linha só."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Análise de dados, relatórios e ciência de dados no dia a dia.",
+      "Comum em Jupyter Notebook, Pandas e projetos de BI."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Organize os dados em listas ou tabelas.",
+      "PASSO 2: Escolha o tipo de gráfico certo pra tendência.",
+      "PASSO 3: Chame plt.show() e veja o desenho pronto."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer plt.show() e achar que o gráfico não funcionou.",
+      "Usar barra quando o certo era linha, confundindo a tendência."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Dados brutos ➔ Escolher gráfico certo ➔ Tendência visível na tela"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Data Python",
+  "escola": "03_python_especialista",
+  "foco_pedagogico": "Visualizando tendências com gráficos de linha, barra e dispersão"
+}

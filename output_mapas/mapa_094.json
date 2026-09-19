@@ -1,0 +1,66 @@
+{
+  "id": 94,
+  "title": "MUTABILIDADE VS IMUTABILIDADE",
+  "definition": "É saber se um valor pode ser alterado depois de criado, ou se toda mudança gera uma cópia nova.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Mutável é como um caderno: você apaga e escreve por cima.",
+      "Imutável é como um papel carbono: mudou, virou outra folha."
+    ]
+  },
+  "topRight": {
+    "pill": "VALOR VS REFERÊNCIA",
+    "icon": "🖥️",
+    "bullets": [
+      "Passagem por valor entrega uma cópia, o original fica intocado.",
+      "Passagem por referência entrega o 'endereço', muda o original."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Números e textos costumam ser imutáveis (cópia).",
+      "x = 5; y = x; y = 10 -> x continua 5.",
+      "Listas e objetos costumam ser mutáveis (referência)."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Python: strings imutáveis, listas mutáveis.",
+      "JavaScript: const trava a variável, mas objeto por dentro pode mudar."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você cria uma variável com um valor.",
+      "PASSO 2: Passa essa variável para uma função ou outra variável.",
+      "PASSO 3: Se for referência, mudar lá muda aqui também."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que copiar uma lista com '=' cria uma lista nova (não cria!).",
+      "Dica de ouro: se mexer em uma variável afeta outra, é referência."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Valor ➔ copia e isola ➔ original protegido",
+      "Referência ➔ aponta e compartilha ➔ original pode mudar"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Coleções",
+  "foco_pedagogico": "Passagem por valor vs passagem por referência"
+}

@@ -1,0 +1,63 @@
+{
+  "id": 159,
+  "title": "RELACIONAMENTOS: MUITOS PARA MUITOS (N:N)",
+  "definition": "Quando um registro de uma tabela pode se ligar a vários da outra, e vice-versa.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Um aluno tem várias matérias e uma matéria tem vários alunos."
+    ]
+  },
+  "topRight": {
+    "pill": "TABELA INTERMEDIÁRIA",
+    "icon": "🖥️",
+    "bullets": [
+      "Uma tabela extra guarda cada 'par' aluno-matéria.",
+      "Ela só existe pra conectar as duas pontas."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Tabela tem 2 chaves estrangeiras (FK).",
+      "matriculas(aluno_id, materia_id)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Sistemas escolares, redes sociais, e-commerce.",
+      "SQL, MySQL, PostgreSQL, MongoDB."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Aluno se matricula em uma matéria",
+      "PASSO 2: Tabela intermediária cria uma linha ligando os dois",
+      "PASSO 3: Agora dá pra consultar dos dois lados"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer a tabela intermediária e duplicar dados.",
+      "Dica: pense nela como uma 'lista de casamentos' entre as tabelas."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Aluno ➔ Tabela intermediária ➔ Matéria (conexão N:N)"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "BancoDados",
+  "foco_pedagogico": "Alunos e matérias (a tabela intermediária)"
+}

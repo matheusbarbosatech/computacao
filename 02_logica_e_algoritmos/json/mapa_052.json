@@ -1,0 +1,63 @@
+{
+  "id": 52,
+  "title": "RECURSÃO: A FUNÇÃO QUE SE CHAMA",
+  "definition": "Recursão é quando uma função resolve um problema chamando ela mesma em uma versão menor dele.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como um boneco russo: cada um tem um menor dentro dele até acabar."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O COMPUTADOR PENSA",
+    "icon": "🖥️",
+    "bullets": [
+      "Cada chamada guarda seu lugar na fila de espera (pilha).",
+      "Só quando o menor caso termina, os outros são resolvidos."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Precisa de um caso base (para parar) e um caso recursivo.",
+      "fatorial(n) = n * fatorial(n-1)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Explorar pastas dentro de pastas no computador.",
+      "Usado em Python, JavaScript, Java e quase toda linguagem."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Divida o problema grande em uma parte menor igual",
+      "PASSO 2: Repita até chegar no caso mais simples (caso base)",
+      "PASSO 3: Junte as respostas pequenas para formar a resposta final"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer o caso base trava o programa para sempre (loop infinito).",
+      "Dica de ouro: sempre pergunte 'quando isso deve parar?'"
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Problema grande ➔ Divide em menor ➔ Resolve o menor ➔ Junta tudo"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Funções",
+  "foco_pedagogico": "Resolvendo problemas dividindo em partes menores"
+}

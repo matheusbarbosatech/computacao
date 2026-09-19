@@ -1,0 +1,66 @@
+{
+  "id": 635,
+  "title": "FRAMEWORKS DE ORQUESTRAÇÃO DE IA: LANGCHAIN E LLAMAINDEX",
+  "definition": "São caixas de ferramentas que organizam o trabalho entre o ChatGPT (ou similares), sua memória, arquivos e sistemas externos como se fosse uma linha de montagem inteligente.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Pense no LangChain como um maestro que rege uma orquestra: ele decide quem toca, quando toca e em que ordem.",
+      "Já o LlamaIndex é como um bibliotecário ninja: indexa seus PDFs, planilhas e bancos de dados para o GPT encontrar respostas cirúrgicas nos seus documentos."
+    ]
+  },
+  "topRight": {
+    "pill": "LANGCHAIN VS LLAMAINDEX",
+    "icon": "🖥️",
+    "bullets": [
+      "LangChain: focado em CORRENTES de ações — o robô pensa, age, lembra e repete até resolver.",
+      "LlamaIndex: focado em BUSCA INTELIGENTE — transforma seus arquivos em conhecimento consultável pela IA."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "LangChain: corrente = sequência de passos. Ex: corrente = prompt + LLM + ferramenta_de_busca.",
+      "LlamaIndex: índice = seus documentos picotados em pedacinhos fáceis de achar. Ex: indice = VectorStoreIndex.from_documents(meus_pdfs)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Chatbots com memória longa que lembram seu nome e o que você disse há 50 mensagens.",
+      "Assistentes que leem a documentação da sua empresa e respondem perguntas técnicas.",
+      "Sistemas que consultam APIs, planilhas e bancos SQL automaticamente para montar uma resposta."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O usuário pergunta algo. A IA decide se precisa buscar nos arquivos (LlamaIndex) ou usar uma ferramenta (LangChain).",
+      "PASSO 2: O framework consulta o banco de dados, a memória da conversa e aciona APIs externas se necessário.",
+      "PASSO 3: A IA junta tudo, costura os pedaços da resposta e entrega ao usuário de forma natural e completa."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "ERRO CLÁSSICO: Achar que LangChain e LlamaIndex são concorrentes. Na verdade, eles brilham juntos — use um para orquestrar e o outro para buscar.",
+      "DICA DE OURO: Sempre limite o número de documentos na busca (top_k). Sem isso, o GPT recebe um monte de lixo e alucina feio."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Pergunta do usuário ➔ Framework decide o caminho ➔ Busca nos índices ou aciona ferramentas ➔ Monta resposta com contexto ➔ Usuário recebe a resposta pronta."
+    ]
+  },
+  "_modelo_usado": "devworld/deepseek-v4-pro-0813-f",
+  "modulo": "IA Generativa",
+  "escola": "06_banco_dados_e_ia",
+  "foco_pedagogico": "Construindo pipelines com memória, ferramentas externas e conexões com bases de dados"
+}

@@ -1,0 +1,65 @@
+{
+  "id": 390,
+  "title": "PLANO DE CONTINUIDADE DE NEGÓCIOS E DISASTER RECOVERY (RPO E RTO)",
+  "definition": "É o plano que diz quanto tempo sua empresa aguenta ficar fora do ar e quanto dado pode perder num desastre.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Desastres acontecem: queda de servidor, incêndio, ataque hacker, erro humano.",
+      "O plano garante que a empresa volte a funcionar sem quebrar."
+    ]
+  },
+  "topRight": {
+    "pill": "RTO E RPO",
+    "icon": "🖥️",
+    "bullets": [
+      "RTO: tempo máximo tolerável parado, até voltar a operar.",
+      "RPO: quantidade máxima de dado que pode se perder, em tempo."
+    ]
+  },
+  "midRight": {
+    "pill": "COMO MEDIR",
+    "icon": "{ }",
+    "bullets": [
+      "RTO = hora do desastre até sistema voltar no ar.",
+      "RPO = tempo desde o último backup válido."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Bancos, hospitais, e-commerces que não podem parar.",
+      "Ferramentas: backup em nuvem, servidores redundantes, replicação de dados."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Desastre acontece e sistema cai",
+      "PASSO 2: Equipe aciona plano de recuperação",
+      "PASSO 3: Sistema volta dentro do RTO com dados até o RPO definido"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Confundir RTO (tempo parado) com RPO (dado perdido).",
+      "Dica de ouro: quanto menor o RTO/RPO, maior o custo do backup."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Desastre acontece ➔ Plano ativa recuperação ➔ Empresa volta a operar sem quebrar"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Governança",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "Quanto tempo sua empresa aguenta ficar fora do ar e quanto dado pode perder"
+}

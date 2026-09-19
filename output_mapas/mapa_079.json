@@ -1,0 +1,63 @@
+{
+  "id": 79,
+  "title": "FILTRANDO ITENS COM .FILTER()",
+  "definition": "O .filter() cria um novo array guardando só os itens que passam em um teste de sim ou não.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É um coador de peneira: só passa o que atende a condição."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO FUNCIONA",
+    "icon": "🖥️",
+    "bullets": [
+      "Testa cada item do array com uma função que retorna true ou false.",
+      "Se der true, o item entra no novo array; se false, fica de fora."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "array.filter(item => condição sobre item)",
+      "numeros.filter(n => n > 10)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Buscar produtos por preço, idade ou categoria em listas.",
+      "JavaScript, TypeScript e frameworks como React usam bastante."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você passa uma condição para cada item do array",
+      "PASSO 2: O filter testa item por item, guardando os aprovados",
+      "PASSO 3: Um novo array só com os itens aprovados é retornado"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer o 'return' na função de teste faz tudo ser filtrado fora.",
+      "Confundir com .map(): filter escolhe itens, não transforma valores."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Array original ➔ Testa cada item ➔ Novo array só com aprovados"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Coleções",
+  "foco_pedagogico": "Gera um novo array mantendo só o que passa no teste"
+}

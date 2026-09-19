@@ -1,0 +1,64 @@
+{
+  "id": 285,
+  "title": "IMAGENS DOCKER VS CONTAINERS EM EXECUÇÃO",
+  "definition": "Imagem é a receita de bolo pronta, container é o bolo assado e sendo comido agora.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Imagem é um molde estático, container é esse molde ganhando vida."
+    ]
+  },
+  "topRight": {
+    "pill": "IMAGEM DOCKER",
+    "icon": "🖥️",
+    "bullets": [
+      "É um arquivo somente leitura, guardado como se fosse uma receita escrita.",
+      "Nunca muda depois de criada, só serve de base."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Baixa a imagem (receita) do repositório.",
+      "docker pull node:18"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Toda vez que você sobe uma aplicação em produção ou testa localmente.",
+      "Docker Hub, Kubernetes, pipelines de CI/CD."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você escreve a receita (Dockerfile) e gera a imagem",
+      "PASSO 2: Você manda 'assar' com docker run, criando o container",
+      "PASSO 3: O container roda na memória, vivo, até ser parado"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que editar dentro do container muda a imagem original, e não muda.",
+      "Esquecer que ao apagar o container, os dados dentro dele somem."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Receita (imagem) ➔ Assar (docker run) ➔ Bolo pronto rodando (container)"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Docker",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "A receita de bolo imutável vs o bolo pronto rodando na memória"
+}

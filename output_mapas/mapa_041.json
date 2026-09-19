@@ -1,0 +1,63 @@
+{
+  "id": 41,
+  "title": "O QUE É UMA FUNÇÃO E O PRINCÍPIO DRY",
+  "definition": "Função é um pacote de código reutilizável; DRY significa não repetir esse código várias vezes.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Função é como uma receita: você escreve uma vez e usa quantas vezes quiser."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O COMPUTADOR ENTENDE",
+    "icon": "🖥️",
+    "bullets": [
+      "O computador guarda o bloco de código com um nome.",
+      "Quando você chama esse nome, ele executa o bloco todo."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Você define a função uma vez e chama ela sempre que precisar.",
+      "function saudar(nome) { return \"Olá, \" + nome; }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Em qualquer sistema: calcular preço, validar login, enviar email.",
+      "Presente em JavaScript, Python, Java e praticamente toda linguagem."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você cria a função com um nome e o código dentro",
+      "PASSO 2: Você chama a função sempre que precisar daquela tarefa",
+      "PASSO 3: A função executa e devolve o resultado pronto"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Copiar e colar o mesmo código em vários lugares em vez de criar uma função.",
+      "Dica de ouro: se você repetiu o código duas vezes, transforme em função."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Código repetido ➔ Empacota em função ➔ Reutiliza sem duplicar"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Funções",
+  "foco_pedagogico": "Não se repita: empacote e reutilize código"
+}

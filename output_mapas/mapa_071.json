@@ -1,0 +1,63 @@
+{
+  "id": 71,
+  "title": "INSERINDO NO FIM (PUSH / APPEND)",
+  "definition": "É colocar um novo item bem no final da fila, depois do último que já existe.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Adicionar algo sem bagunçar o que já estava lá antes."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O COMPUTADOR FAZ",
+    "icon": "🖥️",
+    "bullets": [
+      "Ele acha o último espaço ocupado e coloca o novo item logo depois.",
+      "Se precisar, aumenta o tamanho da lista para caber."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "append() ou push() jogam o item pro final da lista.",
+      "lista.append(10) ou lista.push(10)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Listas em Python, arrays em JavaScript, filas de tarefas.",
+      "Python: append(), JavaScript: push()"
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O programa acha onde a lista termina",
+      "PASSO 2: Ele guarda o novo valor logo depois do último",
+      "PASSO 3: A lista fica um item maior, com o novo no fim"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Confundir push (fim) com um método que insere no começo.",
+      "Achar que o item antigo é substituído, quando na verdade ele continua lá."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Lista existente ➔ Adiciona no fim ➔ Lista com um item extra no final"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Coleções",
+  "foco_pedagogico": "Adicionando novos itens na última posição"
+}

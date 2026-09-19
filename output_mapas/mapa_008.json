@@ -1,0 +1,63 @@
+{
+  "id": 8,
+  "title": "VARIÁVEIS: CAIXAS DE MEMÓRIA",
+  "definition": "Variável é uma caixa etiquetada que guarda um valor para usar depois.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como uma caixa com nome colado na frente, guardando algo dentro."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O COMPUTADOR VÊ",
+    "icon": "🖥️",
+    "bullets": [
+      "Reserva um espacinho na memória com aquele nome de etiqueta.",
+      "O valor pode trocar, mas a etiqueta continua a mesma."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Nome da caixa recebe o valor com o sinal de igual.",
+      "idade = 25"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Guardar nome, idade, preço, resultado de conta.",
+      "Usado em Python, JavaScript, Java, C, todas as linguagens."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você cria a caixa e dá um nome a ela",
+      "PASSO 2: Você coloca um valor dentro dessa caixa",
+      "PASSO 3: O programa usa esse valor quando precisar"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer que o valor da caixa pode ser trocado depois.",
+      "Dica: dê nomes claros, tipo total_compra em vez de x."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Nome da caixa ➔ Guarda um valor ➔ Programa usa esse valor"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Lógica",
+  "foco_pedagogico": "Guardando dados em caixas etiquetadas"
+}

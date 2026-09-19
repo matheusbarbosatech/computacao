@@ -1,0 +1,63 @@
+{
+  "id": 162,
+  "title": "CRIANDO TABELAS COM CREATE TABLE",
+  "definition": "CREATE TABLE é o comando que monta o 'armário' onde o banco de dados vai guardar suas informações organizadas.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como desenhar uma planilha antes de preenchê-la com dados."
+    ]
+  },
+  "topRight": {
+    "pill": "NOME DA COLUNA",
+    "icon": "🖥️",
+    "bullets": [
+      "Cada coluna precisa de um nome único dentro da tabela.",
+      "O banco usa esse nome para saber onde guardar cada informação."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Sintaxe: nome_coluna TIPO_DADO RESTRIÇÃO.",
+      "CREATE TABLE clientes (id INT PRIMARY KEY, nome VARCHAR(50) NOT NULL);"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Criação de sistemas com cadastro de usuários, produtos e pedidos.",
+      "Usado em MySQL, PostgreSQL, SQL Server e SQLite."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Escolha o nome da tabela",
+      "PASSO 2: Defina cada coluna com nome e tipo de dado",
+      "PASSO 3: Adicione restrições para proteger os dados"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer a vírgula entre as colunas trava o comando todo.",
+      "Dica de ouro: sempre defina uma PRIMARY KEY para identificar cada linha."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Nome da coluna ➔ Tipo de dado ➔ Restrição ➔ Tabela pronta"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "BancoDados",
+  "foco_pedagogico": "Definindo nomes, tipos e restrições"
+}

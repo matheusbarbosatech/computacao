@@ -1,0 +1,65 @@
+{
+  "id": 491,
+  "title": "TYPESCRIPT PARA BACK-END: INTERFACES, TYPES E GENERICS",
+  "definition": "É uma camada de segurança que avisa erros de tipo antes do código rodar, direto no editor.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Você descreve o 'formato' dos dados e o editor cobra esse formato sempre."
+    ]
+  },
+  "topRight": {
+    "pill": "INTERFACES E TYPES",
+    "icon": "🖥️",
+    "bullets": [
+      "Interface descreve o contrato de um objeto, tipo um formulário obrigatório.",
+      "Type é mais flexível: aceita uniões, primitivos e combinações."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "interface User { id: number; nome: string; }",
+      "type ID = number | string;",
+      "function buscar<T>(lista: T[]): T { return lista[0]; }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "APIs Node.js com Express, NestJS e Fastify tipadas de ponta a ponta.",
+      "Validar corpo de requisições, respostas e modelos do banco de dados."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você define a interface ou type do dado esperado",
+      "PASSO 2: O TypeScript checa cada uso desse dado no código",
+      "PASSO 3: Editor sugere autocompletion e bloqueia erro antes de rodar"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Usar 'any' em tudo elimina toda a proteção do TypeScript.",
+      "Confundir Generics com 'qualquer tipo': eles mantêm a relação entre entrada e saída."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Definir formato ➔ TypeScript valida ➔ Código back-end mais seguro e previsível"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Node/Nest",
+  "escola": "04_backend_e_apis",
+  "foco_pedagogico": "Blindando projetos Node com segurança de tipagem e autocompletion no editor"
+}

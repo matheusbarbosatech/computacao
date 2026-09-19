@@ -1,0 +1,64 @@
+{
+  "id": 102,
+  "title": "OS 4 PILARES DA POO",
+  "definition": "São 4 regras que ajudam a organizar código como se fossem objetos do mundo real.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "POO imita a vida real: carros, pessoas e contas como 'objetos' com dados e ações."
+    ]
+  },
+  "topRight": {
+    "pill": "ENCAPSULAMENTO",
+    "icon": "🖥️",
+    "bullets": [
+      "Esconde os detalhes internos e só mostra o que é necessário usar.",
+      "Como o motor do carro: você dirige sem ver os fios."
+    ]
+  },
+  "midRight": {
+    "pill": "ABSTRAÇÃO E HERANÇA",
+    "icon": "{ }",
+    "bullets": [
+      "Abstração mostra só o essencial, ignora complexidade.",
+      "class Cachorro extends Animal { }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Java, C#, Python e PHP usam POO o tempo todo.",
+      "Sistemas bancários, jogos e apps mobile inteiros."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "OS 4 PILARES EM ORDEM",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: ABSTRAÇÃO define o que o objeto representa",
+      "PASSO 2: ENCAPSULAMENTO protege os dados internos dele",
+      "PASSO 3: HERANÇA reaproveita código de outra classe",
+      "PASSO 4: POLIMORFISMO deixa cada objeto agir do seu jeito"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Confundir herança com composição: nem tudo é 'é um', às vezes é 'tem um'.",
+      "Dica de ouro: pense em substantivos como classes e verbos como métodos."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Objeto real ➔ Vira classe com dados e ações ➔ Código organizado e reutilizável"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "POO",
+  "foco_pedagogico": "Encapsulamento, Abstração, Herança e Polimorfismo"
+}

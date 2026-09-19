@@ -1,0 +1,64 @@
+{
+  "id": 385,
+  "title": "LGPD: PRINCÍPIOS E DIREITOS",
+  "definition": "Lei que protege os dados pessoais das pessoas e obriga empresas a usá-los com responsabilidade.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Seus dados são seus, empresas precisam pedir permissão para usá-los."
+    ]
+  },
+  "topRight": {
+    "pill": "CONSENTIMENTO",
+    "icon": "🖥️",
+    "bullets": [
+      "Usuário precisa autorizar de forma clara antes da coleta de dados.",
+      "Consentimento pode ser revogado a qualquer momento pelo titular."
+    ]
+  },
+  "midRight": {
+    "pill": "FINALIDADE",
+    "icon": "{ }",
+    "bullets": [
+      "Dados só podem ser usados para o motivo informado ao usuário.",
+      "coletar(dado, motivo='cadastro') → proibido usar para outro fim"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Sites, apps, e-commerces e sistemas que guardam dados de clientes.",
+      "Formulários de cadastro, cookies, contratos e políticas de privacidade."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO DO DADO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Empresa pede consentimento com finalidade clara",
+      "PASSO 2: Dado é usado só para o que foi combinado",
+      "PASSO 3: Dado é descartado quando não é mais necessário"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que aceitar termos genéricos vale para qualquer uso futuro.",
+      "Guardar dados 'para sempre' gera multa da ANPD."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Consentimento ➔ Uso com finalidade ➔ Descarte ou multa da ANPD"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Governança",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "Consentimento, finalidade, descarte de dados e multas da ANPD"
+}

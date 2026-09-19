@@ -1,0 +1,64 @@
+{
+  "id": 327,
+  "title": "O QUE É CI/CD?",
+  "definition": "É uma esteira automática que testa e publica seu código toda vez que você faz um git push.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Em vez de testar e publicar na mão, um robô faz isso pra você a cada mudança."
+    ]
+  },
+  "topRight": {
+    "pill": "CI vs CD",
+    "icon": "🖥️",
+    "bullets": [
+      "CI (Integração Contínua): junta e testa o código de todo mundo o tempo todo.",
+      "CD (Entrega/Deploy Contínuo): coloca esse código testado no ar automaticamente."
+    ]
+  },
+  "midRight": {
+    "pill": "PIPELINE (ESTEIRA)",
+    "icon": "{ }",
+    "bullets": [
+      "É um arquivo de configuração que descreve os passos da esteira.",
+      "on: push > jobs: [testar, buildar, publicar]"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Times que lançam atualizações várias vezes por dia sem medo de quebrar tudo.",
+      "Ferramentas: GitHub Actions, GitLab CI, Jenkins, CircleCI."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você faz 'git push' com sua alteração no código",
+      "PASSO 2: A esteira roda os testes automáticos e verifica se nada quebrou",
+      "PASSO 3: Se passou tudo, o código é publicado direto no ar"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que CI/CD substitui testes bem escritos: sem teste bom, a esteira não protege nada.",
+      "Ignorar um pipeline 'vermelho' (falhou) e continuar codando por cima."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "git push ➔ testes automáticos ➔ código no ar sem esforço manual"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "CI/CD",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Testando e publicando código automaticamente a cada git push"
+}

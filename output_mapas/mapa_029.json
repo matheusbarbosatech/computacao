@@ -1,0 +1,63 @@
+{
+  "id": 29,
+  "title": "ESCOPO DE VARIÁVEIS",
+  "definition": "Escopo é o território onde uma variável existe e pode ser usada.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Cada variável tem um 'território' onde ela é conhecida e existe."
+    ]
+  },
+  "topRight": {
+    "pill": "LOCAL VS GLOBAL",
+    "icon": "🖥️",
+    "bullets": [
+      "Local: só vive dentro da função onde nasceu, como um quarto trancado.",
+      "Global: vive na casa toda, qualquer função pode acessar."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Variável criada dentro de função = local, some quando a função termina.",
+      "x = 10 (fora) é global; def f(): y = 5 (dentro) é local."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Controlar dados sem bagunçar o programa todo.",
+      "Presente em Python, JavaScript, Java, C++ e quase toda linguagem."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: A variável é criada em um lugar (dentro ou fora de função)",
+      "PASSO 2: O programa verifica quem pode 'ver' essa variável",
+      "PASSO 3: Só o território correto consegue usá-la"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Tentar usar variável local fora da função e dar erro de 'não existe'.",
+      "Dica: prefira variáveis locais, globais viram bagunça em projetos grandes."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Onde nasce ➔ define quem vê ➔ evita conflito de nomes"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Lógica",
+  "foco_pedagogico": "Variáveis locais vs variáveis globais"
+}

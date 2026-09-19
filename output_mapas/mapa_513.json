@@ -1,0 +1,64 @@
+{
+  "id": 513,
+  "title": "GRAPHQL VS REST: OVER-FETCHING E UNDER-FETCHING",
+  "definition": "É a diferença entre pedir um cardápio fixo (REST) e montar seu próprio pedido (GraphQL).",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "No GraphQL, você pede só os campos que precisa, numa única chamada."
+    ]
+  },
+  "topRight": {
+    "pill": "OVER-FETCHING E UNDER-FETCHING",
+    "icon": "🖥️",
+    "bullets": [
+      "REST devolve dados demais (over) ou de menos, exigindo várias chamadas (under).",
+      "GraphQL evita os dois problemas com uma resposta sob medida."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Você escreve uma query listando só os campos desejados.",
+      "query { usuario { nome, email } }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Apps mobile que precisam economizar dados e bateria.",
+      "GitHub API, Shopify, Facebook."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Cliente envia uma query dizendo o que quer",
+      "PASSO 2: Servidor lê a query e busca só esses campos",
+      "PASSO 3: Resposta volta exata, sem excesso nem falta"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que GraphQL substitui banco de dados, ele só organiza a busca.",
+      "Dica: comece com queries simples antes de aninhar muitos dados."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Pedido específico ➔ Uma chamada única ➔ Resposta sem desperdício"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Microsserviços",
+  "escola": "04_backend_e_apis",
+  "foco_pedagogico": "O cliente requisita exatamente os campos de que precisa em uma única chamada"
+}

@@ -1,0 +1,65 @@
+{
+  "id": 584,
+  "title": "CTEs RECURSIVAS: CONSULTANDO ESTRUTURAS EM ÁRVORE E HIERARQUIAS",
+  "definition": "Uma CTE Recursiva é uma consulta SQL que repete a si mesma para navegar por dados conectados em camadas, como chefes e subordinados.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Imagine uma árvore genealógica: você começa pelo avô e vai descendo até o último neto — tudo em uma única busca automática."
+    ]
+  },
+  "topRight": {
+    "pill": "ÂNCORA + RECURSÃO",
+    "icon": "🖥️",
+    "bullets": [
+      "A ÂNCORA é o ponto de partida: o chefe máximo ou a categoria raiz.",
+      "A RECURSÃO é o motor que repete a busca, descendo um nível a cada volta."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "WITH RECURSIVE nome_cte AS ( ... ) é o comando mágico que inicia tudo.",
+      "Dentro dele: uma query âncora + UNION ALL + query recursiva que referencia a própria CTE."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Organogramas de empresa: do CEO até os estagiários em uma tacada só.",
+      "Categorias de produtos: categoria mãe e todas as subcategorias filhas e netas.",
+      "Disponível em PostgreSQL, MySQL 8+, SQL Server, Oracle e SQLite."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: A query ÂNCORA localiza o ponto de partida (ex.: o presidente da empresa).",
+      "PASSO 2: A RECURSÃO junta cada registro encontrado com seus filhos diretos na tabela.",
+      "PASSO 3: O UNION ALL empilha os resultados, e o ciclo repete até não haver mais filhos."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Loop infinito: sem condição de parada, a consulta nunca termina e estoura o limite do banco.",
+      "Dica de ouro: sempre teste antes com LIMIT 50 e verifique se a coluna de ligação (parent_id) tem índices."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Âncora (raiz) ➔ UNION ALL + Recursão (descida nível a nível) ➔ Toda a hierarquia em uma única consulta."
+    ]
+  },
+  "_modelo_usado": "devworld/deepseek-v4-pro-0813-f",
+  "modulo": "SQL Avançado",
+  "escola": "06_banco_dados_e_ia",
+  "foco_pedagogico": "Mapeando chefes e subordinados ou categorias pai e filho em uma única query"
+}

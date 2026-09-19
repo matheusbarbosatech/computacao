@@ -1,0 +1,63 @@
+{
+  "id": 68,
+  "title": "POR QUE OS ÍNDICES COMEÇAM EM 0?",
+  "definition": "O índice não conta posições, ele mede a distância (deslocamento) até o item na memória.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Índice 0 significa 'zero passos de distância do início'."
+    ]
+  },
+  "topRight": {
+    "pill": "DESLOCAMENTO DE MEMÓRIA",
+    "icon": "🖥️",
+    "bullets": [
+      "Cada item fica guardado em um endereço fixo na memória RAM.",
+      "O índice é multiplicado pelo tamanho do item para achar o endereço."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "endereco = inicio + (indice * tamanho_do_item)",
+      "lista[0] ➔ inicio + (0 * tamanho) = o próprio início"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Arrays e listas em C, Python, Java, JavaScript.",
+      "Ponteiros de memória em C e C++."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: A lista guarda o endereço inicial na memória.",
+      "PASSO 2: O índice calcula quantos 'saltos' dar a partir dali.",
+      "PASSO 3: O computador soma e chega direto no item certo."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que índice 1 é o 'primeiro' item, e travar em erros de posição.",
+      "Dica de ouro: pense em índice como distância, não como contagem."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Endereço inicial ➔ Soma o deslocamento ➔ Acha o item na hora"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Coleções",
+  "foco_pedagogico": "Deslocamento de memória física desde o início"
+}

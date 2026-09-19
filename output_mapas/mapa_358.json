@@ -1,0 +1,64 @@
+{
+  "id": 358,
+  "title": "SSRF (SERVER-SIDE REQUEST FORGERY)",
+  "definition": "É enganar o servidor para ele mesmo fazer pedidos perigosos que o atacante não conseguiria fazer direto.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "O servidor vira um 'mensageiro' que o hacker controla para entregar cartas em lugares proibidos."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O SERVIDOR CAI NA ARMADILHA",
+    "icon": "🖥️",
+    "bullets": [
+      "App aceita uma URL do usuário e busca o conteúdo dela sem checar.",
+      "Servidor confia demais e visita endereços internos escondidos."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Campo de 'importar imagem por URL' é a porta de entrada clássica.",
+      "fetch(url_do_usuario) sem validar destino"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO (PELO ATACANTE)",
+    "icon": "</>",
+    "bullets": [
+      "Roubar credenciais de metadados da AWS/Azure/GCP.",
+      "Escanear e acessar sistemas internos que não têm IP público."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Atacante envia uma URL maliciosa no campo do app",
+      "PASSO 2: Servidor faz a requisição em nome do atacante",
+      "PASSO 3: Resposta interna (senha, token) volta pra tela do atacante"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que bloquear só 'localhost' resolve (esquece IPv6, redirects, DNS).",
+      "Esquecer que a nuvem tem um endereço de metadados tipo 169.254.169.254."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "URL maliciosa ➔ Servidor busca por você ➔ Segredos internos expostos"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "OWASP",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "Manipulando o servidor web para atacar a rede interna e metadados da nuvem"
+}

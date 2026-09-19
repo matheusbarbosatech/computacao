@@ -1,0 +1,63 @@
+{
+  "id": 35,
+  "title": "INTERROMPENDO LOOPS COM BREAK",
+  "definition": "Break é o botão de emergência que para o laço na hora, mesmo que ele não tenha terminado.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Imagine correr numa pista e alguém gritar 'PARE AGORA'. Isso é o break."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O COMPUTADOR AGE",
+    "icon": "🖥️",
+    "bullets": [
+      "Ao encontrar break, o computador ignora o resto do loop imediatamente.",
+      "Ele sai do laço e continua no código depois dele."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Break só funciona dentro de loops (for, while).",
+      "if (numero == 7) { break; }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Parar busca ao achar o item procurado numa lista.",
+      "Usado em Python, Java, C, JavaScript e quase toda linguagem."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O loop está rodando normalmente",
+      "PASSO 2: Uma condição especial é atendida",
+      "PASSO 3: O break dispara e o loop encerra na hora"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Colocar break fora do loop causa erro no código.",
+      "Dica de ouro: use break só quando quiser sair antes da hora."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Condição especial ➔ break ativado ➔ loop encerrado na hora"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Lógica",
+  "foco_pedagogico": "Saída de emergência imediata do laço"
+}

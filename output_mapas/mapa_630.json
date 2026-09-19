@@ -1,0 +1,65 @@
+{
+  "id": 630,
+  "title": "EMBEDDINGS VETORIAIS: TEXTO E IMAGEM EM NÚMEROS",
+  "definition": "Embedding é traduzir texto ou imagem em uma lista de números que guarda o significado daquilo.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Transformar significado em números que o computador consegue medir e comparar."
+    ]
+  },
+  "topRight": {
+    "pill": "ESPAÇO VETORIAL",
+    "icon": "🖥️",
+    "bullets": [
+      "Cada palavra ou imagem vira uma seta com centenas de coordenadas.",
+      "Coisas com sentido parecido ficam vizinhas nesse mapa gigante."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "A regra é simples: entra texto ou imagem, sai uma lista de números.",
+      "embed(\"gato\") ➔ [0.12, -0.45, 0.88, ...]"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Busca por sentido, chatbots, recomendação de filmes e busca de imagens.",
+      "OpenAI Embeddings, Sentence Transformers, Faiss, Pinecone."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O texto é cortado em pedaços pequenos chamados tokens.",
+      "PASSO 2: O modelo calcula um número para cada uma das centenas de dimensões.",
+      "PASSO 3: Sai um vetor único que resume o significado daquele conteúdo.",
+      "PASSO 4: Comparar distâncias entre vetores revela o que é parecido com o quê."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que cada número tem sentido sozinho: o significado está no conjunto todo.",
+      "Normalize os vetores antes de comparar, senão o tamanho do texto engana a conta."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Significado ➔ Lista de números ➔ Medir distância ➔ Achar o mais parecido"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "IA Generativa",
+  "escola": "06_banco_dados_e_ia",
+  "foco_pedagogico": "Mapeando significado semântico em um espaço de centenas de dimensões"
+}

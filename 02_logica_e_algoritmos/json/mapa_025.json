@@ -1,0 +1,63 @@
+{
+  "id": 25,
+  "title": "MÚLTIPLOS CAMINHOS: ELSE IF",
+  "definition": "É uma fila de perguntas: o computador testa uma por uma até achar a verdadeira.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Quando existem 3 ou mais opções, não basta um simples sim ou não."
+    ]
+  },
+  "topRight": {
+    "pill": "ENCADEAMENTO",
+    "icon": "🖥️",
+    "bullets": [
+      "Cada 'else if' só é testado se o anterior foi falso.",
+      "Assim que uma condição é verdadeira, as outras são ignoradas."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "if, depois else if, depois else no final.",
+      "if (nota>=9) {'A'} else if (nota>=7) {'B'} else {'C'}"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Classificar notas, faixas de idade, categorias de preço.",
+      "Usado em JavaScript, Python (elif), Java, C#."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Testa a primeira condição (if)",
+      "PASSO 2: Se falsa, testa a próxima (else if), e assim por diante",
+      "PASSO 3: Executa o bloco da primeira condição verdadeira e para"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Colocar condições na ordem errada muda o resultado final.",
+      "Esquecer o 'else' final deixa casos sem resposta."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Pergunta 1 falsa ➔ tenta pergunta 2 ➔ acerta e para na certa"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Lógica",
+  "foco_pedagogico": "Encadeamento de alternativas"
+}

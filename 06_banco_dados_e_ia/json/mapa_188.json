@@ -1,0 +1,63 @@
+{
+  "id": 188,
+  "title": "TRANSAÇÕES NO BANCO: O CONCEITO ACID",
+  "definition": "ACID garante que operações no banco de dados aconteçam de forma segura, mesmo se algo der errado no meio do caminho.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É um combo de 4 regras que protegem seus dados de bagunça ou perda."
+    ]
+  },
+  "topRight": {
+    "pill": "AS 4 LETRAS DO ACID",
+    "icon": "🖥️",
+    "bullets": [
+      "Atomicidade: tudo ou nada, sem meio termo.",
+      "Consistência, Isolamento e Durabilidade completam a proteção."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Transação agrupa comandos em um bloco só.",
+      "BEGIN; UPDATE conta SET saldo... ; COMMIT;"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Sistemas bancários, e-commerce e qualquer app que move dinheiro.",
+      "Bancos como PostgreSQL, MySQL e Oracle."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Transação começa (BEGIN) e reúne as operações",
+      "PASSO 2: Banco checa regras e isola de outras transações",
+      "PASSO 3: Se tudo certo, salva pra sempre (COMMIT); senão, desfaz (ROLLBACK)"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer o COMMIT deixa a transação pendurada.",
+      "Achar que Isolamento significa 'sem conexão com o banco'."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Operação inicia ➔ Passa pelas 4 regras ACID ➔ Dado salvo com segurança"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "BancoDados",
+  "foco_pedagogico": "Atomicidade, Consistência, Isolamento e Durabilidade"
+}

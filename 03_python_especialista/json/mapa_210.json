@@ -1,0 +1,64 @@
+{
+  "id": 210,
+  "title": "GERADORES (YIELD) E ECONOMIA DE MEMÓRIA",
+  "definition": "Geradores entregam um item por vez, em vez de criar tudo de uma vez na memória.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como uma torneira: a água sai conforme você precisa, não enche a caixa toda antes."
+    ]
+  },
+  "topRight": {
+    "pill": "LISTA vs GERADOR",
+    "icon": "🖥️",
+    "bullets": [
+      "Lista guarda tudo na RAM de uma vez, mesmo sem usar.",
+      "Gerador guarda só a 'receita' e calcula item por item."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "yield pausa a função e devolve um valor, sem perder o lugar.",
+      "def contar(): yield 1; yield 2; yield 3"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Ler arquivos gigantes linha por linha sem travar o programa.",
+      "Python (yield), streams em Node.js, cursors de banco de dados."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você chama a função geradora, mas nada é executado ainda",
+      "PASSO 2: A cada next(), ela roda até o yield e pausa lá",
+      "PASSO 3: Devolve o item, guarda a memória da pausa e espera o próximo pedido"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Gerador só pode ser percorrido uma vez, depois ele 'acaba'.",
+      "Achar que list(gerador) economiza memória: na verdade recria tudo."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Milhões de registros ➔ yield entrega um por vez ➔ RAM nunca estoura"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Python Básico",
+  "escola": "03_python_especialista",
+  "foco_pedagogico": "Processando milhões de registros sob demanda sem estourar a RAM"
+}

@@ -1,0 +1,63 @@
+{
+  "id": 109,
+  "title": "PILAR 4: POLIMORFISMO",
+  "definition": "É dar o mesmo comando para objetos diferentes e cada um responder do seu próprio jeito.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Uma única ordem, muitas formas de obedecer, cada objeto reage à sua maneira."
+    ]
+  },
+  "topRight": {
+    "pill": "MUITAS FORMAS",
+    "icon": "🖥️",
+    "bullets": [
+      "O sistema decide na hora qual versão do método rodar.",
+      "Cada classe filha reescreve o comportamento herdado."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Classes diferentes implementam o mesmo método com nomes iguais.",
+      "animal.emitirSom() ➔ Cachorro late, Gato mia"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Sistemas com várias formas de pagamento, figuras geométricas, personagens de jogos.",
+      "Java, C#, Python, TypeScript usam isso o tempo todo."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você chama o mesmo comando em objetos diferentes",
+      "PASSO 2: O programa identifica de qual classe é cada objeto",
+      "PASSO 3: Cada um executa sua própria versão do comportamento"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que precisa de 'ifs' pra cada tipo, o polimorfismo elimina isso.",
+      "Confundir com herança, ela dá a base, ele dá a variação."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Mesmo comando ➔ Objetos diferentes ➔ Respostas diferentes"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "POO",
+  "foco_pedagogico": "O mesmo comando agindo de formas diferentes em classes distintas"
+}

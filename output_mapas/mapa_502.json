@@ -1,0 +1,65 @@
+{
+  "id": 502,
+  "title": "PATTERN CIRCUIT BREAKER (DISJUNTOR) COM RESILIENCE4J",
+  "definition": "É um disjuntor elétrico para chamadas de rede: corta o contato com um serviço que está falhando antes que ele derrube todo o sistema.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Se um serviço está caindo, pare de bater na porta dele e falhe rápido."
+    ]
+  },
+  "topRight": {
+    "pill": "3 ESTADOS DO DISJUNTOR",
+    "icon": "🖥️",
+    "bullets": [
+      "CLOSED: tudo normal, chamadas passam direto.",
+      "OPEN: muitos erros, chamadas são bloqueadas na hora.",
+      "HALF_OPEN: testa poucas chamadas pra ver se o serviço voltou."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Anota o método com @CircuitBreaker e define um nome de instância.",
+      "@CircuitBreaker(name = \"pagamentoService\", fallbackMethod = \"pagamentoFallback\")"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Microsserviços que dependem de APIs externas instáveis.",
+      "Java com Spring Boot + Resilience4j, muito comum em sistemas bancários."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Chamadas falham repetidas vezes, ultrapassando o limite configurado.",
+      "PASSO 2: Disjuntor abre (OPEN) e bloqueia novas chamadas por um tempo.",
+      "PASSO 3: Depois do tempo, testa de novo (HALF_OPEN) e decide: fecha ou abre outra vez."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer o fallbackMethod e a aplicação quebra com exceção feia.",
+      "Dica de ouro: sempre defina um plano B (fallback) simples e rápido."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Serviço falha demais ➔ Disjuntor abre ➔ Sistema continua vivo com fallback."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Microsserviços",
+  "escola": "04_backend_e_apis",
+  "foco_pedagogico": "Cortando chamadas a serviços caídos para não contaminar o sistema inteiro"
+}

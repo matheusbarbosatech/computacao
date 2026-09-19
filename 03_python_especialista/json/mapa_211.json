@@ -1,0 +1,66 @@
+{
+  "id": 211,
+  "title": "TRATAMENTO DE EXCEÇÕES: TRY, EXCEPT, ELSE E FINALLY",
+  "definition": "É um colete à prova de balas para seu código: se algo der errado, o programa não morre, ele se defende.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Em vez de deixar o erro travar tudo, você prepara um 'plano B' com antecedência."
+    ]
+  },
+  "topRight": {
+    "pill": "EXCEÇÃO",
+    "icon": "🖥️",
+    "bullets": [
+      "É o nome técnico para 'erro que acontece durante a execução'.",
+      "O Python cria um objeto de erro e para tudo, a menos que você intercepte."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "try: código arriscado que pode falhar.",
+      "except Erro: o que fazer se falhar.",
+      "else: só roda se NÃO deu erro.",
+      "finally: roda sempre, com ou sem erro."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Ler arquivos, conectar a bancos de dados, pedir dados ao usuário.",
+      "Toda linguagem tem isso: Python (except), Java/JS (catch)."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Python tenta rodar o código dentro do try.",
+      "PASSO 2: Se der erro, pula direto pro except certo.",
+      "PASSO 3: finally executa no final, aconteça o que acontecer."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Usar 'except:' vazio esconde TODOS os erros, até os que você não previu.",
+      "Ouro: sempre capture o erro específico, ex: except ValueError."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Código arriscado ➔ Erro é capturado ➔ Programa continua vivo"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Python Básico",
+  "escola": "03_python_especialista",
+  "foco_pedagogico": "Como blindar o script para nunca fechar inesperadamente na cara do usuário"
+}

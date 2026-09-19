@@ -1,0 +1,64 @@
+{
+  "id": 693,
+  "title": "GESTÃO DE TEMPO PARA DEVS: POMODORO E BLOCOS DE FOCO PROFUNDO",
+  "definition": "Técnicas que protegem sua atenção para você codificar sem interrupções e entrar no estado de flow.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Sua atenção é como um músculo: ou você treina e protege, ou perde para distrações e notificações o dia todo."
+    ]
+  },
+  "topRight": {
+    "pill": "POMODORO",
+    "icon": "🍅",
+    "bullets": [
+      "25 minutos de foco total, seguidos de 5 minutos de descanso — um ciclo curto e vencedor.",
+      "Depois de 4 ciclos, tire uma pausa longa de 15 a 30 minutos para recarregar de verdade."
+    ]
+  },
+  "midRight": {
+    "pill": "REGRAS DO BLOCO PROFUNDO",
+    "icon": "{ }",
+    "bullets": [
+      "Reserve 60 a 120 minutos na agenda como compromisso inegociável — sem email, sem chat, sem celular.",
+      "exemplo: 'Seg a Sex, 08h-10h = Deep Work. Slack e WhatsApp só depois das 10h.'"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Sessões de codificação intensa, debugging complexo, estudo de nova tecnologia ou refatoração de legado.",
+      "Ferramentas: Pomodoro Timer, Forest App, Toggl Track, modo Foco do macOS/iOS."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Elimine interrupções — feche abas, silencie o celular e avise o time que você está em foco.",
+      "PASSO 2: Escolha UMA tarefa clara e mergulhe nela sem trocar de contexto — profundidade, não quantidade.",
+      "PASSO 3: Ao terminar o bloco, anote o que avançou e revise — o progresso visível alimenta a motivação."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Checar o celular 'só um minutinho' quebra o flow e custa 23 minutos para retomar o foco profundo.",
+      "Dica de ouro: comece com blocos curtos de 30 min e vá alongando — o cérebro se adapta como um músculo."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Pomodoro (25+5 min) ➔ Ritmo leve e constante ➔ Deep Work (60 a 120 min) ➔ Mergulho total no código ➔ Resultado: mais entregas, menos estresse."
+    ]
+  },
+  "_modelo_usado": "devworld/deepseek-v4-pro-0813-f",
+  "modulo": "Mentalidade",
+  "escola": "02_logica_e_algoritmos",
+  "foco_pedagogico": "Protegendo sua atenção contra interrupções para produzir em estado de flow"
+}

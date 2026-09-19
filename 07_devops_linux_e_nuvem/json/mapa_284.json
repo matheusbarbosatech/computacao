@@ -1,0 +1,64 @@
+{
+  "id": 284,
+  "title": "A ARQUITETURA DOCKER: DAEMON, CLI E REGISTRIES",
+  "definition": "Docker é um sistema onde você dá ordens e um 'gerente' invisível executa tudo nos bastidores.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Você não fala direto com os containers, fala com um gerente que cuida deles pra você."
+    ]
+  },
+  "topRight": {
+    "pill": "DOCKER DAEMON",
+    "icon": "🖥️",
+    "bullets": [
+      "É o processo de fundo que realmente cria, roda e apaga os containers.",
+      "Fica sempre ligado esperando ordens, como um funcionário de plantão."
+    ]
+  },
+  "midRight": {
+    "pill": "CLI (CLIENTE)",
+    "icon": "{ }",
+    "bullets": [
+      "É o terminal onde você digita os comandos do dia a dia.",
+      "docker run nginx"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Em servidores, notebooks de dev e pipelines de CI/CD.",
+      "Docker Hub, GitHub Container Registry, AWS ECR."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você digita um comando no CLI (ex: docker run)",
+      "PASSO 2: O CLI envia esse pedido pro Daemon via API",
+      "PASSO 3: O Daemon busca a imagem no Registry e cria o container"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que o comando roda 'na sua máquina': ele roda onde o Daemon está.",
+      "Esquecer que sem Daemon ligado, nenhum comando funciona."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Você digita (CLI) ➔ Daemon executa ➔ Registry fornece as imagens"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Docker",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "O cliente enviando comandos para o daemon que gerencia os containers"
+}

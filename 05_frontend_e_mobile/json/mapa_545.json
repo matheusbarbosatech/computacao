@@ -1,0 +1,64 @@
+{
+  "id": 545,
+  "title": "BUILD E PUBLICAÇÃO: GERANDO APK, AAB E IPA PARA AS LOJAS",
+  "definition": "Build é transformar seu código em um arquivo instalável; publicar é entregar esse arquivo assinado para a loja.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Seu código é a receita; o build é o pacote fechado que o celular consegue instalar."
+    ]
+  },
+  "topRight": {
+    "pill": "APK, AAB E IPA",
+    "icon": "🖥️",
+    "bullets": [
+      "APK é o instalável Android; AAB é o pacote que o Google Play adapta por aparelho.",
+      "IPA é o instalável do iPhone, gerado no Xcode e enviado para a App Store."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Assinatura digital é um selo de identidade: prova que o app é realmente seu.",
+      "Exemplo: flutter build appbundle --release --split-debug-info"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Todo lançamento de app passa por build, assinatura e envio para a loja.",
+      "Android usa keystore (.jks); Apple usa certificado e provisioning profile."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Criar a chave de assinatura e guardá-la em local muito seguro",
+      "PASSO 2: Gerar o build de release (APK, AAB ou IPA) já assinado",
+      "PASSO 3: Subir na loja, preencher a ficha e aguardar a revisão"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Perder a keystore: sem ela você nunca mais atualiza o app na Play Store.",
+      "Apple cobra conta de desenvolvedor e reprova app sem política de privacidade."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Código pronto ➔ Build assinado ➔ Lojas aprovam ➔ Usuário instala"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Flutter",
+  "escola": "05_frontend_e_mobile",
+  "foco_pedagogico": "Assinatura de certificados e regras da Google Play Store e Apple App Store"
+}

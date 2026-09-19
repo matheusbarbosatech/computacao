@@ -1,0 +1,64 @@
+{
+  "id": 463,
+  "title": "LISKOV SUBSTITUTION PRINCIPLE (LSP)",
+  "definition": "Se um filho não se comporta como a mãe, ele não devia ser filho dela no código.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Toda classe filha deve poder substituir a classe mãe sem quebrar nada."
+    ]
+  },
+  "topRight": {
+    "pill": "SUBSTITUIÇÃO SEGURA",
+    "icon": "🖥️",
+    "bullets": [
+      "O programa usa a mãe, mas recebe o filho, e tudo continua funcionando.",
+      "Se o filho muda o comportamento esperado, ele quebra o contrato."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Filho não pode restringir o que a mãe promete fazer.",
+      "class Retangulo { area() } / class Quadrado extends Retangulo"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Herança de classes em Java, C#, PHP e Python.",
+      "Frameworks que usam interfaces e polimorfismo."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Programa espera um objeto do tipo mãe",
+      "PASSO 2: Você entrega um objeto filho no lugar",
+      "PASSO 3: Tudo deve funcionar igual, sem surpresas"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Clássico erro: Quadrado herdar de Retangulo e quebrar o setLargura.",
+      "Dica de ouro: se precisa checar 'if é filho X' no código, o LSP já quebrou."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Classe mãe ➔ Classe filha no lugar ➔ Programa continua funcionando igual"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Arquitetura",
+  "escola": "04_backend_e_apis",
+  "foco_pedagogico": "Classes filhas devem poder substituir a classe mãe sem quebrar o programa"
+}

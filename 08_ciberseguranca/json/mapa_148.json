@@ -1,0 +1,65 @@
+{
+  "id": 148,
+  "title": "CRIPTOGRAFIA SIMÉTRICA VS ASSIMÉTRICA",
+  "definition": "É o jeito de embaralhar informação para só quem tem a chave certa conseguir ler.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Simétrica usa 1 chave secreta igual para trancar e destrancar.",
+      "Assimétrica usa 2 chaves diferentes: uma pública, uma privada."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO FUNCIONA CADA UMA",
+    "icon": "🖥️",
+    "bullets": [
+      "Simétrica: rápida, mas as duas partes precisam combinar a mesma chave antes.",
+      "Assimétrica: a chave pública tranca, só a privada destranca."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "RSA gera 2 chaves matemáticas ligadas entre si.",
+      "encrypt(msg, chavePublica) e decrypt(msg, chavePrivada)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Simétrica: AES protege arquivos e conexões rápidas.",
+      "Assimétrica (RSA): HTTPS, assinatura digital, PIX, e-mail seguro."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você recebe a chave pública de alguém.",
+      "PASSO 2: Usa essa chave pública para trancar a mensagem.",
+      "PASSO 3: Só a chave privada da pessoa abre a mensagem."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que a chave pública também serve para destrancar (não serve).",
+      "Confundir: assimétrica é mais segura para compartilhar, mas mais lenta."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "1 chave secreta ➔ rápido e simples ➔ bom para dados locais",
+      "2 chaves (pública/privada) ➔ seguro na internet ➔ bom para comunicação"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Segurança",
+  "foco_pedagogico": "Chave secreta vs par de chaves pública/privada (RSA)"
+}

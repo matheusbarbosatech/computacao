@@ -1,0 +1,65 @@
+{
+  "id": 399,
+  "title": "DEEPFAKES, IA MALICIOSA E CLONAGEM DE VOZ",
+  "definition": "É usar inteligência artificial para criar vídeos, áudios ou imagens falsas que parecem 100% reais.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "A IA aprende seu rosto ou voz e cria uma versão falsa idêntica.",
+      "É a mentira ficando indistinguível da verdade."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO A IA FAZ ISSO",
+    "icon": "🖥️",
+    "bullets": [
+      "Ela treina com fotos, vídeos ou áudios reais da pessoa.",
+      "Depois gera novo conteúdo imitando padrões de voz e rosto."
+    ]
+  },
+  "midRight": {
+    "pill": "ENGENHARIA SOCIAL 2.0",
+    "icon": "{ }",
+    "bullets": [
+      "Antes: golpista fingia ser alguém por texto ou ligação estranha.",
+      "voz_clonada = ligação('mãe em perigo, preciso de PIX')"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Golpes de falso sequestro e falsos chefes pedindo transferências.",
+      "Ferramentas: ElevenLabs, DeepFaceLab, apps de clonagem de voz."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "COMO O GOLPE FUNCIONA",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Golpista coleta áudios ou vídeos públicos da vítima ou de um parente.",
+      "PASSO 2: IA clona a voz ou rosto em minutos com poucos segundos de amostra.",
+      "PASSO 3: Vítima recebe ligação ou vídeo falso e é induzida a agir com urgência."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que 'ouvir a voz' é prova suficiente de identidade.",
+      "Ouro: sempre confirme por outro canal antes de agir com pressa."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Sua voz/rosto ➔ IA clona ➔ Golpe parece verdadeiro e urgente"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Ameaças",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "O novo patamar da engenharia social com inteligência artificial generativa"
+}

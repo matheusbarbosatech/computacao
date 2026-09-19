@@ -1,0 +1,63 @@
+{
+  "id": 149,
+  "title": "O QUE É INTELIGÊNCIA ARTIFICIAL E MACHINE LEARNING?",
+  "definition": "IA é ensinar o computador a agir com inteligência, e Machine Learning é ele aprender isso sozinho com dados.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Em vez de escrever toda regra à mão, você mostra exemplos e o computador aprende o padrão."
+    ]
+  },
+  "topRight": {
+    "pill": "REGRA À MÃO VS DADOS",
+    "icon": "🖥️",
+    "bullets": [
+      "Programação clássica: você escreve 'se isso, então aquilo' para tudo.",
+      "Machine Learning: você dá exemplos e o modelo descobre as regras."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Regra à mão: if temperatura > 30: dizer('está calor')",
+      "Com dados: modelo.treinar(exemplos_de_temperaturas_e_sensacoes)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Reconhecer fotos, recomendar vídeos, filtrar spam, prever vendas.",
+      "Ferramentas comuns: Python, bibliotecas como scikit-learn e TensorFlow."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você junta muitos exemplos (dados) do problema.",
+      "PASSO 2: O modelo estuda os exemplos e encontra padrões sozinho.",
+      "PASSO 3: Ele usa esse padrão para prever coisas novas."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que IA 'pensa' como humano; na verdade ela só reconhece padrões.",
+      "Dica de ouro: dados ruins geram previsões ruins, então cuide da qualidade dos exemplos."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Dados de exemplo ➔ Modelo aprende padrão ➔ Previsão sobre algo novo"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "IA",
+  "foco_pedagogico": "Programar regras à mão vs aprender a partir de dados"
+}

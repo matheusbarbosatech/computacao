@@ -1,0 +1,64 @@
+{
+  "id": 476,
+  "title": "PATTERN STRATEGY: TROCANDO ALGORITMOS EM TEMPO DE EXECUÇÃO",
+  "definition": "É um jeito de trocar o 'algoritmo' que resolve um problema sem reescrever o código que o usa.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Cada forma de calcular frete é uma 'receita' separada e intercambiável."
+    ]
+  },
+  "topRight": {
+    "pill": "STRATEGY PATTERN",
+    "icon": "🖥️",
+    "bullets": [
+      "O sistema escolhe qual receita usar só na hora de calcular.",
+      "Trocar a transportadora não altera o código do pedido."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Cada frete é uma classe com o mesmo método calcular().",
+      "carrinho.setFrete(new FreteSedex()); carrinho.calcular();"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "E-commerces com múltiplas transportadoras.",
+      "Java, C#, Python, JavaScript usam isso o tempo todo."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Cliente escolhe Sedex, PAC ou transportadora",
+      "PASSO 2: Sistema injeta a estratégia escolhida no cálculo",
+      "PASSO 3: O mesmo método retorna o valor certo do frete"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Continuar usando if/else grandes 'só pra garantir' anula o padrão.",
+      "Esqueça condições: todas as estratégias devem ter a mesma 'cara'."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Escolha do frete ➔ Troca a estratégia ➔ Cálculo certo sem if/else"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Patterns",
+  "escola": "04_backend_e_apis",
+  "foco_pedagogico": "Calculando frete por Sedex, PAC ou transportadora sem usar 10 if/elses"
+}

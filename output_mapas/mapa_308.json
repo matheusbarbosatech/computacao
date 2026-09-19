@@ -1,0 +1,64 @@
+{
+  "id": 308,
+  "title": "GERENCIAMENTO DE PACOTES K8S COM HELM",
+  "definition": "Helm é como uma loja de aplicativos para o Kubernetes: você instala sistemas inteiros com um comando.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Em vez de escrever dezenas de arquivos YAML na mão, você usa um 'pacote' pronto."
+    ]
+  },
+  "topRight": {
+    "pill": "CHART",
+    "icon": "🖥️",
+    "bullets": [
+      "Chart é o nome do pacote do Helm, tipo um instalador.",
+      "Guarda todos os arquivos e configurações prontas do app."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Sintaxe básica: helm install <nome> <chart>.",
+      "helm install meu-postgres bitnami/postgresql"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Instalar pilhas complexas como Prometheus, Grafana e Postgres em minutos.",
+      "Usado com repositórios como Bitnami e Artifact Hub."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você adiciona um repositório com 'helm repo add'.",
+      "PASSO 2: Roda 'helm install' escolhendo o chart desejado.",
+      "PASSO 3: O Helm cria todos os recursos no cluster automaticamente."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de rodar 'helm repo update' e instalar versão antiga.",
+      "Dica de ouro: use 'helm list' para ver o que já está instalado."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Chart pronto ➔ helm install ➔ Pilha inteira rodando no cluster"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Kubernetes",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Instalando pilhas inteiras (Prometheus, Postgres) com comandos helm install"
+}

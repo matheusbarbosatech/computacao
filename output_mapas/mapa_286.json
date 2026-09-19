@@ -1,0 +1,66 @@
+{
+  "id": 286,
+  "title": "COMANDOS BÁSICOS DOCKER: RUN, PS, STOP, START, RM E RMI",
+  "definition": "São os comandos do dia a dia para criar, ver, pausar e apagar containers, como controlar a vida de uma caixinha isolada.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Container é como uma caixa que nasce, vive, dorme e morre.",
+      "Cada comando controla uma fase dessa vida."
+    ]
+  },
+  "topRight": {
+    "pill": "CICLO DE VIDA",
+    "icon": "🖥️",
+    "bullets": [
+      "Container passa por: criado, rodando, parado e removido.",
+      "Docker guarda esse estado até você mandar apagar."
+    ]
+  },
+  "midRight": {
+    "pill": "SINTAXE DOS COMANDOS",
+    "icon": "{ }",
+    "bullets": [
+      "docker run <imagem> cria e inicia o container.",
+      "docker ps -a lista todos, rodando ou não.",
+      "docker stop/start/rm <id> controla ou apaga."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Testar apps sem sujar seu computador.",
+      "Usado em servidores, CI/CD e ambientes de desenvolvimento."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO DO DIA A DIA",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: docker run cria e liga o container",
+      "PASSO 2: docker ps mostra se está ativo ou parado",
+      "PASSO 3: docker stop/rm encerra e remove quando não precisa mais"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "docker ps sozinho só mostra containers ativos, use -a para ver todos.",
+      "docker rm falha se o container ainda estiver rodando, pare antes."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Criar (run) ➔ Verificar (ps) ➔ Parar/Ligar (stop/start) ➔ Apagar (rm/rmi)"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Docker",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "O ciclo de vida completo de um container no dia a dia"
+}

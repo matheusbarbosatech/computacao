@@ -1,0 +1,64 @@
+{
+  "id": 205,
+  "title": "CONJUNTOS (SETS) E OPERAÇÕES MATEMÁTICAS",
+  "definition": "Set é uma caixa que guarda itens únicos e apaga duplicatas automaticamente.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Um conjunto é como uma lista que odeia repetição e some com cópias."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O COMPUTADOR TRATA",
+    "icon": "🖥️",
+    "bullets": [
+      "Ao inserir um item repetido, o set simplesmente ignora e não guarda de novo.",
+      "Internamente usa uma tabela hash para checar duplicatas rapidamente."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Em Python: set([1,2,2,3]) vira {1,2,3} sem repetição.",
+      "uniao = a | b   inter = a & b   dif = a - b"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Remover emails duplicados, comparar listas de usuários, filtrar dados únicos.",
+      "Presente em Python, Java, JavaScript (Set), SQL (DISTINCT)."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você tem duas listas com itens repetidos misturados",
+      "PASSO 2: Converte cada lista em um set, duplicatas somem sozinhas",
+      "PASSO 3: Aplica união, interseção ou diferença para comparar os dois"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Set não guarda ordem, então não espere a sequência original de volta.",
+      "Confundir união (junta tudo) com interseção (só o que é comum) trava o raciocínio."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Lista com repetição ➔ vira Set ➔ Resultado só com itens únicos."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Python Básico",
+  "escola": "03_python_especialista",
+  "foco_pedagogico": "Removendo duplicatas automaticamente com união, interseção e diferença"
+}

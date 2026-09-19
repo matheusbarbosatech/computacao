@@ -1,0 +1,64 @@
+{
+  "id": 695,
+  "title": "CARREIRA EM Y: ESPECIALISTA TÉCNICO VS GESTOR DE EQUIPES",
+  "definition": "Depois do nível sênior, você escolhe entre se aprofundar em código e arquitetura ou liderar pessoas e processos.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "A carreira em Y abre dois caminhos de crescimento: um braço técnico (Staff/Arquiteto) e um braço de gestão (Engineering Manager). Ambos pagam bem e têm o mesmo peso na empresa. A escolha depende do que te dá energia no dia a dia."
+    ]
+  },
+  "topRight": {
+    "pill": "TRILHA TÉCNICA (STAFF)",
+    "icon": "🖥️",
+    "bullets": [
+      "Você resolve problemas complexos que ninguém mais consegue. É a referência técnica do time.",
+      "Foco em código, arquitetura, performance e mentorar tecnicamente sem chefiar ninguém."
+    ]
+  },
+  "midRight": {
+    "pill": "O QUE CADA TRILHA EXIGE",
+    "icon": "{ }",
+    "bullets": [
+      "Staff Engineer: amplitude de impacto além do seu time, influência sem autoridade, documentação impecável.",
+      "Engineering Manager: ter conversas difíceis, dar feedback, proteger o time e abrir mão do código no dia a dia."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE ISSO ACONTECE",
+    "icon": "</>",
+    "bullets": [
+      "Empresas como Google, Meta, Spotify e Nubank usam carreira em Y com trilhas paralelas.",
+      "Staff Engineer aparece em tech talks, decisões de arquitetura e design docs. Manager aparece em 1:1s e rituais ágeis."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "COMO DECIDIR (PASSO A PASSO)",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Pergunte-se: 'Prefiro passar o dia debugando um bug cascudo ou alinhando expectativas com stakeholders?'",
+      "PASSO 2: Teste os dois sabores. Seja tech lead por 6 meses. Depois faça mentoria intensa sem poder tocar no código.",
+      "PASSO 3: Escolha o caminho que te faz acordar com energia. Você pode trocar depois — não é prisão perpétua."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que Manager é 'promoção' e Staff é 'estagnação'. São carreiras paralelas, não hierárquicas.",
+      "Ir para gestão só pelo salário maior. Gerenciar pessoas sem vocação queima rápido e derruba o time."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Sênior consolidado ➔ Escolha entre Profundidade Técnica (Staff) ou Liderança de Pessoas (Manager) ➔ Ambos levam ao topo, sem atalhos."
+    ]
+  },
+  "_modelo_usado": "devworld/deepseek-v4-pro-0813-f",
+  "modulo": "Mentalidade",
+  "escola": "02_logica_e_algoritmos",
+  "foco_pedagogico": "Decidindo entre o caminho de Staff Engineer / Arquiteto ou Engineering Manager"
+}

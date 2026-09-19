@@ -1,0 +1,63 @@
+{
+  "id": 146,
+  "title": "TABELAS HASH (HASH MAPS)",
+  "definition": "É um armário mágico que guarda e acha qualquer item na mesma velocidade, não importa quantos itens existam.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Guarda pares 'chave e valor', como um nome e seu telefone."
+    ]
+  },
+  "topRight": {
+    "pill": "FUNÇÃO HASH",
+    "icon": "🖥️",
+    "bullets": [
+      "Transforma a chave num número usando uma fórmula matemática.",
+      "Esse número indica a gaveta exata onde o valor mora."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Cria e acessa direto pela chave, sem percorrer nada.",
+      "mapa['maria'] = '9999-0000'"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Bancos de dados, caches e dicionários de linguagens.",
+      "Python (dict), JavaScript (Object/Map), Java (HashMap)."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: A chave passa pela função hash",
+      "PASSO 2: A função gera um número de endereço",
+      "PASSO 3: O valor é lido ou salvo direto nesse endereço, em O(1)"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Chaves diferentes podem gerar o mesmo endereço (colisão).",
+      "Achar que é sempre O(1): com muitas colisões pode piorar."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Chave ➔ Função Hash ➔ Endereço direto ➔ Acesso instantâneo"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "UNINTER",
+  "foco_pedagogico": "Busca instantânea O(1) usando funções de espalhamento"
+}

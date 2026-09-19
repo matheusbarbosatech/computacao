@@ -1,0 +1,64 @@
+{
+  "id": 535,
+  "title": "SEO DINÂMICO E GERAÇÃO DE METATAGS COM GENERATEMETADATA",
+  "definition": "Fazer o Google e as redes sociais entenderem cada página do seu site automaticamente, como um carteiro que lê o endereço antes de entregar a carta.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Cada página do site ganha título, descrição e imagem personalizados sem você copiar e colar código em todas."
+    ]
+  },
+  "topRight": {
+    "pill": "OPENGRAPH & TWITTER CARDS",
+    "icon": "🖥️",
+    "bullets": [
+      "São cartões de visita digitais que Facebook, Twitter e WhatsApp leem para exibir a prévia bonita do link.",
+      "Sem eles, o compartilhamento fica pelado: só o link, sem imagem e sem descrição."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "A função generateMetadata() roda sozinha em cada página Next.js e devolve um objeto com title, description e imagens.",
+      "generateMetadata({ params }) ➔ return { title: 'Receita de Bolo', openGraph: { images: ['/bolo.jpg'] } }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Lojas virtuais que precisam de uma prévia diferente para cada produto compartilhado no WhatsApp.",
+      "Blogs, portfólios e landing pages feitos com Next.js 13+ (App Router)."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O visitante cola o link no WhatsApp ➔ a rede social bate na URL do seu site.",
+      "PASSO 2: O Next.js executa generateMetadata() com os dados daquela página específica (produto, artigo, perfil).",
+      "PASSO 3: Devolve título + descrição + imagem no formato OpenGraph ➔ a rede monta o card visual bonito."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de colocar openGraph.images e twitter.card no objeto de retorno: a prévia fica sem imagem.",
+      "Dica de ouro: teste sempre com o depurador oficial do Facebook (Sharing Debugger) e do Twitter (Card Validator) antes de publicar."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Página carrega ➔ generateMetadata() lê os dados ➔ monta OpenGraph + Twitter Card ➔ redes sociais exibem prévia bonita e clicável."
+    ]
+  },
+  "_modelo_usado": "devworld/deepseek-v4-pro-0813-f",
+  "modulo": "Next.js",
+  "escola": "05_frontend_e_mobile",
+  "foco_pedagogico": "Configurando OpenGraph e Twitter Cards perfeitos para redes sociais compartilharem"
+}

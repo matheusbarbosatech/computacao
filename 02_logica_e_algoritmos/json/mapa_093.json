@@ -1,0 +1,63 @@
+{
+  "id": 93,
+  "title": "OPERADOR SPREAD (...)",
+  "definition": "Uma forma de 'espalhar' os itens de uma lista ou objeto para fora dela, um por um.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como despejar o conteúdo de uma caixa na mesa, item por item."
+    ]
+  },
+  "topRight": {
+    "pill": "CLONAGEM SEGURA",
+    "icon": "🖥️",
+    "bullets": [
+      "Cria uma cópia nova, separada da original.",
+      "Mudar a cópia não afeta o item original."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Três pontinhos antes da variável espalham os valores.",
+      "let copia = [...listaOriginal];"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Muito comum em JavaScript e React.",
+      "Copiar arrays, objetos ou juntar listas."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você tem uma lista ou objeto original",
+      "PASSO 2: O spread espalha cada item pra fora",
+      "PASSO 3: Os itens são recolhidos numa cópia nova"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Confundir spread com apenas copiar a referência antiga.",
+      "Dica: spread só copia um nível de profundidade."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Lista original ➔ Espalha com ... ➔ Cópia independente"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Coleções",
+  "foco_pedagogico": "Espalhando e clonando listas e objetos sem alterar o original"
+}

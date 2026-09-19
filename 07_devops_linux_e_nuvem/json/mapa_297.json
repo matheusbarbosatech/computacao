@@ -1,0 +1,73 @@
+{
+  "id": 297,
+  "title": "INTRODUÇÃO AO KUBERNETES: POR QUE ORQUESTRAÇÃO?",
+  "definition": "Kubernetes é o maestro que organiza containers para funcionarem sozinhos, sem parar.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Imagine um restaurante com garçom robô cuidando de tudo sem parar."
+    ]
+  },
+  "topRight": {
+    "pill": "ORQUESTRAÇÃO",
+    "icon": "🖥️",
+    "bullets": [
+      "Kubernetes gerencia vários containers como uma orquestra gerencia músicos.",
+      "Ele decide onde cada app roda e quando trocar."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Você descreve o 'estado desejado', não os comandos manuais.",
+      "kubectl scale deployment app --replicas=5"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Empresas com apps que não podem cair, tipo bancos e streamings.",
+      "Ferramentas: Docker, EKS, GKE, AKS."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Um container trava ou morre",
+      "PASSO 2: Kubernetes percebe e cria outro igual na hora",
+      "PASSO 3: App continua no ar sem ninguém notar"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que Kubernetes substitui o código, ele só organiza a execução.",
+      "Dica: pense nele como 'piloto automático', não como o carro."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Falha detectada ➔ Auto-cura ativa ➔ App nunca cai"
+    ]
+  },
+  "extraTopics": {
+    "pill": "TRIO DE PODERES",
+    "icon": "🩹",
+    "bullets": [
+      "AUTO-CURA: se um container morre, outro nasce sozinho no lugar.",
+      "ESCALABILIDADE HORIZONTAL: muita gente acessando? Kubernetes cria mais cópias do app.",
+      "BALANCEAMENTO DE CARGA: distribui os pedidos entre as cópias, ninguém sobrecarrega."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Kubernetes",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Auto-cura, escalabilidade horizontal e balanceamento automático de carga"
+}

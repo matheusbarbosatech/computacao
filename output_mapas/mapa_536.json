@@ -1,0 +1,64 @@
+{
+  "id": 536,
+  "title": "A FILOSOFIA DO FLUTTER: TUDO É UM WIDGET",
+  "definition": "No Flutter, cada pedacinho da tela — texto, botão, margem, animação — é um Widget. Até o próprio app é um Widget.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Tudo o que você vê e toca na tela é um Widget. Eles se encaixam como peças de LEGO para formar a interface inteira."
+    ]
+  },
+  "topRight": {
+    "pill": "SKIA / IMPELLER",
+    "icon": "🖥️",
+    "bullets": [
+      "O Flutter não usa os botões nativos do sistema. Ele desenha cada pixel sozinho com um motor gráfico — Skia (ou Impeller, a evolução dele).",
+      "É como um pintor que ignora os adesivos prontos e pinta a tela inteira à mão, pixel por pixel, a 60 ou 120 quadros por segundo."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Tudo começa com build(). Cada Widget tem um método build() que devolve uma árvore de outros Widgets.",
+      "Exemplo: MaterialApp(home: Scaffold(body: Center(child: Text('Olá'))))"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Apps Android, iOS, Web, Windows, macOS e Linux — todos com o mesmo código.",
+      "Instagram, Google Pay, Nubank e BMW usam Flutter para ter pixel-perfect em todas as plataformas."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você escreve a árvore de Widgets (Text, Row, Container...).",
+      "PASSO 2: O Flutter transforma isso em uma árvore de Elementos e depois em Objetos de Renderização.",
+      "PASSO 3: O Skia/Impeller pega esses objetos e DESENHA cada pixel direto na tela — sem ponte com botão nativo, sem gambiarra."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que Widget é só 'componente visual'. No Flutter, Padding e Center também são Widgets — Widgets invisíveis moldam o layout.",
+      "Dica de ouro: Pense sempre em árvore (pai e filhos). Se algo não aparece, cheque se o filho está dentro do espaço do pai."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Widget (LEGO) ➔ Árvore de Renderização ➔ Skia/Impeller desenha pixel por pixel na tela nativa, sem depender do sistema operacional."
+    ]
+  },
+  "_modelo_usado": "devworld/deepseek-v4-pro-0813-f",
+  "modulo": "Flutter",
+  "escola": "05_frontend_e_mobile",
+  "foco_pedagogico": "O motor Skia/Impeller que desenha pixel por pixel na tela nativa"
+}

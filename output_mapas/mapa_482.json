@@ -1,0 +1,64 @@
+{
+  "id": 482,
+  "title": "TRATAMENTO GLOBAL DE EXCEÇÕES COM @CONTROLLERADVICE",
+  "definition": "É um 'guarda-chuva' que pega todos os erros da API e transforma em respostas organizadas e amigáveis.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Em vez de cada função tratar seu próprio erro, um lugar único cuida de tudo."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O SISTEMA LIDA",
+    "icon": "🖥️",
+    "bullets": [
+      "Quando algo quebra, o Spring intercepta antes de virar uma tela feia.",
+      "Ele redireciona o erro para essa classe central de tratamento."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "@ExceptionHandler dentro da classe diz qual erro capturar.",
+      "@ControllerAdvice class GlobalHandler { }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "APIs REST em Java com Spring Boot.",
+      "Muito comum em backends de e-commerce e apps mobile."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Uma exceção acontece em algum lugar do sistema",
+      "PASSO 2: O @ControllerAdvice captura e identifica o tipo de erro",
+      "PASSO 3: Ele devolve um JSON padronizado e educado ao cliente"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de tratar exceções genéricas e deixar erro cru vazar.",
+      "Dica de ouro: sempre defina uma resposta padrão para 'erro desconhecido'."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Erro acontece ➔ ControllerAdvice intercepta ➔ Cliente recebe resposta clara"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Java/Spring",
+  "escola": "04_backend_e_apis",
+  "foco_pedagogico": "Padronizando respostas de erro amigáveis para o cliente da API"
+}

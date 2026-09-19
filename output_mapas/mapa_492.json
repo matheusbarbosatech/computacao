@@ -1,0 +1,65 @@
+{
+  "id": 492,
+  "title": "NESTJS: ARQUITETURA MODULAR COM DECORATORS",
+  "definition": "NestJS organiza seu back-end em Node.js com peças conectadas, do jeito que o Angular faz no front-end.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Cada parte do sistema tem uma função clara e separada, como setores de uma empresa."
+    ]
+  },
+  "topRight": {
+    "pill": "CONTROLLERS, SERVICES E MODULES",
+    "icon": "🖥️",
+    "bullets": [
+      "Controller recebe o pedido do cliente, tipo um recepcionista.",
+      "Service faz o trabalho pesado, tipo o funcionário especialista.",
+      "Module agrupa tudo relacionado, tipo um departamento."
+    ]
+  },
+  "midRight": {
+    "pill": "DECORATORS E INJEÇÃO",
+    "icon": "{ }",
+    "bullets": [
+      "Decorators são etiquetas que dizem o papel de cada classe.",
+      "@Controller('users') @Injectable() constructor(private service: UserService)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "APIs robustas para empresas, bancos e e-commerces grandes.",
+      "Usado com TypeScript, Express ou Fastify por baixo."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Requisição chega no Controller (a porta de entrada)",
+      "PASSO 2: Controller chama o Service (o motor da lógica)",
+      "PASSO 3: Service devolve o resultado e a resposta volta ao cliente"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de registrar o Service no Module e ele não funcionar.",
+      "Dica: sempre importe e declare providers dentro do @Module certo."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Controller recebe ➔ Service processa ➔ Module organiza tudo junto"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Node/Nest",
+  "escola": "04_backend_e_apis",
+  "foco_pedagogico": "Controllers, Services, Modules e Injeção de Dependência enterprise em Node"
+}

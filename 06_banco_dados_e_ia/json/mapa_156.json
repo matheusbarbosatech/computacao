@@ -1,0 +1,63 @@
+{
+  "id": 156,
+  "title": "CHAVE ESTRANGEIRA (FOREIGN KEY)",
+  "definition": "É uma coluna que liga uma tabela a outra, como uma ponte entre duas informações relacionadas.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Uma tabela aponta para a chave primária de outra tabela, criando uma ligação."
+    ]
+  },
+  "topRight": {
+    "pill": "CHAVE PRIMÁRIA X ESTRANGEIRA",
+    "icon": "🖥️",
+    "bullets": [
+      "Chave primária é o RG único de cada linha da tabela.",
+      "Chave estrangeira é a cópia desse RG guardada em outra tabela."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Definida com FOREIGN KEY apontando para a tabela original.",
+      "FOREIGN KEY (cliente_id) REFERENCES clientes(id)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Em bancos relacionais como MySQL, PostgreSQL e SQL Server.",
+      "Sistemas de pedidos, cadastros e relatórios que cruzam dados."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Tabela A tem uma chave primária (o ID único).",
+      "PASSO 2: Tabela B guarda esse ID como chave estrangeira.",
+      "PASSO 3: O banco liga as linhas das duas tabelas automaticamente."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Tentar excluir um registro que ainda está sendo referenciado dá erro.",
+      "Dica: sempre confira as ligações antes de deletar dados."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Tabela A tem ID ➔ Tabela B guarda esse ID ➔ Dados ficam conectados."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "BancoDados",
+  "foco_pedagogico": "A ponte que liga duas tabelas"
+}

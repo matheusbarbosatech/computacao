@@ -1,0 +1,63 @@
+{
+  "id": 90,
+  "title": "A PALAVRA RESERVADA THIS",
+  "definition": "This é a forma que um objeto usa para falar 'eu mesmo' dentro do seu próprio código.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "This aponta para o objeto que está executando o código naquele momento."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO FUNCIONA",
+    "icon": "🖥️",
+    "bullets": [
+      "Cada objeto tem seu próprio this, como cada pessoa tem seu próprio 'eu'.",
+      "O valor de this muda dependendo de quem chamou a função."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Dentro de um método, this acessa os dados do próprio objeto.",
+      "this.nome = 'Ana'; this.idade = 20;"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Muito usado em construtores para guardar dados do objeto criado.",
+      "Presente em Java, JavaScript, Python (como self), C#."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Um objeto é criado a partir de uma classe.",
+      "PASSO 2: Um método do objeto é chamado.",
+      "PASSO 3: This dentro do método aponta de volta para esse objeto específico."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Confundir this com o nome da classe, mas this é sempre o objeto atual.",
+      "Em JavaScript, this pode mudar de valor dependendo de como a função é chamada."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Objeto criado ➔ This aponta pra ele ➔ Acessa seus próprios dados"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Coleções",
+  "foco_pedagogico": "Como o objeto faz referência a si mesmo"
+}

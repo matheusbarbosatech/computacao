@@ -1,0 +1,63 @@
+{
+  "id": 31,
+  "title": "O LOOP ENQUANTO (WHILE)",
+  "definition": "É um comando que repete uma tarefa enquanto uma condição continuar verdadeira.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como dizer: continue fazendo isso enquanto a situação não mudar."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O COMPUTADOR PENSA",
+    "icon": "🖥️",
+    "bullets": [
+      "Ele testa a condição antes de cada repetição.",
+      "Se der falso, ele sai do loop imediatamente."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "A condição fica entre parênteses, o bloco entre chaves.",
+      "while (numero < 5) { numero++; }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Esperar uma senha correta ou validar uma entrada do usuário.",
+      "Usado em JavaScript, Python, Java, C e quase toda linguagem."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Verifica se a condição é verdadeira",
+      "PASSO 2: Se sim, executa o bloco de código",
+      "PASSO 3: Volta e testa a condição de novo"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de mudar a variável causa um loop infinito.",
+      "Sempre garanta que algo dentro do loop leve a condição a ficar falsa."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Condição verdadeira ➔ Repete a ação ➔ Para quando vira falsa"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Lógica",
+  "foco_pedagogico": "Repita enquanto a condição continuar verdadeira"
+}

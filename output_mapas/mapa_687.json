@@ -1,0 +1,65 @@
+{
+  "id": 687,
+  "title": "COMO FAZER PERGUNTAS TÉCNICAS NO STACK OVERFLOW E AOS COLEGAS",
+  "definition": "Perguntar bem é entregar contexto, mostrar o que já tentou e um exemplo mínimo que qualquer pessoa consiga rodar.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Pergunta boa não pede resposta pronta: ela entrega o problema já organizado.",
+      "Quem responde gasta menos tempo, entende mais rápido e ajuda com prazer."
+    ]
+  },
+  "topRight": {
+    "pill": "O QUE O OUTRO PRECISA SABER",
+    "icon": "🖥️",
+    "bullets": [
+      "Contexto: linguagem, versão, sistema, objetivo real e o erro exato que aparece.",
+      "Tentativa: o que você testou, o que esperava e o que veio no lugar."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Cole o menor trecho que reproduz o erro, sem partes irrelevantes do projeto.",
+      "Exemplo: TypeError: cannot read property 'nome' of undefined"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Stack Overflow, GitHub Issues, Discord, Slack do time e code review.",
+      "Serve para Python, JavaScript, SQL, Docker e qualquer outra ferramenta."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Escreva o objetivo e o erro em uma única frase clara.",
+      "PASSO 2: Mostre o que já tentou e o exemplo mínimo reproduzível.",
+      "PASSO 3: Formate o código, revise e só então envie a pergunta."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Erro clássico: escrever 'não funciona, me ajudem' sem código nem versão.",
+      "Dica de ouro: cole o texto do erro, nunca uma foto da tela."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Contexto claro ➔ Tentativa + exemplo mínimo ➔ Resposta rápida e certeira"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Mentalidade",
+  "escola": "02_logica_e_algoritmos",
+  "foco_pedagogico": "Apresentando o contexto, o que você já tentou e exemplos mínimos reproduzíveis"
+}

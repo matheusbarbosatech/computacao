@@ -1,0 +1,64 @@
+{
+  "id": 546,
+  "title": "CSS GRID AVANÇADO: ÁREAS NOMEADAS (GRID-TEMPLATE-AREAS)",
+  "definition": "Um jeito de desenhar o layout inteiro da página como um mapa em texto, dando nome a cada bloco.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Em vez de calcular posições, você desenha o layout com nomes, como um mapa."
+    ]
+  },
+  "topRight": {
+    "pill": "ÁREAS NOMEADAS",
+    "icon": "🖥️",
+    "bullets": [
+      "O navegador lê cada nome do mapa e reserva aquele bloco na tela.",
+      "Nomes iguais e vizinhos viram uma única área retangular."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Cada linha entre aspas é uma linha do desenho e cada palavra é uma célula.",
+      "grid-template-areas: \"topo topo\" \"menu conteudo\";"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Dashboards, painéis de admin e páginas com topo, menu lateral e rodapé.",
+      "Funciona em HTML e CSS puros, React, Vue ou qualquer framework."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Desenhe o mapa com nomes repetidos formando cada bloco.",
+      "PASSO 2: Ligue cada elemento usando grid-area com o nome dele.",
+      "PASSO 3: O navegador monta o layout igual ao seu desenho."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Nome no mapa sem elemento ligado deixa um buraco vazio na tela.",
+      "Área precisa ser retangular: formato em L ou quebrado dá erro."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Mapa em texto ➔ Nomes nas células ➔ Cada elemento encaixa no lugar certo."
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "CSS/Design",
+  "escola": "05_frontend_e_mobile",
+  "foco_pedagogico": "Desenhando layouts de dashboard inteiros como um mapa em texto"
+}

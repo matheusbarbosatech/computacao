@@ -1,0 +1,64 @@
+{
+  "id": 499,
+  "title": "APACHE KAFKA: STREAMING DE EVENTOS EM ALTA ESCALA",
+  "definition": "Kafka é um sistema que recebe, guarda e entrega milhões de mensagens por segundo, como um correio gigante e organizado.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Sistemas mandam eventos (mensagens) e outros sistemas leem depois, sem travar ninguém."
+    ]
+  },
+  "topRight": {
+    "pill": "TÓPICOS E PARTIÇÕES",
+    "icon": "🖥️",
+    "bullets": [
+      "Tópico é uma 'gaveta' de assuntos, tipo 'pedidos' ou 'pagamentos'.",
+      "Cada tópico se divide em partições para espalhar a carga entre máquinas."
+    ]
+  },
+  "midRight": {
+    "pill": "OFFSET",
+    "icon": "{ }",
+    "bullets": [
+      "Offset é o número da posição de cada mensagem dentro da partição.",
+      "consumer.seek(offset=1500)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Logs de apps, pedidos de e-commerce, sensores IoT em tempo real.",
+      "Usado por Netflix, Uber, LinkedIn e bancos digitais."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Produtor envia evento para um tópico",
+      "PASSO 2: Kafka distribui o evento entre partições",
+      "PASSO 3: Consumidores leem os eventos pelo offset salvo"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que Kafka apaga a mensagem depois de lida (ele mantém por um tempo).",
+      "Ordem só é garantida dentro da mesma partição, não no tópico todo."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Evento chega ➔ Kafka guarda em partição ➔ Consumidor lê pelo offset"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Microsserviços",
+  "escola": "04_backend_e_apis",
+  "foco_pedagogico": "Tópicos particionados, offsets e processamento distribuído de milhões de eventos por segundo"
+}

@@ -1,0 +1,63 @@
+{
+  "id": 30,
+  "title": "POR QUE USAMOS LOOPS?",
+  "definition": "Loop é uma forma de repetir uma tarefa várias vezes sem escrever o mesmo código de novo.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como dar a mesma instrução repetida vezes, sem precisar falar de novo."
+    ]
+  },
+  "topRight": {
+    "pill": "SEM LOOP É RUIM",
+    "icon": "🖥️",
+    "bullets": [
+      "Sem loop, você copia e cola a mesma linha várias vezes.",
+      "Isso deixa o código enorme e fácil de errar."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Repete um bloco enquanto uma condição for verdadeira.",
+      "for i in range(5): print(i)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Enviar 1000 e-mails, listar produtos, animar um jogo.",
+      "Presente em Python, JavaScript, Java, C entre outras."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O computador checa a condição do loop",
+      "PASSO 2: Se for verdadeira, executa o bloco de código",
+      "PASSO 3: Volta ao início até a condição virar falsa"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de atualizar a condição cria um loop infinito.",
+      "Dica: sempre garanta que algo mude a cada repetição."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Tarefa repetitiva ➔ Loop repete automaticamente ➔ Código curto e limpo"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Lógica",
+  "foco_pedagogico": "O poder de repetir instruções sem duplicar código"
+}

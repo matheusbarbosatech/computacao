@@ -1,0 +1,65 @@
+{
+  "id": 672,
+  "title": "COMO FUNCIONA A VALIDAÇÃO DE CPF E CARTÃO DE CRÉDITO (ALGORITMO DE LUHN)",
+  "definition": "São contas matemáticas simples que geram dígitos verificadores capazes de detectar erros de digitação em números longos.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Todo número longo termina com dígitos extras calculados a partir dos outros.",
+      "Se alguém troca um dígito, a conta deixa de fechar e o sistema recusa."
+    ]
+  },
+  "topRight": {
+    "pill": "DÍGITOS VERIFICADORES",
+    "icon": "🖥️",
+    "bullets": [
+      "O computador recalcula o último dígito usando todos os anteriores.",
+      "Se o resultado não bater com o informado, o dado é inválido."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Luhn: dobre cada segundo dígito da direita para a esquerda e some tudo.",
+      "soma % 10 == 0"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Validação de CPF, CNPJ, cartões, boletos e códigos de barras.",
+      "Aparece em Python, JavaScript, Java e SQL, em qualquer cadastro."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Separe os dígitos informados dos dígitos verificadores",
+      "PASSO 2: Recalcule a conta com pesos e o resto da divisão por 11",
+      "PASSO 3: Compare os resultados; se batem, o número é válido"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "CPF com todos os dígitos iguais engana contas mal feitas.",
+      "Luhn só diz se o número é bem formado, não se o cartão existe."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Dígitos informados ➔ Conta com pesos ➔ Dígito verificador ➔ Número válido"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Mundo Real",
+  "escola": "02_logica_e_algoritmos",
+  "foco_pedagogico": "Os dígitos verificadores matemáticos que detectam digitações incorretas"
+}

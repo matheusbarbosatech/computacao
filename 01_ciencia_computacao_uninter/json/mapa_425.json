@@ -1,0 +1,66 @@
+{
+  "id": 425,
+  "title": "ALGORITMOS DE ESCALONAMENTO DE CPU: FCFS, SJF E ROUND ROBIN",
+  "definition": "São regras que o sistema operacional usa para decidir qual tarefa usa a CPU a seguir.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "A CPU é um caixa único e várias tarefas fazem fila para ser atendidas."
+    ]
+  },
+  "topRight": {
+    "pill": "OS 3 ALGORITMOS",
+    "icon": "🖥️",
+    "bullets": [
+      "FCFS: atende quem chegou primeiro, sem interromper.",
+      "SJF: atende primeiro a tarefa mais rápida de terminar.",
+      "Round Robin: cada tarefa ganha um tempinho fixo e depois passa a vez."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Round Robin usa um 'quantum' de tempo fixo por tarefa.",
+      "if (tempo_usado >= quantum) { troca_de_tarefa(); }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Dentro do escalonador do sistema operacional (Linux, Windows).",
+      "Também aparece em filas de impressão e atendimento de servidores."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Tarefas chegam e entram na fila de espera.",
+      "PASSO 2: O algoritmo escolhe a próxima com base na sua regra (ordem, duração ou tempo fixo).",
+      "PASSO 3: A CPU executa essa tarefa até ela terminar ou o tempo acabar."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "FCFS pode deixar tarefa rápida esperando atrás de uma lenta demais.",
+      "SJF pode fazer tarefa longa nunca ser escolhida, ela 'morre de fome'.",
+      "Dica de ouro: Round Robin evita fome porque todo mundo ganha sua vez."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Tarefas chegam ➔ Regra decide a ordem ➔ CPU executa sem deixar ninguém esquecido."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "SO",
+  "escola": "01_ciencia_computacao_uninter",
+  "foco_pedagogico": "Como o sistema decide quem ganha a CPU a seguir para evitar que tarefas morram de fome"
+}

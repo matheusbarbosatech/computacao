@@ -1,0 +1,64 @@
+{
+  "id": 484,
+  "title": "TESTES DE INTEGRAÇÃO COM SPRING BOOT TEST E TESTCONTAINERS",
+  "definition": "É testar sua aplicação usando um banco de dados real, criado e destruído automaticamente dentro de um container Docker.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Em vez de simular o banco, você usa um Postgres verdadeiro só para o teste."
+    ]
+  },
+  "topRight": {
+    "pill": "TESTCONTAINERS",
+    "icon": "🖥️",
+    "bullets": [
+      "Biblioteca que liga um Docker container antes do teste começar.",
+      "Ela apaga o container sozinha quando o teste termina."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Anote a classe com @Testcontainers e @Container.",
+      "@Container static PostgreSQLContainer<> postgres = new PostgreSQLContainer<>(\"postgres:16\");"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Testes de integração de repositórios e serviços com JPA.",
+      "Java com Spring Boot, JUnit 5 e Docker instalado na máquina."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: JUnit inicia e o Testcontainers sobe o container Postgres no Docker",
+      "PASSO 2: Spring Boot conecta nesse banco real usando a URL gerada",
+      "PASSO 3: Teste roda, valida os dados e o container é destruído no final"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de ter o Docker rodando na máquina trava todos os testes.",
+      "Não usar @DynamicPropertySource faz o Spring tentar o banco errado."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Docker sobe Postgres ➔ Spring conecta nele ➔ Teste vira 100% realista"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Java/Spring",
+  "escola": "04_backend_e_apis",
+  "foco_pedagogico": "Subindo um banco Postgres real em container Docker durante a suíte de testes"
+}

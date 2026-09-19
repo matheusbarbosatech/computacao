@@ -1,0 +1,64 @@
+{
+  "id": 613,
+  "title": "O CICLO DE VIDA DE UM PROJETO DE CIÊNCIA DE DADOS (CRISP-DM)",
+  "definition": "CRISP-DM é um roteiro de 6 etapas que guia um projeto de dados do início ao fim, como uma receita de bolo bem explicada.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Ciência de Dados não é só fazer gráfico bonito — é resolver problemas reais de negócio com dados e colocar a solução para rodar no mundo real."
+    ]
+  },
+  "topRight": {
+    "pill": "ENTENDIMENTO DO NEGÓCIO",
+    "icon": "🖥️",
+    "bullets": [
+      "É a fase onde você pergunta: 'Qual dor da empresa queremos curar?'",
+      "Ex: Reduzir cancelamento de clientes em 15% ou prever demanda de estoque."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "As 6 fases viram um loop contínuo: negócio → dados → preparação → modelagem → avaliação → implantação.",
+      "fluxo_crisp_dm = [\"Negócio\", \"Dados\", \"Preparação\", \"Modelagem\", \"Avaliação\", \"Implantação\"]"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Empresas de todos os tamanhos usam CRISP-DM: bancos, varejo, saúde, logística.",
+      "Ferramentas: Python (Pandas, Scikit-learn), R, plataformas Cloud como AWS e Azure."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Entender o problema de negócio e definir metas claras e mensuráveis.",
+      "PASSO 2: Coletar, explorar e limpar os dados — aqui se gasta 70% do tempo.",
+      "PASSO 3: Criar, testar e validar o modelo. Depois, colocar em produção para gerar valor."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Pular a fase de entender o negócio e sair modelando — receita para projeto inútil.",
+      "Dica de ouro: valide o modelo com quem entende do problema, não só com métricas matemáticas."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Problema de negócio claro ➔ Dados limpos e bem entendidos ➔ Modelo testado e aprovado ➔ Valor real entregue em produção."
+    ]
+  },
+  "_modelo_usado": "devworld/deepseek-v4-pro-0813-f",
+  "modulo": "Machine Learning",
+  "escola": "06_banco_dados_e_ia",
+  "foco_pedagogico": "Do entendimento do problema de negócio até o modelo gerando valor em produção"
+}

@@ -1,0 +1,64 @@
+{
+  "id": 409,
+  "title": "RELATÓRIO DE PENTEST: DA FALHA TÉCNICA AO PREJUÍZO REAL",
+  "definition": "É transformar uma falha de segurança em um número de risco financeiro que a diretoria entende.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Diretor não entende 'XSS', mas entende 'prejuízo de R$ 2 milhões'."
+    ]
+  },
+  "topRight": {
+    "pill": "TRADUÇÃO DE RISCO",
+    "icon": "🖥️",
+    "bullets": [
+      "Cada falha técnica ganha um valor: multa, prejuízo ou parada do sistema.",
+      "Severidade técnica (alta/média/baixa) vira prioridade de investimento."
+    ]
+  },
+  "midRight": {
+    "pill": "FÓRMULA DO RISCO",
+    "icon": "{ }",
+    "bullets": [
+      "Risco = Chance do ataque acontecer x Custo do estrago.",
+      "risco = probabilidade * impacto_financeiro"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Reuniões de board, auditorias e definição de orçamento de segurança.",
+      "Bancos, e-commerce, hospitais e seguradoras."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO DO RELATÓRIO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Time técnico encontra a falha e mede sua gravidade.",
+      "PASSO 2: Especialista converte a falha em prejuízo, multa ou parada.",
+      "PASSO 3: Diretoria decide investir em correção ou aceitar o risco."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Erro: falar de CVSS e jargão técnico sem mostrar o custo real.",
+      "Dica de ouro: comece pelo prejuízo, não pela falha."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Falha técnica ➔ Tradução em dinheiro e reputação ➔ Decisão da diretoria."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Laboratório",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "Traduzindo termos técnicos em impacto financeiro e risco de reputação"
+}

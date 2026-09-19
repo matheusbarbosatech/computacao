@@ -1,0 +1,70 @@
+{
+  "id": 533,
+  "title": "SERVER ACTIONS NO NEXT.JS: MUTANDO DADOS SEM CRIAR ROTAS DE API",
+  "definition": "Server Actions são funções que rodam no servidor e podem ser chamadas direto pelo formulário, sem criar rota de API.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Imagine enviar um formulário que chama uma função do servidor como se fosse um botão comum.",
+      "Você escreve a função no servidor e o Next.js cria a ponte de rede automaticamente para você."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O SERVIDOR FUNCIONA",
+    "icon": "🖥️",
+    "bullets": [
+      "O Next.js gera sozinho um endpoint interno e o navegador chama essa função por baixo dos panos.",
+      "A função roda no servidor, acessa banco de dados e segredos com segurança, longe do navegador.",
+      "O resultado volta atualizado para a tela sem você escrever fetch nem montar resposta JSON."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Escreva a diretiva use server no topo do arquivo ou dentro da função assíncrona.",
+      "async function salvar(formData) { await db.inserir(formData.get('nome')) } ➜ função do servidor",
+      "No formulário use action={salvar} ➜ o envio vira chamada direta para essa função assíncrona.",
+      "Todo Server Action recebe FormData e sempre deve ser uma função async."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Perfeito para criar, editar e deletar dados em formulários, curtidas, carrinhos e comentários.",
+      "Funciona com Next.js App Router, React 19 e ferramentas como Prisma, Drizzle e Supabase.",
+      "Substitui muitas rotas POST antigas, deixando o projeto menor e mais fácil de manter."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O usuário preenche o formulário e clica em enviar no navegador.",
+      "PASSO 2: O navegador manda os dados direto para a função assíncrona no servidor.",
+      "PASSO 3: A função valida, salva no banco e o Next.js atualiza a tela com o novo resultado."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Erro clássico: esquecer use server ou não deixar a função async, e o código quebra.",
+      "Nunca confie nos dados do formulário: valide sempre no servidor antes de salvar.",
+      "Dica de ouro: teste o retorno e mostre mensagem de erro clara, senão parece que travou."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Função no servidor ➔ formulário chama direto ➔ dados salvos sem criar rota de API."
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Next.js",
+  "escola": "05_frontend_e_mobile",
+  "foco_pedagogico": "Enviando formulários diretamente para funções assíncronas do servidor"
+}

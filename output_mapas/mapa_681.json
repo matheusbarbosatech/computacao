@@ -1,0 +1,65 @@
+{
+  "id": 681,
+  "title": "A NAVALHA DE OCCAM NA PROGRAMAÇÃO: A SOLUÇÃO MAIS SIMPLES",
+  "definition": "Entre duas soluções que funcionam, escolha sempre a mais simples de entender e manter.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Se duas soluções resolvem o mesmo problema, fique com a que tem menos peças.",
+      "Menos código significa menos lugares para esconder erros."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO A MÁQUINA LIDA",
+    "icon": "🖥️",
+    "bullets": [
+      "O computador executa exatamente o que foi escrito, sem julgar elegância.",
+      "Código simples roda igual, mas gasta menos memória e menos tempo de leitura."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Regra: antes de criar uma classe nova, pergunte se uma função já resolve.",
+      "exemplo(codigo): soma = a + b vence uma fabrica de calculadoras."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Em revisões de código, ao decidir se vale adicionar mais uma camada.",
+      "Exemplos: funções puras em Python, JavaScript e scripts de automação."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Entenda o problema real e escreva o que precisa acontecer.",
+      "PASSO 2: Crie a menor solução possível e teste se ela funciona de verdade.",
+      "PASSO 3: Só adicione complexidade quando um problema real aparecer."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Overengineering: criar dez arquivos para resolver algo de cinco linhas.",
+      "Dica de ouro: se não explicar em uma frase, está complexo demais."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Problema claro ➔ Solução mínima ➔ Código fácil de manter"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Mentalidade",
+  "escola": "02_logica_e_algoritmos",
+  "foco_pedagogico": "Evitando engenharia excessiva (Overengineering) e complexidade desnecessária"
+}

@@ -1,0 +1,65 @@
+{
+  "id": 650,
+  "title": "MERGE SORT: A ABORDAGEM DE DIVISÃO E CONQUISTA",
+  "definition": "Uma forma de ordenar que quebra a lista em pedaços minúsculos e depois junta tudo na ordem certa.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Divida a lista em duas metades e repita até sobrar um item só.",
+      "Um item sozinho já está ordenado; a mágica acontece ao juntar."
+    ]
+  },
+  "topRight": {
+    "pill": "RECURSÃO",
+    "icon": "🖥️",
+    "bullets": [
+      "O computador chama a mesma função para cada metade da lista.",
+      "As chamadas ficam empilhadas e são resolvidas de baixo para cima."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "A função divide, chama a si mesma e depois junta com o merge.",
+      "mergeSort(lista) -> merge(mergeSort(esq), mergeSort(dir))"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Ordenar grandes volumes de dados com tempo previsível e estável.",
+      "Linguagens: Python (sorted), Java e C++; base do sort() de várias libs."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Dividir a lista ao meio, sem parar de dividir.",
+      "PASSO 2: Comparar os pedaços e juntar sempre o menor primeiro.",
+      "PASSO 3: A lista volta completa e perfeitamente ordenada."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer a condição de parada gera loop infinito na recursão.",
+      "Não usar lista auxiliar na junção sobrescreve dados que ainda faltam."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Divida ➔ Junte ordenando ➔ Lista ordenada"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Algoritmos",
+  "escola": "02_logica_e_algoritmos",
+  "foco_pedagogico": "Dividindo a lista até o tamanho unitário e juntando os pedaços de forma ordenada"
+}

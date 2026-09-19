@@ -1,0 +1,64 @@
+{
+  "id": 224,
+  "title": "SCRAPING MODERNO COM PLAYWRIGHT PYTHON",
+  "definition": "É controlar um navegador de forma automática e invisível para coletar dados de sites rapidamente.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Um robô abre o site por você e já sabe esperar a página carregar antes de agir."
+    ]
+  },
+  "topRight": {
+    "pill": "AUTO-WAIT",
+    "icon": "🖥️",
+    "bullets": [
+      "Playwright espera o elemento existir e estar visível antes de clicar ou ler.",
+      "Evita erros de 'elemento não encontrado' comuns em scraping antigo."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Cria navegador, página e extrai texto com poucas linhas.",
+      "page.goto('url'); page.click('botao'); page.text_content('h1')"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Coleta de preços, monitoramento de sites e testes automatizados.",
+      "Usado com Python, mas também existe em JavaScript e outras linguagens."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Navegador headless abre a página escondido, sem interface visual",
+      "PASSO 2: Playwright intercepta requisições de rede e espera dados carregarem",
+      "PASSO 3: Os dados extraídos são salvos ou processados pelo seu script"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de fechar o navegador deixa processos travados na memória.",
+      "Dica de ouro: use 'with sync_playwright()' para fechar tudo automaticamente."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Página carrega ➔ Playwright espera e intercepta ➔ Dados são extraídos rápido"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Web Scraping",
+  "escola": "03_python_especialista",
+  "foco_pedagogico": "Automação headless ultrarrápida com auto-wait e interceptação de rede"
+}

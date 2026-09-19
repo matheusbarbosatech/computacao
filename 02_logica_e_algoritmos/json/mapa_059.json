@@ -1,0 +1,65 @@
+{
+  "id": 59,
+  "title": "TERMINAL: COMANDOS ESSENCIAIS",
+  "definition": "O terminal é uma forma de conversar com o computador digitando comandos em vez de clicar.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como dar ordens escritas para o computador em vez de usar o mouse."
+    ]
+  },
+  "topRight": {
+    "pill": "NAVEGAÇÃO DE PASTAS",
+    "icon": "🖥️",
+    "bullets": [
+      "'cd' muda de pasta, tipo entrar em uma gaveta.",
+      "'ls' (Mac/Linux) e 'dir' (Windows) mostram o que tem na pasta."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Comando + espaço + nome da pasta ou arquivo.",
+      "cd Documentos",
+      "mkdir NovaPasta",
+      "touch arquivo.txt"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Programadores usam o terminal todo dia para organizar projetos.",
+      "Ferramentas: CMD, PowerShell, Bash, Terminal do Mac."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Use 'ls' ou 'dir' para ver onde você está",
+      "PASSO 2: Use 'cd' para entrar em outra pasta",
+      "PASSO 3: Use 'mkdir' ou 'touch' para criar pastas e arquivos"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer que 'ls' é Mac/Linux e 'dir' é Windows.",
+      "Dica: se a tela ficar cheia de texto, use 'clear' para limpar."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Ver pasta (ls/dir) ➔ Entrar na pasta (cd) ➔ Criar algo (mkdir/touch)"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Ferramentas",
+  "foco_pedagogico": "cd, ls, dir, mkdir, clear, touch"
+}

@@ -1,0 +1,64 @@
+{
+  "id": 488,
+  "title": "MIDDLEWARES NO ASP.NET CORE: O PIPELINE DE REQUISIÇÕES",
+  "definition": "Middleware é uma peça que processa a requisição HTTP antes e depois de chegar no seu código.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Imagine uma esteira de fábrica: cada middleware é uma estação que a requisição atravessa."
+    ]
+  },
+  "topRight": {
+    "pill": "PIPELINE DE REQUISIÇÕES",
+    "icon": "🖥️",
+    "bullets": [
+      "O ASP.NET Core organiza os middlewares em fila, um chama o próximo.",
+      "Cada estação pode ler, alterar ou até bloquear a passagem."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Configurado no Program.cs, na ordem em que você escreve.",
+      "app.UseAuthentication(); app.UseAuthorization(); app.MapControllers();"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Logging, compressão de resposta e autenticação vivem dentro do pipeline.",
+      "Exemplos: Serilog, ResponseCompression, JWT Bearer, ASP.NET Identity."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Requisição entra e passa pelo Logging, que registra tudo.",
+      "PASSO 2: Compressão prepara a resposta e Autenticação confirma quem é o usuário.",
+      "PASSO 3: Endpoint responde e a resposta volta pela mesma esteira."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Ordem errada quebra o app: Autenticação sempre antes de Autorização.",
+      "Esquecer app.UseAuthentication() faz o usuário nunca ser reconhecido."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Requisição ➔ Passa pela esteira de middlewares ➔ Chega no endpoint ➔ Resposta volta"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": ".NET",
+  "escola": "04_backend_e_apis",
+  "foco_pedagogico": "Adicionando logging, compressão e autenticação na esteira HTTP"
+}

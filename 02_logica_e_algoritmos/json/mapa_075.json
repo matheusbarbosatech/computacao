@@ -1,0 +1,63 @@
+{
+  "id": 75,
+  "title": "MODIFICANDO NO MEIO COM SPLICE",
+  "definition": "Splice é a tesoura e a cola de um array: remove, adiciona ou troca itens em qualquer posição.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Splice edita o array direto no meio, sem precisar recriar tudo do zero."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO FUNCIONA",
+    "icon": "🖥️",
+    "bullets": [
+      "Você escolhe onde começar a cortar e quantos itens remover.",
+      "O array original é alterado na hora (mutação)."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "array.splice(posição, quantidadeRemover, novosItens...)",
+      "frutas.splice(1, 1, 'uva') troca o item da posição 1 por uva"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Editar listas de tarefas, remover item do carrinho de compras.",
+      "Muito usado em JavaScript com arrays."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Escolha a posição onde vai atuar no array",
+      "PASSO 2: Diga quantos itens quer remover dali",
+      "PASSO 3: Insira novos itens no lugar, se quiser"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Confundir splice com slice: splice altera, slice só copia.",
+      "Esquecer que splice muda o array original, cuidado!"
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Posição escolhida ➔ Remove ou insere itens ➔ Array modificado no lugar"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Coleções",
+  "foco_pedagogico": "Tirando ou substituindo itens em qualquer posição"
+}

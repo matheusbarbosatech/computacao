@@ -1,0 +1,63 @@
+{
+  "id": 189,
+  "title": "COMMIT E ROLLBACK",
+  "definition": "São comandos que confirmam para sempre suas alterações no banco ou desfazem tudo se algo der errado.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como salvar um jogo ou apertar Ctrl+Z em uma transação de banco de dados."
+    ]
+  },
+  "topRight": {
+    "pill": "TRANSAÇÃO",
+    "icon": "🖥️",
+    "bullets": [
+      "O banco guarda as mudanças em rascunho antes de gravar de verdade.",
+      "Nada vale oficialmente até você decidir o que fazer."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "COMMIT grava tudo de forma definitiva.",
+      "ROLLBACK volta o banco ao estado antes da mudança."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Transferências bancárias, cadastros e pedidos online.",
+      "Usado em SQL, MySQL, PostgreSQL, Oracle."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você começa uma transação e faz alterações",
+      "PASSO 2: O sistema verifica se tudo ocorreu sem erro",
+      "PASSO 3: Se ok, faz COMMIT. Se falhou, faz ROLLBACK"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer o COMMIT deixa a mudança presa e invisível para outros.",
+      "Dica de ouro: só faça COMMIT quando tiver certeza que está tudo certo."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Alteração ➔ Deu certo? ➔ COMMIT salva ou ROLLBACK desfaz"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "BancoDados",
+  "foco_pedagogico": "Confirmando alterações ou desfazendo tudo se der erro"
+}

@@ -1,0 +1,65 @@
+{
+  "id": 258,
+  "title": "PROGRAMAÇÃO ASSÍNCRONA COM ASYNCIO E ASYNC/AWAIT",
+  "definition": "É um jeito de fazer uma única thread cuidar de milhares de tarefas que ficam esperando resposta, sem travar.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Enquanto uma tarefa espera a internet responder, o programa cuida de outra."
+    ]
+  },
+  "topRight": {
+    "pill": "EVENT LOOP",
+    "icon": "🖥️",
+    "bullets": [
+      "Um 'garçom' único que anota pedidos e atende quem já ficou pronto.",
+      "Nunca fica parado esperando uma única mesa."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "async def cria uma função que pode pausar.",
+      "await pausa ali e libera o event loop pra outra tarefa.",
+      "asyncio.run(main())"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Baixar milhares de páginas ou APIs ao mesmo tempo.",
+      "Python (asyncio, aiohttp), JavaScript (Node.js), Web scrapers."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você dispara 1000 pedidos de rede de uma vez",
+      "PASSO 2: Cada um espera sua resposta sem bloquear os outros",
+      "PASSO 3: O event loop entrega os resultados conforme chegam"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer o await faz a tarefa nunca rodar de verdade.",
+      "Usar código bloqueante (ex: time.sleep) trava tudo, use asyncio.sleep."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Pedido feito ➔ Espera sem travar ➔ Milhares de respostas em paralelo"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Deploy Python",
+  "escola": "03_python_especialista",
+  "foco_pedagogico": "Executando milhares de requisições de rede em um único thread"
+}

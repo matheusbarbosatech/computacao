@@ -1,0 +1,67 @@
+{
+  "id": 659,
+  "title": "RECURSÃO VS ITERAÇÃO: O PERIGO DO STACK OVERFLOW",
+  "definition": "Recursão é uma função que chama a si mesma; cada chamada ocupa um pedaço da memória chamado pilha, e pilha cheia significa travamento.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Para resolver um problema grande, a função se divide em versões menores do mesmo problema.",
+      "Cada divisão vira uma nova chamada pendurada na anterior, esperando a resposta da de baixo."
+    ]
+  },
+  "topRight": {
+    "pill": "RECURSÃO E A PILHA",
+    "icon": "🖥️",
+    "bullets": [
+      "Cada chamada cria uma moldura nova na pilha de execução, com variáveis e endereço de retorno.",
+      "Pense em pratos empilhados: você só lava o de cima, e a pilha cresce a cada chamada."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Toda recursão precisa de um caso base que para a repetição, senão a pilha cresce para sempre.",
+      "exemplo(fatorial(n) { se n <= 1 retorne 1; retorne n * fatorial(n - 1) })",
+      "exemplo(iteracao: resultado = 1; para i de 2 ate n: resultado = resultado * i)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Recursão brilha em árvores, pastas, menus e buscas com divisão pela metade.",
+      "Exemplos: Python, Java, JavaScript usam recursão; loops usam for, while e do-while.",
+      "Iteração é a escolha segura para contagens longas e listas com milhões de itens."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: A função principal é chamada e recebe uma moldura na pilha de execução.",
+      "PASSO 2: Ela chama a si mesma e empilha uma nova moldura, repetindo até o caso base.",
+      "PASSO 3: As respostas voltam desempilhando; sem caso base, a pilha estoura e o programa cai."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer o caso base é o erro clássico: a função nunca para e derruba o programa.",
+      "Dica de ouro: diminua sempre o problema e teste com um número bem pequeno primeiro."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Chamada recursiva ➔ nova moldura na pilha ➔ pilha cheia ➔ Stack Overflow"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "LeetCode",
+  "escola": "02_logica_e_algoritmos",
+  "foco_pedagogico": "Como cada chamada de função consome um pedaço da pilha de execução da memória"
+}

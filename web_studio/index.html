@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estúdio de Mapas Mentais — Ciência da Computação UNINTER</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Kalam:wght@400;700&family=Patrick+Hand&family=JetBrains+Mono:wght@500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+  <style>
+    :root {
+      --bg-dark: #090d16;
+      --panel-bg: #131b2e;
+      --panel-border: #1e293b;
+      --accent: #38bdf8;
+      --accent-hover: #0ea5e9;
+      --text-main: #f1f5f9;
+      --text-muted: #94a3b8;
+
+      /* Cores Caneta Hidrográfica Sketchnote */
+      --purple-border: #7e22ce;
+      --purple-pill: #9333ea;
+      --purple-light: #f3e8ff;
+
+      --green-border: #15803d;
+      --green-pill: #16a34a;
+
+      --teal-border: #0f766e;
+      --teal-pill: #0d9488;
+
+      --blue-border: #1d4ed8;
+      --blue-pill: #2563eb;
+
+      --orange-border: #c2410c;
+      --orange-pill: #ea580c;
+
+      --red-border: #b91c1c;
+      --red-pill: #dc2626;
+
+      --amber-border: #b45309;
+      --amber-pill: #d97706;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg-dark);
+      color: var(--text-main);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow-x: hidden;
+    }
+
+    /* HEADER */
+    header {
+      background: var(--panel-bg);
+      border-bottom: 1px solid var(--panel-border);
+      padding: 12px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      z-index: 50;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .brand-icon {
+      font-size: 1.8rem;
+      background: rgba(56, 189, 248, 0.1);
+      border: 1px solid rgba(56, 189, 248, 0.3);
+      padding: 6px 10px;
+      border-radius: 10px;
+    }
+    .brand-text h1 {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: #fff;
+    }
+    .brand-text p {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+    }
+
+    .top-controls {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .model-badge {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(16, 185, 129, 0.1);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+      padding: 6px 12px;
+      border-radius: 8px;
+      font-size: 0.8rem;
+      color: #34d399;
+      font-weight: 600;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 9px 16px;
+      border-radius: 8px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+      border: none;
+      transition: all 0.2s;
+    }
+
+    .btn-primary {
+      background: #0284c7;
+      color: white;
+    }
+    .btn-primary:hover { background: #0369a1; }
+
+    .btn-success {
+      background: #059669;
+      color: white;
+    }
+    .btn-success:hover { background: #047857; }
+
+    .btn-secondary {
+      background: #1e293b;
+      color: #cbd5e1;
+      border: 1px solid #334155;
+    }
+    .btn-secondary:hover { background: #334155; }
+
+    .filter-chip {
+      background: #1e293b;
+      color: #94a3b8;
+      border: 1px solid #334155;
+      font-size: 0.72rem;
+      padding: 3px 8px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .filter-chip:hover {
+      background: #334155;
+      color: #fff;
+    }
+    .filter-chip.active {
+      background: rgba(56, 189, 248, 0.2);
+      border-color: #38bdf8;
+      color: #38bdf8;
+      font-weight: 700;
+    }
+
+    /* LAYOUT PRINCIPAL */
+    .app-layout {
+      display: flex;
+      flex: 1;
+      height: calc(100vh - 65px);
+      overflow: hidden;
+    }
+
+    /* BARRA LATERAL (TRILHA UNINTER) */
+    aside.sidebar {
+      width: 360px;
+      background: #0c1220;
+      border-right: 1px solid var(--panel-border);
+      display: flex;
+      flex-direction: column;
+      flex-shrink: 0;
+    }
+
+    .sidebar-header {
+      padding: 16px 20px;
+      border-bottom: 1px solid var(--panel-border);
+    }
+    .sidebar-header h2 {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: #e2e8f0;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .sidebar-header p {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      margin-top: 4px;
+    }
+
+    .topics-list {
+      flex: 1;
+      overflow-y: auto;
+      padding: 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .topic-item {
+      padding: 10px 14px;
+      border-radius: 8px;
+      background: rgba(30, 41, 59, 0.4);
+      border: 1px solid transparent;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .topic-item:hover {
+      background: rgba(56, 189, 248, 0.08);
+      border-color: rgba(56, 189, 248, 0.2);
+    }
+    .topic-item.active {
+      background: rgba(56, 189, 248, 0.15);
+      border-color: var(--accent);
+    }
+
+    .topic-title {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: #f1f5f9;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .topic-badge {
+      font-size: 0.7rem;
+      padding: 2px 6px;
+      border-radius: 4px;
+      background: #334155;
+      color: #94a3b8;
+    }
+    .topic-foco {
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      margin-top: 4px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    /* ÁREA DO CANVAS / VISUALIZADOR */
+    main.main-viewport {
+      flex: 1;
+      background: #060911;
+      overflow: auto;
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      position: relative;
+    }
+
+    /* BARRA DE AÇÃO DO TÓPICO ATUAL */
+    .action-bar {
+      width: 1200px;
+      max-width: 100%;
+      background: var(--panel-bg);
+      border: 1px solid var(--panel-border);
+      border-radius: 12px;
+      padding: 12px 20px;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .current-topic-info {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .topic-num {
+      background: #38bdf8;
+      color: #0f172a;
+      font-weight: 800;
+      padding: 4px 10px;
+      border-radius: 6px;
+      font-size: 0.85rem;
+    }
+    .topic-name {
+      font-weight: 700;
+      font-size: 1rem;
+    }
+
+    /* O MAPA MENTAL SKETCHNOTE (1200x800) */
+    .map-canvas-container {
+      width: 1200px;
+      height: 800px;
+      background: #ffffff;
+      border-radius: 16px;
+      box-shadow: 0 25px 60px -15px rgba(0,0,0,0.8);
+      position: relative;
+      overflow: hidden;
+      padding: 30px;
+      font-family: 'Kalam', cursive;
+      flex-shrink: 0;
+    }
+
+    /* BORDAS IRREGULARES ESTILO DESENHO À MÃO */
+    .sketch-card {
+      position: absolute;
+      background: #ffffff;
+      border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+      padding: 18px 20px;
+      border: 3px solid;
+      box-shadow: 2px 3px 0px rgba(0,0,0,0.07);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      z-index: 8;
+    }
+
+    .sketch-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 4px 14px;
+      border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+      color: white;
+      font-weight: 700;
+      font-size: 1.1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      width: fit-content;
+      margin-top: -30px;
+      margin-left: 10px;
+      box-shadow: 1px 2px 4px rgba(0,0,0,0.15);
+    }
+
+    .card-content {
+      margin-top: 8px;
+      font-size: 1.05rem;
+      line-height: 1.35;
+      color: #1e293b;
+    }
+    .card-content ul { list-style: none; }
+    .card-content li {
+      position: relative;
+      padding-left: 18px;
+      margin-bottom: 6px;
+    }
+    .card-content li::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      font-size: 1.4rem;
+      line-height: 1;
+    }
+
+    .code-snippet {
+      font-family: 'JetBrains Mono', monospace;
+      background: #f8fafc;
+      border: 1.5px dashed #94a3b8;
+      border-radius: 8px;
+      padding: 4px 8px;
+      font-size: 0.85rem;
+      color: #0f172a;
+      display: inline-block;
+      margin-top: 4px;
+    }
+
+    /* CENTRO */
+    .center-node {
+      position: absolute;
+      left: 50%;
+      top: 48%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      width: 370px;
+      z-index: 10;
+    }
+    .center-rays {
+      font-size: 1.6rem;
+      color: #eab308;
+      line-height: 1;
+      margin-bottom: 2px;
+      letter-spacing: 6px;
+      user-select: none;
+    }
+    .center-title {
+      font-family: 'Caveat', cursive;
+      font-size: 3.2rem;
+      font-weight: 700;
+      line-height: 0.95;
+      text-transform: uppercase;
+      color: #0f172a;
+      letter-spacing: 1px;
+    }
+    .center-definition {
+      margin-top: 14px;
+      background: var(--purple-light);
+      border: 2.5px solid var(--purple-border);
+      border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+      padding: 10px 18px;
+      font-size: 1.15rem;
+      color: #3b0764;
+      line-height: 1.25;
+      font-weight: 700;
+    }
+
+    /* POSIÇÕES */
+    .card-top-left { top: 35px; left: 45px; width: 310px; border-color: var(--purple-border); }
+    .card-top-left .sketch-pill { background: var(--purple-pill); }
+    .card-top-left li::before { color: var(--purple-pill); }
+
+    .card-top-right { top: 35px; right: 45px; width: 350px; border-color: var(--green-border); }
+    .card-top-right .sketch-pill { background: var(--green-pill); }
+    .card-top-right li::before { color: var(--green-pill); }
+
+    .card-mid-right { top: 265px; right: 40px; width: 330px; border-color: var(--teal-border); }
+    .card-mid-right .sketch-pill { background: var(--teal-pill); }
+    .card-mid-right li::before { color: var(--teal-pill); }
+
+    .card-bottom-right { bottom: 40px; right: 45px; width: 330px; border-color: var(--orange-border); }
+    .card-bottom-right .sketch-pill { background: var(--orange-pill); }
+    .card-bottom-right li::before { color: var(--orange-pill); }
+
+    .card-bottom-center { bottom: 30px; left: 50%; transform: translateX(-50%); width: 380px; border-color: var(--blue-border); }
+    .card-bottom-center .sketch-pill { background: var(--blue-pill); }
+    .card-bottom-center li::before { color: var(--blue-pill); }
+
+    .card-bottom-left { bottom: 40px; left: 45px; width: 310px; border-color: var(--red-border); }
+    .card-bottom-left .sketch-pill { background: var(--red-pill); }
+    .card-bottom-left li::before { color: var(--red-pill); }
+
+    .card-mid-left { top: 270px; left: 40px; width: 300px; border-color: var(--amber-border); }
+    .card-mid-left .sketch-pill { background: var(--amber-pill); }
+    .card-mid-left li::before { color: var(--amber-pill); }
+
+    .arrows-svg {
+      position: absolute;
+      top: 0; left: 0; width: 100%; height: 100%;
+      pointer-events: none; z-index: 5;
+    }
+    .arrow-path { fill: none; stroke-width: 3; stroke-linecap: round; }
+
+    /* OVERLAY DE LOADING */
+    .loading-overlay {
+      display: none;
+      position: absolute;
+      inset: 0;
+      background: rgba(15, 23, 42, 0.85);
+      backdrop-filter: blur(4px);
+      z-index: 100;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      color: white;
+      border-radius: 16px;
+    }
+    .loading-overlay.active { display: flex; }
+    .spinner {
+      width: 48px;
+      height: 48px;
+      border: 4px solid rgba(56, 189, 248, 0.2);
+      border-top-color: #38bdf8;
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* FOOTER DA PÁGINA */
+    .map-footer-badge {
+      position: absolute;
+      bottom: 10px;
+      right: 18px;
+      font-size: 0.75rem;
+      font-family: sans-serif;
+      color: #94a3b8;
+      letter-spacing: 0.5px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="brand">
+      <div class="brand-icon">🗺️</div>
+      <div class="brand-text">
+        <h1>Estúdio de Mapas Mentais — Ciência da Computação</h1>
+        <p>Matriz Curricular UNINTER (3.210 Horas) &bull; DevWorld AI Ilimitado</p>
+      </div>
+    </div>
+
+    <div class="top-controls">
+      <div class="model-badge">
+        <span>⚡ Modelo:</span>
+        <select id="modelSelector" style="background:transparent; border:none; color:inherit; font-weight:700; cursor:pointer; outline:none;">
+          <option value="devworld/gemini-3.7-flash-f" selected>Gemini 3.7 Flash (-f Ultra Rápido)</option>
+          <option value="devworld/deepseek-v4-pro-0813-f">DeepSeek V4 Pro (-f Lógica Profunda)</option>
+          <option value="devworld/gpt-5.6-sol-f">GPT-5.6 Sol (-f Ilimitado)</option>
+          <option value="devworld/claude-opus-5-f">Claude Opus 5 (-f Ilimitado)</option>
+          <option value="devworld/qwen3.8-max-f">Qwen 3.8 Max (-f Ilimitado)</option>
+        </select>
+      </div>
+    </div>
+  </header>
+
+  <div class="app-layout">
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <h2>📚 Enciclopédia (700 Mapas)</h2>
+        <p>8 Escolas: Teoria, Lógica, Python, Back, Front, SQL/IA, DevOps &amp; Sec</p>
+        <input 
+          type="text" 
+          id="searchInput" 
+          placeholder="🔍 Buscar mapa por nome ou #..." 
+          oninput="filtrarTopicos()"
+          style="width: 100%; margin-top: 10px; padding: 8px 12px; border-radius: 6px; border: 1px solid #334155; background: #090d16; color: #fff; font-size: 0.85rem; outline: none;"
+        >
+        <div style="display: flex; gap: 4px; margin-top: 8px; flex-wrap: wrap;">
+          <button class="filter-chip active" onclick="setFiltroModulo('TODOS')">🌟 Todos (700)</button>
+          <button class="filter-chip" onclick="setFiltroModulo('01_ciencia')">🏛️ UNINTER (63)</button>
+          <button class="filter-chip" onclick="setFiltroModulo('02_logica')">💻 Lógica (155)</button>
+          <button class="filter-chip" onclick="setFiltroModulo('03_python')">🐍 Python (60)</button>
+          <button class="filter-chip" onclick="setFiltroModulo('04_backend')">⚙️ Back-end (80)</button>
+          <button class="filter-chip" onclick="setFiltroModulo('05_frontend')">📱 Front-end (79)</button>
+          <button class="filter-chip" onclick="setFiltroModulo('06_banco')">🗄️ SQL &amp; IA (112)</button>
+          <button class="filter-chip" onclick="setFiltroModulo('07_devops')">🐧 DevOps (80)</button>
+          <button class="filter-chip" onclick="setFiltroModulo('08_ciber')">🛡️ Segurança (71)</button>
+        </div>
+      </div>
+      <div class="topics-list" id="topicsList">
+        <!-- Injetado via Javascript -->
+      </div>
+    </aside>
+
+    <!-- ÁREA CENTRAL DO MAPA -->
+    <main class="main-viewport">
+      
+      <div class="action-bar">
+        <div class="current-topic-info">
+          <span class="topic-num" id="currentIdBadge">#1</span>
+          <span class="topic-name" id="currentTopicName">O que é Programação?</span>
+        </div>
+
+        <div style="display:flex; gap:10px;">
+          <button class="btn btn-primary" onclick="gerarComIA()">
+            🧠 Gerar Novo Conteúdo com DevWorld AI
+          </button>
+          <button class="btn btn-success" onclick="baixarPNG()">
+            📸 Baixar PNG (300 DPI)
+          </button>
+        </div>
+      </div>
+
+      <!-- CANVAS DO MAPA MENTAL -->
+      <div class="map-canvas-container" id="mapCanvas">
+        
+        <!-- LOADING SPINNER -->
+        <div class="loading-overlay" id="loadingOverlay">
+          <div class="spinner"></div>
+          <p style="font-weight: 600; font-size: 1.1rem;" id="loadingText">Conectando à DevWorld AI e gerando mapa mental...</p>
+        </div>
+
+        <!-- SETAS CURVAS EM SVG -->
+        <svg class="arrows-svg" viewBox="0 0 1200 800">
+          <defs>
+            <marker id="arrow-purple" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+              <path d="M 0 1 L 10 5 L 0 9 z" fill="#7e22ce" />
+            </marker>
+            <marker id="arrow-green" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+              <path d="M 0 1 L 10 5 L 0 9 z" fill="#15803d" />
+            </marker>
+            <marker id="arrow-teal" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+              <path d="M 0 1 L 10 5 L 0 9 z" fill="#0f766e" />
+            </marker>
+            <marker id="arrow-orange" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+              <path d="M 0 1 L 10 5 L 0 9 z" fill="#c2410c" />
+            </marker>
+            <marker id="arrow-blue" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+              <path d="M 0 1 L 10 5 L 0 9 z" fill="#1d4ed8" />
+            </marker>
+            <marker id="arrow-red" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+              <path d="M 0 1 L 10 5 L 0 9 z" fill="#b91c1c" />
+            </marker>
+            <marker id="arrow-amber" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+              <path d="M 0 1 L 10 5 L 0 9 z" fill="#b45309" />
+            </marker>
+          </defs>
+
+          <!-- Conectores -->
+          <path d="M 520 330 Q 420 220 370 140" class="arrow-path" stroke="#7e22ce" marker-end="url(#arrow-purple)" />
+          <path d="M 680 330 Q 750 210 820 140" class="arrow-path" stroke="#15803d" marker-end="url(#arrow-green)" />
+          <path d="M 780 400 Q 820 380 860 360" class="arrow-path" stroke="#0f766e" marker-end="url(#arrow-teal)" />
+          <path d="M 760 480 Q 800 550 840 600" class="arrow-path" stroke="#c2410c" marker-end="url(#arrow-orange)" />
+          <path d="M 600 530 Q 600 580 600 620" class="arrow-path" stroke="#1d4ed8" marker-end="url(#arrow-blue)" />
+          <path d="M 440 480 Q 400 550 360 600" class="arrow-path" stroke="#b91c1c" marker-end="url(#arrow-red)" />
+          <path d="M 420 400 Q 380 380 345 360" class="arrow-path" stroke="#b45309" marker-end="url(#arrow-amber)" />
+        </svg>
+
+        <!-- NÓ CENTRAL -->
+        <div class="center-node">
+          <div class="center-rays">\ | /</div>
+          <div class="center-title" id="centerTitle">1. O QUE É PROGRAMAÇÃO?</div>
+          <div class="center-definition" id="centerDef">Dar instruções claras para o computador resolver um problema.</div>
+        </div>
+
+        <!-- 1. TOP-LEFT: IDEIA CENTRAL -->
+        <div class="sketch-card card-top-left">
+          <div class="sketch-pill" id="pillTopLeft">💡 IDEIA CENTRAL</div>
+          <div class="card-content" id="contentTopLeft">
+            <ul>
+              <li>Programar é transformar uma ideia em passos que a máquina consegue executar.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 2. TOP-RIGHT: CONCEITO 1 -->
+        <div class="sketch-card card-top-right">
+          <div class="sketch-pill" id="pillTopRight">🖥️ COMPUTADOR</div>
+          <div class="card-content" id="contentTopRight">
+            <ul>
+              <li>Executa exatamente o que foi escrito.</li>
+              <li>Não entende intenção; segue instruções sem questionar.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 3. MID-RIGHT: CONCEITO 2 / CÓDIGO -->
+        <div class="sketch-card card-mid-right">
+          <div class="sketch-pill" id="pillMidRight">{ } CÓDIGO</div>
+          <div class="card-content" id="contentMidRight">
+            <ul>
+              <li>É o conjunto de instruções escritas pelo programador.</li>
+              <div class="code-snippet">console.log("Olá, Mundo!");</div>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 4. BOTTOM-RIGHT: LINGUAGENS -->
+        <div class="sketch-card card-bottom-right">
+          <div class="sketch-pill" id="pillBottomRight">&lt;/&gt; LINGUAGENS</div>
+          <div class="card-content" id="contentBottomRight">
+            <ul>
+              <li>Formas de escrever instruções legíveis para humanos e computadores.</li>
+              <li>Exemplos: Python, JavaScript e C++.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 5. BOTTOM-CENTER: FLUXO -->
+        <div class="sketch-card card-bottom-center">
+          <div class="sketch-pill" id="pillBottomCenter">⚙️ FLUXO BÁSICO</div>
+          <div class="card-content" id="contentBottomCenter">
+            <ul>
+              <li><strong>ENTRADA:</strong> dados recebidos (teclado, clique, sensores)</li>
+              <li><strong>PROCESSAMENTO:</strong> regras de cálculo aplicadas</li>
+              <li><strong>SAÍDA:</strong> resultado final exibido na tela</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 6. BOTTOM-LEFT: PEGADINHAS -->
+        <div class="sketch-card card-bottom-left">
+          <div class="sketch-pill" id="pillBottomLeft">⚠️ PEGADINHAS</div>
+          <div class="card-content" id="contentBottomLeft">
+            <ul>
+              <li>Instruções ambíguas geram resultados bizarros.</li>
+              <li>Um pequeno erro de caractere trava a execução.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 7. MID-LEFT: RESUMO EXPRESSO -->
+        <div class="sketch-card card-mid-left">
+          <div class="sketch-pill" id="pillMidLeft">💬 RESUMO EXPRESSO</div>
+          <div class="card-content" id="contentMidLeft">
+            <ul>
+              <li>Problema ➔ Passos ➔ Código ➔ Resultado</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="map-footer-badge">
+          🎓 Ciência da Computação UNINTER &bull; Gerado via DevWorld AI
+        </div>
+
+      </div>
+    </main>
+  </div>
+
+  <script>
+    let TRILHA = [];
+    let MAPAS_GERADOS = new Set();
+    let selectedTopic = null;
+
+    async function carregarTrilha() {
+      try {
+        const res = await fetch('/api/trilha');
+        const data = await res.json();
+        TRILHA = data.trilha_iniciante;
+        MAPAS_GERADOS = new Set(data.mapas_gerados || []);
+        renderizarListaTopicos();
+        if (TRILHA.length > 0) {
+          selecionarTopico(TRILHA[0]);
+        }
+      } catch (err) {
+        console.error("Erro ao carregar trilha:", err);
+      }
+    }
+
+    let filtroModuloAtual = 'TODOS';
+    let buscaAtual = '';
+
+    function setFiltroModulo(mod) {
+      filtroModuloAtual = mod;
+      document.querySelectorAll('.filter-chip').forEach(c => {
+        const onclickStr = c.getAttribute('onclick') || '';
+        c.classList.toggle('active', onclickStr.includes(`'${mod}'`));
+      });
+      renderizarListaTopicos();
+    }
+
+    function filtrarTopicos() {
+      buscaAtual = document.getElementById('searchInput').value.toLowerCase().trim();
+      renderizarListaTopicos();
+    }
+
+    function renderizarListaTopicos() {
+      const container = document.getElementById('topicsList');
+      container.innerHTML = '';
+
+      const filtrados = TRILHA.filter(t => {
+        // Filtro por escola / módulo
+        if (filtroModuloAtual !== 'TODOS') {
+          const esc = (t.escola || '').toLowerCase();
+          const mod = (t.modulo || '').toLowerCase();
+          const filtro = filtroModuloAtual.toLowerCase();
+          if (!esc.includes(filtro) && !mod.includes(filtro)) return false;
+        }
+        // Filtro por busca de texto ou número
+        if (buscaAtual) {
+          const matchNum = String(t.id).includes(buscaAtual) || `#${t.id}`.includes(buscaAtual);
+          const matchTema = t.tema.toLowerCase().includes(buscaAtual);
+          const matchFoco = (t.foco || '').toLowerCase().includes(buscaAtual);
+          if (!matchNum && !matchTema && !matchFoco) return false;
+        }
+        return true;
+      });
+
+      if (filtrados.length === 0) {
+        container.innerHTML = '<div style="padding: 20px; color: #64748b; font-size: 0.85rem; text-align: center;">Nenhum mapa encontrado com este filtro.</div>';
+        return;
+      }
+
+      filtrados.forEach(t => {
+        const jaGerado = MAPAS_GERADOS.has(t.id);
+        const el = document.createElement('div');
+        el.className = `topic-item ${selectedTopic && selectedTopic.id === t.id ? 'active' : ''}`;
+        el.onclick = () => selecionarTopico(t);
+        el.innerHTML = `
+          <div class="topic-title">
+            <span class="topic-badge">#${t.id}</span>
+            <span>${t.tema}</span>
+            ${jaGerado ? '<span style="margin-left:auto; font-size:0.8rem;" title="Mapa pronto no disco">✅</span>' : ''}
+          </div>
+          <div class="topic-foco">${t.foco}</div>
+        `;
+        container.appendChild(el);
+      });
+    }
+
+    async function selecionarTopico(t) {
+      selectedTopic = t;
+      document.getElementById('currentIdBadge').textContent = `#${t.id}`;
+      document.getElementById('currentTopicName').textContent = t.tema;
+      renderizarListaTopicos();
+
+      // Se o mapa já foi gerado no disco, carrega imediatamente
+      if (MAPAS_GERADOS.has(t.id)) {
+        try {
+          const res = await fetch(`/api/mapa/${t.id}`);
+          if (res.ok) {
+            const dados = await res.json();
+            aplicarMapaAoCanvas(dados);
+          }
+        } catch (e) {
+          console.warn("Não foi possível carregar do cache local:", e);
+        }
+      }
+    }
+
+    async function gerarComIA() {
+      if (!selectedTopic) return;
+      const overlay = document.getElementById('loadingOverlay');
+      const loadingText = document.getElementById('loadingText');
+      const modelo = document.getElementById('modelSelector').value;
+
+      loadingText.textContent = `DevWorld AI gerando #${selectedTopic.id}: ${selectedTopic.tema}...`;
+      overlay.classList.add('active');
+
+      try {
+        const res = await fetch('/api/gerar', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            id: selectedTopic.id,
+            topico: selectedTopic.tema,
+            foco: selectedTopic.foco,
+            modelo: modelo
+          })
+        });
+
+        const mapa = await res.json();
+        if (mapa.error) {
+          alert('Erro ao gerar com DevWorld: ' + mapa.error);
+        } else {
+          aplicarMapaAoCanvas(mapa);
+        }
+      } catch (e) {
+        alert('Falha na requisição: ' + e.message);
+      } finally {
+        overlay.classList.remove('active');
+      }
+    }
+
+    function aplicarMapaAoCanvas(d) {
+      document.getElementById('centerTitle').textContent = `${d.id}. ${d.title || d.tema || ''}`;
+      document.getElementById('centerDef').textContent = d.definition || d.definicao_central || '';
+
+      renderCard('TopLeft', d.topLeft || d.top_left);
+      renderCard('TopRight', d.topRight || d.top_right);
+      renderCard('MidRight', d.midRight || d.mid_right);
+      renderCard('BottomRight', d.bottomRight || d.bottom_right);
+      renderCard('BottomCenter', d.bottomCenter || d.bottom_center);
+      renderCard('BottomLeft', d.bottomLeft || d.bottom_left);
+      renderCard('MidLeft', d.midLeft || d.mid_left);
+    }
+
+    function renderCard(pos, card) {
+      if (!card) return;
+      const pill = document.getElementById('pill' + pos);
+      const content = document.getElementById('content' + pos);
+
+      const icon = card.icon || card.icone || '';
+      const tag = card.pill || card.tag || '';
+      pill.textContent = `${icon} ${tag}`.trim();
+
+      const bullets = card.bullets || card.itens || [];
+      let html = '<ul>';
+      bullets.forEach(b => {
+        if (b.includes('(') && (b.includes(';') || b.includes('='))) {
+          html += `<li><div class="code-snippet">${b}</div></li>`;
+        } else {
+          html += `<li>${b}</li>`;
+        }
+      });
+      html += '</ul>';
+      content.innerHTML = html;
+    }
+
+    function baixarPNG() {
+      const container = document.getElementById('mapCanvas');
+      html2canvas(container, {
+        scale: 2, // 2400x1600px ultra nítido 300 DPI
+        useCORS: true,
+        backgroundColor: '#ffffff'
+      }).then(canvas => {
+        const link = document.createElement('a');
+        const num = selectedTopic ? selectedTopic.id : 'mapa';
+        const nome = selectedTopic ? selectedTopic.tema.replace(/[^a-zA-Z0-9]/g, '_') : 'computacao';
+        link.download = `Mapa_${num}_${nome}.png`;
+        link.href = canvas.toDataURL('image/png');
+        link.click();
+      });
+    }
+
+    // Inicialização
+    carregarTrilha();
+  </script>
+</body>
+</html>

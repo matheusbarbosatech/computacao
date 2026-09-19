@@ -1,0 +1,68 @@
+{
+  "id": 620,
+  "title": "OVERFITTING VS UNDERFITTING: O BALANÇO DO VIÉS E VARIÂNCIA",
+  "definition": "Overfitting é decorar os dados de treino e falhar na vida real; underfitting é nem aprender o padrão básico.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Aprender o padrão geral vale mais que decorar cada exemplo visto.",
+      "O alvo é o equilíbrio entre viés (simplicidade) e variância (sensibilidade)."
+    ]
+  },
+  "topRight": {
+    "pill": "TREINO VS TESTE",
+    "icon": "🖥️",
+    "bullets": [
+      "Treino ensina o modelo; teste prova se ele aprendeu de verdade.",
+      "Nota altíssima no treino e péssima no teste é sinal clássico de overfitting."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Regra de ouro: compare sempre o erro de treino com o erro de teste.",
+      "if erro_treino << erro_teste: overfitting",
+      "if erro_treino alto e erro_teste alto: underfitting"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Previsão de preços, diagnósticos médicos, recomendação de filmes e detecção de fraude.",
+      "Python, scikit-learn, TensorFlow, PyTorch e validação cruzada no dia a dia."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Separe os dados em treino e teste antes de qualquer coisa.",
+      "PASSO 2: Treine o modelo e compare o erro nos dois conjuntos.",
+      "PASSO 3: Ajuste a complexidade ate treino e teste ficarem proximos e baixos."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Testar o modelo nos mesmos dados do treino engana qualquer iniciante.",
+      "Mais camadas nem sempre ajudam: adicione dados ou simplifique o modelo."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Pouco estudo ➔ Underfitting ➔ Erra até no treino",
+      "Decoreba ➔ Overfitting ➔ Erra na vida real",
+      "Equilíbrio ➔ Generaliza ➔ Acerta no que nunca viu"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Machine Learning",
+  "escola": "06_banco_dados_e_ia",
+  "foco_pedagogico": "O modelo que decora os dados de treino mas falha feio na vida real"
+}

@@ -1,0 +1,63 @@
+{
+  "id": 118,
+  "title": "SELECIONANDO ELEMENTOS (QUERYSELECTOR)",
+  "definition": "É como usar um controle remoto para achar exatamente o elemento certo dentro da página HTML.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "JavaScript precisa 'apontar' para um elemento antes de mudar algo nele."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O NAVEGADOR ENTENDE",
+    "icon": "🖥️",
+    "bullets": [
+      "O navegador lê o HTML como uma árvore de caixinhas.",
+      "querySelector procura a primeira caixinha que combina com a busca."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Use # para ID, . para classe, nada para tag.",
+      "document.querySelector('#titulo')"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Pegar um botão para adicionar um clique.",
+      "Mudar texto, cor ou estilo de um elemento específico."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você escreve o seletor (tag, #id ou .classe)",
+      "PASSO 2: O navegador busca no HTML esse elemento",
+      "PASSO 3: O elemento encontrado fica guardado numa variável"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer o # ou o . faz o seletor não achar nada.",
+      "querySelector pega só o primeiro; use querySelectorAll para vários."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Escrever seletor ➔ Buscar no HTML ➔ Elemento pronto para usar"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Web",
+  "foco_pedagogico": "Pegando tags, IDs e classes pelo JavaScript"
+}

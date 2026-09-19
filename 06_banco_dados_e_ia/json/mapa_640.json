@@ -1,0 +1,65 @@
+{
+  "id": 640,
+  "title": "ÉTICA EM IA, VIÉS ALGORÍTMICO E SEGURANÇA (PROMPT INJECTION)",
+  "definition": "Ética em IA é fazer a máquina tratar todos com justiça e impedir que ordens maliciosas a enganem.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "IA é um espelho: reflete os dados que recebeu, inclusive os defeitos e preconceitos.",
+      "Ela aprende com exemplos do passado, então pode copiar injustiças antigas sem perceber."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO A MÁQUINA PENSA",
+    "icon": "🖥️",
+    "bullets": [
+      "O modelo adivinha a próxima palavra usando padrões estatísticos vistos no treino.",
+      "Ele não sabe o que é certo ou errado: só completa o texto provável."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Regras fixas separam ordens do sistema e dados do usuário antes de enviar ao modelo.",
+      "exemplo: sistema = 'Você é atendente'; dados = '<texto do usuário>'"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Empresas protegem chatbots, bancos e sistemas médicos contra golpes escritos em texto.",
+      "Ferramentas: filtros de prompt, guardrails, Llama Guard e políticas de moderação."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O usuário envia um texto para a IA, chamado de entrada.",
+      "PASSO 2: O sistema separa ordens reais de dados suspeitos e checa viés e risco.",
+      "PASSO 3: A IA responde com justiça ou bloqueia a tentativa de ataque."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que o modelo entende intenções: ele apenas segue padrões e obedece texto.",
+      "Dica de ouro: teste com muitos perfis e escreva 'ignore instruções anteriores' para ver."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Dados tortos ➔ IA injusta ➔ viés; texto malicioso ➔ prompt injection ➔ dados vazados."
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "IA Generativa",
+  "escola": "06_banco_dados_e_ia",
+  "foco_pedagogico": "Defendendo sistemas de IA contra ataques de injeção e garantindo respostas justas"
+}

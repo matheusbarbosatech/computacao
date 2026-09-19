@@ -1,0 +1,66 @@
+{
+  "id": 553,
+  "title": "PAPÉIS ARIA E ATRIBUTOS DE ACESSIBILIDADE",
+  "definition": "ARIA é um conjunto de etiquetas invisíveis que ensinam o leitor de tela a interpretar botões, menus e janelas dinâmicas.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "ARIA traduz o que está na tela para o cego: 'isto é um menu', 'isto abriu', 'isto é um botão de fechar'."
+    ]
+  },
+  "topRight": {
+    "pill": "LEITOR DE TELA",
+    "icon": "🖥️",
+    "bullets": [
+      "O leitor de tela lê o HTML e procura atributos aria- para anunciar o estado e a função de cada elemento.",
+      "Sem ARIA, um menu suspenso é só um amontoado de divs mudas."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "aria-label='Fechar modal' dá nome a um botão que só tem ícone.",
+      "aria-expanded='true' ou 'false' avisa se o menu está aberto ou fechado.",
+      "role='menu', role='menuitem', role='dialog' definem o tipo da peça."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Menus de navegação que abrem e fecham ao clique.",
+      "Modais de confirmação, cadastro ou aviso.",
+      "Presente em React, Vue, Angular e HTML puro."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O botão do menu tem aria-expanded='false' e o leitor anuncia 'menu recolhido'.",
+      "PASSO 2: Ao clicar, o JavaScript muda para aria-expanded='true' e o leitor fala 'menu expandido'.",
+      "PASSO 3: O foco vai automaticamente para o primeiro item do menu ou para dentro do modal aberto."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de atualizar o aria-expanded no clique: o leitor sempre dirá 'fechado', mesmo com o menu aberto.",
+      "Dica de ouro: teste sempre com Tab e leitor de tela real; o olho humano engana."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Atribuir papel (role) ➔ Nomear (aria-label) ➔ Atualizar estado (aria-expanded) ➔ Usuário cego navega com autonomia."
+    ]
+  },
+  "_modelo_usado": "devworld/deepseek-v4-pro-0813-f",
+  "modulo": "CSS/Design",
+  "escola": "05_frontend_e_mobile",
+  "foco_pedagogico": "Ensinando leitores de tela a entender menus suspensos e modais dinâmicos"
+}

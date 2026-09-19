@@ -1,0 +1,64 @@
+{
+  "id": 457,
+  "title": "ALGORITMO DE HUFFMAN: COMPACTAÇÃO SEM PERDAS",
+  "definition": "Técnica que dá códigos curtos para letras frequentes e códigos longos para letras raras, economizando espaço.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como um apelido: quem você vê mais, ganha nome mais curto para chamar."
+    ]
+  },
+  "topRight": {
+    "pill": "ÁRVORE DE HUFFMAN",
+    "icon": "🖥️",
+    "bullets": [
+      "O computador monta uma árvore juntando as letras mais raras primeiro.",
+      "Letras frequentes ficam perto do topo, com caminho curto."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Cada letra vira uma sequência de 0s e 1s única.",
+      "'a' (comum) = 0 | 'z' (raro) = 1101"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Base de formatos ZIP, JPEG e MP3.",
+      "Usado em ferramentas como gzip, PNG e transmissão de dados."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Conta quantas vezes cada letra aparece no texto",
+      "PASSO 2: Junta as duas letras mais raras, repete até formar uma árvore",
+      "PASSO 3: Cada letra recebe um código baseado no caminho até ela"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que todo código tem o mesmo tamanho, aqui não tem.",
+      "Dica: nenhum código curto pode ser o começo de outro código."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Letra frequente ➔ código curto ➔ arquivo menor"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Algoritmos",
+  "escola": "01_ciencia_computacao_uninter",
+  "foco_pedagogico": "Atribuindo códigos curtos para letras frequentes (a base do ZIP e MP3)"
+}

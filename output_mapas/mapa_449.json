@@ -1,0 +1,65 @@
+{
+  "id": 449,
+  "title": "O ALGORITMO A* (A-STAR) E HEURÍSTICAS PARA JOGOS",
+  "definition": "É uma forma de achar o caminho mais curto num labirinto, mas 'chutando' na direção certa em vez de procurar às cegas.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Em vez de explorar tudo igual, o A* prioriza os caminhos que parecem levar mais perto do alvo."
+    ]
+  },
+  "topRight": {
+    "pill": "HEURÍSTICA",
+    "icon": "🖥️",
+    "bullets": [
+      "É o 'palpite educado' da distância até o destino, tipo olhar o mapa de longe.",
+      "Sem ela, o algoritmo vira uma busca lenta e cega (BFS/Dijkstra)."
+    ]
+  },
+  "midRight": {
+    "pill": "FÓRMULA F = G + H",
+    "icon": "{ }",
+    "bullets": [
+      "G: custo já gasto desde o início até aqui.",
+      "H: estimativa do que falta até o alvo.",
+      "f_custo = g_percorrido + h_estimado"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Movimentação de personagens (NPCs) em jogos e GPS.",
+      "Comum em Unity (C#), Unreal (C++) e Python com bibliotecas de grafos."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Olhe os vizinhos da posição atual no labirinto",
+      "PASSO 2: Calcule o F de cada um e escolha o menor",
+      "PASSO 3: Repita até chegar no alvo ou não ter mais caminho"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Heurística exagerada faz o A* errar o caminho mais curto.",
+      "Dica: use uma heurística que nunca superestime a distância real."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Posição atual ➔ Estima distância ao alvo ➔ Escolhe o caminho mais promissor"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Algoritmos",
+  "escola": "01_ciencia_computacao_uninter",
+  "foco_pedagogico": "Encontrando caminhos inteligentes em labirintos direcionando a busca ao alvo"
+}

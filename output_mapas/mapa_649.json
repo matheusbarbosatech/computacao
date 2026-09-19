@@ -1,0 +1,65 @@
+{
+  "id": 649,
+  "title": "INSERTION SORT: O ALGORITMO DE ORDENAR CARTAS DE BARALHO NA MÃO",
+  "definition": "Insertion Sort constrói a lista ordenada aos poucos: pega um item por vez e o encaixa no lugar certo entre os já organizados.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Você segura cartas na mão e encaixa cada carta nova no lugar certo.",
+      "A parte da esquerda já está ordenada e vai crescendo um item por vez."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O COMPUTADOR PENSA",
+    "icon": "🖥️",
+    "bullets": [
+      "O computador compara e move itens de um lado para o outro na memória.",
+      "Custa barato quando a lista já está quase na ordem certa."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Para cada item, compare com os anteriores e mova os maiores para a direita.",
+      "for i in 1..n { chave = lista[i]; while (j >= 0 e lista[j] > chave) move e j--; lista[j+1] = chave }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Ordenar listas curtas e dados que quase já chegam ordenados.",
+      "Aparece em Python, Java, C e JavaScript; é a base do Timsort do Python."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Comece com o primeiro item sozinho, já considerado ordenado.",
+      "PASSO 2: Pegue o próximo item e compare com os anteriores da direita para a esquerda.",
+      "PASSO 3: Encaixe o item no lugar certo e repita até acabar a lista."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Errar o índice ao mover os itens e perder valores pelo caminho.",
+      "Dica de ouro: guarde o item atual numa variável antes de deslocar os outros."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Olha o item ➔ Encaixa no lugar certo ➔ Lista cresce ordenada, rápida em listas pequenas."
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Algoritmos",
+  "escola": "02_logica_e_algoritmos",
+  "foco_pedagogico": "Eficiente para listas pequenas ou dados que já chegam quase ordenados"
+}

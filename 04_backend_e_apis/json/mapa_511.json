@@ -1,0 +1,64 @@
+{
+  "id": 511,
+  "title": "EVENT SOURCING: O HISTÓRICO COMPLETO",
+  "definition": "Em vez de salvar só o saldo atual, você guarda cada depósito e saque que já aconteceu.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Não guarde o resultado final, guarde cada passo que levou até ele."
+    ]
+  },
+  "topRight": {
+    "pill": "ESTADO ATUAL",
+    "icon": "🖥️",
+    "bullets": [
+      "O sistema não tem uma coluna 'saldo' fixa no banco de dados.",
+      "O saldo é calculado somando todos os eventos guardados."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Cada evento é um registro imutável, tipo um recibo antigo.",
+      "saldo = eventos.reduce((soma, e) => e.tipo=='deposito' ? soma+e.valor : soma-e.valor, 0)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Sistemas bancários, fintechs e carteiras digitais.",
+      "Ferramentas: EventStoreDB, Kafka, Axon Framework."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Cliente deposita R$100 e o evento 'Depositado' é salvo.",
+      "PASSO 2: Cliente saca R$30 e o evento 'Sacado' é salvo.",
+      "PASSO 3: Para ver o saldo, o sistema soma todos os eventos: R$70."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Iniciante tenta editar um evento antigo, mas eventos nunca mudam.",
+      "Dica de ouro: se errou, crie um novo evento de correção, não apague o antigo."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Cada ação ➔ Vira um evento salvo ➔ Soma tudo pra saber o estado atual"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Microsserviços",
+  "escola": "04_backend_e_apis",
+  "foco_pedagogico": "Recriando o saldo bancário somando todos os depósitos e saques históricos"
+}

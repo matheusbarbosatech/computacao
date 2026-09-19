@@ -1,0 +1,64 @@
+{
+  "id": 292,
+  "title": "MULTI-STAGE BUILDS: CRIANDO IMAGENS MINÚSCULAS",
+  "definition": "É separar a 'fábrica' que compila o código do 'armazém' que só guarda o produto final pronto.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Use uma imagem pesada só para compilar e outra leve só para rodar."
+    ]
+  },
+  "topRight": {
+    "pill": "ESTÁGIOS DO BUILD",
+    "icon": "🖥️",
+    "bullets": [
+      "Cada FROM no Dockerfile cria um novo estágio isolado.",
+      "O Docker descarta tudo do estágio anterior, exceto o que você copiar."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Use 'AS nome' para nomear o estágio e referenciá-lo depois.",
+      "COPY --from=build /app/binario /usr/local/bin/"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Apps em Go, Java, C++, Node.js e Rust antes de ir pra produção.",
+      "Ferramentas: Docker, Podman, BuildKit."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Estágio 'builder' usa imagem completa e compila o código",
+      "PASSO 2: Copia só o binário gerado para um estágio novo e limpo",
+      "PASSO 3: Imagem final fica minúscula, sem lixo de compilação"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer o --from= e copiar do lugar errado sem querer.",
+      "Dica de ouro: use imagens 'alpine' ou 'scratch' no estágio final."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Compila pesado ➔ Copia só o binário ➔ Imagem final leve e segura"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Docker",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Compilando código em um estágio e copiando só o binário para o container final"
+}

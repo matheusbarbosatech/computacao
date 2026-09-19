@@ -1,0 +1,63 @@
+{
+  "id": 152,
+  "title": "BANCOS RELACIONAIS (SQL) VS NOSQL",
+  "definition": "São duas formas diferentes de guardar dados: uma em tabelas rígidas, outra em documentos flexíveis.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "SQL é como uma planilha organizada, NoSQL é como uma pasta de fichas soltas."
+    ]
+  },
+  "topRight": {
+    "pill": "SQL (RELACIONAL)",
+    "icon": "🖥️",
+    "bullets": [
+      "Dados ficam em tabelas com linhas e colunas fixas.",
+      "Toda linha precisa ter os mesmos campos definidos."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "SQL usa comandos de consulta estruturada.",
+      "SELECT * FROM clientes WHERE id = 1;"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Sistemas bancários e financeiros usam SQL pela consistência.",
+      "Exemplos: MySQL, PostgreSQL, MongoDB, Firebase."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você define a estrutura da tabela ou do documento",
+      "PASSO 2: SQL exige o formato exato, NoSQL aceita formatos variados",
+      "PASSO 3: Os dados são salvos e podem ser consultados depois"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que NoSQL não tem regra nenhuma, mas ele também precisa de organização.",
+      "Dica: escolha SQL quando os dados são muito conectados entre si."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Tabela fixa ➔ SQL organiza igual planilha ➔ Documento flexível ➔ NoSQL guarda como ficha livre"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "BancoDados",
+  "foco_pedagogico": "Tabelas rígidas vs Documentos flexíveis"
+}

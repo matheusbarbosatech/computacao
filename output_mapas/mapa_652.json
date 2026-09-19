@@ -1,0 +1,67 @@
+{
+  "id": 652,
+  "title": "COUNTING SORT E RADIX SORT: ORDENAÇÃO LINEAR O(n)",
+  "definition": "Algoritmos que ordenam elementos sem nunca comparar um com o outro, usando contagem ou dígitos para decidir a posição exata de cada item.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Comparar elementos (tipo 'quem é maior?') custa caro. Esses algoritmos são espertos: usam matemática simples para colocar cada número direto no lugar certo, como fichas em escaninhos numerados."
+    ]
+  },
+  "topRight": {
+    "pill": "COUNTING SORT",
+    "icon": "🪣",
+    "bullets": [
+      "Cria um array de baldes contadores do tamanho do maior valor.",
+      "Conta quantas vezes cada número aparece e depois expande os baldes na ordem.",
+      "Funciona quando os valores são inteiros e o intervalo não é gigante."
+    ]
+  },
+  "midRight": {
+    "pill": "RADIX SORT",
+    "icon": "🔢",
+    "bullets": [
+      "Ordena pelos dígitos, da unidade para a esquerda. Primeiro olha o último dígito de cada número, depois o penúltimo, e assim por diante.",
+      "Cada passada usa Counting Sort nos dígitos. No final, tudo está magicamente ordenado sem comparar inteiros."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Ordenação de notas de provas (0 a 100).",
+      "Ordenar CPFs, placas de carro, números de telefone.",
+      "Sistemas que exigem O(n) garantido, como processamento de grandes bases fixas.",
+      "Linguagens: implementações manuais em C, Java, Python para dados específicos."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1 – Contagem: percorre a lista original e anota, num array auxiliar, quantas vezes cada valor aparece.",
+      "PASSO 2 – Soma acumulada: transforma a contagem em posições finais. Ex: se o 3 aparece 2 vezes, ele ocupa as posições 4 e 5.",
+      "PASSO 3 – Posicionamento: percorre de trás para frente e coloca cada número na posição correta do array final."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Erro clássico: usar Counting Sort quando o maior valor é 1 milhão e só tem 10 elementos. O array de contagem fica gigante à toa.",
+      "Dica de ouro: Counting Sort é para intervalo pequeno. Se os valores são esparsos, use outro algoritmo. No Radix Sort, lembre-se: ele é estável — nunca troque a ordem de elementos iguais entre passadas."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "ZERO comparações ➔ Conta frequências OU processa dígitos ➔ Posiciona direto no array final ➔ Complexidade O(n) quando o domínio dos dados é conhecido e limitado."
+    ]
+  },
+  "_modelo_usado": "devworld/deepseek-v4-pro-0813-f",
+  "modulo": "Algoritmos",
+  "escola": "02_logica_e_algoritmos",
+  "foco_pedagogico": "Como ordenar sem fazer nenhuma comparação entre elementos"
+}

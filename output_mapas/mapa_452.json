@@ -1,0 +1,65 @@
+{
+  "id": 452,
+  "title": "PROBLEMA DA MOCHILA (KNAPSACK) COM PROGRAMAÇÃO DINÂMICA",
+  "definition": "Escolher os melhores itens para levar numa mochila sem passar do peso que ela suporta.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Você tem itens com peso e valor, e uma mochila com limite de peso.",
+      "Objetivo: levar o máximo de valor possível sem estourar o peso."
+    ]
+  },
+  "topRight": {
+    "pill": "PROGRAMAÇÃO DINÂMICA",
+    "icon": "🖥️",
+    "bullets": [
+      "O computador guarda respostas de problemas menores numa tabela.",
+      "Assim ele reaproveita cálculos em vez de refazer tudo."
+    ]
+  },
+  "midRight": {
+    "pill": "TABELA DE DECISÃO",
+    "icon": "{ }",
+    "bullets": [
+      "dp[i][w] = melhor valor usando os i primeiros itens com peso w.",
+      "dp[i][w] = max(não levar item, levar item)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Otimização de recursos: orçamento, estoque, carga de caminhão.",
+      "Comum em Python, Java e C++ em entrevistas de emprego."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Liste peso e valor de cada item disponível.",
+      "PASSO 2: Para cada item, decida: levar ou deixar de fora?",
+      "PASSO 3: Guarde na tabela o melhor valor para cada peso possível."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Confundir 'mochila fracionada' (pode cortar item) com a 'binária' (item inteiro).",
+      "Esquecer de checar se o item cabe no peso restante."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Itens com peso e valor ➔ Comparar levar ou não ➔ Maior valor sem passar do limite"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Algoritmos",
+  "escola": "01_ciencia_computacao_uninter",
+  "foco_pedagogico": "Maximizando o valor dos itens sem estourar o limite de peso"
+}

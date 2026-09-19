@@ -1,0 +1,65 @@
+{
+  "id": 127,
+  "title": "ESTADOS DE UMA PROMISE",
+  "definition": "Promise é uma caixa que promete entregar um resultado no futuro, podendo estar em 3 estados.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como pedir comida: você espera, recebe ou dá problema no pedido."
+    ]
+  },
+  "topRight": {
+    "pill": "OS 3 ESTADOS",
+    "icon": "🖥️",
+    "bullets": [
+      "Pending: ainda esperando a resposta chegar.",
+      "Fulfilled: deu certo, resultado disponível.",
+      "Rejected: deu erro, motivo da falha disponível."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "new Promise((resolve, reject) => {...})",
+      "resolve(valor) muda para Fulfilled.",
+      "reject(erro) muda para Rejected."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Requisições a APIs, leitura de arquivos, timers.",
+      "Muito usado em JavaScript e Node.js."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Promise nasce como Pending.",
+      "PASSO 2: Operação termina com sucesso ou falha.",
+      "PASSO 3: Vira Fulfilled (.then) ou Rejected (.catch)."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Depois de resolvida ou rejeitada, o estado nunca muda de novo.",
+      "Esquecer o .catch() deixa erros silenciosos e perigosos."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Pending ➔ Fulfilled ou Rejected ➔ Resultado final entregue"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Async",
+  "foco_pedagogico": "Pendente, Resolvida com sucesso ou Rejeitada com erro"
+}

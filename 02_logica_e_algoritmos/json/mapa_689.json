@@ -1,0 +1,65 @@
+{
+  "id": 689,
+  "title": "PORTFÓLIO NO GITHUB QUE ENCANTA RECRUTADORES",
+  "definition": "Seu GitHub é a vitrine onde o recrutador vê como você pensa, escreve e documenta código de verdade.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Projeto autoral vale mais que dez cópias de exercícios de curso.",
+      "Recrutador quer ver um problema real que você resolveu do zero."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O RECRUTADOR OLHA",
+    "icon": "🖥️",
+    "bullets": [
+      "Ele gasta cerca de 30 segundos por perfil: lê o README antes do código.",
+      "Ele procura commits seus, não apenas um projeto copiado e enviado de uma vez."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "README sempre no topo: o que é, para quem serve, como rodar em 3 passos.",
+      "exemplo: # Meu App  |  ## Como rodar  |  npm install  |  npm start"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Vale para vagas de front-end, back-end, dados e até suporte técnico.",
+      "Use GitHub Pages para publicar o projeto no ar e mostrar o link vivo."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Escolha um problema seu do dia a dia e resolva com código.",
+      "PASSO 2: Suba em commits pequenos, com mensagens claras, e escreva o README.",
+      "PASSO 3: Publique o link, teste em outra máquina e revise nomes de variáveis."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Encher o perfil de clones de tutorial: o recrutador percebe na hora.",
+      "Esquecer o README: sem ele, ninguém entende nem roda seu projeto."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Problema real ➔ Código limpo e comentado ➔ README claro ➔ Link no ar = convite para entrevista"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Mentalidade",
+  "escola": "02_logica_e_algoritmos",
+  "foco_pedagogico": "Projetos autorais com documentação impecável e código limpo em vez de cópias de cursos"
+}

@@ -1,0 +1,64 @@
+{
+  "id": 634,
+  "title": "CHUNKING DE DOCUMENTOS: ESTRATÉGIAS DE DIVISÃO DE TEXTO PARA RAG",
+  "definition": "Chunking é a arte de picotar um texto gigante em pedacinhos menores para a IA conseguir ler, entender e responder mais rápido.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Imagine um livro de 500 páginas: você não lê tudo de uma vez. Chunking faz a mesma coisa com o computador — divide o PDF em blocos pequenos que a IA consegue mastigar."
+    ]
+  },
+  "topRight": {
+    "pill": "SOBREPOSIÇÃO (OVERLAP)",
+    "icon": "🖥️",
+    "bullets": [
+      "O computador cria pedaços que se repetem nas bordas — tipo duas fotos panorâmicas que compartilham uma faixa em comum para depois serem coladas.",
+      "Sem overlap, uma frase cortada ao meio vira informação perdida. Com overlap, o contexto atravessa a fronteira entre os pedaços."
+    ]
+  },
+  "midRight": {
+    "pill": "NA PRÁTICA",
+    "icon": "{ }",
+    "bullets": [
+      "Divida o texto em blocos de 500 tokens e inclua 50 tokens de sobreposição entre blocos vizinhos — assim a frase que começa no final de um bloco reaparece no início do próximo.",
+      "Exemplo: Bloco 1 vai da palavra 1 a 500. Bloco 2 vai da palavra 451 a 950 (50 palavras repetidas)."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Sistemas RAG (chatbots que respondem com base nos seus PDFs), buscadores internos de empresas, assistentes jurídicos e médicos que vasculham documentos.",
+      "Ferramentas como LangChain, LlamaIndex, Unstructured.io e bibliotecas Python como pypdf ou tiktoken."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Extraia o texto puro do PDF, removendo tabelas quebradas e lixo de formatação.",
+      "PASSO 2: Defina o tamanho do bloco (ex.: 512 tokens) e a taxa de sobreposição (ex.: 10% a 20%).",
+      "PASSO 3: Corte nos limites naturais — pontos finais, parágrafos — nunca no meio de uma palavra ou ideia."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Cortar no meio de uma frase importante: o sentido se perde e a IA responde besteira.",
+      "Dica de ouro: SEMPRE corte respeitando pontuação (. ! ?) e teste com overlap de 10%, 15% e 20% até achar o ponto ideal para o seu tipo de documento."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "PDF gigante ➔ Extrai texto limpo ➔ Divide em blocos com janela deslizante (overlap) ➔ Cada bloco mantém o contexto do anterior ➔ IA responde com precisão cirúrgica."
+    ]
+  },
+  "_modelo_usado": "devworld/deepseek-v4-pro-0813-f",
+  "modulo": "IA Generativa",
+  "escola": "06_banco_dados_e_ia",
+  "foco_pedagogico": "Dividindo PDFs em pedaços com sobreposição (overlap) sem perder contexto"
+}

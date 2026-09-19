@@ -1,0 +1,70 @@
+{
+  "id": 587,
+  "title": "COMO FUNCIONA O OTIMIZADOR DE CONSULTAS (QUERY PLANNER)",
+  "definition": "É o cérebro do banco de dados que lê seu SQL e decide o caminho mais barato para buscar os dados.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Você pede O QUE quer; o otimizador decide COMO buscar.",
+      "É como um GPS: mesma cidade, rotas diferentes, tempo diferente.",
+      "Ele não executa nada ainda, só planeja antes de agir."
+    ]
+  },
+  "topRight": {
+    "pill": "PARSER E PLANEJADOR",
+    "icon": "🖥️",
+    "bullets": [
+      "O parser lê o SQL e verifica se a escrita está correta.",
+      "Depois o otimizador testa várias rotas e estima o custo de cada uma.",
+      "Ele usa estatísticas das tabelas para adivinhar quantas linhas virão."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Você escreve o que quer; o banco reescreve por dentro.",
+      "EXPLAIN SELECT * FROM clientes WHERE cidade = 'SP';",
+      "A resposta mostra o plano: varredura completa ou uso de índice."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Toda consulta SQL passa por ele, em qualquer sistema.",
+      "Exemplos: PostgreSQL, MySQL, Oracle, SQL Server, SQLite.",
+      "DBA usa EXPLAIN para descobrir por que uma query está lenta."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você envia o SQL; o parser valida a sintaxe.",
+      "PASSO 2: O otimizador estima custos e compara planos possíveis.",
+      "PASSO 3: Ele escolhe o plano mais barato e o executor roda."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Usar função na coluna do WHERE desliga o índice.",
+      "Estatísticas velhas enganam o otimizador e geram plano ruim.",
+      "Dica de ouro: rode EXPLAIN e veja o plano antes de culpar o banco."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "SQL enviado ➔ Otimizador compara custos ➔ Melhor plano executado"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Tuning",
+  "escola": "06_banco_dados_e_ia",
+  "foco_pedagogico": "Como o banco lê seu SQL e escolhe o plano de execução mais eficiente"
+}

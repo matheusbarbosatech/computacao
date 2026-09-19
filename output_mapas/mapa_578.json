@@ -1,0 +1,65 @@
+{
+  "id": 578,
+  "title": "VITE: A FERRAMENTA DE BUILD ULTRARRÁPIDA BASEADA EM ES MODULES",
+  "definition": "Ferramenta que serve e monta sites modernos usando os módulos nativos do navegador, atualizando a tela na hora em que você salva.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Servidor de desenvolvimento que só transforma o arquivo que você está mexendo.",
+      "Sem esperar minutos: o navegador busca os módulos, o Vite só ajuda no caminho."
+    ]
+  },
+  "topRight": {
+    "pill": "ES MODULES NO NAVEGADOR",
+    "icon": "🖥️",
+    "bullets": [
+      "O navegador importa cada arquivo direto, um por um, só quando precisa.",
+      "O Vite não junta tudo antes: ele gera sob demanda, em milissegundos."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Importar é só escrever import; o navegador busca o arquivo sozinho.",
+      "import { soma } from './soma.js'   // sem passar por bundler no dev"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Start de projetos React, Vue, Svelte e TypeScript em poucos segundos.",
+      "Comandos: vite dev (HMR instantâneo) e vite build (produção com Rollup)."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você salva o arquivo no editor com Ctrl+S.",
+      "PASSO 2: O Vite envia só aquele módulo pelo WebSocket ao navegador.",
+      "PASSO 3: A tela troca na hora, sem perder o estado nem recarregar."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que em produção ele também não empacota: lá o Rollup entra em ação.",
+      "O nome se fala 'vit', não 'vaiti' - e significa rápido, em francês."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Salvou arquivo ➔ Vite manda só ele ➔ Tela atualiza na hora"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Front-end",
+  "escola": "05_frontend_e_mobile",
+  "foco_pedagogico": "Hot Module Replacement (HMR) instantâneo que aposentou o Webpack tradicional"
+}

@@ -1,0 +1,64 @@
+{
+  "id": 436,
+  "title": "AUTÔMATOS FINITOS: DFA E NFA",
+  "definition": "São máquinas simples com estados que leem um texto letra por letra para decidir se ele segue um padrão.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É um jogo de tabuleiro: você anda de casa em casa conforme lê cada letra do texto."
+    ]
+  },
+  "topRight": {
+    "pill": "DFA vs NFA",
+    "icon": "🖥️",
+    "bullets": [
+      "DFA: para cada letra, só existe UM caminho possível a seguir.",
+      "NFA: para a mesma letra, pode existir MAIS de um caminho ao mesmo tempo."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Regex é a forma humana de escrever um autômato.",
+      "^[a-z]+@[a-z]+\\.com$  ➔ valida um e-mail simples"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Validar senha, e-mail, CPF e formulários em sites.",
+      "Usado em Regex, compiladores e buscadores de texto."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: A máquina começa no estado inicial (a entrada).",
+      "PASSO 2: Lê cada letra do texto e muda de estado.",
+      "PASSO 3: No final, se parou num estado 'aceito', o padrão é válido."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que NFA é mais lento: na prática ele só parece ter 'vários eus' testando ao mesmo tempo.",
+      "Esquecer o estado final: chegar ao fim do texto não significa que foi aceito."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Texto digitado ➔ Máquina troca de estados ➔ Aceita ou Rejeita o padrão"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Teoria",
+  "escola": "01_ciencia_computacao_uninter",
+  "foco_pedagogico": "Máquinas de estados finitos que reconhecem padrões e validam senhas e e-mails"
+}

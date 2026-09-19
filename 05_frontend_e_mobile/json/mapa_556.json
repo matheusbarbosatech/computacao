@@ -1,0 +1,65 @@
+{
+  "id": 556,
+  "title": "CODE SPLITTING E LAZY LOADING COM REACT.LAZY E SUSPENSE",
+  "definition": "É baixar o JavaScript de cada página só quando o usuário entra nela, em vez de carregar tudo de uma vez.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Seu app é um bolo grande: em vez de servir tudo, corte fatias e sirva aos poucos.",
+      "O navegador baixa só o pedaço da tela que o usuário quer ver agora."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O NAVEGADOR REAGE",
+    "icon": "🖥️",
+    "bullets": [
+      "Um empacotador divide o código em vários arquivos menores chamados chunks.",
+      "Ao abrir a rota, o navegador pede aquele chunk pela rede e só então executa."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "React.lazy recebe uma função que importa o componente na hora; Suspense mostra um aviso enquanto espera.",
+      "const Pagina = React.lazy(() => import('./Pagina')) e <Suspense fallback={<p>Carregando...</p>}><Pagina /></Suspense>"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Rotas de páginas pesadas, painéis de administração e telas raras do sistema.",
+      "Usado com React Router, Next.js e empacotadores como Vite e Webpack."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O usuário clica no link de uma rota nova.",
+      "PASSO 2: O React vê que o componente é preguiçoso e dispara o import pela rede.",
+      "PASSO 3: O Suspense exibe o fallback e, ao terminar, mostra a página pronta."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer o Suspense ao redor do componente preguiçoso quebra a tela com erro.",
+      "Fallback vazio ou lento assusta o usuário: mostre um aviso claro de carregando."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "App grande ➔ cortar em chunks ➔ baixar só na hora ➔ site abre muito mais rápido"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Performance",
+  "escola": "05_frontend_e_mobile",
+  "foco_pedagogico": "Baixando pedaços do JavaScript apenas quando o usuário visita a página da rota"
+}

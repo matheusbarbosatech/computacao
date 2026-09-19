@@ -1,0 +1,64 @@
+{
+  "id": 112,
+  "title": "COMPOSIÇÃO VS HERANÇA",
+  "definition": "Duas formas de reaproveitar código: uma diz 'EU SOU UM', a outra diz 'EU TENHO UM'.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Herança copia comportamento do 'pai'. Composição junta pecinhas independentes."
+    ]
+  },
+  "topRight": {
+    "pill": "HERANÇA (É-UM)",
+    "icon": "🖥️",
+    "bullets": [
+      "Uma classe filha herda tudo da classe mãe automaticamente.",
+      "Cria um vínculo rígido: mudar o pai afeta todos os filhos."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Herança: class Carro extends Veiculo",
+      "Composição: class Carro { Motor motor; }",
+      "Composição = objeto guarda outro objeto como peça"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Comum em Java, Python, C#, JS (classes).",
+      "Frameworks modernos preferem composição (ex: React hooks, Go sem herança)."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Pergunte 'isso É um tipo de X ou TEM um X?'",
+      "PASSO 2: Se tem, monte o objeto com peças (composição)",
+      "PASSO 3: Troque peças facilmente sem quebrar o resto"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Herdar demais cria uma árvore gigante e frágil de classes.",
+      "Dica de ouro: prefira composição, use herança só quando é claramente 'É-UM'."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Peça necessária ➔ Encaixa como componente ➔ Objeto flexível e fácil de trocar"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "POO",
+  "foco_pedagogico": "Prefira compor objetos (TEM-UM) a herdar excessivamente"
+}

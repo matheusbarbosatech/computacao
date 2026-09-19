@@ -1,0 +1,65 @@
+{
+  "id": 662,
+  "title": "DEPURAÇÃO COM O PATO DE BORRACHA (RUBBER DUCK DEBUGGING)",
+  "definition": "Técnica de depuração em que você explica seu código linha por linha em voz alta para um objeto, até o erro ficar óbvio.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Falar em voz alta obriga o cérebro a revisar a lógica devagar, sem pular etapas.",
+      "O pato não responde nada: quem encontra a resposta é você mesmo."
+    ]
+  },
+  "topRight": {
+    "pill": "EXPLICAÇÃO EM VOZ ALTA",
+    "icon": "🖥️",
+    "bullets": [
+      "Seu cérebro tem dois modos: pensar rápido e pensar explicando. Explicar é mais lento e mais preciso.",
+      "Ao narrar, você usa uma parte da mente que só observa e compara o que ouviu com o esperado."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Não existe sintaxe: a regra é narrar cada linha como se fosse uma história para alguém leigo.",
+      "Exemplo: 'aqui eu somo o total, depois divido pela quantidade... ah, a quantidade é zero!'"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Usado quando o programa roda sem travar, mas entrega um resultado errado.",
+      "Funciona em qualquer linguagem: Python, JavaScript, Java, C#, SQL ou até planilhas."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Pegue o pato (ou qualquer objeto) e o trecho de código suspeito.",
+      "PASSO 2: Explique linha por linha em voz alta o que o código REALMENTE faz.",
+      "PASSO 3: No meio da fala, você escuta a falha e corrige antes de terminar."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Explicar em silêncio, na cabeça, não funciona: a boca precisa dizer para o ouvido ouvir.",
+      "Dica de ouro: descreva o que o código FAZ, não o que você queria que ele fizesse."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Explico em voz alta ➔ ouço a falha na minha própria fala ➔ acho o bug sozinho"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Prática Dev",
+  "escola": "02_logica_e_algoritmos",
+  "foco_pedagogico": "Explicar o problema linha por linha em voz alta para ativar o raciocínio claro"
+}

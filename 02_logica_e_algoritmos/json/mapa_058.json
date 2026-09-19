@@ -1,0 +1,63 @@
+{
+  "id": 58,
+  "title": "DOCUMENTAÇÃO DE CÓDIGO (DOCSTRINGS)",
+  "definition": "É o bilhete explicativo que você deixa no código dizendo o que ele faz e como usar.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Comentário é uma carta para o próximo dev que ler seu código."
+    ]
+  },
+  "topRight": {
+    "pill": "DOCSTRING",
+    "icon": "🖥️",
+    "bullets": [
+      "Fica logo abaixo da função, explicando seu propósito.",
+      "Muitas ferramentas leem e geram documentação automática."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Use aspas triplas para textos de várias linhas.",
+      "def somar(a, b): \"\"\"Soma dois números.\"\"\""
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Funções, classes e módulos em qualquer linguagem.",
+      "Python, JavaScript (JSDoc), Java (Javadoc)."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Escreva o que a função faz em uma frase",
+      "PASSO 2: Liste entradas esperadas e saída retornada",
+      "PASSO 3: Outro dev entende sem precisar te perguntar"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Comentar o óbvio só faz poluição visual, evite isso.",
+      "Comentário desatualizado é peor que não ter nenhum."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Código escrito ➔ Explicação clara ➔ Time inteiro entende"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Funções",
+  "foco_pedagogico": "Escrevendo comentários úteis para outros devs"
+}

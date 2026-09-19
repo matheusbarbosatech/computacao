@@ -1,0 +1,63 @@
+{
+  "id": 169,
+  "title": "FILTRO DE FAIXA COM BETWEEN",
+  "definition": "BETWEEN é um jeito de pedir ao banco de dados valores que estão dentro de um intervalo, do mínimo ao máximo.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como filtrar produtos de um preço até outro preço numa loja."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O BANCO INTERPRETA",
+    "icon": "🖥️",
+    "bullets": [
+      "O banco compara cada valor da coluna com o mínimo e o máximo.",
+      "Se o valor está dentro dessa faixa, ele entra no resultado."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "coluna BETWEEN valor_minimo AND valor_maximo",
+      "WHERE idade BETWEEN 18 AND 30"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Filtrar preços, datas, idades ou notas em consultas SQL.",
+      "Usado em MySQL, PostgreSQL, SQL Server e Oracle."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você define um valor mínimo e um máximo",
+      "PASSO 2: O banco verifica cada linha da tabela",
+      "PASSO 3: Só as linhas dentro da faixa aparecem no resultado"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "BETWEEN inclui o mínimo E o máximo, não só o meio.",
+      "Inverter a ordem (maior AND menor) faz a consulta não retornar nada."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Define faixa ➔ Compara valores ➔ Retorna só quem está dentro"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "BancoDados",
+  "foco_pedagogico": "Valores entre um mínimo e um máximo"
+}

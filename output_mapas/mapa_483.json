@@ -1,0 +1,66 @@
+{
+  "id": 483,
+  "title": "VALIDAÇÃO DE BEANS COM JAKARTA VALIDATION",
+  "definition": "É um porteiro que checa os dados antes de deixarem entrar no seu sistema.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Você escreve as regras uma vez em cima do objeto, não em cada método."
+    ]
+  },
+  "topRight": {
+    "pill": "ANOTAÇÕES PRINCIPAIS",
+    "icon": "🖥️",
+    "bullets": [
+      "@NotNull exige que o campo não venha vazio ou nulo.",
+      "@Size limita tamanho mínimo e máximo de texto ou lista.",
+      "@Email confere se o texto parece um e-mail válido."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Coloque a anotação em cima do atributo da classe.",
+      "@NotNull @Size(min=3,max=50) private String nome;",
+      "@Email private String email;"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Formulários de cadastro, APIs REST e telas de login.",
+      "Usado em Java com Spring Boot, Jakarta EE e Hibernate Validator."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Requisição chega com dados do usuário no corpo.",
+      "PASSO 2: O @Valid dispara a checagem das anotações do bean.",
+      "PASSO 3: Se falhar, retorna erro 400 sem tocar no banco."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer o @Valid no controller faz as anotações não funcionarem.",
+      "String vazia \"\" passa no @NotNull, use @NotBlank para bloquear isso."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Dado suspeito ➔ Validação rejeita na porta ➔ Banco fica protegido."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Java/Spring",
+  "escola": "04_backend_e_apis",
+  "foco_pedagogico": "Rejeitando requisições malformadas automaticamente antes de tocar no banco"
+}

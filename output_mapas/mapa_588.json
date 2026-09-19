@@ -1,0 +1,67 @@
+{
+  "id": 588,
+  "title": "LENDO E INTERPRETANDO O COMANDO EXPLAIN ANALYZE",
+  "definition": "EXPLAIN ANALYZE é o raio-X que mostra exatamente como o banco executou a sua consulta.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como abrir o capô do carro e ver o motor trabalhando de verdade.",
+      "Não mostra só o plano esperado: mostra o plano real e o tempo gasto."
+    ]
+  },
+  "topRight": {
+    "pill": "SEQUENTIAL SCAN x INDEX SCAN",
+    "icon": "🖥️",
+    "bullets": [
+      "Seq Scan: lê a tabela inteira, página por página, como procurar palavra por palavra no dicionário.",
+      "Index Scan: pula direto nas linhas certas, como usar o índice remissivo do livro."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Sintaxe: basta escrever EXPLAIN ANALYZE antes do seu SELECT.",
+      "EXPLAIN ANALYZE SELECT * FROM clientes WHERE id = 10;"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Diagnóstico de consulta lenta, tuning e decisão de quais índices criar.",
+      "Funciona em PostgreSQL, MySQL, SQL Server, Oracle e SQLite."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Rode EXPLAIN ANALYZE e leia o plano de dentro para fora.",
+      "PASSO 2: Procure Seq Scan, tempo alto e estimativa muito diferente do real.",
+      "PASSO 3: Crie o índice certo e compare os tempos antes e depois."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Rodar EXPLAIN ANALYZE em UPDATE ou DELETE e alterar dados de verdade.",
+      "Achar que Seq Scan é sempre vilão: tabela pequena usa de propósito.",
+      "Confiar só na estimativa: o valor 'actual' é quem conta a história."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Seq Scan ➔ lê tudo ➔ lento quando a tabela cresce",
+      "Index Scan ➔ busca direto ➔ rápido com o índice certo"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Tuning",
+  "escola": "06_banco_dados_e_ia",
+  "foco_pedagogico": "Identificando se o banco está fazendo Sequential Scan (lento) ou Index Scan (rápido)"
+}

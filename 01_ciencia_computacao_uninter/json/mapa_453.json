@@ -1,0 +1,64 @@
+{
+  "id": 453,
+  "title": "ALGORITMOS GULOSOS (GREEDY ALGORITHMS)",
+  "definition": "É escolher sempre a melhor opção disponível agora, sem se preocupar com o futuro.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "A cada passo, pega a decisão que parece mais vantajosa naquele instante."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO FUNCIONA",
+    "icon": "🖥️",
+    "bullets": [
+      "Nunca volta atrás para revisar uma escolha já feita.",
+      "Confia que a soma das melhores escolhas locais dá o melhor resultado geral."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Ordena os itens por algum critério e escolhe do melhor pro pior.",
+      "sort(itens); for item in itens: se_cabe(item) then escolhe(item)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Troco de moedas, agendamento de tarefas, compressão Huffman.",
+      "Algoritmo de Dijkstra e árvore geradora mínima (Kruskal, Prim)."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Liste todas as opções disponíveis no momento",
+      "PASSO 2: Escolha a opção com melhor valor imediato",
+      "PASSO 3: Repita até resolver o problema todo"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Nem sempre a melhor escolha local leva à melhor solução global.",
+      "Dica: teste com casos pequenos antes de confiar no algoritmo."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Melhor opção agora ➔ Escolhe sem hesitar ➔ Espera ótimo no final"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Algoritmos",
+  "escola": "01_ciencia_computacao_uninter",
+  "foco_pedagogico": "Tomando a melhor decisão local a cada passo na esperança de achar o ótimo global"
+}

@@ -1,0 +1,66 @@
+{
+  "id": 340,
+  "title": "CULTURA SRE: SLAs, SLOs E SLIs",
+  "definition": "É a arte de decidir 'o quão perfeito' um sistema precisa ser, e aceitar que ele vai falhar um pouco.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Confiabilidade 100% não existe e custa caro demais para tentar.",
+      "SRE mede a saúde do sistema com números, não com opinião."
+    ]
+  },
+  "topRight": {
+    "pill": "SLI, SLO E SLA",
+    "icon": "🖥️",
+    "bullets": [
+      "SLI: o termômetro, a métrica real medida (ex: tempo de resposta).",
+      "SLO: a meta interna que a equipe quer bater (ex: 99.9%).",
+      "SLA: a promessa contratual ao cliente, com multa se falhar."
+    ]
+  },
+  "midRight": {
+    "pill": "ORÇAMENTO DE ERRO",
+    "icon": "{ }",
+    "bullets": [
+      "É o quanto de falha você 'tem permissão' de ter no período.",
+      "erro_permitido = 100% - SLO (ex: 100% - 99.9% = 0.1%)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Times de plataforma, DevOps e infraestrutura em nuvem.",
+      "Ferramentas: Prometheus, Grafana, Datadog, Google Cloud Monitoring."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Escolhe-se um SLI (o que medir, tipo latência ou erro).",
+      "PASSO 2: Define-se o SLO (a meta aceitável para esse SLI).",
+      "PASSO 3: Orçamento de erro é consumido; ao esgotar, novas features pausam."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Confundir SLA (promessa ao cliente) com SLO (meta interna).",
+      "Meta de 100% é armadilha: trava inovação e é impossível na prática."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Mede-se (SLI) ➔ define-se meta (SLO) ➔ promete-se ao cliente (SLA)."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Observabilidade",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Definindo metas de confiabilidade e orçamentos de erro toleráveis"
+}

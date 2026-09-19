@@ -1,0 +1,64 @@
+{
+  "id": 444,
+  "title": "COMPILAÇÃO JUST-IN-TIME (JIT)",
+  "definition": "É quando o computador percebe um trecho de código muito usado e o transforma em binário rápido, na hora.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Em vez de traduzir tudo de uma vez, o motor traduz só o que realmente vale a pena, no momento certo."
+    ]
+  },
+  "topRight": {
+    "pill": "INTERPRETADOR ESPIÃO",
+    "icon": "🖥️",
+    "bullets": [
+      "V8 e JVM ficam 'espiando' o código enquanto ele roda, contando quantas vezes cada trecho é executado.",
+      "Isso é feito por um contador interno, tipo um cronômetro de uso."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Loop repetido 1000+ vezes = 'quente'.",
+      "for (i=0; i<100000; i++) { soma += i; }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Navegadores (Chrome, Edge) usam V8 para acelerar JavaScript.",
+      "Java usa a JVM com HotSpot para acelerar apps corporativos."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Interpretador executa o código linha por linha, devagar.",
+      "PASSO 2: Um contador marca loops e funções repetidas (código 'quente').",
+      "PASSO 3: O JIT compila esse trecho quente para binário nativo, direto na memória."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que tudo já começa rápido: na verdade o início é sempre interpretado e lento.",
+      "Esquecer que código raramente usado nunca é compilado, só o 'quente' ganha esse boost."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Código repetido ➔ Motor detecta padrão ➔ Compila para binário nativo mais veloz"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Compiladores",
+  "escola": "01_ciencia_computacao_uninter",
+  "foco_pedagogico": "Como o interpretador monitora loops quentes e os compila para binário nativo no ar"
+}

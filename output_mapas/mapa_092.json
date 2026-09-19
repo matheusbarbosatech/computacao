@@ -1,0 +1,63 @@
+{
+  "id": 92,
+  "title": "DESESTRUTURAÇÃO DE OBJETOS",
+  "definition": "É pegar valores de dentro de um objeto e colocar cada um em sua própria caixinha (variável).",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Em vez de abrir a caixa e catar item por item, você já separa tudo de uma vez."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O JS ENTENDE",
+    "icon": "🖥️",
+    "bullets": [
+      "O nome da variável precisa ser igual ao nome da propriedade do objeto.",
+      "A ordem das chaves não importa, só o nome."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Use chaves { } do lado esquerdo do sinal de igual.",
+      "const { nome, idade } = usuario;"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Muito comum ao receber dados de uma API ou de um formulário.",
+      "Usado em JavaScript, TypeScript, React e Node.js."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você tem o objeto usuario com nome e idade dentro",
+      "PASSO 2: O JS procura essas propriedades pelo nome exato",
+      "PASSO 3: Cria as variáveis nome e idade prontas para usar"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Escrever o nome errado gera undefined, não dá erro.",
+      "Confundir com array: objeto usa { }, array usa [ ]."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Objeto usuario ➔ Desestruturação { } ➔ Variáveis nome e idade separadas"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Coleções",
+  "foco_pedagogico": "const { nome, idade } = usuario"
+}

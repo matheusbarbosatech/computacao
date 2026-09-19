@@ -1,0 +1,64 @@
+{
+  "id": 368,
+  "title": "ENGENHARIA SOCIAL E PHISHING SIMULADO",
+  "definition": "É a arte de enganar pessoas, não máquinas, para roubar informações ou acesso.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "O hacker ataca a mente humana, não o código do sistema."
+    ]
+  },
+  "topRight": {
+    "pill": "PSICOLOGIA HUMANA",
+    "icon": "🖥️",
+    "bullets": [
+      "Usa medo, urgência e curiosidade para te fazer agir sem pensar.",
+      "Confiança e autoridade fazem você baixar a guarda."
+    ]
+  },
+  "midRight": {
+    "pill": "ANATOMIA DO E-MAIL FALSO",
+    "icon": "{ }",
+    "bullets": [
+      "Remetente parecido, mas com erro sutil no domínio.",
+      "de: suporte@banc0-seguro.com"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Treinamentos corporativos de segurança usam phishing simulado.",
+      "Ferramentas como GoPhish e KnowBe4 testam funcionários."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO DO ATAQUE",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O atacante cria um gancho emocional convincente",
+      "PASSO 2: A vítima clica no link ou responde sem verificar",
+      "PASSO 3: Dados ou acesso são roubados silenciosamente"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que só gente 'burra' cai nesse tipo de golpe.",
+      "Dica de ouro: sempre verifique o link antes de clicar."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Emoção manipulada ➔ Clique impulsivo ➔ Dados roubados"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Red Team",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "O elo mais fraco da segurança: explorando a psicologia humana"
+}

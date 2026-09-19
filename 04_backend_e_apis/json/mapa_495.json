@@ -1,0 +1,64 @@
+{
+  "id": 495,
+  "title": "MONOLITO VS MICROSSERVIÇOS: QUANDO DECOMPOR?",
+  "definition": "É a escolha entre construir um sistema como uma peça única ou como vários serviços pequenos conectados.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Monolito é uma casa inteira. Microsserviços são vários cômodos separados e independentes."
+    ]
+  },
+  "topRight": {
+    "pill": "MONOLITO",
+    "icon": "🖥️",
+    "bullets": [
+      "Todo o código roda junto, num só processo, num só deploy.",
+      "Simples de começar, difícil de escalar partes específicas."
+    ]
+  },
+  "midRight": {
+    "pill": "MICROSSERVIÇOS",
+    "icon": "{ }",
+    "bullets": [
+      "Cada serviço tem seu próprio código, banco e deploy.",
+      "servico_pagamento ➔ API ➔ servico_estoque"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Netflix e Amazon usam microsserviços para escalar times e tráfego.",
+      "Startups pequenas geralmente começam com monolito."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "QUANDO DECOMPOR",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O monolito cresce e times começam a travar uns nos outros",
+      "PASSO 2: Você identifica partes que precisam escalar de forma diferente",
+      "PASSO 3: Separa só essa parte em um serviço independente"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que microsserviços resolvem problema de organização, não resolvem.",
+      "Decompor cedo demais cria complexidade sem necessidade real."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Escala independente ➔ mais liberdade ➔ mas mais peças para gerenciar e monitorar"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Microsserviços",
+  "escola": "04_backend_e_apis",
+  "foco_pedagogico": "Vantagens de escala independente vs o pesadelo da complexidade operacional"
+}

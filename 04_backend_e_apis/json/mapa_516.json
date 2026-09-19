@@ -1,0 +1,64 @@
+{
+  "id": 516,
+  "title": "TESTES DE CONTRATO COM PACT",
+  "definition": "É um combinado escrito que garante que o front-end e o back-end continuem se entendendo mesmo depois de mudanças.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como um contrato de aluguel entre quem pede dados e quem entrega os dados."
+    ]
+  },
+  "topRight": {
+    "pill": "CONSUMIDOR E PROVEDOR",
+    "icon": "🖥️",
+    "bullets": [
+      "Front-end é o Consumidor, quem pede as informações da API.",
+      "Back-end é o Provedor, quem entrega essas informações."
+    ]
+  },
+  "midRight": {
+    "pill": "ARQUIVO DE CONTRATO",
+    "icon": "{ }",
+    "bullets": [
+      "É um arquivo JSON que descreve o pedido e a resposta esperada.",
+      "pact.expects(GET /users).toReturn(200, {id, name})"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Muito comum em microsserviços que se comunicam por API.",
+      "Ferramentas: Pact-JS, Pact-JVM, Pact Broker."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Front-end define o que espera receber da API",
+      "PASSO 2: Esse combinado é salvo como um contrato",
+      "PASSO 3: Back-end testa se ainda cumpre esse contrato antes de mudar algo"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que testes de contrato substituem testes de integração completos.",
+      "Esquecer de compartilhar o contrato atualizado com o time do back-end."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Front pede algo ➔ Contrato registra a promessa ➔ Back garante que cumpre"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Microsserviços",
+  "escola": "04_backend_e_apis",
+  "foco_pedagogico": "Garantindo que mudanças na API não quebrem as expectativas do front-end"
+}

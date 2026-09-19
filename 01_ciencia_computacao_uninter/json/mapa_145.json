@@ -1,0 +1,63 @@
+{
+  "id": 145,
+  "title": "ÁRVORES BINÁRIAS DE BUSCA",
+  "definition": "É uma estrutura em forma de galho de árvore que organiza dados para você encontrar qualquer coisa muito rápido.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Cada 'caixinha' (nó) tem no máximo 2 filhos: um menor à esquerda, outro maior à direita."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O COMPUTADOR ORGANIZA",
+    "icon": "🖥️",
+    "bullets": [
+      "Cada nó guarda um valor e aponta pra até dois outros nós.",
+      "Quem manda no topo é a 'raiz', a primeira caixinha criada."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Regra de ouro: esquerda < nó < direita, sempre.",
+      "no.valor = 10; no.esquerda = 5; no.direita = 15"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Bancos de dados e índices para achar registros rápido.",
+      "Usado em C++, Java, Python e em jogos para ranking de jogadores."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO DE UMA BUSCA",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Compare o valor procurado com a raiz da árvore",
+      "PASSO 2: Se for menor vá pra esquerda, se maior vá pra direita",
+      "PASSO 3: Repita até achar o valor ou chegar num galho vazio"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Árvore desequilibrada vira uma fila gigante e perde a velocidade.",
+      "Esquecer de comparar valores iguais causa duplicidade bagunçada."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Comparar valor ➔ Descartar metade da árvore ➔ Achar rápido em O(log n)"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "UNINTER",
+  "foco_pedagogico": "Hierarquias e buscas rápidas em O(log n)"
+}

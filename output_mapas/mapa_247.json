@@ -1,0 +1,64 @@
+{
+  "id": 247,
+  "title": "AGRUPAMENTOS COM GROUPBY NO PANDAS",
+  "definition": "groupby separa seus dados em grupos por categoria para calcular médias, somas e outras métricas de cada grupo.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como separar moedas por tipo antes de contar cada pilha."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O PANDAS ENTENDE ISSO",
+    "icon": "🖥️",
+    "bullets": [
+      "Ele junta linhas com o mesmo valor numa coluna escolhida.",
+      "Depois aplica uma conta (média, soma) em cada grupo separado."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Escolha a coluna categoria e a função de cálculo.",
+      "df.groupby('cidade')['venda'].mean()"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Relatórios de vendas por região, loja ou vendedor.",
+      "Usado em análise de dados com Python e Pandas."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Escolha a coluna que define os grupos",
+      "PASSO 2: Pandas junta as linhas iguais em cada grupo",
+      "PASSO 3: Aplica média, soma ou contagem em cada grupo"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de escolher a coluna numérica antes do cálculo.",
+      "Dica: sempre confira o tipo de dado antes de agrupar."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Categoria ➔ groupby junta ➔ média ou soma por grupo"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Data Python",
+  "escola": "03_python_especialista",
+  "foco_pedagogico": "Calculando médias, somas e métricas por categoria"
+}

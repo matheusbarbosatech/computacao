@@ -1,0 +1,64 @@
+{
+  "id": 344,
+  "title": "CRIPTOGRAFIA SIMÉTRICA (AES E CHACHA20)",
+  "definition": "É um cadeado onde a mesma chave secreta tranca e destranca o cofre de dados.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Uma única chave secreta serve pra embaralhar e desembaralhar a informação."
+    ]
+  },
+  "topRight": {
+    "pill": "AES E CHACHA20",
+    "icon": "🖥️",
+    "bullets": [
+      "AES embaralha os dados em blocos fixos, como fatiar e misturar cartas.",
+      "ChaCha20 mistura os dados em um fluxo contínuo, mais leve pra celulares."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Você passa a mensagem e a chave, o algoritmo devolve texto embaralhado.",
+      "cifra = AES.encrypt(mensagem, chave_secreta)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Proteger arquivos, senhas salvas e conversas do WhatsApp.",
+      "Usado em HTTPS, VPNs e bibliotecas como OpenSSL e libsodium."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você cria uma chave secreta única.",
+      "PASSO 2: O algoritmo usa a chave pra trancar (cifrar) os dados.",
+      "PASSO 3: A mesma chave destranca (decifra) os dados no destino."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Perder a chave secreta significa perder o acesso aos dados pra sempre.",
+      "Nunca envie a chave junto com a mensagem cifrada pelo mesmo canal."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Chave secreta ➔ Tranca o cofre ➔ Mesma chave destranca depois"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Criptografia",
+  "escola": "08_ciberseguranca",
+  "foco_pedagogico": "A mesma chave secreta tranca e destranca o cofre de dados"
+}

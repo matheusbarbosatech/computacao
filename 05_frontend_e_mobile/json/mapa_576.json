@@ -1,0 +1,63 @@
+{
+  "id": 576,
+  "title": "THREE.JS E WEBGL: GRÁFICOS 3D INTERATIVOS NA WEB",
+  "definition": "Three.js é uma biblioteca JavaScript que transforma o navegador em um estúdio de animação 3D, usando a GPU da placa de vídeo via WebGL.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "O navegador vira um palco 3D onde você posiciona objetos, luzes e uma câmera virtual — tudo em JavaScript, sem plugins."
+    ]
+  },
+  "topRight": {
+    "pill": "CENAS E CÂMERAS",
+    "icon": "🎥",
+    "bullets": [
+      "A CENA é o universo 3D — tudo o que existe no mundo virtual fica dentro dela.",
+      "A CÂMERA é o olho do espectador: define o que aparece na tela (perspectiva ou ortográfica)."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Três passos básicos: criar cena, adicionar câmera e iniciar o renderizador.",
+      "const cena = new THREE.Scene(); const camera = new THREE.PerspectiveCamera(75, largura/altura, 0.1, 1000); const renderer = new THREE.WebGLRenderer();"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Sites interativos, configuradores de produtos 3D, jogos no navegador, tours virtuais e visualização de dados científicos."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO DE RENDERIZAÇÃO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Monte a CENA com malhas (geometria + material) e luzes.",
+      "PASSO 2: Posicione a CÂMERA no ângulo desejado.",
+      "PASSO 3: O RENDERIZADOR desenha a cena via GPU, quadro a quadro, em loop (requestAnimationFrame)."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de chamar renderer.render(cena, camera) no loop de animação — a tela fica preta.",
+      "Dica de ouro: sempre confira se a luz está posicionada para iluminar o objeto, não atrás dele."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "CENA (palco) ➔ MALHA (objeto 3D) ➔ LUZ (ilumina) ➔ CÂMERA (enquadra) ➔ RENDERIZADOR (desenha na tela)"
+    ]
+  },
+  "_modelo_usado": "devworld/deepseek-v4-pro-0813-f",
+  "modulo": "Front-end",
+  "escola": "05_frontend_e_mobile",
+  "foco_pedagogico": "Cenas, câmeras, malhas, iluminação e renderização 3D no navegador"
+}

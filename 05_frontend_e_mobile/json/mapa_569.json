@@ -1,0 +1,64 @@
+{
+  "id": 569,
+  "title": "DEEP LINKING NO MOBILE: ABRINDO TELAS ESPECÍFICAS VIA LINKS DA WEB",
+  "definition": "É um link da web que abre o app já na tela certa, como uma porta que dá direto no quarto.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como um crachá que abre a porta exata dentro do prédio, sem passar pela recepção."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO O SISTEMA DECIDE",
+    "icon": "🖥️",
+    "bullets": [
+      "O celular lê o link, checa se o app existe e escolhe para onde ir.",
+      "Se o app não estiver instalado, abre a loja ou a página na web."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "O app registra no arquivo de configuração quais links ele aceita.",
+      "Exemplo: promoapp://produto/12345 ou https://loja.com/produto/12345"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Post do Instagram, e-mail, QR code e notificação levam direto ao produto.",
+      "Ferramentas comuns: React Native, Flutter, Firebase e Unity."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Cliente toca no link da promoção dentro do Instagram",
+      "PASSO 2: Celular abre o app e busca o código do produto",
+      "PASSO 3: A tela do produto aparece pronta para comprar"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "O link abre a tela inicial em vez do produto, pois a rota não foi tratada.",
+      "Dica de ouro: teste com app fechado, app aberto e app ausente."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Link com ID ➔ App abre a rota certa ➔ Produto na tela"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Mobile",
+  "escola": "05_frontend_e_mobile",
+  "foco_pedagogico": "Levando o usuário direto para o produto da promoção ao tocar no link do Instagram"
+}

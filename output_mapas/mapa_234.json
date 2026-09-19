@@ -1,0 +1,64 @@
+{
+  "id": 234,
+  "title": "DATACLASSES: CLASSES LIMPAS SEM BOILERPLATE",
+  "definition": "É um atalho que faz o Python escrever o código repetitivo de uma classe para você.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Você só declara os dados, o Python monta o resto da classe."
+    ]
+  },
+  "topRight": {
+    "pill": "@DATACLASS",
+    "icon": "🖥️",
+    "bullets": [
+      "O decorador lê os atributos e cria construtor e print automaticamente.",
+      "Também cria comparação (==) entre objetos sem você escrever nada."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Coloque @dataclass em cima da classe e liste atributos com tipo.",
+      "@dataclass / class Pessoa: nome: str / idade: int"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Modelar dados simples: usuários, produtos, coordenadas, configs.",
+      "Muito comum em APIs, jogos e scripts de análise de dados."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você lista os campos com tipos, sem escrever __init__",
+      "PASSO 2: @dataclass gera construtor, print bonito e comparação sozinho",
+      "PASSO 3: Você só usa a classe normalmente, como Pessoa('Ana', 30)"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de importar: from dataclasses import dataclass.",
+      "Achar que precisa escrever __init__ mesmo usando @dataclass."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Lista de campos ➔ @dataclass gera código ➔ classe pronta pra usar"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "POO Python",
+  "escola": "03_python_especialista",
+  "foco_pedagogico": "O decorador @dataclass que gera construtor e comparações sozinho"
+}

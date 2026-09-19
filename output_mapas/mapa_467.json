@@ -1,0 +1,64 @@
+{
+  "id": 467,
+  "title": "ARQUITETURA HEXAGONAL (PORTS & ADAPTERS)",
+  "definition": "É organizar o sistema como uma tomada elétrica: o núcleo não muda, só trocamos o plugue (banco, API, tela).",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "O coração do sistema fica isolado, protegido do mundo externo."
+    ]
+  },
+  "topRight": {
+    "pill": "PORTAS E ADAPTADORES",
+    "icon": "🖥️",
+    "bullets": [
+      "Porta é o contrato (o que pode entrar ou sair).",
+      "Adaptador é quem fala a língua específica de cada tecnologia."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Porta é uma interface, adaptador é a implementação.",
+      "interface RepositorioPedido { salvar(pedido) }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Trocar banco de dados sem tocar na regra de negócio.",
+      "Comum em Java (Spring), Node.js e sistemas corporativos."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O núcleo define a porta (o que precisa ser feito)",
+      "PASSO 2: O adaptador implementa a porta usando MySQL, API ou arquivo",
+      "PASSO 3: O sistema funciona igual, mesmo trocando o adaptador"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Colocar lógica de negócio dentro do adaptador é erro grave.",
+      "Dica: se envolve banco ou tela, é adaptador, não núcleo."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Núcleo pede ➔ Porta define contrato ➔ Adaptador conecta com o mundo real"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Arquitetura",
+  "escola": "04_backend_e_apis",
+  "foco_pedagogico": "Conectando bancos de dados e interfaces externas através de portas plugáveis"
+}

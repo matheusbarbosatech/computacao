@@ -1,0 +1,64 @@
+{
+  "id": 270,
+  "title": "GERENCIANDO SERVIÇOS COM SYSTEMD E SYSTEMCTL",
+  "definition": "systemd é o gerente que liga, desliga e cuida dos programas que rodam em segundo plano no Linux.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Pense no systemd como o zelador do prédio que controla todas as luzes e máquinas."
+    ]
+  },
+  "topRight": {
+    "pill": "SERVIÇOS (SERVICES)",
+    "icon": "🖥️",
+    "bullets": [
+      "Cada programa de fundo (servidor web, banco de dados) é um 'serviço'.",
+      "Cada serviço tem um arquivo .service que descreve como ele funciona."
+    ]
+  },
+  "midRight": {
+    "pill": "COMANDOS BÁSICOS",
+    "icon": "{ }",
+    "bullets": [
+      "Estrutura: systemctl [ação] [nome-do-serviço]",
+      "systemctl start nginx"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Servidores Linux, nuvem (AWS, Azure) e containers com systemd.",
+      "Comum em Ubuntu, Debian, CentOS, Fedora."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO DE GERENCIAMENTO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: start liga o serviço agora, na hora",
+      "PASSO 2: enable manda ligar sozinho todo boot",
+      "PASSO 3: status mostra se está rodando ou parado"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "start liga agora mas NÃO garante ligar no próximo boot.",
+      "Dica de ouro: sempre use start + enable juntos."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Serviço parado ➔ systemctl enable --now ➔ liga agora e sempre no boot"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Linux",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Iniciando, parando e habilitando servidores para ligar junto com o boot"
+}

@@ -1,0 +1,63 @@
+{
+  "id": 97,
+  "title": "CLASSES: A PLANTA DA CASA",
+  "definition": "Classe é o molde que define como um objeto deve ser construído.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Classe é a planta arquitetônica, não a casa pronta e habitável."
+    ]
+  },
+  "topRight": {
+    "pill": "ATRIBUTOS E MÉTODOS",
+    "icon": "🖥️",
+    "bullets": [
+      "Atributos guardam as características, como cor e tamanho.",
+      "Métodos guardam as ações que o objeto sabe fazer."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Toda classe começa com a palavra class e um nome.",
+      "class Casa { cor = 'branca'; abrirPorta() {} }"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Base da programação orientada a objetos em sistemas reais.",
+      "Presente em Java, Python, C#, JavaScript e PHP."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você desenha a planta definindo a classe.",
+      "PASSO 2: O código usa essa planta para construir um objeto.",
+      "PASSO 3: A casa (objeto) fica pronta para ser usada."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que a classe já é a casa, e não apenas o desenho dela.",
+      "Dica de ouro: sem construir o objeto, a planta não faz nada sozinha."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Planta (classe) ➔ Construção ➔ Casa pronta (objeto)"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "POO",
+  "foco_pedagogico": "A estrutura e o molde que define o objeto"
+}

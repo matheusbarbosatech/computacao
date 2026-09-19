@@ -1,0 +1,65 @@
+{
+  "id": 697,
+  "title": "NETWORKING SAUDÁVEL: COMUNIDADES, EVENTOS E MEETUPS",
+  "definition": "Networking é criar laços verdadeiros com pessoas da área, ajudando antes de precisar de ajuda.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Networking não é colecionar contatos, é construir relações de confiança.",
+      "Sua reputação nasce de quem você ajuda sem esperar troca imediata."
+    ]
+  },
+  "topRight": {
+    "pill": "REDE DE APOIO",
+    "icon": "🖥️",
+    "bullets": [
+      "Boa parte das vagas se move por indicação, não por currículo enviado.",
+      "Comunidades online e grupos locais mantêm você aprendendo e visível."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Regra de ouro: contribua primeiro, peça depois, agradeça sempre.",
+      "ajudar(pessoa) ➔ confiança sobe ➔ convites e portas abrem"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Meetups, conferências, Discord, GitHub, LinkedIn e eventos da sua cidade.",
+      "Serve em qualquer linguagem: JS, Python, Java, dados ou design."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Escolha uma comunidade e apareça com regularidade",
+      "PASSO 2: Ajude alguém, faça boas perguntas e compartilhe o que aprendeu",
+      "PASSO 3: Cultive os contatos e colha mentoria, convites e vagas"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Falar só quando precisa de algo queima sua reputação rápido.",
+      "Dica de ouro: escreva mensagem personalizada, nunca copie e cole."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Apareça ➔ Ajude de verdade ➔ Reputação cresce ➔ Oportunidades chegam"
+    ]
+  },
+  "_modelo_usado": "devworld/gemini-3.7-flash-f",
+  "modulo": "Mentalidade",
+  "escola": "02_logica_e_algoritmos",
+  "foco_pedagogico": "Criando conexões genuínas e ajudando outros para construir sua reputação"
+}

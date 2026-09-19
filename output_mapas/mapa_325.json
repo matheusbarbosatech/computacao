@@ -1,0 +1,64 @@
+{
+  "id": 325,
+  "title": "STATE REMOTO NO S3 COM LOCK NO DYNAMODB",
+  "definition": "É guardar o 'mapa da infraestrutura' num lugar compartilhado e trancado, para só uma pessoa alterar por vez.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "O Terraform precisa lembrar o que já foi criado, esse arquivo é o 'state'."
+    ]
+  },
+  "topRight": {
+    "pill": "S3 COMO ARMAZÉM",
+    "icon": "🖥️",
+    "bullets": [
+      "O arquivo state fica salvo num bucket S3, acessível pela equipe toda.",
+      "Ninguém guarda o state só no próprio PC, evitando versões desatualizadas."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Bloco 'backend s3' define bucket, key e a tabela de lock.",
+      "dynamodb_table = \"terraform-locks\""
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Times de infraestrutura usando Terraform em equipe.",
+      "Comum em AWS, com pipelines de CI/CD tipo GitHub Actions."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Engenheiro roda 'terraform apply' e pede a trava",
+      "PASSO 2: DynamoDB verifica se já existe alguém com a trava",
+      "PASSO 3: Se livre, aplica e libera; se ocupada, o segundo espera"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de criar a tabela do DynamoDB antes de configurar o backend.",
+      "Apagar o lock manualmente sem checar se é seguro, isso corrompe o state."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "State no S3 ➔ Trava no DynamoDB ➔ Ninguém aplica mudança ao mesmo tempo"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "IaC",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Evitando que dois engenheiros apliquem mudanças concorrentes e quebrem o ambiente"
+}

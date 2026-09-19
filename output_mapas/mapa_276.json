@@ -1,0 +1,64 @@
+{
+  "id": 276,
+  "title": "ENDEREÇAMENTO IP E MÁSCARAS DE SUB-REDE (CIDR)",
+  "definition": "IP é o endereço de um dispositivo na rede, e a máscara diz qual parte é o 'bairro' e qual é a 'casa'.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "IP é como o endereço postal de um computador na internet ou rede local."
+    ]
+  },
+  "topRight": {
+    "pill": "IPv4 VS IPv6",
+    "icon": "🖥️",
+    "bullets": [
+      "IPv4 tem 4 números de 0 a 255, tipo 192.168.0.1.",
+      "IPv6 é gigante e moderno, tipo 2001:db8::1, sem limite de endereços."
+    ]
+  },
+  "midRight": {
+    "pill": "CIDR: /24 E /16",
+    "icon": "{ }",
+    "bullets": [
+      "/24 significa que os 3 primeiros números são o 'bairro' fixo.",
+      "192.168.1.0/24 ➔ de .1 até .254 são casas do mesmo bairro."
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Configuração de roteadores Wi-Fi, servidores e redes de empresas.",
+      "Comandos ipconfig, ifconfig e ferramentas de rede em geral."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "COMO A MÁSCARA FUNCIONA",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: O IP chega com um número tipo 192.168.1.10/24",
+      "PASSO 2: A máscara separa 'bairro' (rede) de 'casa' (host)",
+      "PASSO 3: Dispositivos do mesmo bairro se enxergam direto"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que /24 e /16 são parecidos: /16 libera muito mais casas (65 mil!).",
+      "Confundir IP público (visível na internet) com IP privado (só na sua rede)."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "IP identifica ➔ máscara organiza em bairros ➔ faixas privadas (192.168, 10.0, 172.16) ficam de uso interno e grátis."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Redes",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Entendendo /24, /16 e faixas de IP privadas (192.168, 10.0, 172.16)"
+}

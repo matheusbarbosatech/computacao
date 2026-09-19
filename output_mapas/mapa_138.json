@@ -1,0 +1,63 @@
+{
+  "id": 138,
+  "title": "CICLO DE INSTRUÇÃO: BUSCA, DECODIFICA E EXECUTA",
+  "definition": "É o ritmo repetitivo que o processador segue para ler e obedecer cada instrução do programa.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "O processador funciona como um leitor que nunca para de repetir 3 passos."
+    ]
+  },
+  "topRight": {
+    "pill": "O CLOCK EM GIGAHERTZ",
+    "icon": "🖥️",
+    "bullets": [
+      "Clock é o metrônomo que marca cada batida do ciclo.",
+      "1 GHz = 1 bilhão de batidas por segundo."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Cada instrução gasta um ou mais ciclos de clock.",
+      "tempo = numero_ciclos / frequencia_GHz"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Dentro da CPU de todo computador, celular e videogame.",
+      "Aparece em specs como Intel i5 3.2GHz ou Apple M2."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1 (BUSCA): CPU pega a instrução na memória.",
+      "PASSO 2 (DECODIFICA): CPU traduz o que essa instrução significa.",
+      "PASSO 3 (EXECUTA): CPU realiza a ação e segue para a próxima."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que GHz maior sempre significa computador mais rápido.",
+      "Dica: o número de núcleos e a eficiência também contam muito."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Busca ➔ Decodifica ➔ Executa ➔ repete bilhões de vezes por segundo."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Hardware",
+  "foco_pedagogico": "O ritmo do clock em gigahertz"
+}

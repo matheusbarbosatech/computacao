@@ -1,0 +1,64 @@
+{
+  "id": 450,
+  "title": "ÁRVORES GERADORAS MÍNIMAS (MST): KRUSKAL E PRIM",
+  "definition": "MST é o jeito mais barato de ligar todas as cidades com cabos, sem sobrar nem faltar conexão.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Ligar todas as cidades gastando o mínimo possível de cabo de fibra ótica."
+    ]
+  },
+  "topRight": {
+    "pill": "GRAFOS COM PESO",
+    "icon": "🖥️",
+    "bullets": [
+      "Cada cidade é um ponto, cada cabo é uma linha com um custo (peso).",
+      "O sistema escolhe as linhas mais baratas que conectam tudo."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Kruskal ordena as arestas por custo e vai pegando as mais baratas.",
+      "sorted(edges, key=peso) + union_find(a, b)"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Redes de internet, energia elétrica, rodovias e tubulações.",
+      "Usado em Python (networkx), C++, Java com heaps e union-find."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Liste todos os cabos possíveis com seus custos",
+      "PASSO 2: Kruskal escolhe o cabo mais barato que não forma um ciclo (ou Prim expande a partir de uma cidade)",
+      "PASSO 3: Repete até todas as cidades estarem conectadas"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer de evitar ciclos deixa cabos sobrando e custo mais alto.",
+      "Dica: Kruskal é ótimo p/ grafos esparsos, Prim p/ densos."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Cidades e cabos com custo ➔ Escolher os mais baratos sem ciclo ➔ Rede conectada e econômica"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Algoritmos",
+  "escola": "01_ciencia_computacao_uninter",
+  "foco_pedagogico": "Conectando cidades com cabos de fibra ótica com o menor custo financeiro total"
+}

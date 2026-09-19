@@ -1,0 +1,76 @@
+{
+  "id": 501,
+  "title": "PADRÃO SAGA: TRANSAÇÕES DISTRIBUÍDAS SEM TWO-PHASE COMMIT",
+  "definition": "SAGA divide uma transação grande em vários passos pequenos, cada um com um plano B para desfazer se algo falhar.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Em vez de travar tudo esperando confirmação, cada serviço faz sua parte e avisa o resultado."
+    ]
+  },
+  "topRight": {
+    "pill": "COMPENSAÇÃO",
+    "icon": "🖥️",
+    "bullets": [
+      "Se um passo falha, os passos anteriores são desfeitos por ações compensatórias.",
+      "É como cancelar um pedido: 'estornar pagamento' em vez de 'apagar o passado'."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Cada passo tem uma ação e uma compensação equivalente.",
+      "reservarEstoque() ↔ cancelarReserva()"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Sistemas de microsserviços com pedidos, pagamentos e entregas.",
+      "Ferramentas: Kafka, RabbitMQ, AWS Step Functions, Temporal."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Serviço A executa sua etapa (ex: reservar estoque)",
+      "PASSO 2: Se todos os passos derem certo, a saga termina com sucesso",
+      "PASSO 3: Se um passo falhar, disparam-se as compensações na ordem inversa"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que SAGA garante consistência instantânea, ela é eventual, leva um tempo.",
+      "Esquecer de criar a compensação para algum passo, deixando dados 'presos'."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Passo dá certo ➔ segue adiante ➔ passo falha ➔ desfaz tudo com compensações."
+    ]
+  },
+  "extraCoreografiaVsOrquestracao": {
+    "pill": "COREOGRAFIA VS ORQUESTRAÇÃO",
+    "icon": "🎭",
+    "bullets": [
+      "COREOGRAFIA: cada serviço escuta eventos e decide por conta própria o que fazer, sem chefe central.",
+      "É como uma banda tocando junta: cada músico ouve os outros e reage, sem maestro.",
+      "ORQUESTRAÇÃO: um serviço central (o maestro) manda cada participante executar e reverter sua etapa.",
+      "É como uma peça de teatro com diretor: ele diz a hora de agir e a hora de recuar.",
+      "Coreografia é simples no começo, mas fica confusa quando há muitos serviços.",
+      "Orquestração facilita rastrear o que aconteceu, mas cria um ponto central de controle."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Microsserviços",
+  "escola": "04_backend_e_apis",
+  "foco_pedagogico": "Coreografia vs Orquestração para reverter transações em caso de falha"
+}

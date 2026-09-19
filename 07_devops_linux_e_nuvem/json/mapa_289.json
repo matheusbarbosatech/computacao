@@ -1,0 +1,64 @@
+{
+  "id": 289,
+  "title": "PORT MAPPING NO DOCKER (-p 8080:80)",
+  "definition": "É a ponte que liga uma porta do seu computador a uma porta dentro do container.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "O container é uma casa isolada, a porta é a única janela para o mundo externo."
+    ]
+  },
+  "topRight": {
+    "pill": "PORTA HOST vs CONTAINER",
+    "icon": "🖥️",
+    "bullets": [
+      "Porta HOST é a do seu computador, quem você acessa de fora.",
+      "Porta CONTAINER é a interna, onde a aplicação realmente escuta."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Formato é sempre HOST:CONTAINER, na ordem certa.",
+      "docker run -p 8080:80 minha-imagem"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Rodar sites, APIs e bancos de dados acessíveis pelo navegador.",
+      "Usado em docker run, docker-compose.yml e Dockerfile EXPOSE."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Você acessa localhost:8080 no navegador.",
+      "PASSO 2: O Docker redireciona essa chamada para a porta 80 do container.",
+      "PASSO 3: A aplicação dentro do container responde normalmente."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Inverter a ordem: -p 80:8080 acessa a porta errada.",
+      "Usar uma porta HOST já ocupada trava o container na hora."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Sua porta 8080 ➔ Docker traduz ➔ Porta 80 do container responde."
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Docker",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Ligando a porta do seu computador à porta interna do container"
+}

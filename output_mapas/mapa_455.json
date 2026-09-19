@@ -1,0 +1,64 @@
+{
+  "id": 455,
+  "title": "TRIES E AUTOCOMPLETE",
+  "definition": "Uma Trie é uma árvore que guarda palavras letra por letra para achar sugestões rápido.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "É como um dicionário organizado por letras iniciais compartilhadas."
+    ]
+  },
+  "topRight": {
+    "pill": "COMO FUNCIONA A ÁRVORE",
+    "icon": "🖥️",
+    "bullets": [
+      "Cada nó representa uma letra, não uma palavra inteira.",
+      "Palavras que começam iguais compartilham o mesmo caminho."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "Cada nó tem filhos (letras) e uma marca de 'fim de palavra'.",
+      "trie.insert('bola') cria b -> o -> l -> a"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Barra de busca do Google e teclado do celular.",
+      "Usado em IDEs, dicionários e sistemas de busca."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO DO AUTOCOMPLETE",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Usuário digita 'b', árvore desce até o nó 'b'",
+      "PASSO 2: A cada letra nova, desce mais um nível na árvore",
+      "PASSO 3: Sistema lista todas as palavras que continuam a partir daquele nó"
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Achar que Trie guarda a palavra inteira em um só nó, e não é assim.",
+      "Esquecer de marcar o fim da palavra confunde 'boi' com 'bola'."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Letra digitada ➔ Desce um nível na árvore ➔ Mostra palavras possíveis"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Algoritmos",
+  "escola": "01_ciencia_computacao_uninter",
+  "foco_pedagogico": "Buscando sugestões de palavras conforme o usuário digita cada letra"
+}

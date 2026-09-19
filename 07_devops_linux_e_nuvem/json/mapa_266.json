@@ -1,0 +1,69 @@
+{
+  "id": 266,
+  "title": "FILTROS DE TEXTO: GREP, SED, AWK E CUT",
+  "definition": "São ferramentas do terminal que caçam, cortam e transformam texto dentro de arquivos gigantes em segundos.",
+  "topLeft": {
+    "pill": "IDEIA CENTRAL",
+    "icon": "💡",
+    "bullets": [
+      "Pense num garimpeiro filtrando terabytes de terra pra achar pepitas de ouro (dados)."
+    ]
+  },
+  "topRight": {
+    "pill": "AS 4 FERRAMENTAS",
+    "icon": "🖥️",
+    "bullets": [
+      "GREP acha linhas que combinam com um padrão.",
+      "SED troca ou remove texto linha por linha.",
+      "AWK organiza texto em colunas e faz contas.",
+      "CUT recorta pedaços específicos de cada linha."
+    ]
+  },
+  "midRight": {
+    "pill": "CÓDIGO OU REGRA",
+    "icon": "{ }",
+    "bullets": [
+      "grep procura, sed substitui, awk calcula.",
+      "grep 'erro' log.txt",
+      "sed 's/cao/ção/g' arq.txt",
+      "awk '{print $2}' dados.csv",
+      "cut -d',' -f1 dados.csv"
+    ]
+  },
+  "bottomRight": {
+    "pill": "ONDE É USADO",
+    "icon": "</>",
+    "bullets": [
+      "Análise de logs de servidores gigantes sem abrir editor.",
+      "Scripts de automação em Linux, DevOps e pipelines de dados."
+    ]
+  },
+  "bottomCenter": {
+    "pill": "FLUXO OU PASSO A PASSO",
+    "icon": "⚙️",
+    "bullets": [
+      "PASSO 1: Terabytes de texto entram pelo terminal (arquivo ou pipe).",
+      "PASSO 2: A ferramenta lê linha por linha e aplica a regra.",
+      "PASSO 3: Sai só o dado filtrado, limpo e útil."
+    ]
+  },
+  "bottomLeft": {
+    "pill": "PEGADINHAS COMUNS",
+    "icon": "⚠️",
+    "bullets": [
+      "Esquecer aspas no padrão faz o terminal interpretar errado.",
+      "Dica de ouro: combine tudo com pipe | pra minerar em cadeia."
+    ]
+  },
+  "midLeft": {
+    "pill": "RESUMO EXPRESSO",
+    "icon": "💬",
+    "bullets": [
+      "Texto bruto ➔ Filtro certo (grep/sed/awk/cut) ➔ Dado valioso na tela"
+    ]
+  },
+  "_modelo_usado": "claude-sonnet-5[1m]",
+  "modulo": "Linux",
+  "escola": "07_devops_linux_e_nuvem",
+  "foco_pedagogico": "Minerando terabytes de dados no terminal com ferramentas clássicas"
+}
