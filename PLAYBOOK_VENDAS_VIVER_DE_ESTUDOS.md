@@ -60,7 +60,7 @@ Extraído diretamente da aula *"04-Copy para página de vendas - Modelo 1"*:
 | **10** | **Botão de Compra Final** | Checkout direto via Kiwify / Hotmart com aprovação instantânea no PIX. |
 | **11** | **FAQ (Perguntas Frequentes)** | Accordion quebrando dúvidas de formato, envio, impressão e acesso. |
 
-*Toda essa estrutura já está codificada e funcionando no arquivo [`landing_page/index.html`](file:///C:/Users/matheus/Desktop/gerador-mapas-computacao/landing_page/index.html)!*
+*Toda essa estrutura já está codificada e funcionando no arquivo [`landing_page/index.html`](file:///C:/Users/matheus/Desktop/computacao/landing_page/index.html)!*
 
 ---
 

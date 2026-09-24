@@ -22,7 +22,7 @@ Este projeto transforma conceitos complexos de programação e computação em *
 ## 🚀 Como Iniciar em 1 Clique
 
 1. Vá até a pasta criada na sua Área de Trabalho:
-   `C:\Users\matheus\Desktop\gerador-mapas-computacao`
+   `C:\Users\matheus\Desktop\computacao`
 2. Dê dois cliques no arquivo:
    👉 **`INICIAR_ESTUDIO.bat`**
 3. O servidor local iniciará e seu navegador abrirá automaticamente em `http://localhost:8080`.

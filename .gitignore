@@ -19,9 +19,19 @@ rclone.conf
 
 # Arquivos Temporários de Renderização e Frames
 temp_frames/
+output_reels_demo/
 *.tmp
 *.log
+
 
 # PDFs Gigantes de Amostra (Manter código e scripts leves)
 *.mp4
 *.mkv
+
+# Credenciais e Tokens Sensíveis em config/ (manter apenas *.example.json no GitHub)
+config/*_credentials.json
+config/client_secret.json
+config/token_youtube.json
+config/cookies.txt
+config/kaggle.json
+

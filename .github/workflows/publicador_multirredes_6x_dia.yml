@@ -1,0 +1,68 @@
+name: IBPM CR - Publicador Autônomo Multirredes (6x ao Dia)
+
+# on:
+#   schedule:
+#     - cron: '0 0,9,12,15,18,21 * * *'
+on:
+  workflow_dispatch:
+    inputs:
+      corte:
+        description: 'ID do corte a publicar (ex: SHORT_05) ou deixe vazio para automático'
+        required: false
+        default: ''
+      slot:
+        description: 'Horário do slot (ex: 18:00) ou deixe vazio para horário atual'
+        required: false
+        default: ''
+      dry_run:
+        description: 'Executar em modo simulação (sem postar de verdade)'
+        type: boolean
+        required: false
+        default: false
+
+jobs:
+  publicar_multirredes:
+    name: 🚀 Disparo Sincronizado nas Redes Sociais
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: 📥 Checkout do Repositório
+        uses: actions/checkout@v3
+
+      - name: 🐍 Configurar Python 3.10
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+
+      - name: 📦 Instalar Dependências Leves de Publicação
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests gdown python-dotenv
+
+      - name: ⚡ Executar Robô de Publicação
+        env:
+          APP_SECRETS: ${{ secrets.APP_SECRETS }}
+          INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+          INSTAGRAM_ACCOUNT_ID: ${{ secrets.INSTAGRAM_ACCOUNT_ID }}
+          INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
+          TIKTOK_CLIENT_KEY: ${{ secrets.TIKTOK_CLIENT_KEY }}
+          TIKTOK_CLIENT_SECRET: ${{ secrets.TIKTOK_CLIENT_SECRET }}
+          TIKTOK_REFRESH_TOKEN: ${{ secrets.TIKTOK_REFRESH_TOKEN }}
+          EVOLUTION_API_URL: ${{ secrets.EVOLUTION_API_URL }}
+          EVOLUTION_API_KEY: ${{ secrets.EVOLUTION_API_KEY }}
+          EVOLUTION_INSTANCE: ${{ secrets.EVOLUTION_INSTANCE }}
+          GDRIVE_FOLDER_ID: ${{ secrets.GDRIVE_FOLDER_ID }}
+        run: |
+          ARGS=""
+          if [ -n "${{ github.event.inputs.corte }}" ]; then
+            ARGS="$ARGS --corte ${{ github.event.inputs.corte }}"
+          fi
+          if [ -n "${{ github.event.inputs.slot }}" ]; then
+            ARGS="$ARGS --slot ${{ github.event.inputs.slot }}"
+          fi
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            ARGS="$ARGS --dry-run"
+          fi
+          python scripts/fase4_publicacao/publicador_nuvem_github_actions.py $ARGS

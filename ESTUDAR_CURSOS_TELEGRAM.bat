@@ -14,7 +14,7 @@ echo   ⚡ 4. Quizzes Interativos para o Duolingo da Computação
 echo ==============================================================================
 echo.
 
-cd /d "C:\Users\matheus\Desktop\gerador-mapas-computacao\telegram_study_engine"
+cd /d "C:\Users\matheus\Desktop\computacao\telegram_study_engine"
 python -u telegram_study_cli.py
 
 echo.

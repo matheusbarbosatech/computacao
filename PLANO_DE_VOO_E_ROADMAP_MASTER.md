@@ -54,7 +54,7 @@ Você não vai esperar 1 ano para conseguir um emprego júnior. Vamos dividir se
 
 ### ⚡ Oferta 2: Venda do Kit de Mapas Mentais de Computação (Low-Ticket)
 * **O que você já tem pronto na sua máquina:** 
-  - 700 Mapas Mentais Sketchnote (`c:\Users\matheus\Desktop\gerador-mapas-computacao\output_mapas`)
+  - 700 Mapas Mentais Sketchnote (`c:\Users\matheus\Desktop\computacao\output_mapas`)
   - 8 Artbooks prontos para PDF / Impressão
   - 2.100 Flashcards do Anki
   - Landing Page pronta (`landing_page/index.html`)
@@ -165,10 +165,10 @@ Sempre que você abrir o computador para continuar, consulte esta tabela rápida
 |---|---|---|
 | **Verificar o Clone do Drive** | `C:\Users\matheus\Desktop\#COMPUTAÇÃO\TelegramDownloader` | O script `clonar_drive_sequencial.py` já está rodando em segundo plano. Ele recomeça assim que a cota liberar. |
 | **Entrar em Novos Canais do Telegram** | `C:\Users\matheus\Desktop\#COMPUTAÇÃO\TelegramDownloader` | Basta colar os links nas suas **Mensagens Salvas** do Telegram. O robô `auto_join_mensagens_salvas.py` detecta e entra sozinho respeitando o anti-flood. |
-| **Visualizar a Landing Page de Vendas** | `c:\Users\matheus\Desktop\gerador-mapas-computacao` | Dê 2 cliques em `ABRIR_LANDING_PAGE.bat` |
-| **Abrir o Web App Duolingo de Estudos** | `c:\Users\matheus\Desktop\gerador-mapas-computacao` | Dê 2 cliques em `ABRIR_DUOLINGO_COMPUTACAO.bat` |
-| **Rodar o Teste de Ikigai no Terminal** | `c:\Users\matheus\Desktop\gerador-mapas-computacao` | `python onboarding_ikigai.py` |
-| **Ver o Playbook de Vendas da Maria Clara** | `c:\Users\matheus\Desktop\gerador-mapas-computacao` | Abra `PLAYBOOK_VENDAS_VIVER_DE_ESTUDOS.md` |
+| **Visualizar a Landing Page de Vendas** | `c:\Users\matheus\Desktop\computacao` | Dê 2 cliques em `ABRIR_LANDING_PAGE.bat` |
+| **Abrir o Web App Duolingo de Estudos** | `c:\Users\matheus\Desktop\computacao` | Dê 2 cliques em `ABRIR_DUOLINGO_COMPUTACAO.bat` |
+| **Rodar o Teste de Ikigai no Terminal** | `c:\Users\matheus\Desktop\computacao` | `python onboarding_ikigai.py` |
+| **Ver o Playbook de Vendas da Maria Clara** | `c:\Users\matheus\Desktop\computacao` | Abra `PLAYBOOK_VENDAS_VIVER_DE_ESTUDOS.md` |
 
 ---
 *Documento gerado automaticamente pelo assistente de IA para preservação perpétua no repositório.*
