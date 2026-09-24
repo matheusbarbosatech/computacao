@@ -1,66 +1,124 @@
-# 🎓 Gerador de Mapas Mentais — Ciência da Computação UNINTER
+# 💻 Computação & CyberSketch — Ecossistema Autônomo de Educação, IA e Publicação Multirredes
 
-> **Sistema Completo & Automatizado** para gerar mapas mentais no estilo *Sketchnote* (infográficos visuais desenhados à mão) cobrindo **toda a Matriz Curricular de Ciência da Computação da UNINTER (3.210 Horas)** e estruturado do **absoluto zero** para iniciantes, utilizando os modelos **ilimitados (-f) da DevWorld AI**.
+> **Repositório Oficial:** [github.com/matheusbarbosatech/computacao](https://github.com/matheusbarbosatech/computacao)  
+> **Caminho Local Oficial:** `C:\Users\matheus\Desktop\computacao`
 
 ---
 
 ## 🌟 O que é este projeto?
 
-Este projeto transforma conceitos complexos de programação e computação em **mapas mentais visuais, diretos e sem enrolação** — exatamente como os da página que você viu:
+O **Computação** é um ecossistema completo de engenharia de software, inteligência artificial e criação audiovisual autônoma para transformar conceitos densos de **Ciência da Computação e Cibersegurança** em:
 
-1. **Título Central de Destaque** com raios desenhados à mão e definição simples.
-2. **Ideia Central (Lâmpada 💡)**: O cerne do conceito em 1 frase.
-3. **Conceito Prático (Computador 🖥️)**: Como a máquina interpreta.
-4. **Código & Sintaxe ({ })**: Exemplos práticos em blocos monoespaçados.
-5. **Onde é Usado (</>)**: Aplicações em linguagens reais (Python, JS, C++).
-6. **Fluxo Básico (Engrenagem ⚙️)**: Passo a passo sequencial (Entrada ➔ Processamento ➔ Saída).
-7. **Pegadinhas Comuns (Alerta ⚠️)**: Onde os iniciantes costumam errar.
-8. **Resumo Expresso (Balão 💬)**: Resumo visual em 1 linha com setas.
+1. **700+ Mapas Mentais Visuais (Sketchnote)** desenhados à mão no estilo Excalidraw / Rough.js.
+2. **Flashcards Atômicos para Anki** com repetição espaçada (portas de rede, flags TCP, comandos de terminal e algoritmos).
+3. **App Gamificado (CyberLingo / DevSketch Play)** com desafios estilo CTF (Capture The Flag) e lógica de programação.
+4. **Motores Audiovisuais Cinematográficos** com animações em Manim (estilo 3Blue1Brown) e VideoScribe, legendas estilo Hormozi (#FFD700) e Smart Auto-Reframe 9:16.
+5. **Esteira de Publicação Autônoma na Nuvem (GitHub Actions)** que posta automaticamente 6x ao dia no Instagram Reels, TikTok, YouTube Shorts e WhatsApp Status sem precisar do PC ligado.
 
 ---
 
-## 🚀 Como Iniciar em 1 Clique
+## 🏗️ Arquitetura do Repositório
 
-1. Vá até a pasta criada na sua Área de Trabalho:
-   `C:\Users\matheus\Desktop\computacao`
-2. Dê dois cliques no arquivo:
-   👉 **`INICIAR_ESTUDIO.bat`**
-3. O servidor local iniciará e seu navegador abrirá automaticamente em `http://localhost:8080`.
+```
+computacao/
+│
+├── .github/workflows/
+│   └── publicador_multirredes_6x_dia.yml  # Automação no GitHub Actions (06h, 09h, 12h, 15h, 18h, 21h)
+│
+├── config/                                 # Modelos e credenciais de APIs (Instagram, TikTok, WhatsApp, YouTube)
+│   ├── client_secret.example.json
+│   ├── instagram_credentials.example.json
+│   ├── tiktok_credentials.example.json
+│   └── whatsapp_credentials.example.json
+│
+├── minerador_cognitivo/                   # Motores de IA para extrair valor de aulas densas
+│   ├── minerar_mega_ativos_sonnet.py      # Claude Sonnet 5 (1M tokens) para gerar Mapas, Flashcards e Resumos
+│   └── minerador_multimodal_senior.py     # Qwen 3.8 Max / Gemini Flash para processamento semântico
+│
+├── motores_audiovisuais/                  # Pós-produção de vídeo automatizada
+│   ├── gerador_legendas.py                # Legendas dinâmicas Karaokê Ouro (#FFD700) 60fps
+│   ├── reframe_engine.py                  # Auto-Reframe 16:9 para 9:16 com IA
+│   └── audio_energy_analyzer.py           # Normalização de áudio EBU R128 (-16 LUFS)
+│
+├── scripts/                               # Robôs de publicação e sincronização
+│   ├── publicador_nuvem_github_actions.py # Orquestrador principal na nuvem
+│   ├── instagram_uploader.py              # Upload oficial via Meta Graph API
+│   ├── tiktok_uploader.py                 # Upload via TikTok Developer API
+│   ├── whatsapp_canal_e_status.py         # Envio via Evolution API
+│   ├── youtube_uploader.py                # Upload via YouTube Data API v3
+│   ├── gerador_capas.py                   # Gerador de thumbnails e capas de alta conversão
+│   └── gerar_copies_postagem.py           # Gerador de legendas e ganchos virais
+│
+├── templates/
+│   └── 00_SINCRONIZACAO_TEMPLATE.json     # Fila de agendamento de posts e vídeos
+│
+├── duolingo_computacao/                   # App interativo gamificado no navegador
+│   └── index.html                         # Interface CyberLingo / DevSketch Play
+│
+├── landing_page/                          # Página de vendas de alta conversão
+│   └── index.html
+│
+├── 01_ciencia_computacao_uninter/         # Escolas de conteúdo estruturadas
+├── 02_logica_e_algoritmos/
+├── 03_python_especialista/
+├── 04_backend_e_apis/
+├── 05_frontend_e_mobile/
+├── 06_banco_dados_e_ia/
+├── 07_devops_linux_e_nuvem/
+├── 08_ciberseguranca/
+│
+├── GUIA_100_REPOSITORIOS_CIBERSEGURANCA.md# Enciclopédia dos 100 maiores repositórios de Cyber
+├── DEMO_EXCALIDRAW_E_MANIM.html           # Vitrine visual interativa
+├── requirements.txt                       # Dependências Python
+└── .env                                   # Chaves de API (Gemini, Groq, DevWorld, YouTube, etc.)
+```
 
 ---
 
-## 📚 Como o Sistema Sabe o que Ensinar se Você é Iniciante?
+## ⚡ Conexão entre os Motores: Do Estudo à Venda
 
-**Você NÃO precisa fornecer livros, apostilas ou documentações!**
+```mermaid
+flowchart LR
+    subgraph MINERACAO["1. Mineração Cognitiva"]
+        C1["Aulas & Documentações"] --> M1["minerar_mega_ativos_sonnet.py"]
+        M1 --> A1["Mapas Mentais Sketchnote"]
+        M1 --> A2["Baralhos Anki (apkg)"]
+        M1 --> A3["Quizzes para o CyberLingo"]
+    end
 
-O sistema já possui:
-1. **A Matriz Oficial da UNINTER (3.210 horas)**: Mapeada diretamente dos documentos do curso (`PPC.pdf`).
-2. **A Trilha do Absoluto Zero (57+ tópicos sequenciais)**: Ordenados pedagogicamente na sequência exata em que seu cérebro aprende melhor:
-   - **Fase 1**: O que é um computador, algoritmos, binário e memória (sem assustar com código).
-   - **Fase 2**: Variáveis, tipos de dados e tomada de decisão (`if/else`).
-   - **Fase 3**: Repetições e automação (`while/for`).
-   - **Fase 4**: Funções, escopo e depuração.
-   - **Fase 5**: Listas, coleções e JSON.
-   - **Fase 6**: Estruturas de dados clássicas da faculdade (Pilhas, Filas, Árvores e Big-O).
-   - **Fase 7**: Programação Orientada a Objetos (Classes e Objetos).
-   - **Fase 8**: Arquitetura de Von Neumann e Sistemas Operacionais.
-   - **Fase 9**: Banco de Dados SQL e Redes (HTTP, APIs).
-   - **Fase 10**: Git, Engenharia de Software e Inteligência Artificial.
+    subgraph AUDIOVISUAL["2. Produção de Vídeos"]
+        A1 --> V1["gerar_reels_cinematico_mapa.py"]
+        V1 --> V2["gerador_legendas.py (Karaokê #FFD700)"]
+        V2 --> V3["gerador_capas.py (Thumbnails 9:16)"]
+    end
 
----
+    subgraph PUBLICACAO["3. Distribuição & Vendas"]
+        V3 --> P1["GitHub Actions (6x ao dia)"]
+        P1 --> P2["Instagram Reels, TikTok, Shorts"]
+        P2 --> P3["OpenReply / Direct Automático"]
+        P3 --> P4["Checkout Kiwify"]
+    end
 
-## ⚡ Conexão com a DevWorld AI (Modelos Ilimitados)
-
-O sistema está configurado para utilizar as cotas ilimitadas da **DevWorld AI** (`https://chat.devwservices.shop/v1`) com os modelos gratuitos terminados em `-f`:
-- `devworld/deepseek-v4-pro-0813-f` (Padrão: excelente para raciocínio lógico e código)
-- `devworld/gemini-3.7-flash-f` (Ultra rápido para gerações instantâneas)
-- `devworld/gpt-5.6-sol-f` (Explicações didáticas profundas)
-- `devworld/claude-opus-5-f` (Visão conceitual avançada)
-- `devworld/qwen3.8-max-f` (Especialista em algoritmos)
+    MINERACAO --> AUDIOVISUAL --> PUBLICACAO
+```
 
 ---
 
-## 📸 Como Baixar os Mapas
+## 🚀 Como Executar Localmente
 
-- No Estúdio Visual, clique em **"📸 Baixar PNG (300 DPI)"**.
-- A imagem é gerada em escala 2x (2400x1600px), perfeita para leitura no celular, tablet, computador ou impressão em alta qualidade.
+### 1. Iniciar o Estúdio de Mapas e Visualização:
+Dê dois cliques em:
+👉 **`INICIAR_ESTUDIO.bat`** (ou abra `http://localhost:8080`)
+
+### 2. Abrir a Demonstração Interativa (Excalidraw + Manim):
+Dê dois cliques em:
+👉 **`ABRIR_DEMO_EXCALIDRAW_E_MANIM.bat`**
+
+### 3. Abrir o Jogo Gamificado (CyberLingo):
+Dê dois cliques em:
+👉 **`ABRIR_DUOLINGO_COMPUTACAO.bat`**
+
+---
+
+## 🛡️ Licença & Direitos
+Desenvolvido por Matheus Barbosa — Todos os direitos reservados.
