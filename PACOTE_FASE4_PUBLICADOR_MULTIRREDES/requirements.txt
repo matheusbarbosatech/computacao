@@ -1,0 +1,8 @@
+# Dependências para a Esteira de Publicação Multirredes (Fase 4)
+requests>=2.28.0
+gdown>=4.7.1
+python-dotenv>=1.0.0
+Pillow>=9.5.0
+google-api-python-client>=2.80.0
+google-auth-oauthlib>=1.0.0
+google-auth-httplib2>=0.1.0

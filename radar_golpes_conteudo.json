@@ -1,0 +1,43 @@
+[
+  {
+    "fonte": "The Hack",
+    "titulo": "Fraudes em reconhecimento facial? Sim, elas já existem!",
+    "descricao": "Para contornar golpes, plataformas de autenticação precisam trabalhar com provas de vida....",
+    "link": "https://www.thehack.com.br/fraudes-em-reconhecimento-facial-sim-elas-ja-existem/",
+    "gatilhos": [
+      "fraude",
+      "golpe"
+    ],
+    "data": "Wed, 04 May 2022 12:00:00 GMT"
+  },
+  {
+    "fonte": "The Hack",
+    "titulo": "Black Friday 2021 não vende, mas ataques cibernéticos dispararam",
+    "descricao": "Relatório \"Principais crimes digitais da Black Friday 2021\", da Axur, identificou aumento de tentativas de fraude, mesmo com queda brusca no número de vendas durante a Black Friday e Cyber Monday...",
+    "link": "https://www.thehack.com.br/black-friday-2021-nao-vende-mas-ataques-ciberneticos-dispararam/",
+    "gatilhos": [
+      "fraude"
+    ],
+    "data": "Mon, 20 Dec 2021 10:00:00 GMT"
+  },
+  {
+    "fonte": "The Hack",
+    "titulo": "Empresas novas possuem 400% mais chances de serem vítimas de fraude, revela estudo",
+    "descricao": "Estudo interno da ClearSale revela que cibercriminosos preferem as empresas que foram criadas durante a pandemia, por serem menos preparadas para o trabalho remoto...",
+    "link": "https://www.thehack.com.br/empresas-novas-possuem-400-mais-chances-de-serem-vitimas-de-fraude/",
+    "gatilhos": [
+      "fraude"
+    ],
+    "data": "Mon, 06 Dec 2021 23:10:33 GMT"
+  },
+  {
+    "fonte": "The Hack",
+    "titulo": "IKEA é vítima de phishing complexo e tem seu serviço de email interno comprometido",
+    "descricao": "Especialista revela como programas de conscientização podem ajudar empresas a não serem vítimas de phishings...",
+    "link": "https://www.thehack.com.br/ikea-e-vitima-de-phishing-complexo-e-tem-seu-servico-de-email-interno-comprometido/",
+    "gatilhos": [
+      "phishing"
+    ],
+    "data": "Mon, 06 Dec 2021 10:00:00 GMT"
+  }
+]

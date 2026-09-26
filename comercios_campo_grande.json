@@ -1,0 +1,1037 @@
+[
+  {
+    "nome": "Escola Municipal Atenas",
+    "categoria": "school",
+    "endereco": "Rua Gentil de Ouro",
+    "telefone": "+55 21 2413 3809",
+    "website": "",
+    "lat": -22.897063,
+    "lon": -43.5925427
+  },
+  {
+    "nome": "Escola Municipal Jardim Guararapes",
+    "categoria": "school",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.9015216,
+    "lon": -43.6001286
+  },
+  {
+    "nome": "Escola Municipal Almirante Saldanha da Gama",
+    "categoria": "school",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.9066214,
+    "lon": -43.5718282
+  },
+  {
+    "nome": "Creche Municipal Pintando O Sete",
+    "categoria": "school",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8813255,
+    "lon": -43.613344
+  },
+  {
+    "nome": "Escola Municipal Dr. Jair Tavares de Oliveira",
+    "categoria": "school",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8884056,
+    "lon": -43.5685507
+  },
+  {
+    "nome": "Escola Municipal Amazonas",
+    "categoria": "school",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.88408,
+    "lon": -43.5694548
+  },
+  {
+    "nome": "Escola Municipal Professor Paulo Silva",
+    "categoria": "school",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.908599,
+    "lon": -43.5847775
+  },
+  {
+    "nome": "Escola Municipal Professor Castro Rebello",
+    "categoria": "school",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.884929,
+    "lon": -43.6166631
+  },
+  {
+    "nome": "Escola Municipal Alba Canizares do Nascimento",
+    "categoria": "school",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.9105785,
+    "lon": -43.5958432
+  },
+  {
+    "nome": "Escola Municipal Fernando Costa",
+    "categoria": "school",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8903731,
+    "lon": -43.5940331
+  },
+  {
+    "nome": "Creche Municipal Criando o Futuro",
+    "categoria": "school",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.9111663,
+    "lon": -43.5902457
+  },
+  {
+    "nome": "Escola Municipal Von Martius",
+    "categoria": "school",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8906953,
+    "lon": -43.5715375
+  },
+  {
+    "nome": "Creche Municipal Padre Valter da Costa Santos",
+    "categoria": "school",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8770642,
+    "lon": -43.5805323
+  },
+  {
+    "nome": "Escola Municipal Halfeld",
+    "categoria": "school",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.89782,
+    "lon": -43.5689031
+  },
+  {
+    "nome": "Escola Municipal Luiz Edmundo",
+    "categoria": "school",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8776841,
+    "lon": -43.5836375
+  },
+  {
+    "nome": "Escola Municipal Professor Jorge Euclides Pereira",
+    "categoria": "school",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.9019228,
+    "lon": -43.6002013
+  },
+  {
+    "nome": "Escola Municipal Isabel",
+    "categoria": "school",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.9103368,
+    "lon": -43.5858579
+  },
+  {
+    "nome": "Escola Municipal Barão de Santa Margarida",
+    "categoria": "school",
+    "endereco": "Rua Coremas 358",
+    "telefone": "+55 21 2413-4405",
+    "website": "",
+    "lat": -22.8889061,
+    "lon": -43.6046003
+  },
+  {
+    "nome": "Escola Municipal Jorge de Lima",
+    "categoria": "school",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8813807,
+    "lon": -43.5659042
+  },
+  {
+    "nome": "Escola Municipal Baltazar Lisboa",
+    "categoria": "school",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8845661,
+    "lon": -43.5604221
+  },
+  {
+    "nome": "Escola Municipal Professor Manuel Said Ali",
+    "categoria": "school",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8756726,
+    "lon": -43.560298
+  },
+  {
+    "nome": "Escola Especial Municipal Maria Montessori",
+    "categoria": "school",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8998086,
+    "lon": -43.565487
+  },
+  {
+    "nome": "Escola Municipal Francisco José de Moraes",
+    "categoria": "school",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8847238,
+    "lon": -43.6211459
+  },
+  {
+    "nome": "Escola Municipal Comunidade Jardim Pedregoso",
+    "categoria": "school",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8705269,
+    "lon": -43.5614855
+  },
+  {
+    "nome": "Escola Municipal Lycio de Souza Carvalho",
+    "categoria": "school",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8913974,
+    "lon": -43.5961605
+  },
+  {
+    "nome": "Creche Municipal Alegria de Nova Cidade",
+    "categoria": "school",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.9031597,
+    "lon": -43.5906698
+  },
+  {
+    "nome": "Escola Municipal Professor Manoel Maurício",
+    "categoria": "school",
+    "endereco": "Rua Marcorama",
+    "telefone": "+55 21 3394 5076",
+    "website": "",
+    "lat": -22.8871711,
+    "lon": -43.609618
+  },
+  {
+    "nome": "Escola Municipal Rômulo Gallegos",
+    "categoria": "school",
+    "endereco": "Rua Itambaraçá",
+    "telefone": "+55 21 3394-6795",
+    "website": "",
+    "lat": -22.8890085,
+    "lon": -43.6016196
+  },
+  {
+    "nome": "Escola Municipal Ministro Adauto Lúcio Cardoso",
+    "categoria": "school",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.879548,
+    "lon": -43.6144149
+  },
+  {
+    "nome": "Escola Municipal Professora Orminda Rodrigues",
+    "categoria": "school",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.9102769,
+    "lon": -43.595861
+  },
+  {
+    "nome": "Creche Municipal Mário Lombardi",
+    "categoria": "school",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8835135,
+    "lon": -43.6049162
+  },
+  {
+    "nome": "Escola Municipal Charles Peguy",
+    "categoria": "school",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8906806,
+    "lon": -43.5633073
+  },
+  {
+    "nome": "Escola Municipal Santa Isabel",
+    "categoria": "school",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.910685,
+    "lon": -43.5856834
+  },
+  {
+    "nome": "Creche Municipal Cecília Meireles",
+    "categoria": "school",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8918464,
+    "lon": -43.561674
+  },
+  {
+    "nome": "Escola Municipal Professora Jurema Peçanha Giraud",
+    "categoria": "school",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8800701,
+    "lon": -43.5819746
+  },
+  {
+    "nome": "Escola Municipal Gastão Penalva",
+    "categoria": "school",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8953491,
+    "lon": -43.5871354
+  },
+  {
+    "nome": "Escola Municipal Dalila Tavares",
+    "categoria": "school",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8914922,
+    "lon": -43.5714993
+  },
+  {
+    "nome": "Ciep Raymundo Ottoni de Castro Maya",
+    "categoria": "school",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.9116055,
+    "lon": -43.5837797
+  },
+  {
+    "nome": "Tasca do Gugu",
+    "categoria": "restaurant",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8916954,
+    "lon": -43.5634393
+  },
+  {
+    "nome": "Ciep",
+    "categoria": "school",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8850223,
+    "lon": -43.6188444
+  },
+  {
+    "nome": "Supermercados Unidos",
+    "categoria": "supermarket",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8532911,
+    "lon": -43.6017049
+  },
+  {
+    "nome": "CityFarma",
+    "categoria": "pharmacy",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8538992,
+    "lon": -43.6016968
+  },
+  {
+    "nome": "CityFarma",
+    "categoria": "pharmacy",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8531725,
+    "lon": -43.6026034
+  },
+  {
+    "nome": "Super Rede",
+    "categoria": "supermarket",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8533262,
+    "lon": -43.6024578
+  },
+  {
+    "nome": "Parmê",
+    "categoria": "restaurant",
+    "endereco": "Estrada das Capoeiras 658",
+    "telefone": "",
+    "website": "",
+    "lat": -22.89025,
+    "lon": -43.5595062
+  },
+  {
+    "nome": "Multi Market",
+    "categoria": "supermarket",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8972588,
+    "lon": -43.5797977
+  },
+  {
+    "nome": "Colégio Antônio de Pádua",
+    "categoria": "school",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.9021028,
+    "lon": -43.5638869
+  },
+  {
+    "nome": "Colégio Santos Maia",
+    "categoria": "school",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.900902,
+    "lon": -43.562653
+  },
+  {
+    "nome": "Colégio Nascimento",
+    "categoria": "school",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8972689,
+    "lon": -43.580354
+  },
+  {
+    "nome": "Drogaria Atual",
+    "categoria": "pharmacy",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8864483,
+    "lon": -43.5583963
+  },
+  {
+    "nome": "Drogaria do Rio",
+    "categoria": "pharmacy",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8901906,
+    "lon": -43.5598208
+  },
+  {
+    "nome": "Drogasmil",
+    "categoria": "pharmacy",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8863507,
+    "lon": -43.5577545
+  },
+  {
+    "nome": "Supermercado Campeão",
+    "categoria": "supermarket",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8867411,
+    "lon": -43.5587167
+  },
+  {
+    "nome": "Clínica da Família Ana Gonzaga",
+    "categoria": "clinic",
+    "endereco": "",
+    "telefone": "+55 21 24129527",
+    "website": "",
+    "lat": -22.9127126,
+    "lon": -43.595059
+  },
+  {
+    "nome": "Clínica da Família david Capistrano Filho",
+    "categoria": "clinic",
+    "endereco": "",
+    "telefone": "+55 21 3384-1569",
+    "website": "",
+    "lat": -22.9112932,
+    "lon": -43.5845353
+  },
+  {
+    "nome": "Ki Rio",
+    "categoria": "car",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.9011816,
+    "lon": -43.5664009
+  },
+  {
+    "nome": "Campo grande",
+    "categoria": "car_repair",
+    "endereco": "Rua Anysio Christino 56",
+    "telefone": "+55 21 99340 1103",
+    "website": "http://google.com",
+    "lat": -22.8736643,
+    "lon": -43.5752096
+  },
+  {
+    "nome": "Barbearia do Paraíba",
+    "categoria": "hairdresser",
+    "endereco": "Augusta Candiani",
+    "telefone": "",
+    "website": "",
+    "lat": -22.9026383,
+    "lon": -43.5778802
+  },
+  {
+    "nome": "Padaria do careca",
+    "categoria": "bakery",
+    "endereco": "Rua Embaixador Muniz Cordilho",
+    "telefone": "",
+    "website": "",
+    "lat": -22.9027929,
+    "lon": -43.5778213
+  },
+  {
+    "nome": "Mercado Point Econômico",
+    "categoria": "supermarket",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.9031158,
+    "lon": -43.5770388
+  },
+  {
+    "nome": "Instituto Vincler",
+    "categoria": "school",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.9039481,
+    "lon": -43.5966084
+  },
+  {
+    "nome": "Clínica da Família",
+    "categoria": "clinic",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8548066,
+    "lon": -43.6021815
+  },
+  {
+    "nome": "REDE SUPER COMPRAS",
+    "categoria": "supermarket",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8535944,
+    "lon": -43.6025248
+  },
+  {
+    "nome": "SuperCompras",
+    "categoria": "supermarket",
+    "endereco": "Estrada Santa Maria",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8907544,
+    "lon": -43.5800322
+  },
+  {
+    "nome": "Padaria da Vergel",
+    "categoria": "bakery",
+    "endereco": "Rua Vergel 535",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8886382,
+    "lon": -43.5764009
+  },
+  {
+    "nome": "Caps Profeta Gentileza",
+    "categoria": "clinic",
+    "endereco": "",
+    "telefone": "+55 34026835",
+    "website": "",
+    "lat": -22.8991886,
+    "lon": -43.5950701
+  },
+  {
+    "nome": "Centro Municipal de Saúde Aguiar Torres",
+    "categoria": "clinic",
+    "endereco": "",
+    "telefone": "+55 21 33773456",
+    "website": "",
+    "lat": -22.8991477,
+    "lon": -43.5952476
+  },
+  {
+    "nome": "Centro Municipal de Saúde Edgard Magalhaes Gomes",
+    "categoria": "clinic",
+    "endereco": "",
+    "telefone": "+55 21 3377-2850",
+    "website": "",
+    "lat": -22.9084378,
+    "lon": -43.5963252
+  },
+  {
+    "nome": "Centro Municipal de Saúde Professor Mário Vitor de Assis Pacheco",
+    "categoria": "clinic",
+    "endereco": "",
+    "telefone": "+55 21 3394 3842",
+    "website": "",
+    "lat": -22.910546,
+    "lon": -43.58407
+  },
+  {
+    "nome": "Clínica da Família Antonio Goncalves Villa Sobrinho",
+    "categoria": "clinic",
+    "endereco": "",
+    "telefone": "+55 21 33943043",
+    "website": "",
+    "lat": -22.892229,
+    "lon": -43.5904461
+  },
+  {
+    "nome": "Capsi Joao de Barro",
+    "categoria": "clinic",
+    "endereco": "",
+    "telefone": "+55 3394-2668",
+    "website": "",
+    "lat": -22.8906325,
+    "lon": -43.5637541
+  },
+  {
+    "nome": "Clínica da Família Medalhista Olimpico Bruno Schmidt",
+    "categoria": "clinic",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8725298,
+    "lon": -43.5783648
+  },
+  {
+    "nome": "Centro Municipal de Saúde Dr Oswaldo Vilella",
+    "categoria": "clinic",
+    "endereco": "",
+    "telefone": "+55 21 34072840",
+    "website": "",
+    "lat": -22.8750052,
+    "lon": -43.5583775
+  },
+  {
+    "nome": "Clínica da Família Lecy Ranquine",
+    "categoria": "clinic",
+    "endereco": "",
+    "telefone": "+55 21 35238483",
+    "website": "",
+    "lat": -22.884885,
+    "lon": -43.618457
+  },
+  {
+    "nome": "J.Carlos Cabeleireiro Unissex",
+    "categoria": "hairdresser",
+    "endereco": "Rua Gaspar Barbosa",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8896255,
+    "lon": -43.5787036
+  },
+  {
+    "nome": "Centro Educacional Califórnia",
+    "categoria": "school",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8930873,
+    "lon": -43.5855666
+  },
+  {
+    "nome": "Donatello Barbearia",
+    "categoria": "hairdresser",
+    "endereco": "Rua E lote 13",
+    "telefone": "+5521985649086",
+    "website": "https://www.instagram.com/donatellobarbearia/",
+    "lat": -22.8840716,
+    "lon": -43.6035554
+  },
+  {
+    "nome": "Gregorios Automotivo",
+    "categoria": "car_parts",
+    "endereco": "Estrada do Encanamento 1323",
+    "telefone": "+55 021 3528-5151",
+    "website": "",
+    "lat": -22.8874691,
+    "lon": -43.6055015
+  },
+  {
+    "nome": "Flowserve",
+    "categoria": "company",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8632471,
+    "lon": -43.5652337
+  },
+  {
+    "nome": "Convenção",
+    "categoria": "company",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8640811,
+    "lon": -43.5679638
+  },
+  {
+    "nome": "Diascom",
+    "categoria": "company",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8897332,
+    "lon": -43.6009863
+  },
+  {
+    "nome": "Escola Santa Bárbara",
+    "categoria": "school",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8840944,
+    "lon": -43.5617236
+  },
+  {
+    "nome": "Colégio Estadual Doutor Albert Sabin",
+    "categoria": "school",
+    "endereco": "Rua Tenente Ronaldo Santos",
+    "telefone": "",
+    "website": "",
+    "lat": -22.9025185,
+    "lon": -43.5659588
+  },
+  {
+    "nome": "Centro Municipal de Saúde Belizario Penna",
+    "categoria": "clinic",
+    "endereco": "Rua Franklin 29",
+    "telefone": "+55 21 34079209",
+    "website": "",
+    "lat": -22.8977803,
+    "lon": -43.5697398
+  },
+  {
+    "nome": "Carrefour",
+    "categoria": "supermarket",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8930782,
+    "lon": -43.5600673
+  },
+  {
+    "nome": "UPA 24H Campo Grande I",
+    "categoria": "clinic",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8820368,
+    "lon": -43.5566448
+  },
+  {
+    "nome": "CIE Miécimo da Silva",
+    "categoria": "school",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.9020201,
+    "lon": -43.5784977
+  },
+  {
+    "nome": "CIEP GP Mario Quintana",
+    "categoria": "school",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.902121,
+    "lon": -43.5791883
+  },
+  {
+    "nome": "Centro Municipal de Saúde Mario Rodrigues Cid",
+    "categoria": "clinic",
+    "endereco": "",
+    "telefone": "+55 21 34024261",
+    "website": "",
+    "lat": -22.8913155,
+    "lon": -43.6057629
+  },
+  {
+    "nome": "Clínica da Família Rogerio Rocco",
+    "categoria": "clinic",
+    "endereco": "",
+    "telefone": "+55 21 2411-4141",
+    "website": "",
+    "lat": -22.8916398,
+    "lon": -43.609183
+  },
+  {
+    "nome": "CIEP 435 Hélio Pellegrino",
+    "categoria": "school",
+    "endereco": "Rua Sônia Mendonça Ferreira",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8776594,
+    "lon": -43.5642828
+  },
+  {
+    "nome": "Escola Municipal Apolônio de Carvalho",
+    "categoria": "school",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.906505,
+    "lon": -43.6076772
+  },
+  {
+    "nome": "Ciep 433 Togo Renan Soares \"Kanela\"",
+    "categoria": "school",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8928176,
+    "lon": -43.6031677
+  },
+  {
+    "nome": "Supermercado Guanabara",
+    "categoria": "supermarket",
+    "endereco": "Estrada do Rio do A 1415",
+    "telefone": "+55 21 2412-1263",
+    "website": "https://www.supermercadosguanabara.com.br/",
+    "lat": -22.8957641,
+    "lon": -43.5635243
+  },
+  {
+    "nome": "Creche Municipal Adélia Vieira",
+    "categoria": "school",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8881052,
+    "lon": -43.5873201
+  },
+  {
+    "nome": "Ciep Professor Darcy Ribeiro",
+    "categoria": "school",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8873633,
+    "lon": -43.5872672
+  },
+  {
+    "nome": "Escola Municipal Rainha Vitoria",
+    "categoria": "school",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8899678,
+    "lon": -43.5807267
+  },
+  {
+    "nome": "Ciep Armindo Marcílio Doutel de Andrade",
+    "categoria": "school",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8906292,
+    "lon": -43.5809038
+  },
+  {
+    "nome": "Escola Municipal Dom Bosco",
+    "categoria": "school",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8890418,
+    "lon": -43.5791156
+  },
+  {
+    "nome": "Escola Municipal Embaixador Araújo Castro",
+    "categoria": "school",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8889513,
+    "lon": -43.5787135
+  },
+  {
+    "nome": "Escola Municipal Benjamin Franklin",
+    "categoria": "school",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8850529,
+    "lon": -43.5764142
+  },
+  {
+    "nome": "Ciep Nelson Mandela",
+    "categoria": "school",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8954175,
+    "lon": -43.5702455
+  },
+  {
+    "nome": "SR Pneus",
+    "categoria": "car_repair",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8960643,
+    "lon": -43.5791973
+  },
+  {
+    "nome": "Escola Municipal Almirante Frontin",
+    "categoria": "school",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8874807,
+    "lon": -43.5579188
+  },
+  {
+    "nome": "Ciep Dr. Ernesto (Che) Guevara",
+    "categoria": "school",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8868036,
+    "lon": -43.5565964
+  },
+  {
+    "nome": "Costazul Multimercado",
+    "categoria": "supermarket",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.9083609,
+    "lon": -43.58228
+  },
+  {
+    "nome": "Pacheco",
+    "categoria": "pharmacy",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.9103458,
+    "lon": -43.5834245
+  },
+  {
+    "nome": "Escola Municipal Antonia Vargas Cuquejo",
+    "categoria": "school",
+    "endereco": "Praça Dercides Alves dos Santos",
+    "telefone": "+55 21 3314 2226",
+    "website": "",
+    "lat": -22.8920946,
+    "lon": -43.610779
+  },
+  {
+    "nome": "Escola Santa Barbara",
+    "categoria": "school",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8900481,
+    "lon": -43.5788223
+  },
+  {
+    "nome": "Patrícia Estevez Escola de Dança",
+    "categoria": "school",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.890168,
+    "lon": -43.5791685
+  },
+  {
+    "nome": "Drogarias Preço Bom",
+    "categoria": "pharmacy",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8904677,
+    "lon": -43.579462
+  },
+  {
+    "nome": "Colégio Nascimento",
+    "categoria": "school",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8972579,
+    "lon": -43.5804038
+  },
+  {
+    "nome": "Multi Market",
+    "categoria": "supermarket",
+    "endereco": "",
+    "telefone": "",
+    "website": "",
+    "lat": -22.897245,
+    "lon": -43.5798138
+  },
+  {
+    "nome": "Centero Cultural Pedro II",
+    "categoria": "school",
+    "endereco": "Estrada Guandu do Sapê 545",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8753471,
+    "lon": -43.5614523
+  },
+  {
+    "nome": "Prezunic",
+    "categoria": "supermarket",
+    "endereco": "Estrada do Tinguí 1333",
+    "telefone": "",
+    "website": "",
+    "lat": -22.8840007,
+    "lon": -43.5752317
+  }
+]

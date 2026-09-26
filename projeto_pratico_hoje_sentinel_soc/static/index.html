@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🛡️ SentinelSOC Live | Mini-SOC & Laboratório Prático de Cibersegurança</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600;700&family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="cyber-theme">
+  <!-- Topbar Header -->
+  <header class="topbar">
+    <div class="logo-area">
+      <div class="radar-pulse"></div>
+      <div class="brand">
+        <span class="brand-title">SENTINEL<span class="highlight">SOC</span> LIVE</span>
+        <span class="brand-badge">PBL DEFENSE LAB v2.4</span>
+      </div>
+    </div>
+    <div class="system-status">
+      <div class="status-chip active">
+        <span class="dot live"></span>
+        <span>SIEM ENGINE: <strong class="text-neon">ONLINE (9090)</strong></span>
+      </div>
+      <div class="status-chip active">
+        <span class="dot honeypot"></span>
+        <span>HONEYPOT DECOY: <strong class="text-cyan">LISTENING (9091)</strong></span>
+      </div>
+      <div class="status-chip live-clock">
+        <span id="live-clock">00:00:00</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Container with Navigation Tabs -->
+  <div class="main-layout">
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+      <nav class="nav-menu">
+        <button class="nav-btn active" data-tab="tab-soc">
+          <span class="icon">📡</span>
+          <div class="nav-info">
+            <span class="nav-title">Radar de Ameaças & SOC</span>
+            <span class="nav-sub">Telemetria ao vivo & SIEM</span>
+          </div>
+        </button>
+
+        <button class="nav-btn" data-tab="tab-redteam">
+          <span class="icon">⚔️</span>
+          <div class="nav-info">
+            <span class="nav-title">Simulador Red Team</span>
+            <span class="nav-sub">Disparo de Exploits & Carga</span>
+          </div>
+        </button>
+
+        <button class="nav-btn" data-tab="tab-scanner">
+          <span class="icon">🔍</span>
+          <div class="nav-info">
+            <span class="nav-title">Scanner & Recon (Nmap)</span>
+            <span class="nav-sub">Portas & Cabeçalhos HTTP</span>
+          </div>
+        </button>
+
+        <button class="nav-btn" data-tab="tab-pbl">
+          <span class="icon">🎓</span>
+          <div class="nav-info">
+            <span class="nav-title">Missões PBL Práticas</span>
+            <span class="nav-sub">Laboratório Guiado (5 Fases)</span>
+          </div>
+        </button>
+      </nav>
+
+      <!-- Blacklist Quick Action Box -->
+      <div class="quarantine-box">
+        <div class="q-header">
+          <span class="icon">🔒</span>
+          <h4>IPs em Quarentena (SOAR)</h4>
+        </div>
+        <ul id="blacklist-list" class="blacklist-items">
+          <li class="empty-text">Nenhum IP bloqueado</li>
+        </ul>
+        <div class="q-input-group">
+          <input type="text" id="manual-ip-input" placeholder="Ex: 192.168.1.50">
+          <button id="btn-block-ip" class="btn-danger-sm">Bloquear IP</button>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="content-panel">
+      <!-- TAB 1: SOC LIVE MONITOR -->
+      <section id="tab-soc" class="tab-content active">
+        <!-- Stat Cards Grid -->
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-header">
+              <span class="stat-label">TOTAL DE REQUISIÇÕES</span>
+              <span class="stat-icon">📈</span>
+            </div>
+            <div class="stat-value" id="stat-total-req">0</div>
+            <div class="stat-footer">Tráfego monitorado em tempo real</div>
+          </div>
+
+          <div class="stat-card alert-card">
+            <div class="stat-header">
+              <span class="stat-label">AMEAÇAS BLOQUEADAS</span>
+              <span class="stat-icon">🛡️</span>
+            </div>
+            <div class="stat-value text-alert" id="stat-threats-blocked">0</div>
+            <div class="stat-footer">WAF & IDS Interceptações ativas</div>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-header">
+              <span class="stat-label">TAXA DE ATAQUES</span>
+              <span class="stat-icon">⚡</span>
+            </div>
+            <div class="stat-value text-gold" id="stat-attack-ratio">0.0%</div>
+            <div class="stat-footer">Índice de hostilidade de tráfego</div>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-header">
+              <span class="stat-label">MISSÕES PBL CONCLUÍDAS</span>
+              <span class="stat-icon">🏆</span>
+            </div>
+            <div class="stat-value text-neon" id="stat-missions-count">0 / 5</div>
+            <div class="stat-footer">Progresso do aprendizado prático</div>
+          </div>
+        </div>
+
+        <!-- Radar & Attack Distribution Section -->
+        <div class="grid-2col">
+          <!-- Animated Threat Radar Canvas -->
+          <div class="card radar-card">
+            <div class="card-header">
+              <h3>📡 Radar Tático de Vetores de Ataque</h3>
+              <span class="badge-live">LIVE SWEEP</span>
+            </div>
+            <div class="radar-container">
+              <canvas id="radar-canvas" width="360" height="260"></canvas>
+              <div class="radar-legend">
+                <span class="legend-dot sqli">● SQLi</span>
+                <span class="legend-dot xss">● XSS</span>
+                <span class="legend-dot lfi">● LFI</span>
+                <span class="legend-dot rce">● RCE</span>
+                <span class="legend-dot brute">● Brute-Force</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Attack Breakdown Stats -->
+          <div class="card">
+            <div class="card-header">
+              <h3>📊 Distribuição de Incidentes por Categoria</h3>
+            </div>
+            <div class="attack-bars" id="attack-bars-container">
+              <!-- Dynamically rendered -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Live Incident Stream (SIEM Feed) -->
+        <div class="card incident-feed-card">
+          <div class="card-header">
+            <div class="feed-title-wrap">
+              <span class="dot-blink"></span>
+              <h3>Trilha de Auditoria & Incidentes em Tempo Real (SIEM Feed)</h3>
+            </div>
+            <div class="feed-actions">
+              <button id="btn-clear-feed" class="btn-subtle">Limpar Visualização</button>
+            </div>
+          </div>
+
+          <div class="table-responsive">
+            <table class="soc-table">
+              <thead>
+                <tr>
+                  <th>HORA</th>
+                  <th>IP ORIGEM</th>
+                  <th>MÉTODO</th>
+                  <th>ENDPOINT / ROTA</th>
+                  <th>SEVERIDADE</th>
+                  <th>MITRE ATT&CK</th>
+                  <th>AÇÃO WAF</th>
+                  <th>AÇÃO RÁPIDA</th>
+                </tr>
+              </thead>
+              <tbody id="events-table-body">
+                <tr>
+                  <td colspan="8" class="empty-state">Aguardando telemetria de tráfego no Honeypot (Porta 9091)...</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB 2: RED TEAM SIMULATOR -->
+      <section id="tab-redteam" class="tab-content">
+        <div class="card">
+          <div class="card-header">
+            <h3>⚔️ Simulador de Ataques Ofensivos (Red Team Sandbox)</h3>
+            <span class="badge-tag">Alvo: Honeypot Local (Porta 9091)</span>
+          </div>
+          <p class="section-desc">
+            Dispare ataques e payloads controlados diretamente contra o Honeypot para observar em tempo real como as regras do WAF, assinaturas do IDS e a matriz MITRE ATT&CK correlacionam e bloqueiam cada investida.
+          </p>
+
+          <div class="exploit-grid">
+            <!-- SQLi Card -->
+            <div class="exploit-card">
+              <div class="exp-header">
+                <span class="exp-badge critical">CRITICAL</span>
+                <h4>SQL Injection (UNION Attack)</h4>
+              </div>
+              <p>Injeta payload SQL para tentar extrair credenciais de tabelas administrativas.</p>
+              <div class="code-snippet"><code>?id=1 UNION SELECT username,password FROM admin_credentials --</code></div>
+              <button class="btn-fire-exploit" data-attack="SQLi">⚡ Disparar Injeção SQL</button>
+            </div>
+
+            <!-- XSS Card -->
+            <div class="exploit-card">
+              <div class="exp-header">
+                <span class="exp-badge high">HIGH</span>
+                <h4>Reflected Cross-Site Scripting</h4>
+              </div>
+              <p>Injeta tags JavaScript no parâmetro de redirecionamento para sequestro de sessão.</p>
+              <div class="code-snippet"><code>?redirect=&lt;script&gt;alert('XSS')&lt;/script&gt;</code></div>
+              <button class="btn-fire-exploit" data-attack="XSS">⚡ Disparar Payload XSS</button>
+            </div>
+
+            <!-- LFI Card -->
+            <div class="exploit-card">
+              <div class="exp-header">
+                <span class="exp-badge high">HIGH</span>
+                <h4>Path Traversal / LFI</h4>
+              </div>
+              <p>Tenta escapar da raiz do servidor web para ler arquivos críticos do SO.</p>
+              <div class="code-snippet"><code>?file=../../../../etc/passwd</code></div>
+              <button class="btn-fire-exploit" data-attack="LFI">⚡ Disparar Path Traversal</button>
+            </div>
+
+            <!-- Command Injection Card -->
+            <div class="exploit-card">
+              <div class="exp-header">
+                <span class="exp-badge critical">CRITICAL</span>
+                <h4>Command Injection (RCE)</h4>
+              </div>
+              <p>Concatena comandos de shell no parâmetro para execução remota de código.</p>
+              <div class="code-snippet"><code>?host=127.0.0.1; cat /etc/shadow</code></div>
+              <button class="btn-fire-exploit" data-attack="Command_Injection">⚡ Disparar Injeção RCE</button>
+            </div>
+
+            <!-- Brute Force Card -->
+            <div class="exploit-card">
+              <div class="exp-header">
+                <span class="exp-badge high">HIGH</span>
+                <h4>Ataque de Força Bruta (Hydra)</h4>
+              </div>
+              <p>Dispara rajada rápida de 10 logins simultâneos para acionar sensor de rate-limit.</p>
+              <div class="code-snippet"><code>POST /admin/login (10 reqs em rajada)</code></div>
+              <button class="btn-fire-exploit" data-attack="Brute_Force">⚡ Disparar Rajada de Logins</button>
+            </div>
+
+            <!-- Scanner Probe Card -->
+            <div class="exploit-card">
+              <div class="exp-header">
+                <span class="exp-badge medium">MEDIUM</span>
+                <h4>Scanner User-Agent Probe</h4>
+              </div>
+              <p>Simula sonda automatizada de ferramentas como SQLMap e Nikto.</p>
+              <div class="code-snippet"><code>User-Agent: sqlmap/1.5.2#stable</code></div>
+              <button class="btn-fire-exploit" data-attack="Scanner_Probe">⚡ Disparar Recon Scanner</button>
+            </div>
+          </div>
+
+          <div id="redteam-feedback" class="feedback-box hidden"></div>
+        </div>
+      </section>
+
+      <!-- TAB 3: SCANNER & AUDIT (MINI-NMAP) -->
+      <section id="tab-scanner" class="tab-content">
+        <div class="grid-2col">
+          <!-- Port Scanner -->
+          <div class="card">
+            <div class="card-header">
+              <h3>🔍 Scanner de Portas TCP & Banner Grabbing</h3>
+            </div>
+            <p class="section-desc">Audite portas abertas e serviços expostos em qualquer host local ou remoto.</p>
+            
+            <div class="scanner-form">
+              <div class="input-row">
+                <label>Alvo (Host ou IP):</label>
+                <input type="text" id="scan-target" value="127.0.0.1" placeholder="127.0.0.1 ou scanme.nmap.org">
+              </div>
+
+              <div class="input-row">
+                <label>Modo de Varredura:</label>
+                <select id="scan-mode">
+                  <option value="fast">Rápido (Portas Mais Comuns + SOC)</option>
+                  <option value="full">Completo (Top 20 Portas Críticas)</option>
+                  <option value="custom">Portas Customizadas</option>
+                </select>
+              </div>
+
+              <div class="input-row hidden" id="custom-ports-row">
+                <label>Portas (separadas por vírgula):</label>
+                <input type="text" id="scan-custom-ports" value="21,22,80,443,9090,9091">
+              </div>
+
+              <button id="btn-start-scan" class="btn-primary">🚀 Iniciar Varredura de Portas</button>
+            </div>
+
+            <div id="scan-results-container" class="results-box hidden">
+              <h4>Resultado da Varredura:</h4>
+              <div id="scan-output"></div>
+            </div>
+          </div>
+
+          <!-- Web Security Headers Audit -->
+          <div class="card">
+            <div class="card-header">
+              <h3>🛡️ Auditoria de Cabeçalhos HTTP & OWASP</h3>
+            </div>
+            <p class="section-desc">Valide a presença de cabeçalhos de defesa essenciais (HSTS, CSP, X-Frame-Options).</p>
+
+            <div class="scanner-form">
+              <div class="input-row">
+                <label>URL do Alvo Web:</label>
+                <input type="text" id="audit-target" value="http://127.0.0.1:9091">
+              </div>
+
+              <button id="btn-start-audit" class="btn-primary">🔬 Analisar Cabeçalhos de Segurança</button>
+            </div>
+
+            <div id="audit-results-container" class="results-box hidden">
+              <h4>Relatório de Conformidade OWASP:</h4>
+              <div id="audit-output"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB 4: PBL INTERACTIVE MISSIONS -->
+      <section id="tab-pbl" class="tab-content">
+        <div class="card">
+          <div class="card-header">
+            <h3>🎓 Laboratório de Aprendizado Baseado em Problemas (PBL)</h3>
+            <span class="badge-tag">5 Desafios Práticos com Código Real</span>
+          </div>
+          <p class="section-desc">
+            Resolva os problemas do mundo real abaixo. Execute a simulação, estude a mecânica da falha no código e visualize a solução de defesa aplicada pelo time de Blue Team!
+          </p>
+
+          <div class="pbl-missions-list">
+            <!-- Mission 1 -->
+            <div class="mission-card" id="m-sqli">
+              <div class="m-badge">MISSÃO 1</div>
+              <div class="m-content">
+                <div class="m-header">
+                  <h4>Vazamento de Banco de Dados por Injeção SQL</h4>
+                  <span class="m-status-chip" id="chip-sqli">PENDENTE</span>
+                </div>
+                <p><strong>🎯 Problema Real:</strong> Uma API de consulta de usuários concatena strings na query SQL sem sanitização, permitindo que invasores executem comandos <code>UNION SELECT</code> e roubem senhas com hash.</p>
+                <div class="m-pills">
+                  <span>Conceito: Prepared Statements</span>
+                  <span>MITRE: T1190</span>
+                  <span>OWASP: A03:2021 Injection</span>
+                </div>
+                <div class="m-code-compare">
+                  <div class="code-bad">
+                    <h5>❌ Código Vulnerável:</h5>
+                    <pre><code>query = f"SELECT * FROM users WHERE id = {user_input}"
+cursor.execute(query) # Concatenação direta!</code></pre>
+                  </div>
+                  <div class="code-good">
+                    <h5>✅ Defesa Correta (Parameterized Query):</h5>
+                    <pre><code>query = "SELECT * FROM users WHERE id = ?"
+cursor.execute(query, (user_input,)) # Seguro!</code></pre>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Mission 2 -->
+            <div class="mission-card" id="m-xss">
+              <div class="m-badge">MISSÃO 2</div>
+              <div class="m-content">
+                <div class="m-header">
+                  <h4>Sequestro de Sessão de Usuário via XSS Refletido</h4>
+                  <span class="m-status-chip" id="chip-xss">PENDENTE</span>
+                </div>
+                <p><strong>🎯 Problema Real:</strong> A tela de login reflete o parâmetro de URL <code>?redirect=</code> diretamente no HTML sem sanitização contextual, permitindo que scripts roubem cookies de sessão.</p>
+                <div class="m-pills">
+                  <span>Conceito: HTML Entity Encoding & CSP</span>
+                  <span>Flag: HttpOnly Cookies</span>
+                  <span>OWASP: A03:2021 Injection</span>
+                </div>
+                <div class="m-code-compare">
+                  <div class="code-bad">
+                    <h5>❌ Código Vulnerável:</h5>
+                    <pre><code>html = f"&lt;a href='{redirect_url}'&gt;Clique aqui&lt;/a&gt;"
+return html # Injeta JavaScript arbitrário!</code></pre>
+                  </div>
+                  <div class="code-good">
+                    <h5>✅ Defesa Correta (Sanitização + HttpOnly):</h5>
+                    <pre><code>import html
+safe_url = html.escape(redirect_url)
+response.set_cookie('session', token, httponly=True, samesite='Strict')</code></pre>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Mission 3 -->
+            <div class="mission-card" id="m-bruteforce">
+              <div class="m-badge">MISSÃO 3</div>
+              <div class="m-content">
+                <div class="m-header">
+                  <h4>Ataque de Força Bruta & Esgotamento de Recursos</h4>
+                  <span class="m-status-chip" id="chip-bruteforce">PENDENTE</span>
+                </div>
+                <p><strong>🎯 Problema Real:</strong> O endpoint de autenticação não impõe limites na quantidade de tentativas de login por minuto, permitindo ataques de dicionário com ferramentas como Hydra.</p>
+                <div class="m-pills">
+                  <span>Conceito: Token Bucket / Rate Limiting</span>
+                  <span>Defesa: Fail2Ban & WAF Lockout</span>
+                  <span>MITRE: T1110</span>
+                </div>
+                <div class="m-code-compare">
+                  <div class="code-bad">
+                    <h5>❌ Sem Rate Limit:</h5>
+                    <pre><code>def login():
+    # Processa login sem checar histórico do IP!
+    return verify_password(user, password)</code></pre>
+                  </div>
+                  <div class="code-good">
+                    <h5>✅ Defesa com Rate Limiting & Bloqueio:</h5>
+                    <pre><code>if requests_in_window(client_ip, seconds=60) > 5:
+    soar_quarantine_ip(client_ip, duration="15m")
+    return Response("Too Many Requests", status=429)</code></pre>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Mission 4 -->
+            <div class="mission-card" id="m-lfi">
+              <div class="m-badge">MISSÃO 4</div>
+              <div class="m-content">
+                <div class="m-header">
+                  <h4>Vazamento de Arquivos Locais (Path Traversal / LFI)</h4>
+                  <span class="m-status-chip" id="chip-lfi">PENDENTE</span>
+                </div>
+                <p><strong>🎯 Problema Real:</strong> Endpoint de download aceita caminhos relativos como <code>../../../../etc/passwd</code>, permitindo que atacantes leiam arquivos fora da pasta pública do site.</p>
+                <div class="m-pills">
+                  <span>Conceito: Canonicalization & Whitelist</span>
+                  <span>MITRE: T1083</span>
+                  <span>OWASP: A01:2021 Broken Access Control</span>
+                </div>
+                <div class="m-code-compare">
+                  <div class="code-bad">
+                    <h5>❌ Leitura Direta de Caminho:</h5>
+                    <pre><code>filepath = "/var/www/uploads/" + filename
+return open(filepath).read() # Aceita ../../../ !</code></pre>
+                  </div>
+                  <div class="code-good">
+                    <h5>✅ Validação Canônica Segura:</h5>
+                    <pre><code>base_dir = os.path.abspath("/var/www/uploads/")
+target_path = os.path.abspath(os.path.join(base_dir, filename))
+if not target_path.startswith(base_dir):
+    raise SecurityException("Path Traversal Bloqueado!")</code></pre>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Mission 5 -->
+            <div class="mission-card" id="m-scanner">
+              <div class="m-badge">MISSÃO 5</div>
+              <div class="m-content">
+                <div class="m-header">
+                  <h4>Reconhecimento Ativo & Mapeamento de Superfície</h4>
+                  <span class="m-status-chip" id="chip-scanner">PENDENTE</span>
+                </div>
+                <p><strong>🎯 Problema Real:</strong> Identificar portas abertas e serviços desnecessários em execução antes que invasores descubram portas vulneráveis.</p>
+                <div class="m-pills">
+                  <span>Conceito: Port Hardening & Firewall</span>
+                  <span>MITRE: T1595 Active Scanning</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

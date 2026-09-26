@@ -114,9 +114,14 @@ Dê dois cliques em:
 Dê dois cliques em:
 👉 **`ABRIR_DEMO_EXCALIDRAW_E_MANIM.bat`**
 
-### 3. Abrir o Jogo Gamificado (CyberLingo):
+### 4. Abrir a Central do Segundo Cérebro (Obsidian) no PC Lenovo:
 Dê dois cliques em:
-👉 **`ABRIR_DUOLINGO_COMPUTACAO.bat`**
+👉 **`RODAR_LENOVO_SEGUNDO_CEREBRO.bat`**
+* Opção 1: Executa a mineração de cursos do Drive Matriz
+* Opção 2: Abre a pasta `SEGUNDO_CEREBRO_VAULT` para abrir como Cofre (Vault) no [Obsidian](https://obsidian.md/)
+* Opção 3: Inicia a ponte de backup Telegram -> Google Drive 5TB
+
+Consulte o manual completo em: [`GUIA_EXECUCAO_PC_LENOVO.md`](file:///c:/Users/matheus/Desktop/computacao/GUIA_EXECUCAO_PC_LENOVO.md).
 
 ---
 

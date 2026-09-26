@@ -1,0 +1,148 @@
+{
+  "atualizacao": "24/09/2026 06:27:32",
+  "total_roteiros": 4,
+  "roteiros_prontos": [
+    {
+      "id": "dark_reels_001",
+      "tema": "O Golpe do WhatsApp do Novo Número",
+      "formato": "Dark Vertical 9:16 (Sem Aparecer)",
+      "duracao_segundos": 45,
+      "estilo_visual": "Terminal Hacker + Simulação WhatsApp Dark + Legendas Ouro (#FFD700)",
+      "roteiro": {
+        "gancho_0_3s": "Se você usa WhatsApp, nunca responda uma mensagem que começar com essa frase.",
+        "historia_3_18s": "Criminosos colocam a foto do seu filho ou da sua mãe e mandam: 'Oi, troquei de número, salva aí'. Logo em seguida, pedem um Pix urgente dizendo que o aplicativo do banco travou.",
+        "mecanica_18_32s": "Eles não hackearam o celular de ninguém. Eles apenas pegaram fotos públicas na internet e compraram um chip novo de dez reais para fingir parentesco.",
+        "blindagem_32_42s": "Regra de ouro: número novo nunca ganha dinheiro. Só faça Pix se ligar por chamada de vídeo e a pessoa mostrar o rosto.",
+        "cta_42_50s": "Encaminhe esse vídeo agora no grupo da sua família. Me siga para manter seu celular blindado contra golpes."
+      }
+    },
+    {
+      "id": "noticia_2161",
+      "tema": "Fraudes em reconhecimento facial? Sim, elas já existem!",
+      "formato": "Dark Vertical 9:16 (Sem Aparecer)",
+      "duracao_segundos": 45,
+      "estilo_visual": "Radar Cibernético + Print da Matéria + Legendas Hormozi",
+      "roteiro": {
+        "gancho_0_3s": "Atenção urgente: um novo golpe acabou de ser descoberto envolvendo golpe.",
+        "historia_3_18s": "Notícia confirmada pelo The Hack: Para contornar golpes, plataformas de autenticação precisam trabalhar com provas de vida....",
+        "mecanica_18_32s": "Os bandidos usam links falsos e mensagens de desespero para fazer a vítima clicar sem pensar duas vezes.",
+        "blindagem_32_42s": "Nunca confirme códigos recebidos por SMS e jamais faça transferências por pressão psicológica.",
+        "cta_42_50s": "Mande esse alerta para quem você ama e me siga para ficar sempre um passo à frente dos criminosos."
+      }
+    },
+    {
+      "id": "noticia_8189",
+      "tema": "Black Friday 2021 não vende, mas ataques cibernéticos dispararam",
+      "formato": "Dark Vertical 9:16 (Sem Aparecer)",
+      "duracao_segundos": 45,
+      "estilo_visual": "Radar Cibernético + Print da Matéria + Legendas Hormozi",
+      "roteiro": {
+        "gancho_0_3s": "Atenção urgente: um novo golpe acabou de ser descoberto envolvendo fraude.",
+        "historia_3_18s": "Notícia confirmada pelo The Hack: Relatório \"Principais crimes digitais da Black Friday 2021\", da Axur, identificou aumento de tentativas de fraude, mesmo...",
+        "mecanica_18_32s": "Os bandidos usam links falsos e mensagens de desespero para fazer a vítima clicar sem pensar duas vezes.",
+        "blindagem_32_42s": "Nunca confirme códigos recebidos por SMS e jamais faça transferências por pressão psicológica.",
+        "cta_42_50s": "Mande esse alerta para quem você ama e me siga para ficar sempre um passo à frente dos criminosos."
+      }
+    },
+    {
+      "id": "noticia_6473",
+      "tema": "Empresas novas possuem 400% mais chances de serem vítimas de fraude, revela estudo",
+      "formato": "Dark Vertical 9:16 (Sem Aparecer)",
+      "duracao_segundos": 45,
+      "estilo_visual": "Radar Cibernético + Print da Matéria + Legendas Hormozi",
+      "roteiro": {
+        "gancho_0_3s": "Atenção urgente: um novo golpe acabou de ser descoberto envolvendo fraude.",
+        "historia_3_18s": "Notícia confirmada pelo The Hack: Estudo interno da ClearSale revela que cibercriminosos preferem as empresas que foram criadas durante a pandemia, por se...",
+        "mecanica_18_32s": "Os bandidos usam links falsos e mensagens de desespero para fazer a vítima clicar sem pensar duas vezes.",
+        "blindagem_32_42s": "Nunca confirme códigos recebidos por SMS e jamais faça transferências por pressão psicológica.",
+        "cta_42_50s": "Mande esse alerta para quem você ama e me siga para ficar sempre um passo à frente dos criminosos."
+      }
+    }
+  ],
+  "noticias_mineradas": [
+    {
+      "tipo": "noticia_quente",
+      "fonte": "The Hack",
+      "titulo": "Fraudes em reconhecimento facial? Sim, elas já existem!",
+      "descricao": "Para contornar golpes, plataformas de autenticação precisam trabalhar com provas de vida.",
+      "link": "https://www.thehack.com.br/fraudes-em-reconhecimento-facial-sim-elas-ja-existem/",
+      "gatilhos": [
+        "golpe",
+        "fraude"
+      ],
+      "data": "Wed, 04 May 2022 12:00:00 GMT",
+      "potencial_viral": 70
+    },
+    {
+      "tipo": "noticia_quente",
+      "fonte": "The Hack",
+      "titulo": "Black Friday 2021 não vende, mas ataques cibernéticos dispararam",
+      "descricao": "Relatório \"Principais crimes digitais da Black Friday 2021\", da Axur, identificou aumento de tentativas de fraude, mesmo com queda brusca no número de vendas durante a Black Friday e Cyber Monday",
+      "link": "https://www.thehack.com.br/black-friday-2021-nao-vende-mas-ataques-ciberneticos-dispararam/",
+      "gatilhos": [
+        "fraude"
+      ],
+      "data": "Mon, 20 Dec 2021 10:00:00 GMT",
+      "potencial_viral": 50
+    },
+    {
+      "tipo": "noticia_quente",
+      "fonte": "The Hack",
+      "titulo": "Empresas novas possuem 400% mais chances de serem vítimas de fraude, revela estudo",
+      "descricao": "Estudo interno da ClearSale revela que cibercriminosos preferem as empresas que foram criadas durante a pandemia, por serem menos preparadas para o trabalho remoto",
+      "link": "https://www.thehack.com.br/empresas-novas-possuem-400-mais-chances-de-serem-vitimas-de-fraude/",
+      "gatilhos": [
+        "fraude"
+      ],
+      "data": "Mon, 06 Dec 2021 23:10:33 GMT",
+      "potencial_viral": 50
+    },
+    {
+      "tipo": "noticia_quente",
+      "fonte": "The Hack",
+      "titulo": "IKEA é vítima de phishing complexo e tem seu serviço de email interno comprometido",
+      "descricao": "Especialista revela como programas de conscientização podem ajudar empresas a não serem vítimas de phishings",
+      "link": "https://www.thehack.com.br/ikea-e-vitima-de-phishing-complexo-e-tem-seu-servico-de-email-interno-comprometido/",
+      "gatilhos": [
+        "phishing"
+      ],
+      "data": "Mon, 06 Dec 2021 10:00:00 GMT",
+      "potencial_viral": 50
+    }
+  ],
+  "modelos_virais": [
+    {
+      "tipo": "video_modelado",
+      "fonte": "YouTube Shorts / Viral Intelligence",
+      "titulo": "O Golpe do 'Oi Mãe, Troquei de Número' (WhatsApp)",
+      "alcance": "+1.8M",
+      "gancho": "Se alguém te mandar mensagem com a foto do seu filho dizendo que trocou de número, não responde.",
+      "mecanica": "O criminoso não invade o celular. Ele pega fotos públicas em redes sociais, descobre o parentesco e usa um chip pré-pago de R$ 10.",
+      "blindagem": "Ative a confirmação em duas etapas e combine uma 'palavra-chave secreta' com a sua família que só vocês sabem.",
+      "cta": "Manda no grupo da família agora. Um único compartilhamento pode salvar a aposentadoria dos seus pais.",
+      "potencial_viral": 98
+    },
+    {
+      "tipo": "video_modelado",
+      "fonte": "YouTube Shorts / Viral Intelligence",
+      "titulo": "O Golpe da Falsa Central Telefônica do Banco",
+      "alcance": "+950K",
+      "gancho": "Se você receber uma ligação do número oficial do seu banco dizendo que houve uma compra suspeita, desliga na hora.",
+      "mecanica": "Spoofing de chamada: eles mascaram o número na bina para parecer o 0800 do banco e colocam musiquinha de espera para gerar credibilidade.",
+      "blindagem": "Banco nunca pede para fazer Pix de cancelamento ou transferência para conta de segurança. Isso não existe.",
+      "cta": "Compartilhe com quem tem conta em banco digital.",
+      "potencial_viral": 98
+    },
+    {
+      "tipo": "video_modelado",
+      "fonte": "YouTube Shorts / Viral Intelligence",
+      "titulo": "Golpe do Reconhecimento Facial por Chamada de Vídeo",
+      "alcance": "+720K",
+      "gancho": "Nunca atenda uma chamada de vídeo de número desconhecido no WhatsApp.",
+      "mecanica": "Criminosos gravam o seu rosto em alta definição fazendo movimentos para tentar burlar provas de vida de bancos e aplicativos.",
+      "blindagem": "Bloqueie chamadas de desconhecidos nas configurações de privacidade do WhatsApp.",
+      "cta": "Proteja sua biometria e compartilhe esse aviso.",
+      "potencial_viral": 98
+    }
+  ]
+}
