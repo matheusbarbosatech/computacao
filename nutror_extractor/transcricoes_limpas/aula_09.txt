@@ -1,0 +1,1621 @@
+Fala pessoal, boa noite!
+
+Sejam todos muito bem-vindos.
+
+Sejam todas muito bem-vindas.
+
+Aqui a nossa aula, o plano paralelo.
+
+Como criar um funil automático que coloca clientes no seu WhatsApp pra você vender seus serviços, sua consultoria, mesmo você sendo CLT.
+
+Por isso desse funil automático.
+
+Porque quem é CLT e quer começar a montar uma empresa de consultoria estruturada, enquanto ainda é CLT, pra montar de uma maneira mais sem risco, mais segura, não tem tanto tempo assim pra tocar a parte da empresa.
+
+Então a ideia desse funil de automático é justamente pra otimizar tempo.
+
+E essa aula, pessoal, vai ser bem prática.
+
+Por que vai ser bem prática?
+
+Que eu estou subindo um novo funil desse pra mim.
+
+Então o que eu vou mostrar e ensinar aqui pra vocês, não é baseado em achismo, eu vou montar um funil real pra mim que vai ficar rodando.
+
+A ideia é vocês acompanharem todos esses bastidores, como que a gente faz cada parte do processo e a gente não vai reinventar a roda pra nada.
+
+Eu vou utilizar bastante a inteligência artificial aqui pra me ajudar em todo esse processo e vocês vão acompanhar esse passo a passo.
+
+Legal?
+
+Antes de eu começar aqui com a parte do conteúdo, deixa eu só saber.
+
+Hoje, quem que está aqui ao vivo comigo, que é consultor hoje, a sua principal renda já é suas consultorias, sua prestação de serviço.
+
+Digita o número um.
+
+E quem é CLT, não tem nada de consultoria ainda, mas deseja ter, digita o número dois.
+
+Então um, pra quem a fonte de renda principal já é a consultoria, a prestação de serviço, e dois pra quem é CLT e quer começar a estruturar e ter essa empresa de consultoria.
+
+Show de bola.
+
+Muito bom.
+
+Maravilha!
+
+Show de bola.
+
+Então vamos lá, sem mais delongas.
+
+A primeira coisa que a gente precisa fazer, se eu vou vender um serviço.
+
+Depois eu vou até pedir alguns exemplos de vocês, pra que eu possa dar cenários e cases reais aqui do seu negócio também.
+
+Ou do negócio que você quer construir, pra quem digitou número dois.
+
+Mas a primeira coisa que a gente precisa é o quê?
+
+Se eu vou vender um serviço, eu quero vender um serviço específico.
+
+Então quem consegue me dar um exemplo do tipo: "Cara, eu gostaria de vender esse serviço".
+
+Tanto pra quem digitou um, quanto pra quem digitou dois.
+
+Quem digitou dois: "Ah, eu quero construir uma empresa aqui pra eu prestar meu serviço e minha consultoria".
+
+Que serviço que você iria oferecer?
+
+Quem consegue me dar um exemplo só pra eu utilizar aqui o seu case como um case real?
+
+Arquiteto de solução, mais específico.
+
+Arquiteto de solução, na verdade, não é um serviço.
+
+É uma profissão, preciso saber do serviço, o que você tem pra oferecer pro mercado.
+
+O que você vai vender pro mercado?
+
+Loja online e-commerce.
+
+Beleza, mas você vai vender o quê?
+
+Beleza, consultoria de nuvem Microsoft.
+
+Azure e 365.
+
+Bom exemplo.
+
+Que mais?
+
+Quando vocês vão colocando, a primeira coisa que a gente precisa saber, é o que a gente vai vender.
+
+Então beleza, eu quero oferecer o meu serviço pro mercado, mas o que eu vou oferecer?
+
+Deixa só colocar em caixa maior, o que eu vou oferecer? "Hoje eu tenho um catálogo de produtos de serviço TI, mais de 50 SKUs".
+
+A ideia da estratégia é a gente montar a estratégia pra um tipo de serviço.
+
+A estratégia não funciona muito bem se eu for falar pro mercado que eu ofereço de tudo.
+
+Então a ideia pra quem tem um mix de serviço muito grande, é escolher o principal. "Na minha loja vender produtos de cuidados corporais." Excelente.
+
+Então vamos lá.
+
+A primeira coisa que você tem que fazer, não adianta, tá, pessoal?
+
+Não adianta você oferecer o que o mercado não quer.
+
+Desculpa, por mais que você goste daquele serviço, não adianta você oferecer algo que o mercado não quer.
+
+Então a primeira coisa que eu preciso, é depois de escolher o que eu quero oferecer pro mercado, eu preciso validar se isso tem demanda.
+
+Porque se eu não fizer uma validação, se existe uma demanda para o que eu quero oferecer, eu corro o risco de perder tempo e não ter retorno nenhum.
+
+Então vamos dar um passo pra trás e vamos validar se aquilo que eu tenho a oferecer, se tem uma atratividade no mercado?
+
+E aqui, pessoal, não precisa perder semanas, tentar fazer pesquisa, quem já tem lista, fazer pesquisa.
+
+Não adianta reinventar a roda.
+
+A inteligência artificial está aí pra ajudar a gente em várias coisas e otimizar, ganhar tempo.
+
+No passado, pra gente fazer um tipo de validação desse, às vezes, eram semanas, senão meses, pra eu efetivamente ter uma validação se vale a pena vender aquele serviço pro mercado ou não.
+
+E eu vou mostrar pra vocês aqui que com a IA, a gente consegue isso em minutos.
+
+Então gravem isso.
+
+Eu quero vender um serviço específicoPara quem tem um mix de produto maior, pensa no principal. "Eu quero vender esse serviço X".
+
+Beleza, antes de sair divulgando esse serviço X, deixa eu validar se existe uma demanda para isso?
+
+Primeira coisa.
+
+E a IA vai ajudar a gente.
+
+Para essa análise de mercado, eu costumo utilizar duas IAs diferentes.
+
+Eu gosto de utilizar o ChatGPT e eu gosto de utilizar o Google Gemini para essa primeira fase, que é descobrir se o que eu tenho para oferecer, se é algo que o mercado busca.
+
+Vou pegar o exemplo dos produtos de cuidados corporais.
+
+Isso aqui é um agente que eu já tenho.
+
+É um agente que já está treinado.
+
+Depois eu vou falar para vocês como vocês podem ter acesso a esses agentes, mas esse é um agente que eu tenho, e esse agente já está treinado para esse tipo de atividade.
+
+Por que eu falo isso?
+
+Porque se você abrir o seu ChatGPT, se você usa, e digitar o mesmo prompt que eu vou dar, possa ser que o resultado seja diferente, porque aqui eu estou dentro de um agente treinado.
+
+Ok?
+
+Então vamos lá, vou colocar aqui: "eu tenho uma loja virtual", eu não sei se é o seu caso, mas eu vou colocar virtual, "eu tenho uma loja virtual, como eu quero que ele faça uma análise, eu não vou mostrar para ele que eu já faço aquilo.
+
+A ideia é o quê? "Eu estou pensando nisso, vale a pena?" Na verdade, aqui. "Eu tenho uma loja virtual onde eu quero vender produtos de cuidados corporais.
+
+Eu preciso que você valide se existe demanda no mercado para esse tipo de produto".
+
+Prompt bem simples, porque o agente já está treinado.
+
+Ele vai pensar e vai responder isso aqui para a gente.
+
+Está fazendo as buscas, tudo, tendências.
+
+Eu gosto de usar muito o ChatGPT para isso, apesar de a validação final, eu gosto de pegar do Gemini, mas eu gosto de utilizar o ChatGPT, que só nessa pergunta ele já me traz algumas informações que podem ser informações importantes para que eu possa montar a minha campanha depois.
+
+Então ele fala: "Você quer vender cuidados corporais?" Aí aqui os exemplos. "Apostando que o consumidor brasileiro já compra com frequência, recorrência e quer conveniência, mais benefício, claro".
+
+Validação, aqui ele começa: "Há demanda comprovada", ou seja, está me falando que o que eu quero vender, o mercado quer comprar.
+
+Aqui ele começa a dar um pouco mais de detalhe.
+
+Eu não vou ficar passando aqui por tudo, senão a gente iria ter que ter uma aula gigantesca aqui, mas ele já está me falando que existe uma demanda para isso, que eu posso ir, que demanda existe.
+
+Aqui ele fala: "Existe um crescimento concorrente".
+
+Aqui ele fala um pouco de como eu utilizar isso dentro de uma estratégia, fala de dor e urgência.
+
+Enfim, aqui é mais a parte estratégica.
+
+Mas o que eu quero aqui no final, veredito: "Vale apostar, mas com foco em posicionamento".
+
+O ChatGPT, ainda mais esse agente aqui que eu treinei, ele tende a pegar o que você tem e já seguir uma linha de estratégia para vender aquilo.
+
+Por isso que ele está falando: "É legal, vale a pena, mas você tem que ter uma estratégia de posicionamento por trás".
+
+Mas o que eu preciso é encontrar aqui na resposta isso aqui que eu vi: "Há demanda comprovada".
+
+Então eu sei que existe uma demanda para esse tipo de produto.
+
+Eu vou pegar aqui a mesma coisa e eu vou jogar lá no Gemini, só que aqui eu não tenho agentes, eu só vou especificar para ele como que ele vai fazer essa busca. "Para essa atividade, faça buscas no Google, Google Trends, Google Analytics e mídias sociais.
+
+Liste as palavras-chaves mais buscadas dentro desse nicho e me ajude a encontrar uma brecha não explorada nesse mercado".
+
+Vamos ver o que ele vai trazer aqui para a genteEstá validando.
+
+Sim, existe uma demanda massiva e em transformação.
+
+O mercado brasileiro de higiene e cuidados pessoais deve crescer de 5% a 7% até 2027.
+
+Então além dele mostrar pra mim que existe demanda, ele está mostrando pra mim que isso também é uma demanda pro futuro, não é algo pontual.
+
+Beleza.
+
+Aqui, validação de demanda.
+
+Beleza.
+
+Palavras-chave.
+
+Então aqui ele mostra o que essas pessoas que tendem a buscar sobre esse tipo de informação, geralmente o que eles buscam?
+
+Ingredientes, conceitos, formatos, problemas.
+
+Então aqui ele dá algumas informações que têm alta busca.
+
+Então aqui, pra você que vende esse tipo de produto, essas informações que ele está colocando aqui devem fazer sentido pra você.
+
+Reparação de barreiras cutânea, beleza limpa, bastão hidratante, enfim.
+
+Aqui eu pedi pra ele, eu falei: "Beleza, existe uma demanda no mercado".
+
+Como eu já sei que isso sempre teve demanda no mercado, como eu sei disso, o que eu falei pra ele? "Cara, eu sei que tem demanda, só me valida se tem mesmo.
+
+Só que eu não quero ficar concorrendo com os grandes, eu quero pegar uma brecha específica desse mercado".
+
+Então aqui ele começa: "Após analisar as tendências de 2026, identifiquei uma oportunidade clara, que ainda é pouco explorada por marcas em massa.
+
+Cuidado corporal, ciclo específico ou hormonal.
+
+A maioria das marcas foca em pele seca ou pele oleosa.
+
+Existe um gap enorme para produtos que atendam pele em transição hormonal." Olha que legal isso aqui. "Produtos específicos para mulheres na menopausa ou perimenopausa que sofrem com ressecamento extremo e perda de colágeno." Olha que legal! "Pele pós-perda de peso rápida.
+
+Um cronograma corporal." Olha que legal.
+
+Então além desse prompt me trazer dados e informações que é um mercado que tem demanda e demanda pro futuro também, ele me traz aqui algumas coisas que eu posso fazer pra me destacar, algumas coisas que eu posso fazer pra explorar a brecha que poucos estão utilizando.
+
+Aqui ele termina: "Dica de ouro: não tente competir".
+
+Acabei de falar isso. "Não tente competir com Natura, Boticário em fragrância, compita em especificidade.
+
+Se sua loja for a especialista em firmadora de alta performance ou cuidados pra peles sensíveis e hormonal, sua margem de lucro será muito maior".
+
+Ok?
+
+Aqui ele pede pra eu continuar o prompt, mas lembra, essa primeira fase eu quero validar se o que eu tenho a oferecer pro mercado, é algo que o mercado busca.
+
+Quem colocou aí: "venda de software SaaS".
+
+Beleza, esse software faz o quê?
+
+Pra gente pegar um outro exemplo aqui.
+
+NIP, as informações que você me deu acima.
+
+Eu quero agora falar de um outro nicho.
+
+Então quem colocou aí vendas de software SaaS, que software é esse?
+
+É um software que faz o quê?
+
+Então tem que ser específico, não adianta você ir pro mercado e falar: "Eu vendo software SaaS".
+
+Mas beleza, que software?
+
+O que ele faz?
+
+O que ele traz de benefício?
+
+Maravilha!
+
+Para gerenciar negócios de empresas de paisagismo.
+
+Excelente!
+
+Então posso vir aqui: eu quero lançar.
+
+Eu vou aqui partir do pressuposto que isso já existe.
+
+Mas se não existir, eu posso falar pra ele que eu estou pensando em construir, enfim.
+
+Então eu quero lançar para o mercado um software SaaS para gerenciar negócios de empresas de paisagismo.
+
+Eu preciso da sua ajuda para validar se esse produto terá demanda no mercado.
+
+Vamos ver o que ele vai trazer pra gente.
+
+Então lembra, o ChatGPT eu gosto dele pra ele me trazer algumas ideias.
+
+Ele não é o melhor, então se de repente ele falar: "Poxa, não é tão legal". Às vezes não é porque ele respondeu que não é interessante, que eu descarto.
+
+Eu gosto, pra mim, a palavra final para essa atividade é o Google Gemini.
+
+É isso que eu sempre busco.
+
+É claro que quando eu vou fazer uma análise mais completa, eu vejo aqui, claro, tudo que ele trouxe aqui pra gente, mas o que eu espero é isso aqui: existe demanda?
+
+Sim.
+
+Então é isso que eu preciso saber num primeiro momento, se existe essa demanda.
+
+Aí depois eu posso ver aqui o que ele está me dando de informação e no final esse veredito.
+
+Ajustar, boa chance, mas só com recorte regressivo.
+
+Mas aqui, lembra, ele está puxando muito pra uma parte já pensando na estratégia.
+
+Mas beleza, vou pegar esse mesmo recorte aquiEu vou levar pro Gemini agora.
+
+Migrar de serviço de treinamento pra verde calçada é um movimento estratégico excelente.
+
+O mercado de paisagismo e manutenção de áreas verdes está em plena profissionalização e a demanda por gestão digital nesse setor é real e crescente.
+
+Então ele já falou pra mim que além de ser uma demanda real, isso ainda está crescendo.
+
+Então é um dos melhores momentos pra começar a oferecer e ter resultados com isso.
+
+Aqui ele começa a explicar um pouquinho.
+
+Bum do outdoor, a dor da digitalização, as dores, o que o pessoal geralmente pesquisa.
+
+Gerador de propósito, catálogo de plantas e insumos, roteirização de frotas, enfim.
+
+Mas lembre, não é isso que eu quero.
+
+Pra ele trazer essas informações, o que eu vou falar pro mercado, a gente tem outros prompts.
+
+Beleza?
+
+Eu tenho aqui essa validação.
+
+Deu pra entender essa primeira parte, pessoal?
+
+Então primeira coisa que eu faço é validar se o que eu quero oferecer pro mercado tem demanda. "Poxa, mas e se eu escolhi algo que eu quero oferecer e não tem demanda, significa que eu não vou vender aquele serviço?" Não, significa que pra estratégia onde você vai montar um funil, vai ter anúncio, tende ao custo ficar elevado, então o quanto você vai gastar pra ter um cliente custa a ter um custo maior.
+
+Então a recomendação é sempre partir para um serviço que tenha demanda no mercado e claro que você saiba entregar.
+
+Depois que você tem esse primeiro contato com o cliente, aí você pode vender outros serviços, mas você vai aparecer pro mercado, de preferência, com serviço que seja validado, que tenha demanda.
+
+Beleza?
+
+Então vamos lá, escolhi aqui um serviço que tem demanda.
+
+Qual é o próximo passo?
+
+O que eu tenho que fazer depois?
+
+Eu preciso começar o meu processo de atração de clientes.
+
+Então beleza, eu tenho aqui um serviço, eu tenho um produto.
+
+Agora eu preciso atrair pessoas interessadas pra comprar o meu produto.
+
+A gente também vai fazer isso via inteligência artificial.
+
+Aqui o que a gente recomenda, pensando nessa estratégia, lembra que tem várias estratégias diferentes, mas pensando nessa estratégia, onde eu vou ter um funil automático, eu vou ter clientes entrando em contato no WhatsApp.
+
+Então aqui, envolve a construção do que a gente chama de um imã digital, que é um material, então eu preciso criar um material, e para que a minha audiência tenha acesso ao material, ele vai colocar o seu e-mail.
+
+Então depois que eu valido, se o que eu tenho a oferecer tem demanda, eu vou pra parte de atrair os clientes pra vender aquele serviço ou aquele produto.
+
+O que eu vou fazer?
+
+Eu vou construir um material que tenha a ver com o que eu quero vender.
+
+Maravilha.
+
+Então aqui no ChatGPT, eu tenho também um agente treinado pra isso, que é esse imã digital copywriting.
+
+Então de novo, é um agente que já está todo pronto, estruturado e treinado para essa atividade específica.
+
+Ok?
+
+Então eu vou pegar aqui esse exemplo do gerenciamento de negócio de empresas de paisagismo.
+
+Então vou falar isso aqui: eu quero criar um imã digital para a minha campanha de aquisição.
+
+O objetivo dessa campanha é atrair leads para que eu possa vender o meu software, SaaS.
+
+Esse software é para o gerenciamento de negócio de empresas de paisagismo.
+
+Ok?
+
+Eu quero criar um imã que dê uma primeira vitória para o público.
+
+Precisa ser bem específico.
+
+Lembra?
+
+Eu posso pegar insights que ele me trouxe tanto no Google Gemini quanto no próprio ChatGPT e trazer pra cá.
+
+Então ele me falou que é um mercado que está crescendo na questão de profissionalização.
+
+Então eu quero mostrar a importância de um software de gerenciamentoPara esse mercado que está em crescimento e profissionalização.
+
+O objetivo desse material é preparar a audiência para a venda do meu software.
+
+Eu preciso que você me ajude, primeiro, a criar um tema persuasivo para o e-book.
+
+Tema, não.
+
+Vou colocar título.
+
+Título persuasivo para o e-book e o subtítulo.
+
+Precisa ser algo forte, que gere o desejo em querer baixar o material.
+
+Então vamos ver.
+
+Aqui estão 10 opções fortes de título, bem específica com promessa de primeira vitória.
+
+Agenda cheia: um método simples para organizar orçamento, visitas e equipes do paisagismo e parar de perder dinheiro por falta de controle.
+
+Sete dias para parar de perder.
+
+Aqui ele já começou a misturar um pouco, mas isso aqui eu consigo ir refinando.
+
+O checklist do paisagismo profissional: a rotina em 30 minutos por dia para controlar clientes, obras, manutenção, equipe financeiro.
+
+Esse aqui eu gostei, eu gosto muito dessa pegada de checklist.
+
+Da planilha ao controle de verdade: como organizar seu paisagismo em uma semana com fluxo único.
+
+Lead, orçamento, execução, recebimento.
+
+Pare de pagar incêndio na operação, o guia do orçamento.
+
+Beleza, vamos ver esse aqui.
+
+Se você quiser uma opção mais irresistível pra aquisição, que o soma completa é melhor, aí ele me dá aqui dois, quatro ou seis.
+
+Então ele está falando que o melhor seria esse, esse ou esse.
+
+Mas aqui vai muito também do nosso feeling.
+
+Eu gostei bastante desse aqui.
+
+Então vou falar pra ele, copiar.
+
+Eu gostei do título e subtítulo assim.
+
+Agora eu preciso que você me ajude a construir o conteúdo.
+
+O que seria o ideal aqui?
+
+Eu não conheço o negócio do nosso amigo, mas o ideal aqui nesse prompt seria eu falar um pouco desse conteúdo que eu quero apresentar ali dentro desse e-book.
+
+Mas aqui, como a gente não tem tempo, eu vou deixar com que ele mesmo construa o conteúdo ali do jeito que ele achar, mas possa ser que o conteúdo não esteja 100% alinhado.
+
+Mas por quê?
+
+Porque o certo é eu explicar que tipo de conteúdo que eu quero apresentar.
+
+Agora eu preciso que você me ajude a construir o conteúdo, crie um e-book de 20 páginas.
+
+E ele vai começar a trabalhar pra mim.
+
+Perfeito.
+
+Checklist do paisagismo profissional: a rotina em 30 minutos por dia para controlar clientes, obras, manutenções, equipe financeiro e planilha quebrado.
+
+Pra quem quer?
+
+Donos e gestores de empresas de paisagismo, projeto, implementação e manutenção.
+
+Página dois.
+
+Se você trabalha com paisagismo, provavelmente já viveu isso.
+
+Cliente pedindo orçamento pra ontem, visita técnica sem registro, equipe indo pro local errado, custo estourado e ninguém sabe onde foi parar, recebimento atrasando porque ninguém acompanhando.
+
+A boa notícia: isso não é falta de esforço, é falta de sistema.
+
+Esse e-book te entrega um checklist, uma rotina diária pra organizar o negócio sem depender de memória, WhatsApp e planilhas fracas.
+
+Em sete dias, aplicando 30 minutos por dia, você vai parar de perder pedidos e orçamento, ter agenda e pipeline, saber o que a equipe vai fazer amanhã e por aí vai indo.
+
+O mercado está se profissionalizando.
+
+Hoje, ganha mais quem tem velocidade, padrão, controle, continuidade.
+
+Quem fica no imprevisível, perde por atraso em proposta, margem vazando em custos invisíveis, dependência do dono.
+
+E aí que a gestão vira um diferencial competitivo.
+
+Pilares do checklist: cliente, vendas, obras e manutenção, e por aí vai.
+
+E eu posso, depois, pegar cada um desses blocos aqui e pedir pra ele me detalhar ainda mais.
+
+Então eu posso pegar aqui: "Ah, me detalha mais essa rotina".
+
+Então aqui ele já me dá uma visão do que eu tenho que colocar dentro desse e-book.
+
+Olha que legal, no próprio material, ele está entregando alguns scripts para o cliente de follow-up da venda. "Conseguiu ver o orçamento?
+
+Posso tirar alguma dúvida rápida?" Mas assim, isso aqui existem agentes específicos pra essa parte de negociação.
+
+Beleza, ainda aqui eu pedi pra ele me entregar 20 páginas, ele me entregou aqui 20 páginas.
+
+E lembrando, poxa, eu gostaria de falar mais sobre isso.
+
+Eu posso recortarUma parte e falar: "Poxa, me detalha mais esse tema".
+
+E ele vai detalhando.
+
+Lembrando que eu não conheço esse software, então eu não expliquei pra ele o que eu queria de conteúdo, eu deixei ele criar sozinho.
+
+Quando eu for fazer o meu, vocês vão ver que aí fica mais completo, porque como é meu, eu sei o que eu tenho que passar de informação.
+
+Olha que legal, fechamento mais ponte pra software.
+
+Então como eu falei pra ele que o objetivo final é vender o meu software, ele coloca aqui no próprio e-book, então no próprio e-book eu já vou fazer uma oferta pra quem está lendo. "Se você aplicou esse checklist, você percebeu uma verdade: o problema não é trabalhar mais, é trabalhar sem um sistema.
+
+Planilhas e WhatsApp até funcionam no começo, mas quando o negócio cresce, viram informações espalhadas, retrabalho, perda de orçamento, equipe desorganizada, custo invisível, falta de previsibilidade.
+
+O próximo passo natural é centralizar tudo em único lugar: cliente, orçamento, agenda, obra, manutenção, equipe e financeiro.
+
+Se você quer, eu posso transformar esse checklist em um fluxo prático pro seu dia a dia e mostrar como um software de gestão faz isso com muito menos esforço".
+
+Aqui você quer saber mais, entre em contato comigo no WhatsApp, com meu time no WhatsApp e por aí vai.
+
+Então olha, ele já me deu aqui uma estrutura.
+
+Com base nessa estrutura, eu posso montar o meu material e eu já tenho material pra começar a atrair essas pessoas.
+
+Acho que é Jailton.
+
+Deu pra pegar aqui, Jailton?
+
+Restante da turma, deu pra entender esses processos?
+
+Primeiro, eu valido se tem demanda.
+
+Depois, eu preciso criar o material pra atrair essa galera que tem esse interesse.
+
+Deu pra entender até aqui?
+
+Maravilha.
+
+Então eu vou fazer o mesmo processo agora, só que eu vou fazer para o que eu vou montar junto com vocês aqui.
+
+Então eu não vou fazer análise de mercado, nada disso, porque eu já sei que é algo que tem demanda.
+
+Se você olha pro seu serviço, se você já sabe que tem demanda, você não precisa fazer essa análise, já pode partir direto pra criação desse material.
+
+Ok?
+
+Então eu vou só criar aqui um novo.
+
+Eu já sei que o que eu quero vender tem demanda.
+
+Agora eu quero criar esse material, então eu vou pedir ajuda pra ele aqui.
+
+Eu quero criar um imã digital para a minha campanha de aquisição.
+
+O objetivo desse material é atrair leads para vender a minha formação consultores de TI.
+
+Aí eu posso falar: o conteúdo que eu quero apresentar nesse material é o seguinte.
+
+Aqui eu posso começar a explicar o que eu quero ter dentro desse material.
+
+Não preciso ser muito detalhista, eu tenho que deixar com que a IA também faça o trabalho dela.
+
+Então eu vou falar: eu quero mostrar para o público que existe um novo modelo de negócio para quem deseja empreender, mas continuar no CLT.
+
+Eu quero falar que com a estrutura certa e as estratégias corretas, o profissional deixa de apenas ter uma única fonte de renda, que é o CLT.
+
+Sem dizer o risco de ter apenas uma fonte.
+
+Eu quero mostrar que o conhecimento que ele tem hoje, onde ele troca as horas por um salário CLT, pode ser melhor aproveitado para criar, ver, entregar projetos, vender softwares, vender produtos e faturar por impacto e resultado que ele trará para o mercadoEu estou falando.
+
+Eu não vou especificar muito o conteúdo, porque depois eu posso até ir refinando isso, só pra gente ganhar no tempo.
+
+Mas a ideia aqui é eu explicar um pouco do que eu quero que tenha dentro desse material pra que ele tenha a base pra escrever.
+
+Eu estou falando de um profissional que tem um conhecimento, onde ele ganha 3K, 5K, 10K como CLT e transformar esse mesmo conhecimento em um faturamento de 20K, 30K, 50K, sem precisar sair do CLT.
+
+Pelo menos em um primeiro momento, onde ele está estruturando a sua empresa.
+
+Com base nessas informações, eu preciso, primeiro, que você me ajude a escolher o título e subtítulo para esse ebook.
+
+Vamos lá!
+
+Vamos ver o que ele vai trazer pra mim.
+
+Perfeito, ele vai começar: "CLT com CNPJ.
+
+Como transformar seu conhecimento".
+
+Aqui ele trouxe pra TI, porque eu uso muito essa minha conta do ChatGPT pro nicho de TI, mas aqui pode ser pra qualquer coisa. "Como transformar seu conhecimento em projetos, produtos e renda extra, sem pedir demissão".
+
+Olha que legal. "O plano B do profissional de TI, o novo modelo pra empreender em paralelo e faturar por impacto, mesmo continuando no CLT.
+
+De salário a faturamento, como sair da lógica troco horas por salário e começar a vender soluções de TI sem largar o emprego.
+
+Consultoria de TI em paralelo.
+
+Estrutura e estratégia para criar sua empresa e gerar 20 mil ou mais por mês, sem abandonar o CLT no começo".
+
+Aqui ele dá vários exemplos pra mim e no final eu posso refinar ainda mais isso aqui.
+
+Eu gostei desse aqui, eu já tinha até trabalhado bastante com esse aqui.
+
+Cadê?
+
+Esse aqui.
+
+Porque quando a gente se depara com esse CLT com CNPJ. "Espera aí, como assim CLT com CNPJ?" Já dá uma curiosidade.
+
+Então vou falar pra ele que eu gostei desse tema.
+
+Eu gostei do tema, do título, assim: "Agora eu preciso da sua ajuda para criar o conteúdo.
+
+Detalhe mais cada uma das etapas que você irá sugerir para o material.
+
+Crie um ebook com 20 páginas".
+
+Tem que ser um ebook mais enxuto, a ideia aqui é um ebook que quem vai ler, já lê de uma vez só. "CLT com CNPJ.
+
+Como transformar seu conhecimento", eu vou tirar aqui TI, "em projetos, produtos e renda extra, sem pedir demissão".
+
+Aqui eu posso especificar um nicho específico para profissionais que querem empreender no paralelo com estrutura, estratégia e previsibilidade. "Você não precisa largar tudo pra começar a empreender.
+
+Existe um novo modelo mais inteligente pra o profissional construir um negócio no paralelo, enquanto mantém a estabilidade do CLT até ter uma operação estruturada.
+
+Esse material vai te mostrar o caminho pra sair do modelo troco horas por salário e começar a vender soluções, gerar impacto, criar novas fontes de renda com o mesmo conhecimento que você já usa no seu dia a dia.
+
+O que você vai aprender aqui?
+
+Por que o CLT com CNPJ é o modelo mais seguro, como escolher um foco lucrativo com seu conhecimento atual.
+
+Por muito tempo, empreender parecia sinônimo de pedir demissão, viver de incerteza, correr riscos grandes cedo demais.
+
+Mas profissionais têm uma vantagem: habilidade técnica resolve uma dor real e urgente.
+
+O modelo CLT CNPJ funciona assim: você mantém o salário, estabilidade.
+
+Valida uma oferta no paralelo, sem apostar tudo.
+
+Cria previsibilidade, vende, entrega e processo, só depois decide se faz sentido sair do CLT".
+
+Olha que legal. "No CLT, você é remunerado, principalmente, por presença, responsabilidade, tempo disponível, entrega dentro do escopo.
+
+O problema é que o teto de crescimento costuma ser cargo, orçamento, política interna, verba aberta.
+
+Quando você vira prestador, consultor, uma empresa, a lógica muda, você passa a ser pago por resultado, impacto e valor.
+
+Exemplo simples: um profissional que otimiza o processo e reduz custo e tempo, pode cobrar pelo projeto porque o cliente ganha mais do que paga.
+
+Não é trabalhar mais, é vender melhor o que você já sabe fazer".
+
+Olha que legal.
+
+Ele montou aqui uma estrutura pra mim.
+
+Maravilha.
+
+Então aquiEle montou aqui o que eu pedi, 20 páginas.
+
+E lembra, eu posso pegar isso aqui e eu posso refinar, só que eu quero, para gente ganhar tempo, mostrar isso aqui para vocês.
+
+Então lembra aqui, primeiro passo: valida se o que eu quero vender tem demanda.
+
+Segundo: eu vou criar um material para atrair essas pessoas.
+
+Terceiro passo: eu preciso colocar esse material em uma página que a gente chama página de captura.
+
+Então vamos terminar aqui o material.
+
+Vou copiar ele todo aqui.
+
+Vocês vão ver que legal.
+
+Aí depois eu tiro esse negócio de página que ele está colocando.
+
+Vou pegar até aqui.
+
+Eu tenho aqui já um Docs aberto, eu vou jogar aqui para esse Docs.
+
+Beleza, então ele deu uma estruturada aqui para a gente.
+
+Eu posso vir aqui e só tirar esse negócio de página.
+
+Boas-vindas, o novo, armadilha, o mapa, etapa um, até exercício ele propôs.
+
+Oito, nove, 10, 11, 12, 13, 14, 15, 16, 17, acabou.
+
+Vinte.
+
+Aqui eu vou pegar o meu link da minha equipe do WhatsApp.
+
+E eu vou colocar aqui.
+
+Maravilha.
+
+Então tenho um materialzinho aqui construído para eu atrair pessoas que têm interesse nesse tema.
+
+Qual é o próximo passo?
+
+Aqui tem duas opções.
+
+O pessoal, hoje, está tão saturado de tanta informação que eles recebem, que o e-book não precisa ter nem capa, mas se você quiser, a própria inteligência artificial pode gerar a capa para a gente.
+
+Mas o e-book não precisa nem de capa, o que eu vou precisar de uma imagem para colocar na minha página.
+
+Então vou pegar aqui esse agente, vou colocar: "Agora, eu preciso que você crie uma imagem para esse e-book.
+
+Siga o padrão de imagem em anexo".
+
+Aqui eu vou anexar alguns templates que eu tenho de capa para e-book.
+
+Só para ele seguir uma linha e não sair colocando qualquer coisa.
+
+Cadê?
+
+Beleza.
+
+Aqui, vamos ver se ele já vai criar, às vezes dá umas engasgadas com imagem aqui, mas vamos ver se ele já acerta de primeira.
+
+Está criando.
+
+Enquanto ele está criando, deixa eu só fazer um negócio aqui, que eu vou precisar desse cara.
+
+Cadê o nosso?
+
+Vou precisar desse cara aqui.
+
+Beleza.
+
+Criando aqui já no formato como se fosse um livro.
+
+CLT com CNPJ, como transformar o seu conhecimento sem pedir demissão.
+
+Aqui eu posso fazer alguns ajustes, que na verdade, ele pegou exatamente do jeito que eu tinha no anexo que eu coloquei aqui para ele.
+
+Mas aqui eu vou falar para ele: "Mude o fundo da capa do e-book.
+
+Coloque um fundo contextual com o conteúdo apresentado no e-book.
+
+Remova da parte inferior", que ele escreveu aqui, "a frase 'Formação Consultores de TI'.Substitua por.
+
+E aqui seria como se fosse o autor.
+
+Logo, olhe.
+
+Vamos ver. Às vezes ajustar a imagem aqui no ChatGPT é meio chato, às vezes tem que ficar insistindo ali até ele trazer o que a gente quer.
+
+O que eu vou fazer pra gente ir ganhando tempo enquanto ele está gerando aqui a imagem?
+
+Eu tenho essa ferramenta aqui chamada Click Funnels, é uma ferramenta que entre outras coisas, onde a gente cria as páginas dos funis e tudo mais.
+
+Então eu vou pegar aqui nessa ferramenta, eu vou criar um novo funil.
+
+Aqui eu já tenho o funil pronto, que é esse template pronto pra esse tipo de estratégia.
+
+Beleza, aqui pedindo pra eu escolher um modelo.
+
+Eu vou pegar aqui esse modelinho.
+
+Vamos ver se ele já criou.
+
+Ainda não.
+
+Beleza, customizar.
+
+Tirar ele aqui do testing.
+
+Cadê?
+
+Aqui.
+
+Beleza.
+
+Aí eu vou editar aqui.
+
+Beleza, eu vou colocar minha imagem aqui, eu vou pedir pro próprio ChatGPT me sugerir o que eu tenho que colocar aqui.
+
+Maravilha.
+
+Vamos ver se ele terminou.
+
+Isso aqui que eu falei, às vezes ele não entende, ele manteve a mesma capa aqui.
+
+Mas o que eu vou falar aqui pra ele?
+
+Apesar que eu gostei dessa capa.
+
+Eu vou deixar essa capa mesmo, então vou fazer aqui, baixar.
+
+Beleza.
+
+Aí agora eu vou falar pra ele: "Eu preciso da sua ajuda para criar a copy da página de captura, com headline, sub-headline e bullet points com os benefícios do material".
+
+Beleza, então enquanto ele está fazendo, eu vou pegar aqui, vou fazer o upload dessa imagem que ele acabou de me ajudar a construir.
+
+Maravilha, aqui o meu ebookzinho, e agora vamos ver o que ele está pedindo aqui pra eu colocar.
+
+Headline, posso vir aqui, copiar, e aqui, a minha sub-headline.
+
+Deixa eu só tirar isso aqui, que eu não vou precisar.
+
+Só vou ajustar isso aqui pra ficar em duas linhas.
+
+E isso aqui também, pra ficar aqui em duas linhas.
+
+Beleza.
+
+CLT com CNPJ, o guia pra começar a empreender em TI, aí aqui eu posso deixar mais aberto, mas esse aqui eu estou montando pra um público específico.
+
+Sem pedido de emissão.
+
+Descubra como transformar seu conhecimento técnico em projetos, produtos e renda extra com o passo a passo prático pra validar sua operação no paralelo e construir previsibilidade.
+
+Aí, o que ele me trouxe aqui.
+
+Aí eu posso...
+
+O que você irá ver nesse material.
+
+Aí eu posso vir aqui e adicionar bullets.
+
+Ele me deu vários aqui, geralmente a gente trabalha com três, quatro no máximo, então não preciso de todos.
+
+Isso aqui é chato. Às vezes dá uns bugs nos copy paste, mas beleza, estamos pegando aí, pessoal.
+
+Aqui eu estou construindo um negócio real aqui que eu vou colocar pra rodar.
+
+Beleza.
+
+BelezaO que acontece?
+
+Essa solução já está integrada com a minha solução de página.
+
+Posso tirar isso aqui, não preciso.
+
+Isso aqui também não preciso.
+
+Deixa eu ver, 26.
+
+Posso tirar isso aqui.
+
+Beleza.
+
+Só mudar aqui. "Digite seu e-mail aqui.
+
+Liberar o e-book agora".
+
+Beleza?
+
+Salvar.
+
+Então, o que eu tenho até aqui?
+
+Eu tenho o meu material.
+
+Tenho uma página, que para quem tiver interesse nesse material, vai ter que colocar o e-mail.
+
+Essa página, quando o lead coloca o e-mail aqui, ele vai pra minha solução de e-mail marketing, então eu tenho acesso a esse e-mail pra poder falar com esse lead sobre outros temas, sobre outras coisas.
+
+Qual é o próximo passo da estratégia?
+
+Depois que eu tenho a página de captura, a gente vai criar o que a gente chama de página de obrigado.
+
+E essa é uma das principais páginas pra que a estratégia funcione.
+
+Obrigado.
+
+Porque dentro dessa página de obrigado, eu vou entregar o material e eu vou oferecer já o meu serviço aqui nessa página.
+
+Maravilha?
+
+Então vamos ver.
+
+Página de captura, já está pronta.
+
+Agora a página de obrigado.
+
+Posso vir aqui agora.
+
+Tirar isso aqui. "Parabéns.
+
+Você pode fazer o download do seu material no botão abaixo".
+
+Que eu tire isso aqui e vou adicionar um botão. "Clique aqui para baixar o e-book".
+
+Aqui eu falo que vai para, e aqui eu coloco o link do meu material.
+
+Compartilhar, qualquer pessoa com o link, copiar o link e põe aqui.
+
+A pessoa quando chegar nessa página, clicar aqui, ele já vai jogar a pessoa direto aqui pro material.
+
+Maravilha?
+
+Beleza.
+
+Aqui está a parte, o ouro da estratégia.
+
+Aqui eu já vou oferecer o meu serviço.
+
+O que acontece?
+
+Geralmente, quem vai comprar um serviço, que é o meu caso, então essa formação entra como se fosse um serviço.
+
+Porque lembra, a ideia dessa estratégia, muitas vezes, é trazer pessoas que ainda não me conhecem.
+
+Então é muito mais fácil essa pessoa conhecer e ter uma confiança em mim, por um vídeo do que por um texto.
+
+Então o que faz parte da estratégia?
+
+Lá na página de obrigado, onde eu vou entregar o material, eu vou subir um vídeo, que dentro do marketing digital a gente chama de VSL.
+
+Como que é?
+
+VSL, Video Lead Sales.
+
+Tradução: vídeo de vendas longo.
+
+Então é aqui que eu vou oferecer o meu serviço.
+
+Só que não é um vídeo que eu vou fazer de qualquer jeito.
+
+Oferecer.
+
+Não é um vídeo que eu vou simplesmente: "Ah, eu tenho a empresa tal, meu serviço funciona assim".
+
+Não, também tem estratégia pra isso aqui.
+
+E de novo, quem vai me ajudar nisso aqui é o meu ChatGPT.
+
+Então eu tenho aqui esse agente, que está treinado, que eu chamo aqui do arquiteto de VSL.
+
+Então ele que vai me ajudar nessa construção.
+
+Vou chegar aqui: "Eu preciso da sua ajuda para criar uma VSL persuasiva.
+
+Eu vou apresentar pra você o que eu estou vendendo".Nessa VSL eu quero oferecer a minha formação consultor de TI.
+
+Essa é uma formação de um ano que tem como meta formar novos consultores de TI.
+
+Como esse material que eu estou criando é específico pra TI, eu estou especificando o nicho de TI, mas pode ser pra qualquer coisa.
+
+É formar novos consultores de TI.
+
+É um ano, com a meta de formar novos consultores de TI, que terão a habilidade tanto de oferecer serviços que têm demanda no mercado, quanto aprender toda a parte estratégica para vender esses serviços.
+
+Essa formação é dividida em dois pilares.
+
+O pilar técnico, onde eu vou ensinar tecnicamente como entregar serviços e projetos mais rentáveis e com maior demanda no mercado, e o segundo pilar eu vou ensinar as estratégias, funis e campanhas americanas para vender os serviços de consultores.
+
+Eu quero mostrar que o grande problema hoje não é só conhecimento, o problema é estratégia.
+
+A maioria não tem estratégia de atração de clientes e fica apenas dependendo de indicações.
+
+E um modelo de negócio baseado em indicações está fadado ao-- o que eu posso usar aqui pra não ficar muito forte?
+
+Está fadado ao fracasso.
+
+Eu quero também mostrar que é possível criar um modelo de negócio lucrativo, mesmo sendo CLT, para que a transição de CLT para empreendedor seja mais segura e tranquila.
+
+Deixa eu ver o que mais que eu posso falar aqui.
+
+Lembra, eu tenho todo o treinamento do agente por trás, então eu sei o que eu tenho que passar de informação pra ele estruturar isso aqui pra mim.
+
+Essa formação terá entregas/mentorias mensais, onde o aluno irá aprender os dois pilares.
+
+A estratégia, mais a parte técnica.
+
+Essa formação é para quem deseja criar um modelo de negócio sustentável, lucrativo e previsível, para quem deseja faturar, além do CLT, de R$ 20 mil a R$ 100 mil no mês.
+
+Na chamada de ação, eu quero levar o público para conversar com a minha equipeEsse programa tem o valor de R$ 5 mil por 12 meses.
+
+Beleza.
+
+Ele vai estruturar isso aqui pra mim dentro de um formato de VSL.
+
+Olha que legal.
+
+Pensa assim, você vendo um vídeo, fala: "Se você trabalha com TI ou já presta algum serviço e ainda depende de indicação pra fechar cliente, você não tem um negócio, você tem sorte.
+
+E sorte não paga boleto todo mês." Olha que introdução paulada aqui. "A maioria das pessoas acha que o problema é falta de conhecimento técnico, mas a verdade é outra, o mercado não paga o melhor técnico, paga quem sabe se posicionar, comunicar e vender.
+
+E quando o seu plano é só indicação, acontece sempre a mesma coisa, um mês entra projeto, no outro some e você fica refém.
+
+O grande problema hoje não é o conhecimento, é a estratégia de atração, porque indicação é consequência, não é sistema.
+
+Negócio de verdade precisa de três coisas: posicionamento, funil e campanha, que geram conversas com o cliente todos os meses.
+
+Imagina ter um modelo onde você sabe, toda semana eu vou gerar lead qualificado, conversar com empresas e fechar projeto, mesmo sendo CLT.
+
+E fazer a transição pro empreendedorismo com muito mais segurança, porque você não pula no escuro.
+
+Foi por isso que eu criei a formação consultor de TI, um programa de 12 meses com duas pernas, dois pilares.
+
+Pilar um, técnico, eu te ensino como entregar serviços e projetos mais rentáveis e mais demandados no mercado.
+
+Pilar dois, a estratégia, te ensino os bastidores de funis e campanhas, modelo americano pra vender consultoria e serviços com consistência.
+
+A maioria tem só uma das duas coisas.
+
+Aqui você junta as duas e cria um negócio real.
+
+Sabe por que muita gente boa em TI não cresce?
+
+Porque vira o faz tudo, cobra mal, pega projeto errado e vive apagando incêndio.
+
+Sem posicionamento, você entra na guerra do preço.
+
+Sem funil, você vive de favor do mercado.
+
+Sem campanha, você vira invisível." Olha. "Dentro da formação, todo mês você recebe mentorias e entregas práticas, nos dois pilares.
+
+Não é só aula, é implementação guiada.
+
+Você vai evoluindo mês a mês, montando o seu modelo, oferta, posicionamento, aquisição, roteiro de conversa, proposta e entrega técnica que gera resultado.
+
+No final, você não compra conteúdo, você compra clareza de quem vende pra quem, um sistema de atração, capacidade de fechar conversa e transformar em contrato, capacidade técnica de entregar projetos lucrativos, um plano pra construir isso, mesmo sendo CLT.
+
+Perfeito, o programa foi pensado pra isso, construir em paralelo.
+
+Você não precisa largar seu emprego pra começar, você precisa de um plano, porque curso solto não vira sistema.
+
+Aqui você tem dois pilares, acompanhamento e acompanhamento mensal pra implementar.
+
+Você não precisa nascer vendedor, você precisa de processo, posicionamento, funil, script de conversa e proposta.
+
+A formação consultor de TI é um programa de 12 meses, o investimento é de R$ 5 mil." Então ele montou aqui o que eu preciso ter dentro dessa VSL.
+
+Qual é o próximo passo?
+
+Com esse script, que ele está colocando aqui, que é um script que vai durar em média 18 minutos, mas acho que vai dar bem menos.
+
+Com esse script, o que eu vou fazer?
+
+Eu vou gravar esse vídeo, não vai dar pra fazer aqui, é claro.
+
+Então eu vou pegar esse script e eu vou gravar um vídeo.
+
+E o que eu vou fazer com esse vídeo?
+
+Aqui na página de obrigado, onde o cliente tem "clique aqui pra baixar", eu posso vir aqui e falar.
+
+Opa, não é botão.
+
+Aqui.
+
+Uma coluna, headline. "Em 12 meses, você vai ter uma estrutura completa.
+
+Estrutura que a maioria levaria cinco a 10 anos para construir." Olha só, estou chamando aqui pela curiosidade.
+
+Poxa, mas como assim?
+
+Em 12 meses eu vou ter uma estrutura que muita gente leva 10 anos pra construir?
+
+Aí eu venho aqui embaixo e aqui eu seleciono a minha VSL, aqui eu ponho o meu vídeo.
+
+Então aqui eu vou pôr meu vídeo e embaixo do vídeo eu vou colocar o botão pra entrar em contato no WhatsApp.
+
+Estão acompanhando, pessoal?
+
+A única coisa que eu não vou conseguir mostrar ao vivo é a criação do vídeo, mas é o script.
+
+Eu vou seguir o script, porque eu não preciso reinventar a roda.
+
+Então vou pegar aqui de novo o meu link do WhatsApp, do meu time, e eu vou colar aqui.
+
+Então beleza, qual é a experiência de quem tem interesse no material?
+
+A gente já vai ver como que a gente vai apresentar esse material.
+
+Eu criei o material e coloquei na página.
+
+Então quem tem interesse aqui no material"Pô, gostei.
+
+Pô, é isso que eu quero".
+
+Põe o e-mail.
+
+Pôs o e-mail, automaticamente isso aqui vai pra minha ferramenta de e-mail marketing.
+
+Ele pôs o e-mail, ele vai cair automaticamente nessa página.
+
+Então tudo isso aqui é automático.
+
+Ele vai cair automaticamente nessa página. "Parabéns, clica aqui pra baixar seu e-book".
+
+Ele vai clicar e vai baixar o material, só que aqui ele vai ver: "Em 12 meses você vai ter uma estrutura completa, estrutura que a maioria levaria cinco a 10".
+
+Opa, espera aí, que é isso?
+
+Aí vai ter o vídeo aqui, aí ele clica no vídeo, assiste o vídeo com aquele roteiro e no final do vídeo eu falo: "Você quer saber mais?
+
+Entre em contato aqui com a minha equipe no WhatsApp", e tem um botão aqui pra entrar com a equipe no WhatsApp.
+
+Então constantemente eu vou ter pessoas chegando aqui na minha página, interessada nesse material.
+
+Eu vou ter aqui diariamente várias pessoas chegando aqui, várias pessoas que vão ler o material e lá eu já falo do meu serviço e várias pessoas que vão chegar aqui na página de obrigado pra baixar o material e vão se interessar pelo que eu estou falando aqui nessa headline, vai assistir o vídeo e lá no vídeo eu estou falando do meu serviço.
+
+E as pessoas interessadas vão entrar em contato no WhatsApp.
+
+Então isso aqui é uma roda que fica rodando automaticamente.
+
+Automaticamente, com essa campanha que eu vou colocar no ar, eu vou ter pessoas entrando em contato com a minha equipe no WhatsApp querendo saber mais dessa formação.
+
+Aí entra o último pilar aqui da estratégia, que é os anúncios.
+
+Anúncios.
+
+Que é o quê?
+
+Agora eu já tenho toda a estrutura montada, o que eu preciso agora?
+
+O máximo de pessoas possível chegando na minha página pra baixar o meu material.
+
+Não adianta eu ter toda essa estrutura e não ter pessoas chegando aqui.
+
+Então agora eu preciso atrair a quantidade máxima de pessoas chegando nesse material.
+
+Aqui, pra vocês verem, alguns de vocês já participaram de aula onde eu falei isso.
+
+Gente, hoje o orgânico é muito complicado.
+
+Eu tenho uma lista de e-mail grande, eu tenho mais de 10 mil seguidores no Instagram, mas mesmo assim a minha base é tráfego pago, porque eu não posso ficar dependendo do orgânico, preciso atrair pessoas novas pra ver o que eu tenho a oferecer.
+
+Eu tenho aqui também um agentezinho, que é o agente pra montar a minha estratégia de tráfego pago.
+
+Gente, isso aqui é importante.
+
+Como eu vou investir dinheiro pra aparecer pras pessoas, pra que as pessoas cheguem nessa página e vou gastar.
+
+Então esse agente leva tudo isso aqui em consideração.
+
+Ele é treinado pra me entregar imagens, pra me entregar uma copy, onde eu vou ter um lead com o menor custo possível.
+
+Ok?
+
+Então pra isso eu vou pegar aqui o que ele já me trouxe aqui na VSL.
+
+Esse cara aqui.
+
+Cadê?
+
+Aqui.
+
+Eu vou pegar isso aqui, eu vou copiar, vou aqui pro tráfego.
+
+Opa, na verdade eu peguei o errado.
+
+É esse aqui que eu tenho que pegar.
+
+O tráfego é pra baixar o material, não é pra vender o serviço de cara.
+
+Esse cara aqui.
+
+Então eu vou pegar tudo que ele me deu aqui, tudo isso que ele me deu de dado.
+
+Posso copiar aqui, não tem problema.
+
+Tudo isso aqui.
+
+Aí vou lá pro tráfego, vou copiar e embaixo eu vou falar: "Eu quero a sua ajuda para criar anúncios no Meta Ads.
+
+Utilize como base o texto acima, que é o e-book gratuito que eu irei anunciar".
+
+Vamos ver o que ele vai trazer aqui.
+
+Então lembra, eu não estou dando tantas informações porque ele já é treinado pra entregar aqui o que eu preciso.
+
+Então o que eu quero é isso aqui.
+
+Copy da página.
+
+Aqui que eu quero chegar.
+
+Ele está me dando aqui várias opções.
+
+Então o que eu vou fazer agora?
+
+Eu vou lá na minha conta de gerenciamento de anúncio, vou criar uma campanha nova de lead.
+
+Urgen CLT EmpreendedorBeleza.
+
+Falar que eu quero o anúncio na campanha e aqui eu vou oferecer, então vou deixar aqui como aberto.
+
+Então o público aberto que eu vou oferecer isso aqui.
+
+Posso descer aqui quanto que eu vou investir por dia.
+
+Então vou começar aqui com R$ 20 por dia.
+
+E aqui a parte do público.
+
+Então vou escolher aqui Brasil.
+
+Eu vou só mexer aqui.
+
+Então eu já sei mais ou menos a idade do meu público, geralmente é de 24 a 45 anos, não que seja só isso, mas o anúncio quanto mais assertivo a gente for, mais barato é.
+
+E predominantemente, a minha audiência é de homens, então vou criar uma campanha só para homens.
+
+Eu gosto depois de ter campanhas separadas para homens e mulheres.
+
+Então beleza.
+
+E aqui eu vou definir, deixar aqui a idade mínima em 24, idiomas, só português.
+
+Beleza, e aqui é onde eu vou incluir o meu público.
+
+Então o que acontece?
+
+Eu já tenho alguns públicos que eu trabalho.
+
+Eu já tenho alguns públicos aqui, semelhante público, então geralmente eu trabalho com esses aqui.
+
+Mas aqui, a gente pode trabalhar de duas formas.
+
+Eu posso deixar ele aberto para que o próprio Facebook encontre pessoas que têm a ver com o que eu estou anunciando, ou eu posso vir aqui em direcionamento detalhado, e eu posso especificar algumas informações.
+
+Então falar: "eu quero isso aqui, vai ser para tecnologia da informação".
+
+Tecnologia da informação.
+
+Posso especificar um pouco mais.
+
+Eu quero buscar pessoas que têm conhecimento em cloud.
+
+Então posso vir aqui, cloud.
+
+Então eu vou refinando o público que eu quero atingir.
+
+Então quanto mais refinado for esse público, quanto mais você chegar nas pessoas certas, melhor vai ser.
+
+Aqui, Rony, eu coloquei a nível Brasil, mas eu posso especificar para determinadas regiões.
+
+Então, por exemplo, o serviço que eu vou oferecer, exige com que eu vá numa empresa.
+
+Então, poxa, você não pode atingir o Brasil inteiro, senão você vai fechar contrato e ter que ficar se deslocando.
+
+Então você pode especificar para uma região específica, mas o padrão pega aqui, o Brasil inteiro.
+
+Mas eu posso chegar, aqui no meu caso, eu quero só para São Paulo.
+
+Como esse programa dessa formação é um programa online, então eu deixo para o Brasil inteiro.
+
+Mas se eu fosse, por exemplo, eu vou vender um serviço, que eu tenho que ir até a empresa, aí eu deixaria só em um raio perto da minha localização.
+
+Beleza?
+
+Defini aqui o meu público.
+
+Aí eu venho aqui para a parte do anúncio.
+
+Deszoom.
+
+Aí eu preciso ter uma conta do Facebook e uma conta do Instagram associado.
+
+Vou criar um anúncio novo.
+
+Aqui, beleza.
+
+Para onde que eu vou levar?
+
+Então as pessoas quando clicarem nesse anúncio, para onde vão?
+
+Então vou lá na minha página.
+
+E eu vou pegar aqui.
+
+Depois eu vou trocar.
+
+Só para a gente ganhar tempo, vou copiar aqui, depois eu vou trocar essa URL.
+
+Aí eu venho aqui e falo: "Você vai direcionar para essa página".
+
+Então todo mundo que tiver interesse nesse anúncio, quando clicar, vai cair na minha página, onde fala do material, só que ele tem que colocar o e-mail para seguir.
+
+E aqui embaixo, a parte do criativo.
+
+Então aqui eu posso pegar o criativo lá que eu criei no ChatGPT com a imagem do e-book.
+
+Geralmente é o que mais funciona.
+
+Depende, Hamilton, vai depender muito do que você oferece.
+
+Se for algo que dá para vender no Brasil inteiro, cara, o melhor é começar no Brasil inteiro.
+
+Você vai ter mais chances de acertar.
+
+Quando você limita muito para uma determinada localidade, você corre o risco de atingir poucas pessoas, o seu valor vai ficar maior para o anúncio, você vai atingir menos pessoas com valor maior.
+
+Então depende muito do que está sendo vendido e a estratégia que está sendo utilizada.
+
+Texto principal, então o texto que o ChatGPT me deu.
+
+Então vou pegar aqui e vou copiar. "Você domina TI e sente que não sabe vender?
+
+A maioria dos consultores trava porque não tem oferta clara, proposta objetiva e um caminho simples de aquisição.
+
+Eu reuni um passo a passo prático em um e-book gratuito para você aplicar".
+
+Deixa eu pegar aqui.
+
+Copiar aqui.
+
+Posso pegar texto alternativo, então ele me gerou mais de um.
+
+Então posso ir lá e falar: "Não, usa esse aqui também". "Quer parar de depender de indicações e começar a gerar conversas com clientes ideais?
+
+Baixe o e-book gratuito".
+
+Então posso copiar aquiE aqui seria o título, que ele também está me colocando aqui: "Estruture sua consultoria de TI".
+
+Cadê?
+
+Pegar mais um.
+
+Não, esse aqui.
+
+E a chamada de ação, então posso colocar aqui pra baixar.
+
+Beleza.
+
+Concluir.
+
+Maravilha!
+
+Deixa eu ver aqui embaixo, só se está certo.
+
+Baixar.
+
+Beleza, deixa eu só ver se ele está...
+
+Eu só preciso mudar aqui.
+
+Aqui é site.
+
+E aqui é o pixel do Facebook para lead.
+
+Maravilha.
+
+Publicar.
+
+Está pronto o meu anúncio.
+
+Então daqui a pouco o Facebook começa a vincular esse anúncio.
+
+Opa, espera aí, o que deu de errado?
+
+Não gravou a mídia?
+
+Não gravou a URL.
+
+Pegar de novo.
+
+Aqui.
+
+Aqui, sem.
+
+Cadê a minha imagem?
+
+Ele saiu.
+
+Voltar aqui.
+
+Mídia, essa.
+
+Avançar.
+
+Isso aqui cortou.
+
+Pegar os textos aqui de novo.
+
+Foi esse.
+
+E esse que eu usei.
+
+E aqui no título eu usei esse, que quando você coloca mais de um, ele fica testando, e o que tem mais resultados, ele começa a entregar sempre os textos, os anúncios que tiveram mais resultados.
+
+E aqui, chamada de ação, baixar.
+
+Avançar.
+
+Concluir.
+
+Agora, sim, publicar.
+
+Agora, sim, o anúncio foi publicado, então daqui a pouco ele começa a anunciar, ele vai começar a entregar isso pra aquela audiência que eu configurei.
+
+Então a pessoa quando ver meu anúncio, se interessar e clicar, vai cair aqui nessa página, caiu na página, vai pôr o e-mail, vai pra minha base de e-mail marketing, vai cair na página de obrigado, com botão pra baixar o material e assistir o vídeo ali, a minha VSL com mais explicações.
+
+Como demora um pouquinho pra vincular, vai dar tempo de depois que eu finalizar a aula aqui, eu gravar essa VSL.
+
+Deu pra entender, pessoal, a estratégia na prática aqui?
+
+Pegaram esses passos, esses pontos?
+
+Show.
+
+Deixa eu fazer uma pergunta aqui pra vocês: quem está aqui que não é do nicho de tecnologia?
+
+Digita o número um. "Cara, o meu nicho não é tecnologia, sou de outro nicho".
+
+Eu sei que tem, inclusive eu dei exemplos do nicho de produtos corporais, se não me falha a memória, mas quem não é do nicho de tecnologia, digita o número um, só pra eu saber.
+
+E quem é do nicho de tecnologia, digita o número dois.
+
+Só pra eu saber quem é e quem não é.
+
+Maravilha, tem mais gente aí.
+
+Então quem não é do nicho de tecnologia, o serviço que eu ofereço não é de TI, não é de tecnologia.
+
+Digita o número um.
+
+E quem: "Pô, o serviço que eu ofereço é um serviço de tecnologia", digita o número dois.
+
+Beleza.
+
+Essa é a estratégia.
+
+Mas para a estratégia funcionar, primeiro, a pesquisa pra saber se tem demanda, tem que ter um bom imã digital, uma boa página de captura estruturada, a página de obrigado com a VSL, a VSL bem estruturada, o anúncio, como vai ser necessário investir em anúncio, um anúncio bem feito pra não jogar dinheiro fora.
+
+E tem muita gente que não tem essas habilidades ainda.
+
+E pra quem não tem essa habilidade, a gente consegue ajudar vocês a montar toda essa estrutura.
+
+E aqui a gente temUm programa que é mais focado pra quem é de TI e um programa que é pra qualquer nicho.
+
+Qual é o programa focado pra quem é de TI?
+
+É a nossa formação, inclusive foi ela que eu fiz aqui, todo o processo, é a nossa formação consultor de TI.
+
+Conforme eu fui explicando aqui, lendo o que o ChatGPT entregou, vocês já viram um pouco do que é essa formação.
+
+É uma formação de 12 meses, onde a gente tem encontros mensais, onde dentro desses encontros, o que vocês vão aprender?
+
+A parte técnica, o que vale a pena oferecer no mercado que tem demanda e é rentável, e a parte estratégica.
+
+O que é a parte estratégica?
+
+Como que eu crio esses funis que você viu?
+
+Não só esse, a gente tem outros vários funis.
+
+Então dentro desses 12 meses, vocês vão aprender esses dois pilares pra se transformar o consultor de TI completo, que sabe tecnicamente o que vai oferecer pro mercado, que tem demanda, e também sabe montar a estratégia, os funis, as campanhas pra vender aquele serviço.
+
+Então é uma formação de 12 meses.
+
+A gente está liberando de bônus aqui, pra quem está garantindo a vaga hoje nessa formação, a gente está liberando o quê?
+
+Acesso aos prompts que vocês viram.
+
+Então a gente vai liberar todos os prompts que vocês viram aqui que eu utilizei.
+
+A gente vai liberar também uma formação, aqui é 100% técnica, de Windows e Azure.
+
+Então só essas duas formações, vendidas individualmente, têm o valor de R$ 5.000.
+
+Uma custa R$ 3.000, a outra custa R$ 2.000.
+
+Então vocês vão levar de bônus os prompts, essas duas formações de um ano também, só que aqui é puramente técnico pra você ter um portfólio cada vez maior do que oferecer pro mercado.
+
+Prompts e acesso a essas duas formações aqui de um ano.
+
+Então 12 meses, você vai ter a formação consultor de TI, onde você vai aprender a parte técnica pra entregar projetos e a parte estratégica pra vender esses projetos, onde a gente vai ensinar todos os funis, não só esse que vocês viram, mas existem vários outros funis.
+
+Então vocês vão aprender esses funis pra vender os seus projetos, as suas consultorias.
+
+Vocês vão receber acesso a esses prompts prontos que eu mostrei aqui pra vocês e, além disso, vocês vão receber essas duas formações técnicas, que são formações de um ano também, que junta essas duas formações, tem um valor de R$ 5.000, vocês vão receber de bônus.
+
+Qual é o valor de investimento dessa formação?
+
+Inclusive, vocês viram quando eu estava fazendo o vídeo de vendas.
+
+R$ 5.000.
+
+Só que pra quem garantir a vaga hoje, além de levar todos esses bônus, a gente está liberando um cupom de desconto, de R$ 2.000.
+
+Então a formação sai de R$ 5.000 por R$ 3.000.
+
+E a gente não para por aqui.
+
+A gente vai liberar de bônus também, pra quem garantir a vaga hoje, o nosso Done for You.
+
+O que é o nosso Done for You?
+
+Já aproveitando que esse aqui é o programa pra quem não é de tecnologia.
+
+O Done for You é onde a gente que vai fazer e montar a estratégia pra você.
+
+Então na formação, você vai aprender a estratégia, só que você vai receber de bônus o Done for You, que a gente vai montar essa estratégia pra você.
+
+Tudo isso que vocês viram aqui nesse funil, a gente vai montar pra vocês.
+
+Então vocês estão recebendo o Done for You de bônus.
+
+Esse Done for You vai com 90 dias de acompanhamento.
+
+Então além da gente montar tudo pra vocês, tudo que a gente montou, a gente acompanha por 90 dias pra fazer todas as customizações.
+
+Enquanto tudo isso está rodando, você está na formação, aprendendo projetos que você pode entregar, aprendendo novas estratégias pra que você possa executar sozinho depois, sem depender da gente pra estar montando essas estratégias pra vocês.
+
+Então, de R$ 5.000 por R$ 3.000, 12 meses de acesso, acesso aos nossos prompts, acesso a duas formações técnicas que só elas têm o valor de R$ 5.000, de R$ 5.000 por R$ 3.000, mais o Done for You, onde a gente vai montar essa estratégia pra sua empresa.
+
+Então é a gente que vai colocar tudo isso pra rodar pra vocês.
+
+Então quem garantir a vaga hoje, vai levar todos esses bônus.
+
+Eu coloquei aí no chat o link da minha equipe no WhatsApp.
+
+Se você tem interesse na formação consultor e esses bônus que foram apresentados, é só entrar em contato com a Gabi, da minha equipe aí no WhatsApp.
+
+Se tiver qualquer dúvida, ela pode tirar também pra que você possa garantir a sua vaga e a gente possa começar a rodar esse Done for You pra vocês imediatamente.
+
+O Done for You, essa primeira campanha a gente monta em sete dias.
+
+Então quem entra na formação, a gente já tem um primeiro bate-papo, pra que a gente já monte o seu Done for You.
+
+Então a gente já tem uma reunião estratégica pra gente ter todas as informações pra gente começar a montar isso pro seu projeto imediatamente.
+
+Então provavelmente quem está entrando hoje, a gente já vai ter esse primeiro bate-papo estratégico na segunda-feira pra que a gente tenha os insumos pra que a gente possa montar todo o seu funil aquiTanto esse funil automático, como se na reunião estratégica a gente identificar que o seu negócio precisa de funis mais avançados, a gente também monta, entrega e acompanha tudo isso durante 90 dias.
+
+Quem não é de tecnologia?
+
+Então quem não é de tecnologia, a gente tem só o Done for You, que é o quê?
+
+A gente vai pegar o seu projeto, a gente vai entender, que nem teve um amigo aqui que colocou lá produtos corporais, então a gente vai entender o que você tem pra vender, a gente vai entender a sua estrutura e a gente vai montar todas as campanhas, todos os funis, página, copy, vídeo de venda, se precisar, copy pra mídias sociais.
+
+Então a gente vai entregar toda a estratégia pra você, a gente vai montar toda a estratégia.
+
+E a gente tem duas opções só do Done for You.
+
+A gente tem a opção de acompanhamento de 90 dias e a gente tem a opção de acompanhamento de 180 dias.
+
+Qual que é o valor de investimento?
+
+Pra quem quer o acompanhamento de 30 dias, o valor é de 3 mil.
+
+Pra quem quer um acompanhamento de 180 dias, o valor é de 5 mil.
+
+Todos esses valores, independente da formação ou só o Done for You, esses valores podem ser divididos ali em até 12 parcelas no cartão de crédito.
+
+Então recapitulando: formação, 12 meses de programa, onde a gente vai ensinar a parte técnica, como entregar os projetos mais rentáveis e demandados no mercado.
+
+E quem garantir a vaga hoje está recebendo de bônus os prompts que a gente utiliza pra construir as estratégias, duas formações técnicas, que só elas custam R$ 5.000.
+
+Formações de um ano de duração, e o cupom de R$ 2.000 de desconto, saindo de R$ 5.000 por R$ 3.000.
+
+E vocês ainda vão receber de bônus o Done for You de 90 dias, onde a gente vai montar e acompanhar essa estratégia pra vocês.
+
+E pra quem não é de tecnologia, a gente tem o Done for You, onde a gente monta toda a estrutura, toda a estratégia e acompanha.
+
+Acompanhamento de 90 dias, o valor de 3K, acompanhamento de 180 dias, tem o valor de 5K.
+
+Então está aí essa oportunidade pra quem quer tirar do papel, mesmo sendo CLT, começar a montar essa estrutura de maneira estratégica, toda a estratégia por trás e de maneira estruturada.
+
+Então está aí a oportunidade.
+
+E todos os alunos, quando entram, independente da formação, só do Done for You, a gente já tem uma primeira meta.
+
+Qual que é a nossa primeira meta de todas?
+
+É recuperar o que você investiu o mais rápido possível.
+
+Então essa é a primeira meta que a gente tem pra todos os clientes novos.
+
+A meta de vamos recuperar o mais rápido possível esse valor que você investiu aqui, tanto pra estar na formação, quanto pra fazer parte do nosso Done for You.
+
+Maravilha, turma?
+
+Então está aí o link da Gabi, da minha equipe no WhatsApp, só chamar ela.
+
+Lembrando que aqueles que garantirem a vaga hoje, vão receber todos esses bônus aqui.
+
+Maravilha?
+
+Alguém quer fazer mais alguma pergunta?
+
+Alguém quer tirar alguma dúvida?
+
+Curtir o conteúdo?
+
+Deu pra ter uma visão mais clara de como esse novo modelo de negócio funciona, onde a gente consegue associar o CLT com o empreendedorismo?
+
+Deu pra entender?
+
+Show de bola.
+
+Show de bola, turma.
+
+Maravilha.
+
+Então está aí a oportunidade pra quem quer dar esses próximos passos.
+
+Lembrando que esses bônus a gente só consegue garantir pra aqueles que tomarem essa decisão de construir um negócio lucrativo, previsível e seguro, porque você não precisa sair do CLT.
+
+Nesse primeiro momento, você consegue rodar tudo em conjunto, porque boa parte dos funis que a gente vai entregar pra vocês, que a gente vai ensinar, são funis que rodam automaticamente.
+
+Maravilha?
+
+Então é isso aí, turma.
+
+Um grande abraço pra vocês.
+
+Coloquem pra rodar, porque funciona.
+
+Aproveitem esse momento de mercado.
+
+Está muito bom pra quem quer empreender, desde que você faça aquela pesquisa pra saber se seu mercado tem demanda.
+
+Tendo demanda, vai pra cima, porque esse é um momento muito bom pra quem quer dar essa virada de chave.
+
+Maravilha?
+
+Então é isso aí, turma.
+
+Um grande abraço pra todos, fiquem com Deus e até a próxima.
+
+Valeu, turma!

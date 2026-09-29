@@ -1,0 +1,1955 @@
+Fala, turma!
+
+Bom dia, sejam todos muito bem-vindos a mais uma aula.
+
+Hoje vamos falar um pouquinho da IA para negócios.
+
+Então aqui só pra colocar todo mundo na mesma página, que a gente vai falar de IA que não é IA pra você, como consultor de TI, vender pros seus clientes.
+
+Aqui eu estou falando da IA pra ajudar você a construir o seu modelo de negócio, a IA pra te ajudar a conseguir esses 10 primeiros clientes aí pra sua empresa.
+
+Beleza?
+
+Turma, só confirmem aí, por favor, se vocês estão ouvindo bem pra gente começar a aula, se vocês estão vendo o mapa mental, só pra gente começar e que todo mundo esteja ouvindo e vendo bem.
+
+Só confirmem aí, por favor.
+
+Muito bom, tudo certinho, tudo ok.
+
+Show de bola.
+
+Então vamos lá, turma.
+
+Vamos seguinte: a gente é de tecnologia, a gente já deveria saber disso, mas eu gosto de frisar isso, porque não é o que a gente vê no mercado.
+
+A primeira coisa que a gente precisa entender é que a IA não é o faz tudo, a IA é um assistente.
+
+É claro que as coisas estão evoluindo rápidas demais, mas hoje, a IA, a gente tem que entender como um assistente.
+
+Então hoje tem muita gente que utiliza a IA pra fazer algumas coisas que eu vou mostrar aqui pra vocês e não tem resultado, por quê?
+
+Entende a IA como a solução que vai resolver todos os seus problemas.
+
+E não é bem por aí.
+
+Então possa ser que alguns de vocês que estão aqui nessa aula, possa ser que vocês já tenham utilizado a IA pra tentar alguma coisa e não deu certo, mas provavelmente porque você utilizou a IA da maneira errada.
+
+A IA, pra ela funcionar, isso não só pra o que a gente vai falar, pra essa parte de consultor, não, eu estou falando isso no contexto geral.
+
+A IA precisa de bons prompts, ela precisa de boas skill, ela precisa de bons agentes.
+
+Então não adianta eu abrir a minha IA e sair jogando um monte de informação sem o que a gente fala de treinar a IA.
+
+Se não, o que ela vai me trazer de dado, o que ela vai me trazer de informação, são coisas muito genéricas e às vezes coisa que ela inventou.
+
+E pra modelo de negócio utilizar a IA em cima de coisas que ela inventou, é o pior cenário de todos.
+
+Eu preciso construir um bom prompt, uma boa skill, um bom agente, fazer esse treinamento, com base em algumas informações que a gente tem que dominar, a IA não vai conseguir te entregar isso, pra que ela me traga bons resultados.
+
+A IA vai agir aqui como um assistente.
+
+Só pra eu dar exemplo aqui pra vocês.
+
+Deixa eu pegar aqui rapidinho na outra aba aqui, deixa eu pegar uma página aqui só pra dar um exemplo bem real pra vocês entenderem.
+
+Eu tenho um funilzinho que eu rodo, e um funil que eu recomendo que todos utilizem, todos que querem ter resultado.
+
+Utilizem, que é esse funilzinho aqui.
+
+É um funil bem simples, é um funil aonde eu tenho uma página.
+
+Isso aqui dentro da estratégia, eu vou falar um pouco sobre isso, porque IA, sem você ter a estratégia por trás, também não vai funcionar pra nada.
+
+Mas eu tenho essa página aqui, que dentro dessa estratégia a gente chama de uma página de captura.
+
+O cliente quando põe o e-mail aqui, vai pra uma ferramenta de e-mail marketing aqui que a gente tem.
+
+Então colocar aqui, por exemplo.
+
+Pega o que está salvo.
+
+Aí, aqui.
+
+Pra baixar um e-book gratuito.
+
+E ele vai aqui pra uma página, pede pra entrar no grupo do WhatsApp e por aí vai.
+
+A maioria de vocês deve ter me conhecido, deve estar aqui nessa aula passando por essa estrutura.
+
+O que acontece?
+
+No passado, e essa estrutura como que ela funciona?
+
+Eu tenho uma página de captura, eu tenho essa página que a gente chama de página de obrigado.
+
+Como eu capturo o e-mail dessas pessoas, elas vão pra minha ferramenta de e-mail marketing, essa ferramenta de e-mail marketing eu tenho uma sequência de e-mails automática que é enviada, então todo mundo que entra na minha ferramenta de e-mail marketing, recebe uma sequência de e-mail.
+
+E pra alimentar esse funil, eu tenho anúncios rodando.
+
+No passado, antes da IA, pra gente montar uma estrutura completa dessa, levava semanas.
+
+Por quê?
+
+A estrutura eu tenho que pensar, só voltar aqui, eu tenho que pensar no material gratuito.
+
+Se é um e-book, eu tenho que escrever esse e-book.
+
+Se é uma palestra, eu tenho que fazer essa palestra, roteirizar o que eu vou falar nessa palestra.
+
+Eu tinha que criar a página, saber o que escrever nas páginas.
+
+Eu tinha que saber o que escrever na página de obrigado.
+
+Eu tinha que saber que e-mails que eu vou mandar.
+
+Então envolvia muitas atividades manuais que eram demoradas.
+
+Então geralmente a gente demorava ali de uma a duas semanas, no mínimo, pra colocar uma estratégia dessa pra rodar.
+
+Só que com a IA eu diminuo de uma a duas semanas, muitas vezes eu consigo diminuir pra um dia.
+
+Mas o que acontece?
+
+Não adianta eu chegar com essa estratégia aqui e jogar pra IA de forma genérica, que ela não vai me entregar a melhor página, ela não vai me entregar o melhor material, ela não vai me entregar a melhor página de obrigado, ela não vai me entregar a melhor sequência de e-mail, ela não vai me entregar os melhores anúncios, não, vai ser tudo muito genérico.
+
+Então a IA conseguiu encurtar um tempo que durava até duas semanas pra um dia, por exemplo, mas ela não faz tudo sozinha.
+
+Se eu não tiver um bom prompt, se eu não ir orientando a IA o que eu quero, a chance dela me trazer informações que não vão ter o mesmo resultado, ou às vezes não vai ter resultado nenhum, é muito grande.
+
+Então quando a gente fala de inteligência artificial hoje, não é simplesmente eu abrir um ChatGPT da vida, eu abrir um Claude da vida e sair escrevendo qualquer coisa, porque a chance dela te entregar qualquer coisa também é gigantesca e qualquer coisa não vende Então primeira coisa que vocês precisam entender: a IA ajuda pra caramba, não só tempo.
+
+Eu diminuí de duas semanas pra um dia.
+
+Não é só tempo, é qualidade, desde que eu tenha bons prompts, eu tenha boas skills, eu tenha bom agente.
+
+Desde que eu saiba treinar a IA, desde que eu saiba conduzir a IA no que eu quero.
+
+A palavra é essa, é conduzir.
+
+Não é chegar lá e jogar: "ah, eu preciso de 10 clientes de TI", e joga lá, pá, se vira aí.
+
+Cara, pelo amor de Deus, ela não vai te entregar nada.
+
+Vamos fazer um exemplo prático.
+
+Deixa eu abrir aqui o meu Cloud.
+
+Me ajude a encontrar.
+
+Isso porque, provavelmente o meu vai até trazer informações um pouco melhores que a de vocês se vocês executarem isso agora, porque o meu Cloud já tem um treinamento específico, mas aqui eu não estou passando mais detalhes, aqui eu não estou rodando em cima de uma skill, nada disso.
+
+Me ajude a encontrar 10 clientes para meus serviços de TI.
+
+Então infelizmente, tem gente que usa a inteligência artificial assim.
+
+Cara, esquece, me ajude a encontrar 10 clientes pro meu serviço de TI.
+
+Cara, que contexto que a IA tem aqui pra encontrar esses clientes?
+
+Então a chance dela inventar esses 10 clientes é gigantesca.
+
+Então não é assim que a gente utiliza a IA.
+
+Não é assim que vocês têm que utilizar a IA.
+
+A IA, como eu falei, ajuda muito, não dá pra sobreviver sem IA hoje, mas desde que bem utilizada.
+
+O meu já tem um treinamento mais avançado, ele já faz algumas perguntas: "cara, você deu genérico demais, mas qual que é o serviço que você quer vender?" Vai colocar aqui: Cloud Infra redes.
+
+Quem é o cliente ideal?
+
+Olha que legal.
+
+Mas isso aqui possa ser que não apareça pra vocês, porque o meu Cloud, a minha conta Cloud já tem um treinamento prévio de outros chat que eu abri com ela.
+
+Então pega aqui: pequenas empresas locais.
+
+Você prefere conquistar esses clientes agora, fazendo uma prospecção ativa, tráfego pago, conteúdo orgânico, indicações.
+
+Coloca aqui: conteúdo orgânico.
+
+E ele vai pensar.
+
+Deixa ele pensar, daqui a pouco a gente volta aqui.
+
+Então primeiro ponto importante: não adianta vocês saírem dessa aula, simplesmente abrir o prompt de vocês e colocar lá: como encontrar meus 10 clientes de TI.
+
+Isso não vai funcionar.
+
+Aí você vai ficar insatisfeito e vai achar que a IA não funciona pra isso, mas não é que a IA não funciona pra isso.
+
+Você não soube utilizar a IA da maneira correta.
+
+Antes da gente ir pra IA, antes de fazer qualquer pergunta, usar qualquer chat de qualquer IA, primeiro você precisa ter a estratégia.
+
+Não adianta você ir pra IA sem uma estratégia definida.
+
+Beleza, a minha meta é conseguir meus próximos 10 clientes.
+
+Mas que estratégias que eu vou utilizar pra conseguir esses 10 clientes?
+
+Como que eu quero trabalhar?
+
+Quem são esses clientes?
+
+Então se eu não tiver uma estratégia por trás, de novo, eu vou cair no genérico.
+
+E o genérico não vende, o genérico é muito difícil.
+
+Hoje, a estratégia que funciona para quem é consultor de TI, pra quem é prestador de serviço de TI, pra quem é empresário de TI, eu gosto muito de usar o que a gente modela, que são os funis americanos.
+
+Então eu, particularmente, estudo esses funis americanos há um tempo já.
+
+Os americanos, quando a gente fala de marketing digital, estão em outro patamar, muito mais avançado do que a gente.
+
+E eu gosto de estudar o que eles estão fazendo e adaptar.
+
+Porque cara, brasileiro é brasileiro, é diferente do americano.
+
+Então não adianta eu simplesmente pegar o que eles estão rodando e espelhar 100% aqui no Brasil.
+
+Então eu gosto de entender e adaptar.
+
+E esses funis americanos trabalham nos pilares que a gente chama de aquisição, a monetização e a ativação.
+
+A aquisição é aqui que eu vou atrás de potenciais clientes.
+
+A monetização é onde eu fecho o contrato com esse cliente.
+
+Então efetivamente é onde vai vir o dinheiro.
+
+A ativação, vocês vão entender um pouco dessa ativação daqui a pouquinho, é quando eu mudo de assunto.
+
+Então eu estou falando, por exemplo, de segurança, fiz uma campanha, falei bastante de segurança e eu tenho skill em outras coisas além de segurança.
+
+Então eu vou parar de falar de segurança e agora eu vou falar de redes.
+
+Ou não, eu manjo só de segurança, então montei uma campanha pra falar de firewall.
+
+Agora eu vou mudar de assunto, ao invés de falar de firewall agora, eu vou falar, por exemplo, de ZTNA.
+
+Então a ativação é: eu fiquei batendo numa tecla, vai ter um momento que eu vou fazer uma virada e começar a falar de outras coisas pra pegar até um público diferente, com um serviço diferente.
+
+Então esse funil americano parte dessa base da aquisição, da monetização e da ativação.
+
+Aquisição, potenciais clientes, é aqui que eu vou começar, geralmente, a estratégia que mais dá certo, principalmente a médio e longo prazo, é começar a construir a minha lista de e-mail, começar a construir a minha lista de WhatsApp, que é isso aqui que eu acabei de mostrar pra vocês.
+
+Então isso aqui faz parte de uma campanha de aquisição.
+
+Eu tenho o material, o objetivo principal desse material é construir uma lista de e-mail.
+
+E quando a pessoa põe o e-mail aqui, eu ainda dou opção pra ela entrar num grupo do WhatsApp.
+
+Então isso aqui, dentro dessa estratégia, é o que a gente chama de aquisição.
+
+Eu estou montando uma lista com potenciais clientes, e se vocês notarem, em um tema específico.
+
+Isso aqui é importante.
+
+A aquisição tem que ser específica.
+
+Não adianta você querer vender tudo pra todo mundo, tem que ser bem específico, e a IA vai ajudar muito nisso aqui Esse é o processo de aquisição.
+
+O processo de aquisição, a estratégia envolve você ter uma lista de potenciais clientes pra que você possa oferecer o seu serviço várias vezes, de maneiras diferentes e outros serviços também.
+
+Que aí entra a parte de monetização, que efetivamente é onde é fechado esse contrato, essa proposta.
+
+Aqui a gente pode trabalhar com campanhas.
+
+Então eu posso fazer algumas ações, porque pensa bem, eu tenho uma lista de potenciais clientes.
+
+Agora eu preciso movimentar essas pessoas, eu preciso mostrar como que eu consigo ajudar essas pessoas.
+
+Aqui entra o que a gente chama de campanhas.
+
+Então pode ser aqui desde uma campanha, que a gente chama de oferta direta, que é: eu tenho o e-mail dessa pessoa, eu tenho o WhatsApp dessa pessoa, eu vou enviar um e-mail falando do meu serviço.
+
+Isso é um tipo de campanha.
+
+Então vou montar uma sequência de sete e-mails, falando e vendendo o meu serviço.
+
+Principalmente pra quem vende serviço, geralmente esses e-mails é chamando pra agendar uma reunião.
+
+Então eu vou montar uma sequência de sete e-mails persuasivos, e a IA vai me ajudar com isso aqui.
+
+Eu vou mandar sete e-mails ali, um e-mail por dia durante uma semana, vai ser minha primeira campanha.
+
+E essa campanha, esses e-mails, eles têm o foco de despertar o interesse do cliente em cima daquele assunto específico e se ele quiser saber mais, se ele tiver interesse, eu agendo uma reunião com ele.
+
+Então isso aqui é um tipo de oferta, que a gente chama de oferta direta.
+
+A gente tem a oferta indireta.
+
+O que é a oferta indireta?
+
+Eu primeiro vou engajar, entregar algum conteúdo pro meu potencial cliente, pra depois fazer a oferta.
+
+Então, por exemplo, isso que vocês estão participando é um tipo de oferta indireta.
+
+Então uma das campanhas de oferta direta é fazer uma aula ao vivo.
+
+Então você pode fazer uma aula ao vivo com um tema específico e no final dessa aula ao vivo, você vai oferecer o seu serviço completo.
+
+Lembrando que tudo precisa estar muito bem conectado.
+
+O tema que a pessoa entrou na minha lista tem que estar conectado com o que eu vou oferecer pra ela nessas campanhas.
+
+Ok?
+
+Então a oferta direta pode ser uma aula ao vivo, pode ser uma aula gravada.
+
+Você vai lá, grava uma aula, deixa essa aula numa página, a pessoa vai lá, assiste à aula, gostou, tem um botão ali pra fazer o agendamento da reunião, por exemplo.
+
+Então isso aqui é uma outra campanha.
+
+Você pode fazer uma campanha com novo e-book.
+
+Então você libera um e-book novo e dentro desse e-book novo, no final dele, você oferece o seu serviço também.
+
+Então a pessoa está lendo o seu e-book, gostou daquele conteúdo, embaixo tem um botão pra entrar em contato, pra agendar uma reunião.
+
+Então isso aqui pode também ser uma das campanhas.
+
+E lembrando, todas essas campanhas: "Vou fazer uma aula ao vivo.
+
+Quem vai ser a minha base?
+
+Pra quem que eu vou convidar?" A minha lista de e-mail.
+
+Então aqui eu vou enviar e-mails de convite, convidando pra essa aula ao vivo, que vai ter uma data e um horário.
+
+Aula gravada, pra quem que eu vou mandar essa aula gravada?
+
+Pra minha lista.
+
+Pra quem que eu vou mandar esse e-book?
+
+Pra minha lista.
+
+Então aqui também vai ter uma sequência de e-mails convidando pra essa oferta mais indireta.
+
+Aqui pode ser um artigo, você pode escrever um artigo bem detalhado, bem específico, e enviar esse artigo pra sua lista de e-mail.
+
+E no final do artigo, tem ali o convite pra agendar uma reunião pra falar mais sobre o seu serviço.
+
+Então notem que sempre tem essa chamada de ação pra agendar uma reunião, pra falar mais sobre o seu serviço específico.
+
+Ok?
+
+Então, no que consiste essa estratégia?
+
+Eu ter uma lista, fazer movimentos com essa lista utilizando as campanhas, aí tem várias maneiras diferentes de fazer isso.
+
+Eu dei aqui quatro exemplos, mas são vários, vários e vários.
+
+Beleza, vamos imaginar aqui, só pra gente deixar bem tangível.
+
+Vamos imaginar que eu chamei a audiência pelo tema de firewall.
+
+Então eu montei o meu material de firewall e eu comecei a falar com essas pessoas sobre firewall.
+
+Aí eu comecei a fazer as minhas ofertas falando do meu serviço de firewall, como que eu ajudo as empresas a implementar, administrar e manter soluções de firewall, se manterem seguras, longe de vulnerabilidade, longe de ataques e por aí vai.
+
+E eu comecei a montar as minhas campanhas.
+
+Vamos imaginar que eu fiquei aqui nessas campanhas dois meses.
+
+Fiquei dois meses fazendo oferta direta, fazendo oferta indireta, falando sobre o meu serviço de firewall.
+
+Beleza, passou ali os dois meses, eu tive os meus resultados com esse serviço, eu tive os meus clientes com esse serviço.
+
+Beleza, só que tem muita gente que não contratou o serviço.
+
+Alguns contrataram, muitos ainda não contrataram.
+
+Então o que vale a pena aqui?
+
+Eu tentar fazer uma nova campanha com a mesma lista, falando de um tema um pouco diferente.
+
+Tem que ter a ver com esse segmento, então se eu estou falando de firewall, eu estou falando muito de segurança.
+
+Então tem que ver um pouco com esse segmento, porque as pessoas que entraram na minha lista, têm interesse em firewall.
+
+Se têm interesse em firewall, possivelmente elas também têm interesse em outros recursos de segurança.
+
+Então o que eu posso fazer?
+
+Que aqui é onde entra o processo de ativação.
+
+Beleza, eu falei muito de firewall, agora vamos falar de ZTNA?
+
+Então eu posso mudar um pouquinho sobre o que eu quero falar. "Vou falar de ZTNA, agora eu vou montar as minhas campanhas, eu vou ficar um tempo falando sobre esse serviço".
+
+Então sei lá, de novo, vou ficar dois meses agora falando sobre ZTNA. "Já falei sobre ZTNA, eu já tive os meus clientes em cima desse serviço.
+
+Beleza, deixa eu fazer outra ativação, deixa eu mudar o assunto de novo pra um outro serviço, dentro desse nicho de segurança".
+
+Então a estratégia fica rodando.
+
+Só que acontece, hoje eu preciso montar uma aquisição.
+
+A aquisição parte principalmente de um bom material e uma boa página, pra que você tenha quanto mais pessoas chegando aqui, mais pessoas realmente se inscrevendo.
+
+Não adianta você ter um material ruim, uma página ruim, que as pessoas vão chegar aqui e não vão avançar O objetivo aqui é todas as pessoas ou o máximo possível das pessoas que cheguem aqui nessa página, avancem pra que você tenha essa lista de e-mail.
+
+Então uma taxa boa aqui, varia entre 50 e 70% das pessoas que chegam aqui, avançar onde efetivamente elas vão colocar o e-mail aqui e vai entrar na sua lista de e-mail.
+
+Ok?
+
+Eu preciso de uma boa aquisição, preciso de um bom material, eu preciso de uma boa página.
+
+Aqui, como eu já conheço a estratégia, a IA pode me ajudar com isso.
+
+Mas notem que agora eu não estou 100% do zero.
+
+Eu já tenho minimamente uma visão do que pedir pra ela, do que é uma aquisição, do que é uma monetização.
+
+Já tenho minimamente aqui, um ponto de start com a minha IA, e não partindo ali do absoluto zero, como eu acabei de fazer dentro daquele chat.
+
+Então vamos voltar aqui, vamos ver o que ele trouxe aqui.
+
+Perfeito, isso já me dá uma base clara.
+
+Beleza.
+
+Isso aqui transforma seguidor em cliente.
+
+Diagnóstico gratuito de infraestrutura e segurança.
+
+Ele já me deu um tema, só que eu, como já conheço um pouco mais, já estou um pouco mais no mercado, já conheço de uma maneira mais avançada esses funis americanos, eu sei que isso aqui não é um bom tema, está muito genérico.
+
+Eu sei que se eu montar, ele chama de isca, essa isca seria esse material aqui.
+
+Se eu seguir essa recomendação, eu sei que eu não vou ter os melhores resultados.
+
+Mas por quê?
+
+Lembra, eu fui muito genérico aqui.
+
+Então aqui ele já não me deu o melhor resultado.
+
+Aí beleza, ele fala onde você posta esse material que você criou.
+
+Aí ele fala LinkedIn, Instagram, beleza.
+
+O que postar?
+
+Dor, educação, segurança e LGPD, prove autoridade, confiança, beleza.
+
+Rotina semanal, três posts no LinkedIn, mais três posts no Instagram por semana.
+
+Pode reaproveitar o mesmo conteúdo.
+
+Aceleração, todo cliente ou contato que fizer o diagnóstico, você pergunta: "Conhece mais alguém que..." Horrível isso aqui.
+
+Beleza, então notem, eu pedi aqui pra IA, só que o que eu fiz?
+
+Eu não fiz nenhum prompt decente, simplesmente pedi, não tenho nenhuma skill, então eu não pedi isso em cima de nenhuma skill, em cima de nenhum agente, não fiz nenhum treinamento prévio.
+
+Com uma visão mais avançada, o resultado está terrível.
+
+Se eu seguir isso aqui, eu não vou ter resultado.
+
+Então aqui é só pra vocês entenderem.
+
+Só pra vocês entenderem aqui, que se eu não treinar a IA, vocês vão ver a diferença quando eu jogar um agente que eu tenho aqui.
+
+Horrível.
+
+Deixa eu só ver as duas dúvidas que vieram aqui. "Sou profissional de TI com X experiência.
+
+Minha meta é capturar pelo menos 10 clientes por mês.
+
+Meus potenciais clientes são aqueles que passando por perda de sinal Wi-Fi, falha de rede e expansão de estrutura física.
+
+Eu estou utilizando o Cloud e o GPT juntos, importei o meu perfil do GPT para o Cloud, já possuo até mesmo o contrato pronto de prestação de serviço, valores estipulados por hora." Primeiro que já está errado, estipular valor por hora é a pior coisa que tem. "Mas estou queimando tokens na descoberta para o nome da minha empresa, que até então não encontrei nenhum.
+
+Acha que estou queimando token à toa?" Vamos lá.
+
+Depende primeiro como que você está usando, Cloud e GPT, se você está usando a opção de desenvolvedor.
+
+Não há necessidade, pra quem vai usar essa estratégia, não precisa usar o desenvolvedor.
+
+Se quer ter uma resposta mais rápida, não ficar toda hora atingindo o limite, você pode assinar o plano comum, não precisa do plano de desenvolvedor.
+
+Agora, o que está errado aqui é a estratégia.
+
+Então beleza, eu já tenho contrato pronto, mas o que adianta o contrato pronto se não tem cliente?
+
+Aí entra em valores, quem já me acompanha há mais tempo sabe que eu não gosto de cobrar por hora, porque a gente sempre fica limitando o faturamento que a gente pode ter em cima das horas que eu consigo trabalhar durante um mês, por exemplo.
+
+Então não gosto de trabalhar com hora.
+
+E descoberta pra nome de empresa, nome de empresa é o menor.
+
+Pra quem já está mais acostumado com essa questão de CNPJ e tudo, você pode ter o nome da empresa, e pode ser qualquer nome, aí depois você pode escolher o nome fantasia um pouco mais atrativo.
+
+Mas isso seria a menor das preocupações.
+
+A preocupação aqui é estratégia.
+
+Você está usando a IA, pelo que eu entendi aqui, basicamente pra montar esse contrato e pra ajudar no nome da empresa.
+
+Não está usando a IA pro principal, que é beleza, eu tenho o nome da empresa, eu tenho aqui os contratos de serviço, mas não tenho os clientes, por exemplo.
+
+Eu vou abrir aqui um novo chat, e esse novo chat, eu tenho aqui uma skill, que é a skill do funil americano.
+
+Essa skill já está toda preparada, já está toda treinada, pensando nessa estratégia aqui.
+
+Pensando nisso aqui.
+
+Então ela já está toda preparada.
+
+Pra eu não fazer aqui de maneira genérica, coloquem aí no chat, mas precisa ser específico, o mais específico possível.
+
+O que vocês gostariam de oferecer no mercado?
+
+Eu manjo muito disso aqui e eu acredito que eu posso ajudar as empresas vendendo esse serviço aqui.
+
+Coloquem um exemplo aí no chat pra eu usar um exemplo real aqui de vocês, pra não usar ou o meu ou qualquer coisa genérica aqui.
+
+Coloquem aí, por favor, só pra vocês verem a diferença que ele vai dar.
+
+Azure Administrator, Synops AWS Azure.
+
+Locação de firewall, consultoria e diagnóstico em infraestrutura Windows EAD, sustentação de infra em cloud, migração para cloud.
+
+Vou pegar essa migração para cloud.
+
+Me ajude a montar o funil americano para o meu serviço, que é: eu ajudo empresas.
+
+Eu vou dar só aqui uma refinadinha.
+
+Eu ajudo empresas a migrar serviços e workloads do on-premises para cloud, com custo reduzido, eficiência, alta disponibilidade e resiliência.
+
+Pronto, deixar ele trabalhar.
+
+Vocês vão ver a diferença.
+
+Primeiro, ele já vai me dar a estratégia completa.
+
+Essa skill já está preparada para isso, então ele já vai me dar a estratégia completa, e em cima dessa estratégia, eu ainda posso ir pedindo mais coisas.
+
+Só que qual é a grande vantagem?
+
+Tudo que eu estou pedindo, eu não estou pedindo do zero.
+
+Existe uma skill por trás com todo o treinamento aqui para esse chat.
+
+Então ela não vai fazer as coisas do zero.
+
+E eu posso, inclusive, dentro do mesmo chat, eu posso ir pedindo skills diferentes.
+
+Eu tenho uma skill para montar a estratégia.
+
+Montou a estratégia, agora eu posso pegar no mesmo chat e pedir uma informação, mas que ele use uma outra skill.
+
+Então isso aqui é bem legal.
+
+Ótimo serviço, e já adianto uma coisa importante para o funil ficar realista: migração on-premises para cloud é venda B2B consultiva e de ticket alto, não infoproduto de impulso.
+
+Então eu vou usar a estrutura do funil americano.
+
+Olha aquilo que eu falei para vocês: aquisição, monetização e ativação.
+
+Mas adaptar o tripwire aqui, invés de um produto de R$ 27,00, sua oferta de entrada, será um assessment pago de baixo atrito, que qualifica o lead, gera caixa imediato.
+
+Deixa eu explicar um pouquinho sobre isso aqui.
+
+O que acontece?
+
+Dentro do funil americano, dentro dessa estratégia, existe uma parte da estratégia, só que isso aqui ele adaptou, mas lembra, por que ele adaptou?
+
+Porque eu treinei o agente.
+
+Por isso que ele adaptou, porque o funil americano em si vai fazer isso que ele está falando que iria fazer, mas que ele adaptou.
+
+O que é esse tripwire aqui?
+
+Seria basicamente isso aqui.
+
+Eu tenho o e-book, aquisição.
+
+A pessoa pôs o e-mail, ela foi para uma página de obrigado.
+
+Na página de obrigado, eu ofereço alguma coisa de baixo valor, de entrada.
+
+Isso que ele está falando, só que eu tenho que ajustar, porque geralmente dentro da estratégia, esse produto aqui é um produto geralmente de R$ 27,00 ou mais barato, que é uma primeira entrada do cliente.
+
+Só que isso aqui não se encaixa em serviço.
+
+Poxa, que serviço que eu vou vender que custa R$ 27,00?
+
+Não faz sentido.
+
+Então o que ele está falando?
+
+Ele vai fazer.
+
+Só que ao invés de ele colocar esse produtinho barato, o que ele vai fazer?
+
+Ele vai colocar um assessment pago de baixo atrito.
+
+Então ele vai fazer uma primeira oferta já direto para o cliente, que não é o serviço principal.
+
+E aqui ele recomendou que seja esse assessment.
+
+Então eu vou oferecer de cara, porque pode acontecer da pessoa entrar na sua lista, chega aqui e compra o seu primeiro serviço mais baratinho.
+
+Cara, já é dinheiro no caixa.
+
+Mas lembra, toda estratégia é montada para vender o serviço principal.
+
+Só que eu posso, além de vender o serviço principal, eu posso vender um primeiro serviço.
+
+Porque possa ser que a pessoa quando olha o serviço principal, "ah, eu não tenho esse budget, está muito caro", mas olha para um serviço de entrada, "ah, não, esse aqui dá".
+
+Isso aqui é importante.
+
+Vamos voltar aqui.
+
+Vamos lá.
+
+Aí vamos começar aqui com as recomendações.
+
+Aquisição, tráfego.
+
+Onde você tem que colocar os seus materiais?
+
+Então aqui, Google Ads, prioridade máxima.
+
+LinkedIn Ads, segmentação por cargo.
+
+Meta Ads, só para retarget aqui, seria o remarketing.
+
+Aqui eu mudaria um pouco.
+
+É aquilo que eu falei para vocês, depende muito também do nosso feeling.
+
+Aí aqui, lead management.
+
+Aqui seria o material.
+
+Aqui que ele está recomendando.
+
+Gente, olha isso aqui, meu Deus do céu, olha a diferença disso aqui.
+
+Cria uma calculadora de economia, mostrando aqui TCO da cloud versus on-premises.
+
+Olha que legal, gente.
+
+O nosso amigo aqui vendendo migração para cloud, precisa ir atrás de clientes.
+
+Ele vai lá e monta o material mostrando o que ele pode gerar de economia indo para cloud.
+
+Primeiro, isso aqui é sensacional, por quê?
+
+Porque você está indo contra o que muita gente fala, que a cloud é cara, você está indo na contramão.
+
+Não, não é cara.
+
+E eu posso te provar, está aqui a minha calculadora.
+
+Olha isso, gente.
+
+Olha você com um material desse, pessoas passando por isso nesse exato momento, "cara, eu preciso ir para cloud, mas a cloud é cara.
+
+Opa, espera aí, que material é esse aqui que fala que não, dá para economizar mesmo indo para cloud?
+
+Opa, espera aí, deixa eu ver isso aqui".
+
+Olha isso aqui, gente.
+
+Segunda opção, checklist Cloud Readiness, 27 pontos antes de migrar sem quebrar a operação.
+
+Olha que legal Você pega aquela galera que está: "Cara, eu preciso ir para cloud.
+
+Mas eu estou com medo, e se migrar e não funcionar?
+
+E se ficar indisponível?
+
+Quanto tempo para migrar isso?
+
+Eu não posso ficar esse tempo todo com o ambiente indisponível".
+
+Então você pega um público diferente, mas olha que dois baitas materiais que ele recomendou para mim.
+
+Lembrando, o que ele fez aqui?
+
+A primeira parte aqui.
+
+Depois vocês vão ver que eu vou pegar isso aqui, vou usar um outro agente, porque eu não preciso construir.
+
+Beleza, mas calculadora econômica. "Cara, mas como que eu vou criar isso aqui?" Checklist. "Mas como que eu vou criar isso aqui?
+
+Vou demorar muito." Não, a IA te ajuda, mas lembra, você não está partindo do zero, você já tem toda a informação, você não está chegando pra IA falando: "Escreve um e-book aí para mim." Não, "escreve um e-book sobre isso aqui, eu quero sobre isso".
+
+Vamos avançar aqui.
+
+Três ângulos de anúncio.
+
+Vamos lá.
+
+Dentro dessa estratégia, é matemática pura.
+
+Quanto mais gente eu tiver aqui dentro chegando nessa página e avançando, mais pessoas eu vou ter.
+
+Vamos voltar aqui rapidão para ficar claro para todo mundo.
+
+Quanto mais pessoas eu tiver aqui entrando na minha lista, mais gente eu vou ter aqui para rodar as minhas campanhas.
+
+Ou seja, quanto mais gente, maior o resultado.
+
+E não só nas campanhas, lembra lá do tripleware.
+
+Eu posso já vender um primeiro produto.
+
+Isso aqui é a engrenagem.
+
+Isso aqui é o que vai fazer o funil americano ficar rodando constantemente.
+
+É esse cara aqui.
+
+Se esse cara parar, as coisas aqui embaixo também vão parar.
+
+Então esse cara é o que alimenta o funil inteiro.
+
+Ou seja, quanto mais pessoas eu tiver entrando aqui por dia, mais resultados eu vou ter.
+
+Por que eu estou comentando isso?
+
+Porque aqui ele entra numa parte de anúncio.
+
+O ângulo que ele trouxe aqui, e depois vocês vão ver, eu vou exemplificar, apesar que ele já trouxe aqui como pago.
+
+Porque esse anúncio aqui, não necessariamente precisa ser um anúncio pago, você pode usar o orgânico.
+
+O orgânico vai depender muito de quantos seguidores você tem no LinkedIn, quantos seguidores você tem no Instagram, no YouTube, por aí.
+
+Vai depender muito de como estão as suas mídias sociais.
+
+Só que independente disso, mesmo se você tiver 50 mil seguidores no Instagram.
+
+Organicamente, quando você faz um post, alguma coisa, esse anúncio aqui, o Instagram não vai entregar para 50 mil pessoas, vai entregar para muito menos.
+
+O que eu quero dizer com isso?
+
+Dá para ter resultado com orgânico?
+
+Dá, só que vai demorar mais, porque lembra, o que vai fazer o funil cabalar é quantidade, é pessoas entrando aqui.
+
+Se você utiliza o orgânico, a quantidade de pessoas que vão chegar aqui é muito pequena.
+
+Principalmente a maioria de vocês, que eu sei que não tem perfis tão grandes.
+
+Só que lembra, aqui eu vou ganhar, vou escalar pela massa que chega aqui.
+
+Então às vezes, para fazer com que isso otimize mais, para que eu tenha resultados mais rápidos, para que eu escale isso mais, eu vou precisar pagar anúncio, vou precisar investir para aparecer para essas pessoas.
+
+Mas segura aí que daqui a pouco a gente vai falar um pouco sobre essa parte de anúncio, mas só para vocês entenderem.
+
+Independente se o anúncio é pago ou gratuito, ele já está me dando uma linha do que postar.
+
+Então eu não preciso pensar do zero, ele já está me dando.
+
+Olha que legal isso aqui. "A sua empresa gasta 40% a mais mantendo servidores locais." Cara, massa.
+
+Eu vou ser bem sincero com vocês, porque eu sei que isso aqui dá certo, porque tudo que ele está dando aqui, eu não preciso fazer nenhuma análise mais profunda, porque eu sei que dá certo, porque esse é o meu posicionamento hoje.
+
+Meu posicionamento hoje é exatamente esse, migração para cloud com baixo custo.
+
+É exatamente esse.
+
+Então eu sei que funciona, porque gente, quando o cara que está do outro lado, "cloud é caro", vê alguém falando: "A sua empresa está gastando 40% a mais com servidores locais, se você for para cloud, você pode economizar isso".
+
+Vai de encontro com tudo o que a galera fala.
+
+Automaticamente essa pessoa: "Não, espera aí, eu preciso saber disso aqui".
+
+Vamos vendo aí.
+
+Segundo ângulo: "Um servidor que cai, leva o faturamento junto".
+
+Aqui pegando a cloud e pensando numa questão de resiliência e alta disponibilidade. "Sua equipe de TI foi contratada para inovar, não para trocar HD".
+
+Olha isso aqui.
+
+É um negócio que eu falo muito.
+
+Nos últimos anos, as empresas começaram a acordar para a vida, no sentido: "Poxa, eu pago uma bala pro funcionário tal.
+
+Cara, esse funcionário poderia estar fazendo atividades mais nobres, ele tem conhecimento para isso, mas não dá tempo, ele tem que ficar arrumando servidor".
+
+É isso aqui, as empresas estão enxergando um baita valor nisso aí também, que é a eficiência operacional. "Cara, como que eu extraio mais dos meus colaboradores?" Então ele me deu aqui toda a visão de anúncio.
+
+E aqui, olha que legal, mas eu vou trazer um negócio mais legal ainda para vocês com outro agente.
+
+Ele está dando aqui as metas que eu tenho que ficar de olho se eu investir dinheiro.
+
+Então ele está falando: "O CPC seria o custo por clique, o quanto você está pagando para cada pessoa que clica no seu link do anúncio".
+
+Aqui pensando no Google.
+
+Então a pessoa foi lá no Google, fez uma pesquisa, apareceu ali o seu link, se a pessoa clicar, é o quanto que você paga por cada um desses cliques.
+
+Eu vou ser bem sincero com vocês.
+
+No começo, se você virar para mim e falar, e lembrando, eu estou dando exemplo aqui da migração cloud, mas isso aqui serve para tudo, qualquer tipo de serviço.
+
+Se você estiver começando agora, se você fala: "Cara, não, eu já tenho experiência no mercado, eu já tenho cliente", mas nessa estratégia, "eu comecei a usar essa estratégia agora", eu deixaria o Google para depois, porque o Google o custo por clique é um pouco alto Aqui você tem que estar muito mais validado.
+
+Aqui você vai gastar muito mais.
+
+Eu preferia muito mais no começo, deixa eu ver se ele trouxe aqui, ele não trouxe, mas eu vou usar um outro agente daqui a pouco.
+
+Eu preferiria muito mais usar o Meta Ads do que o Google, porque o Google vai me trazer mais qualidade.
+
+As pessoas que vão chegar aqui nessa página, são pessoas mais propensas a contratar o meu serviço, isso é fato.
+
+Só que a quantidade aqui é baixa.
+
+Por quê?
+
+Porque se eu quiser uma quantidade muito alta, eu tenho que investir muito.
+
+Eu estou falando de R$ 5 a R$ 20 por clique.
+
+Eu não estou nem falando da pessoa colocar o e-mail aqui.
+
+Eu estou falando da pessoa clicar e aparecer aqui.
+
+Então isso é muito alto.
+
+Se eu vou pro Meta, eu derrubo esse R$ 1, R$ 20 pra R$ 1, pra R$ 0,50.
+
+Então eu derrubo demais.
+
+A qualidade é menor, porém, eu vou trabalhar com a massa.
+
+E como parte da estratégia envolve eu montar uma lista pra depois fazer campanha, aqui a quantidade conta mais do que a qualidade.
+
+Porque às vezes, o que acontece? Às vezes não é que a qualidade é ruim. Às vezes aquela pessoa pra tomar uma decisão, ela precisa de mais ações, ela precisa de mais campanhas.
+
+Quem vem do Google já vem pronto, porque ele fez aquela pesquisa, então ele já vem pronto.
+
+Aqui, pelo Meta Ads, geralmente eu preciso preparar mais essas pessoas, por isso das campanhas.
+
+Mas quando a gente pega um consolidado de retorno sobre o investimento, o retorno sobre o investimento do Meta Ads é bem maior do que o ROI que eu tenho com o Google.
+
+Mas daqui a pouco eu vou rodar outro agente específico pro Meta Ads.
+
+Beleza, aí ele fala aqui: a meta e o alerta.
+
+Então, poxa, se você está pagando de cinco a 20, você está dentro da meta.
+
+Está maior do que 30?
+
+Alerta.
+
+Alerta o quê?
+
+Cara, o seu anúncio não deve estar bom.
+
+Isso aqui que mata.
+
+CPL, lead qualificado.
+
+Aqui o contexto do lead é o potencial cliente, que pôs o e-mail aqui.
+
+Então ele está falando que pra cada pessoa que põe um e-mail aqui, você vai pagar entre R$ 40 e R$ 150.
+
+Isso aqui é altíssimo, muito alto.
+
+Por isso que eu não recomendo vocês trabalharem com isso, porque não adianta você chegar pra mim e falar: "Moleno, eu consegui investir R$ 40 por dia".
+
+Cara, mas eu estou falando de uma pessoa só passando.
+
+É muita coisa.
+
+Quando eu vou pro Meta, eu consigo derrubar isso aqui pra R$ 1,50, pra R$ 2, pra R$ 4.
+
+Eu consigo derrubar muito.
+
+Beleza.
+
+Monetização.
+
+Então tudo que ele fez aqui é o quê?
+
+Pra colocar a engrenagem pra rodar.
+
+Agora chega a parte de monetização, que é: "cara, agora eu vou vender o meu serviço".
+
+Aí o que ele fala lá, lembra do Triple Whale aqui.
+
+O que ele fala?
+
+Faz um diagnóstico de cloud.
+
+Olha a experiência do cliente.
+
+Ele põe o e-mail, chegou aqui, você vai fazer uma proposta pra ele de um serviço de diagnóstico de cloud.
+
+Análise técnica, mapa de workload, estimativa real de economia, plano de migração, análise de risco.
+
+Aqui ele até sugere um valor, você pode cobrar entre R$ 2.500 e R$ 6.000.
+
+Gente, cara, pensa nisso aqui.
+
+Por isso que os americanos estão tão avançados.
+
+Podem responder aí no chat, se vocês quiserem.
+
+Vocês já viram alguém falando dessa estratégia pra consultoria de TI?
+
+Não fala, porque isso aqui, a gente está anos atrás.
+
+Cara, a gente está muito ultrapassado.
+
+Gente, olha isso aqui, eu não estou falando nem do meu serviço principal.
+
+E lembra, isso aqui se eu colocar anúncio pra rodar, isso aqui roda sozinho, é automático, eu não preciso ficar fazendo nada, ele fica rodando, eu só acompanho as métricas.
+
+Agora imagina que você coloca aqui 100 pessoas por dia passando por essa página.
+
+E todo dia você fecha pelo menos um projeto de R$ 2.500.
+
+Cara, olha isso, vamos fazer a conta aqui pra não passar vergonha, vamos usar a calculadora.
+
+Chutando por baixo, pegando o menor valor que ele trouxe ali, R$ 2.500 vezes 30.
+
+Opa, espera aí que eu fiz R$ 2.500 vezes 30, eu estou falando de R$ 75 mil de faturamento.
+
+Eu posso atingir um faturamento de R$ 75 mil rodando isso aqui só no automático.
+
+É claro que eu não estou falando que você vai colocar isso aqui pra rodar e já vai faturar.
+
+Não, tem que acertar muito bem esse produto aqui.
+
+Mas olha, gente, ele está me falando aqui tudo o que eu tenho que fazer.
+
+E outro, esses valores que ele traz aqui não é a X, ele está fazendo pesquisa, ele sabe que um tipo de serviço desse vale essa média de valor.
+
+Cara, imagina você ter um funil desse, esse funil americano, parte de uma base que é tentar automatizar alguns processos, porque ela sabe que o prestador de serviço, boa parte do tempo dele tem que ser atendendo os clientes, ele não pode ficar parado olhando isso aqui o dia inteiro.
+
+Agora, olha, gente, um faturamento, no mínimo, de R$ 2.500 todos os dias, quase de forma automática.
+
+O anúncio rodando, as páginas prontas, tudo rodando.
+
+Olha o poder disso aqui.
+
+Aí olha que legal, estrutura de landing page, a página de conversão, que seria esse cara aqui.
+
+Então como que você vai montar isso aqui?
+
+Aí ele fala headline.
+
+Headline, geralmente, é essa primeira parte aqui da página, que é o que mais tem que chamar a atenção.
+
+Então ele fala: "A headline coloca: migre pra cloud com até 40% menos custo, sem downtime e sem perda de dados".
+
+Então imagine você cair numa página com essa informação aqui.
+
+Subheadline, é o que fica logo abaixo da headline.
+
+Para empresas com servidores locais que querem reduzir custo, escalar e parar de apagar incêndio pra infraestrutura.
+
+Gente, quem não quer isso aqui?
+
+Problema.
+
+Então o que ele está falando?
+
+Dentro da sua página, fala do problema.
+
+Os quatro sintomas do on-premises caro: a energia, o hardware obsoleto, downtime, equipe travada.
+
+Solução: seu método de migração faseada com alta disponibilidade.
+
+O que está incluso no material?
+
+Economia estimada antes de qualquer contrato, migração sem parar a operação, alta disponibilidade de plano de DR, time de TI livre pra inovar.
+
+Olha que legal.
+
+Beleza.
+
+Aqui, mais do mesmo.
+
+Sequência de e-mails.
+
+Gente, olha que está tudo casado com o que eu falei pra vocês aqui.
+
+Sequência de e-mail, então você não precisa fazer nada do zero.
+
+D0, assim que a pessoa entrou na sua lista: entrega do material.
+
+Dia um, fala de uma história de transformação se você tiver.
+
+Se não tiver uma história de transformação, você pode falar o que você faria, por exemplo. "Como a empresa tal cortou tanto por mês e zerou o downtime".
+
+Dia dois, começa a quebrar objeções, porque pode ter gente que fala: "Poxa, mas como assim, não vai ter risco?
+
+Como assim vou diminuir os custos?" Quebrar objeções. "Mas e o risco de perder dados na migração?" Lembrando, aqui ele está dando uma visão geral, mas eu posso chegar pra ele e falar: "Cara, me escreve esses sete e-mails." Ele vai escrever detalhadamente os sete e-mails pra mim.
+
+Beleza.
+
+Métricas foco.
+
+Então olha que legal, esse agente está preparado, porque uma das coisas que a galera erra muito é executar a estratégia e não saber se está funcionando ou não.
+
+Então notem que pra tudo ele está dando uma métrica, pra eu ir validando se aquilo está dando resultado ou não.
+
+Não adianta eu colocar uma estratégia pra rodar sem métricas e não saber se está funcionando ou não.
+
+Então olha só, taxa de agendamento, a meta, mais de 8%.
+
+Taxa de conversão por call, aqui ele já está falando do assessment, aquele Triple Whale.
+
+Olha, gente, o poder do funil consegue fazer isso aqui, consegue te dar uma meta, toda reunião que você agenda, ele consegue te dar uma meta de fechamento de mais de 30%, cara.
+
+Mais de 30%.
+
+Beleza.
+
+Aqui é a parte da monetização.
+
+Aí embaixo, ele fala da ativação.
+
+Aqui, no caso, o que ele está levando em consideração?
+
+Ele está levando em consideração, mas lembra, não é que o agente me trouxe essas informações, que eu não posso pedir pra ele fazer ajustes.
+
+Mas o que ele trouxe aqui?
+
+Ele trouxe pra eu vender o Triple Whale diretamente na página de obrigado, aqui, e ele está recomendando que as minhas campanhas sejam pra vender primeiro esse Triple Whale.
+
+Depois que eu tentei vender esse Triple Whale com as minhas campanhas, aí na ativação, eu saio do assessment e começo a vender o meu serviço principal e uma recorrência.
+
+Aí ele monta aqui pra mim: "Olha como que vai ficar a experiência do seu cliente." Nível um, conteúdo gratuito, que foi aquela calculadora ou checklist, de graça.
+
+Aqui é pro lead, o potencial cliente.
+
+O nível dois é o diagnóstico, de 2.500 a 6 mil.
+
+Terceiro nível, você pode vender o projeto de migração.
+
+Aí aqui de 30 a 200 mil, dependendo do tamanho da empresa.
+
+Nível quatro, você pode aqui vender uma recorrência, vender um contrato mensal pra gerenciamento de cloud, pra gerenciamento de FinOps.
+
+Você pode cobrar de 3 mil a 30 mil.
+
+Nível cinco, aqui já é o top.
+
+Você pode expandir tudo isso montando um ambiente de DR, cuidando de segurança, subindo novos workloads.
+
+Cara, ele deu a estratégia completa.
+
+Fala aí, pessoal, essa estratégia merece um 10?
+
+Se merece, dá um 10 aí no chat.
+
+Pra eu já saber primeiro que você está acompanhando e que você não virou bote.
+
+Vale um 10 essa estratégia?
+
+Gente, olha isso, ele trouxe tudo pra mim.
+
+Ele trouxe tudo pra mim.
+
+Mastigado.
+
+Por isso, cara, isso aqui é estratégia.
+
+Por isso que eu não entrego esse material gratuito nem a pau, esse agente.
+
+Cara, eu tive trabalho pra montar ele.
+
+Montar isso aqui é mentorias que eu participo, é mastermind que eu participo, que eu gasto $50 mil por ano pra aprender isso aqui lá fora.
+
+Agora a gente vende isso aqui, ou a gente entrega como bônus em alguns produtos que a gente faz.
+
+E eu vou falar de um deles daqui a pouquinho.
+
+Mas olha isso aqui, gente, isso aqui é estratégico.
+
+Isso aqui é estratégia.
+
+Então ele montou aqui pra mim tudo bonitinho.
+
+Montou toda a estratégia pra mim.
+
+Aí o que eu posso fazer?
+
+Beleza, agora eu tenho a estratégia, então eu vou começar pela aquisição.
+
+Ele já me recomendou o que eu vou fazer na aquisição.
+
+Eu quero começar aqui pelo checklist.
+
+Eu posso chegar, copiar, ativar um outro agente aqui.
+
+Cadê tu?
+
+Esse aqui.
+
+Me ajude a criar o conteúdo para o e-book com as informações abaixo.
+
+Crie um e-book que no máximo, tem que ser um e-book enxuto, tá? 20 páginas.
+
+Aqui vou colocar as informações.
+
+E trabalha aí, filho.
+
+Mas trabalha sendo meu assistente, não trabalha sem contexto.
+
+Não, aí não vai dar certo.
+
+Agora, não.
+
+Cara, está tudo alinhadinho, está tudo sendo pesquisado, está tudo bonitinho.
+
+Vamos ver.
+
+Começar.
+
+Agora você pode rodar.
+
+Vai ser muito difícil vocês conseguirem atingir essa qualidade.
+
+Vai ser muito difícil.
+
+Só pra vocês terem ideia, essa skill do funil americano é uma skill que tem, se eu não me engano, mais de 80 páginas.
+
+Mais de 80 páginas de instruções falando pra IA o que ela tem que fazer, como, onde ela tem que buscar informações.
+
+Então é riquíssimo Beleza, está começando a construir.
+
+E outra, eu posso falar um negócio pra vocês?
+
+Eu não lembro quem perguntou de token, tudo.
+
+Eu posso falar um negócio pra vocês?
+
+Vocês nem precisam.
+
+Tudo isso que eu estou fazendo aqui, vocês podem fazer com o Cloud gratuito.
+
+É que dependendo do que você vai fazer, a hora que você vai rodar, ele vai falar: "Ah, já acabou, você tem que esperar até tal hora ou só amanhã".
+
+Vai demorar mais, mas dá pra fazer tudo no gratuito, porque o que importa é o agente, a skill.
+
+Nem precisa pagar Cloud pra fazer isso aqui.
+
+Ambiente pronto, agora eu vou escrever o conteúdo completo e montar o PDF.
+
+Agora ele vai fazer o trabalho pra mim.
+
+Lembrando, cara, no passado, pra gente escrever um PDF de 20 páginas, às vezes a gente demorava mais de um dia, vocês têm que pensar, às vezes vocês precisam se colocar no papel do cliente de vocês.
+
+Se eu estou utilizando essa estratégia aqui, do funil americano, a aquisição, esse material, geralmente vai ser o primeiro contato do cliente comigo.
+
+E cara, esse primeiro contato é o mais importante.
+
+Ou seja, se eu entregar um material qualquer pra ele, ele não vai contratar o meu serviço, tem que ser um material que impacte.
+
+Então no passado, pra gente escrever esse material, demorava, porque a gente sabe que tem que ser um material de qualidade.
+
+Então precisava escrever, revisar, pô, isso aqui não ficou bom, tal.
+
+E cara, ficava ali às vezes dias, às vezes semanas pra construir um material de 20 páginas, porque tinha que ser um material uau.
+
+Agora não.
+
+Alguns minutinhos ele já vai trazer tudo pronto e o material top.
+
+Trabalhando.
+
+E outra, ele já vai trazendo formatinho bonitinho aqui pra mim.
+
+É só copiar.
+
+Eu gosto de usar o Google Drive mesmo como entrega.
+
+Então é copiar, subir no Google Drive, pegar o link de compartilhamento e colocar lá no e-mail que vai ser enviado.
+
+Porque aqui, quando o cliente baixa, eu falo aqui: "o e-mail chegará em até cinco minutos".
+
+Então ele vai receber o link pra acessar o material por e-mail.
+
+E o link que eu coloco lá no e-mail é direto do Google Drive.
+
+Então ele vai lá no meu Google Drive, acessa o material e ele pode baixar pra máquina dele.
+
+Então nem precisa montar algo extraordinário, pode usar o Google Drive mesmo como entrega.
+
+Aqui ele vai demorar um pouquinho, porque ele está criando o próprio arquivo.
+
+Porque ele já vai deixar tudo pronto aqui pra mim.
+
+Aí depois eu posso pedir a capa. "Cara, agora me ajuda a criar uma ilustração pra capa desse e-book", e ele vai criar uma baita ilustração.
+
+Então eu não preciso fazer nada, ele já vai me trazer pronto.
+
+Mas não sendo repetitivo.
+
+Ele só está trazendo essa qualidade, porque existe um treino por trás.
+
+Se vocês tentarem montar, eu recomendo que vocês tentem, vocês vão ver que a qualidade não vai ser tão boa.
+
+Maravilha!
+
+Enquanto isso, se vocês tiverem alguma pergunta, alguma dúvida, alguma orientação, enquanto ele está escrevendo aqui, pode ir colocando no chat aí.
+
+Mas cara, olha isso aqui, gente.
+
+Você não vai achar o pessoal ensinando isso aqui, porque a galera não conhece, a galera está muito presa no passado, que é indicação, é tentar ficar ligando pras empresas, é tentar montar uma página institucional, achar que as pessoas vão cair ali, vão contratar o serviço.
+
+Não vai, isso não funciona mais hoje.
+
+Validando até a diagramação.
+
+Olha isso.
+
+É porque o agente está pedindo tudo isso.
+
+O agente está pedindo tudo isso. "Essa skill você enviou em texto ou em PDF?" No caso aqui, essa skill é um docs, e eu crio a skill com base nesse docs.
+
+Então eu tenho um docs com todas as instruções.
+
+É essa docs que eu falei que deve ter umas 80 páginas, estão todas as instruções.
+
+Aí eu subo essas instruções e falo pra ele que com base nessa instrução, ele criar essa skill.
+
+Olha que legal.
+
+Guia prático, migração pra nuvem, Cloud Readiness, os 27 pontos antes de migrar sem quebrar a operação.
+
+O checklist que separa uma migração tranquila, com custo menor, alta disponibilidade e resiliência de um projeto que derruba sistemas, perde dados e destrói a confiança da diretoria.
+
+A maioria dos desastres de imigração não acontece por falta de tecnologia, acontece por falta de preparação, e este guia existe para você não ser mais um.
+
+Olha isso aqui.
+
+Introdução: o medo que trava toda a migração.
+
+Você sabe que a nuvem é o caminho.
+
+O custo de manter servidores locais só sobe, o hardware envelhece, a equipe vive apagar incêndio, em vez de inovar, e cada minuto de indisponibilidade custa dinheiro e reputação.
+
+Mas existe um medo silencioso que faz muita empresa adiar essa decisão por anos.
+
+E se a migração der errado?
+
+E se um banco de dados corromper no meio do caminho?
+
+E se um sistema crítico ficar horas fora do ar, bem no dia de maior movimento?
+
+E se no fim, a conta da nuvem vier maior do que a de antes?
+
+Esse medo é legítimo.
+
+Migrações mal planejadas realmente causam perda de dados, downtime prolongado e estouro de orçamento.
+
+Mas aqui está a verdade que poucos falam: o risco quase nunca está na nuvem, está na falta de preparação antes de-- olha isso aqui, gente.
+
+Olha isso aqui.
+
+Olha isso aqui.
+
+Capítulo um: por que migrações quebram a operação?
+
+Aí ele começa.
+
+Capítulo dois: a virada, a prontidão vem antes da migração.
+
+Aí começa.
+
+Olha que legal E ele vai aqui.
+
+E aqui, como o formato que ele recomendou é checklist, ele está montando o checklist.
+
+Sim, parcial, não, e vai montando.
+
+Seu score, aí ele dá score.
+
+Se você tiver de zero a nove, zona crítica, migrar agora é aposta de alto risco.
+
+De 10 a 18, a base existe, mas há buracos perigosos.
+
+De 19 a 24, você está bem posicionado, restam poucos pontos a resolver. vinte e cinco a 27, sua operação está madura para uma migração planejada.
+
+Olha que legal.
+
+E aqui ele já chama: qual é o próximo passo?
+
+Eu li esse material gratuito, gostei, qual é o próximo passo?
+
+Agenda o diagnóstico.
+
+Agenda.
+
+Ele já trouxe tudo pronto, o material está prontinho.
+
+E agora, pra gente também não prolongar muito a aula, eu vou usar o agent: gestor de tráfego.
+
+Agora me ajude a criar os anúncios para a página de captura.
+
+Só é isso. "Nossa, tenho muitas dúvidas.
+
+Quando coleta os leads, onde você armazena?" Aqui é uma ferramenta de mail marketing.
+
+Mail marketing ou WhatsApp.
+
+Mail marketing tem várias ferramentas.
+
+Hoje eu estou utilizando o RD Station, mas tem várias.
+
+Pra mim, a melhor que tem, só que ela ficou muito cara, é o Active Campaign.
+
+Mas está muito caro.
+
+A gente tem um bom custo benefício e ela é brasileira, é a Lead Lovers.
+
+Se eu fosse começar hoje, eu começaria com ela.
+
+Mas a gente tem várias, a gente tem Mailchimp.
+
+Eu não vou colocar, porque tem muitas ferramentas.
+
+Pra quem está começando agora, eu recomendo ou a Lead Lovers ou o RD Station, que é o que eu estou utilizando.
+
+O Lead Lovers é mais barato e também é mais amigável, é mais fácil mexer com ele.
+
+O RD Station, porque ele tem até outros módulos, é mais difícil.
+
+Então pra e-mail marketing, eu tenho soluções, eu tenho ferramentas, não minha.
+
+Aqui é ferramenta de mercado.
+
+E WhatsApp também.
+
+Aqui o WhatsApp, basicamente, é montar uma lista, tem um link onde todas as pessoas que clicam naquele link vão pra essa ferramenta, então você tem toda a gestão centralizada.
+
+Hoje eu uso o SendFlow.
+
+Eu pago ali e eu posso ajuntar essas pessoas dentro de vários grupos do WhatsApp e eu posso disparar mensagens em massa pra todo mundo, assim como e-mail.
+
+Então eu disparo e-mails em massa, não preciso ficar fazendo um por um.
+
+E o e-mail e o WhatsApp também, eu consigo trabalhar com agendamentos.
+
+Então não preciso toda hora que mandar, eu tenho que estar no computador.
+
+Não, eu posso deixar tudo programado.
+
+A lista de e-mail, que é o que ele recomendou lá, lembra da sequência de e-mail?
+
+Eu posso deixar isso automatizado.
+
+Assim que a pessoa entra na lista de e-mail, ela já recebe uma sequência de e-mail.
+
+Então aqui são ferramentas, a gente controla isso aqui tudo com essas ferramentas.
+
+Começou aqui.
+
+Beleza.
+
+Esse agent está focando no Meta.
+
+Aí ele está falando aqui: o que você tem que colocar no anúncio?
+
+Aí ele vai dar vários ângulos.
+
+Migração pra nuvem, quase nunca falha.
+
+Então aqui ele vai pegar tudo o que está descrito no e-book, o que está descrito na página, tudo que eu dei de informação pra ele, ele vai começar a trazer esse contexto, essas informações pro anúncio.
+
+Então aqui ele vai dar várias copies pro anúncio.
+
+Cadê?
+
+Deixa eu ver se ele criou.
+
+Formato de vídeo.
+
+Ele vai te dar várias ideias de anúncio, tanto em texto quanto só imagem, carrossel, vídeo, pra você subir.
+
+E aqui embaixo, ele vai começar a dar uma ideia de meta.
+
+Ele vai explicar por quanto dia deixar pra não mexer, pra otimizar o algoritmo do Meta.
+
+Então ele explica tudo.
+
+O que você tem que ver por CTR.
+
+CTR é quantas pessoas olham o anúncio e clicam no anúncio.
+
+Então a meta é ser mais do que 1,5%.
+
+O CPL, de oito a 30.
+
+Então notem que é bem abaixo do Google, mas esses valores geralmente ficam bem abaixo disso.
+
+Geralmente ficam de R$1 a R$4.
+
+Página de conversão da página de captura, que ele fala pra trabalhar com mais de 30, mas aqui, geralmente, seguindo as recomendações dele, uma boa página, geralmente, essas conversões ficam acima de 50%.
+
+Aí ele vai explicando.
+
+Aí ele já começa a perguntar pra mim: "Quer que eu escreva a sequência dos e-mails?
+
+Quer que eu detalhe como vai ser a página de captura?" Então ele já vai agora começar a me guiar pra eu montar toda a estratégia, pra já deixar tudo pronto.
+
+Só que de novo, gente, nada aqui é achismo.
+
+Ele foi me trazendo informações, ele foi me dando ideias.
+
+Um outro agent aqui, pra gente finalizar, que eu gosto muito de usar é esse aqui: pesquisa de mercado estratégico.
+
+Eu não fiz isso pra esse serviço que a gente testou, migração cloud, porque isso eu já sei que tem alta no mercado.
+
+Mas vamos pegar um outro serviço aqui.
+
+Deixa eu ver aqui.
+
+Vou pegar um aqui.
+
+Cadê?
+
+Vou colocar essa aqui.
+
+Me ajude a fazer uma pesquisa de mercado para analisar de forma detalhada.
+
+Apesar que eu nem precisava colocar isso aqui, que o agent já está pronto.
+
+Se o serviço abaixo tem demanda alta e me mostre também como esse serviço está no ciclo de vida do produto Opa, não copiou.
+
+Copiar.
+
+Colar.
+
+Locação de firewall.
+
+Aqui é um agente que ele vai me validar o quê?
+
+Para a gente não ir no achismo.
+
+Porque como a estratégia para você otimizar, para você ter escala, às vezes vai ser necessário investir em anúncio, não adianta você investir em anúncio para tentar vender um serviço que ninguém quer.
+
+Então esse agente ajuda nisso.
+
+Poxa, se eu vou montar toda uma estratégia para um serviço, deixa eu dar um passo para trás, deixa eu ver se esse serviço tem demanda no mercado.
+
+Então primeiro, o certo é que, de novo, eu não fiz ali o migração cloud, porque isso eu já sei que tem alta no mercado, mas todo o serviço que você não tem certeza se o mercado está precisando ou não, é bom fazer uma análise de mercado antes.
+
+Está começando.
+
+Serviço de segurança de rede, mercado que muda rápido, então vou pesquisar todos os dados atualizados antes e vai começar a fazer as pesquisas aqui.
+
+Lá em cima ele te dá o código HTML.
+
+O cloud dá até para você subir a página no próprio cloud, como um artefato.
+
+Só que eu não gosto muito, dá muito bugzinho, a formatação às vezes não fica legal, mas dá para eu subir no próprio cloud a página.
+
+Ou eu posso pegar o HTML e exportar e importar na minha ferramenta.
+
+Eu também não gosto, porque geralmente vêm alguns bugzinhos.
+
+Eu gosto de só pegar a ideia e construir a página do zero ali.
+
+Usando ferramentas, a gente também usa ferramentas de landing page.
+
+Então eu não crio a landing page do zero, eu pego o modelo, em cima daquele modelo, eu só coloco o texto, só a cópia.
+
+Começando a reunir os dados, as tendências.
+
+Veredicto rápido, as duas perguntas que você faz: a demanda é alta e crescente?
+
+Sim.
+
+Onde está o ciclo de vida?
+
+A demanda está em franco crescimento.
+
+Olha só, ele vai explicar o porquê que ele está.
+
+O modelo específico de locação de appliance em todo o Brasil já está entrando em maturidade.
+
+É uma oferta com muitos recorrentes e razoavelmente padronizada.
+
+A fronteira de crescimento real migrou para o serviço gerenciado, que é o firewall como serviço.
+
+E para segmento mal atendido, pequenas empresas sem firewall, provedores.
+
+Aí ele fala: "Vou detalhar isso mais abaixo".
+
+E vai começar a detalhar aqui.
+
+Então esse agente aqui, é um agente muito bom, quando o que você tem para oferecer, poxa, eu gostei da estratégia, eu quero montar essa estratégia e colocar para rodar, mas eu não sei se o serviço que eu tenho para oferecer, se tem demanda no mercado.
+
+Então esse agente é muito bom para fazer essa análise, para ver se vale a pena investir nesse seu serviço, ou se não, se vale a pena você escolher um outro serviço.
+
+Poxa, deixa eu escolher um outro, porque esse serviço aqui a demanda já está caindo, já está em declínio.
+
+Por isso que eu pedi para ele me mostrar o ciclo de vida do produto.
+
+E ele falou que o ciclo de vida do produto como um todo, o firewall como um todo, está em crescimento.
+
+Aí ele falou: "Agora, a locação de appliance de firewall já está em maturidade".
+
+Quando está em crescimento, o recomendado, e mais fácil, sempre vai ser quando um serviço está em crescimento, que tem muita demanda e não tem tanta concorrência.
+
+Agora, quando ele já está em maturidade, significa que aquilo já está maduro o suficiente no mercado, e quem quer entrar nesse mercado, vai ter que bater de frente com mais concorrentes.
+
+Então geralmente, crescimento e maturidade são dois nichos bons para atacar, de preferência o crescimento, que a concorrência vai ser menor.
+
+Beleza, turma, curtiram?
+
+Não só o agente, deu para entender a estratégia dos funis americanos?
+
+Aquisição, monetização e ativação, porque lembra, a IA, nesse processo que eu mostrei para vocês aqui, me ajudou a construir, mas eu dei a estratégia para ela, eu levei a estratégia para ela.
+
+Ela foi o meu assistente, ela me ajudou a potencializar, ela me ajudou a entregar isso mais rápido, mas baseado em tudo que eu mostrei para ela.
+
+Se eu tentasse ir diretamente, que foi o que eu mostrei no comecinho da aula, no prompt, ir diretamente pedindo, vocês viram que o resultado que ele me trouxe foi horrível.
+
+Agora olha a diferença do resultado que ele trouxe agora.
+
+Completamente diferente.
+
+Então gente, de novo, a IA falou aqui para mim lá em cima, só no tripleware, que é aquele primeiro servicinho, só no tripleware.
+
+Cara, você já pode faturar de 2.500 a 6.000 por cliente, só no tripleware, que não é o seu serviço principal ainda.
+
+Gente, para quem quer faturar 30 mil por mês, que é a meta mínima.
+
+Quem viu as outras aulas que eu fiz, é a meta mínima.
+
+Para mim, o empresário de TI ou consultor de TI que não fatura 30 mil por mês, volta para CLT, porque não compensa faturar 20.
+
+Faturar 20, você tira imposto, tira aquilo, você vai ganhar menos do que você ganha como CLT.
+
+Então volta para CLT.
+
+Agora, se você quer ter um faturamento recorrente de 30 mil, essa estratégia é perfeita para isso.
+
+É perfeita para você começar a estruturar sua empresa para um resultado de 30 mil ou mais, porque lembra, quanto mais pessoas você tiver dentro desse funil, mais resultados você vai ter.
+
+Se você conseguir chegar ao nível de ter tantas pessoas entrando no seu funil e conseguindo fechar o tripleware, não estou falando do serviço principal, de 2.500 por dia durante 30 dias, eu estou falando só aqui 75 mil.
+
+Por isso que às vezes a gente fala, eu vou começar a falar disso mais para frente, aqui ainda não era o momento.
+
+Por isso que quando a gente fala de um faturamento de 100 mil por mês para o empresário de TI, o pessoal: "Não, isso é mentira".
+
+Não é mentira, é que não conhece a estratégia.
+
+Olha aqui, eu estou falando que um tripleware bem feito e tendo uma quantidade boa de pessoa entrando aqui dentro desse funil, já é possível gerar 75 mil reais de faturamento com um serviço de 2.500, fazendo uma venda por dia E aqui eu estou falando de algo nosso, não estou falando de algo que vai tomar seu seu tempo.
+
+Não, aqui eu estou falando de algo rápido.
+
+Inclusive, a gente tem o agente que eu posso pedir para ele falar: "Cara, me fala, o que eu tenho que entregar nesse serviço?
+
+O que eu tenho que entregar para o cliente?" E ele vai me falar: "Faz isso, evita fazer isso".
+
+Ele vai me falando.
+
+Então assim, não é difícil chegar nos 100 mil, desde que tenha estratégia.
+
+Eu estou falando que você vai conseguir chegar nesse valor amanhã?
+
+Não, cara, você tem que ir tentando, mas na hora que você acertar o serviço, acertar esse triplo R, cara, só no triplo R você já mantém a sua empresa, fora o que vai vir dos serviços principais aqui.
+
+Gente, projeto migração cloud.
+
+Trinta mil é para uma pequena empresa.
+
+Pequena empresa, você já cobra um valor de 30 mil ou mais para fazer migração para cloud.
+
+Empresa de médio porte, você pode chegar a 200 mil dependendo do que tem para migrar.
+
+Agora imagina, por mês.
+
+Cara, nem chutando um pouco, que por mês você consiga fechar dois desse, cinco mil, e um desse, eu já estou falando aí dos 35 mil.
+
+Só que você não está fazendo do nada, você está fazendo com estratégia e utilizou a IA para potencializar, para não ficar na sua cabeça, no achismo.
+
+Não, aqui está com informações de base de mercado.
+
+Agora, o que eu quero fazer?
+
+Agora eu quero apresentar o meu produto, que é o Virada TI 30k, para aqueles prestadores de serviço que querem faturar de forma recorrente 30 mil por mês com essa estratégia.
+
+Só que eu quero falar somente com quem está preparado para dar esse próximo passo, para quem olhou a estratégia, entendeu, viu que funciona, viu a qualidade que a IA adiciona dentro dessa entrega, e para quem está sério, olha para a empresa e fala: "Não, eu preciso de um faturamento de 30 mil por mês, no mínimo, senão eu vou voltar para CLT".
+
+Então eu quero falar agora para quem está preparado e para quem tem essa meta de ter esse faturamento de 30 mil nos próximos meses.
+
+Para quem tem interesse em ouvir essa proposta, eu vou pedir para vocês digitarem "30k" aí no chat, porque quem não digitar, vou pedir para a equipe remover do chat, porque agora eu quero falar do produto e mostrar como que a gente consegue ajudar vocês com esse produto.
+
+Se quiser, pode mandar só para mim, não tem problema.
+
+Mas eu quero falar agora para quem quer ouvir essa proposta, para quem tem esse interesse em ter esse faturamento de 30 mil por mês utilizando a estratégia dos funis americanos, e não somente isso, tudo isso sendo potencializado pela inteligência artificial.
+
+Então vamos lá.
+
+A gente tem o nosso produto, que é o Virada 30k TI.
+
+Virada TI 30k.
+
+Que é o quê?
+
+A meta aqui é ensinar todas essas estratégias que vocês viram dos funis americanos, aquisição, monetização e ativação, para quem quer a meta de 30 mil por mês, no mínimo, porque eu já mostrei aqui para vocês que isso pode ser muito maior, mas aqui é o mínimo, que para mim é o mínimo viável para ter uma empresa de TI, para não pensar em voltar para o CLT.
+
+Essa imersão vai ser uma imersão de três dias.
+
+Então durante os três dias a gente vai focar na aquisição.
+
+Vocês vão aprender tudo que eu passei para os agentes montar isso aqui para a gente, vocês vão aprender, porque é importante saber o que está por trás dos agentes, porque é aquilo que eu falei para vocês. Às vezes, o que ele traz de informação, você precisa fazer algumas perguntas.
+
+Então você precisa interagir com ele.
+
+Só que se você não tiver o conhecimento, você não vai conseguir interagir.
+
+Então tudo que vocês vão aprender aqui de aquisição, monetização e ativação, vocês vão aprender a essência do que é aquisição e como montar do zero, a essência da monetização e aprender como montar do zero, a essência da ativação e aprender como montar do zero.
+
+Então montar a campanha completa.
+
+Lembrando, quando eu falo de ativação, eu estou falando do material, da página de captura, lista de e-mail, os e-mails, WhatsApp, como escolher o tema, como ser específico, as campanhas, oferta direta.
+
+Então vocês vão aprender tudo isso aqui na essência.
+
+Como é, para quê?
+
+Para quando vocês forem utilizar o agente, vocês saberem olhar e falar: "Cara, ficou legal o que ele trouxe?
+
+Não, espera aí, deixa eu melhorar isso aqui, deixa eu fazer essa pergunta diferente".
+
+Isso é extremamente importante.
+
+Por isso que eu não quero, se fosse simplesmente chegar para vocês e falar: "Gente, está aí os agentes, o valor dos agentes é tanto e se vira".
+
+Vocês poderiam cair em um cenário dele trazer uma informação, não que a informação que ele trouxe seja ruim, mas poderia ser melhor se você soubesse fazer as perguntas certas.
+
+Então a ideia de ensinar a essência da aquisição, da monetização e da ativação, é para vocês saberem extrair o melhor desses agentes.
+
+Então cada um dos dias a gente vai focar em um pilar.
+
+Primeiro dia a gente vai focar no pilar da aquisição, como montar do zero, página, tudo.
+
+A ideia é nesse primeiro dia todo mundo sair com todos os detalhes, todos os passos para já criar a sua página, a sua campanha de aquisição.
+
+Segundo dia eu foco na monetização.
+
+Eu já tenho a minha engrenagem rodando, os clientes estão entrando, agora eu preciso vender para esses clientes.
+
+Aqui a gente vai focar na monetização, nas campanhas, como que eu monto, como que eu chego em um tema.
+
+Depois a ativação.
+
+Beleza, eu falei desse tema, agora eu preciso mudar.
+
+Mas mudar para qual?
+
+Qual o tema melhor?
+
+O que eu falo?
+
+Como?
+
+Para esse tema que eu escolhi, é melhor fazer só campanha direta?
+
+Não, é melhor fazer só campanha indireta, é melhor fazer os dois?
+
+Então a gente vai ver tudo isso na essência.
+
+E é claro, para quem garantir a vaga hoje, então olha só, não perca essa oportunidade.
+
+Para quem garantir a vaga hoje, lembra, a gente vende esses agentes por fora, mas para quem garantir a vaga hoje, vai receber de bônus esse pack com os agentes.
+
+Então vocês vão receber não só esses.
+
+A gente também tem para o ChatGPT.
+
+Então a gente vai entregar tudo.
+
+Esses agentes que vocês viram, outros que a gente tem, tanto no cloud, como no formato de skill, quanto prompts para o ChatGPT também.
+
+Então vocês vão receber um pack de agentes, skills e prompts.
+
+Prontos para você usar.
+
+Só que lembra: "Poxa, se eu tiver só os agentes, eu vou ter resultado?" Vai, vai ter muito mais resultado do que se você for tentar fazer tudo do zero, sem agentes treinados para te trazer informações de qualidade.
+
+Mas para você extrair o máximo possível daqui, esse conhecimento da aquisição da monetização e da ativação no detalhe, vai fazer a diferença de você ter um material bom, bem diferenciado do mercado, de um material excelente, de um material que o cliente vai olhar e vai falar: "Uau!".
+
+Então para quem garantir a vaga hoje vai levar esse pacote de agente de skill e prompt pronto.
+
+Um exemplo que eu dei aqui, a gente usou alguns, está dentro do pack, mas a gente tem outros para criar página. "Eu quero criar uma página para falar do meu serviço específico e eu quero fazer um vídeo explicando aquele serviço".
+
+Tem agente para isso.
+
+O que eu falo nesse vídeo?
+
+Como que eu monto essa página?
+
+Tem agente para tudo.
+
+Qual é o valor de investimento dessa imersão?
+
+A gente ainda está trabalhando com o valor de primeiro lote, que o valor normal dessa imersão é de R$ 2.997 para os três dias.
+
+Gravação com acesso vitalício, então todos os dias vão ser gravados e liberados com acesso vitalício.
+
+Só que a gente está liberando um cupom de desconto de R$ 2.000.
+
+Então para quem garantir a vaga hoje, além de levar de bônus os pacotes e agentes, skills e prompts, ainda leva esse cupom de R$ 2.000, ficando o valor da imersão por R$ 997.
+
+E esse valor pode ser dividido em até 12 vezes no cartão de crédito.
+
+Opa, vamos.
+
+Cartão, pode ser dividido no boleto, pode ser dividido no Pix.
+
+Se a gente pegar essas parcelas divididas em 12 vezes, vai dar uma média, acho que de R$ 103.
+
+Se a gente dividir R$ 103 por dia, a gente está falando de menos de R$ 4 para vocês terem acesso a todas essas estratégias, a todos os prompts, agentes, skill, e começar a colocar estratégia na sua empresa, rodar um funil estratégico para trazer esse resultado, para trazer esse faturamento previsível aí de 50 mil.
+
+Eu vou colocar aqui no chat agora o link para quem quiser garantir a vaga, com a opção de pagamento à vista ou parcelada no cartão de crédito.
+
+Para quem tiver interesse em parcelar no boleto ou no Pix, eu vou colocar aqui no chat o link da minha equipe no WhatsApp.
+
+Então é só chamar a Gabi da minha equipe, falar que você estava aqui na aula e que você tem interesse em fazer o parcelamento via boleto ou Pix, que o link é diferente.
+
+Ela vai gerar um link e passar para vocês, porque o parcelamento via boleto e Pix, a gente usa uma outra plataforma que é a TMB.
+
+Então ela vai gerar o link e vai passar esse link para vocês seguirem com a inscrição de vocês.
+
+Maravilha?
+
+Então está aí a oportunidade, garantindo a vaga hoje, além de levar o cupom de R$ 2.000 off, ainda leva o nosso pack de agente de skill de prompts para vocês extraírem o melhor dessa estratégia dos funis americanos, montando a sua aquisição, monetização e ativação, e vendo essa engrenagem rodar e trazendo esse faturamento previsível, um faturamento de no mínimo 30 mil, dentro desse nosso programa Virada de TI 30K.
+
+Maravilha, turma.
+
+Alguém quer fazer alguma pergunta?
+
+Alguém ficou com alguma dúvida?
+
+Alguém quer pedir alguma orientação?
+
+Essa é a hora.
+
+Essa é a hora.
+
+Curtiram a aula?
+
+Curtiram a estratégia?
+
+Deu para entender?
+
+Cara, isso aqui é coisa avançada, isso aqui é para quem quer ter resultado.
+
+Para quem não quer, é continuar o que está fazendo.
+
+O que eu falo: "Gente, se o que vocês estão fazendo não trouxe resultado até hoje, vocês acham de verdade que do nada vai trazer resultado?" Tem gente que vive de indicação. "Cara, o meu negócio está ruim, eu não tenho previsibilidade".
+
+Cara, você acha mesmo que do nada vai chegar a indicação?
+
+Não, a tendência é piorar.
+
+Essa estratégia valeria para uma empresa que presta serviço de suporte?
+
+É uma boa sacar desse ramo?
+
+Cara, eu não gosto muito.
+
+Eu não gosto muito.
+
+Porque o suporte, não é que não dá certo.
+
+Dá muito certo.
+
+Tem muito mercado.
+
+Só que acontece, Gustavo, vai depender um pouco do seu cenário, porque assim, tem mercado, dá para ganhar dinheiro?
+
+Dá.
+
+Só que acontece, geralmente quando a gente vai para essa linha de prestação de serviço de suporte, é onde a gente ganha menos e trabalha mais.
+
+Então assim, por exemplo, a gente tem alguns clientes que a gente ajuda, eles são de suporte.
+
+Eles até faturam bem, só que para chegar naquele nível de faturamento deles, eles têm que trabalhar muito ou ter uma equipe.
+
+Então não é que é ruim.
+
+Dá para ganhar dinheiro?
+
+Dá, mas se você faz um comparativo com uma empresa que oferece coisas mais estratégicas e não só suporte, essa empresa sempre vai ganhar mais e trabalhar menos.
+
+Então assim, respondendo de forma objetiva no seu caso.
+
+É uma boa sacada?
+
+É.
+
+Essa estratégia funciona, dá resultado?
+
+Funciona e dá resultado.
+
+Só que tenha em mente que você sempre vai ter que trabalhar mais do que quem está no ramo mais estratégico.
+
+Mas se você está num momento de vida que você fala: "Não, cara, eu estou num momento aqui, pode vim, trabalhar.
+
+Eu quero colocar caixa, eu quero trabalhar".
+
+Cara, vai para cima, sem dúvida.
+
+Ou senão, o que você pode fazer também?
+
+Eu comecei assim.
+
+Você pode usar isso como uma transição.
+
+Deixa eu começar assim, para ter faturamento, para gerar caixa, para aprender, investir em cursos, treinamentos mais estratégicos, para depois eu vender esse estratégico.
+
+É uma boa também.
+
+Eu comecei assim.
+
+Eu comecei mais com essa parte de suporte, então eu tinha contratos mensais com as empresas, tinha que ficar indo lá, comecei assim.
+
+E aos poucos eu fui migrando para essa parte mais estratégica, mas por quê?
+
+Porque a partir do momento que eu tinha esses contratos de serviço de suporte, eu tinha caixa.
+
+Com caixa, eu podia investir em outras coisas.
+
+Agora, se você chega e fala: "Cara, não, meu tempo é limitado, eu não quero trabalhar muito.
+
+Cara, eu não quero trabalhar oito horas por dia, às vezes 12 horas por dia.
+
+Eu quero um negócio mais controlado, eu quero um negócio que remunere muito bem", aí a parte estratégica é a melhor.
+
+Mas No seu caso, se você fala que tem tempo, eu investiria nesse modelo e depois faria a transição.
+
+É esse mesmo o meu plano estratégico iniciar, show de bola.
+
+Vai pra cima que dá certo sim, principalmente pra pequenas e médias empresas.
+
+Elas precisam desse tipo de serviço.
+
+Vai pra cima.
+
+Dentro da estratégia, dentro da imersão, é bom criar um bom material de aquisição pra mostrar o seu diferencial, porque esse mercado de suporte é o mercado mais concorrido.
+
+Então você vai ter que se diferenciar.
+
+Como que você vai se diferenciar?
+
+Aquisição e monetização, é aqui que você tem que se diferenciar.
+
+Você não pode ser só mais um, porque se você for só mais um, você vai entrar nessa concorrência gigantesca.
+
+Agora se você põe um bom posicionamento e transmite isso pra aquisição e monetização, aí você vai se diferenciar da concorrência, vai ter muito mais chance de fechar esses primeiros contratos.
+
+Beleza?
+
+Show de bola?
+
+Mais alguma dúvida, turma?
+
+Alguém quer fazer mais alguma pergunta?
+
+Gente, e aqui na nossa imersão, isso aqui é uma imersão.
+
+Isso aqui é em grupo.
+
+A gente também tem mentorias individuais, a gente tem tanto mentorias individuais, quanto a gente tem o nosso serviço que a gente monta pro cliente tudo isso aqui.
+
+Então esse modelo que eu acabei de apresentar pra vocês, com esse bônus, com esse valor, isso aqui é uma imersão de três dias em grupo.
+
+Mas nós temos também mentorias individuais pra quem quer algo mais personalizado.
+
+E a gente tem também o serviço Done For You, que é nós montando toda essa estratégia e acompanhando o negócio por 180 dias, por seis meses.
+
+Então a gente tem essas diferenças.
+
+Eu coloquei o link errado, eu coloquei o link aqui da imersão, mas pra quem quiser saber mais sobre esses outros programas, está aí o link da equipe no WhatsApp.
+
+Tanto a mentoria individual, quanto o Done For You, que é o serviço que a gente monta tudo isso e acompanha o projeto do cliente, o valor é de 5 K.
+
+O valor é de 5 K.
+
+Beleza?
+
+Do curso de 497. "Eu acho que perdi a oportunidade".
+
+Você está falando do que a gente está tendo, o projeto sênior?
+
+Porque aquele projeto sênior é mais pra quem é CLT.
+
+Não sei se é esse que você está falando, que a gente está rodando tanto essa virada, quanto o projeto sênior.
+
+O projeto sênior é mais pra quem é CLT, ele é mais focado em transformar os alunos em profissionais sênior, conhecimento mais sênior.
+
+Eu vou fazer o seguinte: pra quem garantir a vaga hoje, porque às vezes é bom um programa sênior, porque quanto mais conhecimento você tiver, mais você vai poder oferecer pras empresas.
+
+Então eu vou fazer o seguinte, pra quem garantir a vaga hoje, eu vou colocar de bônus também esse projeto sênior.
+
+Esse projeto sênior vai ser uma imersão de cinco semanas.
+
+Só que aqui é técnico, esse projeto sênior, a gente não fala de estratégia de vendas, a gente não fala de estratégia de funis, aqui é puramente técnico.
+
+Só que é uma imersão voltada pra um conhecimento mais avançado em mundo de infraestrutura Microsoft.
+
+Então pra quem garantir a vaga hoje, nessa nossa imersão Virada TI 30 K, a gente libera de bônus os packs, os agentes, o cupom de R$ 2.000 e libera esse projeto sênior de bônus também.
+
+Só esse projeto sênior, hoje o valor já foi pra 597.
+
+Quatro nove sete encerrou semana passada e o valor dele foi pra 597.
+
+Então a gente consegue liberar de bônus também pra quem garantir a vaga hoje, aqui no Virada TI 30 K.
+
+Beleza?
+
+Vocês têm as duas partes, uma parte técnica mais avançada pra poder vender pros clientes e essa parte estratégica pra aprender o funil americano, aprender aquisição, monetização, ativação e receber também os agentes de A pra otimizar, melhorar toda a criação da estratégia dos funis americanos.
+
+Show de bola?
+
+Deu pra entender?
+
+Beleza, turma?
+
+Dúvidas, perguntas?
+
+Curtiram o conteúdo?
+
+Quem curtiu dá um 10 aí pra eu saber se vocês gostaram dessa estratégia dos funis americanos.
+
+Cara, e dá certo.
+
+É bom pra rodar, porque dá certo, dá muito certo.
+
+Show de bola?
+
+Então está aí, até hoje, julgo, 23/59, essas condições estão mantidas.
+
+Passou esse valor, os bônus serão removidos.
+
+Show de bola?
+
+Então é isso aí, pessoal.
+
+Está aí a oportunidade pra quem quer dar esse próximo passo.
+
+Um grande abraço pra vocês, uma boa semana pra todos, pra galera que está se inscrevendo na imersão já dou as minhas boas-vindas de forma antecipada.
+
+Eu tenho certeza que você vai começar a construção de um negócio realmente lucrativo, atingindo minimamente esses 30 K por mês com essa estratégia dos funis americanos.
+
+Show de bola?
+
+Então, abraço, fique com Deus e até a próxima.
+
+Valeu, turma.

@@ -1,0 +1,1243 @@
+Fala, turma!
+
+Boa tarde, boa tarde/boa noite.
+
+E aí, tudo certo?
+
+Todo mundo me ouvindo, todo mundo vendo o mapinha mental?
+
+Confirmem para mim no chat, por favor, se vocês estão vendo, se vocês estão ouvindo, para que a gente comece a nossa aula: de técnico a consultor de TI e como que a nuvem te ajuda a chegar nesse faturamento de 50 mil reais por mês de maneira previsível.
+
+Então eu quero falar aqui nessa aula, e eu quero mostrar alguns serviços que são simples de entregar, serviços que o mercado paga bem, serviços considerados mais premium, ou seja, serviços que o cliente não vai questionar os valores cobrados, porque ele vai entender o valor que esse serviço gera pra empresa, e como você pode surfar essa onda e construir essa empresa de consultoria para oferecer serviços premiums de nuvem.
+
+Confirmem, por favor, se vocês estão ouvindo, se vocês estão vendo aqui, para que a gente possa começar a nossa aula.
+
+Deixa eu só ver aqui se eu liberei o chat.
+
+Chat liberado.
+
+Ouvindo e vendo bem.
+
+Sim.
+
+Maravilha.
+
+Muito bom.
+
+Vamos lá, turma.
+
+Por que eu estou falando de construir uma nova empresa de consultoria?
+
+E por que eu estou batendo nessa tecla de nuvem, de cloud?
+
+Porque é, de longe, a maior demanda que a gente tem hoje no mercado.
+
+Não dá para brigar com o mercado.
+
+É de longe a demanda que a gente mais tem.
+
+E não tem segredo: se tem mais demanda, tem mais oportunidades.
+
+Só que o que muitos ainda não enxergaram, é que quando eu falo do que as empresas estão consumindo de cloud, 90% dessa demanda são para serviços bem específicos.
+
+Você não precisa ser o guru de cloud para vender esses serviços.
+
+São serviços fáceis de aprender, são serviços fáceis de vender, fáceis de entregar e com bom faturamento.
+
+Eu coloquei uma enquetezinha aqui que vocês responderam, muito obrigado por isso, se hoje você já oferece serviço de cloud ou não.
+
+Ainda tem gente chegando na aula, mas nesse exato momento, 88% responderam que não oferecem serviço de cloud.
+
+Eu não quero ser duro, não quero puxar a orelha de vocês, mas às vezes isso é necessário.
+
+Talvez hoje, você não esteja faturando o que você gostaria, porque você está indo na contramão do mercado.
+
+O mercado hoje é um mercado cloud e 88% falou que não oferece serviço cloud.
+
+Então você está indo contra o que o mercado precisa.
+
+Eu acredito que boa parte de vocês aqui, que colocaram que não oferecem serviço cloud, o que vocês devem oferecer pro mercado?
+
+Manutenção preventiva, atendimento de chamado, formatação de máquina.
+
+O que mais?
+
+Suporte técnico no geral.
+
+Estou certo ou estou errado?
+
+E gente, de novo, nada contra esse tipo de serviço.
+
+Mas esses serviços aqui, são serviços que estão indo contra o que o mercado vem buscando.
+
+Esses tipos de serviço aqui, já virou o commodity, ou seja, aqui é briga pelo preço.
+
+Os concorrentes querendo fechar pelo menor valor.
+
+Aqui não vale a pena continuar indo na contramão do mercado, porque aqui, às vezes, você até vai conseguir um faturamento mediano.
+
+Exato, gostei do que o Roberto colocou aqui.
+
+É o leilão reverso, quem manda no preço é o cliente, não é nem a gente. Às vezes, você até consegue um faturamento mediano aqui.
+
+O que vocês considerariam um faturamento mediano?
+
+Compartilha aí comigo no chat.
+
+Se quiser, pode mandar só pra mim.
+
+Eu não estou falando do seu faturamento, eu estou falando do que você acha que é um valor para um faturamento mediano.
+
+Compartilha comigo.
+
+O que vocês acham? "Poxa, o faturamento mediano seria X mil reais aqui".
+
+Então, faturamento mediano, no mínimo 30 mil.
+
+E o Felipe eu sei porque ele respondeu isso.
+
+Porque eu falo muito que menos de 30 mil não vale a pena ter uma empresa de consultoria. "Hoje eu tenho um faturamento de 55 e acho mediano".
+
+Concordo 100%.
+
+Dependendo da estrutura da empresa, do que oferece.
+
+Nossa, pra uma agência de desenvolvimento web, está muito abaixo.
+
+E o que eu vou mostrar de estratégia aqui, apesar de estar focando em cloud, também vai servir pra software houses, pra consultores que desenvolvem aplicativos pras empresas.
+
+Fica aí que você também vai conseguir entender essa estratégia pra utilizar.
+
+O que mais, o que vocês colocam hoje no cenário de vocês?
+
+Um faturamento mediano.
+
+O que vocês colocam?
+
+Por que eu estou falando isso?
+
+Porque às vezes, pra você chegar no faturamento mediano, vendendo esse tipo de serviço aqui, que está indo na contramão do mercado, vocês vão precisar de muitos clientes pra conseguir um faturamento de 30 mil.
+
+Eu já falei em algumas aulas, que às vezes chegam alguns consultores aqui pedindo a nossa ajuda no negócio, e às vezes ele tem um faturamento de 30 mil, com 80 clientes.
+
+Só que aí está o segredo.
+
+O segredo não, o problema.
+
+Uma pessoa só não dá conta de atender 80 clientes.
+
+Então além dele ter um faturamento mediano, ele ainda tem que dividir esse faturamento porque ele tem que dividir, você tem que pagar funcionário.
+
+Porque isso aqui, gente, virou commodity, é briga por preço.
+
+Pode escrever o que eu estou falando, se você já não vive esse cenário hoje.
+
+Toda vez que você vai renovar o contrato, é uma renovação menor.
+
+E quando eu falo menor, às vezes é manter o mesmo valor, só que a inflação já foi pra cima.
+
+Então se você está mantendo o valor, você baixou o valor, na verdade.
+
+Porque hoje isso aqui é briga por preço, é muita gente querendo oferecer isso aqui.
+
+Isso aqui hoje, gente, não vale mais a pena.
+
+Isso aqui hoje é dor de cabeça.
+
+É fazer muito pra ter pouco retorno.
+
+Se você saiu do CLT pra virar um empreendedor, pra ficar tendo essa dor de cabeça, não vale a pena.
+
+Mas, em contrapartida, existe um modelo de negócio, que quem está aproveitando esse boom do mercado, esse hype do mercado, está faturando muito mais com menos clientes.
+
+Que é o quê?
+
+É surfar a onda do mercado.
+
+É oferecer o que o mercado está buscando.
+
+Só que o que acontece?
+
+Pra que você surfe essa onda, você vai precisar abrir mão de algumas coisas.
+
+O que seria abrir mão de algumas coisas? Às vezes você gosta de fazer manutenção preventiva, você gosta de atender chamado, você gosta de formatar a máquina, você gosta de prestar suporte.
+
+Você vai ter que abrir mão disso aqui, porque isso aqui não vale a pena mais hoje.
+
+Isso aqui é briga por preço, vai ganhar quem cobra menos.
+
+E quem cobra menos sempre vai ser aquele que pra ter um faturamento mediano, vai ter que ter muitos clientes.
+
+E pra ter muitos clientes, não é fácil.
+
+Nem só de ter esses clientes, quanto manter esses clientes.
+
+Então existe um modelo de negócio pra você faturar alto, mas você vai ter que abrir mão de tudo isso que virou commodity.
+
+Aqui é onde entra a parte de cloud.
+
+Porque cloud é o hype do momento, é pra onde o mercado está indo.
+
+Quanto mais coisas eu oferecer de cloud, mais fácil vai ser fechar.
+
+E outra, cloud hoje pras empresas é estratégico, então você pode cobrar mais caro por esses serviços.
+
+Só que o grande segredo de todos, gente, é o quê?
+
+Você não precisa dominar cloud como um todo, você precisa olhar o que o mercado precisa de cloud e aprender só aquilo.
+
+É claro que com o tempo, quanto mais serviços de cloud vocês aprenderem, mais vocês vão faturar.
+
+Só que pra esse primeiro momento, é só aprender as coisas mais básicas que o mercado compra.
+
+Por exemplo, FinOps.
+
+Eu já fiz algumas aulas falando sobre FinOps.
+
+Cara, eu se fosse começar uma empresa de consultoria hoje, eu iria criar uma empresa de consultoria 100% focada no FinOps.
+
+Porque é o mais fácil de vender de tudo.
+
+O que é o FinOps, pra quem não conhece?
+
+É a otimização de custo na cloud.
+
+E hoje as empresas estão gastando mais do que o necessário em cloud.
+
+Então elas precisam de profissionais que tenham essa capacidade de olhar pro ambiente e falar: "Ó, você precisa fazer essas ações, que essas ações aqui, se feitas, vão gerar uma economia mensal pro seu ambiente".
+
+Então as empresas já precisam disso aqui.
+
+E como eu estou falando da parte financeira, eu estou falando que a empresa vai deixar de gastar um valor de maneira desnecessária, fica muito mais fácil convencer o cliente que ele precisa desse tipo de serviço.
+
+Gente, FinOps, em Azure, por exemplo, você aprende em duas horas.
+
+Duas horas você aprende tudo que é necessário pra entregar um serviço de FinOps pro cliente de vocês.
+
+E sabe o que é legal?
+
+Uma média hoje, de um serviço de FinOps pra um cliente, é de R$ 2500 a R$ 7000.
+
+Por cliente.
+
+De R$ 2500 a R$ 7000, por um serviço que é fácil aprender, fácil vender, fácil de entregar e que vai te dar um bom faturamento.
+
+Fácil de vender, fácil de aprender, fácil de entregar e que vai te dar um bom faturamento.
+
+Pegando só um serviço.
+
+Por isso que tem muita gente que vai conseguir chegar nos 50 mil, por exemplo, ou passar dos 50 mil, só com esse tipo de serviço.
+
+Imagina só você ter 10 clientes te pagando R$ 7000 por mês.
+
+Estou falando de um faturamento de R$ 70 mil.
+
+Só com FinOps, um serviço que é fácil de você aprender, que é fácil de você vender, que é fácil de entregar e que te dá um bom faturamento.
+
+Aí a pergunta é: você quer mesmo continuar nisso aqui?
+
+Brigando pelo preço, brigando aqui, às vezes, por serviço que vai ser R$ 100, R$ 200.
+
+Você quer mesmo continuar aqui?
+
+Onde existe uma demanda fortíssima no mercado por um tipo de serviço que é muito fácil aprender, que é muito fácil entregar.
+
+Só que você precisa tomar essa decisão, você precisa abrir mão disso aqui, parar de trabalhar com isso aqui que não vai te trazer retorno.
+
+E começar a trabalhar em coisas que além de ter demanda no mercado, o mercado paga bem pra esse tipo de serviço.
+
+Outro tipo de serviço, cloud também, que está muito em alta, é o quê?
+
+É a migração de serviços do on-premises para cloud. "Não, eu estou falando aqui, Adriano, R$ 2500 a R$ 7000 por mês, isso aqui dentro de um contrato.
+
+Se for um projeto pontual, só pra eu estancar uma sangria que está acontecendo agora, aí já é projeto com valores maiores, 10, 15, 20, aí vai depender de quanto eu estou gerando de save.
+
+Aqui eu estou falando duma média de um contrato mensal, pra você cuidar mensalmente da parte de FinOps da empresa".
+
+Só que é isso que eu estou falando, isso aqui é muito fácil, isso aqui não vai pegar quase nada do seu tempo, porque as ferramentas nativas de cloud já trazem tudo isso aqui.
+
+Então isso aqui são contratos mensais.
+
+Migração de serviços do on-premises pra cloud.
+
+Cara, isso aqui está bombando.
+
+Principalmente quando o consultor entende que nem tudo do on-premises vale a pena rodar na cloud, então ele vai pro cliente como um consultor estratégico.
+
+Ele vai pro cliente como o consultor que vai mostrar o que vale a pena ir pra cloud e o que não vale a pena ir pra cloud.
+
+Aí aqui eu posso trabalhar de duas maneiras diferentes.
+
+O que eu posso fazer?
+
+Presta atenção aqui, Adriano, tem a ver com essa sua pergunta.
+
+O que eu posso fazer aqui?
+
+Posso fazer um projeto pontual de migração do on-premises pra cloud Vamos imaginar que esse projeto pontual, para eu levar algum serviço, eu cobrei R$ 30 mil.
+
+Daqui a pouco eu vou mostrar a IA trazendo isso aqui pra gente.
+
+Para vocês verem que não é eu que estou falando, a IA vai jogar até valores maiores do que esse, e a IA vai buscar isso no mercado.
+
+Daqui a pouco eu vou mostrar isso lá dentro.
+
+Então um projeto pontual de migração de serviço on premises para cloud, você pode fechar um projeto de R$ 30 mil.
+
+Só que acontece, pensa o seguinte: eu cobrei da empresa para migrar os recursos do ambiente on premises para cloud.
+
+Migrei.
+
+Por que agora não chegar para essa mesma empresa e falar: "Seu ambiente está na cloud.
+
+Agora vamos fechar um contrato mensal para que eu cuide desse seu ambiente na cloud?" Aqui, por exemplo, pode sair um contrato mensal de R$ 10 mil pra você cuidar do ambiente cloud.
+
+E aprendam isso: ambiente cloud de pequenas e médias empresas é muito simples manter e gerenciar.
+
+É muito simples, porque muitos deles ficam rodando máquinas virtuais.
+
+Quando a gente vai para as grandes empresas, aí as coisas mudam, porque aí eles usam muito o serviço, aí precisa conhecer um pouco mais de cloud.
+
+Mas aqui eu estou falando de basicamente saber fazer gestão de máquina virtual na cloud, que é o que muitos desses clientes vão rodar.
+
+Alguns serviços mais simples, como um Storage Account, um Key Vault, que também é coisa muito simples de conhecer e dominar.
+
+Então, de novo, um serviço simples de aprender, de vender e de entregar, e que vai trazer um bom faturamento.
+
+Quer ver outro serviço que hoje é muito fácil vender e é o que vai te trazer o maior retorno, o maior lucro?
+
+Disaster Recovery na cloud.
+
+Montar um ambiente de DR para empresa na cloud.
+
+E ambiente de DR em cloud é extremamente barato.
+
+Qualquer empresa consegue ter um ambiente de DR na cloud, porque é muito barato ter um ambiente de DR na cloud.
+
+Só que o valor que isso aqui entrega para a empresa, a empresa quando pensa em DR, é aquilo: "A minha empresa não pode parar, a minha empresa não pode morrer.
+
+Se acontecer alguma coisa no meu data center principal, minha empresa tem que continuar operando".
+
+Então aqui, às vezes, até para pequenas empresas, você vai fechar projeto de 50, de R$ 80 mil para construir esse ambiente.
+
+É mais complexo do que os outros serviços?
+
+É, mas também não é nada de outro mundo.
+
+Dá para aprender isso aqui rápido, sem precisar dominar a cloud como um todo.
+
+E de novo, você tem o que aqui?
+
+Algo que é fácil de aprender, fácil de vender, fácil de entregar e um bom faturamento.
+
+Aí, de novo, isso aqui você cobrou de maneira pontual, projeto pontual.
+
+Depois você pode: "Quer que eu cuide do ambiente de DR da sua empresa?
+
+Eu fiz a implementação.
+
+Eu já conheço o seu ambiente.
+
+Quer que eu tome conta?
+
+Vamos fechar um contrato recorrente".
+
+Aí você cobra aqui, por exemplo, R$ 10 mil por mês para cuidar do ambiente de DR da empresa.
+
+Então aqui, gente, são três serviços extremamente simples de aprender, simples de vender, que têm uma baita demanda no mercado hoje, fácil de entregar e que vai te dar um bom faturamento.
+
+Aqui você não briga por commodity, aqui você não fica brigando por preço.
+
+E nem todo mundo oferece isso.
+
+A maioria está presa aqui nesse mundo.
+
+Não, sai desse mundo que não vale a pena, vamos para algo que dê um retorno.
+
+Porque gente, se você oferece FinOps, migração, Disaster Recovery, você não precisa de muitos clientes para chegar no faturamento de pelo menos uns 50 mil.
+
+Você não precisa de muitos clientes, porque são serviços que têm um valor bom e o mercado paga por eles.
+
+Então você não precisa de muitos clientes.
+
+Diferente aqui, dos R$ 100, R$ 200, para você chegar nos 50 mil, com clientes te pagando R$ 100, R$ 200, quantos clientes você vai precisar?
+
+Agora não, estou falando de serviços de R$ 2.500 a R$ 7 mil.
+
+Projetos que podem chegar a 30 mil e depois eu cobro 10 mil.
+
+Projetos que podem chegar de 50 a 80 e depois eu cobro 10 mil mensal.
+
+Nesse contexto, o que seria uma pequena empresa?
+
+Uma clínica médica?
+
+Com certeza.
+
+Eu considero uma pequena empresa, até uma empresa que tem em média uns 80, 90 colaboradores, faturamento ali de pelo menos 1 milhão por ano.
+
+Então isso eu enquadro dentro de uma empresa de pequeno porte.
+
+Mas aí tem várias: clínicas, escritórios de contabilidade, escritórios de advocacia.
+
+Tem vários segmentos.
+
+E tudo isso aqui que eu estou mostrando para vocês, essas empresas já precisam hoje.
+
+Só que a galera está presa aqui, está brigando por preço aqui, tendo que ter cada vez mais clientes para ter um faturamento mediano.
+
+Eu estou falando que o modelo de negócio hoje é oferecer o que o mercado precisa, o que o mercado paga, que vai te dar um bom faturamento sem a necessidade de ter muitos clientes.
+
+Olha que pergunta legal: qual seria a melhor para aprender para iniciantes, no caso?
+
+Sem sombra de dúvida nenhuma, isso não só para quem é iniciante em tecnologia.
+
+Se você hoje tem uma empresa de consultoria, você não está satisfeito com seu faturamento e quer um faturamento mais rápido, quer crescer mais rápido, começa por aqui: FinOps.
+
+Começa por aqui.
+
+Sabe por que começa por aqui?
+
+Em fevereiro desse ano, de 2026, o Gartner lançou um material, uma pesquisa, e nessa pesquisa ele trouxe que as empresas estão gastando a mais em cloud de 40% a 60%.
+
+Então ele trouxe uma pesquisa, e é o Gartner, não é qualquer empresa, trouxe uma pesquisa, e essa pesquisa mostrou que as empresas já estão gastando, sem necessidade nenhuma, de 40% a 60% com cloud.
+
+Aí se você pegar, por exemplo, uma empresa pequena, vamos imaginar que a empresa pequena tem um custo mensal com a nuvem de R$ 100 mil.
+
+Então segundo o Gartner, essa empresa está jogando no lixo de R$ 40 mil a R$ 60 mil.
+
+Fica com isso em mente: de R$ 40 mil a R$ 60 mil.
+
+Aí você chega para essa empresa: "Cara, você está rasgando dinheiro.
+
+Vamos estancar essa sangria?
+
+Você está rasgando esse dinheiro aqui já.
+
+Vamos estancar essa sangria?
+
+Então eu vou conseguir fazer com que a sua empresa tenha um save.
+
+Vamos pegar aqui, vamos jogar baixo?
+
+O Gartner fala de 40% a 60%, mas vamos jogar 20%?" Então eu chego para a empresa e falo: "Olha, eu vou conseguir".
+
+Faço um estudo, uma análise na empresa e falo: "Eu vou conseguir gerar uma economia para vocês de R$ 20 mil".
+
+Aí o que você faz?
+
+Trabalha com o que a gente chama de big numbers, os números grandes, para aquilo ficar na mente do cliente.
+
+Então você pega esses 20 mil, faz vezes 12 para dar o gasto anual.
+
+Então eu estou falando de 240 mil.
+
+Então você chega e fala: "É 20 mil por mês e por ano é 240 mil.
+
+É isso que você está jogando literalmente no lixo e é um dinheiro que uma vez que você paga, já era, não volta mais.
+
+Aí você chega no final e fala: "Quer evitar que isso aqui aconteça todo ano?
+
+Quer evitar desperdiçar 240 mil por ano?
+
+Vamos fechar um contrato de FinOps onde você me paga, para a gente arredondar, 5 mil reais".
+
+Qual é a conta que ele vai fazer?
+
+Poxa, ele está me prometendo uma economia de 240 mil por ano, eu não vou gastar 240 mil a mais na minha empresa com cloud.
+
+E ele está cobrando 5 mil por mês, que no ano vai dar 60 mil, qual é a conta dele?
+
+Poxa, ele vai me economizar 240 e está cobrando 60 mil, eu ainda estou no lucro de 180 mil.
+
+Por isso que eu começaria por FinOps, porque o FinOps vende por si só, eu não preciso convencer o cliente, os números estão aí.
+
+Ele já paga essa fatura, ele já vê esse desperdício, então eu não preciso convencer ele.
+
+Ele já paga, aquilo já é o dia dele.
+
+Por isso que sem sombra de dúvida, eu começaria pelo FinOps.
+
+Eu, se eu fosse vocês, criaria, sairia desse modelo aqui, que não vai dar resultado, só vai te dar dor de cabeça, cabelo branco, sairia disso aqui e iria trabalhar como consultor estratégico em FinOps.
+
+Pelo menos até você chegar, porque ficar só em FinOps, você vai desperdiçar também faturamento, porque você poderia vender outras coisas que são até mais caro.
+
+Mas eu me concentraria em tudo isso aqui, pelo menos, até eu chegar no faturamento de 50 mil por mês.
+
+Previsível.
+
+Então contratos que me paguem mensalmente 50 mil por mês.
+
+Quando eu estiver com esse faturamento vindo do FinOps, aí eu começo a explorar outros serviços.
+
+Para chegar no faturamento de 70 mil, de 80 mil, de 100 mil, aí eu começo a explorar outros serviços.
+
+Então se eu pudesse recomendar vocês, essa seria a minha recomendação.
+
+Cara, foca nesse primeiro momento em ser um consultor estratégico de FinOps.
+
+Para o mercado é como se você não vendesse mais nada, o mercado só vai ouvir você falar de FinOps.
+
+É como se você só trabalhasse com isso.
+
+Cria essa receita previsível, depois vai para os outros serviços, ou senão, sabe o que você faz?
+
+O mercado só vai te enxergar como consultor premium de FinOps.
+
+O mercado só vai te enxergar nisso.
+
+Só que uma vez que você entrou dentro do cliente e você vai fazer a sua proposta, você mostrou para ele o quanto você vai gerar de saving e você está fazendo a sua proposta, o que você pode fazer para ele?
+
+O meu contrato é aqui, arredonda aqui.
+
+O contrato que eu vou fechar com você para cuidar do FinOps é de 5 mil reais.
+
+Beleza?
+
+Só que vamos fazer o seguinte?
+
+Eu também consigo ajudar a sua empresa.
+
+Aí você pode oferecer outras coisas.
+
+Por quê?
+
+Porque você pode, em outras coisas que você vai oferecer para você cuidar, você pode sair de um contrato de 5 mil, que seria só do FinOps, e você pode, por exemplo, ir para um contrato de 15 mil, onde além de cuidar de FinOps, você vai cuidar de outras coisas.
+
+Mas o mercado te conhece pelo FinOps, você tem que ser o cara de FinOps, o mercado tem que olhar e falar: "Cara, eu só vejo esse cara falar de FinOps, ele deve ser muito bom, só fala disso".
+
+Isso é o que eu chamo de posicionamento, você se posicionar no mercado como um consultor especialista estratégico em FinOps, mas isso não significa que você vai mexer só com FinOps.
+
+Depois que você está no cliente, você pode oferecer outros serviços.
+
+Gente, eu estou falando aqui que com esse posicionamento de consultor estratégico, para você chegar nos 50 mil, eu estou falando aqui gente de quatro clientes.
+
+Vai passar um pouco ainda.
+
+Vai te dar um faturamento de 60 mil.
+
+Quatro clientes.
+
+Agora, nessa estrutura aqui, para você chegar no faturamento de 60 mil, cobrando esses valores baixíssimos e cada vez mais baixo, quantos clientes vocês vão precisar para chegar nos 60 mil?
+
+Quantos clientes vocês vão precisar para chegar nos 60 mil?
+
+Gente, quanto mais cliente, mais dor de cabeça.
+
+Eu prefiro muito mais trabalhar com menos cliente, cobrar mais caro e ter um faturamento do que a outra empresa, que às vezes tem até o mesmo faturamento que o meu, mas o lucro bem menor, porque tem que pagar um monte de funcionário, porque tem um monte de cliente para atender.
+
+Cara, eu estou falando que você pode ter uma empresa de consultoria faturando 60 mil só com você.
+
+Você não precisa nem de funcionário, porque você vai ter aqui quatro clientes para atender.
+
+Quatro clientes, você atende sozinho, tranquilamente.
+
+Tranquilamente.
+
+GCP ou Azure ou AWS?
+
+Hoje, se a gente pega um recorte dos últimos cinco anos, existe um porquê disso também.
+
+Se você pega um recorte dos últimos cinco anos, o Azure é o que mais vem crescendo.
+
+Mas existe um porquê disso.
+
+É porque hoje as empresas estão num cenário híbrido.
+
+E para eu ligar um cenário híbrido que já tem o Active Directory com o Azure, é muito mais fácil do que fazer isso com o GCP do que fazer isso com a AWS.
+
+Então hoje eu me concentraria em Azure.
+
+Não que você não possa atender outros provedores, mas hoje eu me concentraria no quê?
+
+O meu posicionamento seria o quê?
+
+Focado para FinOps em Azure. "Sou corretor de seguro, mas estou estudando Python e dados para conseguir minha transição de carreira.
+
+Quais conhecimentos preciso ter para começar a trabalhar com FinOps?" Cara, é conhecimento básico, não precisa de linguagem de programação, de Python, nada disso.
+
+Ferramenta, nada, é só precisa saber um pouco de como encontrar essas coisas e como fazer essa gestão desses recursos dentro do Azure.
+
+Cara, é muito fácil.
+
+Gente, eu estou falando aqui que às vezes vocês vão fazer um projeto pontual.
+
+Aqui eu estou falando de uma recorrência, um contrato mensal. Às vezes vocês vão fazer um projeto pontual de FinOps e vocês vão cobrar 10 mil reais.
+
+E para você entregar esse projeto, você vai fazer isso em duas a quatro horas, no máximo.
+
+Está bom ou não está?
+
+Trabalhar duas a quatro horas e receber 10 mil reais.
+
+Porque é fácil de entregar.
+
+O próprio Azure já me dá tudo que eu tenho que fazer, o Azure já me entrega de bandeja.
+
+Você tem que fazer isso, assim, ali, aqui, ele já me entrega tudo isso.
+
+É que o cliente não sabe, mas o Azure já me entrega tudo isso de bandeja.
+
+Então hoje, gente, quando eu pego esse tema aqui de R$ a um consultor que vai ganhar 50 mil, é sair desse modelo de commodity, essa briga por preço cada vez menor, quem cobra menos é quem ganha, ir para algo mais estratégico, que tem demanda hoje no mercado e que não precisa de convencimento, porque o mercado está aí, o mercado fala por si só.
+
+Então fica muito mais fácil eu vender isso aqui para as empresas do que ficar brigando aqui embaixo, porque isso aqui a empresa sempre vai entender como custo, por isso que ela pede um valor cada vez menor Ela pede um valor cada vez menor, porque isso aqui para ela é custo, aqui não, aqui é estratégico.
+
+Por isso que eu posso cobrar mais caro e a empresa não vai nem rechinar, principalmente como FinOps, quando eu mexo com faturamento.
+
+O faturamento, os números falam por si só.
+
+Os números falam, eu não preciso inventar nada, eu não preciso convencer nada, os números já falam.
+
+Por isso que eu falo: "Gente, hoje, comece com a meta de 50 mil previsível, começa no FinOps.
+
+Depois que você tiver isso previsível, aí você começa a espalhar mais.
+
+Aí você começa a oferecer outras coisas no mercado, mas lembra, não é porque você entrou na empresa pelo FinOps que você vai vender só isso.
+
+Uma vez que você está dentro da empresa, você pode oferecer outros serviços.
+
+Você pode sair desse cenário aqui, ao invés de sair com contrato de 5 mil, você pode sair com contrato de 15, porque você está falando: "Cinco é o FinOps, só que eu posso te ajudar de outras maneiras.
+
+Esse todo, esse mais completo, é 15 mil reais por mês".
+
+É 15 mil reais por mês.
+
+Então hoje, esse modelo de negócio é o mais fácil para chegar na meta dos 50 mil, é o mais fácil de aprender, é o mais fácil de vender, é o mais fácil de entregar e é o que vai te dar o melhor faturamento.
+
+Mas você vai precisar abrir mão disso aqui.
+
+Que aí a pergunta que eu faço é: você é empresário de TI para ganhar dinheiro ou para ficar trabalhando com coisas que você gosta, mas não te dá dinheiro?
+
+Você tem que fazer essa escolha.
+
+E eu fiz a minha escolha, eu prefiro muito mais ganhar dinheiro do que ficar trabalhando com coisas que eu posso até gostar, mas que não vai me trazer retorno e vai me dar dor de cabeça.
+
+Então esse modelo de negócio é o modelo de negócio mais fácil para chegar nesse faturamento de 50 mil de maneira previsível.
+
+Aí eu quero fazer uma pergunta para vocês.
+
+Hoje, vocês estão dispostos a largar isso aqui e ir para esse modelo de negócio?
+
+Coloca um "sim" no chat para quem está disposto.
+
+Então hoje, você está disposto a largar isso aqui que virou commodity, que é só briga pelo preço, que vai te dar o retorno cada vez menor.
+
+Você está disposto a largar isso aqui para ir para algo mais estratégico?
+
+Algo que, sim, você vai precisar aprender, mas a aprendizagem é rápida.
+
+A venda, mesmo sendo um serviço mais caro, a venda é mais fácil.
+
+A entrega de tudo isso é mais fácil.
+
+E o melhor, vai te dar um faturamento que o outro modelo iria demorar muito e só iria conseguir te dar se você tiver muitos clientes.
+
+Então quem está aqui hoje que abre mão disso aqui para ir para algo estratégico?
+
+Coloca um "sim" aí no chat.
+
+E aí, o que eu vou explicar?
+
+Cara, eu acabei de mostrar aqui para vocês esse modelo.
+
+Dei aqui alguns exemplos.
+
+Só que agora, o que vai acontecer com a maioria?
+
+Que foi até o que vocês me responderam no chat, que hoje vocês não vendem serviço de cloud.
+
+Provavelmente não vende porque não conhece.
+
+Qual é o problema agora? "Cara, eu gostei do modelo, mas como que eu vou aprender FinOps?
+
+Como que eu vou aprender migração de serviços para cloud?
+
+Como que eu vou aprender disaster recovery?
+
+A parte técnica, como que eu vou aprender a parte técnica?" Só que aí tem o outro lado da moeda.
+
+Não adianta nada você ser o cara do FinOps, o cara da migração, o cara do disaster recovery, se você não tem estratégia para vender esse serviço.
+
+Então você precisa dos dois, o conhecimento técnico para entregar isso para o cliente, só que você também precisa chegar nesse cliente, ter estratégias para que esse cliente te conheça, para que esse cliente queira contratar o seu serviço.
+
+Você precisa dos dois.
+
+Por isso, que eu criei o meu programa Consultor Azure 2.0.
+
+Esse programa pega essas duas fatias.
+
+Ele pega a aprendizagem técnica.
+
+Então você vai aprender tecnicamente o que é FinOps, como entregar para o cliente, como configura, como que eu gero o saving.
+
+Então você vai aprender toda a parte de aprendizagem técnica, mais a parte estratégica de atração de clientes.
+
+Porque não adianta nada você ter só o conhecimento técnico e não ter clientes querendo contratar o seu serviço.
+
+Então é um programa que une os dois, a parte técnica do que tem alta demanda no mercado.
+
+Então vocês vão aprender tecnicamente FinOps.
+
+Aqui são cinco serviços.
+
+Eu falei de três, mas são cinco.
+
+Vocês vão aprender FinOps, vocês vão aprender a migração que eu falei, vocês vão aprender a parte de disaster recovery que eu falei, vocês vão aprender a parte híbrida.
+
+Muitas empresas hoje estão nesse modelo híbrido, e vocês vão aprender a parte de implementação 100% Azure, 100% nuvem aqui.
+
+Então vocês vão aprender esses cinco serviços, que são serviços de alta demanda no mercado.
+
+E lembra, a minha recomendação é que você se concentre aqui, pelo menos até chegar ali no faturamento de 50 mil.
+
+Aí depois você pode vender os outros serviços.
+
+E aqui vocês vão aprender também cinco estratégias diferentes para vender esses serviços.
+
+Quando eu falo vender aqui, é atrair esse cliente, esse cliente saber que você vende esse serviço, para que vocês possam ter os clientes e não ter o conhecimento e não conseguir monetizar o conhecimento de vocês.
+
+Então vocês vão aprender a parte técnica e vocês vão aprender a parte estratégica.
+
+Só que qual é o melhor de tudo dentro desse programa?
+
+Essas duas partes aqui já estão prontas e gravadas.
+
+Então tudo isso aqui está pronto e gravado para você ver.
+
+Então você vai aprender tecnicamente FinOps, migração.
+
+Tecnicamente, você vai aprender tudo isso aqui.
+
+E você vai aprender cinco estratégias diferentes para vender tudo isso aqui.
+
+Só que o que eu quero?
+
+Até porque eu tenho segundas intenções.
+
+O que eu quero?
+
+Eu quero que vocês tenham esse resultado.
+
+Por que eu quero que vocês tenham esse resultado de chegar no faturamento de pelo menos aqui 30, 50 mil?
+
+Por que eu quero isso?
+
+Porque eu tenho um outro programa, que é o meu mastermind.
+
+Esse programa custa 30 mil reais por ano.
+
+Só que aqui a gente só aceita dentro desse mastermind, empresas que faturam acima de 100 mil reais.
+
+Porque esse programa é para quem quer escalar, para quem quer passar da barreira dos 100 mil.
+
+Então eu quero todo mundo nesse programa.
+
+Só que para eu te levar para um programa avançado como esse, eu preciso fazer você chegar no faturamento como esse.
+
+E a ideia desse programa é exatamente isso, é dar esse primeiro resultado e te preparar para que você possa ir para o programa mais avançado Então o que a gente faz?
+
+Eu não posso correr o risco aqui com vocês, de só te entregar o conteúdo e te falar: "boa sorte, a partir de agora você está sozinho.
+
+As estratégias estão aí, se vira pra rodar".
+
+Por quê?
+
+Se eu fizer isso, eu vou correr o risco de você não colocar pra rodar, de você não implementar.
+
+E se você não implementar, você não vai ter resultado.
+
+E se você não tiver resultado, você não vai querer ir pro meu mastermind.
+
+Então o que a gente faz aqui?
+
+Aqui a gente tem a mentoria.
+
+Oito semanas de mentoria.
+
+Pra que serve essa mentoria?
+
+Cara, aqui é a hora de implementar.
+
+Aqui você está aprendendo tudo.
+
+Aqui, meu amigo, é hora de implementar, é hora de colocar a estratégia pra rodar.
+
+Porque é só colocando a estratégia pra rodar que vocês vão ter resultado.
+
+Se as coisas ficarem só no papel, ficar só na mente de vocês, vocês não vão ter resultado, vocês não vão conseguir chegar nesse faturamento de 50 mil.
+
+Agora eu sei que se você tirar do papel e implementar, e seguir a minha recomendação de focar no FinOps primeiro, eu sei que você vai ter essa estratégia, você vai ter esse faturamento.
+
+E quando você chegar nesse faturamento, eu sei que você vai lembrar de mim. "Cara, quem me ajudou a chegar nesse faturamento?
+
+Ah, beleza.
+
+O que mais ele tem pra oferecer?
+
+Ah, cara, você já está nesse faturamento, quer passar dos 100 mil agora?
+
+Eu tenho o meu mastermind.
+
+Quer passar dos 100 mil por mês de faturamento?
+
+Eu tenho o mastermind".
+
+Então por isso que esse programa é um programa também de implementação, porque se você não implementar, você não tem resultado.
+
+Então não.
+
+Aprendeu a estratégia que funciona?
+
+Aprendi.
+
+As aulas estão todas gravadas?
+
+Estão.
+
+Agora a gente vai pra implementação de tudo isso.
+
+Então a gente vai ter oito semanas de mentoria, onde o foco dessas sessões de mentoria é implementar a estratégia.
+
+A gente vai implementar essa estratégia juntos.
+
+Toda a estratégia. "Pô, o que eu faço agora?
+
+Vou focar em FinOps, vou seguir a sua recomendação.
+
+O que eu faço pra atrair os clientes pra FinOps?" Eu vou te ensinar e a gente vai implementar toda essa estratégia pra sua empresa.
+
+Qual é o valor de investimento dessa mentoria, desse programa?
+
+O valor normal é de R$ 5 mil.
+
+Cara, e eu sei que valeria cada centavo, porque eu sei que o primeiro projeto que você fechar, provavelmente você já vai recuperar esse valor investido.
+
+Mas pra aqueles que garantirem a vaga hoje, a gente tá liberando um cupom de 50% de desconto.
+
+O valor é de R$ 2.500.
+
+Provavelmente o seu primeiro projeto de FinOps você já vai recuperar esse valor que você investiu.
+
+Só que você vai ter uma estratégia rodando pra sua empresa.
+
+Além de você aprender algo técnico, que vai te gerar faturamento, você vai ter uma estratégia pra trazer esses clientes pra ter esse faturamento.
+
+Esse valor pode ser dividido em 12 vezes, no cartão, no boleto ou no Pix.
+
+R$ 2.500 pra você participar dessa mentoria, onde você vai aprender a parte técnica do que vende hoje.
+
+Então são serviços que vendem hoje.
+
+Então vocês vão aprender tecnicamente como entregar esse serviço, o que fazer, tudo, a parte técnica.
+
+Cinco estratégias diferentes pra vender esse serviço.
+
+Conteúdo pronto e gravado, quem garantir a vaga hoje já vai ter esse acesso liberado.
+
+E a gente vai ter oito sessões de mentoria, que aí é pegar tudo que vocês aprenderam, porque só aprender não vai levar vocês a lugar nenhum, e a gente vai implementar, a gente vai colocar as estratégias pra rodar.
+
+Então tá aí essa oportunidade pra quem quer surfar essa onda, pra quem quer pegar e mudar o modelo de negócio, sair do modelo de negócio de commodity, pra virar um consultor mais premium, pra virar um consultor que vai conseguir um ótimo faturamento com poucos clientes, que vai ser um consultor mais estratégico.
+
+Pra quem quiser garantir a vaga, eu vou colocar aqui no chat o link da minha equipe no WhatsApp, o link da Gabi da minha equipe.
+
+Então pra quem quiser participar dessa mentoria, é só mandar mensagem aí nesse link que eu passei pra vocês, chamar a Gabi da minha equipe, falar que você estava aqui na aula e que você tem o interesse em participar dessa mentoria.
+
+Só chamar a equipe no WhatsApp.
+
+Lembrando que esse cupom de 50% a gente tá liberando pra aqueles que fecharem hoje.
+
+Pra aqueles que garantirem a vaga ainda hoje, está liberado esse cupom de 50% off.
+
+Depois volta pro valor normal de R$ 5 mil.
+
+De novo, vale cada centavo, porque o primeiro projeto que vocês conseguirem, o primeiro cliente, a mensalidade ou um mês do seu primeiro cliente, já vai pagar esse investimento e o resto é só lucro pra você.
+
+Então se você colocar as estratégias pra rodar, que a gente vai colocar juntos na mentoria, e se concentrar nessa recomendação que eu tô dando pra vocês de FinOps, que tem uma demanda absurda no mercado hoje, tá aí a oportunidade.
+
+Quem está sem WhatsApp, manda e-mail.
+
+Deixa eu colocar aqui o e-mail.
+
+Pode mandar um e-mail lá pra equipe.
+
+Tá aí o e-mail.
+
+Deixa eu mostrar isso aqui pra vocês.
+
+Eu tenho aqui no Claude, um agentezinho de pesquisa de mercado estratégico.
+
+Faça uma pesquisa de mercado detalhada para analisar a demanda de serviços de FinOps.
+
+Me sugira também valores que eu possa cobrar por esse serviço.
+
+Sugira valores para microempresas, pequenas empresas e médias empresas.
+
+Não vou nem colocar empresa grande.
+
+Ele vai começar a fazer essa validação aqui pra mim e vai me trazer um resultado aqui.
+
+Só pra vocês verem a média de valor que esse tipo de serviço cobra.
+
+E outra, essa skill está toda treinada pra fazer uma análise completa de mercado.
+
+Então o que ele vai trazer de dado não é no achismo, ele tá fazendo uma pesquisa de mercado mesmo.
+
+Então vamos lá, turma.
+
+Enquanto ele tá finalizando aqui essa pesquisa, alguém tem alguma dúvida?
+
+Alguém quer fazer alguma pergunta?
+
+Alguém quer pedir alguma orientação?
+
+Essa é a hora.
+
+Enquanto ele termina aqui essa análise de mercado.
+
+Enquanto ele tá fazendo aqui, quem tiver qualquer dúvida, quem quiser fazer qualquer tipo de pergunta, só colocar aí no chat.
+
+Então pra aqueles que querem construir uma consultoria baseada nesse modelo de negócio mais premium, esse modelo de negócio que você precisa de poucos clientes pra ter Nossa, já li a primeira frase e já desmontou.
+
+Não, Felipe, só fala assim: "Cara, se você quer fechar o programa, só passa no e-mail que você estava na aula pra você receber o desconto, e qual o método de pagamento que você quer, se você quer parcelamento no cartão, no boleto, no Pix ou à vista.
+
+Só passa essas informações que a equipe gera o link e te passa o link pra você garantir a vaga". "Quanto tempo conseguimos entrar no mercado com seu treinamento?" Gente, de novo, FinOps é fácil aprender, é rápido.
+
+Em duas horas, vocês vão aprender tudo isso aqui.
+
+Então, respondendo sua pergunta, André, semana que vem você já pode entrar no mercado pra vender FinOps.
+
+Eu posso fazer o seguinte pra vocês?
+
+Cara, às vezes vem uns estalos na minha mente, mas estão aí pra ajudar.
+
+Vamos fazer o seguinte?
+
+Primeiro, eu vou fazer uma pergunta pra quem está interessado no programa.
+
+Eu quero fazer essa pergunta e quero que vocês respondam com sinceridade.
+
+Vocês vão implementar?
+
+Só me responde isso, vocês vão implementar?
+
+Esquece em aprender.
+
+Vocês vão implementar?
+
+Só me responde essa pergunta.
+
+O André, o Adriano, que está um pouco com essa dúvida, vocês vão implementar?
+
+Só me responde isso.
+
+Nossa, eu gostei aqui, essa aqui pra mim é excelente: "Se possível, ainda hoje".
+
+Vocês vão implementar?
+
+Vocês vão implementar.
+
+Sabe o que eu vou fazer com vocês, então?
+
+Pra tirar essa objeção de "poxa, eu não sei se eu vou conseguir entregar".
+
+A primeira entrega eu te ajudo.
+
+Eu vou te ajudar na primeira entrega.
+
+Eu só não vou entregar por você, porque aí tem que ser você lá na empresa, mas eu vou te ajudar.
+
+A primeira entrega sua de FinOps, eu vou te ajudar.
+
+Ajuda?
+
+Pra vocês terem uma confiança maior?
+
+Ajuda?
+
+São pra vocês que falaram que vai implementar.
+
+Você vai implementar, você vai ter resultado.
+
+Só que aí você pode estar com essa objeção de: "Cara, eu não sei se eu vou conseguir entregar isso pro cliente".
+
+Eu vou te ajudar na primeira entrega.
+
+Eu vou te ajudar na primeira entrega.
+
+Tá aí o link da equipe no WhatsApp.
+
+Chama a equipe no WhatsApp, até porque se muita gente entrar, eu não vou conseguir dar conta de entregar pra todo mundo.
+
+Então quem entrar hoje está garantido.
+
+Eu vou te ajudar na primeira entrega.
+
+Eu vou te ajudar.
+
+Vamos lá, vamos ver o resultado aqui.
+
+FinOps deixou de ser tendência, virou disciplina obrigatória.
+
+Obrigatória.
+
+Preciso falar mais nada.
+
+A IA estourou os orçamentos de nuvem.
+
+Então a IA está acabando com o orçamento, porque as empresas não sabem usar.
+
+O desperdício é gigante e mensurável.
+
+Aí aqui ele está dando outro estudo, falando que as empresas desperdiçam em média 29%.
+
+E para quem gasta menos disso, o valor sobe pra 35%.
+
+O Gartner, em fevereiro, trouxe um número ainda mais alarmante.
+
+Aí ele já está falando.
+
+Mas o que eu quero é isso aqui.
+
+Cadê?
+
+Aqui, é isso que eu quero.
+
+Vamos lá, amigo, quanto que você vai cobrar pelo seu serviço?
+
+Deixa eu ver.
+
+Aqui, é isso que eu quero.
+
+O que você vai cobrar pelo seu serviço?
+
+Vamos lá, vamos começar pelas pequenas empresas.
+
+Se você for fazer só um diagnóstico, pra mostrar onde está sangrando, você vai cobrar de 4 a 9 mil.
+
+Está mais do que aquele valor que eu mostrei pra vocês.
+
+Agora, se você for implementar um projeto mais completo, que vai envolver a parte de governança, a parte de tagging, saveplan, chargeback, isso é um projeto de 8 a 25 mil.
+
+Bateu certinho com aquele valor que eu trouxe pra vocês.
+
+Se você for fazer o FinOps as a Service, que é cuidar do FinOps da empresa, você vai cobrar de 2500 a 7000 por mês.
+
+Então nota, gente, eu não estou inventando os números.
+
+Média empresa, o assessment aprofundado, de 10 a 25 mil.
+
+Projeto de implementação completo, de 25 mil a mais de 80 mil.
+
+FinOps as a Service dedicado, de 8 mil a 25 mil.
+
+Está aí os valores.
+
+Agora, o que eu preciso é que vocês executem.
+
+Quer chegar nesses contratos que a IA está me falando aqui que o mercado já paga, isso aqui não é que ele acha, o mercado já paga isso aqui.
+
+Quer ter esses contratos todos os meses?
+
+É só implementar, por isso que eu estou perguntando, vocês vão implementar?
+
+Então pra vocês que falaram que vão implementar, estão inseguros se vão conseguir entregar ou não, eu vou te ajudar no primeiro pra você ter mais confiança.
+
+Mas vocês vão ver que não é nada de outro mundo, é tudo muito simples.
+
+Só que não adianta conhecer só tecnicamente e não saber vender isso pras empresas, não conseguir atrair esses clientes, não adianta nada.
+
+Só que aqui na mentoria vocês vão ter acesso aos dois, à parte técnica e à parte que é a mais importante, que é atrair esses clientes, fechar essas propostas com esses clientes.
+
+Vocês vão aprender tudo isso dentro dessa mentoria.
+
+Beleza?
+
+Alguma outra dúvida, turma?
+
+Alguma outra pergunta?
+
+De novo, poderia cobrar 5 mil aqui facilmente.
+
+Porque, de novo, olha os valores que ele trouxe.
+
+O pior cenário aqui, você vai cobrar 2500 por mês.
+
+Pior cenário.
+
+Primeiro mês do contrato, já recupera o que você investiu na mentoria.
+
+Se fosse 5 mil reais, o segundo mês de contrato já cobriria, o resto é só lucro.
+
+Valeria os 5 mil.
+
+Mas o que eu quero?
+
+Eu não quero que o valor seja uma barreira pra vocês, porque eu quero que vocês entrem, eu quero que vocês tenham resultado, pra quê?
+
+Pra quando eu chegar e falar pra vocês do meu mastermind, você vai falar: "Poxa, se nesse programa eu já consegui esse resultado, no mastermind eu vou conseguir muito mais, então eu quero pular pra dentro do mastermind".
+
+Então está aí a oportunidade, 2500.
+
+Esse valor pode ser dividido em 12 vezes no cartão de crédito, 12 vezes no boleto ou 12 vezes no Pix.
+
+Então está aí no chat o link da Gabi, da minha equipe no WhatsApp.
+
+Então é só chamar a Gabi, falar que você estava aqui na aula, falar qual meio de pagamento você quer, cartão, boleto ou Pix, pra ela gerar o link e te passar. "Para aprender e estudar com o seu método, preciso contratar?" Não.
+
+Você precisa do Azure e o gratuito já vai te entregar tudo que você precisa.
+
+Você só precisa criar uma conta no Azure, uma conta gratuita.
+
+Só isso.
+
+Depois, se você quiser, porque a conta gratuita tem alguns limites.
+
+Quando você cria uma conta gratuita, ele vai te liberar um valor.
+
+E aquele valor que ele te liberou, você vai poder usar dentro de 30 dias.
+
+Só que passou os 30 dias, vai ter vários serviços que vocês vão poder utilizar por um ano Então, isso é suficiente.
+
+Mesmo se você olha e fala: "Não, eu queria aproveitar mais o Azure, eu queria fazer mais coisa aqui dentro, mas acabou os meus créditos".
+
+Existe uma estratégia pra que você coloque o seu cartão de crédito sem problema no Azure, só que gaste pouco.
+
+Você vai gastar, porque lá você é pago conforme você usa, acabou seus créditos.
+
+Mas você pode colocar o seu cartão de crédito, usando da maneira estratégica, que você vai gastar ali no máximo R$ 30, R$ 40 por mês pra fazer vários laboratórios que você queira fazer lá pra testar recurso, testar solução, testar implementação e por aí vai.
+
+Mas no seu caso, Adriano, o gratuito já vai te ajudar.
+
+E muito.
+
+Você vai conseguir fazer tudo ali dentro do gratuito.
+
+Tá bom?
+
+O gratuito já atende sem nenhum tipo de problema.
+
+A Fold manda bala no gratuito.
+
+Gente, eu dou aula de Azure.
+
+Eu tenho formação de Azure, então eu uso muito o Azure.
+
+E a minha média de gasto mensal é R$ 50, mas eu uso bastante.
+
+Mas porque existe uma estratégia pra você usar e gastar pouco.
+
+E dentro desse programa eu ensino essa estratégia também, pra que acabou os seus créditos e você quer continuar usando o Azure de maneira ilimitada, porque é o que eu falei, acabou os créditos, tem coisa que você vai continuar usando por um ano, mas tem coisas que não vai poder.
+
+Mas se mesmo assim você quer usar aquilo e gastar pouco, dentro do programa eu também ensino essa estratégia pra você fazer qualquer tipo de lab no Azure, gastando ali R$ 30, às vezes menos, vai depender muito.
+
+Tem aluno que gasta R$ 10, R$ 15 por mês.
+
+Então é um valor que vale a pena pra você testar várias coisas, ainda mais pra gente que presta serviço.
+
+Dentro do programa eu ensino essa estratégia de gastar pouco também.
+
+Beleza, turma, alguém quer fazer mais alguma pergunta?
+
+Alguém quer tirar mais alguma dúvida?
+
+Show de bola.
+
+Então mandem mensagem aí pra equipe, a equipe vai responder vocês.
+
+Escolham aí o melhor meio de pagamento pra vocês, pra vocês darem esses próximos passos e a gente começar nesse programa aqui pra começar a gerar resultado pro seu negócio imediatamente.
+
+Aqui é pra colocar pra rodar.
+
+A primeira meta nossa, a primeira meta que eu vou estar junto com você, é você recuperar esse valor que você está investindo no programa o mais rápido possível, pra que depois você tenha só lucro.
+
+Pra que você já feche o primeiro contrato e só a primeira mensalidade já vai cobrir o que você investiu, o resto é da sua empresa.
+
+Então essa vai ser a nossa primeira meta.
+
+Depois é só alegria.
+
+Beleza?
+
+Combinados?
+
+Vamos lá, última chance, alguém quer tirar mais alguma dúvida, alguém quer fazer mais alguma pergunta?
+
+Lembrando, que entre em contato com a equipe, porque essa condição especial é válida pra hoje, esse cupom de desconto é pra hoje.
+
+E também esse bônus, onde eu vou fazer a primeira entrega sua, o primeiro cliente que você for atender de FinOps, eu vou te ajudar pessoalmente.
+
+Pessoalmente online, mas eu vou te ajudar.
+
+Já chama aí no WhatsApp, a equipe vai responder aqui.
+
+Provavelmente vários de vocês estão chamando, e esse horário ela está sozinha, mas fiquem tranquilos que ela vai responder todos vocês.
+
+Maravilha, se vocês já puderem ir adiantando e já passar pra ela o meio de pagamento que vocês querem, que ela já vai ajudando a geração desses links pra vocês.
+
+Em uma semana já conseguimos entregar o serviço?
+
+Entregar, sim.
+
+O que eu não consigo te prometer, até porque se eu prometesse isso, todo mundo iria ficar rico.
+
+O que eu não consigo te prometer é que em uma semana você vai conseguir o cliente.
+
+Mas o que eu consigo te garantir é que em uma semana você aprende a entregar o serviço.
+
+Aí a gente vai montar as estratégias pra trazer esse cliente.
+
+Mas entregar, aprender tecnicamente o serviço, uma semana é suficiente.
+
+E o conteúdo já está pronto, é só assistir.
+
+O conteúdo já está pronto.
+
+Aí a gente vai avançar pra essa parte de implementar a estratégia pra trazer esse cliente dentro da mentoria.
+
+Exato.
+
+Assim, entregar tecnicamente, uma semana você vai conseguir.
+
+Agora a gente vai atrás desse cliente.
+
+Então pegar esse primeiro cliente, eu não posso te garantir que a gente vai pegar em uma semana.
+
+Mas o que eu posso te garantir é que quando ele chegar, você vai estar pronto pra entregar.
+
+Mas não se preocupa com isso, porque lembra, eu vou ajudar você na primeira entrega.
+
+Beleza?
+
+É isso que eu estou falando, gente, eu só preciso que vocês implementem.
+
+Implementem a estratégia.
+
+O primeiro cliente eu vou ajudar você a entregar, mas eu preciso que você implemente, porque esse cliente precisa chegar.
+
+Eu não posso deixar que você aprenda só a entregar tecnicamente, eu preciso fazer você faturar com esse conhecimento, então a gente precisa desse cliente.
+
+Então essas mentorias vão ser pra gente implementar e rodar essa estratégia pra que esse cliente chegue.
+
+E quando ele chegar, você vai entrar em contato com a minha equipe e a gente vai te ajudar a entregar isso pro cliente.
+
+Maravilha?
+
+Show de bola?
+
+Mais alguma dúvida, alguém quer fazer mais alguma pergunta antes da gente encerrar aqui?
+
+Maravilha.
+
+Então é isso aí, turminha.
+
+Vamos ficando por aqui, uma boa noite pra vocês.
+
+A galera que já está chegando junto aí na mentoria, se prepare, porque coisas grandes vão acontecer ainda esse ano.
+
+Se prepara, eu vou estar junto com você nessa jornada.
+
+Fechou?
+
+Valeu, turma.
+
+Boa noite, fiquem com Deus e até a próxima.

@@ -1,0 +1,4745 @@
+WEBVTT
+
+1
+00:00:03.520 --> 00:00:04.460
+Fala, turma.
+
+2
+00:00:05.340 --> 00:00:06.620
+Boa tarde.
+
+3
+00:00:07.960 --> 00:00:11.280
+Estamos ao vivo. Sejam todos
+
+4
+00:00:11.660 --> 00:00:12.790
+muito bem-vindos à
+
+5
+00:00:14.120 --> 00:00:15.900
+nossa super aula:
+
+6
+00:00:16.900 --> 00:00:20.740
+Virada de TI 30K. Como implementar um sistema que
+
+7
+00:00:20.760 --> 00:00:24.540
+leva o consultor de TI a um faturamento de 30 mil
+
+8
+00:00:24.660 --> 00:00:28.610
+por mês. E diferente do que muita gente acha,
+
+9
+00:00:29.820 --> 00:00:33.740
+chegar a um faturamento de 30 mil por mês, nem sempre é ter mais
+
+10
+00:00:33.780 --> 00:00:37.520
+clientes. E eu quero mostrar pra vocês esses
+
+11
+00:00:37.600 --> 00:00:41.320
+detalhes aqui nessa aula, explicar um
+
+12
+00:00:41.440 --> 00:00:43.860
+pouco pra vocês desse sistema,
+
+13
+00:00:44.700 --> 00:00:48.680
+como criar esse sistema pra ter esse faturamento, como criar
+
+14
+00:00:48.700 --> 00:00:52.280
+esse framework pra ter esse faturamento recorrente de
+
+15
+00:00:52.440 --> 00:00:55.500
+30 mil todos os meses, sem
+
+16
+00:00:55.540 --> 00:00:59.380
+precisar de dezenas e mais dezenas, ou
+
+17
+00:00:59.460 --> 00:01:03.060
+às vezes centenas de clientes. Então quero passar aqui
+
+18
+00:01:03.220 --> 00:01:07.120
+todos esses detalhes com vocês e no final, eu quero mostrar como que a gente
+
+19
+00:01:07.160 --> 00:01:10.700
+consegue ajudar quem está nessa jornada de criar uma
+
+20
+00:01:10.720 --> 00:01:12.100
+empresa de consultoria
+
+21
+00:01:13.080 --> 00:01:16.200
+previsível, com faturamento de 30 mil por mês.
+
+22
+00:01:16.680 --> 00:01:20.260
+Maravilha? Todo mundo ouvindo bem, todo mundo vendo aqui o mapa mental?
+
+23
+00:01:20.300 --> 00:01:23.600
+Comentem aí no chat se está tudo certo, se podemos
+
+24
+00:01:23.640 --> 00:01:24.500
+começar.
+
+25
+00:01:29.400 --> 00:01:31.180
+Sim, tudo certo.
+
+26
+00:01:32.780 --> 00:01:36.650
+Show de bola. Vamos lá, pessoal. A primeira coisa
+
+27
+00:01:36.760 --> 00:01:40.360
+que eu quero mostrar pra vocês, eu quero dar um exemplo,
+
+28
+00:01:41.380 --> 00:01:42.660
+essa questão de:
+
+29
+00:01:43.720 --> 00:01:44.040
+para
+
+30
+00:01:48.660 --> 00:01:51.340
+faturar mais,
+
+31
+00:01:53.240 --> 00:01:54.820
+eu preciso
+
+32
+00:01:56.820 --> 00:01:57.730
+de mais clientes?
+
+33
+00:02:03.020 --> 00:02:03.900
+Aqui,
+
+34
+00:02:05.020 --> 00:02:07.660
+nem sempre é verdadeiro.
+
+35
+00:02:08.420 --> 00:02:12.120
+Eu vou pegar aqui pra
+
+36
+00:02:12.180 --> 00:02:15.300
+começar, uma média de mercado.
+
+37
+00:02:15.700 --> 00:02:18.240
+Hoje, a gente tem uma média de mercado
+
+38
+00:02:19.080 --> 00:02:22.240
+de consultores que cobram
+
+39
+00:02:24.380 --> 00:02:25.780
+R$ 100 a hora.
+
+40
+00:02:28.360 --> 00:02:32.020
+Maravilha? Se a gente pegar uma
+
+41
+00:02:32.140 --> 00:02:35.760
+média de trabalho também, uma média de 40 horas semanal,
+
+42
+00:02:39.580 --> 00:02:42.820
+eu estou falando de
+
+43
+00:02:43.140 --> 00:02:46.960
+160 horas/mês.
+
+44
+00:02:50.000 --> 00:02:53.080
+Certo? Então estou falando de 160 horas por mês.
+
+45
+00:02:53.880 --> 00:02:54.680
+Se eu pegar
+
+46
+00:02:55.620 --> 00:02:57.420
+160 horas/mês
+
+47
+00:02:59.400 --> 00:03:00.160
+versus
+
+48
+00:03:01.380 --> 00:03:04.540
+R$ 100 a minha hora, eu estou falando de um
+
+49
+00:03:04.620 --> 00:03:06.700
+faturamento de 16 mil.
+
+50
+00:03:07.520 --> 00:03:09.140
+Maravilha? Todo mundo acompanhando aqui?
+
+51
+00:03:10.260 --> 00:03:12.760
+Eu posso ser bem sincero com vocês, de verdade?
+
+52
+00:03:12.800 --> 00:03:14.260
+Vocês me permitem isso?
+
+53
+00:03:16.220 --> 00:03:18.020
+Quem permite, digita o número um aí.
+
+54
+00:03:18.060 --> 00:03:21.480
+Vocês permitem eu ser bem sincero com vocês com o que eu vou falar agora?
+
+55
+00:03:22.240 --> 00:03:23.680
+Sendo bem sincero mesmo.
+
+56
+00:03:24.800 --> 00:03:28.660
+Cara, se hoje você ganha 16 mil reais, vai pra
+
+57
+00:03:28.700 --> 00:03:29.980
+CLT.
+
+58
+00:03:31.080 --> 00:03:32.660
+Volta pra CLT.
+
+59
+00:03:33.840 --> 00:03:35.340
+Não faz sentido hoje,
+
+60
+00:03:36.660 --> 00:03:38.380
+você como empresário,
+
+61
+00:03:40.240 --> 00:03:43.860
+ganhar 16 mil reais por mês. Não faz, porque pensa: 16 mil,
+
+62
+00:03:44.280 --> 00:03:44.980
+tem imposto.
+
+63
+00:03:46.000 --> 00:03:48.160
+16 mil, você tem que pagar um
+
+64
+00:03:48.200 --> 00:03:52.080
+convênio. Volta pra CLT. Não
+
+65
+00:03:54.560 --> 00:03:55.120
+compensa.
+
+66
+00:03:57.000 --> 00:03:58.340
+E vou além, você vai ganhar muito mais.
+
+67
+00:03:58.380 --> 00:04:00.600
+Se hoje você fatura como empresário,
+
+68
+00:04:01.400 --> 00:04:05.100
+com CNPJ e tudo. Se hoje você tem um faturamento de 16
+
+69
+00:04:05.120 --> 00:04:09.000
+mil, na área de tecnologia, CLT você vai ganhar muito
+
+70
+00:04:09.020 --> 00:04:10.660
+mais, te garanto.
+
+71
+00:04:13.640 --> 00:04:16.079
+Não vale a pena. Hoje, na minha visão,
+
+72
+00:04:16.481 --> 00:04:20.421
+só vale a
+
+73
+00:04:20.601 --> 00:04:24.300
+pena continuar como empresário, se
+
+74
+00:04:24.340 --> 00:04:27.719
+você ganha no mínimo 30 mil.
+
+75
+00:04:28.400 --> 00:04:29.500
+Na minha visão,
+
+76
+00:04:30.320 --> 00:04:33.340
+fatura menos de 30 mil, volta pra CLT.
+
+77
+00:04:34.380 --> 00:04:37.800
+A não ser que a sua empresa esteja em
+
+78
+00:04:37.820 --> 00:04:39.360
+construção.
+
+79
+00:04:40.540 --> 00:04:44.200
+Maravilha, mas a sua meta sempre tem que ser
+
+80
+00:04:44.220 --> 00:04:45.400
+30 mil ou mais.
+
+81
+00:04:46.440 --> 00:04:49.900
+Não vale a pena ter uma empresa de consultoria pra
+
+82
+00:04:50.060 --> 00:04:51.730
+faturar menos de 30 mil.
+
+83
+00:04:52.800 --> 00:04:55.200
+Só que qual é o cenário que a gente vê hoje?
+
+84
+00:04:57.940 --> 00:05:00.380
+Qual é o cenário que a gente vê hoje?
+
+85
+00:05:00.460 --> 00:05:03.620
+São profissionais trabalhando
+
+86
+00:05:03.980 --> 00:05:05.090
+240,
+
+87
+00:05:05.960 --> 00:05:09.740
+280 horas por mês
+
+88
+00:05:11.260 --> 00:05:12.080
+pra receber
+
+89
+00:05:13.100 --> 00:05:13.920
+20 mil reais.
+
+90
+00:05:17.140 --> 00:05:21.110
+Trabalha muito mais do que trabalharia com CLT pra ganhar, se você for pôr
+
+91
+00:05:21.160 --> 00:05:22.920
+nas proporções, pra ganhar menos.
+
+92
+00:05:23.460 --> 00:05:26.760
+Esse é o cenário que a gente vê hoje.
+
+93
+00:05:26.860 --> 00:05:28.170
+Esse é o cenário mais comum.
+
+94
+00:05:31.700 --> 00:05:34.160
+O cara acha lindo, faturo 20 mil.
+
+95
+00:05:35.580 --> 00:05:39.040
+Só que fala aí, amigão, quanto que efetivamente
+
+96
+00:05:40.020 --> 00:05:44.000
+é o faturamento? É porque 20 mil é o bruto, mas tem imposto,
+
+97
+00:05:45.400 --> 00:05:49.099
+tem um convênio médico, que se você fosse CLT, você não precisaria pagar.
+
+98
+00:05:49.300 --> 00:05:50.820
+Está ali dentro dos benefícios.
+
+99
+00:05:52.480 --> 00:05:56.320
+Faz as contas e vê se não vale a pena você voltar pra CLT. É claro que vale.
+
+100
+00:05:58.100 --> 00:06:01.640
+Só que tem muita gente hoje que está nesse cenário, porque está no
+
+101
+00:06:01.680 --> 00:06:05.640
+modelo de negócio errado, tem uma visão extremamente
+
+102
+00:06:05.720 --> 00:06:06.260
+limitada
+
+103
+00:06:10.210 --> 00:06:13.900
+Fica só dependendo de indicação. Então, cara, na boa, depende de indicação,
+
+104
+00:06:13.990 --> 00:06:17.790
+volta pro CLT e deixa a indicação pra você fazer fora do horário.
+
+105
+00:06:17.910 --> 00:06:19.990
+Te garanto que você vai ficar muito mais feliz,
+
+106
+00:06:21.070 --> 00:06:24.930
+te garanto que você vai ganhar muito mais e vai ter muito menos trabalho.
+
+107
+00:06:25.030 --> 00:06:27.550
+Gente, prestação de serviço, ser empresário,
+
+108
+00:06:29.890 --> 00:06:30.870
+não é pra qualquer um.
+
+109
+00:06:32.800 --> 00:06:36.510
+Por isso que eu perguntei: "Gente, posso ser sincero com vocês hoje?" Porque, cara,
+
+110
+00:06:36.600 --> 00:06:37.550
+essa é a verdade.
+
+111
+00:06:38.770 --> 00:06:40.730
+Ser empresário não é pra qualquer um.
+
+112
+00:06:42.010 --> 00:06:43.890
+Você quer ver? Talvez
+
+113
+00:06:44.690 --> 00:06:45.770
+alguns de vocês
+
+114
+00:06:47.550 --> 00:06:50.070
+se apresentam assim em algum momento.
+
+115
+00:06:50.190 --> 00:06:53.790
+Eu odeio essa palavra, eu odeio.
+
+116
+00:06:54.780 --> 00:06:56.590
+"O que você é?" "Eu sou um freelancer
+
+117
+00:06:58.090 --> 00:06:58.570
+de TI."
+
+118
+00:07:00.210 --> 00:07:04.190
+Cara, se posicionar como isso aqui no mercado é a pior coisa que tem no
+
+119
+00:07:04.250 --> 00:07:07.390
+mundo, mas eu já vou falar um pouquinho mais sobre isso.
+
+120
+00:07:07.410 --> 00:07:08.110
+Então hoje,
+
+121
+00:07:08.950 --> 00:07:12.590
+qual é o cenário? O cara largou o CLT pra empreender
+
+122
+00:07:14.729 --> 00:07:18.610
+achando, vamos lá. Vocês podem ir me complementando
+
+123
+00:07:18.670 --> 00:07:19.850
+aí no chat.
+
+124
+00:07:20.850 --> 00:07:21.390
+Por que
+
+125
+00:07:23.750 --> 00:07:25.300
+eu quero virar
+
+126
+00:07:26.850 --> 00:07:28.910
+um empreendedor?
+
+127
+00:07:30.990 --> 00:07:34.650
+Aí vem: "Ah, eu quero ser meu chefe." Podem dar
+
+128
+00:07:34.710 --> 00:07:36.570
+sugestões aí que eu vou pondo aqui.
+
+129
+00:07:36.580 --> 00:07:37.270
+"Eu quero ser
+
+130
+00:07:38.230 --> 00:07:39.210
+meu próprio chefe.
+
+131
+00:07:46.180 --> 00:07:47.010
+Quero ganhar mais.
+
+132
+00:07:51.810 --> 00:07:52.930
+Quero trabalhar menos."
+
+133
+00:07:54.170 --> 00:07:57.990
+Eu vou colocar uma aqui que é uma ilusão que espero, de verdade, que
+
+134
+00:07:58.030 --> 00:08:00.330
+nenhum de vocês tenham essa ilusão.
+
+135
+00:08:00.380 --> 00:08:02.030
+"Quero trabalhar
+
+136
+00:08:04.170 --> 00:08:05.290
+de sunga na praia."
+
+137
+00:08:07.110 --> 00:08:09.030
+Você achar que empreendedor não faz nada.
+
+138
+00:08:11.030 --> 00:08:14.130
+Então geralmente as pessoas querem empreender, isso não é só pra área de
+
+139
+00:08:14.170 --> 00:08:18.109
+tecnologia, mas as pessoas querem empreender, porque
+
+140
+00:08:18.150 --> 00:08:22.010
+elas não querem ter chefe, porque elas querem ganhar mais e elas
+
+141
+00:08:22.030 --> 00:08:24.860
+querem trabalhar menos. Só que a realidade,
+
+142
+00:08:26.110 --> 00:08:28.430
+inclusive, pessoal, isso não sou eu que estou falando.
+
+143
+00:08:28.590 --> 00:08:32.510
+Se você entra lá no SEBRAE, tem
+
+144
+00:08:32.591 --> 00:08:36.550
+vários dados públicos lá. Esses dados que eu estou falando aqui pra vocês estão
+
+145
+00:08:36.591 --> 00:08:37.451
+lá.
+
+146
+00:08:38.831 --> 00:08:39.451
+Hoje,
+
+147
+00:08:40.810 --> 00:08:43.990
+a maioria dos microempresários,
+
+148
+00:08:45.350 --> 00:08:49.200
+quando fala que quer virar um empreendedor, entra para querer ganhar mais,
+
+149
+00:08:49.350 --> 00:08:50.290
+e eles ganham mais.
+
+150
+00:08:53.690 --> 00:08:54.170
+Porém,
+
+151
+00:08:55.370 --> 00:08:59.020
+o problema vem aqui, eles ganham mais, mas trabalham muito mais
+
+152
+00:08:59.070 --> 00:09:00.730
+também
+
+153
+00:09:02.310 --> 00:09:05.810
+pra conseguir aquilo. E quando a gente vem pra área de
+
+154
+00:09:05.850 --> 00:09:08.590
+tecnologia, isso aqui é um absurdo.
+
+155
+00:09:12.890 --> 00:09:16.800
+Chega a beirar isso aqui que eu estou falando, cara, trabalhar 240,
+
+156
+00:09:17.190 --> 00:09:20.500
+280 horas por mês pra ganhar 20 mil reais,
+
+157
+00:09:21.150 --> 00:09:22.490
+não faz sentido nenhum.
+
+158
+00:09:23.950 --> 00:09:24.950
+Gente, hoje
+
+159
+00:09:27.370 --> 00:09:31.040
+uma boa parte das pessoas, dos empresários de tecnologia
+
+160
+00:09:31.550 --> 00:09:33.890
+que buscam a nossa ajuda, o
+
+161
+00:09:35.210 --> 00:09:38.590
+que eles querem de ajuda?
+
+162
+00:09:44.010 --> 00:09:47.650
+Cara, hoje ele não quer, muitas vezes,
+
+163
+00:09:47.710 --> 00:09:49.310
+faturar muito mais.
+
+164
+00:09:52.570 --> 00:09:55.950
+O que ele quer? Ele quer faturar trabalhando
+
+165
+00:09:56.010 --> 00:09:59.710
+menos. E sim, é possível faturar
+
+166
+00:09:59.770 --> 00:10:03.650
+trabalhando menos. Tudo vai depender de como você
+
+167
+00:10:03.690 --> 00:10:04.840
+monta o seu modelo.
+
+168
+00:10:06.370 --> 00:10:10.350
+Primeira coisa que vocês precisam, eu vou fazer uma pergunta e eu quero que vocês
+
+169
+00:10:10.390 --> 00:10:11.730
+sejam bem sinceros.
+
+170
+00:10:14.990 --> 00:10:18.790
+Hoje, eu acredito que a maioria, senão vocês não estariam aqui numa aula com esse
+
+171
+00:10:18.830 --> 00:10:22.050
+tema. Hoje, quantos de vocês aqui
+
+172
+00:10:22.550 --> 00:10:25.790
+querem faturar 30 mil por mês de forma
+
+173
+00:10:25.990 --> 00:10:29.360
+previsível com a empresa de TI de vocês, com a
+
+174
+00:10:29.429 --> 00:10:32.060
+consultoria de TI de vocês? Digita o número um aí.
+
+175
+00:10:35.530 --> 00:10:39.350
+Quantos de vocês que estão aqui nessa aula, que querem ter
+
+176
+00:10:39.390 --> 00:10:42.990
+esse faturamento de 30 mil reais por mês, pra mim é o mínimo.
+
+177
+00:10:44.350 --> 00:10:47.600
+Pra você ser um empreendedor, pra você ser um empresário,
+
+178
+00:10:48.270 --> 00:10:49.350
+pra mim é o mínimo,
+
+179
+00:10:50.210 --> 00:10:52.810
+30 mil por mês pra valer a pena, senão volta pra ser
+
+180
+00:10:52.830 --> 00:10:55.310
+CLT. Maravilha.
+
+181
+00:10:56.210 --> 00:10:59.150
+Eu posso falar outra verdade aqui pra vocês?
+
+182
+00:10:59.850 --> 00:11:03.470
+Vocês não vão conseguir chegar num faturamento desse previsível.
+
+183
+00:11:03.490 --> 00:11:07.310
+Eu não estou falando de mês fatura, estou falando de algo previsível, que é o que
+
+184
+00:11:07.350 --> 00:11:11.130
+uma empresa faz. Vocês não vão conseguir chegar nesse
+
+185
+00:11:11.170 --> 00:11:15.070
+nível de resultado enquanto vocês não mudarem o mindset
+
+186
+00:11:15.080 --> 00:11:17.410
+de vocês pra um mindset de empresário.
+
+187
+00:11:18.950 --> 00:11:20.790
+Enquanto vocês tiverem
+
+188
+00:11:21.950 --> 00:11:22.580
+levando a
+
+189
+00:11:23.650 --> 00:11:26.650
+empresa de vocês mesmo como um
+
+190
+00:11:26.730 --> 00:11:30.140
+freelance, como uma prestação de serviço,
+
+191
+00:11:30.590 --> 00:11:34.330
+como um lugar onde eu tiro dinheiro pra pagar os
+
+192
+00:11:34.350 --> 00:11:37.970
+boletos. Enquanto você não colocar uma visão de empreendedor no
+
+193
+00:11:38.010 --> 00:11:39.150
+negócio de vocês,
+
+194
+00:11:39.970 --> 00:11:43.620
+vai ser muito difícil vocês conseguirem atingir esse valor de maneira
+
+195
+00:11:43.620 --> 00:11:44.190
+previsível.
+
+196
+00:11:45.410 --> 00:11:48.730
+Existem
+
+197
+00:11:48.770 --> 00:11:52.250
+vários artigos, várias
+
+198
+00:11:52.350 --> 00:11:56.070
+notas que o SEBRAE solta, que cara, hoje quem
+
+199
+00:11:56.250 --> 00:11:59.450
+abre uma microempresa, a média de
+
+200
+00:11:59.530 --> 00:12:03.070
+sobrevivência dessa empresa é de um a dois anos.
+
+201
+00:12:03.090 --> 00:12:06.890
+Mas por quê? Porque muita gente abre uma empresa sem ter
+
+202
+00:12:06.930 --> 00:12:10.650
+essa visão de empreendedor. Em outras palavras, as pessoas
+
+203
+00:12:11.470 --> 00:12:14.350
+abrem empresas sem estar preparadas
+
+204
+00:12:15.562 --> 00:12:19.542
+Só que na maioria das vezes, essa preparação não exige muita
+
+205
+00:12:19.702 --> 00:12:23.362
+coisa, você não precisa fazer um megablaster curso.
+
+206
+00:12:23.502 --> 00:12:23.942
+Não!
+
+207
+00:12:25.462 --> 00:12:27.422
+É você tratar aquilo como uma empresa.
+
+208
+00:12:27.762 --> 00:12:30.842
+O que uma empresa precisa para ser sustentável?
+
+209
+00:12:30.942 --> 00:12:32.942
+Uma empresa precisa de crescimento.
+
+210
+00:12:33.762 --> 00:12:34.792
+Eu
+
+211
+00:12:35.942 --> 00:12:39.862
+sei disso, porque eu converso com muita gente dessa
+
+212
+00:12:39.942 --> 00:12:43.902
+área. Se eu pegar aqui vocês que já têm empresas de consultoria,
+
+213
+00:12:44.702 --> 00:12:48.602
+a maioria de vocês não tem uma previsão de crescimento semestral,
+
+214
+00:12:48.662 --> 00:12:50.522
+uma previsão de crescimento anual.
+
+215
+00:12:52.182 --> 00:12:56.162
+A maioria de vocês hoje não sabe de onde vai vir
+
+216
+00:12:56.202 --> 00:12:59.322
+o próximo projeto. Então se eu perguntar para vocês: "Cara, de onde vai vir os
+
+217
+00:12:59.342 --> 00:13:02.501
+próximos projetos dos próximos anos?" A maioria de vocês não sabe.
+
+218
+00:13:02.802 --> 00:13:06.362
+A maioria vai falar: "Cara, só vai vir se alguém indicar, se ninguém indicar, não
+
+219
+00:13:06.382 --> 00:13:06.582
+vem".
+
+220
+00:13:10.922 --> 00:13:14.792
+Quando você tem o "mindset" de empresário, você não fica esperando a coisa
+
+221
+00:13:14.802 --> 00:13:18.702
+acontecer. "Poxa, eu preciso aumentar o meu faturamento para o próximo
+
+222
+00:13:18.742 --> 00:13:19.982
+mês em 5%.
+
+223
+00:13:21.342 --> 00:13:25.222
+Vou esperar uma indicação nova". Não, o que eu tenho
+
+224
+00:13:25.302 --> 00:13:27.982
+que fazer para conseguir esses 5%?
+
+225
+00:13:28.602 --> 00:13:32.042
+Eu vou arregaçar as mangas e vou para cima.
+
+226
+00:13:32.062 --> 00:13:32.072
+Eu
+
+227
+00:13:33.382 --> 00:13:36.842
+já vivi esse cenário, por isso que eu posso falar com propriedade.
+
+228
+00:13:37.382 --> 00:13:38.732
+Muitos de vocês,
+
+229
+00:13:41.842 --> 00:13:43.402
+hoje é o famoso
+
+230
+00:13:44.602 --> 00:13:45.482
+eu consultor.
+
+231
+00:13:46.842 --> 00:13:50.462
+Que é o quê? Ou eu prestador. Você trabalha
+
+232
+00:13:50.522 --> 00:13:54.362
+sozinho, então você é o responsável pela parte administrativa
+
+233
+00:13:54.402 --> 00:13:57.982
+da sua empresa, você é o responsável pela entrega do serviço, você é
+
+234
+00:13:58.022 --> 00:14:01.262
+responsável por tentar prospectar novos clientes.
+
+235
+00:14:02.642 --> 00:14:06.102
+E o problema de verdade não está aqui, eu também comecei assim.
+
+236
+00:14:06.442 --> 00:14:07.742
+O problema não está aqui.
+
+237
+00:14:08.682 --> 00:14:12.402
+O problema é quando você faz tudo sozinho, você tem que tentar
+
+238
+00:14:12.442 --> 00:14:15.902
+otimizar o seu tempo ao máximo para algo que importa.
+
+239
+00:14:18.562 --> 00:14:22.442
+Poucos de vocês aqui que trabalham nesse modelo de eu consultor, você
+
+240
+00:14:22.482 --> 00:14:26.022
+faz tudo, pouco de vocês
+
+241
+00:14:26.061 --> 00:14:29.752
+separam algumas horas por semana para ver: "Como que eu vou conseguir novos
+
+242
+00:14:29.842 --> 00:14:33.262
+clientes?" Muita gente que não faz isso, fica só dependendo de indicação.
+
+243
+00:14:34.662 --> 00:14:37.462
+E tudo isso é uma visão de um empreendedor.
+
+244
+00:14:37.492 --> 00:14:40.802
+O empreendedor tem que olhar para o negócio dele e falar: "Cara, como que eu faço
+
+245
+00:14:40.822 --> 00:14:43.922
+para ter um faturamento maior, para deixar o meu negócio sustentável?
+
+246
+00:14:44.502 --> 00:14:46.762
+Quais são as fases? Quais são os marcos?
+
+247
+00:14:46.842 --> 00:14:50.182
+Quais são as metas?" Alguns de vocês nem metas têm.
+
+248
+00:14:51.182 --> 00:14:52.062
+E o pior,
+
+249
+00:14:53.962 --> 00:14:57.762
+além de não ter meta, porque meta por meta não adianta nada,
+
+250
+00:14:57.822 --> 00:15:00.962
+você chegar para mim e falar: "Cara, eu tenho a meta de 30 mil". Beleza.
+
+251
+00:15:01.842 --> 00:15:03.562
+Quando não atinge essa meta, você faz o quê?
+
+252
+00:15:03.702 --> 00:15:07.382
+"Não faço nada, eu vou para o próximo mês e espero que o próximo mês eu atinja".
+
+253
+00:15:08.062 --> 00:15:11.962
+Não! "Cara, estou fora da meta, o que eu preciso fazer? O que eu preciso melhorar?
+
+254
+00:15:12.262 --> 00:15:16.182
+Onde eu estou errando?" O empresário precisa
+
+255
+00:15:16.222 --> 00:15:17.232
+pensar nisso tudo.
+
+256
+00:15:18.402 --> 00:15:22.102
+Mas você só vai ter essa visão quando você mudar esse "mindset", quando você
+
+257
+00:15:22.162 --> 00:15:24.782
+olhar para o seu negócio, olhar e falar: "Cara, espera aí.
+
+258
+00:15:26.242 --> 00:15:30.062
+Cara, eu estou faturando, beleza". Mas gente, vamos lá.
+
+259
+00:15:31.142 --> 00:15:32.762
+Não precisam colocar valores.
+
+260
+00:15:34.142 --> 00:15:37.442
+Não precisa colocar valores. Mas hoje, quem está
+
+261
+00:15:38.942 --> 00:15:41.702
+contente com o faturamento que tem hoje?
+
+262
+00:15:43.442 --> 00:15:47.202
+Cara, se vocês estão numa aula com esse tema de faturamento de 30 mil,
+
+263
+00:15:47.282 --> 00:15:51.162
+acredito que nenhum de vocês estão 100% satisfeitos com o que
+
+264
+00:15:51.182 --> 00:15:55.142
+vocês faturam hoje. Seja porque trabalha
+
+265
+00:15:55.222 --> 00:15:55.822
+demais,
+
+266
+00:15:57.322 --> 00:16:01.302
+e o que cai na conta, você vê que, poxa, não é o valor com o serviço que
+
+267
+00:16:01.342 --> 00:16:02.602
+vocês estão entregando.
+
+268
+00:16:04.882 --> 00:16:08.862
+Mas enquanto vocês não fizerem, não ter esse "mindset" de
+
+269
+00:16:08.962 --> 00:16:10.982
+empreendedor
+
+270
+00:16:11.962 --> 00:16:15.902
+e começar a fazer coisas para mudar esse cenário, não vai adiantar
+
+271
+00:16:15.982 --> 00:16:16.902
+ficar reclamando.
+
+272
+00:16:19.922 --> 00:16:21.382
+Não vai adiantar ficar reclamando.
+
+273
+00:16:21.442 --> 00:16:24.262
+O que eu posso falar para vocês com certeza e
+
+274
+00:16:24.322 --> 00:16:27.762
+propriedade, é que mercado tem muito, só que hoje,
+
+275
+00:16:27.882 --> 00:16:29.952
+diferente do que a gente tinha no passado,
+
+276
+00:16:30.882 --> 00:16:34.802
+hoje o mercado é mais seletivo. Ou seja, se eu
+
+277
+00:16:34.862 --> 00:16:38.342
+não consigo me posicionar de uma maneira adequada no mercado,
+
+278
+00:16:39.882 --> 00:16:41.862
+eu não vou conseguir a atenção dos clientes.
+
+279
+00:16:41.962 --> 00:16:45.362
+Se eu não tenho a atenção dos clientes, eu não vou conseguir fechar contratos, não
+
+280
+00:16:45.382 --> 00:16:47.682
+vou conseguir fechar propostas.
+
+281
+00:16:49.602 --> 00:16:49.612
+O
+
+282
+00:16:50.842 --> 00:16:54.502
+jogo hoje é o posicionamento. Aquele que se posiciona
+
+283
+00:16:54.542 --> 00:16:57.802
+melhor, é aquele que vai faturar mais e mais
+
+284
+00:16:57.842 --> 00:17:01.482
+rápido. Hoje o jogo é o jogo do posicionamento, é quem sabe se
+
+285
+00:17:01.502 --> 00:17:05.462
+posicionar melhor. Só que qual é o problema e por que isso vai
+
+286
+00:17:05.522 --> 00:17:08.902
+fazer com que cada vez seja mais difícil ter resultados?
+
+287
+00:17:08.942 --> 00:17:11.642
+A maioria se posiciona de maneira genérica demais.
+
+288
+00:17:12.902 --> 00:17:16.282
+A maioria se posiciona como freelancer, como prestador de serviço,
+
+289
+00:17:16.942 --> 00:17:17.841
+muito genérico.
+
+290
+00:17:22.162 --> 00:17:26.083
+O mercado tem que olhar para você e já entender o
+
+291
+00:17:26.182 --> 00:17:28.002
+que você ajuda, o valor que você gera.
+
+292
+00:17:28.462 --> 00:17:30.052
+Hoje, gente, não é mais
+
+293
+00:17:30.522 --> 00:17:33.982
+essa
+
+294
+00:17:34.082 --> 00:17:37.892
+questão de "eu sou o melhor técnico".
+
+295
+00:17:38.002 --> 00:17:39.322
+Cara, isso já passou.
+
+296
+00:17:40.562 --> 00:17:41.442
+Hoje é valor.
+
+297
+00:17:42.482 --> 00:17:45.822
+Aquele que conseguir mostrar para a empresa que consegue gerar valor com seu
+
+298
+00:17:45.862 --> 00:17:48.742
+serviço, são aqueles que vão faturar.
+
+299
+00:17:48.802 --> 00:17:50.822
+O restante é o que sempre vai ter mais
+
+300
+00:17:50.842 --> 00:17:54.742
+dificuldade. E eu posso dar aqui "n"
+
+301
+00:17:55.062 --> 00:17:58.822
+exemplos de como transformar um serviço simples em um serviço que gera
+
+302
+00:17:58.842 --> 00:18:02.672
+valor. Todo serviço gera valor, mas eu preciso
+
+303
+00:18:02.702 --> 00:18:04.652
+tangibilizar isso para o meu cliente.
+
+304
+00:18:06.242 --> 00:18:09.442
+Essa é a dificuldade que muitos de vocês têm.
+
+305
+00:18:11.362 --> 00:18:14.942
+Pegando esse cenário aqui: trabalho muito e ganho pouco
+
+306
+00:18:16.582 --> 00:18:19.251
+Hoje, a gente ajuda muita gente ao contrário.
+
+307
+00:18:19.251 --> 00:18:22.862
+"Cara, eu até faturo, só que eu trabalho muito, eu preciso faturar
+
+308
+00:18:22.942 --> 00:18:26.372
+menos". O que a gente faz com quem chega com esse problema?
+
+309
+00:18:26.452 --> 00:18:29.242
+"Cara, eu faturo muito, eu já tenho um bom faturamento.
+
+310
+00:18:29.262 --> 00:18:32.302
+Só que pra eu ter aquele faturamento, eu preciso trabalhar demais".
+
+311
+00:18:33.312 --> 00:18:37.302
+Então o que a gente faz com esses empresários que
+
+312
+00:18:37.322 --> 00:18:41.242
+chegam até a gente? Eu preciso reposicionar ele, eu preciso fazer com
+
+313
+00:18:41.342 --> 00:18:44.842
+que cada cliente pague mais pra ele, pra que ele tenha
+
+314
+00:18:45.282 --> 00:18:46.362
+menos cliente. Porque
+
+315
+00:18:47.222 --> 00:18:50.822
+isso aqui é um absurdo, mas tem gente que pra ter um
+
+316
+00:18:50.862 --> 00:18:54.442
+faturamento de 20 mil por mês, precisa
+
+317
+00:18:54.502 --> 00:18:58.222
+atender mais de 50 clientes. Isso aqui é um absurdo, você não tem
+
+318
+00:18:58.362 --> 00:19:02.262
+vida.
+
+319
+00:19:04.682 --> 00:19:06.602
+Pra mim,
+
+320
+00:19:08.202 --> 00:19:09.942
+vocês que colocaram aí
+
+321
+00:19:11.082 --> 00:19:14.382
+que querem faturar 30 mil reais por mês de maneira
+
+322
+00:19:14.402 --> 00:19:17.282
+previsível. "Quero chegar nos 30
+
+323
+00:19:17.322 --> 00:19:19.802
+mil reais por
+
+324
+00:19:20.602 --> 00:19:21.982
+mês, de maneira previsível."
+
+325
+00:19:25.072 --> 00:19:26.942
+Pra mim, aqui,
+
+326
+00:19:27.862 --> 00:19:29.942
+cinco a 10 clientes no
+
+327
+00:19:29.962 --> 00:19:33.682
+máximo.
+
+328
+00:19:34.882 --> 00:19:37.702
+Mas tem gente que tem 50 clientes pra faturar 20.
+
+329
+00:19:40.302 --> 00:19:44.252
+Qual é a diferença do cara que tem 50 clientes pra faturar
+
+330
+00:19:44.342 --> 00:19:48.292
+20 mil, versus o cara que só tem cinco clientes e fatura 30 mil,
+
+331
+00:19:48.362 --> 00:19:49.232
+fatura ainda mais?
+
+332
+00:19:51.842 --> 00:19:52.532
+Posicionamento.
+
+333
+00:19:55.662 --> 00:19:59.522
+E às vezes é o mesmo cliente. Eu
+
+334
+00:19:59.562 --> 00:20:02.862
+não estou falando que esse cara trabalha em empresas diferentes.
+
+335
+00:20:03.342 --> 00:20:07.322
+Eu já vi isso várias e várias vezes e isso, inclusive,
+
+336
+00:20:07.382 --> 00:20:09.642
+já aconteceu com a gente aqui.
+
+337
+00:20:10.942 --> 00:20:11.502
+Que é o quê?
+
+338
+00:20:12.422 --> 00:20:13.252
+Vai um consultor
+
+339
+00:20:14.282 --> 00:20:15.762
+oferecer um serviço na empresa.
+
+340
+00:20:17.082 --> 00:20:21.042
+Esse consultor vai lá, faz tudo, chega lá:
+
+341
+00:20:21.302 --> 00:20:24.812
+"Pra fazer esse serviço, eu vou cobrar 20 mil".
+
+342
+00:20:28.162 --> 00:20:29.522
+O cliente vai falar: "Não.
+
+343
+00:20:32.002 --> 00:20:32.562
+Está caro."
+
+344
+00:20:35.802 --> 00:20:36.402
+Aí eu vou lá.
+
+345
+00:20:38.322 --> 00:20:39.182
+Mesmo cliente,
+
+346
+00:20:40.442 --> 00:20:43.702
+mesmo escopo, mesmo serviço, quanto que você cobra?
+
+347
+00:20:43.712 --> 00:20:44.522
+"Cobro 50."
+
+348
+00:20:45.522 --> 00:20:46.062
+Fechado.
+
+349
+00:20:47.302 --> 00:20:48.002
+Começa quando?
+
+350
+00:20:52.242 --> 00:20:55.842
+Como assim, um cliente, o mesmo
+
+351
+00:20:55.942 --> 00:20:59.822
+cliente, pega uma proposta de 20 mil e fala que
+
+352
+00:20:59.882 --> 00:21:03.472
+não vai fechar porque está caro e fecha com outra pessoa por um
+
+353
+00:21:03.502 --> 00:21:04.102
+valor
+
+354
+00:21:05.322 --> 00:21:05.842
+mais
+
+355
+00:21:06.902 --> 00:21:07.662
+do que o dobro?
+
+356
+00:21:11.542 --> 00:21:14.222
+Posicionamento.
+
+357
+00:21:17.802 --> 00:21:20.462
+Quer que eu fale um negócio pra vocês?
+
+358
+00:21:20.482 --> 00:21:24.002
+Hoje, cerca de 90% das
+
+359
+00:21:24.022 --> 00:21:27.222
+pessoas que tomam decisões pelas empresas,
+
+360
+00:21:27.422 --> 00:21:30.922
+90% que falam
+
+361
+00:21:30.982 --> 00:21:32.872
+que não têm dinheiro,
+
+362
+00:21:34.662 --> 00:21:36.362
+é mentira.
+
+363
+00:21:38.322 --> 00:21:39.762
+Noventa por cento
+
+364
+00:21:41.082 --> 00:21:42.922
+que fala que não tem dinheiro é mentira.
+
+365
+00:21:44.422 --> 00:21:47.202
+Na maioria das vezes, é o quê? Na maioria das vezes,
+
+366
+00:21:48.062 --> 00:21:51.622
+o jeito que você apresentou a sua solução não mostrou o
+
+367
+00:21:51.682 --> 00:21:55.671
+valor pra empresa. Se não mostra valor pra empresa, ela vira e fala: "Por
+
+368
+00:21:55.722 --> 00:21:57.142
+que eu preciso fazer isso agora?
+
+369
+00:21:58.082 --> 00:22:01.022
+Não, vou falar que a gente não tem dinheiro só pro cara não ficar enchendo o saco".
+
+370
+00:22:05.222 --> 00:22:05.982
+Gravem isso.
+
+371
+00:22:07.122 --> 00:22:07.862
+Gerar valor.
+
+372
+00:22:09.602 --> 00:22:10.682
+Quando eu faço isso,
+
+373
+00:22:11.622 --> 00:22:15.182
+mostro que o meu serviço gera valor e coloco a urgência,
+
+374
+00:22:15.671 --> 00:22:16.842
+o que seria a urgência?
+
+375
+00:22:19.822 --> 00:22:23.362
+"Você precisa disso agora".
+
+376
+00:22:29.502 --> 00:22:30.542
+Contrato fechado.
+
+377
+00:22:31.742 --> 00:22:34.332
+Quando você mostra o valor que o seu serviço gera
+
+378
+00:22:35.622 --> 00:22:36.822
+e que aquilo é urgente,
+
+379
+00:22:37.942 --> 00:22:39.932
+já era. É o que eu faço
+
+380
+00:22:41.062 --> 00:22:44.562
+numa empresa que rejeitou o contrato de um consultor de
+
+381
+00:22:44.802 --> 00:22:48.762
+20 e fecha comigo por 50. Eu mostro o valor
+
+382
+00:22:48.782 --> 00:22:49.842
+e gero a urgência.
+
+383
+00:22:51.822 --> 00:22:54.342
+Isso aqui são coisas que vocês precisam pegar.
+
+384
+00:22:54.822 --> 00:22:55.722
+Infelizmente,
+
+385
+00:22:55.802 --> 00:23:00.682
+não
+
+386
+00:23:00.722 --> 00:23:04.642
+tem o que fazer. Vocês têm
+
+387
+00:23:04.762 --> 00:23:05.682
+duas saídas
+
+388
+00:23:06.662 --> 00:23:10.522
+e não têm pra onde fugir, ou é uma ou é outra.
+
+389
+00:23:11.242 --> 00:23:13.682
+Número um: ou você
+
+390
+00:23:15.362 --> 00:23:16.242
+aprende a vender,
+
+391
+00:23:18.602 --> 00:23:19.222
+ou você
+
+392
+00:23:20.322 --> 00:23:21.202
+contrata
+
+393
+00:23:23.302 --> 00:23:24.622
+alguém pra vender por você.
+
+394
+00:23:27.162 --> 00:23:28.042
+Não tem o que
+
+395
+00:23:28.082 --> 00:23:31.162
+fazer.
+
+396
+00:23:31.192 --> 00:23:34.722
+Hoje, não é o técnico mais
+
+397
+00:23:34.742 --> 00:23:37.842
+conhecido que vai fazer com que uma proposta seja
+
+398
+00:23:37.882 --> 00:23:41.602
+fechada. O bom do técnico conhecido, do consultor
+
+399
+00:23:41.682 --> 00:23:44.032
+conhecido, da empresa conhecida,
+
+400
+00:23:44.922 --> 00:23:48.902
+o bom de tudo isso, é que você não precisa quebrar
+
+401
+00:23:48.982 --> 00:23:52.962
+muitas objeções, do tipo: "Pô, será que essa pessoa é a melhor pessoa?"
+
+402
+00:23:53.502 --> 00:23:57.182
+Então pra quem já tem nome no mercado, pra empresa que já tem
+
+403
+00:23:57.222 --> 00:23:58.822
+nome, eu pulo essa etapa.
+
+404
+00:24:00.242 --> 00:24:03.362
+Mas hoje, meu amigo, o que vale é quem
+
+405
+00:24:03.482 --> 00:24:07.042
+argumenta melhor dentro do valor que o serviço
+
+406
+00:24:07.052 --> 00:24:07.502
+entrega.
+
+407
+00:24:08.962 --> 00:24:11.202
+É assim que você ganha cliente hoje.
+
+408
+00:24:12.722 --> 00:24:14.602
+Por isso que eu gosto muito de usar essa frase aqui.
+
+409
+00:24:16.782 --> 00:24:19.382
+Se eu perguntar aqui pra vocês: quem precisa de cliente?
+
+410
+00:24:19.442 --> 00:24:21.392
+Todo mundo vai falar: "Eu". Certo?
+
+411
+00:24:21.842 --> 00:24:24.862
+Aí eu faço a segunda pergunta: "Mas espera aí
+
+412
+00:24:26.452 --> 00:24:28.672
+Você tem conhecimento para atender esses clientes?
+
+413
+00:24:28.752 --> 00:24:30.082
+Alguns vão falar: "Eu tenho um pouco".
+
+414
+00:24:30.692 --> 00:24:34.592
+Gente, hoje, o que faz vocês conseguirem mais clientes não é o
+
+415
+00:24:34.612 --> 00:24:35.112
+conhecimento
+
+416
+00:24:35.172 --> 00:24:41.652
+técnico.
+
+417
+00:24:41.712 --> 00:24:42.052
+Não é.
+
+418
+00:24:43.932 --> 00:24:47.592
+Vai ajudar? Não tenha dúvida, saibam interpretar.
+
+419
+00:24:47.872 --> 00:24:51.112
+Eu não estou falando que você não precisa de conhecimento técnico.
+
+420
+00:24:51.532 --> 00:24:55.452
+Quanto maior for seu conhecimento técnico, mais coisas você vai
+
+421
+00:24:55.492 --> 00:24:59.412
+oferecer, mais chances de fechar projetos você vai ter.
+
+422
+00:24:59.772 --> 00:25:02.292
+O que eu estou falando é que se você pegar uma pessoa
+
+423
+00:25:03.812 --> 00:25:06.992
+que conhece muito menos que você, não significa que essa
+
+424
+00:25:07.092 --> 00:25:10.292
+pessoa vai faturar menos que você, porque se ela
+
+425
+00:25:10.332 --> 00:25:13.952
+tiver uma linha de argumentação maior que a sua,
+
+426
+00:25:14.792 --> 00:25:18.552
+se ela souber mostrar o valor daquele serviço, ela vai faturar
+
+427
+00:25:18.612 --> 00:25:21.652
+muito mais que você conhecendo tecnicamente muito
+
+428
+00:25:21.672 --> 00:25:22.752
+menos.
+
+429
+00:25:26.352 --> 00:25:26.782
+Muito.
+
+430
+00:25:28.532 --> 00:25:32.332
+Eu tenho um cliente que a gente atende aqui, eu adoro dar esse
+
+431
+00:25:32.352 --> 00:25:36.212
+case, porque isso aqui mostra exatamente que não é só conhecimento
+
+432
+00:25:36.252 --> 00:25:40.112
+técnico. Eu tenho um cliente que a gente atende hoje, hoje ele deve faturar na
+
+433
+00:25:40.212 --> 00:25:41.952
+faixa dos 80 mil por mês.
+
+434
+00:25:43.952 --> 00:25:47.472
+E esse cara hoje, só vende uma coisa.
+
+435
+00:25:48.252 --> 00:25:52.092
+Se conhecimento técnico valesse, esse cara não
+
+436
+00:25:52.132 --> 00:25:54.472
+faturaria nada, porque ele vende um serviço só.
+
+437
+00:25:55.272 --> 00:25:59.232
+Eu já dei esse case algumas vezes,
+
+438
+00:25:59.292 --> 00:26:03.032
+migração de File Server para SharePoint Online.
+
+439
+00:26:04.932 --> 00:26:08.872
+É isso que ele vende. A gente ajudou ele a se posicionar no
+
+440
+00:26:08.932 --> 00:26:12.232
+mercado como consultor e especialista nisso aqui.
+
+441
+00:26:12.992 --> 00:26:16.592
+E a gente já tentou várias vezes falar para ele: "Cara, vamos vender outras
+
+442
+00:26:16.632 --> 00:26:20.252
+coisas". Não, ele falou: "Cara, 80 mil para mim está bom.
+
+443
+00:26:21.372 --> 00:26:24.852
+Eu trabalho aqui as horas que eu quero, o resto,
+
+444
+00:26:25.392 --> 00:26:28.452
+eu tenho uma boa qualidade de vida, para mim está bom, não quero crescer mais que
+
+445
+00:26:28.512 --> 00:26:28.682
+isso".
+
+446
+00:26:30.142 --> 00:26:33.172
+O cara só conhece isso, ele não vende outras coisas, porque ele não conhece.
+
+447
+00:26:34.212 --> 00:26:36.652
+Só que ele também não quer correr atrás de conhecimento, porque ele chegou num
+
+448
+00:26:36.672 --> 00:26:37.812
+nível que para ele está bom.
+
+449
+00:26:40.172 --> 00:26:42.642
+Só que eu só falei para ele: "Você tem que tomar um pouco de cuidado, que uma hora
+
+450
+00:26:42.652 --> 00:26:46.572
+esses números vão cair, se você não tiver algo para substituir, é natural,
+
+451
+00:26:46.672 --> 00:26:49.942
+qualquer mercado vive isso. Tem o início, tem a
+
+452
+00:26:50.072 --> 00:26:51.772
+maturidade, depois tem o declínio".
+
+453
+00:26:53.792 --> 00:26:57.672
+Mas aqui é para vocês verem, ele já está nesse projeto dele vendendo
+
+454
+00:26:57.752 --> 00:26:59.432
+só isso há três anos.
+
+455
+00:27:00.632 --> 00:27:02.332
+Três anos fazendo só isso.
+
+456
+00:27:04.372 --> 00:27:06.232
+Então gente,
+
+457
+00:27:07.432 --> 00:27:09.672
+não adianta mais uma certificação,
+
+458
+00:27:10.572 --> 00:27:13.772
+não adianta mais um curso técnico.
+
+459
+00:27:13.832 --> 00:27:17.572
+Cara, não adianta. Na maioria das vezes o problema está no
+
+460
+00:27:17.592 --> 00:27:21.212
+comercial, o problema está: como que eu atraio mais
+
+461
+00:27:21.252 --> 00:27:21.932
+clientes?
+
+462
+00:27:22.792 --> 00:27:24.872
+Como que eu chego até esses clientes?
+
+463
+00:27:25.792 --> 00:27:29.612
+Como que eu saio do modelo de negócio que só depende de indicação?
+
+464
+00:27:29.692 --> 00:27:32.952
+Porque depender de indicação, eu não estou olhando o meu negócio como um
+
+465
+00:27:33.012 --> 00:27:33.872
+empreendedor.
+
+466
+00:27:36.132 --> 00:27:38.212
+Como que eu faço para o meu negócio crescer?
+
+467
+00:27:40.252 --> 00:27:44.122
+Não é conhecimento técnico. Conhecimento técnico vai ajudar?
+
+468
+00:27:44.172 --> 00:27:47.972
+Sem sombra de dúvidas, quanto mais conhecimento você tiver, melhor.
+
+469
+00:27:48.032 --> 00:27:51.632
+Mas o que eu estou falando para vocês é que se você não tiver esse
+
+470
+00:27:51.652 --> 00:27:55.542
+pezinho de vendedor, de comercial, não
+
+471
+00:27:55.612 --> 00:27:59.452
+adianta quanto conhecimento você tem, porque não é o conhecimento técnico que
+
+472
+00:27:59.492 --> 00:28:03.332
+vai fazer você atrair um cliente. O conhecimento técnico
+
+473
+00:28:03.412 --> 00:28:06.832
+vai fazer parte do processo para você fechar uma proposta,
+
+474
+00:28:07.332 --> 00:28:10.852
+mas não é o seu conhecimento técnico que trouxe esse cliente,
+
+475
+00:28:11.472 --> 00:28:14.912
+a não ser que você já seja uma empresa conhecida, que você seja um
+
+476
+00:28:14.972 --> 00:28:16.332
+consultor conhecido.
+
+477
+00:28:17.332 --> 00:28:21.272
+Fora isso, quem vai trazer esse cliente é essa
+
+478
+00:28:21.392 --> 00:28:24.592
+parte de vendas, é essa parte mais comercial.
+
+479
+00:28:26.632 --> 00:28:29.382
+Só que a grande vantagem disso tudo, gente, é
+
+480
+00:28:31.852 --> 00:28:35.432
+que você
+
+481
+00:28:35.932 --> 00:28:37.072
+não precisa
+
+482
+00:28:38.112 --> 00:28:40.452
+ter uma equipe gigante.
+
+483
+00:28:44.852 --> 00:28:48.472
+Às vezes, você nem precisa de equipe, você sozinho consegue
+
+484
+00:28:48.512 --> 00:28:48.992
+tocar.
+
+485
+00:28:51.972 --> 00:28:52.712
+Qual é
+
+486
+00:28:53.892 --> 00:28:56.052
+a diferença? Quando que eu sei
+
+487
+00:28:57.212 --> 00:29:00.882
+que uma empresa precisa contratar alguém de vendas ou não?
+
+488
+00:29:03.352 --> 00:29:07.052
+Como que eu sei? Primeiro, quando
+
+489
+00:29:07.132 --> 00:29:11.012
+essa empresa, eu empresa ou eu consultor, já
+
+490
+00:29:11.172 --> 00:29:14.572
+tem boa parte dos processos, principalmente os processos de
+
+491
+00:29:14.632 --> 00:29:15.212
+vendas,
+
+492
+00:29:16.912 --> 00:29:18.112
+automatizado.
+
+493
+00:29:20.132 --> 00:29:23.582
+Então se chega uma pessoa para mim: "Eu preciso da sua ajuda, eu preciso saber se
+
+494
+00:29:23.612 --> 00:29:27.032
+eu preciso contratar alguém de vendas para me ajudar ou não".
+
+495
+00:29:27.392 --> 00:29:31.372
+Primeira coisa que eu analiso: qual é o seu processo de vendas hoje?
+
+496
+00:29:31.392 --> 00:29:33.792
+Como que é o seu pipeline? Qual o framework?
+
+497
+00:29:35.132 --> 00:29:37.662
+Beleza, desse framework, o que está automatizado?
+
+498
+00:29:37.902 --> 00:29:41.172
+"Não tem nada automatizado", você não precisa de ninguém, então você precisa
+
+499
+00:29:41.192 --> 00:29:45.012
+automatizar esses processos. Automatiza
+
+500
+00:29:45.032 --> 00:29:48.452
+esses processos. Quando que eu vejo que precisa de ajuda?
+
+501
+00:29:48.492 --> 00:29:51.932
+Quando os processos estão automatizados e mesmo assim, o eu
+
+502
+00:29:51.972 --> 00:29:55.952
+empresa não está dando conta, aí já é hora de pegar alguém para ajudar.
+
+503
+00:30:00.312 --> 00:30:02.752
+Mas para chegar no faturamento de 30
+
+504
+00:30:02.772 --> 00:30:05.652
+mil,
+
+505
+00:30:06.532 --> 00:30:08.212
+você não precisa de equipe.
+
+506
+00:30:09.412 --> 00:30:13.332
+Para chegar no faturamento de 30 mil por
+
+507
+00:30:13.352 --> 00:30:15.442
+mês, você consegue fazer tudo sozinho.
+
+508
+00:30:17.652 --> 00:30:20.902
+Principalmente o processo de vendas, você consegue automatizar tudo
+
+509
+00:30:21.012 --> 00:30:22.572
+isso.
+
+510
+00:30:23.572 --> 00:30:27.532
+Pensa comigo, gente.
+
+511
+00:30:27.612 --> 00:30:30.892
+E o pior, o que eu fico bravo,
+
+512
+00:30:31.852 --> 00:30:33.312
+é que tem gente que faz isso
+
+513
+00:30:34.500 --> 00:30:37.820
+Você fatura R$ 30 mil e quer contratar alguém pra te ajudar, meu amigo?
+
+514
+00:30:40.420 --> 00:30:43.860
+Você fatura R$ 30 mil, você quer ficar com o quê?
+
+515
+00:30:43.900 --> 00:30:46.180
+Aí eu volto pra aquilo que eu falei no começo da aula.
+
+516
+00:30:46.980 --> 00:30:49.820
+Se é pra ganhar R$ 16 mil, volta pra CLT.
+
+517
+00:30:51.640 --> 00:30:53.740
+Com R$ 30 mil, você consegue
+
+518
+00:30:54.080 --> 00:30:58.000
+tranquilamente aprender a vender
+
+519
+00:30:58.020 --> 00:30:59.500
+sem ser um vendedor chato,
+
+520
+00:31:01.120 --> 00:31:02.990
+automatizar esse processo,
+
+521
+00:31:06.080 --> 00:31:09.960
+porque o automatizar esse processo é o que vai fazer com
+
+522
+00:31:10.040 --> 00:31:13.800
+que você tenha tempo pro que é mais importante, que é atender esses
+
+523
+00:31:13.820 --> 00:31:14.270
+clientes.
+
+524
+00:31:15.760 --> 00:31:19.020
+Então pra ter um faturamento de R$ 30 mil por mês, você
+
+525
+00:31:19.040 --> 00:31:21.100
+consegue
+
+526
+00:31:21.160 --> 00:31:24.200
+tranquilamente
+
+527
+00:31:24.900 --> 00:31:28.760
+fazer a parte de vendas, automatizando o máximo possível e
+
+528
+00:31:28.820 --> 00:31:31.440
+entregando, sem precisar de equipe nenhuma.
+
+529
+00:31:31.620 --> 00:31:34.030
+Esse cliente que a gente ajuda aqui trabalha sozinho.
+
+530
+00:31:35.860 --> 00:31:39.220
+Ele gera um faturamento de R$ 80 mil e ele faz tudo sozinho.
+
+531
+00:31:40.020 --> 00:31:43.900
+É claro que a gente montou pra ele, então está tudo automatizado o processo de
+
+532
+00:31:43.940 --> 00:31:44.420
+vendas,
+
+533
+00:31:45.380 --> 00:31:49.040
+ele basicamente participa das reuniões de fechamento e
+
+534
+00:31:49.060 --> 00:31:51.630
+entrega. Então hoje ele fatura R$ 80
+
+535
+00:31:52.580 --> 00:31:56.360
+mil sozinho. Só que ele chegou num nível e por isso que ele não quer
+
+536
+00:31:56.480 --> 00:31:56.980
+também,
+
+537
+00:31:57.800 --> 00:32:01.380
+e isso vai ser uma decisão que vocês como empresário vão precisar tomar.
+
+538
+00:32:02.440 --> 00:32:05.590
+Ele chegou num nível que se ele quiser aumentar esse faturamento dele, primeiro,
+
+539
+00:32:05.630 --> 00:32:07.460
+ele vai precisar conhecer coisas novas.
+
+540
+00:32:07.480 --> 00:32:10.640
+Segundo, ele vai precisar de uma equipe pra ajudar ele, ele não vai ter condições
+
+541
+00:32:10.720 --> 00:32:12.440
+de atender todo mundo.
+
+542
+00:32:14.440 --> 00:32:18.400
+Então aqui, no caso dele, a gente
+
+543
+00:32:18.460 --> 00:32:22.080
+identificou que se ele quiser faturar mais, ele vai precisar de mais gente.
+
+544
+00:32:22.090 --> 00:32:25.420
+Ele não quer isso, ele não quer ter problema com pessoas, não quer tratar com
+
+545
+00:32:25.460 --> 00:32:28.820
+pessoas e o faturamento que ele chegou, está bom.
+
+546
+00:32:28.860 --> 00:32:32.230
+Aí eu brigo com ele, eu falo: "Cara, isso não é a visão de um empreendedor,
+
+547
+00:32:32.560 --> 00:32:34.580
+empreendedor sempre quer crescer." Mas beleza.
+
+548
+00:32:36.040 --> 00:32:38.720
+Está aí com a gente, a gente auxilia no que é possível.
+
+549
+00:32:39.560 --> 00:32:43.460
+Mas vocês, pra atingir essa meta, que pra muitos de vocês seria uma
+
+550
+00:32:43.680 --> 00:32:47.640
+boa meta de começo, os R$ 30 mil por mês, que pra mim isso aqui é pra quem
+
+551
+00:32:47.680 --> 00:32:48.480
+está começando.
+
+552
+00:32:50.040 --> 00:32:53.720
+De novo, se você chegar pra mim e falar: "Cara, eu quero abrir uma empresa de
+
+553
+00:32:53.740 --> 00:32:56.849
+consultoria. Eu não tenho a minha empresa ainda, mas eu quero abrir, estou levando
+
+554
+00:32:56.860 --> 00:33:00.420
+isso a sério. Qual a primeira meta que eu tenho que colocar?" Cara, é R$ 30 mil.
+
+555
+00:33:00.500 --> 00:33:03.160
+Não trabalha com uma meta menor, porque não vale a pena.
+
+556
+00:33:03.340 --> 00:33:07.000
+Não estou falando que se você colocar uma meta de R$ 30 mil, no
+
+557
+00:33:07.180 --> 00:33:09.040
+outro mês você já está com essa meta.
+
+558
+00:33:09.060 --> 00:33:11.620
+Não, você tem que ir construindo isso.
+
+559
+00:33:12.480 --> 00:33:15.600
+O que eu estou falando é que para
+
+560
+00:33:16.260 --> 00:33:19.740
+você ser um empreendedor sustentável,
+
+561
+00:33:21.080 --> 00:33:23.760
+só vale a pena com faturamento de R$ 30 mil pra cima.
+
+562
+00:33:24.030 --> 00:33:27.720
+"Tentei aqui anos e anos e não consigo atingir o faturamento de R$ 30
+
+563
+00:33:27.740 --> 00:33:31.400
+mil." Cara, pelo amor de Deus, volta pro CLT, porque vale muito mais a
+
+564
+00:33:31.500 --> 00:33:32.220
+pena.
+
+565
+00:33:34.620 --> 00:33:35.860
+Vale muito mais a pena.
+
+566
+00:33:38.330 --> 00:33:42.280
+Segundo o Sebrae, 90% das empresas morrem nos primeiros 12
+
+567
+00:33:42.320 --> 00:33:45.460
+meses. Dos outros 10%, 90% morre nos próximos.
+
+568
+00:33:45.600 --> 00:33:49.300
+Exatamente. Então é uma vida útil, mas porque
+
+569
+00:33:49.380 --> 00:33:51.120
+muita gente não está preparada.
+
+570
+00:33:52.100 --> 00:33:54.940
+Muita gente acha que ter empresa, primeira coisa,
+
+571
+00:33:55.020 --> 00:33:58.920
+vocês que já são consultores, vocês que
+
+572
+00:33:58.960 --> 00:34:02.530
+já têm empresa, se hoje vocês olham pra empresa somente como
+
+573
+00:34:02.640 --> 00:34:06.100
+local que você tira o dinheiro pra pagar as contas, já está errado.
+
+574
+00:34:06.110 --> 00:34:10.100
+"Eu não tirei a minha ainda do papel, mas essa é
+
+575
+00:34:10.120 --> 00:34:12.160
+uma das questões que mais me assombra.
+
+576
+00:34:12.220 --> 00:34:15.960
+Como prospectar, onde e qual o público-alvo
+
+577
+00:34:16.040 --> 00:34:19.680
+converter." Exato, e tudo isso que você está colocando aqui depois do
+
+578
+00:34:19.761 --> 00:34:20.520
+prospectar,
+
+579
+00:34:21.420 --> 00:34:25.400
+onde, qual, isso tem a ver com o bendito posicionamento.
+
+580
+00:34:26.560 --> 00:34:30.040
+Porque aqui, Gustavo, o que eu poderia chegar pra
+
+581
+00:34:30.080 --> 00:34:33.060
+você? Eu poderia chegar e falar: "Cara, faz o
+
+582
+00:34:33.120 --> 00:34:36.020
+seguinte, vai lá no LinkedIn agora."
+
+583
+00:34:37.821 --> 00:34:41.341
+Se você fizer isso, vai dar resultado, só que você vai atrair as piores pessoas
+
+584
+00:34:41.361 --> 00:34:44.900
+possíveis. "Vai lá no LinkedIn agora e sai buscando um monte de
+
+585
+00:34:44.980 --> 00:34:47.020
+gente e falando o que você oferece."
+
+586
+00:34:48.560 --> 00:34:52.341
+Só que acontece, sem um bom posicionamento, você sempre vai atrair
+
+587
+00:34:52.379 --> 00:34:56.080
+os piores clientes, os clientes mais chatos, os clientes mais difíceis de atender e
+
+588
+00:34:56.100 --> 00:34:57.630
+o pior, os que pagam menos.
+
+589
+00:34:59.490 --> 00:35:03.090
+Um bom posicionamento, quando você vira um consultor bem-posicionado, eu gosto de
+
+590
+00:35:03.100 --> 00:35:06.850
+chamar do consultor premium, você vira um consultor bem-posicionado,
+
+591
+00:35:06.960 --> 00:35:10.870
+primeiro, você não é enxergado apenas como operacional, você é enxergado
+
+592
+00:35:10.940 --> 00:35:12.500
+pelas empresas como estratégico.
+
+593
+00:35:13.160 --> 00:35:16.740
+E meu amigo, a partir do momento que a empresa te enxerga como consultor
+
+594
+00:35:16.760 --> 00:35:20.600
+estratégico, aquele contrato que você cobrava R$ 2 mil, você pode
+
+595
+00:35:20.620 --> 00:35:22.560
+cobrar 20 agora que o cara não vai chorar,
+
+596
+00:35:23.660 --> 00:35:27.640
+porque a visão dele sobre o seu serviço é diferente, ele está
+
+597
+00:35:27.660 --> 00:35:30.500
+enxergando o valor que você entrega pra empresa.
+
+598
+00:35:31.420 --> 00:35:34.390
+E às vezes, gente, o que você entrega é a mesma coisa,
+
+599
+00:35:35.300 --> 00:35:38.240
+só mudou a sua linha de argumentação.
+
+600
+00:35:38.280 --> 00:35:41.760
+Às vezes o que falta pra vocês é isso, é mudar a linha de
+
+601
+00:35:41.780 --> 00:35:44.720
+argumentação, é parar de falar só o técnico.
+
+602
+00:35:46.720 --> 00:35:49.120
+Começar a falar a língua do negócio.
+
+603
+00:35:49.160 --> 00:35:51.980
+Hoje nunca se falou tanto nisso.
+
+604
+00:35:53.720 --> 00:35:56.920
+Nunca se falou tanto e vai falar cada vez mais, que é
+
+605
+00:35:57.620 --> 00:36:00.780
+TI alinhada ao negócio.
+
+606
+00:36:03.580 --> 00:36:07.420
+Tudo que eu vou falar de tecnologia agora, eu tenho que pensar no
+
+607
+00:36:07.480 --> 00:36:11.180
+negócio por trás. O que aquilo que eu estou
+
+608
+00:36:11.220 --> 00:36:13.400
+oferecendo está gerando pro negócio.
+
+609
+00:36:13.940 --> 00:36:16.980
+Se eu não conseguir mostrar isso de uma maneira clara e
+
+610
+00:36:17.060 --> 00:36:19.060
+objetiva pro meu cliente,
+
+611
+00:36:20.130 --> 00:36:23.360
+ele sempre vai pagar mais barato, vai ficar
+
+612
+00:36:23.380 --> 00:36:27.280
+chorando e eu vou ter os menores contratos e mais trabalho pra
+
+613
+00:36:27.290 --> 00:36:28.320
+atender aqueles clientes.
+
+614
+00:36:29.320 --> 00:36:29.740
+Sempre.
+
+615
+00:36:33.320 --> 00:36:36.760
+Sempre. "Estou há quase três anos e não consigo uma
+
+616
+00:36:36.860 --> 00:36:40.772
+oportunidade. Tenho 61 anos." Nem PJ,
+
+617
+00:36:40.932 --> 00:36:44.732
+nem CLT. Depende muito do conhecimento, do perfil.
+
+618
+00:36:46.272 --> 00:36:47.352
+Faturar menos, não.
+
+619
+00:36:48.392 --> 00:36:52.362
+Trabalhar menos. Exato. Eu tenho um case para contar para vocês,
+
+620
+00:36:52.552 --> 00:36:56.512
+de um empresário de TI que chegou
+
+621
+00:36:56.532 --> 00:36:59.272
+pra gente e ele falou o seguinte. Eu
+
+622
+00:37:00.752 --> 00:37:01.332
+expliquei
+
+623
+00:37:02.672 --> 00:37:06.072
+um pouco da estratégia para ele. Isso acontece direto.
+
+624
+00:37:08.212 --> 00:37:12.091
+Esse caso específico aconteceu
+
+625
+00:37:12.112 --> 00:37:14.762
+nesse sábado. Estava conversando com o empresário de TI,
+
+626
+00:37:16.312 --> 00:37:18.172
+e esse empresário virou pra mim e falou: "Cara,
+
+627
+00:37:19.812 --> 00:37:20.992
+gostei da sua estratégia,
+
+628
+00:37:22.832 --> 00:37:23.292
+só que
+
+629
+00:37:24.252 --> 00:37:28.012
+eu não consigo mais, eu não tenho mais tempo para atender mais nenhum
+
+630
+00:37:28.052 --> 00:37:28.452
+cliente.
+
+631
+00:37:28.842 --> 00:37:35.292
+Para
+
+632
+00:37:35.352 --> 00:37:38.652
+eu atender um novo cliente, eu vou precisar contratar alguém e eu não quero
+
+633
+00:37:38.672 --> 00:37:39.472
+contratar ninguém".
+
+634
+00:37:41.412 --> 00:37:43.112
+Beleza, essa foi a visão.
+
+635
+00:37:43.892 --> 00:37:47.852
+Vocês concordam comigo que o problema dele
+
+636
+00:37:48.572 --> 00:37:52.232
+não era cliente? Porque eu falei pra ele: "Cara, quer um cliente agora?" "Não,
+
+637
+00:37:52.332 --> 00:37:54.212
+cara, eu não tenho tempo de atender esse cliente".
+
+638
+00:37:55.592 --> 00:37:59.512
+O problema dele não era cliente. Aí beleza, eu entendi que o problema dele
+
+639
+00:37:59.532 --> 00:38:00.152
+não era cliente. O
+
+640
+00:38:01.052 --> 00:38:04.752
+cara está com a agenda cheia. Pro cara não ter tempo para atender um
+
+641
+00:38:04.792 --> 00:38:07.332
+cliente, a agenda está cheia. Aí a próxima pergunta foi: "Cara,
+
+642
+00:38:08.472 --> 00:38:12.212
+não me fala o valor, eu só quero saber, hoje o que você fatura, você está
+
+643
+00:38:12.232 --> 00:38:13.652
+contente?" "Não,
+
+644
+00:38:14.912 --> 00:38:18.622
+eu vejo que eu trabalho muito e não faturo o quanto eu gostaria".
+
+645
+00:38:19.232 --> 00:38:22.592
+Cara, dali já me ligou a bendita palavrinha de
+
+646
+00:38:22.652 --> 00:38:23.372
+posicionamento.
+
+647
+00:38:26.292 --> 00:38:30.252
+Ele nem precisou me falar o resto, por experiência,
+
+648
+00:38:30.272 --> 00:38:32.132
+eu já falei: "Beleza.
+
+649
+00:38:33.472 --> 00:38:37.442
+Só do que você me falou agora, eu já sei que você tem clientes,
+
+650
+00:38:37.652 --> 00:38:41.552
+você deve ter", falei pra ele, só pra ele não achar
+
+651
+00:38:41.632 --> 00:38:45.392
+que me conhecendo ali na hora. Para quem me conhece há muito tempo, sabe
+
+652
+00:38:45.512 --> 00:38:48.652
+que longe de mim, só pra ele não achar que eu sou muito presunçoso.
+
+653
+00:38:49.272 --> 00:38:52.872
+Então falei: "Cara, você deve ter muitos clientes".
+
+654
+00:38:53.452 --> 00:38:56.142
+Ele: "É, cara, eu tenho uma carteira muito grande". Eu falei: "Beleza".
+
+655
+00:38:56.712 --> 00:38:58.232
+E outra coisa que eu tenho certeza,
+
+656
+00:38:59.072 --> 00:39:02.712
+esses clientes devem pagar contratos
+
+657
+00:39:02.972 --> 00:39:04.152
+de, no máximo,
+
+658
+00:39:05.852 --> 00:39:09.801
+uns R$ 2.000. A sua média deve estar beirando os R$ 500 o contrato".
+
+659
+00:39:09.832 --> 00:39:12.932
+Ele falou: "Cara, é isso mesmo". Cara, é um padrão.
+
+660
+00:39:14.892 --> 00:39:16.412
+Eu falei: "Sabe por que isso aconteceu?
+
+661
+00:39:17.532 --> 00:39:20.412
+Porque você não se posicionou". Aí ele: "Pô, mas espera aí, como assim?
+
+662
+00:39:21.132 --> 00:39:22.402
+O que é isso, posicionamento?"
+
+663
+00:39:23.222 --> 00:39:25.322
+Aí eu comecei a explicar um pouco pra ele de posicionamento.
+
+664
+00:39:25.682 --> 00:39:27.472
+Falei: "Cara, posicionamento é como o mercado te vê.
+
+665
+00:39:28.332 --> 00:39:32.012
+Quanto mais estratégico você se posicionar, maiores serão os seus
+
+666
+00:39:32.032 --> 00:39:33.972
+contratos. Quanto mais
+
+667
+00:39:34.792 --> 00:39:38.592
+posicionamento operacional, menores serão os seus
+
+668
+00:39:38.602 --> 00:39:41.992
+contratos". Aí eu falei: "Hoje, eu tenho certeza que você é
+
+669
+00:39:42.052 --> 00:39:45.832
+100% operacional. Você apaga incêndio, o cliente te conhece
+
+670
+00:39:45.892 --> 00:39:48.222
+como o cara que apaga incêndio". Ele falou: "É isso mesmo".
+
+671
+00:39:49.132 --> 00:39:50.842
+Falei: "Cara, beleza. Você quer mudar isso?
+
+672
+00:39:52.352 --> 00:39:54.772
+Só tem uma maneira da gente mudar essa sua realidade.
+
+673
+00:39:56.162 --> 00:39:59.072
+Hoje você não tem tempo de atender ninguém, certo?" "Certo".
+
+674
+00:39:59.382 --> 00:40:03.132
+"Então você vai pegar o seu pior cliente que você tem, o que te paga menos
+
+675
+00:40:04.232 --> 00:40:05.092
+e que consome
+
+676
+00:40:06.232 --> 00:40:09.312
+um tempo do seu trabalho. Você vai pegar esse pior cliente
+
+677
+00:40:10.332 --> 00:40:13.892
+e quando vier a data de renovação dele, você não vai renovar, você vai precisar
+
+678
+00:40:13.912 --> 00:40:14.552
+desse tempo.
+
+679
+00:40:15.712 --> 00:40:19.052
+Só que eu te garanto que esse cliente que você não vai renovar, que deve estar te
+
+680
+00:40:19.072 --> 00:40:22.952
+pagando no máximo R$ 1.000 por mês, a gente vai pegar aquelas mesmas horas e
+
+681
+00:40:22.972 --> 00:40:24.812
+vamos transformar R$ 1.000 em 10 mil".
+
+682
+00:40:26.952 --> 00:40:28.212
+Aí ele: "Pô, mas como assim?"
+
+683
+00:40:29.412 --> 00:40:33.032
+Falei: "Cara, é posicionamento, o novo cliente que entrar em contato com você,
+
+684
+00:40:34.072 --> 00:40:37.252
+vai entrar em contato por conta do seu novo posicionamento estratégico.
+
+685
+00:40:39.852 --> 00:40:43.732
+E esse posicionamento estratégico vai mostrar que você é um
+
+686
+00:40:43.772 --> 00:40:47.672
+consultor que sabe que a TI precisa estar alinhada
+
+687
+00:40:47.752 --> 00:40:51.521
+ao negócio. Tudo o que você for oferecer de valor para eles,
+
+688
+00:40:51.972 --> 00:40:54.172
+vai trazer benefícios para o negócio.
+
+689
+00:40:54.212 --> 00:40:57.532
+Você está preparado para isso?" "Cara, eu estou".
+
+690
+00:40:57.542 --> 00:40:59.501
+"Vamos pra cima?" "Vamos pra cima".
+
+691
+00:41:01.132 --> 00:41:02.472
+Acertou o framework,
+
+692
+00:41:03.532 --> 00:41:06.272
+trouxe o novo cliente com novo posicionamento.
+
+693
+00:41:08.492 --> 00:41:12.072
+Conseguiu transformar essa pessoa num cliente pagando 10 vezes
+
+694
+00:41:12.132 --> 00:41:15.752
+mais, agora vai fazendo a transição aos poucos.
+
+695
+00:41:16.652 --> 00:41:19.292
+Pega outro cliente, não renova.
+
+696
+00:41:19.312 --> 00:41:23.192
+Daqui a pouco, você
+
+697
+00:41:23.212 --> 00:41:26.652
+vai, ao invés de faturar 30 mil por mês,
+
+698
+00:41:27.732 --> 00:41:31.592
+se matando de trabalhar, você vai faturar 100 mil por
+
+699
+00:41:31.652 --> 00:41:32.172
+mês,
+
+700
+00:41:34.072 --> 00:41:36.312
+trabalhando menos.
+
+701
+00:41:37.592 --> 00:41:40.172
+Você vai aumentar o seu faturamento
+
+702
+00:41:41.172 --> 00:41:42.092
+e vai trabalhar
+
+703
+00:41:42.912 --> 00:41:43.532
+menos.
+
+704
+00:41:46.032 --> 00:41:47.612
+Gente, é o posicionamento.
+
+705
+00:41:50.292 --> 00:41:54.092
+Sem posicionamento, você sempre vai ficar refém dos piores
+
+706
+00:41:54.132 --> 00:41:54.632
+clientes,
+
+707
+00:41:55.552 --> 00:41:59.412
+você sempre vai ficar refém dos menores contratos.
+
+708
+00:41:59.441 --> 00:41:59.952
+Sempre.
+
+709
+00:42:02.012 --> 00:42:04.392
+É uma das coisas que a gente mais recebe aqui.
+
+710
+00:42:04.772 --> 00:42:08.692
+"Cara, só chega cliente ruim". É
+
+711
+00:42:08.732 --> 00:42:12.612
+claro, olha o seu posicionamento, meu amigo, com esse posicionamento você quer
+
+712
+00:42:12.632 --> 00:42:13.132
+atrair quem?
+
+713
+00:42:14.452 --> 00:42:16.892
+Com esse posicionamento, você acha que você vai atrair cliente grande?
+
+714
+00:42:16.952 --> 00:42:19.042
+Você acha que vai atrair cliente estratégico?
+
+715
+00:42:19.112 --> 00:42:23.092
+Com esse posicionamento, meu amigo, o cliente quando o mouse do usuário não
+
+716
+00:42:23.132 --> 00:42:25.992
+funcionar, ele vai te ligar pra você ir lá ver o que está acontecendo no mouse.
+
+717
+00:42:27.192 --> 00:42:28.812
+É isso que você quer pra sua empresa?
+
+718
+00:42:31.332 --> 00:42:34.772
+Ficar recebendo ligação porque o mouse não está funcionando?
+
+719
+00:42:34.802 --> 00:42:35.972
+Pelo amor de Deus!
+
+720
+00:42:38.572 --> 00:42:40.052
+A
+
+721
+00:42:40.912 --> 00:42:44.832
+não ser que você queira uma empresa grande, com muitos funcionários, porque
+
+722
+00:42:44.932 --> 00:42:48.712
+pra que isso dê certo, pra que esse tipo de contrato de baixo
+
+723
+00:42:48.832 --> 00:42:52.822
+valor operacional dê certo, você tem que ter muito, mas muito
+
+724
+00:42:52.932 --> 00:42:54.772
+cliente, porque ele precisa de muita gente pra ajudar
+
+725
+00:42:59.676 --> 00:43:02.396
+Hoje,
+
+726
+00:43:04.856 --> 00:43:07.536
+quem fatura mais não é quem conhece mais.
+
+727
+00:43:09.716 --> 00:43:10.216
+Hoje,
+
+728
+00:43:11.076 --> 00:43:14.116
+quem fatura mais é quem sabe se posicionar.
+
+729
+00:43:15.436 --> 00:43:17.156
+Hoje, quem fatura mais
+
+730
+00:43:18.336 --> 00:43:22.236
+é quem sabe mostrar o valor do serviço pro
+
+731
+00:43:22.296 --> 00:43:23.075
+negócio.
+
+732
+00:43:25.916 --> 00:43:28.816
+Hoje, quem fatura mais é quem
+
+733
+00:43:29.056 --> 00:43:32.706
+conhece técnicas de vendas pra conseguir
+
+734
+00:43:32.796 --> 00:43:34.056
+atrair esses clientes.
+
+735
+00:43:35.616 --> 00:43:39.596
+Porque tirando se você for uma super autoridade no mercado, o mercado já
+
+736
+00:43:39.636 --> 00:43:43.456
+te conhece pelo seu nome ou conhece a sua empresa, tirando
+
+737
+00:43:43.476 --> 00:43:44.416
+esses cenários,
+
+738
+00:43:45.376 --> 00:43:48.156
+você tem que ir atrás do cliente e trazer ele pra dentro.
+
+739
+00:43:48.176 --> 00:43:51.556
+E o que vai fazer você trazer esse cliente
+
+740
+00:43:52.936 --> 00:43:54.716
+não é só o técnico.
+
+741
+00:43:56.836 --> 00:44:00.166
+Se você não tiver uma linha de argumentação, algo de vendas,
+
+742
+00:44:00.906 --> 00:44:03.535
+e de novo, gente, não precisa fazer curso de vendas.
+
+743
+00:44:03.856 --> 00:44:07.696
+A gente tem scripts, a IA ajuda muito, desde
+
+744
+00:44:07.736 --> 00:44:11.516
+que saiba utilizar. Não vai jogar na IA crua pra ela te
+
+745
+00:44:11.556 --> 00:44:13.396
+ajudar nisso aqui, que só vai sair groselha.
+
+746
+00:44:14.116 --> 00:44:18.016
+Mas uma IA bem treinada, um agente bem treinado, uma skill
+
+747
+00:44:18.036 --> 00:44:21.536
+bem montada na IA, ajuda demais nesse processo.
+
+748
+00:44:23.576 --> 00:44:24.656
+Ajuda demais.
+
+749
+00:44:26.476 --> 00:44:30.276
+"Eu nunca trabalhei pra mim. E como começar nessa área de consultoria?" Eu estou
+
+750
+00:44:30.296 --> 00:44:33.956
+explicando aqui. É exatamente o que eu estou explicando.
+
+751
+00:44:34.086 --> 00:44:37.956
+A primeira coisa: posicionamento, como você
+
+752
+00:44:37.976 --> 00:44:40.416
+quer ser reconhecido pelo mercado.
+
+753
+00:44:40.456 --> 00:44:44.236
+E esse posicionamento tem que estar alinhado com essa
+
+754
+00:44:44.396 --> 00:44:46.716
+visão de TI alinhada ao
+
+755
+00:44:46.736 --> 00:44:50.436
+negócio. Precisa montar esse
+
+756
+00:44:50.456 --> 00:44:51.286
+posicionamento.
+
+757
+00:44:53.916 --> 00:44:57.786
+Gente, eu consigo saber se um consultor fatura bem ou não
+
+758
+00:44:58.056 --> 00:45:01.576
+só pelo posicionamento dele.
+
+759
+00:45:01.916 --> 00:45:05.836
+Pelo posicionamento, eu sei se ele fatura bem e trabalha pouco ou se ele
+
+760
+00:45:05.876 --> 00:45:09.676
+fatura pouco e trabalha demais. Só pelo posicionamento dele, porque pelo
+
+761
+00:45:09.696 --> 00:45:12.956
+posicionamento eu sei o tipo de cliente que ele está atraindo.
+
+762
+00:45:21.936 --> 00:45:24.616
+Resumindo, se posicionar como autoridade no nicho.
+
+763
+00:45:25.396 --> 00:45:26.856
+Isso aqui não é
+
+764
+00:45:26.876 --> 00:45:30.816
+bem se
+
+765
+00:45:30.896 --> 00:45:34.256
+posicionar como uma autoridade, que nem a gente vê em produtos
+
+766
+00:45:34.296 --> 00:45:37.996
+digitais. Não é esse tipo de
+
+767
+00:45:38.136 --> 00:45:41.956
+posicionamento. O posicionamento aqui é mais conseguir
+
+768
+00:45:42.016 --> 00:45:42.536
+mostrar
+
+769
+00:45:43.416 --> 00:45:47.296
+pras empresas, pros tomadores de decisão, que o que você
+
+770
+00:45:47.376 --> 00:45:49.836
+oferece no mercado gera um valor pro
+
+771
+00:45:49.876 --> 00:45:51.656
+negócio.
+
+772
+00:45:53.396 --> 00:45:57.316
+Muitas vezes você não precisa falar que você domina aquilo
+
+773
+00:45:57.416 --> 00:46:01.356
+tecnicamente. Esse posicionamento é muito mais comercial do que
+
+774
+00:46:01.536 --> 00:46:05.076
+técnico. Não que você não precise dominar tecnicamente.
+
+775
+00:46:05.636 --> 00:46:09.056
+Você não vai vender algo que você não tem certeza de como
+
+776
+00:46:09.096 --> 00:46:12.496
+entregar. Isso é tiro no pé, se queimar.
+
+777
+00:46:12.536 --> 00:46:16.006
+Mas esse posicionamento que eu estou falando é um posicionamento mais
+
+778
+00:46:16.056 --> 00:46:16.956
+comercial.
+
+779
+00:46:20.276 --> 00:46:24.216
+É claro que eu também preciso da autoridade pra fechar com esse cliente,
+
+780
+00:46:24.276 --> 00:46:27.546
+aí autoridade é outro tema. Autoridade eu vou construir
+
+781
+00:46:27.556 --> 00:46:30.956
+isso, construindo bons materiais e entregando esses
+
+782
+00:46:30.996 --> 00:46:33.746
+materiais pros clientes que eu quero atrair.
+
+783
+00:46:33.816 --> 00:46:36.356
+Aí é uma outra questão.
+
+784
+00:46:37.376 --> 00:46:41.356
+"Ticket médio de R$ 500 para iniciar, não é tão ruim, não." Pra mim
+
+785
+00:46:41.396 --> 00:46:45.016
+é péssimo. Pra mim não é ruim, é péssimo.
+
+786
+00:46:46.396 --> 00:46:50.136
+Porque você vai trabalhar muito pra manter esse
+
+787
+00:46:50.196 --> 00:46:54.116
+cliente e vai ganhar pouco. Daqui a pouco, esse
+
+788
+00:46:54.156 --> 00:46:58.076
+tempo que você está usando pra atender esse cliente, vai cair no que eu
+
+789
+00:46:58.096 --> 00:47:00.016
+acabei de falar desse cliente nosso.
+
+790
+00:47:01.316 --> 00:47:05.236
+Ele tem tanto cliente ruim, que ele não tem mais tempo pra atender
+
+791
+00:47:05.276 --> 00:47:05.836
+cliente bom.
+
+792
+00:47:07.486 --> 00:47:10.376
+Eu inverteria completamente o cenário.
+
+793
+00:47:11.576 --> 00:47:14.336
+Eu mostraria pro mercado: "Eu só atendo
+
+794
+00:47:14.396 --> 00:47:16.176
+clientes premium".
+
+795
+00:47:17.416 --> 00:47:18.695
+Por quê, Felipe?
+
+796
+00:47:18.825 --> 00:47:22.205
+Presta atenção nisso
+
+797
+00:47:22.236 --> 00:47:25.876
+aqui. É muito mais fácil eu conseguir
+
+798
+00:47:25.956 --> 00:47:28.705
+10 clientes me pagando 3 mil,
+
+799
+00:47:28.705 --> 00:47:31.036
+vou
+
+800
+00:47:32.376 --> 00:47:36.076
+fazer aqui na calculadora pra não passar
+
+801
+00:47:36.136 --> 00:47:36.976
+vergonha ao vivo.
+
+802
+00:47:37.856 --> 00:47:38.356
+Do que
+
+803
+00:47:39.616 --> 00:47:43.836
+ter
+
+804
+00:47:43.896 --> 00:47:45.276
+60 clientes
+
+805
+00:47:49.496 --> 00:47:50.976
+me pagando R$ 500.
+
+806
+00:47:54.856 --> 00:47:58.516
+É mais fácil eu ter 10 clientes
+
+807
+00:47:58.876 --> 00:48:00.336
+me pagando 3 mil,
+
+808
+00:48:03.476 --> 00:48:05.456
+do que ter 60 clientes
+
+809
+00:48:05.496 --> 00:48:09.236
+pagando R$ 500 pra ter a mesma
+
+810
+00:48:09.316 --> 00:48:12.896
+meta aqui de 30 mil. Mas é muito mais fácil ir atrás
+
+811
+00:48:12.956 --> 00:48:16.596
+desses 10 clientes, desde que eu tenha o posicionamento certo.
+
+812
+00:48:17.096 --> 00:48:18.786
+Gente, é muito mais fácil
+
+813
+00:48:19.276 --> 00:48:24.776
+você
+
+814
+00:48:24.816 --> 00:48:28.656
+conseguir fechar um cliente de 3 mil com posicionamento estratégico do que
+
+815
+00:48:28.716 --> 00:48:32.236
+fechar um contrato de R$ 500. Vai por mim, é muito mais fácil.
+
+816
+00:48:32.856 --> 00:48:34.996
+E esse cara de R$ 500 vai chorar ainda.
+
+817
+00:48:35.116 --> 00:48:38.356
+Ele vai tentar chegar nisso nos 300.
+
+818
+00:48:40.576 --> 00:48:42.996
+Eu inverteria completamente o cenário.
+
+819
+00:48:43.396 --> 00:48:45.996
+Eu sou um consultor premium, eu só
+
+820
+00:48:46.116 --> 00:48:47.916
+atendo
+
+821
+00:48:49.376 --> 00:48:50.265
+clientes premium.
+
+822
+00:48:51.256 --> 00:48:54.996
+É
+
+823
+00:48:55.096 --> 00:48:58.436
+claro que vocês não vão atingir essa maturidade do dia pra noite,
+
+824
+00:48:59.176 --> 00:49:00.436
+mas isso é libertador
+
+825
+00:49:01.632 --> 00:49:05.512
+O consultor premium é aquele consultor que escolhe com quem
+
+826
+00:49:05.552 --> 00:49:09.252
+vem trabalhar e não o contrário. Fala: "Cara, eu não atendo
+
+827
+00:49:09.832 --> 00:49:12.832
+qualquer pessoa". Isso faz parte do posicionamento.
+
+828
+00:49:13.752 --> 00:49:17.692
+Faz parte do posicionamento você mostrar pro mercado que você
+
+829
+00:49:17.772 --> 00:49:21.052
+não atende qualquer cliente. Isso faz parte do
+
+830
+00:49:21.072 --> 00:49:23.112
+posicionamento.
+
+831
+00:49:25.432 --> 00:49:28.012
+E eu jamais começaria por R$ 500.
+
+832
+00:49:28.072 --> 00:49:29.912
+Jamais.
+
+833
+00:49:30.002 --> 00:49:34.772
+"Ah,
+
+834
+00:49:34.812 --> 00:49:38.022
+mas eu estou começando agora". Beleza, cara, o que você prefere?
+
+835
+00:49:39.152 --> 00:49:39.812
+Em um mês,
+
+836
+00:49:40.892 --> 00:49:44.492
+conseguir um cliente te pagando R$ 500 ou
+
+837
+00:49:44.532 --> 00:49:47.752
+esperar um pouquinho mais e em dois meses,
+
+838
+00:49:49.792 --> 00:49:51.952
+ter um cliente que paga já 3 mil de cara?
+
+839
+00:49:57.452 --> 00:49:58.192
+Só fazer a conta.
+
+840
+00:50:06.272 --> 00:50:06.932
+Opa, deixa eu ver aqui.
+
+841
+00:50:08.392 --> 00:50:12.212
+"O cliente que paga 3 mil de suporte recorrente, você leva em consideração?"
+
+842
+00:50:13.112 --> 00:50:16.882
+Eu não levo nada de tamanho de cliente, nada disso em faturamento.
+
+843
+00:50:17.972 --> 00:50:21.912
+Gente, é o valor. Beleza, eu vou ajudar
+
+844
+00:50:21.952 --> 00:50:23.052
+o cliente nisso.
+
+845
+00:50:24.872 --> 00:50:28.332
+Isso que eu estou ajudando o cliente, qual o valor que isso vai gerar pra empresa
+
+846
+00:50:28.412 --> 00:50:28.652
+dele?
+
+847
+00:50:31.252 --> 00:50:34.932
+Qual o valor que isso vai gerar pra empresa dele? É assim que eu faço a conta.
+
+848
+00:50:35.772 --> 00:50:38.672
+É claro, eu tenho uma planilhazinha que me ajuda com tudo isso,
+
+849
+00:50:39.472 --> 00:50:41.292
+mas a minha conta não é por tamanho.
+
+850
+00:50:41.732 --> 00:50:45.632
+É o valor, o impacto e o resultado que
+
+851
+00:50:45.652 --> 00:50:47.632
+o meu serviço vai gerar pra aquela empresa.
+
+852
+00:50:47.662 --> 00:50:48.652
+É assim que eu faço
+
+853
+00:50:49.752 --> 00:50:53.572
+a conta de quanto cobrar. É
+
+854
+00:50:53.812 --> 00:50:57.732
+claro que o tamanho sempre vai influenciar, mas pra gente não é
+
+855
+00:50:57.772 --> 00:50:58.612
+o principal.
+
+856
+00:51:01.672 --> 00:51:04.332
+Possa ser uma empresa média, eu
+
+857
+00:51:04.352 --> 00:51:08.212
+cobrar, sei lá, 50 mil, e uma empresa
+
+858
+00:51:08.312 --> 00:51:12.112
+maior, eu cobrar 30, mas porque na outra, o que eu estou gerando de
+
+859
+00:51:12.192 --> 00:51:13.292
+valor é muito maior.
+
+860
+00:51:16.572 --> 00:51:17.632
+"Quem já pegou cliente
+
+861
+00:51:20.492 --> 00:51:24.422
+low ticket, que fica pedindo só..." Cara, exato,
+
+862
+00:51:24.472 --> 00:51:27.281
+mas por que acontece isso? É o posicionamento.
+
+863
+00:51:27.962 --> 00:51:31.872
+Está atraindo cliente ruim. Na boa, se você for pegar
+
+864
+00:51:31.912 --> 00:51:32.811
+um cliente a R$ 500,
+
+865
+00:51:34.372 --> 00:51:35.072
+o Felipe aqui.
+
+866
+00:51:35.912 --> 00:51:41.552
+Deixa
+
+867
+00:51:41.572 --> 00:51:42.632
+eu ver, eu acho que ele
+
+868
+00:51:43.772 --> 00:51:46.892
+ouviu eu falar, não gostou muito e saiu. Mas eu faria isso.
+
+869
+00:51:46.972 --> 00:51:48.392
+E repito, eu faria isso.
+
+870
+00:51:49.212 --> 00:51:53.092
+Mas pegar o caso dele. O nome
+
+871
+00:51:53.172 --> 00:51:56.892
+dele estava Felipe Linux, por exemplo, então entendo que ele deva conhecer do
+
+872
+00:51:56.952 --> 00:52:00.452
+mundo Linux. Cara, se for pra fechar um contrato de R$ 500,
+
+873
+00:52:01.212 --> 00:52:04.232
+sabe o que eu prefiro fazer? Monta um curso de Linux e vai vender o curso.
+
+874
+00:52:05.772 --> 00:52:08.612
+É melhor do que ter um cliente te enchendo o saco por causa de R$ 500.
+
+875
+00:52:10.352 --> 00:52:13.772
+Vai lá, grava os cursos, grava os módulos e põe pra vender, pronto.
+
+876
+00:52:13.992 --> 00:52:15.932
+Comprou, não tem encheção de saco.
+
+877
+00:52:19.132 --> 00:52:20.852
+Então gente,
+
+878
+00:52:22.452 --> 00:52:23.432
+resumindo aqui.
+
+879
+00:52:24.672 --> 00:52:26.482
+Cara, posicionamento,
+
+880
+00:52:27.732 --> 00:52:31.412
+pra mim, é uma das coisas mais importantes, porque é o posicionamento
+
+881
+00:52:31.992 --> 00:52:33.292
+que vai te separar
+
+882
+00:52:34.352 --> 00:52:37.582
+de um consultor que fatura 30 mil, trabalhando
+
+883
+00:52:37.772 --> 00:52:41.632
+pouco, do consultor que fatura os mesmos 30 mil, mas tem
+
+884
+00:52:41.652 --> 00:52:45.452
+que trabalhar demais, trabalha horas, trabalha muito mais do que como
+
+885
+00:52:45.492 --> 00:52:45.952
+CLT.
+
+886
+00:52:47.972 --> 00:52:51.012
+Eu tenho alguns clientes aqui que é bem engraçado.
+
+887
+00:52:51.852 --> 00:52:55.692
+"Poxa, por que você saiu do CLT?" "Ah, não, trabalhava muito, era muitas
+
+888
+00:52:55.752 --> 00:52:58.792
+horas extras." "Mas você recebia pelas horas extras?" "Não, a empresa pagava
+
+889
+00:52:58.832 --> 00:53:02.632
+certinho, mas pô, ter que ficar trabalhando." Aí o cara foi ser
+
+890
+00:53:03.592 --> 00:53:04.492
+empreendedor,
+
+891
+00:53:05.992 --> 00:53:09.852
+trabalha a mesma coisa contando as horas extras que trabalhava na empresa, se não
+
+892
+00:53:09.892 --> 00:53:10.811
+trabalha mais.
+
+893
+00:53:12.412 --> 00:53:16.072
+E meu amigo, ele não tem aquelas horas extras pra receber, aquilo faz parte do
+
+894
+00:53:16.112 --> 00:53:19.172
+faturamento, ganhando menos. Então assim,
+
+895
+00:53:21.632 --> 00:53:22.411
+é complicado.
+
+896
+00:53:23.531 --> 00:53:27.242
+Por isso que eu prefiro muito mais ter
+
+897
+00:53:27.332 --> 00:53:30.982
+10 clientes pagando 3 mil do que 60 clientes pagando R$
+
+898
+00:53:30.992 --> 00:53:34.492
+500. E vou além, é mais fácil ter 10.
+
+899
+00:53:34.792 --> 00:53:35.192
+Cara, é
+
+900
+00:53:36.192 --> 00:53:36.992
+lógica.
+
+901
+00:53:39.152 --> 00:53:40.472
+Cliente é cliente.
+
+902
+00:53:42.352 --> 00:53:46.252
+Cara, é mais fácil você conseguir 10 do que 60, mesmo pagando
+
+903
+00:53:46.352 --> 00:53:48.892
+mais, porque o pagando mais, se você soube se
+
+904
+00:53:48.932 --> 00:53:52.372
+posicionar, esse valor é justificável.
+
+905
+00:53:53.172 --> 00:53:57.092
+Agora, esses R$ 500, você tem que ficar justificando toda hora, porque
+
+906
+00:53:57.232 --> 00:54:00.132
+toda hora o cara acha que está caro.
+
+907
+00:54:01.532 --> 00:54:01.872
+Eu
+
+908
+00:54:04.432 --> 00:54:08.132
+sei que acontece, porque, de novo, eu já vivi isso, eu conheço muitos clientes que
+
+909
+00:54:08.172 --> 00:54:12.092
+chegam até nós com esse problema. Quantas vezes você não fecha um contrato de R$
+
+910
+00:54:12.112 --> 00:54:14.952
+500 e fala que a empresa tem 30 horas?
+
+911
+00:54:15.932 --> 00:54:18.312
+É R$ 500 limitada a 30 horas.
+
+912
+00:54:19.452 --> 00:54:23.421
+Quantas vezes isso aqui não aconteceu com vocês, de um mês ser menos problemático
+
+913
+00:54:23.472 --> 00:54:24.632
+e você gastou 10 horas.
+
+914
+00:54:25.472 --> 00:54:29.292
+O cliente vira e fala: "E essas 20, vai ficar pro próximo mês?" O cara fica
+
+915
+00:54:29.412 --> 00:54:31.092
+chorando em coisa que é barato.
+
+916
+00:54:34.152 --> 00:54:37.692
+Isso aqui é o pior modelo de todos, só dá dor de cabeça.
+
+917
+00:54:40.152 --> 00:54:44.012
+Beleza, está pagando as contas? Paga as contas, cara, mas e aí, e a
+
+918
+00:54:44.072 --> 00:54:47.872
+sua visão de empreendedor de querer crescer a empresa, vai ficar só nisso?
+
+919
+00:54:47.932 --> 00:54:50.112
+Só que tem muita gente que já chegou num teto
+
+920
+00:54:51.572 --> 00:54:53.612
+de faturamento.
+
+921
+00:54:55.192 --> 00:54:57.152
+De faturamento, não, de entrega.
+
+922
+00:54:58.872 --> 00:55:01.802
+E ganhando pouco, mas por quê? Posicionamento
+
+923
+00:55:04.684 --> 00:55:08.504
+"Diogo, você tem a mentoria para quem é analista de infraestrutura sênior e quer
+
+924
+00:55:08.584 --> 00:55:12.344
+sair da CLT e abrir empresa de consultoria de TI focada em cloud?"
+
+925
+00:55:13.664 --> 00:55:16.084
+Isso. Só pra explicar,
+
+926
+00:55:16.944 --> 00:55:20.034
+inclusive começa hoje. A gente tem uma imersão,
+
+927
+00:55:20.904 --> 00:55:24.104
+que é a imersão Azure para consultores de TI.
+
+928
+00:55:25.864 --> 00:55:29.244
+Só pra gente explicar. Lá, vocês vão aprender
+
+929
+00:55:29.484 --> 00:55:32.744
+cinco serviços cloud, que são os que são mais demandados:
+
+930
+00:55:32.824 --> 00:55:36.704
+FinOps, migração, implementação de novos recursos,
+
+931
+00:55:36.744 --> 00:55:39.784
+ambiente híbrido, disaster recovery e backup.
+
+932
+00:55:39.924 --> 00:55:43.704
+São cinco serviços. É uma imersão de quatro semanas, com
+
+933
+00:55:43.724 --> 00:55:45.724
+dois encontros ao vivo toda semana.
+
+934
+00:55:45.744 --> 00:55:49.284
+Começa hoje, vai ser de segunda e terça os encontros.
+
+935
+00:55:49.294 --> 00:55:52.024
+Só que é focado nesses cinco
+
+936
+00:55:52.104 --> 00:55:55.864
+serviços. É essa
+
+937
+00:55:56.164 --> 00:55:57.864
+a imersão que a gente tem, começa hoje.
+
+938
+00:55:57.884 --> 00:56:01.754
+Vão ser quatro semanas começando hoje, com encontros ao vivo toda segunda e
+
+939
+00:56:01.884 --> 00:56:02.174
+terça.
+
+940
+00:56:03.544 --> 00:56:03.654
+Essa
+
+941
+00:56:04.844 --> 00:56:08.624
+começa hoje. "Sou especialista em infra aqui na
+
+942
+00:56:08.664 --> 00:56:11.764
+França, trabalho na rede
+
+943
+00:56:11.824 --> 00:56:15.464
+Accord." Não entendi o que seria essa boa pergunta.
+
+944
+00:56:16.204 --> 00:56:17.964
+Mas explicando aqui pro Cláudio,
+
+945
+00:56:19.684 --> 00:56:23.524
+não é que é focada em cloud como um todo, a gente foca nesses
+
+946
+00:56:23.564 --> 00:56:25.044
+cinco serviços, que pra mim,
+
+947
+00:56:25.884 --> 00:56:29.264
+são cinco serviços que se a galera que está nessa imersão fizer tudo que eu vou
+
+948
+00:56:29.324 --> 00:56:32.014
+ensinar e aplicar, porque tem muita gente que aprende e não aplica.
+
+949
+00:56:33.204 --> 00:56:36.224
+Por isso que eu gosto do nosso programa Done for you, porque o done for you o
+
+950
+00:56:36.264 --> 00:56:39.504
+cliente paga e eu faço, então eu sei que vai fazer.
+
+951
+00:56:39.544 --> 00:56:43.004
+Agora, o problema de imersão, mentoria, é que o cara aprende, mas às vezes não
+
+952
+00:56:43.064 --> 00:56:44.044
+implementa.
+
+953
+00:56:45.064 --> 00:56:46.744
+É esse cenário.
+
+954
+00:56:47.864 --> 00:56:48.264
+Beleza?
+
+955
+00:56:51.824 --> 00:56:54.604
+As aulas vão ficar gravadas. Que aula gravada?
+
+956
+00:56:54.664 --> 00:56:57.304
+Alguém colocou pergunta aqui? Você colocou e eu perdi.
+
+957
+00:57:01.504 --> 00:57:03.584
+Mas as aulas vão ficar gravadas, sim.
+
+958
+00:57:03.754 --> 00:57:05.504
+Mas eu vou colocar aqui,
+
+959
+00:57:07.084 --> 00:57:09.884
+ainda dá tempo. A gente tinha fechado, mas
+
+960
+00:57:11.284 --> 00:57:15.164
+ainda dá tempo de entrar nessa imersão, porque ela
+
+961
+00:57:15.184 --> 00:57:18.824
+começa hoje. Está aí o link no chat da equipe no
+
+962
+00:57:18.844 --> 00:57:22.324
+WhatsApp. Então quem tiver interesse, chama a equipe aí no
+
+963
+00:57:22.404 --> 00:57:25.844
+WhatsApp, fala que tem interesse de participar dessa imersão que começa
+
+964
+00:57:26.204 --> 00:57:26.864
+hoje.
+
+965
+00:57:30.024 --> 00:57:30.523
+Beleza?
+
+966
+00:57:31.824 --> 00:57:32.304
+Vamos lá.
+
+967
+00:57:35.364 --> 00:57:38.704
+Eu expliquei pra vocês aqui, só pra gente recapitular,
+
+968
+00:57:40.884 --> 00:57:42.224
+que essa questão de ficar
+
+969
+00:57:43.264 --> 00:57:47.104
+tendo consultoria focada em horas não dá certo, porque
+
+970
+00:57:47.164 --> 00:57:51.134
+horas é sempre um teto. A parte mais importante é
+
+971
+00:57:51.164 --> 00:57:54.804
+a parte do posicionamento. Não adianta ir atrás de cliente sem
+
+972
+00:57:54.814 --> 00:57:55.674
+posicionamento.
+
+973
+00:57:56.684 --> 00:58:00.084
+Você tem que ir atrás do cliente com o posicionamento já montado, já
+
+974
+00:58:00.144 --> 00:58:03.504
+estabelecido. Por isso que geralmente, quando a gente pega
+
+975
+00:58:04.224 --> 00:58:08.134
+ou alguém que é CLT e quer virar consultor do zero, ou
+
+976
+00:58:08.164 --> 00:58:11.964
+um consultor que está começando, primeiro a gente gosta de trabalhar
+
+977
+00:58:12.004 --> 00:58:15.624
+esse posicionamento pra depois trabalhar os outros
+
+978
+00:58:15.644 --> 00:58:19.553
+pilares, porque sem um posicionamento, não que você não vai ter resultado,
+
+979
+00:58:19.624 --> 00:58:23.544
+mas você sempre vai cobrar mais barato e sempre vai trabalhar demais e sempre vai
+
+980
+00:58:23.604 --> 00:58:24.604
+ter os piores clientes.
+
+981
+00:58:28.924 --> 00:58:29.724
+Isso é fato.
+
+982
+00:58:30.704 --> 00:58:34.404
+Quando você tem um bom posicionamento, aí as coisas já mudam um
+
+983
+00:58:34.444 --> 00:58:35.044
+pouquinho.
+
+984
+00:58:36.644 --> 00:58:40.544
+Quando você tem um posicionamento, você já atrai clientes melhores,
+
+985
+00:58:40.924 --> 00:58:44.824
+clientes que já te enxergam com uma visão um pouco mais estratégica,
+
+986
+00:58:45.424 --> 00:58:46.884
+então muda completamente.
+
+987
+00:58:48.604 --> 00:58:51.994
+No começo da aula, eu falei que eu ia explicar aqui um pouco dessas
+
+988
+00:58:52.004 --> 00:58:55.964
+estratégias, o que vocês têm que fazer para conseguir esses
+
+989
+00:58:56.104 --> 00:58:59.824
+30 K de maneira previsível, e falei que a gente poderia ajudar
+
+990
+00:58:59.904 --> 00:59:03.884
+vocês nesse processo, que é o quê?
+
+991
+00:59:03.964 --> 00:59:05.244
+É a nossa nova
+
+992
+00:59:06.444 --> 00:59:07.224
+mentoria,
+
+993
+00:59:08.384 --> 00:59:08.394
+a
+
+994
+00:59:11.184 --> 00:59:14.804
+gente criou isso novo, a chamada dela já é boa:
+
+995
+00:59:15.364 --> 00:59:17.704
+Virada 30 K TI.
+
+996
+00:59:18.514 --> 00:59:22.403
+Então aqui é pra quem quer alcançar esse
+
+997
+00:59:22.444 --> 00:59:26.124
+faturamento de 30 K, pra quem quer começar a desenhar esse
+
+998
+00:59:26.134 --> 00:59:30.104
+sistema, começar a preparar a empresa
+
+999
+00:59:30.144 --> 00:59:33.544
+pra ter esse faturamento de 30 K de maneira
+
+1000
+00:59:33.564 --> 00:59:34.464
+previsível.
+
+1001
+00:59:36.034 --> 00:59:39.984
+Aqui a gente não trabalha com indicação, com nada, é construir um
+
+1002
+00:59:40.124 --> 00:59:43.304
+sistema. E essa construção parte do
+
+1003
+00:59:43.414 --> 00:59:44.344
+posicionamento.
+
+1004
+00:59:45.824 --> 00:59:48.574
+Depois do posicionamento, a gente tem ali a
+
+1005
+00:59:48.664 --> 00:59:51.984
+pipeline/framework,
+
+1006
+00:59:54.524 --> 00:59:58.344
+que aqui é efetivamente as estratégias
+
+1007
+00:59:59.624 --> 01:00:00.884
+de atração de cliente.
+
+1008
+01:00:01.904 --> 01:00:03.744
+Então depois que eu tenho
+
+1009
+01:00:04.584 --> 01:00:08.284
+o meu posicionamento estabelecido, é a hora do quê?
+
+1010
+01:00:08.324 --> 01:00:11.984
+É a hora de eu mostrar pro mercado o meu posicionamento.
+
+1011
+01:00:12.044 --> 01:00:15.984
+É onde entra a pipeline framework, eu vou divulgar a minha mensagem, o meu
+
+1012
+01:00:16.004 --> 01:00:19.444
+posicionamento pras empresas. Então eu vou atrás, vou
+
+1013
+01:00:19.604 --> 01:00:23.144
+prospectar essas empresas com base na mensagem do meu
+
+1014
+01:00:23.164 --> 01:00:24.004
+posicionamento.
+
+1015
+01:00:25.264 --> 01:00:26.624
+E por fim, é o fechamento.
+
+1016
+01:00:28.484 --> 01:00:31.904
+E aqui é: beleza, o cliente chegou, agora como que eu faço pra fechar esse
+
+1017
+01:00:31.964 --> 01:00:35.324
+contrato com ele? Como que eu mostro pra ele que o meu
+
+1018
+01:00:35.344 --> 01:00:38.464
+serviço vai gerar valor pro negócio dele?
+
+1019
+01:00:42.444 --> 01:00:46.084
+Fechamento. Então essa mentoria vai focar nesses três
+
+1020
+01:00:46.164 --> 01:00:46.704
+pilares.
+
+1021
+01:00:47.804 --> 01:00:50.684
+Vai ser uma mentoria de três dias,
+
+1022
+01:00:52.864 --> 01:00:56.744
+começando a partir das 21h, a gente ainda vai definir os dias,
+
+1023
+01:00:57.564 --> 01:01:01.284
+mas vão ser três dias aqui, provavelmente vai ser numa
+
+1024
+01:01:01.444 --> 01:01:04.364
+sexta, num sábado e num domingo
+
+1025
+01:01:05.200 --> 01:01:08.690
+Porque sábado e domingo a gente consegue aprofundar um pouco mais.
+
+1026
+01:01:09.430 --> 01:01:13.380
+Só sábado e domingo, que ao invés de começar às 9h, a gente começaria mais
+
+1027
+01:01:13.420 --> 01:01:17.300
+cedo, mas vão ser três dias focados em ensinar
+
+1028
+01:01:17.500 --> 01:01:20.780
+como montar um posicionamento. Então aqui, gente, vocês vão
+
+1029
+01:01:20.820 --> 01:01:22.820
+receber scripts,
+
+1030
+01:01:23.820 --> 01:01:26.640
+vocês vão receber agentes de IA
+
+1031
+01:01:28.480 --> 01:01:32.120
+prontos pra te ajudar nessa estratégia, além de entender como
+
+1032
+01:01:32.180 --> 01:01:33.220
+montar tudo isso aqui.
+
+1033
+01:01:34.080 --> 01:01:37.880
+A mesma coisa o pipeline. Então vocês não vão ficar no escuro, vocês vão
+
+1034
+01:01:37.920 --> 01:01:39.820
+receber vários scripts,
+
+1035
+01:01:40.720 --> 01:01:44.649
+vocês vão receber agentes de IA também pra montar toda a estratégia,
+
+1036
+01:01:45.060 --> 01:01:46.720
+porque lembra o que eu falei pra vocês?
+
+1037
+01:01:47.500 --> 01:01:51.420
+No começo, e eu acredito que a maioria de vocês estão nesse cenário, vocês
+
+1038
+01:01:51.480 --> 01:01:55.220
+estão sozinhos. Vocês não podem perder muito
+
+1039
+01:01:55.290 --> 01:01:58.500
+tempo em atração de clientes, porque você precisa entregar o serviço.
+
+1040
+01:01:59.040 --> 01:02:02.960
+Então a gente vai mostrar como automatizar todo esse
+
+1041
+01:02:03.000 --> 01:02:06.780
+processo de vendas pra vocês. A gente tenta automatizar o
+
+1042
+01:02:06.940 --> 01:02:10.720
+máximo possível, o que não dá pra automatizar é uma reunião de fechamento, mas o
+
+1043
+01:02:10.780 --> 01:02:12.440
+resto a gente consegue automatizar tudo.
+
+1044
+01:02:12.460 --> 01:02:16.360
+E vocês vão aprender dentro dessa mentoria, a não só
+
+1045
+01:02:17.000 --> 01:02:20.500
+entender como funciona todos os processos, colocar todos os processos pra
+
+1046
+01:02:20.540 --> 01:02:23.360
+rodar, mas também automatizar eles.
+
+1047
+01:02:23.750 --> 01:02:26.900
+"Poxa, como que eu crio uma pipeline automatizada
+
+1048
+01:02:26.940 --> 01:02:30.460
+pra buscar um cliente? Como que eu crio uma
+
+1049
+01:02:30.480 --> 01:02:34.280
+pipeline automatizada pra entregar o material, esse cliente entrar na
+
+1050
+01:02:34.340 --> 01:02:38.320
+minha base pra eu poder falar com ele várias vezes?" Vocês vão aprender a
+
+1051
+01:02:38.420 --> 01:02:42.220
+criar automações pra atração de clientes, porque o
+
+1052
+01:02:42.260 --> 01:02:46.220
+foco de vocês sempre precisa ser a entrega final, que é entregar
+
+1053
+01:02:46.260 --> 01:02:48.730
+o projeto, é atender um contrato.
+
+1054
+01:02:49.770 --> 01:02:53.490
+Mas a parte de vendas é importante também, você também precisa atrair novas
+
+1055
+01:02:53.600 --> 01:02:57.200
+pessoas todos os meses. Então a gente vai automatizar esse
+
+1056
+01:02:57.220 --> 01:02:59.200
+processo de atração desses clientes.
+
+1057
+01:02:59.740 --> 01:03:03.130
+E o fechamento, a gente também tem vários scripts pra quebrar
+
+1058
+01:03:03.140 --> 01:03:06.920
+objeções, várias coisas aqui pra que você possa
+
+1059
+01:03:06.980 --> 01:03:10.720
+usar como linha de argumentação pra fechar, ter um
+
+1060
+01:03:10.800 --> 01:03:13.680
+sucesso de fechamento acima do normal.
+
+1061
+01:03:14.210 --> 01:03:17.180
+Então essa aqui é a mentoria
+
+1062
+01:03:17.460 --> 01:03:21.299
+virada de 30.000. O investimento dessa mentoria
+
+1063
+01:03:22.200 --> 01:03:25.600
+normal é de R$ 2.997.
+
+1064
+01:03:26.460 --> 01:03:30.340
+Só pra aqueles que vão garantir a vaga hoje, até
+
+1065
+01:03:30.380 --> 01:03:34.040
+as 23h59, a gente vai liberar um cupom de
+
+1066
+01:03:34.080 --> 01:03:34.740
+desconto
+
+1067
+01:03:37.320 --> 01:03:38.580
+de R$ 2.000.
+
+1068
+01:03:39.780 --> 01:03:40.860
+Descontou.
+
+1069
+01:03:42.060 --> 01:03:43.680
+Ou seja, o valor
+
+1070
+01:03:45.220 --> 01:03:49.200
+dessa mentoria de três dias vai ser de R$ 997.
+
+1071
+01:03:53.060 --> 01:03:55.360
+Então, pra quem tem interesse,
+
+1072
+01:03:58.180 --> 01:03:59.960
+está aí o link da minha equipe no WhatsApp.
+
+1073
+01:04:01.060 --> 01:04:02.960
+É só chamar a minha equipe,
+
+1074
+01:04:04.240 --> 01:04:05.740
+falar que tem interesse,
+
+1075
+01:04:06.920 --> 01:04:10.560
+estava aqui na nossa aula e que tem interesse em participar dessa
+
+1076
+01:04:10.600 --> 01:04:11.120
+mentoria.
+
+1077
+01:04:12.380 --> 01:04:16.060
+O pessoal vai mandar as informações pra você, vai mandar o link de pagamento pra
+
+1078
+01:04:16.100 --> 01:04:18.660
+você garantir a sua vaga com esse valor promocional.
+
+1079
+01:04:20.520 --> 01:04:22.200
+Maravilha? Deixa eu ver aqui essa dúvida.
+
+1080
+01:04:22.680 --> 01:04:26.550
+Tem um case: "Recebi uma proposta de colaborar com uma empresa..." Cara, eu
+
+1081
+01:04:26.580 --> 01:04:29.760
+já não sou muito a favor, já vi muito problema, mas vamos lá, deixa eu ler.
+
+1082
+01:04:30.320 --> 01:04:34.280
+"A proposta de colaborar com uma empresa onde a dor principal dele
+
+1083
+01:04:34.340 --> 01:04:38.180
+hoje é atender 12 clientes, onde ele não tem uma pessoa que
+
+1084
+01:04:38.200 --> 01:04:41.720
+supra a parte N1, N2. Ele conhece meu trabalho,
+
+1085
+01:04:41.840 --> 01:04:45.480
+confia e já viu de perto a minha dedicação e meu modus
+
+1086
+01:04:45.520 --> 01:04:49.200
+operandi. Acredito que esse é o ponto-chave onde posso tentar uma
+
+1087
+01:04:49.240 --> 01:04:51.940
+proposta que seja boa para ambas, pois inicialmente ele ofertou..."
+
+1088
+01:04:52.140 --> 01:04:56.120
+Cara, R$ 1.600,00 volto pro CLT. De
+
+1089
+01:04:56.140 --> 01:04:56.400
+novo.
+
+1090
+01:04:58.020 --> 01:05:01.300
+"Pra que eu possa suprir a necessidade da empresa dele, atendendo durante um certo
+
+1091
+01:05:01.340 --> 01:05:03.530
+horário, não sendo necessário dedicar 100%.
+
+1092
+01:05:04.380 --> 01:05:05.660
+Estou produzindo,
+
+1093
+01:05:07.360 --> 01:05:09.829
+visando também meu lado, porque, poxa,
+
+1094
+01:05:10.380 --> 01:05:13.770
+seria meio que uma empresa ajudando outra".
+
+1095
+01:05:14.040 --> 01:05:17.480
+É, assim, sendo bem sincero, não gosto desse modelo de negócio, já vi dar muito
+
+1096
+01:05:17.560 --> 01:05:20.700
+problema, porque por mais que você combine uma quantidade de horas,
+
+1097
+01:05:20.940 --> 01:05:23.480
+sempre vão querer extrapolar aquilo.
+
+1098
+01:05:23.980 --> 01:05:26.910
+E cara, aí você não vai querer atender, vai gerar
+
+1099
+01:05:26.910 --> 01:05:30.180
+aquele baita
+
+1100
+01:05:30.280 --> 01:05:33.540
+conflito. Não é o melhor dos cenários.
+
+1101
+01:05:33.980 --> 01:05:37.860
+Mas, poxa, é o que tem. Eu já achei o valor extremamente
+
+1102
+01:05:37.980 --> 01:05:41.920
+baixo, muito baixo. Com certeza, você conseguiria um
+
+1103
+01:05:41.940 --> 01:05:44.760
+cliente com valor muito maior e um cliente seu.
+
+1104
+01:05:45.600 --> 01:05:49.540
+Então eu prefiro gastar essa energia e
+
+1105
+01:05:49.580 --> 01:05:53.290
+tempo, a ir atrás do meu próprio cliente do que trabalhar pros outros
+
+1106
+01:05:53.360 --> 01:05:54.080
+nesse modelo.
+
+1107
+01:06:02.240 --> 01:06:04.060
+Eu preferiria muito mais
+
+1108
+01:06:07.120 --> 01:06:11.080
+ir atrás desse gastar esse tempo. Deixa eu colocar o link aqui, que o link
+
+1109
+01:06:11.120 --> 01:06:12.000
+saiu todo torto.
+
+1110
+01:06:13.000 --> 01:06:16.880
+Gastar esse tempo que você gastaria pra ajudar ele a
+
+1111
+01:06:16.890 --> 01:06:20.780
+atender esse cliente, eu preferiria muito mais pegar esse
+
+1112
+01:06:20.820 --> 01:06:24.260
+tempo e ir atrás do meu próprio cliente, pagando mais do que isso.
+
+1113
+01:06:24.380 --> 01:06:27.600
+Pronto, agora tá certo o link da equipe no WhatsApp.
+
+1114
+01:06:28.320 --> 01:06:31.940
+Então tá aí, gente, essa oportunidade pra quem quer que a gente
+
+1115
+01:06:32.020 --> 01:06:35.700
+ajude, não só com essa parte do posicionamento que vocês viram a importância
+
+1116
+01:06:35.820 --> 01:06:38.100
+hoje, mas também com os outros pilares.
+
+1117
+01:06:38.140 --> 01:06:40.340
+Não adianta você ter posicionamento e não ter cliente.
+
+1118
+01:06:41.580 --> 01:06:45.040
+Não adianta você conseguir chegar ao cliente, chega na hora do vamos ver de fechar,
+
+1119
+01:06:45.080 --> 01:06:49.070
+não fecha. Então aqui é pra gente fechar essa trinca: posicionamento,
+
+1120
+01:06:49.460 --> 01:06:51.660
+pipeline framework e o fechamento.
+
+1121
+01:06:52.180 --> 01:06:56.060
+Então a gente vai ver esses três pilares nessa mentoria de três
+
+1122
+01:06:56.100 --> 01:06:59.610
+dias. Investimento, fechando até hoje às 23h59,
+
+1123
+01:07:00.120 --> 01:07:03.880
+cupom de desconto de R$ 2.000 ativo, R$ 997 e
+
+1124
+01:07:03.960 --> 01:07:07.710
+esse valor pode ser parcelado em 12 vezes no
+
+1125
+01:07:07.720 --> 01:07:08.560
+cartão de crédito
+
+1126
+01:07:10.060 --> 01:07:10.580
+No boleto
+
+1127
+01:07:11.840 --> 01:07:15.460
+ou no Pix. Está aí o link da equipe no WhatsApp, quem tiver
+
+1128
+01:07:15.520 --> 01:07:19.480
+interesse, é só mandar mensagem no WhatsApp, falar que estava aqui na aula,
+
+1129
+01:07:20.280 --> 01:07:22.520
+que o pessoal gera o link pra vocês.
+
+1130
+01:07:22.580 --> 01:07:26.200
+E também essa oportunidade, aproveitando, que o nosso amigo aqui
+
+1131
+01:07:26.240 --> 01:07:26.740
+perguntou,
+
+1132
+01:07:27.680 --> 01:07:31.460
+sobre a imersão focada em cloud, que vai
+
+1133
+01:07:31.520 --> 01:07:35.240
+começar hoje. Então hoje, às 21h, a gente
+
+1134
+01:07:35.300 --> 01:07:39.120
+começa a nossa imersão Azure para consultores de TI.
+
+1135
+01:07:39.540 --> 01:07:43.060
+Então quem tiver interesse, pode mandar mensagem pra equipe no WhatsApp também,
+
+1136
+01:07:43.600 --> 01:07:47.540
+falar que estava aqui na aula, que tem interesse na imersão, pra que vocês possam
+
+1137
+01:07:47.580 --> 01:07:50.860
+dar esses próximos passos.
+
+1138
+01:07:51.660 --> 01:07:54.980
+Maravilha, turma. Entendido? Alguém tem alguma dúvida?
+
+1139
+01:07:55.020 --> 01:07:57.100
+Alguém quer fazer mais alguma pergunta?
+
+1140
+01:07:59.480 --> 01:08:00.880
+Só ver um negocinho aqui.
+
+1141
+01:08:05.960 --> 01:08:07.940
+Alguém quer fazer mais alguma pergunta?
+
+1142
+01:08:08.480 --> 01:08:11.060
+Alguém quer tirar mais alguma dúvida?
+
+1143
+01:08:13.800 --> 01:08:15.880
+Alguém quer pedir alguma
+
+1144
+01:08:15.920 --> 01:08:19.740
+orientação? Quem curtiu a aula, dá um 10 aí no
+
+1145
+01:08:19.760 --> 01:08:23.601
+chat, pra ver se vocês gostaram desse conteúdo,
+
+1146
+01:08:23.610 --> 01:08:26.700
+dessa aula. Gente, levem a sério o posicionamento de vocês.
+
+1147
+01:08:27.221 --> 01:08:29.760
+Levem a sério o posicionamento de vocês.
+
+1148
+01:08:30.620 --> 01:08:31.760
+Como eu falei, cara,
+
+1149
+01:08:32.780 --> 01:08:34.620
+posicionamento é tão importante
+
+1150
+01:08:36.141 --> 01:08:38.440
+que hoje,
+
+1151
+01:08:39.681 --> 01:08:41.561
+só pelo posicionamento, eu sei se o
+
+1152
+01:08:41.601 --> 01:08:44.780
+consultor trabalha muito e ganha
+
+1153
+01:08:44.920 --> 01:08:48.830
+pouco, ou se ele trabalha pouco e ganha muito. Só pelo posicionamento.
+
+1154
+01:08:49.170 --> 01:08:51.721
+Então levem a sério o posicionamento de vocês.
+
+1155
+01:08:51.740 --> 01:08:55.700
+Tem que levar a sério. Fujam de posicionamento genérico, porque é
+
+1156
+01:08:55.800 --> 01:08:59.760
+difícil defender um posicionamento genérico, é difícil você falar pra uma empresa
+
+1157
+01:08:59.840 --> 01:09:01.040
+que você conhece de tudo.
+
+1158
+01:09:02.440 --> 01:09:03.040
+Não rola.
+
+1159
+01:09:05.101 --> 01:09:08.880
+Essa mentoria começa hoje. Opa, essa aqui começa hoje.
+
+1160
+01:09:09.740 --> 01:09:10.440
+Que mentoria?
+
+1161
+01:09:11.800 --> 01:09:15.700
+Mas não, esse programa começa hoje, não faz
+
+1162
+01:09:15.721 --> 01:09:19.681
+parte de nenhum outro grupo, nenhuma outra entrega
+
+1163
+01:09:19.721 --> 01:09:20.000
+nossa.
+
+1164
+01:09:23.420 --> 01:09:27.400
+Porque aqui a gente não está falando de assunto técnico, aqui a gente está
+
+1165
+01:09:27.460 --> 01:09:29.380
+falando de business, de
+
+1166
+01:09:31.340 --> 01:09:32.980
+conversas de empresários.
+
+1167
+01:09:37.260 --> 01:09:40.820
+Beleza? Mas quem já é aluno tem sempre os
+
+1168
+01:09:40.860 --> 01:09:43.669
+descontos. Então chama a equipe, se tiver interesse.
+
+1169
+01:09:44.710 --> 01:09:48.700
+Quanto maior o programa que o aluno participa, maior é o desconto dele.
+
+1170
+01:09:48.800 --> 01:09:52.240
+Então quem tem interesse e é aluno de outros programas,
+
+1171
+01:09:52.721 --> 01:09:56.660
+pode chamar a equipe no WhatsApp, pode falar: "Poxa, eu sou aluno desse
+
+1172
+01:09:56.680 --> 01:10:00.310
+programa aqui. Tem algum desconto pra participar dessa imersão?"
+
+1173
+01:10:00.480 --> 01:10:03.120
+Então quem já acompanha há mais tempo sabe que a gente
+
+1174
+01:10:04.980 --> 01:10:07.340
+gosta de privilegiar os nossos alunos.
+
+1175
+01:10:08.640 --> 01:10:11.960
+Beleza, turma? Combinados? Então está aí a
+
+1176
+01:10:12.040 --> 01:10:15.540
+oportunidade na mesa pra quem quer dar os próximos passos.
+
+1177
+01:10:16.060 --> 01:10:20.000
+Chama a equipe no WhatsApp, conversa com a Gabi pra
+
+1178
+01:10:20.020 --> 01:10:23.380
+que vocês possam dar esses próximos passos e a gente possa
+
+1179
+01:10:23.780 --> 01:10:27.690
+começar a criar essa consultoria que vai faturar esses 30 mil
+
+1180
+01:10:27.700 --> 01:10:31.540
+por mês, que pra mim é o mínimo pra ser um
+
+1181
+01:10:31.600 --> 01:10:33.780
+empresário na área de tecnologia, porque
+
+1182
+01:10:34.820 --> 01:10:37.360
+menos do que 30 mil você consegue como CLT.
+
+1183
+01:10:38.180 --> 01:10:40.640
+Beleza? Combinado? Então é isso aí, turma.
+
+1184
+01:10:41.320 --> 01:10:45.180
+Vamos ficando por aqui. Um grande abraço pra todos, uma boa semana pra
+
+1185
+01:10:45.200 --> 01:10:48.400
+vocês, fiquem com Deus e até a próxima.
+
+1186
+01:10:48.780 --> 01:10:49.519
+Valeu, pessoal.

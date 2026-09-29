@@ -1,0 +1,5321 @@
+WEBVTT
+
+1
+00:00:02.720 --> 00:00:05.080
+Fala, turma! Bom dia!
+
+2
+00:00:06.660 --> 00:00:09.800
+Sejam todos muito bem-vindos,
+
+3
+00:00:11.300 --> 00:00:13.260
+sejam todas muito bem-vindas
+
+4
+00:00:14.620 --> 00:00:17.740
+à nossa aula, na verdade, uma
+
+5
+00:00:18.040 --> 00:00:21.620
+continuidade de uma aula que a gente fez na
+
+6
+00:00:21.640 --> 00:00:25.470
+segunda-feira. Hoje a gente vai aprofundar um pouco mais
+
+7
+00:00:25.560 --> 00:00:27.160
+aqui nesse tema
+
+8
+00:00:28.440 --> 00:00:32.259
+de serviços que têm alta demanda hoje no mercado, serviços que
+
+9
+00:00:32.299 --> 00:00:36.040
+são fáceis de vender, serviços que trazem um bom faturamento,
+
+10
+00:00:36.100 --> 00:00:40.000
+serviços que trazem um excelente lucro para consultorias de TI.
+
+11
+00:00:40.920 --> 00:00:43.480
+Está todo mundo me ouvindo bem? Todo mundo vendo aqui
+
+12
+00:00:44.740 --> 00:00:47.920
+o mapinha mental? Está tudo certo? Podemos começar?
+
+13
+00:00:48.040 --> 00:00:50.820
+Só confirmem aí para mim no chat, por gentileza,
+
+14
+00:00:51.900 --> 00:00:55.330
+se está tudo certo, se vocês estão vendo, se vocês estão
+
+15
+00:00:55.440 --> 00:00:56.360
+ouvindo.
+
+16
+00:01:02.420 --> 00:01:02.800
+Tudo ok,
+
+17
+00:01:04.280 --> 00:01:05.420
+tudo certinho.
+
+18
+00:01:06.940 --> 00:01:07.360
+Tudo ok,
+
+19
+00:01:08.780 --> 00:01:11.040
+tudo certo. Maravilha.
+
+20
+00:01:11.920 --> 00:01:15.120
+Então vamos lá. Qualquer dúvida que vocês tenham, ou pergunta,
+
+21
+00:01:15.200 --> 00:01:16.140
+orientações,
+
+22
+00:01:17.060 --> 00:01:20.100
+podem mandar aqui no chat, que eu estou de olho aqui.
+
+23
+00:01:20.740 --> 00:01:24.340
+Mas vamos lá, pessoal. Hoje eu quero me aprofundar um
+
+24
+00:01:24.460 --> 00:01:28.350
+pouco em um serviço, que para mim, é o
+
+25
+00:01:28.440 --> 00:01:31.030
+serviço hoje mais fácil de vender
+
+26
+00:01:32.500 --> 00:01:36.320
+e um serviço que acaba abrindo uma porta muito
+
+27
+00:01:36.380 --> 00:01:39.560
+grande na empresa para a gente conseguir vender outros serviços.
+
+28
+00:01:40.480 --> 00:01:41.700
+Então aqui, só para a gente
+
+29
+00:01:44.000 --> 00:01:47.760
+revisar rapidamente, na segunda-feira eu trouxe
+
+30
+00:01:47.840 --> 00:01:51.500
+aqui um mapa com cinco serviços hoje que a gente tem
+
+31
+00:01:52.180 --> 00:01:54.730
+alta demanda quando envolve o Azure.
+
+32
+00:01:55.780 --> 00:01:59.690
+Então eu falei sobre migração de on-premises para nuvem,
+
+33
+00:02:00.300 --> 00:02:04.240
+algo que vem crescendo muito. Essa parte de identidade
+
+34
+00:02:04.260 --> 00:02:07.700
+híbrida, que é a construção do Entra
+
+35
+00:02:07.780 --> 00:02:10.900
+Connect para conectar o AD com o Entra ID,
+
+36
+00:02:12.480 --> 00:02:15.880
+subir máquinas virtuais, bancos de dados e
+
+37
+00:02:15.940 --> 00:02:19.760
+aplicações no Azure, então muitas empresas estão passando por
+
+38
+00:02:19.800 --> 00:02:20.470
+esse cenário,
+
+39
+00:02:21.280 --> 00:02:24.980
+a parte de backup e principalmente Disaster Recovery,
+
+40
+00:02:25.960 --> 00:02:28.820
+e, por fim, a parte de FinOps, gestão de custo.
+
+41
+00:02:28.900 --> 00:02:31.000
+E aqui eu trouxe um pouquinho
+
+42
+00:02:32.060 --> 00:02:33.800
+dos valores que geralmente
+
+43
+00:02:34.320 --> 00:02:37.980
+a gente
+
+44
+00:02:38.200 --> 00:02:42.180
+costuma cobrar nesses projetos. E lembrando, isso aqui não são dados meus,
+
+45
+00:02:42.200 --> 00:02:45.240
+isso aqui são dados de mercado, então as empresas já estão pagando esses
+
+46
+00:02:45.260 --> 00:02:48.140
+valores. Então para migração on-premises,
+
+47
+00:02:49.360 --> 00:02:53.340
+aqui depende muito do tamanho da empresa, geralmente uma pequena,
+
+48
+00:02:53.420 --> 00:02:57.340
+média empresa, a gente está falando ali de 10 a 50
+
+49
+00:02:57.380 --> 00:03:01.280
+mil. A parte para construir essa conexão,
+
+50
+00:03:01.300 --> 00:03:04.840
+esse ambiente híbrido de identidade, é algo que fica ali
+
+51
+00:03:04.880 --> 00:03:08.320
+entre 5 e 30 mil. Subir máquinas,
+
+52
+00:03:08.340 --> 00:03:12.040
+aplicações, bancos de dados, entre 5 e 30 mil.
+
+53
+00:03:12.720 --> 00:03:16.540
+Backup, Disaster Recovery, principalmente essa parte de Disaster Recovery,
+
+54
+00:03:17.240 --> 00:03:21.160
+a gente consegue serviços de 20 até 100 mil, dependendo do
+
+55
+00:03:21.220 --> 00:03:25.120
+tamanho da empresa. E a parte de FinOps aqui, geralmente,
+
+56
+00:03:25.560 --> 00:03:26.880
+a gente acaba pegando
+
+57
+00:03:27.680 --> 00:03:31.500
+uma porcentagem do que a gente consegue gerar economia para pagar os nossos
+
+58
+00:03:31.540 --> 00:03:35.320
+serviços, só que esse tipo de serviço acaba
+
+59
+00:03:35.340 --> 00:03:38.900
+abrindo muitas portas para que a gente possa vender outros
+
+60
+00:03:38.940 --> 00:03:42.800
+serviços dentro das empresas. Então isso aqui são cinco
+
+61
+00:03:42.820 --> 00:03:46.720
+serviços que se hoje você tem uma meta de
+
+62
+00:03:46.780 --> 00:03:50.400
+faturar 50 mil por mês com a sua consultoria, com a sua
+
+63
+00:03:50.440 --> 00:03:54.380
+empresa de TI, são serviços que vocês precisam ter no portfólio de
+
+64
+00:03:54.400 --> 00:03:54.950
+vocês,
+
+65
+00:03:55.960 --> 00:03:58.280
+porque são serviços hoje que a gente tem muita demanda.
+
+66
+00:03:58.980 --> 00:04:01.720
+E lembra, eu comentei isso na aula de segunda,
+
+67
+00:04:02.320 --> 00:04:06.200
+vocês não precisam ser especialistas em cloud para
+
+68
+00:04:06.240 --> 00:04:10.070
+poder oferecer esses serviços. Você precisa saber e conhecer
+
+69
+00:04:10.100 --> 00:04:13.900
+como que entrega esses serviços, mas não precisa ser um especialista.
+
+70
+00:04:14.840 --> 00:04:17.601
+E hoje, o que eu quero me aprofundar hoje com vocês?
+
+71
+00:04:18.140 --> 00:04:18.260
+Na
+
+72
+00:04:19.399 --> 00:04:21.700
+aula de segunda-feira, onde eu detalhei isso aqui,
+
+73
+00:04:22.580 --> 00:04:23.380
+eu falei para vocês,
+
+74
+00:04:24.340 --> 00:04:26.030
+se eu tivesse começando agora,
+
+75
+00:04:27.840 --> 00:04:31.830
+abri minha empresa de consultoria agora, ou eu já tenho uma empresa de consultoria
+
+76
+00:04:31.840 --> 00:04:35.360
+e não estou conseguindo faturar o que eu quero, eu quero ter um faturamento ali de
+
+77
+00:04:35.640 --> 00:04:36.520
+50 mil por mês.
+
+78
+00:04:39.000 --> 00:04:42.980
+Eu começaria pelo quatro e pelo cinco, sem
+
+79
+00:04:43.140 --> 00:04:43.870
+dúvida nenhuma.
+
+80
+00:04:45.260 --> 00:04:48.880
+Se você tem menos experiência, pelo cinco, com
+
+81
+00:04:49.040 --> 00:04:52.110
+toda certeza, porque é onde é mais fácil
+
+82
+00:04:52.240 --> 00:04:55.740
+vender, é muito mais fácil vender o
+
+83
+00:04:55.960 --> 00:04:59.920
+cinco, que é essa parte do FinOps, do que
+
+84
+00:05:00.200 --> 00:05:01.360
+qualquer outro
+
+85
+00:05:02.400 --> 00:05:06.340
+serviço. E se eu quero vender serviços mais premium, que
+
+86
+00:05:06.360 --> 00:05:09.920
+eu vou ter um lucro maior, o quatro também se
+
+87
+00:05:09.930 --> 00:05:12.120
+integra muito nesse
+
+88
+00:05:13.720 --> 00:05:15.650
+contexto. Hoje eu quero
+
+89
+00:05:15.980 --> 00:05:19.760
+especificar, aprofundar um pouco mais na parte de
+
+90
+00:05:19.800 --> 00:05:23.440
+FinOps, porque vocês vão entender que o FinOps pode ser a
+
+91
+00:05:23.620 --> 00:05:27.200
+porta para eu vender os outros serviços, e não só esses cinco serviços.
+
+92
+00:05:27.960 --> 00:05:31.560
+Pode ser a porta para eu vender outros serviços dentro do meu
+
+93
+00:05:31.580 --> 00:05:32.140
+portfólio.
+
+94
+00:05:33.240 --> 00:05:36.720
+Porque qual é o grande desafio para a maioria de vocês hoje?
+
+95
+00:05:37.360 --> 00:05:40.550
+O grande desafio para a maioria de vocês hoje é entrar na empresa,
+
+96
+00:05:41.400 --> 00:05:43.280
+é vender o primeiro serviço para o cliente.
+
+97
+00:05:44.840 --> 00:05:46.360
+Hoje, muitos de vocês,
+
+98
+00:05:47.220 --> 00:05:51.160
+se conseguirem vender esse primeiro serviço para o cliente, vai abrir
+
+99
+00:05:51.200 --> 00:05:54.340
+uma porta que você vai ter um faturamento que você nunca teve.
+
+100
+00:05:54.560 --> 00:05:57.660
+Só que o problema é como chegar nesse cliente, como ter esse cliente.
+
+101
+00:05:58.610 --> 00:06:01.960
+E o FinOps é um tipo de serviço que a gente
+
+102
+00:06:01.980 --> 00:06:05.460
+praticamente não tem barreira de vender esse serviço,
+
+103
+00:06:05.480 --> 00:06:07.680
+porque o que eu entrego
+
+104
+00:06:08.480 --> 00:06:10.720
+O que eu gero de valor pra empresa
+
+105
+00:06:11.600 --> 00:06:14.640
+é financeiro, eu estou fazendo ela economizar.
+
+106
+00:06:14.720 --> 00:06:17.220
+Quando eu consigo mostrar isso pra empresa,
+
+107
+00:06:18.340 --> 00:06:21.320
+tudo fica muito mais simples.
+
+108
+00:06:22.400 --> 00:06:24.940
+E hoje, existe um estudo
+
+109
+00:06:27.140 --> 00:06:30.860
+do próprio Gartner, que saiu em janeiro
+
+110
+00:06:30.880 --> 00:06:34.640
+desse ano, onde ele fala que as empresas hoje, que estão
+
+111
+00:06:34.720 --> 00:06:35.720
+utilizando o cloud,
+
+112
+00:06:36.620 --> 00:06:36.820
+estão
+
+113
+00:06:39.360 --> 00:06:43.220
+pagando de 40% a 60% a mais,
+
+114
+00:06:43.320 --> 00:06:44.700
+sem necessidade nenhuma.
+
+115
+00:06:48.749 --> 00:06:52.540
+O que isso significa? Que hoje quando você oferece um serviço de
+
+116
+00:06:52.580 --> 00:06:54.680
+FinOps, vai ser muito raro
+
+117
+00:06:55.660 --> 00:06:57.640
+você não conseguir gerar um saving.
+
+118
+00:06:58.260 --> 00:07:01.880
+Vai ser muito difícil, porque isso é um estudo, cada vez que a
+
+119
+00:07:01.940 --> 00:07:05.800
+gente entra nas empresas pra fazer um FinOps, a gente vê isso
+
+120
+00:07:05.820 --> 00:07:09.200
+cada vez mais. As empresas gastando com
+
+121
+00:07:09.340 --> 00:07:10.150
+serviços
+
+122
+00:07:11.000 --> 00:07:12.240
+de forma desnecessária.
+
+123
+00:07:13.990 --> 00:07:15.680
+Agora, quando eu chego pra um cliente,
+
+124
+00:07:17.290 --> 00:07:21.240
+estou começando agora, eu não sou conhecido no mercado, mas eu chego pro cliente
+
+125
+00:07:21.730 --> 00:07:25.280
+e consigo mostrar pra ele, consigo falar pra ele, consigo
+
+126
+00:07:25.300 --> 00:07:28.160
+argumentar pra ele, que ele está tendo um custo de
+
+127
+00:07:28.400 --> 00:07:30.030
+40% a 60% a mais,
+
+128
+00:07:31.400 --> 00:07:33.840
+e eu me proponho a resolver aquele problema,
+
+129
+00:07:35.700 --> 00:07:39.520
+eu não vou cobrar tudo que eu estou economizando, às vezes vou cobrar uma
+
+130
+00:07:39.540 --> 00:07:40.770
+porcentagem disso,
+
+131
+00:07:41.580 --> 00:07:44.600
+pra ele, ele vê isso como: "Cara, eu já estou
+
+132
+00:07:44.940 --> 00:07:48.820
+gastando isso sem necessidade". Foi um exemplo que eu dei aqui,
+
+133
+00:07:48.940 --> 00:07:52.380
+e é nisso que eu quero aprofundar. Por exemplo, uma empresa hoje,
+
+134
+00:07:53.020 --> 00:07:55.840
+que gasta 100 mil com cloud, com Azure.
+
+135
+00:07:56.750 --> 00:07:58.620
+A empresa gasta todo mês 100 mil reais.
+
+136
+00:08:00.060 --> 00:08:03.080
+Se eu gerar um saving de 20%, e isso é
+
+137
+00:08:03.100 --> 00:08:06.800
+extremamente fácil, simples, e eu vou mostrar pra
+
+138
+00:08:06.840 --> 00:08:10.400
+vocês, é isso que eu quero detalhar pra vocês, eu estou falando de um
+
+139
+00:08:10.460 --> 00:08:14.180
+saving de 20 mil reais. Se eu chego pra essa empresa e
+
+140
+00:08:14.280 --> 00:08:16.000
+cobro 7 mil reais pelo meu
+
+141
+00:08:16.040 --> 00:08:20.480
+serviço,
+
+142
+00:08:20.900 --> 00:08:24.520
+na mente de quem está tomando a decisão é: "Cara, beleza, eu ainda estou ganhando
+
+143
+00:08:24.540 --> 00:08:25.140
+13 mil,
+
+144
+00:08:26.300 --> 00:08:29.640
+porque ele está me trazendo um saving de 20 e está me cobrando só sete.
+
+145
+00:08:30.760 --> 00:08:32.841
+Então eu ainda estou no lucro de 13 mil".
+
+146
+00:08:32.880 --> 00:08:36.810
+Então essa barreira de pagar 7 mil pro consultor, é uma barreira
+
+147
+00:08:36.880 --> 00:08:39.441
+que é muito fácil de ser quebrada.
+
+148
+00:08:41.081 --> 00:08:42.941
+Por isso que eu falo: gente, hoje,
+
+149
+00:08:44.520 --> 00:08:48.210
+se vocês estão querendo, "eu estou com dificuldade de faturamento,
+
+150
+00:08:48.580 --> 00:08:52.500
+eu estou com dificuldade de previsibilidade, eu preciso ter mais faturamento
+
+151
+00:08:52.560 --> 00:08:56.180
+de uma maneira mais previsível", cara, vai pro FinOps.
+
+152
+00:08:57.960 --> 00:09:01.620
+Porque o que acontece? Uma vez que você gera esse saving pro cliente, você já vai
+
+153
+00:09:01.680 --> 00:09:05.560
+receber com isso, isso aqui vai te abrir porta, agora você está dentro do
+
+154
+00:09:05.580 --> 00:09:08.700
+cliente, o cliente te conhece, ele sabe da sua capacidade.
+
+155
+00:09:09.080 --> 00:09:12.980
+Esse valor que ele te pagou agora pode
+
+156
+00:09:13.040 --> 00:09:16.880
+gerar um contrato mensal, por exemplo, com outros serviços que você
+
+157
+00:09:16.920 --> 00:09:20.860
+oferece. Ou você pode oferecer outras coisas, porque agora você está
+
+158
+00:09:20.920 --> 00:09:24.560
+dentro do cliente, agora você tem a confiança, você virou uma autoridade pra esse
+
+159
+00:09:24.580 --> 00:09:28.320
+cliente. Então tudo que você oferecer dali pra frente, fica mais fácil fechar.
+
+160
+00:09:30.060 --> 00:09:33.940
+Mas tem muita gente que se só concentrar no FinOps, já
+
+161
+00:09:33.980 --> 00:09:37.880
+vai conseguir os 50 C por mês, porque toda empresa hoje
+
+162
+00:09:37.960 --> 00:09:39.890
+ou está na nuvem ou está indo pra nuvem.
+
+163
+00:09:41.940 --> 00:09:45.520
+Então tem muito mercado hoje. É um mercado que não está sendo
+
+164
+00:09:45.560 --> 00:09:46.160
+explorado.
+
+165
+00:09:47.800 --> 00:09:51.660
+Só que acontece, vocês que ficam procrastinando muito, deixando
+
+166
+00:09:51.700 --> 00:09:52.900
+sempre pra depois,
+
+167
+00:09:54.100 --> 00:09:57.460
+cara, daqui alguns meses já vai ter muitos consultores fazendo isso aqui, vai ser
+
+168
+00:09:57.500 --> 00:09:59.440
+mais difícil. Só que hoje não tem.
+
+169
+00:10:02.200 --> 00:10:06.030
+Por isso que ainda existe esse estudo que fala que as empresas ainda gastam muito,
+
+170
+00:10:06.120 --> 00:10:08.040
+porque não tem quem ajude essas empresas.
+
+171
+00:10:10.400 --> 00:10:13.900
+Então, gente, isso aqui é ouro. Isso aqui é o que pode te trazer a
+
+172
+00:10:13.920 --> 00:10:17.580
+estabilidade financeira que você quer pra sua empresa, desde que bem
+
+173
+00:10:17.640 --> 00:10:18.380
+executada.
+
+174
+00:10:20.450 --> 00:10:23.120
+Imagina só, cara, eu não estou falando de coisa
+
+175
+00:10:23.240 --> 00:10:26.800
+difícil. Imagine que você consegue cinco
+
+176
+00:10:26.819 --> 00:10:27.980
+clientes por mês.
+
+177
+00:10:32.120 --> 00:10:35.520
+Cara, eu estou falando de em 30 dias.
+
+178
+00:10:36.820 --> 00:10:40.400
+Com uma oferta que é extremamente fácil vender, porque você está
+
+179
+00:10:40.460 --> 00:10:44.420
+mostrando pro cliente que o que ele está te pagando, ele ainda está economizando
+
+180
+00:10:44.460 --> 00:10:48.390
+muito mais. Se você não conseguir cinco clientes
+
+181
+00:10:48.440 --> 00:10:49.700
+em 30 dias,
+
+182
+00:10:52.340 --> 00:10:53.300
+eu
+
+183
+00:10:54.340 --> 00:10:57.660
+olharia de verdade. "Pô, será que eu tenho que ser consultor mesmo?
+
+184
+00:10:57.700 --> 00:10:58.720
+Porque senão eu não estou conseguindo".
+
+185
+00:10:59.460 --> 00:11:01.060
+Cinco clientes por mês,
+
+186
+00:11:02.340 --> 00:11:05.660
+oferecendo algo que não tem como não ver valor.
+
+187
+00:11:07.720 --> 00:11:11.630
+Tem coisa errada. Cinco clientes por mês, eu estou falando
+
+188
+00:11:11.680 --> 00:11:15.510
+aqui só com esse serviço, eu estou falando de um faturamento
+
+189
+00:11:15.560 --> 00:11:17.350
+aqui de 35 mil reais.
+
+190
+00:11:18.780 --> 00:11:22.680
+Só com isso. Só que lembra, isso aqui pode ser a ponte pra você vender
+
+191
+00:11:22.720 --> 00:11:26.610
+outros serviços. No final, poxa, eu cobrei
+
+192
+00:11:27.140 --> 00:11:30.600
+7 mil. Maravilha. No final, o que eu posso fazer?
+
+193
+00:11:30.640 --> 00:11:32.840
+Vender uma recorrência. "Deixa eu cuidar
+
+194
+00:11:34.040 --> 00:11:37.910
+do FinOps da sua empresa pra você não ficar tendo surpresas igual você teve".
+
+195
+00:11:40.140 --> 00:11:43.900
+Aí o que você pode fazer? Você pode cobrar, por exemplo, sei lá, 3 mil
+
+196
+00:11:43.960 --> 00:11:44.740
+reais por mês.
+
+197
+00:11:49.100 --> 00:11:52.840
+Três mil reais por mês, então eu estou falando aqui se eu tenho cinco clientes, eu
+
+198
+00:11:52.880 --> 00:11:55.460
+estou falando de mais um faturamento de 15 mil.
+
+199
+00:11:56.760 --> 00:12:00.440
+Só que agora um faturamento que é todo mês, e toda vez que eu tenho novos clientes
+
+200
+00:12:00.460 --> 00:12:03.140
+pagando essa recorrência, essa conta vai dobrando.
+
+201
+00:12:05.920 --> 00:12:09.780
+E eu vou chegando cada vez mais próximo do faturamento de 50
+
+202
+00:12:09.820 --> 00:12:09.940
+C.
+
+203
+00:12:13.036 --> 00:12:13.976
+E isso, turma,
+
+204
+00:12:14.876 --> 00:12:18.816
+quando bem feito, é fácil chegar nesses valores,
+
+205
+00:12:19.896 --> 00:12:23.836
+porque esse tipo de oferta é uma oferta
+
+206
+00:12:23.876 --> 00:12:25.506
+que a gente chama de irresistível.
+
+207
+00:12:25.536 --> 00:12:27.836
+O cliente olha e fala: "Cara,
+
+208
+00:12:28.836 --> 00:12:29.936
+eu estou gastando 20.
+
+209
+00:12:32.816 --> 00:12:36.696
+O cara está me cobrando sete, eu ainda estou no lucro de 13."
+
+210
+00:12:37.736 --> 00:12:40.806
+Esse tipo de oferta é o que a gente chama de irresistível, porque quando ele olha e
+
+211
+00:12:40.816 --> 00:12:44.176
+fala: "Cara, só se eu for besta de não ter esse lucro."
+
+212
+00:12:45.996 --> 00:12:49.876
+Então
+
+213
+00:12:49.896 --> 00:12:53.206
+isso que a gente chama oferta irresistível, o cliente olha e fala: "Cara, como que
+
+214
+00:12:53.216 --> 00:12:56.976
+eu vou resistir a isso aqui? Eu estou pagando o consultor
+
+215
+00:12:57.176 --> 00:12:59.236
+e ainda estou recebendo um retorno?"
+
+216
+00:13:03.336 --> 00:13:07.196
+Agora, o que acontece? Primeiro, boa parte de
+
+217
+00:13:07.256 --> 00:13:07.916
+vocês
+
+218
+00:13:09.256 --> 00:13:10.116
+não tem ideia.
+
+219
+00:13:11.096 --> 00:13:14.966
+Beleza, fechou o contrato de FinOps, agora como que eu vou gerar esse saving?
+
+220
+00:13:15.816 --> 00:13:19.036
+Porque não adianta nada você ir para a empresa e não gerar saving nenhum.
+
+221
+00:13:21.096 --> 00:13:24.686
+Como que eu faço para gerar esse saving?
+
+222
+00:13:24.936 --> 00:13:28.516
+Aqui, especificamente, a parte de
+
+223
+00:13:28.596 --> 00:13:28.936
+Azure,
+
+224
+00:13:29.836 --> 00:13:32.796
+eu preciso conhecer como que funciona
+
+225
+00:13:33.836 --> 00:13:37.456
+essa parte de FinOps dentro do Azure, quais são os
+
+226
+00:13:37.516 --> 00:13:38.456
+serviços
+
+227
+00:13:39.856 --> 00:13:43.836
+que eu tenho que atacar, que vão me trazer
+
+228
+00:13:43.916 --> 00:13:47.876
+essa economia, esse saving, para eu mostrar
+
+229
+00:13:47.936 --> 00:13:48.916
+para o meu cliente,
+
+230
+00:13:49.796 --> 00:13:52.616
+de maneira fácil
+
+231
+00:13:55.316 --> 00:13:56.656
+de entender e rápida,
+
+232
+00:13:57.816 --> 00:14:01.596
+o saving que eu consigo gerar para o ambiente dele, o quanto que ele está gastando
+
+233
+00:14:01.676 --> 00:14:03.056
+sem necessidade nenhuma.
+
+234
+00:14:04.216 --> 00:14:08.176
+E aqui, muitas vezes, são coisas simples, vocês vão entender.
+
+235
+00:14:08.186 --> 00:14:11.996
+"Eu vou precisar de anos estudando
+
+236
+00:14:12.156 --> 00:14:16.056
+Azure para conseguir entregar esse serviço." Cara, em menos de
+
+237
+00:14:16.076 --> 00:14:19.356
+uma semana você consegue aprender tudo que você precisa para gerar essas
+
+238
+00:14:19.416 --> 00:14:20.496
+economias. Tudo.
+
+239
+00:14:22.276 --> 00:14:23.895
+Porque muitas vezes esses serviços,
+
+240
+00:14:25.416 --> 00:14:29.236
+vão ser baseados em quê? Muitas vezes,
+
+241
+00:14:29.296 --> 00:14:31.876
+cara, são recursos órfãos que a gente tem no ambiente.
+
+242
+00:14:37.036 --> 00:14:40.876
+São recursos que não estão sendo utilizados.
+
+243
+00:14:42.136 --> 00:14:43.576
+Onde que eu consigo ver isso?
+
+244
+00:14:44.936 --> 00:14:46.836
+Lá no Azure Advisor.
+
+245
+00:14:48.636 --> 00:14:51.196
+Ele vai me mostrar: "Você tem recursos órfãos."
+
+246
+00:14:54.576 --> 00:14:56.736
+Muitas vezes, é o
+
+247
+00:14:56.956 --> 00:15:00.996
+superdimensionamento
+
+248
+00:15:02.156 --> 00:15:03.655
+de recursos.
+
+249
+00:15:04.956 --> 00:15:08.816
+A empresa subiu o recurso com uma capacidade que está
+
+250
+00:15:08.916 --> 00:15:10.196
+sendo muito maior
+
+251
+00:15:11.696 --> 00:15:14.636
+do que eu preciso. Então aqui o que eu tenho que fazer?
+
+252
+00:15:15.316 --> 00:15:15.976
+Resize.
+
+253
+00:15:17.696 --> 00:15:20.416
+Onde que vai me mostrar isso? Azure Advisor.
+
+254
+00:15:26.196 --> 00:15:29.946
+Existe um recurso que as empresas negligenciam demais, só que se elas
+
+255
+00:15:29.976 --> 00:15:33.956
+entenderem como usar esse recurso da maneira certa, tiver um consultor
+
+256
+00:15:33.976 --> 00:15:37.576
+que mostre a importância, e isso vai fazer parte do seu serviço de
+
+257
+00:15:37.636 --> 00:15:41.296
+FinOps, isso vai gerar uma baita economia para a empresa, que são as
+
+258
+00:15:41.356 --> 00:15:42.026
+reservas.
+
+259
+00:15:44.016 --> 00:15:47.916
+Com as reservas, eu consigo um desconto de até 70%,
+
+260
+00:15:48.696 --> 00:15:50.836
+se eu reservar o recurso por três anos.
+
+261
+00:15:51.496 --> 00:15:55.416
+Então tem hoje, gente, empresa que sobem recursos, aqui recurso
+
+262
+00:15:55.436 --> 00:15:59.336
+pode ser máquina virtual, pode ser banco de dados, pode
+
+263
+00:15:59.376 --> 00:16:02.256
+ser aplicação web, pode ser a parte de inteligência
+
+264
+00:16:02.296 --> 00:16:05.946
+artificial, pode ser a parte de container.
+
+265
+00:16:09.236 --> 00:16:13.036
+São vários serviços. E muitas empresas, quando sobem
+
+266
+00:16:13.056 --> 00:16:16.496
+esses serviços em cloud, isso também no ambiente on premises,
+
+267
+00:16:16.916 --> 00:16:19.136
+são serviços que vão rodar por anos.
+
+268
+00:16:21.956 --> 00:16:24.616
+Se eu estou subindo um serviço novo na empresa,
+
+269
+00:16:26.796 --> 00:16:26.816
+isso
+
+270
+00:16:28.436 --> 00:16:32.276
+aqui vai fazer parte da sua recorrência que você pode tentar vender depois,
+
+271
+00:16:33.116 --> 00:16:36.846
+que é o quê? Toda vez que eu vou subir um recurso novo na nuvem, eu vou olhar
+
+272
+00:16:37.236 --> 00:16:38.936
+esse projeto, esse serviço,
+
+273
+00:16:40.756 --> 00:16:43.756
+por quanto tempo a empresa vai precisar utilizar esse serviço?
+
+274
+00:16:45.056 --> 00:16:46.575
+Reserva eu tenho a partir de um ano.
+
+275
+00:16:47.916 --> 00:16:51.236
+É que quanto maior a reserva, maior o desconto eu tenho.
+
+276
+00:16:51.316 --> 00:16:54.916
+Agora pensa comigo, poxa, se eu tenho um recurso
+
+277
+00:16:56.056 --> 00:16:58.216
+que vai me custar 10 mil reais.
+
+278
+00:17:01.136 --> 00:17:04.936
+Beleza? Então o recurso que vai me custar 10 mil reais por mês.
+
+279
+00:17:06.316 --> 00:17:10.206
+Aí eu chego e vejo com a empresa. Poxa, esses serviços aqui que a
+
+280
+00:17:10.237 --> 00:17:13.616
+gente está subindo para essa aplicação, para esse projeto.
+
+281
+00:17:13.676 --> 00:17:16.196
+Esses serviços vão precisar ficar no ar por muito tempo?
+
+282
+00:17:16.216 --> 00:17:20.176
+A empresa: "Vai, Cara de Saia, vai ficar anos e anos, porque é o nosso serviço
+
+283
+00:17:20.316 --> 00:17:22.316
+core, vai precisar ficar por muito tempo."
+
+284
+00:17:23.656 --> 00:17:27.336
+O que eu posso fazer como profissional que cuida do FinOps da
+
+285
+00:17:27.376 --> 00:17:31.036
+empresa? Eu posso chegar e falar: "Cara, beleza, esse serviço vai custar 10
+
+286
+00:17:31.096 --> 00:17:34.576
+mil. Por que a gente não configura ele numa reserva de 10
+
+287
+00:17:34.696 --> 00:17:35.276
+anos?
+
+288
+00:17:36.656 --> 00:17:40.236
+Ao invés de pagar 10 mil reais, eu vou
+
+289
+00:17:40.256 --> 00:17:40.716
+pagar
+
+290
+00:17:41.736 --> 00:17:42.436
+3 mil reais,
+
+291
+00:17:44.136 --> 00:17:47.836
+me comprometendo com a Microsoft que eu vou utilizar aquele serviço pelo
+
+292
+00:17:47.876 --> 00:17:49.776
+período de, no mínimo, três anos."
+
+293
+00:17:51.676 --> 00:17:53.376
+Olha o FinOps acontecendo aqui.
+
+294
+00:17:57.136 --> 00:18:00.756
+Muito desse saving aqui que a gente gera para a empresa na
+
+295
+00:18:00.816 --> 00:18:04.456
+entrega do FinOps, muitos deles vão vir dessas
+
+296
+00:18:04.496 --> 00:18:05.076
+reservas,
+
+297
+00:18:06.156 --> 00:18:09.396
+porque é algo absurdo que a gente consegue
+
+298
+00:18:12.256 --> 00:18:12.846
+economizar.
+
+299
+00:18:13.876 --> 00:18:15.866
+Por isso que eu estou falando, gente, é um serviço
+
+300
+00:18:16.984 --> 00:18:20.924
+Fácil de entregar. Não é um serviço que você vai olhar e falar: "Cara, a
+
+301
+00:18:20.964 --> 00:18:24.184
+empresa gera 100 mil, gasta 100 mil por mês.
+
+302
+00:18:24.984 --> 00:18:28.404
+Como que eu vou gerar saving pra essa empresa com FinOps?
+
+303
+00:18:28.524 --> 00:18:31.384
+Puxa, eu estou ferrado". Cara, é fácil.
+
+304
+00:18:32.764 --> 00:18:36.644
+E outra, o Azure Advisor me
+
+305
+00:18:36.704 --> 00:18:37.664
+mostra isso aqui.
+
+306
+00:18:43.864 --> 00:18:45.484
+Parte de armazenamento.
+
+307
+00:18:49.184 --> 00:18:51.044
+Armazenamento dentro do Azure,
+
+308
+00:18:53.044 --> 00:18:55.364
+a gente trabalha com os tiers.
+
+309
+00:18:57.004 --> 00:18:58.584
+Geralmente, é o hot,
+
+310
+00:19:00.224 --> 00:19:00.744
+o cool,
+
+311
+00:19:02.824 --> 00:19:03.464
+cold
+
+312
+00:19:04.984 --> 00:19:06.064
+e o archive.
+
+313
+00:19:10.784 --> 00:19:14.604
+Se eu sei trabalhar com esses tiers, eu sei que tudo que a empresa precisa
+
+314
+00:19:14.664 --> 00:19:17.884
+acessar de forma constante, eu vou colocar no hot.
+
+315
+00:19:18.524 --> 00:19:21.744
+O que não precisa acessar de uma maneira tão constante, eu vou colocar no cool e no
+
+316
+00:19:21.844 --> 00:19:25.444
+cold. O que a empresa precisa acessar raramente, eu vou colocar no
+
+317
+00:19:25.484 --> 00:19:29.364
+archive. Quando eu começo a pegar minha parte de armazenamento e começo a colocar
+
+318
+00:19:29.424 --> 00:19:30.494
+nos tiers certos,
+
+319
+00:19:33.044 --> 00:19:35.494
+isso aqui também vai me gerar uma baita economia.
+
+320
+00:19:37.804 --> 00:19:39.664
+Vai me trazer uma baita economia.
+
+321
+00:19:44.344 --> 00:19:48.324
+E quando eu começo a compor tudo isso aqui,
+
+322
+00:19:48.394 --> 00:19:52.184
+quando eu começo a olhar pra todos
+
+323
+00:19:52.244 --> 00:19:56.164
+esses detalhes, a gente começa a ver que pra gerar esse saving não
+
+324
+00:19:56.204 --> 00:19:56.964
+é difícil.
+
+325
+00:19:58.724 --> 00:20:00.664
+Pelo contrário, é fácil. Por isso que eu falei: "Gente,
+
+326
+00:20:02.324 --> 00:20:03.834
+não querendo ser repetitivo,
+
+327
+00:20:05.804 --> 00:20:06.424
+se hoje
+
+328
+00:20:07.504 --> 00:20:11.264
+vocês estão com problema de faturamento na consultoria de vocês.
+
+329
+00:20:11.274 --> 00:20:15.124
+'Puxa, não estou conseguindo faturar, não estou conseguindo clientes, não
+
+330
+00:20:15.184 --> 00:20:18.684
+estou conseguindo previsibilidade, estou muito longe dos 50 K,
+
+331
+00:20:19.064 --> 00:20:20.644
+mas quero atingir 50 K.
+
+332
+00:20:22.484 --> 00:20:24.544
+Não conheço muito de cloud'.
+
+333
+00:20:26.244 --> 00:20:27.424
+Começa pelo FinOps.
+
+334
+00:20:29.444 --> 00:20:31.494
+É o mais fácil de aprender.
+
+335
+00:20:33.684 --> 00:20:37.424
+E por incrível que pareça, é o mais fácil de vender,
+
+336
+00:20:37.564 --> 00:20:41.324
+porque eu não preciso ser vendedor aqui, eu não
+
+337
+00:20:41.344 --> 00:20:44.724
+preciso ser um guru das vendas, um guru do
+
+338
+00:20:44.764 --> 00:20:48.504
+marketing pra vender isso aqui, porque o próprio
+
+339
+00:20:48.564 --> 00:20:50.844
+serviço se vende sozinho.
+
+340
+00:20:52.564 --> 00:20:55.114
+Quando eu consigo mostrar esse saving pra empresa,
+
+341
+00:20:56.644 --> 00:21:00.144
+ele se vende sozinho. Gente, se eu chego prum
+
+342
+00:21:00.204 --> 00:21:04.124
+gestor e falo: "Cara, você vai ter um saving de 13 mil", eu não
+
+343
+00:21:04.144 --> 00:21:07.164
+preciso convencer ele do valor do serviço.
+
+344
+00:21:13.324 --> 00:21:14.184
+Só que lembra,
+
+345
+00:21:15.644 --> 00:21:19.044
+eu tenho cinco clientes que eu estou conseguindo por mês aqui com esse
+
+346
+00:21:19.104 --> 00:21:22.764
+serviço. Eu já estou conseguindo ter um resultado.
+
+347
+00:21:24.664 --> 00:21:27.924
+Desses cinco clientes, eu vou oferecer aqui a
+
+348
+00:21:27.984 --> 00:21:31.324
+recorrência, vou ter um outro resultado mensal.
+
+349
+00:21:32.604 --> 00:21:36.484
+Só que acontece, eu mostrei aqui pra vocês na segunda, outros
+
+350
+00:21:36.524 --> 00:21:38.344
+serviços. Opa!
+
+351
+00:21:39.504 --> 00:21:43.444
+E o que vocês podem fazer? Vocês podem compor esses serviços aqui dentro de um
+
+352
+00:21:43.464 --> 00:21:45.984
+projeto de recorrência. Então o que você pode fazer?
+
+353
+00:21:46.484 --> 00:21:50.174
+Beleza, vamos lá. A empresa te chamou, você
+
+354
+00:21:50.244 --> 00:21:53.244
+entrou na empresa pelo tema FinOps.
+
+355
+00:21:54.544 --> 00:21:57.404
+Gerou o saving que você
+
+356
+00:21:57.413 --> 00:22:00.684
+conseguiu, show de bola. Aí você vai pra
+
+357
+00:22:00.724 --> 00:22:04.524
+recorrência. Aí você não trabalha só com o FinOps, você trabalha com outras
+
+358
+00:22:04.544 --> 00:22:06.573
+coisas. Então o que você pode fazer?
+
+359
+00:22:06.944 --> 00:22:08.004
+Nessa recorrência,
+
+360
+00:22:08.824 --> 00:22:09.524
+o P2,
+
+361
+00:22:10.404 --> 00:22:13.904
+você pode ao invés de cobrar 3 mil só para cuidar do FinOps,
+
+362
+00:22:14.424 --> 00:22:17.044
+você pode chegar pro cliente e falar: "Cara, você já usa a nuvem.
+
+363
+00:22:18.194 --> 00:22:20.573
+Por que a gente não faz um contrato pra eu fazer
+
+364
+00:22:21.484 --> 00:22:23.564
+toda a gestão do seu ambiente?
+
+365
+00:22:28.594 --> 00:22:30.164
+Beleza, não quer de todo o ambiente?
+
+366
+00:22:30.384 --> 00:22:33.124
+Cara, deixa eu fazer a gestão da sua identidade híbrida.
+
+367
+00:22:36.504 --> 00:22:38.284
+Deixa eu cuidar do seu backup e DR".
+
+368
+00:22:40.064 --> 00:22:43.934
+E eu posso sair duma recorrência de 3 mil, que seria, por
+
+369
+00:22:43.984 --> 00:22:47.874
+exemplo, só pra cuidar de FinOps, eu posso ir pra uma recorrência de 10
+
+370
+00:22:47.904 --> 00:22:51.344
+mil, por exemplo, cuidando do ambiente como um todo.
+
+371
+00:22:55.384 --> 00:22:59.004
+E
+
+372
+00:22:59.064 --> 00:23:02.904
+muitas vezes, turma, dependendo da empresa, o que você
+
+373
+00:23:02.924 --> 00:23:05.644
+está cobrando de recorrência, também não vai ser
+
+374
+00:23:05.704 --> 00:23:09.324
+difícil conseguir fazer com que o
+
+375
+00:23:09.344 --> 00:23:13.144
+cliente enxergue valor naquilo, porque muitas vezes o que você está
+
+376
+00:23:13.184 --> 00:23:16.574
+cobrando duma recorrência mensal pra cuidar de tudo,
+
+377
+00:23:17.064 --> 00:23:20.624
+você já consegue gerar um saving só na parte do FinOps, por exemplo.
+
+378
+00:23:26.284 --> 00:23:30.144
+Agora imagina que você consegue cinco clientes por
+
+379
+00:23:30.224 --> 00:23:34.184
+mês. Você tem a recorrência de quem entra só pra
+
+380
+00:23:34.224 --> 00:23:37.884
+FinOps. E agora você começa a ter uma recorrência também de quem quer o
+
+381
+00:23:37.964 --> 00:23:40.244
+serviço mais completo.
+
+382
+00:23:45.764 --> 00:23:48.384
+Cara, vocês estão entendendo que isso aqui começa a virar
+
+383
+00:23:49.704 --> 00:23:52.164
+um faturamento extremamente previsível?
+
+384
+00:23:53.844 --> 00:23:57.524
+Isso aqui começa a gerar um faturamento que muitos de vocês estão com extrema
+
+385
+00:23:57.604 --> 00:24:01.134
+dificuldade de conseguir, mas porque vocês estão vendendo
+
+386
+00:24:01.244 --> 00:24:04.164
+errado, estão vendendo o serviço errado.
+
+387
+00:24:05.484 --> 00:24:09.464
+Isso faz com que vocês não consigam despertar desejo e interesse nas
+
+388
+00:24:09.504 --> 00:24:12.164
+empresas. Isso vira um ciclo vicioso,
+
+389
+00:24:13.124 --> 00:24:15.744
+que nunca vai sair do lugar, vai ficar sempre nessa.
+
+390
+00:24:17.664 --> 00:24:21.484
+Agora, quando você tem um serviço que é fácil de vender, é
+
+391
+00:24:21.524 --> 00:24:23.354
+fácil de mostrar pras empresas
+
+392
+00:24:26.794 --> 00:24:30.454
+O valor daquilo, a primeira parte do
+
+393
+00:24:30.494 --> 00:24:33.214
+caminho já está trilhada, porque agora você está dentro do cliente.
+
+394
+00:24:35.354 --> 00:24:38.554
+E outra, vamos lá, pessoal, sejam sinceros,
+
+395
+00:24:39.874 --> 00:24:42.954
+se vocês fossem gestores de TI,
+
+396
+00:24:44.374 --> 00:24:48.214
+chegasse alguém pra vocês e falasse: "Eu vou gerar um
+
+397
+00:24:48.334 --> 00:24:50.114
+save de 20 e vou cobrar sete".
+
+398
+00:24:52.594 --> 00:24:54.934
+Aí você vai continuar com um save de três.
+
+399
+00:24:55.874 --> 00:24:56.894
+Só que o que acontece?
+
+400
+00:24:58.094 --> 00:25:01.694
+Aí você falando pro gestor: "Se você não cuidar do seu
+
+401
+00:25:01.714 --> 00:25:02.294
+FinOps,
+
+402
+00:25:03.254 --> 00:25:07.134
+daqui seis meses você vai estar jogando de novo 20 mil reais
+
+403
+00:25:07.174 --> 00:25:07.534
+fora.
+
+404
+00:25:08.614 --> 00:25:11.664
+Só que é um dinheiro que já foi, você já gastou, não volta mais".
+
+405
+00:25:14.354 --> 00:25:17.134
+Vamos fechar um contrato de 3 mil pra que isso não aconteça?
+
+406
+00:25:17.854 --> 00:25:19.514
+É muito difícil o cliente falar não,
+
+407
+00:25:20.674 --> 00:25:23.084
+porque qual vai ser a mente dele? Fala: "Beleza,
+
+408
+00:25:24.134 --> 00:25:27.974
+se eu não tiver alguém que fique olhando pra isso pra mim diariamente,
+
+409
+00:25:29.534 --> 00:25:32.474
+daqui seis meses eu vou estar jogando esse dinheiro fora de novo, eu não quero
+
+410
+00:25:32.494 --> 00:25:33.244
+jogar dinheiro fora".
+
+411
+00:25:35.734 --> 00:25:39.514
+Então é muito fácil, além de vender o serviço, fazer uma primeira
+
+412
+00:25:39.574 --> 00:25:40.134
+entrega,
+
+413
+00:25:41.314 --> 00:25:45.114
+é muito fácil eu fazer um contrato de recorrência pra
+
+414
+00:25:45.154 --> 00:25:46.674
+fazer com que aquele
+
+415
+00:25:50.054 --> 00:25:53.854
+uso indevido dos serviços em cloud não aconteça
+
+416
+00:25:53.894 --> 00:25:55.794
+novamente. É muito fácil.
+
+417
+00:26:00.534 --> 00:26:04.054
+Gente, dá pra construir uma empresa de consultoria de TI.
+
+418
+00:26:04.094 --> 00:26:07.294
+É que eu não faria isso, seria deixar muito dinheiro na
+
+419
+00:26:07.354 --> 00:26:10.734
+mesa. Eu não faria isso, mas é fácil
+
+420
+00:26:10.754 --> 00:26:13.714
+hoje montar uma empresa de consultoria de
+
+421
+00:26:13.774 --> 00:26:14.874
+TI,
+
+422
+00:26:16.294 --> 00:26:19.554
+focada só em FinOps e faturar 50 mil por mês.
+
+423
+00:26:20.374 --> 00:26:21.714
+Não é difícil, é fácil.
+
+424
+00:26:23.434 --> 00:26:27.394
+Só que pra mim, vender só isso, deixar dinheiro na mesa, eu posso vender muito
+
+425
+00:26:27.434 --> 00:26:28.674
+mais pra esse mesmo cliente.
+
+426
+00:26:32.674 --> 00:26:33.254
+Agora:
+
+427
+00:26:34.724 --> 00:26:36.434
+"Poxa, não conheço nada de cloud,
+
+428
+00:26:37.254 --> 00:26:38.974
+eu estou começando agora nesse mundo.
+
+429
+00:26:40.594 --> 00:26:44.394
+Eu vou precisar estudar anos,
+
+430
+00:26:44.554 --> 00:26:48.114
+tirar certificações pra vender esse serviço?" É claro que não, o que você precisa
+
+431
+00:26:48.154 --> 00:26:52.034
+entender é essa parte de recursos órfãos, entender
+
+432
+00:26:52.114 --> 00:26:55.174
+que dentro da nuvem, todos os serviços
+
+433
+00:26:55.254 --> 00:26:58.214
+são meio que caixinhas separadas.
+
+434
+00:26:58.514 --> 00:27:00.674
+Então você pega, por exemplo, uma máquina virtual.
+
+435
+00:27:01.034 --> 00:27:03.974
+Eu tenho um objeto máquina, só que esse objeto precisa de disco.
+
+436
+00:27:04.014 --> 00:27:06.794
+Aí eu tenho o objeto disco que eu ligo na máquina virtual.
+
+437
+00:27:07.334 --> 00:27:10.374
+A máquina virtual precisa de endereço IP, aí eu tenho o endereço IP.
+
+438
+00:27:11.074 --> 00:27:13.274
+Então são caixinhas que eu vou conectando.
+
+439
+00:27:13.874 --> 00:27:17.794
+Só que às vezes quando eu não preciso mais de um recurso, se eu removo
+
+440
+00:27:17.874 --> 00:27:21.374
+só um recurso específico, o resto da caixinha fica criado no
+
+441
+00:27:21.394 --> 00:27:24.194
+ambiente e consumindo dinheiro,
+
+442
+00:27:25.034 --> 00:27:26.494
+que são os recursos órfãos.
+
+443
+00:27:28.074 --> 00:27:31.834
+Então preciso entender isso e preciso entender como
+
+444
+00:27:31.874 --> 00:27:34.974
+dimensionar corretamente os recursos dentro da nuvem.
+
+445
+00:27:36.774 --> 00:27:40.754
+Preciso entender o que são reservas, preciso entender
+
+446
+00:27:40.834 --> 00:27:43.514
+a parte de armazenamento.
+
+447
+00:27:47.214 --> 00:27:49.714
+São coisas extremamente simples de se entender.
+
+448
+00:27:49.724 --> 00:27:53.674
+E uma vez que vocês entendem isso aqui, já estão prontos pra vender esse tipo
+
+449
+00:27:53.684 --> 00:27:54.324
+de serviço,
+
+450
+00:27:56.094 --> 00:27:58.974
+já estão prontos pra chegar nas empresas com esse tipo de serviço.
+
+451
+00:28:03.314 --> 00:28:06.524
+Estão entendendo, pessoal? Quem está entendendo, quem está curtindo, digita o
+
+452
+00:28:06.554 --> 00:28:07.154
+número um aí.
+
+453
+00:28:08.634 --> 00:28:09.834
+Isso aqui é ouro, gente.
+
+454
+00:28:11.654 --> 00:28:14.574
+Isso aqui é ouro, isso aqui é o que vai fazer muitos de
+
+455
+00:28:14.594 --> 00:28:18.394
+vocês chegarem no bendito faturamento previsível.
+
+456
+00:28:19.474 --> 00:28:23.024
+Isso aqui, muitas vezes, que vão fazer com que vocês não precisem mais ficar
+
+457
+00:28:23.054 --> 00:28:24.394
+dependendo de indicação.
+
+458
+00:28:30.934 --> 00:28:35.074
+Beleza,
+
+459
+00:28:35.144 --> 00:28:38.254
+você me ensinou aqui tecnicamente o que eu tenho que fazer.
+
+460
+00:28:38.914 --> 00:28:42.753
+Vou buscar esses clientes. Eu já sei
+
+461
+00:28:42.794 --> 00:28:45.154
+como entregar, já sei que é fácil
+
+462
+00:28:45.173 --> 00:28:49.034
+entregar tecnicamente esse tipo de serviço
+
+463
+00:28:49.054 --> 00:28:51.854
+pros clientes. Muito bem, tudo muito lindo.
+
+464
+00:28:51.914 --> 00:28:53.753
+Agora, como que eu consigo esses clientes?
+
+465
+00:28:58.754 --> 00:29:01.934
+Não adianta nada você saber tecnicamente e não saber chegar nesse cliente, porque
+
+466
+00:29:02.014 --> 00:29:05.974
+por mais que seja uma oferta muito fácil de vender, muito
+
+467
+00:29:06.014 --> 00:29:06.974
+irresistível,
+
+468
+00:29:08.014 --> 00:29:11.854
+se você não mostrar isso pro cliente, não acha que o cliente vai chegar do nada.
+
+469
+00:29:13.394 --> 00:29:17.314
+Coisas que muitos de vocês têm em mente ainda, depois
+
+470
+00:29:17.374 --> 00:29:20.874
+de, alguns de vocês anos como consultores, acham que
+
+471
+00:29:20.914 --> 00:29:23.724
+magicamente o cliente vai chegar até você e falar:
+
+472
+00:29:24.554 --> 00:29:26.494
+"Eu preciso do seu serviço de FinOps".
+
+473
+00:29:26.784 --> 00:29:30.154
+Isso não vai acontecer pra nenhum dos seus serviços.
+
+474
+00:29:31.014 --> 00:29:32.514
+Então você precisa agora
+
+475
+00:29:33.454 --> 00:29:35.534
+mostrar isso pros clientes de vocês.
+
+476
+00:29:38.934 --> 00:29:39.874
+Hoje, gente.
+
+477
+00:29:42.654 --> 00:29:43.514
+A gente ajuda
+
+478
+00:29:44.734 --> 00:29:48.374
+nos nossos programas mais avançados, a gente ajuda
+
+479
+00:29:48.494 --> 00:29:49.994
+centenas de consultores.
+
+480
+00:29:51.214 --> 00:29:53.454
+E hoje, uma das estratégias mais
+
+481
+00:29:54.894 --> 00:29:55.734
+poderosas
+
+482
+00:29:56.634 --> 00:29:59.144
+que a gente está usando e está tendo um baita resultado,
+
+483
+00:30:00.174 --> 00:30:02.874
+é o que a gente chama do inbound.
+
+484
+00:30:05.874 --> 00:30:08.054
+O que seria esse inbound?
+
+485
+00:30:08.974 --> 00:30:12.894
+É eu gerar um valor pro cliente primeiro, então eu vou atrair o
+
+486
+00:30:12.934 --> 00:30:15.734
+cliente pra alguma coisa e depois eu vendo.
+
+487
+00:30:17.314 --> 00:30:19.134
+E hoje o inbound com o LinkedIn
+
+488
+00:30:20.274 --> 00:30:23.954
+está fantástico, desde que feito da maneira correta.
+
+489
+00:30:26.544 --> 00:30:30.464
+Não adianta querer usar o LinkedIn sem estratégia, ficar chamando
+
+490
+00:30:30.474 --> 00:30:33.974
+as pessoas, tu vai responder, vai tomar negativa atrás de negativa
+
+491
+00:30:35.870 --> 00:30:39.470
+Agora, quando você sabe utilizar o LinkedIn da maneira correta, no
+
+492
+00:30:39.490 --> 00:30:42.750
+Instagram também dá pra fazer, é que o LinkedIn acaba sendo mais rápido,
+
+493
+00:30:43.490 --> 00:30:45.850
+é onde a gente tem os retornos mais rápidos.
+
+494
+00:30:46.770 --> 00:30:50.330
+O que você precisa? Você precisa de um
+
+495
+00:30:50.370 --> 00:30:51.090
+perfil.
+
+496
+00:30:53.690 --> 00:30:56.810
+Você precisa de uma conta no LinkedIn.
+
+497
+00:30:57.490 --> 00:31:01.350
+Esse perfil tem que ser bem
+
+498
+00:31:01.390 --> 00:31:05.310
+construído, ele tem que ser construído centrado no cliente.
+
+499
+00:31:08.410 --> 00:31:11.750
+Bom, beleza, eu tenho o perfil, qual é o próximo passo?
+
+500
+00:31:11.770 --> 00:31:13.590
+Eu preciso de um material de atração.
+
+501
+00:31:15.770 --> 00:31:19.310
+E de novo, o que vai definir o seu sucesso com essa estratégia,
+
+502
+00:31:20.070 --> 00:31:23.340
+é esse material de atração. Então se a gente está falando de FinOps, eu vou criar
+
+503
+00:31:23.810 --> 00:31:25.930
+um material de atração falando do FinOps.
+
+504
+00:31:30.930 --> 00:31:33.570
+Depois do material de atração, o que eu faço?
+
+505
+00:31:33.750 --> 00:31:35.110
+Eu vou escolher
+
+506
+00:31:37.390 --> 00:31:38.190
+os meus clientes.
+
+507
+00:31:42.670 --> 00:31:44.630
+Aqui a melhor estratégia de todas
+
+508
+00:31:45.490 --> 00:31:47.650
+é utilizar o Sales Navigator.
+
+509
+00:31:50.570 --> 00:31:54.250
+Solução do próprio LinkedIn, só que é uma solução paga, mas dá para fazer, dá para
+
+510
+00:31:54.330 --> 00:31:57.850
+ter um baita resultado sem o Sales
+
+511
+00:31:57.890 --> 00:32:01.570
+Navigator. É que o Sales Navigator facilita demais, mas vários
+
+512
+00:32:01.610 --> 00:32:05.050
+consultores que a gente ajuda, a gente usa o LinkedIn
+
+513
+00:32:05.090 --> 00:32:06.030
+gratuito mesmo.
+
+514
+00:32:08.710 --> 00:32:12.510
+Escolher os clientes. Depois que eu escolho os clientes, o que eu tenho que
+
+515
+00:32:12.550 --> 00:32:14.150
+fazer? Eu preciso engajar com eles.
+
+516
+00:32:15.490 --> 00:32:19.330
+E o que é engajar com eles? Eu vou comentar os posts deles,
+
+517
+00:32:21.290 --> 00:32:25.250
+eu vou entrar, caso eles
+
+518
+00:32:25.290 --> 00:32:27.190
+tenham, a newsletter,
+
+519
+00:32:31.650 --> 00:32:33.890
+eu vou entrar em grupos que ele faz parte.
+
+520
+00:32:35.190 --> 00:32:38.450
+Então eu preciso começar a engajar, eu preciso começar a ser visto
+
+521
+00:32:39.950 --> 00:32:40.890
+por esses clientes.
+
+522
+00:32:43.110 --> 00:32:46.950
+E aqui não é algo superficial, aqui eu
+
+523
+00:32:46.970 --> 00:32:50.510
+preciso gerar valor. Então quando eu for fazer um comentário,
+
+524
+00:32:50.990 --> 00:32:54.750
+não é: "legal o seu post". Não, tem que ser algo um pouco
+
+525
+00:32:54.770 --> 00:32:58.710
+mais detalhado pro cliente entender que você
+
+526
+00:32:58.730 --> 00:33:00.130
+entende o problema dele.
+
+527
+00:33:03.390 --> 00:33:06.870
+Você entende o problema dele. Então você começa a
+
+528
+00:33:06.910 --> 00:33:10.840
+engajar com ele. Começou a engajar, qual é o próximo passo?
+
+529
+00:33:10.910 --> 00:33:14.770
+Você vai pedir, pedir não, que pra seguir você não precisa pedir, você vai começar
+
+530
+00:33:14.780 --> 00:33:18.330
+a seguir ele. Pra quê? Quando você segue uma pessoa no
+
+531
+00:33:18.370 --> 00:33:19.070
+LinkedIn,
+
+532
+00:33:20.270 --> 00:33:22.830
+você começa a ver de uma maneira mais fácil,
+
+533
+00:33:24.179 --> 00:33:28.110
+o que essa
+
+534
+00:33:28.190 --> 00:33:31.110
+pessoa está postando. Então fica mais fácil você engajar com essa
+
+535
+00:33:31.130 --> 00:33:34.970
+pessoa. Depois que você começou a engajar com essa pessoa, você
+
+536
+00:33:34.990 --> 00:33:38.790
+começou a comentar, fazer comentários ali que gerem valor,
+
+537
+00:33:39.390 --> 00:33:43.190
+o que você vai fazer? Aí sim, você vai pedir a
+
+538
+00:33:43.250 --> 00:33:43.950
+conexão.
+
+539
+00:33:48.690 --> 00:33:51.470
+Depois da conexão, o que você vai fazer?
+
+540
+00:33:51.510 --> 00:33:55.370
+Você vai pedir a autorização
+
+541
+00:33:57.430 --> 00:33:58.090
+para enviar
+
+542
+00:34:00.570 --> 00:34:01.840
+seu material de atração.
+
+543
+00:34:09.040 --> 00:34:11.330
+Pedir a conexão. Aí eu vou mandar mensagem pra ele, falar:
+
+544
+00:34:12.511 --> 00:34:16.250
+"olha, gosto muito dos seus posts, acho legal a visão que
+
+545
+00:34:16.290 --> 00:34:19.531
+você tem, acho legal isso, acho legal aquilo.
+
+546
+00:34:19.611 --> 00:34:20.370
+A propósito,
+
+547
+00:34:22.130 --> 00:34:23.130
+eu tenho um e-book
+
+548
+00:34:24.071 --> 00:34:27.761
+onde eu falo de FinOps, como que as empresas podem gerar de 40% a
+
+549
+00:34:27.890 --> 00:34:29.160
+60% de economia.
+
+550
+00:34:30.970 --> 00:34:32.560
+Posso te mandar o material?"
+
+551
+00:34:34.490 --> 00:34:37.230
+Se ele falar: "sim, pode", você manda o material pra ele.
+
+552
+00:34:39.511 --> 00:34:42.540
+Só que esse material, gente, não é qualquer material, tem que ser um material que
+
+553
+00:34:42.540 --> 00:34:45.330
+quando o cara ler, ele vai falar: "Uau,
+
+554
+00:34:46.511 --> 00:34:48.670
+que material da hora, que material legal!"
+
+555
+00:34:52.130 --> 00:34:55.850
+Depois que ele recebe o material, você vai começar a fazer o que com ele?
+
+556
+00:34:55.990 --> 00:34:58.810
+Você vai começar a fazer
+
+557
+00:34:58.850 --> 00:35:01.070
+follow-ups.
+
+558
+00:35:02.890 --> 00:35:06.820
+"Oxe, e o
+
+559
+00:35:06.820 --> 00:35:09.170
+que você achou do material? Você gostou do material?
+
+560
+00:35:10.250 --> 00:35:12.090
+Qual foi a parte que você mais gostou do material?"
+
+561
+00:35:13.110 --> 00:35:13.910
+Você vai começar
+
+562
+00:35:16.670 --> 00:35:20.430
+a interagir com ele, a pedir follow-up sobre o material que
+
+563
+00:35:20.450 --> 00:35:23.850
+você mandou. Por isso que precisa ser um material. Por quê?
+
+564
+00:35:23.930 --> 00:35:27.670
+É esse follow-up que vai te abrir brechas pra você falar do seu
+
+565
+00:35:27.690 --> 00:35:31.050
+serviço. "Poxa, eu gostei muito quando você falou da reserva.
+
+566
+00:35:31.090 --> 00:35:33.670
+Poxa, eu não sabia que a gente tem essa opção de reserva.
+
+567
+00:35:34.730 --> 00:35:37.290
+Nossa, que legal que você gostou dessa parte.
+
+568
+00:35:37.350 --> 00:35:38.070
+A propósito,
+
+569
+00:35:39.170 --> 00:35:42.250
+vamos agendar um bate-papo rápido só pra eu explicar melhor como você
+
+570
+00:35:42.290 --> 00:35:45.290
+pode economizar com as reservas?"
+
+571
+00:35:47.050 --> 00:35:51.010
+Pronto, gente. Do follow-up, eu vou pra uma reunião, aí a
+
+572
+00:35:51.050 --> 00:35:52.510
+reunião é a hora da venda.
+
+573
+00:35:56.590 --> 00:35:58.770
+A reunião é a hora da venda.
+
+574
+00:35:59.920 --> 00:36:03.730
+"Cara, você gostou?
+
+575
+00:36:03.910 --> 00:36:07.750
+Você sabia que existe um estudo que
+
+576
+00:36:07.790 --> 00:36:11.080
+fala que a maioria das empresas gastam de 40% a
+
+577
+00:36:11.090 --> 00:36:13.030
+60% sem necessidade?
+
+578
+00:36:14.130 --> 00:36:15.710
+E a sua empresa pode estar nesse cenário.
+
+579
+00:36:16.730 --> 00:36:20.650
+Cara, vamos fazer um assessment pra gente validar o que a gente consegue
+
+580
+00:36:20.690 --> 00:36:22.250
+gerar de save pra sua empresa?"
+
+581
+00:36:24.310 --> 00:36:24.710
+Ponto.
+
+582
+00:36:30.690 --> 00:36:33.530
+Cara, só isso aqui você precisa. Isso aqui rodando.
+
+583
+00:36:33.560 --> 00:36:34.860
+E outra, gente, eu não estou falando
+
+584
+00:36:34.870 --> 00:36:39.010
+de
+
+585
+00:36:39.090 --> 00:36:40.930
+meses, estou falando de dias
+
+586
+00:36:42.154 --> 00:36:43.994
+Você pode todos os dias
+
+587
+00:36:44.874 --> 00:36:48.814
+encontrar esses clientes
+
+588
+00:36:48.834 --> 00:36:50.294
+fazendo pesquisa no LinkedIn.
+
+589
+00:36:52.494 --> 00:36:56.174
+Todos os dias você pode. Então se você pegar o plano de
+
+590
+00:36:56.214 --> 00:36:56.654
+ação.
+
+591
+00:37:00.034 --> 00:37:01.894
+Se você pegar todos os dias,
+
+592
+00:37:02.874 --> 00:37:06.694
+e você não precisa de horas e horas
+
+593
+00:37:06.774 --> 00:37:10.204
+pra isso, se você pegar todos os dias 15
+
+594
+00:37:10.254 --> 00:37:10.774
+minutos
+
+595
+00:37:17.514 --> 00:37:17.794
+pra
+
+596
+00:37:19.694 --> 00:37:21.904
+pesquisar
+
+597
+00:37:22.114 --> 00:37:27.034
+clientes,
+
+598
+00:37:31.654 --> 00:37:35.374
+com base nesses clientes, engajar com eles.
+
+599
+00:37:35.414 --> 00:37:38.454
+Lembra, o engajar é comentar nos posts, participar de grupo.
+
+600
+00:37:39.054 --> 00:37:42.734
+Então 15 minutos todos os dias, você pesquisa o cliente.
+
+601
+00:37:43.114 --> 00:37:45.494
+Com base no cliente, você vê o que ele está postando.
+
+602
+00:37:45.574 --> 00:37:47.754
+Com base nisso, você começa a engajar com ele.
+
+603
+00:37:50.054 --> 00:37:51.834
+Beleza? Então você fez isso no dia um.
+
+604
+00:37:52.234 --> 00:37:55.774
+Vamos imaginar que no dia um você conseguiu em 15
+
+605
+00:37:55.814 --> 00:37:56.454
+minutos,
+
+606
+00:37:58.734 --> 00:38:00.334
+localizar cinco clientes.
+
+607
+00:38:01.594 --> 00:38:05.044
+Então estou falando aqui por semana, segunda a
+
+608
+00:38:05.094 --> 00:38:09.074
+sexta, você conseguiu 25 clientes na semana.
+
+609
+00:38:09.094 --> 00:38:11.994
+Você começou a engajar com esse pessoal. Aí o que acontece?
+
+610
+00:38:12.004 --> 00:38:15.234
+Quando você começa a engajar, a minha recomendação antes
+
+611
+00:38:16.114 --> 00:38:19.994
+de pedir pra seguir, o que a gente faz aqui
+
+612
+00:38:20.054 --> 00:38:23.934
+com os nossos consultores que a gente utiliza e que a gente tem
+
+613
+00:38:23.954 --> 00:38:27.634
+os melhores resultados, eu gosto de engajar em pelo menos dois
+
+614
+00:38:27.734 --> 00:38:28.194
+posts.
+
+615
+00:38:32.454 --> 00:38:36.414
+Depois de engajar em dois posts, aí eu começo a seguir aquela pessoa.
+
+616
+00:38:38.814 --> 00:38:42.414
+Porque quando eu coloco pra seguir, a pessoa lá do outro lado vai receber
+
+617
+00:38:43.694 --> 00:38:44.314
+um aviso.
+
+618
+00:38:45.704 --> 00:38:47.514
+"Fulano de Tal começou a te seguir".
+
+619
+00:38:48.414 --> 00:38:50.733
+Por isso que essa parte, gente, o perfil
+
+620
+00:38:52.214 --> 00:38:56.014
+centrado no cliente tem que estar um perfil bem feito, senão você acaba
+
+621
+00:38:56.054 --> 00:38:57.574
+matando um pouco da estratégia.
+
+622
+00:38:59.384 --> 00:39:02.194
+Pesquisar cliente. Todos os dias, 15 minutos.
+
+623
+00:39:02.694 --> 00:39:06.254
+A minha meta é todos os dias, 15 minutos, conseguir localizar cinco
+
+624
+00:39:06.294 --> 00:39:06.734
+clientes.
+
+625
+00:39:07.754 --> 00:39:10.974
+Localizei esses cinco clientes, vou engajar em dois posts
+
+626
+00:39:11.014 --> 00:39:14.914
+dele. Lembra, o engajamento que gere
+
+627
+00:39:14.954 --> 00:39:16.654
+valor, não "legal".
+
+628
+00:39:17.874 --> 00:39:18.054
+Não.
+
+629
+00:39:20.034 --> 00:39:21.474
+Engajamento que gere valor.
+
+630
+00:39:23.154 --> 00:39:24.974
+Aí eu peço pra seguir essa pessoa.
+
+631
+00:39:27.074 --> 00:39:29.694
+E continuo o meu processo de engajamento.
+
+632
+00:39:30.774 --> 00:39:33.014
+Depois, eu vou pedir uma conexão.
+
+633
+00:39:36.474 --> 00:39:37.254
+Depois,
+
+634
+00:39:40.054 --> 00:39:41.874
+enviar o meu material.
+
+635
+00:39:42.934 --> 00:39:44.034
+Enviei o material,
+
+636
+00:39:44.954 --> 00:39:47.274
+começa o processo lá do follow up.
+
+637
+00:39:49.794 --> 00:39:51.774
+Do follow up, eu vou pra uma reunião.
+
+638
+00:39:54.634 --> 00:39:58.334
+Agora imagina que todos os dias você tem cinco clientes
+
+639
+00:39:59.154 --> 00:40:02.714
+que você pesquisa, você engaja,
+
+640
+00:40:03.234 --> 00:40:06.614
+você segue, você pede conexão, você envia o seu bom
+
+641
+00:40:06.654 --> 00:40:07.294
+material.
+
+642
+00:40:10.094 --> 00:40:13.614
+Vamos pegar aqui esse cálculo que é extremamente
+
+643
+00:40:13.674 --> 00:40:14.954
+fácil de atingir.
+
+644
+00:40:15.814 --> 00:40:19.554
+Vinte e cinco clientes por semana, eu estou falando de 100 clientes
+
+645
+00:40:20.054 --> 00:40:20.674
+por mês.
+
+646
+00:40:26.154 --> 00:40:28.234
+E pegando uma média de mercado,
+
+647
+00:40:32.054 --> 00:40:33.214
+a gente tem
+
+648
+00:40:35.614 --> 00:40:37.964
+uma conversão de 2%
+
+649
+00:40:39.254 --> 00:40:42.354
+a 4%. Então vamos pegar o menor,
+
+650
+00:40:42.534 --> 00:40:46.474
+2%. De 100 clientes por mês com essa estratégia,
+
+651
+00:40:46.514 --> 00:40:49.254
+eu posso fechar dois projetos de FinOps.
+
+652
+00:40:57.534 --> 00:40:59.493
+Dois projetos de FinOps.
+
+653
+00:41:04.294 --> 00:41:07.974
+E eu posso intensificar isso aqui, eu posso, poxa, ao invés de usar
+
+654
+00:41:07.994 --> 00:41:11.714
+15 minutos, vou usar uma hora. Ao invés de cinco
+
+655
+00:41:11.754 --> 00:41:13.754
+clientes por dia, eu vou conseguir 10.
+
+656
+00:41:15.414 --> 00:41:18.734
+Ao invés de 25 clientes na semana, agora são 50.
+
+657
+00:41:22.014 --> 00:41:24.774
+Vocês estão entendendo? O negócio começa a girar.
+
+658
+00:41:25.454 --> 00:41:26.894
+Isso aqui é um funil que a gente fala.
+
+659
+00:41:28.974 --> 00:41:32.394
+E esse funil hoje, é um dos funis que a gente está
+
+660
+00:41:32.454 --> 00:41:36.404
+implementando pra consultores no nosso Done for
+
+661
+00:41:36.454 --> 00:41:40.074
+you, que é o serviço que a gente monta tudo isso pro cliente,
+
+662
+00:41:41.134 --> 00:41:43.234
+é um dos funis que está trazendo o maior resultado.
+
+663
+00:41:49.014 --> 00:41:50.634
+E qualquer um consegue fazer isso aqui.
+
+664
+00:41:53.974 --> 00:41:57.934
+É que tem muita gente, infelizmente, é uma verdade, infelizmente, tem muita
+
+665
+00:41:58.014 --> 00:41:58.374
+gente
+
+666
+00:41:59.674 --> 00:42:02.414
+que vai olhar pra isso aqui e falar: "Não, mas é muito difícil.
+
+667
+00:42:02.424 --> 00:42:04.564
+Eu vou ter que ficar procurando cinco clientes?
+
+668
+00:42:05.214 --> 00:42:07.294
+Eu vou ter que ficar engajando com esses clientes?
+
+669
+00:42:07.394 --> 00:42:09.434
+Vou ter que ficar pedindo conexão?
+
+670
+00:42:09.834 --> 00:42:11.254
+Vou ter que ficar fazendo follow up?"
+
+671
+00:42:12.894 --> 00:42:16.494
+Desculpa, amigo, se você quer ganhar dinheiro sem fazer nada, não.
+
+672
+00:42:16.874 --> 00:42:18.054
+Aí você tem que jogar na Mega Sena.
+
+673
+00:42:23.274 --> 00:42:24.573
+Tu vai ter que fazer alguma coisa.
+
+674
+00:42:28.394 --> 00:42:30.674
+Agora, tem gente que vai achar isso aqui difícil.
+
+675
+00:42:30.684 --> 00:42:34.014
+Poxa, eu estou falando aqui que às vezes essa estratégia
+
+676
+00:42:34.034 --> 00:42:37.974
+extremamente simples e fácil, eu estou falando de 15 minutos por dia,
+
+677
+00:42:39.374 --> 00:42:41.694
+pode trazer um faturamento pra empresa ali,
+
+678
+00:42:43.234 --> 00:42:46.874
+às vezes de 10 mil, de forma previsível, com 15
+
+679
+00:42:46.914 --> 00:42:47.974
+minutos por dia
+
+680
+00:42:53.304 --> 00:42:55.124
+Que você intensifique isso aqui,
+
+681
+00:42:56.904 --> 00:42:57.924
+pode virar 30.
+
+682
+00:43:01.664 --> 00:43:05.484
+Só que lembre, essa aqui não é a única estratégia, não é a
+
+683
+00:43:05.524 --> 00:43:08.944
+única coisa que você vai vender. Porque dependendo
+
+684
+00:43:09.764 --> 00:43:12.544
+do seu portfólio de serviço que você vai oferecer pra empresa,
+
+685
+00:43:13.144 --> 00:43:14.534
+principalmente se vocês
+
+686
+00:43:14.604 --> 00:43:20.524
+dominarem
+
+687
+00:43:20.564 --> 00:43:22.544
+esses cinco serviços aqui,
+
+688
+00:43:24.224 --> 00:43:27.924
+dominarem a entrega desses cinco serviços, que é o que a gente tem
+
+689
+00:43:28.004 --> 00:43:30.004
+mais demanda hoje no mercado,
+
+690
+00:43:30.824 --> 00:43:34.784
+muitos de vocês vão conseguir transformar esses 10,
+
+691
+00:43:36.524 --> 00:43:38.884
+em 50 Cs
+
+692
+00:43:41.384 --> 00:43:42.104
+recorrentes
+
+693
+00:43:44.944 --> 00:43:46.204
+por mês.
+
+694
+00:43:49.124 --> 00:43:50.364
+Com uma estratégia
+
+695
+00:43:51.604 --> 00:43:52.584
+simples de fazer.
+
+696
+00:43:55.884 --> 00:43:57.684
+Vai ter que pôr a mão na massa? É claro que vai.
+
+697
+00:43:57.944 --> 00:44:01.504
+De novo, se você não quer pôr a mão na massa, você quer ser um consultor de
+
+698
+00:44:01.584 --> 00:44:02.284
+tecnologia,
+
+699
+00:44:03.624 --> 00:44:05.874
+faturar 50 C por mês de forma previsível.
+
+700
+00:44:05.894 --> 00:44:09.424
+Eu estou falando previsível, não estou falando de mês fatura e outro mês sabe, sei
+
+701
+00:44:09.464 --> 00:44:11.744
+lá Deus o que vai acontecer, estou falando de forma previsível.
+
+702
+00:44:13.484 --> 00:44:17.404
+Sem fazer nada, esquece, você não vai conseguir. Não vai.
+
+703
+00:44:18.664 --> 00:44:22.074
+Gente, o mercado está ficando cada vez mais concorrido, vocês já devem ter
+
+704
+00:44:22.084 --> 00:44:22.904
+percebido isso.
+
+705
+00:44:24.164 --> 00:44:28.144
+Não adianta ficar fazendo a mesma coisa e ficar esperando o cliente cair do
+
+706
+00:44:28.204 --> 00:44:28.704
+céu, que
+
+707
+00:44:30.364 --> 00:44:32.424
+vocês nunca vão conseguir ter uma empresa
+
+708
+00:44:35.664 --> 00:44:36.504
+lucratívia,
+
+709
+00:44:38.324 --> 00:44:42.164
+com faturamento previsível. Agora eu estou mostrando pra vocês,
+
+710
+00:44:42.204 --> 00:44:45.884
+primeiro, um serviço fácil de entregar,
+
+711
+00:44:47.224 --> 00:44:50.584
+extremamente simples de convencer o cliente que ele precisa
+
+712
+00:44:50.644 --> 00:44:52.584
+daquilo, porque eu estou falando da parte financeira.
+
+713
+00:44:54.224 --> 00:44:57.704
+Fácil converter aquilo pra um serviço recorrente,
+
+714
+00:44:58.224 --> 00:45:01.743
+pra que vocês recebam todo mês por aquele serviço.
+
+715
+00:45:03.184 --> 00:45:07.004
+E outra estratégia fácil de ser executada, o inbound no
+
+716
+00:45:07.044 --> 00:45:09.464
+LinkedIn, pra conseguir esses clientes.
+
+717
+00:45:13.604 --> 00:45:15.444
+Agora qual é o grande problema?
+
+718
+00:45:16.644 --> 00:45:18.744
+Primeiro, não adianta nada
+
+719
+00:45:20.524 --> 00:45:22.264
+você ter essa estratégia
+
+720
+00:45:23.144 --> 00:45:24.484
+e não ter um bom perfil.
+
+721
+00:45:26.104 --> 00:45:29.684
+Se você não tem um bom perfil, vai
+
+722
+00:45:29.724 --> 00:45:33.124
+matar, porque quando você pedir pra seguir o cliente, entrar no seu perfil e ver
+
+723
+00:45:33.134 --> 00:45:34.254
+que o seu perfil não é bom,
+
+724
+00:45:36.024 --> 00:45:38.074
+já era, você já perdeu a credibilidade com o
+
+725
+00:45:38.144 --> 00:45:41.904
+cliente. Não adianta nada você ter um bom
+
+726
+00:45:41.984 --> 00:45:42.404
+perfil,
+
+727
+00:45:43.744 --> 00:45:47.524
+você segue, os clientes entram no seu perfil, acham
+
+728
+00:45:47.564 --> 00:45:51.404
+legal, você pede a conexão, o pessoal aceita porque vê que você tem um
+
+729
+00:45:51.504 --> 00:45:53.764
+bom perfil, que você pode gerar valor pra eles.
+
+730
+00:45:54.284 --> 00:45:58.124
+Você pede autorização pra enviar o material gratuito, eles querem o material
+
+731
+00:45:58.184 --> 00:46:00.564
+gratuito, chega lá o material está horrível.
+
+732
+00:46:02.284 --> 00:46:03.444
+Também não adianta nada.
+
+733
+00:46:06.824 --> 00:46:10.504
+Então essa engrenagem precisa estar muito bem
+
+734
+00:46:10.584 --> 00:46:11.244
+construída,
+
+735
+00:46:13.364 --> 00:46:17.064
+pra que tudo isso aqui funcione, pra que
+
+736
+00:46:17.104 --> 00:46:21.084
+tudo isso te traga previsibilidade, pra que tudo isso comece a te
+
+737
+00:46:21.093 --> 00:46:24.264
+trazer um resultado recorrente pra sua
+
+738
+00:46:24.284 --> 00:46:25.764
+empresa.
+
+739
+00:46:30.584 --> 00:46:31.984
+Recorrente pra sua empresa.
+
+740
+00:46:36.484 --> 00:46:38.324
+Agora deixa eu fazer uma pergunta pra vocês.
+
+741
+00:46:39.784 --> 00:46:42.384
+Eu mostrei aqui pra vocês nessa aula,
+
+742
+00:46:43.724 --> 00:46:47.644
+fiz uma revisão rápida dos cinco serviços
+
+743
+00:46:48.304 --> 00:46:50.764
+e a gente se aprofundou na parte do FinOps.
+
+744
+00:46:51.864 --> 00:46:55.104
+Agora, me responde com sinceridade mesmo.
+
+745
+00:46:56.904 --> 00:46:59.384
+Se hoje, com tudo o que vocês viram aqui,
+
+746
+00:47:01.844 --> 00:47:05.744
+vocês conseguiriam entregar esse projeto de
+
+747
+00:47:05.784 --> 00:47:07.544
+FinOps pra um cliente sozinho
+
+748
+00:47:09.384 --> 00:47:12.733
+e utilizar essas estratégias de venda sozinho, sabendo que
+
+749
+00:47:12.744 --> 00:47:16.584
+vocês têm um bom material, sabendo que vocês
+
+750
+00:47:17.064 --> 00:47:18.204
+têm um bom perfil.
+
+751
+00:47:20.804 --> 00:47:23.654
+Quem conseguiria montar tudo isso aqui sozinho?
+
+752
+00:47:24.864 --> 00:47:26.044
+Com bom material
+
+753
+00:47:28.184 --> 00:47:30.564
+e com bom perfil no LinkedIn, coloca um eu aí.
+
+754
+00:47:35.704 --> 00:47:37.184
+Eu já vou me antecipar.
+
+755
+00:47:38.264 --> 00:47:42.084
+Provavelmente a maioria de vocês não conseguiriam para
+
+756
+00:47:42.124 --> 00:47:45.104
+ter os resultados que a estratégia oferece.
+
+757
+00:47:45.914 --> 00:47:48.564
+E de verdade, turma, isso aqui não é nenhuma crítica.
+
+758
+00:47:48.964 --> 00:47:51.354
+Isso é extremamente normal, porque ninguém faz isso
+
+759
+00:47:51.424 --> 00:47:53.164
+hoje.
+
+760
+00:47:54.824 --> 00:47:57.344
+Ter o mapa que eu acabei de mostrar pra vocês é uma coisa.
+
+761
+00:47:57.864 --> 00:48:01.264
+Agora saber executar e ir atrás desses clientes, é
+
+762
+00:48:01.304 --> 00:48:02.524
+completamente diferente.
+
+763
+00:48:03.684 --> 00:48:06.164
+Exatamente esse o ponto mais perigoso.
+
+764
+00:48:06.774 --> 00:48:10.764
+"Poxa, eu sei agora as oportunidades, eu sei que
+
+765
+00:48:10.804 --> 00:48:11.724
+tudo isso existe".
+
+766
+00:48:13.404 --> 00:48:15.084
+Sabe quanto que ela paga,
+
+767
+00:48:16.184 --> 00:48:17.264
+mas não sabe
+
+768
+00:48:19.624 --> 00:48:20.564
+e não consegue
+
+769
+00:48:21.584 --> 00:48:25.244
+agir da maneira correta. E você vê
+
+770
+00:48:25.264 --> 00:48:29.164
+consultores aplicando essas estratégias, ganhando
+
+771
+00:48:29.204 --> 00:48:32.154
+dinheiro, tendo um faturamento mais previsível e você não.
+
+772
+00:48:33.804 --> 00:48:34.924
+Então a partir de hoje,
+
+773
+00:48:36.024 --> 00:48:37.064
+você tem dois caminhos:
+
+774
+00:48:38.684 --> 00:48:42.604
+um, você anota tudo que a gente viu nessa aula,
+
+775
+00:48:42.644 --> 00:48:46.364
+vai sair daqui superanimado, porque vocês entenderam a estratégia que
+
+776
+00:48:46.404 --> 00:48:46.894
+funciona,
+
+777
+00:48:48.304 --> 00:48:49.604
+só que daqui duas semanas,
+
+778
+00:48:51.944 --> 00:48:53.164
+você não vai executar nada
+
+779
+00:48:54.640 --> 00:48:58.400
+Vai passar mais alguns meses e você vai continuar olhando para trás falando: "Cara,
+
+780
+00:48:58.440 --> 00:49:02.320
+o que eu planejei para esse mês, o que eu planejei para esse ano, continua
+
+781
+00:49:02.360 --> 00:49:03.150
+não acontecendo".
+
+782
+00:49:04.820 --> 00:49:08.160
+Segundo caminho, você pode encurtar tudo isso, aprender a
+
+783
+00:49:08.240 --> 00:49:09.380
+executar agora,
+
+784
+00:49:10.780 --> 00:49:14.680
+enquanto existem essas oportunidades, enquanto essa janela ainda está
+
+785
+00:49:14.690 --> 00:49:18.400
+aberta. Imagina só, daqui 60 dias, você
+
+786
+00:49:18.440 --> 00:49:19.780
+abrir a
+
+787
+00:49:20.740 --> 00:49:24.180
+sua conta bancária e você ter ali seus primeiros 20, os seus
+
+788
+00:49:24.200 --> 00:49:28.120
+primeiros 30 mil reais fechado de projetos
+
+789
+00:49:28.160 --> 00:49:31.280
+e esses contratos recorrentes caindo mês a
+
+790
+00:49:31.300 --> 00:49:34.920
+mês. E sabendo que tudo isso não foi sorte, foi porque você
+
+791
+00:49:34.960 --> 00:49:38.680
+soube fazer o assessment, montou a proposta com segurança,
+
+792
+00:49:39.300 --> 00:49:43.120
+soube fazer uma boa entrega. E aquele cliente, que
+
+793
+00:49:43.180 --> 00:49:46.270
+muitos de vocês só conseguiriam imaginar entregando
+
+794
+00:49:46.420 --> 00:49:50.409
+suporte, agora te paga um contrato recorrente para algo estratégico
+
+795
+00:49:50.520 --> 00:49:54.380
+para a empresa dele, algo que vai trazer benefícios financeiro, todos os
+
+796
+00:49:54.420 --> 00:49:57.660
+meses. Então isso, turma, só isso aqui, já
+
+797
+00:49:57.720 --> 00:50:01.540
+muda a realidade de muitos consultores de tecnologia.
+
+798
+00:50:02.230 --> 00:50:04.000
+Isso aqui pode mudar o seu ano.
+
+799
+00:50:05.180 --> 00:50:08.520
+Muito do que você planejou nesses primeiros seis meses, que não aconteceu,
+
+800
+00:50:08.960 --> 00:50:12.580
+pode acontecer nos próximos seis meses, só utilizando essa estratégia da maneira
+
+801
+00:50:12.620 --> 00:50:13.540
+correta.
+
+802
+00:50:14.700 --> 00:50:16.300
+E foi exatamente pensando
+
+803
+00:50:17.140 --> 00:50:20.480
+nesse contexto todo, que a gente criou a
+
+804
+00:50:20.520 --> 00:50:23.440
+imersão Azure para consultores de TI.
+
+805
+00:50:24.660 --> 00:50:27.120
+Essa imersão é bem diferente de tudo que você já viu.
+
+806
+00:50:27.400 --> 00:50:31.320
+Porque primeiro, ela não ensina Azure,
+
+807
+00:50:31.360 --> 00:50:34.920
+ela vai te ensinar cinco serviços que você viu.
+
+808
+00:50:36.600 --> 00:50:40.380
+Como aprender a entregar esse serviço para o cliente.
+
+809
+00:50:40.860 --> 00:50:44.740
+Migração, implementação de recursos, backup,
+
+810
+00:50:44.840 --> 00:50:47.940
+disaster recovery, a parte de FinOps.
+
+811
+00:50:49.230 --> 00:50:51.160
+A gente vai falar também de parte de segurança.
+
+812
+00:50:52.430 --> 00:50:56.420
+Então não é um curso de Azure. Não, você vai aprender como
+
+813
+00:50:56.460 --> 00:51:00.050
+entregar esse serviço para empresas e como faturar em cima desse
+
+814
+00:51:00.050 --> 00:51:00.560
+serviço.
+
+815
+00:51:02.360 --> 00:51:06.280
+Essa imersão vai ser uma imersão de quatro semanas, com
+
+816
+00:51:08.340 --> 00:51:10.940
+dois encontros ao vivo por semana,
+
+817
+00:51:12.020 --> 00:51:14.460
+onde a gente vai ver essa parte de execução real.
+
+818
+00:51:15.390 --> 00:51:18.660
+Migração que paga 30 mil, implementação de
+
+819
+00:51:18.720 --> 00:51:22.560
+identidade híbrida com AD
+
+820
+00:51:22.780 --> 00:51:26.620
+e Entra ID, projetos que podem pagar cinco, 10,
+
+821
+00:51:26.800 --> 00:51:27.900
+20 mil reais.
+
+822
+00:51:29.640 --> 00:51:33.180
+Implementação de máquinas virtuais, banco de dado, aplicação web,
+
+823
+00:51:33.620 --> 00:51:37.000
+serviço também de cinco a 30 mil reais.
+
+824
+00:51:37.740 --> 00:51:39.940
+E também como transformar tudo isso
+
+825
+00:51:41.420 --> 00:51:43.140
+em serviços de recorrência.
+
+826
+00:51:44.320 --> 00:51:48.160
+Então você vai ganhar duas vezes, você vai ganhar para entregar um projeto
+
+827
+00:51:48.180 --> 00:51:49.180
+mais específico
+
+828
+00:51:50.060 --> 00:51:53.820
+e daquele projeto você já vai ter autoridade, principalmente se for em
+
+829
+00:51:53.940 --> 00:51:54.300
+cima
+
+830
+00:51:55.200 --> 00:51:58.760
+do FinOps, você já vai ter autoridade para oferecer um contrato de
+
+831
+00:51:58.800 --> 00:52:02.560
+recorrência maior para cuidar da infraestrutura do
+
+832
+00:52:02.640 --> 00:52:03.480
+cliente, por exemplo.
+
+833
+00:52:04.780 --> 00:52:07.940
+Então é uma receita que cai todo mês, o projeto pontual.
+
+834
+00:52:08.720 --> 00:52:09.660
+Fez, recebeu.
+
+835
+00:52:10.660 --> 00:52:14.530
+Só que eu vou amarrar isso num contrato mensal para que todo mês
+
+836
+00:52:14.560 --> 00:52:17.700
+caia aquele valor na minha conta.
+
+837
+00:52:18.640 --> 00:52:22.160
+Dentro dessas quatro semanas, e é o objetivo dessa
+
+838
+00:52:22.180 --> 00:52:25.940
+imersão, não é só falar do técnico, porque eu não quero que você
+
+839
+00:52:26.020 --> 00:52:29.800
+aprenda FinOps, eu quero que você ganhe dinheiro com FinOps.
+
+840
+00:52:30.280 --> 00:52:34.180
+Eu não quero que você aprenda a fazer migração de on-premises para nuvem, eu quero
+
+841
+00:52:34.190 --> 00:52:36.100
+que você ganhe dinheiro com essa migração.
+
+842
+00:52:36.500 --> 00:52:38.580
+Eu não quero que você aprenda como funciona
+
+843
+00:52:40.420 --> 00:52:44.289
+o Entra ID, o Entra Connect. Não, eu quero que você
+
+844
+00:52:44.320 --> 00:52:45.820
+fature com esse serviço.
+
+845
+00:52:47.020 --> 00:52:49.820
+Então além da gente ver toda essa parte técnica, a gente vai ver a parte
+
+846
+00:52:49.860 --> 00:52:52.380
+estratégica, de como vender cada um desses serviços.
+
+847
+00:52:52.460 --> 00:52:54.100
+Eu dei um exemplo hoje do LinkedIn.
+
+848
+00:52:55.260 --> 00:52:59.060
+Só que mesmo esse exemplo que eu dei do LinkedIn, apesar de funcionar
+
+849
+00:52:59.100 --> 00:53:01.580
+muito bem, ele precisa ser bem feito.
+
+850
+00:53:01.620 --> 00:53:04.920
+Só que existem outras estratégias que a gente vai ver também dentro dessa imersão.
+
+851
+00:53:07.720 --> 00:53:08.640
+E o melhor de tudo,
+
+852
+00:53:10.280 --> 00:53:14.020
+dentro dessa imersão, vocês não vão precisar fazer tudo sozinhos.
+
+853
+00:53:15.300 --> 00:53:18.380
+Junto com a imersão, a gente está entregando seis
+
+854
+00:53:19.000 --> 00:53:19.740
+bônus.
+
+855
+00:53:21.160 --> 00:53:23.560
+Então se eu pegar aqui, só expandir aqui.
+
+856
+00:53:25.020 --> 00:53:28.660
+A gente vai entregar ainda seis
+
+857
+00:53:28.680 --> 00:53:30.090
+bônus para vocês.
+
+858
+00:53:31.100 --> 00:53:31.760
+Imersão,
+
+859
+00:53:33.000 --> 00:53:34.160
+quatro semanas,
+
+860
+00:53:35.240 --> 00:53:37.080
+seis bônus. Vocês vão receber
+
+861
+00:53:38.000 --> 00:53:41.610
+plano de ataque do zero ao primeiro projeto em 30
+
+862
+00:53:41.700 --> 00:53:45.300
+dias. Aqui são estratégias de
+
+863
+00:53:45.320 --> 00:53:49.240
+velocidade. Como que eu consigo fechar o meu primeiro
+
+864
+00:53:49.280 --> 00:53:52.880
+projeto em 30 dias para já recuperar o valor que eu estou
+
+865
+00:53:52.940 --> 00:53:55.460
+investindo nessa imersão e já ter o meu lucro.
+
+866
+00:53:57.700 --> 00:54:01.480
+Segundo bônus, máquina de cliente, como atrair empresas sem
+
+867
+00:54:01.540 --> 00:54:02.860
+ser vendedor. Gente,
+
+868
+00:54:04.440 --> 00:54:08.170
+a maioria das estratégias você não precisa ser bom de fábula, você precisa ter a
+
+869
+00:54:08.200 --> 00:54:11.929
+estratégia certa. E aqui a gente vai entregar tudo para vocês,
+
+870
+00:54:12.180 --> 00:54:16.120
+script de negociação, tudo. Vocês não vão precisar fazer curso de
+
+871
+00:54:16.180 --> 00:54:17.640
+vendedor para faturar.
+
+872
+00:54:19.360 --> 00:54:23.300
+Três, kit de fechamento, da proposta ao contrato assinado.
+
+873
+00:54:23.350 --> 00:54:25.520
+Então você vai receber modelos de propostas,
+
+874
+00:54:27.240 --> 00:54:29.700
+você vai receber scripts de negociações,
+
+875
+00:54:31.920 --> 00:54:33.060
+tudo que você precisa
+
+876
+00:54:34.700 --> 00:54:38.000
+para gerar proposta, até ter essa proposta
+
+877
+00:54:38.040 --> 00:54:41.540
+fechada. A trilha express do Azure.
+
+878
+00:54:41.560 --> 00:54:44.940
+Comece mesmo partindo do zero. Então isso aqui, quando o
+
+879
+00:54:45.020 --> 00:54:48.400
+aluno entra na imersão, a gente já entrega isso aqui de cara.
+
+880
+00:54:48.420 --> 00:54:52.260
+Por quê? Isso aqui é para aqueles que já querem aprender um pouco mais de
+
+881
+00:54:52.320 --> 00:54:56.120
+Azure, eles já querem ter uma base maior, para quando a gente falar daqueles
+
+882
+00:54:56.180 --> 00:55:00.064
+serviços específicos, não seja algo Que o
+
+883
+00:55:00.124 --> 00:55:03.733
+aluno nunca viu na vida. Então a gente vai entregar um curso completo,
+
+884
+00:55:04.264 --> 00:55:07.204
+mostrando como que o Azure funciona e os seus principais
+
+885
+00:55:07.244 --> 00:55:11.004
+serviços. E o bônus cinco:
+
+886
+00:55:11.664 --> 00:55:15.084
+a sala de suporte. Depois da imersão, depois das quatro
+
+887
+00:55:15.204 --> 00:55:18.094
+semanas, a gente ainda vai ter 30 dias
+
+888
+00:55:19.364 --> 00:55:23.164
+dentro dessa sala de suporte, onde vocês vão poder
+
+889
+00:55:23.184 --> 00:55:27.104
+pedir orientação tanto da parte técnica: "Poxa, não estou conseguindo gerar
+
+890
+00:55:27.184 --> 00:55:31.084
+save, fiz isso, isso e isso, o que você recomenda?" Tanto
+
+891
+00:55:31.094 --> 00:55:34.804
+a parte técnica: "Estou fazendo uma migração, está dando esse erro, o que eu
+
+892
+00:55:34.904 --> 00:55:38.824
+faço?" Quanto a parte estratégica: "Poxa, eu estou fazendo essa estratégia no
+
+893
+00:55:38.844 --> 00:55:42.824
+LinkedIn, não está gerando resultado, o que eu faço?" Então vão ser 30
+
+894
+00:55:42.864 --> 00:55:46.584
+dias de suporte, onde a gente vai orientar não só a parte técnica, mas
+
+895
+00:55:46.664 --> 00:55:48.774
+também a parte estratégica.
+
+896
+00:55:52.364 --> 00:55:52.924
+E também,
+
+897
+00:55:54.004 --> 00:55:57.584
+todos esses materiais que vão ser entregues pra vocês, alguns serão cursos
+
+898
+00:55:57.664 --> 00:56:01.604
+gravados, outros serão documentos, e a gente tem a própria imersão
+
+899
+00:56:01.644 --> 00:56:05.163
+que vão ser encontros ao vivo, todos eles vão ser
+
+900
+00:56:05.204 --> 00:56:08.724
+gravados e vocês vão receber com acesso vitalício.
+
+901
+00:56:10.644 --> 00:56:14.044
+Se eu fosse vender cada um desses pacotezinhos
+
+902
+00:56:14.144 --> 00:56:15.544
+separados, só o bônus,
+
+903
+00:56:16.524 --> 00:56:20.484
+seria mais de R$ 4000. E essa imersão sozinha, essas
+
+904
+00:56:20.504 --> 00:56:21.984
+quatro semanas, vale
+
+905
+00:56:22.924 --> 00:56:23.984
+R$ 3000 ou mais.
+
+906
+00:56:25.064 --> 00:56:28.424
+Então se a gente somar tudo isso, a gente está falando aí de mais de R$ 7000.
+
+907
+00:56:29.674 --> 00:56:33.554
+Mas pra quem tomar a decisão hoje, não vai pagar R$ 7000, não vai pagar R$
+
+908
+00:56:33.824 --> 00:56:34.184
+3000.
+
+909
+00:56:35.424 --> 00:56:39.324
+Porque, de novo, meu objetivo aqui não é vender um curso, é
+
+910
+00:56:39.364 --> 00:56:42.524
+vender um conhecimento pra vocês faturarem com esse conhecimento.
+
+911
+00:56:44.124 --> 00:56:47.324
+Então é pra você faturar o mais rápido possível, por isso que eu
+
+912
+00:56:47.644 --> 00:56:50.654
+recomendo começar pelo FinOps, mas não parar
+
+913
+00:56:50.654 --> 00:56:54.264
+ali. Então não é um curso, eu quero virar um
+
+914
+00:56:54.304 --> 00:56:57.984
+parceiro seu pra te ajudar a ter esse faturamento
+
+915
+00:56:58.004 --> 00:56:58.584
+previsível.
+
+916
+00:56:59.404 --> 00:57:01.464
+Então pra quem garantir a vaga agora,
+
+917
+00:57:02.504 --> 00:57:05.024
+a imersão vai sair por R$ 997.
+
+918
+00:57:07.184 --> 00:57:10.884
+E esse valor pode ser dividido em até 12 vezes.
+
+919
+00:57:10.944 --> 00:57:12.884
+Agora deixa eu só fazer uma conta que importa.
+
+920
+00:57:13.264 --> 00:57:16.204
+Porque a gente é técnico, a gente pensa muito por lógica.
+
+921
+00:57:17.024 --> 00:57:20.424
+Então eu estou falando de R$ 997. E um único projeto
+
+922
+00:57:21.544 --> 00:57:25.464
+ou dois projetos que você fecha, pode gerar um resultado de R$ 10 mil, R$ 20 mil,
+
+923
+00:57:25.584 --> 00:57:29.444
+você já paga o investimento da imersão e ainda
+
+924
+00:57:29.464 --> 00:57:31.544
+tem muito mais lucro.
+
+925
+00:57:32.644 --> 00:57:36.244
+E todos os clientes que vão entrar depois, porque essa estratégia você vai aprender
+
+926
+00:57:36.264 --> 00:57:40.164
+pra ficar executando sempre. Então tudo que entrar depois, é só
+
+927
+00:57:40.304 --> 00:57:42.424
+lucro pra sua empresa, não é mais custo.
+
+928
+00:57:44.544 --> 00:57:48.444
+Então é o investimento com melhor retorno que você pode fazer esse ano.
+
+929
+00:57:50.184 --> 00:57:53.884
+E sendo bem sincero, não é uma
+
+930
+00:57:53.964 --> 00:57:56.544
+promessa minha, é a matemática do mercado.
+
+931
+00:57:56.644 --> 00:58:00.404
+Esses valores que eu trouxe aqui pra vocês são valores
+
+932
+00:58:02.204 --> 00:58:04.264
+que hoje as empresas já pagam.
+
+933
+00:58:04.884 --> 00:58:06.944
+E agora eu quero falar de
+
+934
+00:58:08.344 --> 00:58:10.144
+duas coisas especiais aqui pra vocês.
+
+935
+00:58:10.224 --> 00:58:14.024
+Primeiro, pra você não ter nenhum motivo pra hesitar, falar: "Poxa, não sei se eu
+
+936
+00:58:14.084 --> 00:58:15.484
+faço ou se eu não faço".
+
+937
+00:58:18.144 --> 00:58:20.104
+Eu vou trazer algo que o risco vai ser todo meu.
+
+938
+00:58:20.204 --> 00:58:24.164
+Se você entrar na imersão, participar
+
+939
+00:58:24.174 --> 00:58:27.694
+do primeiro dia ao vivo que a gente for ter, e você não conseguir
+
+940
+00:58:27.724 --> 00:58:31.404
+enxergar com clareza o caminho pra faturar com esses serviços que você vai
+
+941
+00:58:31.464 --> 00:58:31.893
+aprender,
+
+942
+00:58:32.704 --> 00:58:36.664
+você me manda uma mensagem em até sete dias e a gente vai devolver todo o
+
+943
+00:58:36.704 --> 00:58:39.944
+investimento que você fez, sem burocracia, sem problema nenhum.
+
+944
+00:58:40.784 --> 00:58:44.764
+Eu só consigo oferecer isso porque eu sei o valor que essa imersão vai
+
+945
+00:58:44.804 --> 00:58:48.624
+entregar pra esses consultores. Agora presta atenção nesse segundo ponto,
+
+946
+00:58:49.524 --> 00:58:53.474
+porque essa parte que eu vou falar agora, é só pra quem garantir a vaga enquanto a
+
+947
+00:58:53.524 --> 00:58:54.714
+gente está aqui ao vivo.
+
+948
+00:58:58.304 --> 00:59:02.254
+Todo mundo que garantir a vaga vai receber esses seis bônus que eu falei, mas quem
+
+949
+00:59:02.304 --> 00:59:06.244
+garantir agora, vai levar mais três bônus aqui que a gente
+
+950
+00:59:06.254 --> 00:59:07.864
+está falando dos bônus relâmpago.
+
+951
+00:59:08.804 --> 00:59:11.964
+Então esses bônus não vão estar disponíveis depois. Quais são esses bônus?
+
+952
+00:59:12.564 --> 00:59:16.183
+Primeiro, o que a gente chama de sessão de mapa de carteira ao vivo.
+
+953
+00:59:16.924 --> 00:59:20.124
+Então isso aqui é o que a gente chama do "done with you",
+
+954
+00:59:20.624 --> 00:59:22.284
+vamos fazer com você.
+
+955
+00:59:23.564 --> 00:59:26.844
+A gente vai ajudar você a achar os
+
+956
+00:59:26.864 --> 00:59:28.924
+primeiros cinco clientes.
+
+957
+00:59:31.314 --> 00:59:35.274
+A gente vai fazer essa pesquisa, a gente tem o Sales Navigator, a
+
+958
+00:59:35.284 --> 00:59:38.944
+gente vai aproveitar essa ferramenta poderosa e a gente vai te
+
+959
+00:59:38.964 --> 00:59:39.494
+entregar
+
+960
+00:59:41.104 --> 00:59:44.544
+cinco clientes, o script de
+
+961
+00:59:44.564 --> 00:59:46.584
+engajamento pra aqueles clientes,
+
+962
+00:59:47.604 --> 00:59:51.324
+o material que a gente vai escrever pra
+
+963
+00:59:51.384 --> 00:59:51.984
+você.
+
+964
+00:59:52.844 --> 00:59:55.704
+Lembra? O material é parte fundamental.
+
+965
+00:59:56.404 --> 00:59:58.564
+A gente vai criar pra você e vai te entregar.
+
+966
+00:59:59.264 --> 01:00:03.144
+O perfil é parte fundamental. A gente vai reestruturar o seu
+
+967
+01:00:03.184 --> 01:00:03.684
+perfil.
+
+968
+01:00:06.024 --> 01:00:07.924
+Achar os clientes também é parte fundamental.
+
+969
+01:00:07.934 --> 01:00:11.704
+Além de você aprender com esse bônus, a gente vai achar os primeiros
+
+970
+01:00:11.744 --> 01:00:13.984
+cinco clientes e a gente vai te entregar
+
+971
+01:00:14.944 --> 01:00:18.744
+o script que você tem que fazer pra engajamento, o script que
+
+972
+01:00:18.784 --> 01:00:20.824
+você tem que mandar para
+
+973
+01:00:22.244 --> 01:00:25.764
+solicitar a aprovação pra o envio do material
+
+974
+01:00:26.344 --> 01:00:29.844
+gratuito, material de engajamento, e também o script de
+
+975
+01:00:29.964 --> 01:00:33.104
+follow-up. Então a gente vai fazer com vocês.
+
+976
+01:00:34.404 --> 01:00:35.664
+Esse é o primeiro bônus.
+
+977
+01:00:36.564 --> 01:00:40.374
+O segundo bônus: vocês vão receber um pacote de propostas
+
+978
+01:00:40.404 --> 01:00:44.004
+prontas para os cinco serviços. Então os cinco serviços que vocês
+
+979
+01:00:44.024 --> 01:00:47.824
+vão fazer, vocês não vão precisar se preocupar com propostas.
+
+980
+01:00:47.834 --> 01:00:50.674
+A gente vai entregar a proposta dos cinco serviços.
+
+981
+01:00:50.674 --> 01:00:54.244
+Vocês vão precisar só mudar cliente e valor, porque é aquilo que a gente vai
+
+982
+01:00:54.284 --> 01:00:58.104
+recomendar muito forte na imersão. Se a empresa é maior, você vai cobrar mais.
+
+983
+01:00:59.344 --> 01:01:03.084
+Então vocês vão receber essas propostas prontas pros
+
+984
+01:01:03.144 --> 01:01:05.944
+cinco serviços. E o terceiro bônus
+
+985
+01:01:06.780 --> 01:01:10.360
+É o congelamento desse valor. Então esse valor, a gente tinha encerrado na
+
+986
+01:01:10.400 --> 01:01:14.200
+segunda-feira, R$ 997. A gente vai manter esse valor
+
+987
+01:01:14.240 --> 01:01:15.010
+aqui pra vocês.
+
+988
+01:01:17.920 --> 01:01:21.780
+Então esses três bônus relâmpago, vão sair do ar
+
+989
+01:01:21.840 --> 01:01:25.740
+quando essa aula acabar. Então quem sair: "ah, vou pensar,
+
+990
+01:01:26.340 --> 01:01:30.010
+amanhã eu vejo", vai poder entrar na imersão sem problema nenhum,
+
+991
+01:01:30.660 --> 01:01:34.620
+com os seis bônus, sem problema nenhum, mas vai perder esses bônus relâmpago que
+
+992
+01:01:34.640 --> 01:01:35.960
+eu acabei de falar pra vocês.
+
+993
+01:01:37.440 --> 01:01:39.800
+Isso aqui, gente, não é pra pressionar, não é pra nada.
+
+994
+01:01:39.840 --> 01:01:42.560
+É porque a gente, por experiência, sabe que quem age na
+
+995
+01:01:42.640 --> 01:01:45.640
+hora, são os melhores clientes pra
+
+996
+01:01:45.720 --> 01:01:49.220
+gente, são os clientes que querem ser recompensados e querem ter o
+
+997
+01:01:49.260 --> 01:01:52.930
+resultado mais rápido. Então geralmente quem fica no muro,
+
+998
+01:01:52.960 --> 01:01:56.220
+sempre vai ser as pessoas que vão ter mais dificuldade pra ter resultado.
+
+999
+01:01:56.230 --> 01:02:00.120
+Então a gente gosta de sempre prestigiar essas pessoas que tomam
+
+1000
+01:02:00.220 --> 01:02:03.580
+a decisão, que confiam no método e sabem que vão ter
+
+1001
+01:02:03.590 --> 01:02:04.240
+resultados.
+
+1002
+01:02:05.240 --> 01:02:08.640
+Pra quem quiser garantir a vaga agora, com essas
+
+1003
+01:02:08.660 --> 01:02:12.640
+condições e principalmente com esse bônus especial,
+
+1004
+01:02:13.630 --> 01:02:16.360
+eu vou colocar aqui no chat o link.
+
+1005
+01:02:18.720 --> 01:02:21.780
+Está aqui o link no chat.
+
+1006
+01:02:25.180 --> 01:02:25.680
+Maravilha?
+
+1007
+01:02:26.810 --> 01:02:30.700
+Então pra quem quer garantir o bônus, aonde a gente vai fazer com
+
+1008
+01:02:30.740 --> 01:02:34.720
+vocês. Além de vocês aprenderem a fazer tudo isso na imersão,
+
+1009
+01:02:35.200 --> 01:02:38.740
+pra quem garantir a vaga agora, a gente vai escrever o
+
+1010
+01:02:38.800 --> 01:02:42.660
+material pra você, a gente vai reestruturar o seu
+
+1011
+01:02:42.680 --> 01:02:43.600
+perfil no LinkedIn,
+
+1012
+01:02:44.940 --> 01:02:48.880
+a gente vai te entregar cinco clientes,
+
+1013
+01:02:48.940 --> 01:02:52.300
+e não é o mesmo pessoal, não é os mesmos cinco clientes pra todo
+
+1014
+01:02:52.360 --> 01:02:56.320
+mundo. Cada um dos alunos da imersão vai
+
+1015
+01:02:56.420 --> 01:02:59.100
+ter cinco clientes entregues por nós,
+
+1016
+01:03:00.060 --> 01:03:01.820
+clientes diferentes.
+
+1017
+01:03:02.860 --> 01:03:06.840
+A gente vai entregar os scripts pra você fazer a fase
+
+1018
+01:03:06.940 --> 01:03:07.690
+de engajamento,
+
+1019
+01:03:08.670 --> 01:03:12.540
+a gente vai entregar os scripts de follow-up, pra
+
+1020
+01:03:12.620 --> 01:03:14.900
+que você dali já tenha essa reunião agendada.
+
+1021
+01:03:16.440 --> 01:03:19.560
+Então pra quem garantir a vaga agora, vai levar esse bônus.
+
+1022
+01:03:20.120 --> 01:03:21.580
+Vai levar também o bônus,
+
+1023
+01:03:23.000 --> 01:03:26.840
+que é as propostas. Todos esses cinco serviços que vocês
+
+1024
+01:03:26.900 --> 01:03:30.260
+vão aprender, migração de on-premises pra nuvem,
+
+1025
+01:03:31.200 --> 01:03:33.960
+ambiente de identidade híbrida,
+
+1026
+01:03:36.280 --> 01:03:38.040
+backup Disaster Recovery,
+
+1027
+01:03:38.960 --> 01:03:41.640
+subir recursos, máquinas, bancos de dados,
+
+1028
+01:03:44.800 --> 01:03:48.260
+aplicações web, FinOps, vocês vão receber
+
+1029
+01:03:48.900 --> 01:03:51.540
+um template de proposta pra esses cinco serviços.
+
+1030
+01:03:53.640 --> 01:03:57.620
+E a gente ainda vai manter o valor que a gente liberou na segunda-feira, o valor de
+
+1031
+01:03:57.640 --> 01:03:58.520
+R$ 997.
+
+1032
+01:03:59.780 --> 01:04:03.259
+Então está aí o link no chat já com desconto aplicado.
+
+1033
+01:04:03.280 --> 01:04:06.030
+O valor normal dessa imersão é R$ 2.997.
+
+1034
+01:04:07.100 --> 01:04:10.780
+Então esse link já está com esses R$ 2.000 de
+
+1035
+01:04:10.800 --> 01:04:14.260
+desconto aplicado, R$ 997. E esse
+
+1036
+01:04:14.300 --> 01:04:15.860
+valor pode
+
+1037
+01:04:18.840 --> 01:04:21.700
+ser dividido em até 12 vezes.
+
+1038
+01:04:22.000 --> 01:04:25.680
+Esse valor pode ser dividido em
+
+1039
+01:04:25.700 --> 01:04:27.900
+12 vezes no cartão de crédito,
+
+1040
+01:04:29.240 --> 01:04:31.660
+12 vezes no boleto
+
+1041
+01:04:32.540 --> 01:04:35.460
+ou 12 vezes no Pix. Quem
+
+1042
+01:04:35.540 --> 01:04:39.480
+for escolher
+
+1043
+01:04:39.500 --> 01:04:40.540
+as versões
+
+1044
+01:04:41.720 --> 01:04:45.570
+de boleto e Pix, é uma parceria que a gente tem com
+
+1045
+01:04:45.600 --> 01:04:49.260
+uma plataforma chamada TMB, então todo o
+
+1046
+01:04:49.300 --> 01:04:53.180
+contrato que vocês vão fazer, são contratos que são
+
+1047
+01:04:53.220 --> 01:04:54.200
+feitos com eles,
+
+1048
+01:04:55.080 --> 01:04:56.960
+eles só repassam o valor pra gente.
+
+1049
+01:04:58.450 --> 01:05:02.100
+Então pra quem tem interesse, "pô eu gostaria, mas não
+
+1050
+01:05:02.120 --> 01:05:05.940
+consigo fazer no cartão de crédito" e quer fazer no boleto,
+
+1051
+01:05:06.040 --> 01:05:09.200
+eu vou colocar um outro link aqui no chat, que é o link da minha equipe no
+
+1052
+01:05:09.260 --> 01:05:12.060
+WhatsApp. Vocês vão entrar em contato com a minha equipe
+
+1053
+01:05:13.000 --> 01:05:16.750
+e vão falar que estavam aqui na aula e que têm interesse na imersão e querem
+
+1054
+01:05:16.780 --> 01:05:18.760
+fazer parcelado via boleto ou Pix.
+
+1055
+01:05:19.640 --> 01:05:21.760
+O pessoal vai gerar o link e vai mandar pra vocês.
+
+1056
+01:05:22.740 --> 01:05:26.260
+Independente se é boleto e Pix, a plataforma pra ativar o
+
+1057
+01:05:26.320 --> 01:05:26.950
+contrato,
+
+1058
+01:05:29.080 --> 01:05:32.540
+vai ter que ser pago essa primeira parcela de forma
+
+1059
+01:05:32.560 --> 01:05:33.240
+imediata.
+
+1060
+01:05:34.440 --> 01:05:36.840
+Então essa primeira parcela tem que ser paga hoje.
+
+1061
+01:05:37.560 --> 01:05:41.540
+Então o que a gente vai pedir? Pra que você garanta sua vaga com valor
+
+1062
+01:05:41.640 --> 01:05:45.280
+especial e com todos esses bônus, a equipe vai
+
+1063
+01:05:45.320 --> 01:05:46.520
+enviar pra vocês o link,
+
+1064
+01:05:47.580 --> 01:05:51.500
+a plataforma vai gerar o contrato pra vocês e vai gerar o boleto ou o código Pix
+
+1065
+01:05:51.520 --> 01:05:53.260
+pra fazer o pagamento da primeira parcela.
+
+1066
+01:05:53.790 --> 01:05:57.780
+E vocês vão precisar enviar pra gente o comprovante de pagamento pra garantir os
+
+1067
+01:05:57.800 --> 01:05:58.180
+bônus.
+
+1068
+01:06:00.740 --> 01:06:03.930
+Quem não enviar o comprovante de pagamento pros bônus,
+
+1069
+01:06:04.720 --> 01:06:08.520
+cai automaticamente, só que cai
+
+1070
+01:06:08.560 --> 01:06:12.280
+daqui dois, três dias. Se cair daqui dois, três dias, a gente vai
+
+1071
+01:06:12.320 --> 01:06:15.980
+entender que não foi feito o
+
+1072
+01:06:16.000 --> 01:06:19.830
+pagamento no dia, então não seria justo quem pagou no dia ter
+
+1073
+01:06:19.880 --> 01:06:22.440
+os bônus e quem pagou depois também ter os bônus.
+
+1074
+01:06:22.800 --> 01:06:26.290
+Então quem deixar pra pagar depois, quem não enviar o comprovante que o pagamento
+
+1075
+01:06:26.340 --> 01:06:28.380
+foi feito hoje, não vai receber os bônus.
+
+1076
+01:06:29.240 --> 01:06:32.860
+Vai ter acesso à imersão, os seis bônus, os bônus que eu falei que ia ser
+
+1077
+01:06:32.880 --> 01:06:36.440
+hoje, a gente não vai entregar.
+
+1078
+01:06:37.260 --> 01:06:41.000
+Maravilha? "As datas dos encontros já estão definidas?"
+
+1079
+01:06:41.190 --> 01:06:44.080
+Sim. Vai ser toda segunda e
+
+1080
+01:06:44.200 --> 01:06:47.940
+terça,
+
+1081
+01:06:48.040 --> 01:06:51.780
+durante quatro semanas, a partir do dia 27 de
+
+1082
+01:06:51.820 --> 01:06:52.220
+julho.
+
+1083
+01:06:55.020 --> 01:06:58.900
+Só que até o dia 27 de julho, aqui são os encontros ao
+
+1084
+01:06:58.960 --> 01:06:59.480
+vivo.
+
+1085
+01:07:00.660 --> 01:07:03.780
+Os bônus são tanto materiais,
+
+1086
+01:07:03.900 --> 01:07:07.170
+PDFs, infográficos,
+
+1087
+01:07:07.240 --> 01:07:10.000
+e-books, quanto cursos gravados.
+
+1088
+01:07:10.840 --> 01:07:12.660
+Esses vocês vão recebendo
+
+1089
+01:07:13.884 --> 01:07:17.424
+Semana a semana, até chegar à data da imersão.
+
+1090
+01:07:17.464 --> 01:07:21.404
+Então vocês não vão ficar sem conteúdo até a data da
+
+1091
+01:07:21.444 --> 01:07:24.624
+imersão. Vocês não vão ficar parados até a data da imersão.
+
+1092
+01:07:24.644 --> 01:07:27.804
+Vocês vão ter materiais pra que vocês possam já ir
+
+1093
+01:07:27.844 --> 01:07:31.484
+consumindo, já ir utilizando, até chegar à data da
+
+1094
+01:07:31.544 --> 01:07:32.024
+imersão.
+
+1095
+01:07:33.204 --> 01:07:37.054
+Principalmente o curso que a gente vai liberar de Azure como
+
+1096
+01:07:37.204 --> 01:07:41.164
+um todo, pra vocês já terem um conhecimento, pra quando chegar a imersão, quando a
+
+1097
+01:07:41.244 --> 01:07:45.044
+gente for falar daquele serviço, vocês já tenham minimamente uma noção.
+
+1098
+01:07:46.984 --> 01:07:47.604
+Maravilha?
+
+1099
+01:07:50.904 --> 01:07:53.564
+Pessoal, alguém tem mais alguma dúvida?
+
+1100
+01:07:54.084 --> 01:07:55.984
+Alguém quer fazer mais alguma pergunta?
+
+1101
+01:07:56.524 --> 01:08:00.084
+Deu pra entender essa condição especial pra
+
+1102
+01:08:00.104 --> 01:08:02.564
+aqueles que estão garantindo a vaga agora?
+
+1103
+01:08:07.184 --> 01:08:11.024
+Então só pra gente recapitular pra depois não termos
+
+1104
+01:08:11.044 --> 01:08:11.924
+problemas.
+
+1105
+01:08:12.924 --> 01:08:16.384
+Pra quem está garantindo a vaga agora, enquanto a gente está aqui na aula,
+
+1106
+01:08:17.504 --> 01:08:20.405
+o que vocês vão receber? Vocês vão
+
+1107
+01:08:20.445 --> 01:08:24.284
+receber o Done With You, ou
+
+1108
+01:08:24.405 --> 01:08:28.025
+seja, a gente vai fazer parte da estratégia junto com
+
+1109
+01:08:28.044 --> 01:08:31.634
+vocês. Como? A gente vai reestruturar
+
+1110
+01:08:31.764 --> 01:08:35.445
+primeiro o seu perfil no LinkedIn, porque é parte essencial da
+
+1111
+01:08:35.464 --> 01:08:39.184
+estratégia. Segundo, a gente vai criar o seu
+
+1112
+01:08:39.204 --> 01:08:39.824
+material,
+
+1113
+01:08:41.284 --> 01:08:42.384
+também que é parte
+
+1114
+01:08:43.204 --> 01:08:43.964
+fundamental.
+
+1115
+01:08:44.844 --> 01:08:48.704
+E de novo: "ah, vai ser o mesmo material pra
+
+1116
+01:08:48.724 --> 01:08:52.405
+todo mundo?" Lógico que não. Existem várias maneiras de eu falar do
+
+1117
+01:08:52.485 --> 01:08:55.844
+mesmo produto, do mesmo serviço. Então vão ser materiais
+
+1118
+01:08:55.884 --> 01:08:57.284
+dedicados pra vocês.
+
+1119
+01:08:58.804 --> 01:09:01.985
+Por isso que esse bônus é só pra quem fechar agora, porque se entrar muita gente, a
+
+1120
+01:09:02.025 --> 01:09:04.624
+gente não vai conseguir dar conta pra entregar pra muita gente.
+
+1121
+01:09:05.664 --> 01:09:07.804
+Então a gente vai entregar esse material pra vocês.
+
+1122
+01:09:08.304 --> 01:09:11.974
+A gente vai entregar pra vocês cinco clientes já pesquisados,
+
+1123
+01:09:12.344 --> 01:09:16.084
+clientes que já vão estar prontos, ou seja, os melhores
+
+1124
+01:09:16.094 --> 01:09:18.905
+clientes pra vocês já fecharem os primeiros contratos.
+
+1125
+01:09:18.924 --> 01:09:21.824
+A gente vai entregar esses cinco primeiros.
+
+1126
+01:09:21.905 --> 01:09:25.784
+Junto com esses cinco clientes, vocês vão receber os scripts, o que vocês têm
+
+1127
+01:09:25.804 --> 01:09:29.504
+que falar, como falar pra gerar engajamento com essas
+
+1128
+01:09:29.525 --> 01:09:30.084
+pessoas.
+
+1129
+01:09:31.724 --> 01:09:34.985
+Depois de gerar engajamento, vocês vão pedir pra seguir e conectar.
+
+1130
+01:09:35.985 --> 01:09:39.684
+Conectou? É a hora de enviar aquele material que a gente
+
+1131
+01:09:39.695 --> 01:09:40.864
+escreveu pra vocês.
+
+1132
+01:09:42.204 --> 01:09:45.773
+Então vocês vão receber o script pra gerar esse
+
+1133
+01:09:45.844 --> 01:09:49.664
+desejo na pessoa em querer ter esse material. Entregou o material?
+
+1134
+01:09:49.704 --> 01:09:53.204
+Entra a fase de follow-up. A gente vai entregar o script de
+
+1135
+01:09:53.264 --> 01:09:53.784
+follow-up.
+
+1136
+01:09:54.904 --> 01:09:55.704
+O follow-up
+
+1137
+01:09:56.824 --> 01:10:00.304
+é pra quê? Pra gerar reunião. A gente vai te entregar todo o script.
+
+1138
+01:10:00.374 --> 01:10:01.864
+A única coisa que você vai ter que fazer é a reunião.
+
+1139
+01:10:04.364 --> 01:10:08.324
+Então pra quem garantir a vaga agora, vai receber tudo isso aqui de
+
+1140
+01:10:08.364 --> 01:10:08.744
+bônus.
+
+1141
+01:10:09.784 --> 01:10:11.604
+Vai receber de bônus também
+
+1142
+01:10:12.704 --> 01:10:15.564
+cinco propostas pra cada um dos cinco serviços.
+
+1143
+01:10:15.864 --> 01:10:19.624
+Vocês não vão precisar se preocupar com proposta, vocês vão receber essas
+
+1144
+01:10:19.644 --> 01:10:20.213
+propostas.
+
+1145
+01:10:21.324 --> 01:10:24.614
+E o outro é o valor sendo
+
+1146
+01:10:24.704 --> 01:10:26.644
+mantido a R$ 997.
+
+1147
+01:10:28.884 --> 01:10:31.404
+Maravilha? Então está aí o link
+
+1148
+01:10:32.324 --> 01:10:33.724
+pra quem quer garantir
+
+1149
+01:10:34.524 --> 01:10:37.704
+a vaga com todas essas condições. E pra
+
+1150
+01:10:37.844 --> 01:10:40.944
+quem quer garantir a vaga com
+
+1151
+01:10:41.104 --> 01:10:44.664
+parcelamento via boleto ou via Pix, está
+
+1152
+01:10:45.104 --> 01:10:48.744
+aí no chat também o link da minha equipe no WhatsApp, é só
+
+1153
+01:10:48.904 --> 01:10:50.144
+chamar a equipe aqui pra
+
+1154
+01:10:50.984 --> 01:10:54.294
+que ela possa gerar o link pra vocês
+
+1155
+01:10:54.904 --> 01:10:57.454
+e vocês possam dar esses próximos passos.
+
+1156
+01:10:58.464 --> 01:11:00.273
+Pagamento pelo Pix vai para a
+
+1157
+01:11:02.704 --> 01:11:03.344
+TMB.
+
+1158
+01:11:04.224 --> 01:11:07.104
+Chama TMB a empresa.
+
+1159
+01:11:14.974 --> 01:11:18.684
+Não, é que esse link, vamos lá, pessoal. Vamos lá, de novo.
+
+1160
+01:11:19.844 --> 01:11:23.464
+Esse link que eu passei, o checkout da
+
+1161
+01:11:23.504 --> 01:11:24.044
+Eduzz,
+
+1162
+01:11:25.324 --> 01:11:29.084
+acabei de colocar agora no chat. Esse
+
+1163
+01:11:29.144 --> 01:11:33.024
+link é pra quem vai parcelar no cartão de crédito,
+
+1164
+01:11:34.404 --> 01:11:38.364
+é pra quem vai pagar à vista no boleto ou pra quem vai
+
+1165
+01:11:38.404 --> 01:11:39.384
+pagar à vista
+
+1166
+01:11:40.924 --> 01:11:43.624
+no Pix.
+
+1167
+01:11:44.744 --> 01:11:48.564
+Pra quem quer parcelar no Pix e no boleto, não é
+
+1168
+01:11:48.704 --> 01:11:49.324
+esse link.
+
+1169
+01:11:50.404 --> 01:11:54.094
+Pra quem quer parcelar no Pix ou no boleto,
+
+1170
+01:11:54.544 --> 01:11:57.484
+vai ter que chamar minha equipe no WhatsApp,
+
+1171
+01:11:59.044 --> 01:12:02.964
+porque esse parcelamento é feito por outra plataforma.
+
+1172
+01:12:03.284 --> 01:12:05.124
+Então está aí o link da equipe no WhatsApp.
+
+1173
+01:12:05.884 --> 01:12:06.144
+Não,
+
+1174
+01:12:09.924 --> 01:12:13.544
+aí sim, pra quem está fazendo à vista no Pix, aí é esse mesmo.
+
+1175
+01:12:13.844 --> 01:12:15.584
+Stone PSA. Exato.
+
+1176
+01:12:16.724 --> 01:12:20.304
+Pra quem quer fazer parcelado no Pix ou no boleto,
+
+1177
+01:12:21.384 --> 01:12:24.434
+aí é outra plataforma. Então vocês vão precisar entrar em contato com a minha
+
+1178
+01:12:24.464 --> 01:12:28.324
+equipe no WhatsApp, falar que estavam aqui na aula pra que a
+
+1179
+01:12:28.404 --> 01:12:30.764
+minha equipe gere pra vocês o link,
+
+1180
+01:12:32.944 --> 01:12:33.064
+pra
+
+1181
+01:12:34.704 --> 01:12:37.884
+que vocês possam, baseado nesse link, fazer o
+
+1182
+01:12:37.944 --> 01:12:41.584
+pagamento. Só que só lembra do seguinte, por favor,
+
+1183
+01:12:42.244 --> 01:12:43.804
+pra gente não ter problemas:
+
+1184
+01:12:45.084 --> 01:12:47.404
+a oferta é pra quem garantir a vaga hoje,
+
+1185
+01:12:48.584 --> 01:12:49.224
+agora.
+
+1186
+01:12:50.904 --> 01:12:54.764
+Ou seja, se você for optar pelo parcelamento no boleto, ele
+
+1187
+01:12:54.804 --> 01:12:58.664
+vai te gerar lá o link, boleto, ou se for Pix, vai gerar o link pra você
+
+1188
+01:12:58.704 --> 01:13:02.204
+fazer o pagamento da entrada. Tem que enviar lá pra equipe no
+
+1189
+01:13:02.224 --> 01:13:05.684
+WhatsApp, que vai mandar o link pra vocês, o comprovante que o pagamento foi feito
+
+1190
+01:13:05.724 --> 01:13:06.104
+hoje,
+
+1191
+01:13:06.944 --> 01:13:10.304
+pra que vocês tenham todos esses bônus liberados. Tá bom?
+
+1192
+01:13:11.074 --> 01:13:13.924
+"Ainda não sou consultor, não tenho CNPJ".
+
+1193
+01:13:14.264 --> 01:13:17.004
+Não precisa, pessoal. Não precisa abrir.
+
+1194
+01:13:17.054 --> 01:13:21.020
+"O que muita gente faz, ô Victor O que muita
+
+1195
+01:13:21.120 --> 01:13:24.480
+gente faz, de repente, é pegar
+
+1196
+01:13:24.489 --> 01:13:28.020
+alguém conhecido. Qual é o problema de não ter
+
+1197
+01:13:28.100 --> 01:13:28.820
+CNPJ?
+
+1198
+01:13:30.000 --> 01:13:33.630
+A grande maioria das empresas, esmagadora, vai
+
+1199
+01:13:33.700 --> 01:13:37.120
+exigir nota fiscal pelo serviço que você está fazendo.
+
+1200
+01:13:37.130 --> 01:13:40.160
+Então se você não tem CNPJ, você não vai conseguir gerar essa nota fiscal.
+
+1201
+01:13:40.220 --> 01:13:41.460
+Aí você tem duas opções:
+
+1202
+01:13:42.480 --> 01:13:45.490
+ou você abre o MEI, que é muito simples abrir,
+
+1203
+01:13:47.160 --> 01:13:51.080
+pra que você possa gerar essa nota fiscal, só que o problema do
+
+1204
+01:13:51.140 --> 01:13:54.800
+MEI é que ele tem um teto, ele tem um limite anual, então
+
+1205
+01:13:54.840 --> 01:13:58.780
+pra se enquadrar no MEI, o faturamento da empresa anual não pode
+
+1206
+01:13:58.800 --> 01:14:01.580
+passar daquele limite, eu não sei, teria que pesquisar,
+
+1207
+01:14:02.440 --> 01:14:03.240
+ou você
+
+1208
+01:14:04.160 --> 01:14:07.900
+tem algum conhecido, alguma parceria, faz
+
+1209
+01:14:07.920 --> 01:14:10.660
+alguma parceria com quem já tem
+
+1210
+01:14:12.600 --> 01:14:15.980
+um CNPJ, pra que essa pessoa emita a nota por você.
+
+1211
+01:14:17.420 --> 01:14:21.370
+Mas seria muito negligente da minha parte chegar
+
+1212
+01:14:21.380 --> 01:14:24.539
+aqui e te falar: "Não, cara, você não precisa de CNPJ, não precisa de nada".
+
+1213
+01:14:25.420 --> 01:14:29.300
+Não, porque se a empresa pedir a nota, você não ter, não vai fechar o
+
+1214
+01:14:29.320 --> 01:14:29.800
+projeto.
+
+1215
+01:14:30.800 --> 01:14:32.540
+Então você tem duas opções.
+
+1216
+01:14:33.250 --> 01:14:37.200
+Se você olhasse pra mim e falasse: "Cara, me
+
+1217
+01:14:37.220 --> 01:14:40.680
+indica", eu indicaria você abrir o MEI, porque a taxa é muito baixa.
+
+1218
+01:14:41.980 --> 01:14:45.780
+E o Donizeti colocou aí, o faturamento é em torno de 80 mil.
+
+1219
+01:14:45.860 --> 01:14:49.820
+Então já é bom pra começar. Eu abriria o MEI, a
+
+1220
+01:14:49.940 --> 01:14:52.720
+taxa na época, eu acho que era uns R$ 40 por mês,
+
+1221
+01:14:54.320 --> 01:14:56.920
+80 mil anual. Então
+
+1222
+01:14:57.980 --> 01:15:00.000
+eu faria isso pra não depender de ninguém.
+
+1223
+01:15:00.340 --> 01:15:04.200
+Agora, se você já tem alguém, algum conhecido, que já tem CNPJ, ele
+
+1224
+01:15:04.260 --> 01:15:07.930
+não vê problema em emitir a nota por você, aí não tem problema,
+
+1225
+01:15:08.000 --> 01:15:08.570
+você pode
+
+1226
+01:15:11.060 --> 01:15:12.300
+fazer essa parceria também.
+
+1227
+01:15:16.680 --> 01:15:17.140
+Beleza?
+
+1228
+01:15:19.380 --> 01:15:19.390
+A
+
+1229
+01:15:20.920 --> 01:15:24.760
+única coisa que eles vão pedir é que quando você emite a
+
+1230
+01:15:24.820 --> 01:15:28.620
+nota, tem a taxa. A única coisa que ele provavelmente vai pedir é que
+
+1231
+01:15:28.640 --> 01:15:32.460
+você arque com essa taxa. Porque não seria justo ele ter a taxa por um serviço que
+
+1232
+01:15:32.480 --> 01:15:33.620
+ele não está faturando.
+
+1233
+01:15:34.640 --> 01:15:37.120
+Mas eu, se eu fosse você, já abriria esse MEI.
+
+1234
+01:15:38.220 --> 01:15:42.120
+Já aproveitaria essa oportunidade pra já começar a faturar, porque
+
+1235
+01:15:42.160 --> 01:15:44.860
+vai faturar, gente. Se fizer o que a gente está falando, vai faturar.
+
+1236
+01:15:45.760 --> 01:15:49.260
+Principalmente vocês que estão pegando esse bônus onde a gente vai te entregar
+
+1237
+01:15:49.280 --> 01:15:52.120
+esses primeiros clientes, vocês vão faturar.
+
+1238
+01:15:52.650 --> 01:15:55.990
+Então se eu fosse você, já iria logo pro MEI pra não ficar dependendo de ninguém,
+
+1239
+01:15:56.340 --> 01:15:57.289
+porque você vai faturar.
+
+1240
+01:15:59.840 --> 01:16:00.160
+Beleza?
+
+1241
+01:16:03.860 --> 01:16:06.000
+Turma, alguém tem mais alguma dúvida?
+
+1242
+01:16:06.800 --> 01:16:08.760
+Alguém quer fazer mais alguma pergunta?
+
+1243
+01:16:10.960 --> 01:16:13.360
+Então só pra gente recapitular,
+
+1244
+01:16:14.600 --> 01:16:16.280
+fazer aqui um overview.
+
+1245
+01:16:17.280 --> 01:16:18.000
+Essa oferta,
+
+1246
+01:16:18.820 --> 01:16:21.800
+como a gente está liberando essa opção de boleto,
+
+1247
+01:16:22.760 --> 01:16:26.700
+e o boleto precisa da nossa equipe pra gerar o link e tudo
+
+1248
+01:16:26.740 --> 01:16:27.140
+mais,
+
+1249
+01:16:28.040 --> 01:16:31.020
+então quem está optando por boleto não vai conseguir fechar agora enquanto a gente
+
+1250
+01:16:31.040 --> 01:16:34.600
+está na aula, porque a equipe já está recebendo, já me sinalizaram aqui,
+
+1251
+01:16:35.080 --> 01:16:37.960
+a equipe já está recebendo as mensagens de vocês e já vai começar a gerar.
+
+1252
+01:16:38.000 --> 01:16:41.390
+Então, provavelmente a gente já vai ter encerrado a aula. Então o que eu vou fazer?
+
+1253
+01:16:41.470 --> 01:16:43.800
+Vou deixar essa oferta válida até o final do dia de hoje.
+
+1254
+01:16:45.260 --> 01:16:48.740
+É algo que eu não queria, porque é aquilo que eu comentei, pra mim, quem está em
+
+1255
+01:16:48.780 --> 01:16:51.880
+cima do muro, sempre vai ser as pessoas que vão ter menos resultados.
+
+1256
+01:16:51.900 --> 01:16:52.620
+A gente gosta
+
+1257
+01:16:53.420 --> 01:16:57.240
+de quem toma a decisão, porque são sempre
+
+1258
+01:16:57.380 --> 01:16:59.840
+as pessoas que vão ter mais resultado, porque são as pessoas que vão
+
+1259
+01:16:59.900 --> 01:17:03.880
+fazer o que precisa ser feito pra gerar o resultado.
+
+1260
+01:17:05.000 --> 01:17:08.600
+Só que por conta desse boleto, a gente vai deixar estender isso até o final do dia
+
+1261
+01:17:08.640 --> 01:17:12.020
+de hoje. Então até o final do dia de hoje, pra aqueles que estão ainda em cima do
+
+1262
+01:17:12.080 --> 01:17:15.960
+muro, até o final do dia de hoje, a gente vai manter
+
+1263
+01:17:16.020 --> 01:17:19.540
+os bônus e esse valor promocional.
+
+1264
+01:17:19.580 --> 01:17:23.440
+Combinado? E a turma que já está garantindo a vaga, a gente já está
+
+1265
+01:17:23.480 --> 01:17:27.160
+recebendo aqui as mensagens que alguns de vocês já estão garantindo a
+
+1266
+01:17:27.200 --> 01:17:31.170
+vaga. Pra vocês que estão garantindo a vaga, a gente vai começar,
+
+1267
+01:17:31.580 --> 01:17:34.240
+a partir da próxima semana, subir os materiais.
+
+1268
+01:17:34.420 --> 01:17:38.400
+Essa semana ainda, a gente já vai subir o curso do Azure
+
+1269
+01:17:38.460 --> 01:17:42.420
+Express. Então se vocês já puderem ir assistindo essas aulas, vai ser muito
+
+1270
+01:17:42.440 --> 01:17:45.880
+bom. A partir da próxima semana, a gente vai começar a subir os outros bônus.
+
+1271
+01:17:46.110 --> 01:17:47.840
+Então vocês vão começar a receber e-mails.
+
+1272
+01:17:49.200 --> 01:17:53.100
+Olhem também no spam, que às vezes vai pro spam, vocês vão começar a receber
+
+1273
+01:17:53.140 --> 01:17:56.020
+e-mails quando esses materiais começarem a ser divulgados.
+
+1274
+01:17:56.220 --> 01:18:00.020
+Essa semana ainda, provavelmente entre hoje e amanhã, a gente já vai subir o
+
+1275
+01:18:00.060 --> 01:18:02.850
+curso Express do Azure, pra vocês já poderem consumir.
+
+1276
+01:18:03.230 --> 01:18:06.300
+E a partir da próxima semana, a gente já vai começar a subir os outros materiais
+
+1277
+01:18:06.440 --> 01:18:10.240
+pra que vocês tenham coisas pra já ir consumindo até chegar a
+
+1278
+01:18:10.320 --> 01:18:12.160
+data da nossa imersão.
+
+1279
+01:18:13.740 --> 01:18:15.280
+Turma, combinados?
+
+1280
+01:18:16.760 --> 01:18:20.740
+Curtiram? Quem curtiu a aula digita o número um aí pra eu ver se vocês
+
+1281
+01:18:20.800 --> 01:18:22.500
+ainda estão aqui ou se
+
+1282
+01:18:23.780 --> 01:18:24.720
+viraram bots.
+
+1283
+01:18:28.800 --> 01:18:29.700
+Muito bom.
+
+1284
+01:18:31.360 --> 01:18:35.160
+Show de bola, galera, bastante gente ainda permaneceu aqui.
+
+1285
+01:18:35.990 --> 01:18:39.780
+Maravilha, então pra vocês que permaneceram até agora, está aí essa
+
+1286
+01:18:39.860 --> 01:18:40.700
+oportunidade.
+
+1287
+01:18:41.600 --> 01:18:45.580
+É uma imersão de quatro semanas, com todos esses bônus aí
+
+1288
+01:18:45.600 --> 01:18:46.580
+que a gente ofereceu,
+
+1289
+01:18:47.460 --> 01:18:50.880
+inclusive os bônus relâmpagos e o valor promocional, sendo
+
+1290
+01:18:50.960 --> 01:18:54.490
+mantidos até hoje, às 23h59.
+
+1291
+01:18:54.940 --> 01:18:58.000
+Passou essa data, vai poder continuar entrando na imersão? Vai.
+
+1292
+01:18:58.400 --> 01:19:01.880
+Só que os bônus relâmpagos a gente não vai entregar mais, até porque como vai
+
+1293
+01:19:01.920 --> 01:19:05.760
+exigir muito da gente, que é o "done", o IFU, a gente vai fazer
+
+1294
+01:19:05.800 --> 01:19:09.140
+com vocês, a gente não conseguiria fazer isso com muita gente.
+
+1295
+01:19:09.160 --> 01:19:13.070
+Então é algo bem seleto mesmo, seleto pra aqueles que não
+
+1296
+01:19:13.080 --> 01:19:16.480
+vão ficar em cima do muro, que vão tomar a decisão e querem ter esses
+
+1297
+01:19:16.560 --> 01:19:19.500
+resultados. Show de bola? Maravilha!
+
+1298
+01:19:20.040 --> 01:19:23.920
+Então, pra quem quer garantir a vaga
+
+1299
+01:19:25.320 --> 01:19:27.680
+agora, está aí o link no chat
+
+1300
+01:19:29.192 --> 01:19:33.092
+Deixa eu copiar aqui e colar. Esse aqui é o link
+
+1301
+01:19:33.112 --> 01:19:34.552
+pra você garantir a vaga agora.
+
+1302
+01:19:35.572 --> 01:19:36.272
+Esse link,
+
+1303
+01:19:37.152 --> 01:19:39.072
+à vista, Pix ou boleto,
+
+1304
+01:19:40.152 --> 01:19:42.252
+ou parcelamento no cartão de crédito.
+
+1305
+01:19:43.172 --> 01:19:46.812
+Agora, pra quem precisa fazer
+
+1306
+01:19:46.852 --> 01:19:50.652
+parcelamento no boleto ou no Pix, está aí o
+
+1307
+01:19:50.692 --> 01:19:52.052
+link da minha equipe
+
+1308
+01:19:53.212 --> 01:19:53.872
+no WhatsApp.
+
+1309
+01:19:55.152 --> 01:19:58.712
+Entre em contato com a equipe, fala que você estava aqui na aula, que você gostaria
+
+1310
+01:19:58.732 --> 01:19:59.972
+de participar da imersão
+
+1311
+01:20:02.112 --> 01:20:05.872
+parcelando no boleto ou no Pix, pra que a minha equipe gere aqui o link pra
+
+1312
+01:20:05.912 --> 01:20:09.772
+vocês. "Seria legal passar esse mapa
+
+1313
+01:20:09.852 --> 01:20:13.732
+mensal pra quem comprou também". Você fala o
+
+1314
+01:20:13.772 --> 01:20:15.792
+mapa mental? Não, a gente vai entregar.
+
+1315
+01:20:16.272 --> 01:20:20.192
+Não só dessa aula, Donizete, eu não sei se você conseguiu participar da aula
+
+1316
+01:20:20.252 --> 01:20:24.072
+de segunda, mas a gente vai entregar e deixar lá tanto o mapa
+
+1317
+01:20:24.152 --> 01:20:27.132
+mental quanto a gravação da própria aula.
+
+1318
+01:20:27.712 --> 01:20:31.532
+Então vai ficar lá pra vocês também, pra que vocês possam revisitar também.
+
+1319
+01:20:34.812 --> 01:20:35.532
+Show de bola.
+
+1320
+01:20:36.992 --> 01:20:40.982
+Maravilha, turma. Então está aí a oportunidade na mesa pra quem quer
+
+1321
+01:20:41.032 --> 01:20:44.972
+dar esses próximos passos. Pra quem está chegando junto aí
+
+1322
+01:20:45.012 --> 01:20:48.662
+na imersão, já dou as minhas boas-vindas, eu tenho certeza que essa é a melhor
+
+1323
+01:20:48.712 --> 01:20:52.432
+decisão que vocês estão tomando pra empresa de vocês, ou no caso do
+
+1324
+01:20:52.512 --> 01:20:56.332
+Vitor, que ainda é CLT, mas está já querendo criar essa
+
+1325
+01:20:56.372 --> 01:20:58.412
+consultoria de maneira previsível.
+
+1326
+01:20:58.832 --> 01:21:01.912
+Então está aí a oportunidade pra vocês. Maravilha?
+
+1327
+01:21:02.532 --> 01:21:05.412
+Então é isso aí, turma. Vamos ficando por aqui.
+
+1328
+01:21:06.592 --> 01:21:10.312
+Um bom dia aí pra vocês, uma boa
+
+1329
+01:21:10.412 --> 01:21:13.812
+semana pra todos, fiquem com Deus e
+
+1330
+01:21:13.912 --> 01:21:16.152
+até a próxima. Valeu, pessoal!

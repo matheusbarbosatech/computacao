@@ -1,0 +1,1313 @@
+Fala, turma!
+
+Bom dia!
+
+Sejam todos muito bem-vindos, sejam todas muito bem-vindas à nossa aula, na verdade, uma continuidade de uma aula que a gente fez na segunda-feira.
+
+Hoje a gente vai aprofundar um pouco mais aqui nesse tema de serviços que têm alta demanda hoje no mercado, serviços que são fáceis de vender, serviços que trazem um bom faturamento, serviços que trazem um excelente lucro para consultorias de TI.
+
+Está todo mundo me ouvindo bem?
+
+Todo mundo vendo aqui o mapinha mental?
+
+Está tudo certo?
+
+Podemos começar?
+
+Só confirmem aí para mim no chat, por gentileza, se está tudo certo, se vocês estão vendo, se vocês estão ouvindo.
+
+Tudo ok, tudo certinho.
+
+Tudo ok, tudo certo.
+
+Maravilha.
+
+Então vamos lá.
+
+Qualquer dúvida que vocês tenham, ou pergunta, orientações, podem mandar aqui no chat, que eu estou de olho aqui.
+
+Mas vamos lá, pessoal.
+
+Hoje eu quero me aprofundar um pouco em um serviço, que para mim, é o serviço hoje mais fácil de vender e um serviço que acaba abrindo uma porta muito grande na empresa para a gente conseguir vender outros serviços.
+
+Então aqui, só para a gente revisar rapidamente, na segunda-feira eu trouxe aqui um mapa com cinco serviços hoje que a gente tem alta demanda quando envolve o Azure.
+
+Então eu falei sobre migração de on-premises para nuvem, algo que vem crescendo muito.
+
+Essa parte de identidade híbrida, que é a construção do Entra Connect para conectar o AD com o Entra ID, subir máquinas virtuais, bancos de dados e aplicações no Azure, então muitas empresas estão passando por esse cenário, a parte de backup e principalmente Disaster Recovery, e, por fim, a parte de FinOps, gestão de custo.
+
+E aqui eu trouxe um pouquinho dos valores que geralmente a gente costuma cobrar nesses projetos.
+
+E lembrando, isso aqui não são dados meus, isso aqui são dados de mercado, então as empresas já estão pagando esses valores.
+
+Então para migração on-premises, aqui depende muito do tamanho da empresa, geralmente uma pequena, média empresa, a gente está falando ali de 10 a 50 mil.
+
+A parte para construir essa conexão, esse ambiente híbrido de identidade, é algo que fica ali entre 5 e 30 mil.
+
+Subir máquinas, aplicações, bancos de dados, entre 5 e 30 mil.
+
+Backup, Disaster Recovery, principalmente essa parte de Disaster Recovery, a gente consegue serviços de 20 até 100 mil, dependendo do tamanho da empresa.
+
+E a parte de FinOps aqui, geralmente, a gente acaba pegando uma porcentagem do que a gente consegue gerar economia para pagar os nossos serviços, só que esse tipo de serviço acaba abrindo muitas portas para que a gente possa vender outros serviços dentro das empresas.
+
+Então isso aqui são cinco serviços que se hoje você tem uma meta de faturar 50 mil por mês com a sua consultoria, com a sua empresa de TI, são serviços que vocês precisam ter no portfólio de vocês, porque são serviços hoje que a gente tem muita demanda.
+
+E lembra, eu comentei isso na aula de segunda, vocês não precisam ser especialistas em cloud para poder oferecer esses serviços.
+
+Você precisa saber e conhecer como que entrega esses serviços, mas não precisa ser um especialista.
+
+E hoje, o que eu quero me aprofundar hoje com vocês?
+
+Na aula de segunda-feira, onde eu detalhei isso aqui, eu falei para vocês, se eu tivesse começando agora, abri minha empresa de consultoria agora, ou eu já tenho uma empresa de consultoria e não estou conseguindo faturar o que eu quero, eu quero ter um faturamento ali de 50 mil por mês.
+
+Eu começaria pelo quatro e pelo cinco, sem dúvida nenhuma.
+
+Se você tem menos experiência, pelo cinco, com toda certeza, porque é onde é mais fácil vender, é muito mais fácil vender o cinco, que é essa parte do FinOps, do que qualquer outro serviço.
+
+E se eu quero vender serviços mais premium, que eu vou ter um lucro maior, o quatro também se integra muito nesse contexto.
+
+Hoje eu quero especificar, aprofundar um pouco mais na parte de FinOps, porque vocês vão entender que o FinOps pode ser a porta para eu vender os outros serviços, e não só esses cinco serviços.
+
+Pode ser a porta para eu vender outros serviços dentro do meu portfólio.
+
+Porque qual é o grande desafio para a maioria de vocês hoje?
+
+O grande desafio para a maioria de vocês hoje é entrar na empresa, é vender o primeiro serviço para o cliente.
+
+Hoje, muitos de vocês, se conseguirem vender esse primeiro serviço para o cliente, vai abrir uma porta que você vai ter um faturamento que você nunca teve.
+
+Só que o problema é como chegar nesse cliente, como ter esse cliente.
+
+E o FinOps é um tipo de serviço que a gente praticamente não tem barreira de vender esse serviço, porque o que eu entrego O que eu gero de valor pra empresa é financeiro, eu estou fazendo ela economizar.
+
+Quando eu consigo mostrar isso pra empresa, tudo fica muito mais simples.
+
+E hoje, existe um estudo do próprio Gartner, que saiu em janeiro desse ano, onde ele fala que as empresas hoje, que estão utilizando o cloud, estão pagando de 40% a 60% a mais, sem necessidade nenhuma.
+
+O que isso significa?
+
+Que hoje quando você oferece um serviço de FinOps, vai ser muito raro você não conseguir gerar um saving.
+
+Vai ser muito difícil, porque isso é um estudo, cada vez que a gente entra nas empresas pra fazer um FinOps, a gente vê isso cada vez mais.
+
+As empresas gastando com serviços de forma desnecessária.
+
+Agora, quando eu chego pra um cliente, estou começando agora, eu não sou conhecido no mercado, mas eu chego pro cliente e consigo mostrar pra ele, consigo falar pra ele, consigo argumentar pra ele, que ele está tendo um custo de 40% a 60% a mais, e eu me proponho a resolver aquele problema, eu não vou cobrar tudo que eu estou economizando, às vezes vou cobrar uma porcentagem disso, pra ele, ele vê isso como: "Cara, eu já estou gastando isso sem necessidade".
+
+Foi um exemplo que eu dei aqui, e é nisso que eu quero aprofundar.
+
+Por exemplo, uma empresa hoje, que gasta 100 mil com cloud, com Azure.
+
+A empresa gasta todo mês 100 mil reais.
+
+Se eu gerar um saving de 20%, e isso é extremamente fácil, simples, e eu vou mostrar pra vocês, é isso que eu quero detalhar pra vocês, eu estou falando de um saving de 20 mil reais.
+
+Se eu chego pra essa empresa e cobro 7 mil reais pelo meu serviço, na mente de quem está tomando a decisão é: "Cara, beleza, eu ainda estou ganhando 13 mil, porque ele está me trazendo um saving de 20 e está me cobrando só sete.
+
+Então eu ainda estou no lucro de 13 mil".
+
+Então essa barreira de pagar 7 mil pro consultor, é uma barreira que é muito fácil de ser quebrada.
+
+Por isso que eu falo: gente, hoje, se vocês estão querendo, "eu estou com dificuldade de faturamento, eu estou com dificuldade de previsibilidade, eu preciso ter mais faturamento de uma maneira mais previsível", cara, vai pro FinOps.
+
+Porque o que acontece?
+
+Uma vez que você gera esse saving pro cliente, você já vai receber com isso, isso aqui vai te abrir porta, agora você está dentro do cliente, o cliente te conhece, ele sabe da sua capacidade.
+
+Esse valor que ele te pagou agora pode gerar um contrato mensal, por exemplo, com outros serviços que você oferece.
+
+Ou você pode oferecer outras coisas, porque agora você está dentro do cliente, agora você tem a confiança, você virou uma autoridade pra esse cliente.
+
+Então tudo que você oferecer dali pra frente, fica mais fácil fechar.
+
+Mas tem muita gente que se só concentrar no FinOps, já vai conseguir os 50 C por mês, porque toda empresa hoje ou está na nuvem ou está indo pra nuvem.
+
+Então tem muito mercado hoje.
+
+É um mercado que não está sendo explorado.
+
+Só que acontece, vocês que ficam procrastinando muito, deixando sempre pra depois, cara, daqui alguns meses já vai ter muitos consultores fazendo isso aqui, vai ser mais difícil.
+
+Só que hoje não tem.
+
+Por isso que ainda existe esse estudo que fala que as empresas ainda gastam muito, porque não tem quem ajude essas empresas.
+
+Então, gente, isso aqui é ouro.
+
+Isso aqui é o que pode te trazer a estabilidade financeira que você quer pra sua empresa, desde que bem executada.
+
+Imagina só, cara, eu não estou falando de coisa difícil.
+
+Imagine que você consegue cinco clientes por mês.
+
+Cara, eu estou falando de em 30 dias.
+
+Com uma oferta que é extremamente fácil vender, porque você está mostrando pro cliente que o que ele está te pagando, ele ainda está economizando muito mais.
+
+Se você não conseguir cinco clientes em 30 dias, eu olharia de verdade. "Pô, será que eu tenho que ser consultor mesmo?
+
+Porque senão eu não estou conseguindo".
+
+Cinco clientes por mês, oferecendo algo que não tem como não ver valor.
+
+Tem coisa errada.
+
+Cinco clientes por mês, eu estou falando aqui só com esse serviço, eu estou falando de um faturamento aqui de 35 mil reais.
+
+Só com isso.
+
+Só que lembra, isso aqui pode ser a ponte pra você vender outros serviços.
+
+No final, poxa, eu cobrei 7 mil.
+
+Maravilha.
+
+No final, o que eu posso fazer?
+
+Vender uma recorrência. "Deixa eu cuidar do FinOps da sua empresa pra você não ficar tendo surpresas igual você teve".
+
+Aí o que você pode fazer?
+
+Você pode cobrar, por exemplo, sei lá, 3 mil reais por mês.
+
+Três mil reais por mês, então eu estou falando aqui se eu tenho cinco clientes, eu estou falando de mais um faturamento de 15 mil.
+
+Só que agora um faturamento que é todo mês, e toda vez que eu tenho novos clientes pagando essa recorrência, essa conta vai dobrando.
+
+E eu vou chegando cada vez mais próximo do faturamento de 50 C.
+
+E isso, turma, quando bem feito, é fácil chegar nesses valores, porque esse tipo de oferta é uma oferta que a gente chama de irresistível.
+
+O cliente olha e fala: "Cara, eu estou gastando 20.
+
+O cara está me cobrando sete, eu ainda estou no lucro de 13." Esse tipo de oferta é o que a gente chama de irresistível, porque quando ele olha e fala: "Cara, só se eu for besta de não ter esse lucro." Então isso que a gente chama oferta irresistível, o cliente olha e fala: "Cara, como que eu vou resistir a isso aqui?
+
+Eu estou pagando o consultor e ainda estou recebendo um retorno?" Agora, o que acontece?
+
+Primeiro, boa parte de vocês não tem ideia.
+
+Beleza, fechou o contrato de FinOps, agora como que eu vou gerar esse saving?
+
+Porque não adianta nada você ir para a empresa e não gerar saving nenhum.
+
+Como que eu faço para gerar esse saving?
+
+Aqui, especificamente, a parte de Azure, eu preciso conhecer como que funciona essa parte de FinOps dentro do Azure, quais são os serviços que eu tenho que atacar, que vão me trazer essa economia, esse saving, para eu mostrar para o meu cliente, de maneira fácil de entender e rápida, o saving que eu consigo gerar para o ambiente dele, o quanto que ele está gastando sem necessidade nenhuma.
+
+E aqui, muitas vezes, são coisas simples, vocês vão entender. "Eu vou precisar de anos estudando Azure para conseguir entregar esse serviço." Cara, em menos de uma semana você consegue aprender tudo que você precisa para gerar essas economias.
+
+Tudo.
+
+Porque muitas vezes esses serviços, vão ser baseados em quê?
+
+Muitas vezes, cara, são recursos órfãos que a gente tem no ambiente.
+
+São recursos que não estão sendo utilizados.
+
+Onde que eu consigo ver isso?
+
+Lá no Azure Advisor.
+
+Ele vai me mostrar: "Você tem recursos órfãos." Muitas vezes, é o superdimensionamento de recursos.
+
+A empresa subiu o recurso com uma capacidade que está sendo muito maior do que eu preciso.
+
+Então aqui o que eu tenho que fazer?
+
+Resize.
+
+Onde que vai me mostrar isso?
+
+Azure Advisor.
+
+Existe um recurso que as empresas negligenciam demais, só que se elas entenderem como usar esse recurso da maneira certa, tiver um consultor que mostre a importância, e isso vai fazer parte do seu serviço de FinOps, isso vai gerar uma baita economia para a empresa, que são as reservas.
+
+Com as reservas, eu consigo um desconto de até 70%, se eu reservar o recurso por três anos.
+
+Então tem hoje, gente, empresa que sobem recursos, aqui recurso pode ser máquina virtual, pode ser banco de dados, pode ser aplicação web, pode ser a parte de inteligência artificial, pode ser a parte de container.
+
+São vários serviços.
+
+E muitas empresas, quando sobem esses serviços em cloud, isso também no ambiente on premises, são serviços que vão rodar por anos.
+
+Se eu estou subindo um serviço novo na empresa, isso aqui vai fazer parte da sua recorrência que você pode tentar vender depois, que é o quê?
+
+Toda vez que eu vou subir um recurso novo na nuvem, eu vou olhar esse projeto, esse serviço, por quanto tempo a empresa vai precisar utilizar esse serviço?
+
+Reserva eu tenho a partir de um ano.
+
+É que quanto maior a reserva, maior o desconto eu tenho.
+
+Agora pensa comigo, poxa, se eu tenho um recurso que vai me custar 10 mil reais.
+
+Beleza?
+
+Então o recurso que vai me custar 10 mil reais por mês.
+
+Aí eu chego e vejo com a empresa.
+
+Poxa, esses serviços aqui que a gente está subindo para essa aplicação, para esse projeto.
+
+Esses serviços vão precisar ficar no ar por muito tempo?
+
+A empresa: "Vai, Cara de Saia, vai ficar anos e anos, porque é o nosso serviço core, vai precisar ficar por muito tempo." O que eu posso fazer como profissional que cuida do FinOps da empresa?
+
+Eu posso chegar e falar: "Cara, beleza, esse serviço vai custar 10 mil.
+
+Por que a gente não configura ele numa reserva de 10 anos?
+
+Ao invés de pagar 10 mil reais, eu vou pagar 3 mil reais, me comprometendo com a Microsoft que eu vou utilizar aquele serviço pelo período de, no mínimo, três anos." Olha o FinOps acontecendo aqui.
+
+Muito desse saving aqui que a gente gera para a empresa na entrega do FinOps, muitos deles vão vir dessas reservas, porque é algo absurdo que a gente consegue economizar.
+
+Por isso que eu estou falando, gente, é um serviço Fácil de entregar.
+
+Não é um serviço que você vai olhar e falar: "Cara, a empresa gera 100 mil, gasta 100 mil por mês.
+
+Como que eu vou gerar saving pra essa empresa com FinOps?
+
+Puxa, eu estou ferrado".
+
+Cara, é fácil.
+
+E outra, o Azure Advisor me mostra isso aqui.
+
+Parte de armazenamento.
+
+Armazenamento dentro do Azure, a gente trabalha com os tiers.
+
+Geralmente, é o hot, o cool, cold e o archive.
+
+Se eu sei trabalhar com esses tiers, eu sei que tudo que a empresa precisa acessar de forma constante, eu vou colocar no hot.
+
+O que não precisa acessar de uma maneira tão constante, eu vou colocar no cool e no cold.
+
+O que a empresa precisa acessar raramente, eu vou colocar no archive.
+
+Quando eu começo a pegar minha parte de armazenamento e começo a colocar nos tiers certos, isso aqui também vai me gerar uma baita economia.
+
+Vai me trazer uma baita economia.
+
+E quando eu começo a compor tudo isso aqui, quando eu começo a olhar pra todos esses detalhes, a gente começa a ver que pra gerar esse saving não é difícil.
+
+Pelo contrário, é fácil.
+
+Por isso que eu falei: "Gente, não querendo ser repetitivo, se hoje vocês estão com problema de faturamento na consultoria de vocês. 'Puxa, não estou conseguindo faturar, não estou conseguindo clientes, não estou conseguindo previsibilidade, estou muito longe dos 50 K, mas quero atingir 50 K.
+
+Não conheço muito de cloud'.
+
+Começa pelo FinOps.
+
+É o mais fácil de aprender.
+
+E por incrível que pareça, é o mais fácil de vender, porque eu não preciso ser vendedor aqui, eu não preciso ser um guru das vendas, um guru do marketing pra vender isso aqui, porque o próprio serviço se vende sozinho.
+
+Quando eu consigo mostrar esse saving pra empresa, ele se vende sozinho.
+
+Gente, se eu chego prum gestor e falo: "Cara, você vai ter um saving de 13 mil", eu não preciso convencer ele do valor do serviço.
+
+Só que lembra, eu tenho cinco clientes que eu estou conseguindo por mês aqui com esse serviço.
+
+Eu já estou conseguindo ter um resultado.
+
+Desses cinco clientes, eu vou oferecer aqui a recorrência, vou ter um outro resultado mensal.
+
+Só que acontece, eu mostrei aqui pra vocês na segunda, outros serviços.
+
+Opa!
+
+E o que vocês podem fazer?
+
+Vocês podem compor esses serviços aqui dentro de um projeto de recorrência.
+
+Então o que você pode fazer?
+
+Beleza, vamos lá.
+
+A empresa te chamou, você entrou na empresa pelo tema FinOps.
+
+Gerou o saving que você conseguiu, show de bola.
+
+Aí você vai pra recorrência.
+
+Aí você não trabalha só com o FinOps, você trabalha com outras coisas.
+
+Então o que você pode fazer?
+
+Nessa recorrência, o P2, você pode ao invés de cobrar 3 mil só para cuidar do FinOps, você pode chegar pro cliente e falar: "Cara, você já usa a nuvem.
+
+Por que a gente não faz um contrato pra eu fazer toda a gestão do seu ambiente?
+
+Beleza, não quer de todo o ambiente?
+
+Cara, deixa eu fazer a gestão da sua identidade híbrida.
+
+Deixa eu cuidar do seu backup e DR".
+
+E eu posso sair duma recorrência de 3 mil, que seria, por exemplo, só pra cuidar de FinOps, eu posso ir pra uma recorrência de 10 mil, por exemplo, cuidando do ambiente como um todo.
+
+E muitas vezes, turma, dependendo da empresa, o que você está cobrando de recorrência, também não vai ser difícil conseguir fazer com que o cliente enxergue valor naquilo, porque muitas vezes o que você está cobrando duma recorrência mensal pra cuidar de tudo, você já consegue gerar um saving só na parte do FinOps, por exemplo.
+
+Agora imagina que você consegue cinco clientes por mês.
+
+Você tem a recorrência de quem entra só pra FinOps.
+
+E agora você começa a ter uma recorrência também de quem quer o serviço mais completo.
+
+Cara, vocês estão entendendo que isso aqui começa a virar um faturamento extremamente previsível?
+
+Isso aqui começa a gerar um faturamento que muitos de vocês estão com extrema dificuldade de conseguir, mas porque vocês estão vendendo errado, estão vendendo o serviço errado.
+
+Isso faz com que vocês não consigam despertar desejo e interesse nas empresas.
+
+Isso vira um ciclo vicioso, que nunca vai sair do lugar, vai ficar sempre nessa.
+
+Agora, quando você tem um serviço que é fácil de vender, é fácil de mostrar pras empresas O valor daquilo, a primeira parte do caminho já está trilhada, porque agora você está dentro do cliente.
+
+E outra, vamos lá, pessoal, sejam sinceros, se vocês fossem gestores de TI, chegasse alguém pra vocês e falasse: "Eu vou gerar um save de 20 e vou cobrar sete".
+
+Aí você vai continuar com um save de três.
+
+Só que o que acontece?
+
+Aí você falando pro gestor: "Se você não cuidar do seu FinOps, daqui seis meses você vai estar jogando de novo 20 mil reais fora.
+
+Só que é um dinheiro que já foi, você já gastou, não volta mais".
+
+Vamos fechar um contrato de 3 mil pra que isso não aconteça?
+
+É muito difícil o cliente falar não, porque qual vai ser a mente dele?
+
+Fala: "Beleza, se eu não tiver alguém que fique olhando pra isso pra mim diariamente, daqui seis meses eu vou estar jogando esse dinheiro fora de novo, eu não quero jogar dinheiro fora".
+
+Então é muito fácil, além de vender o serviço, fazer uma primeira entrega, é muito fácil eu fazer um contrato de recorrência pra fazer com que aquele uso indevido dos serviços em cloud não aconteça novamente.
+
+É muito fácil.
+
+Gente, dá pra construir uma empresa de consultoria de TI.
+
+É que eu não faria isso, seria deixar muito dinheiro na mesa.
+
+Eu não faria isso, mas é fácil hoje montar uma empresa de consultoria de TI, focada só em FinOps e faturar 50 mil por mês.
+
+Não é difícil, é fácil.
+
+Só que pra mim, vender só isso, deixar dinheiro na mesa, eu posso vender muito mais pra esse mesmo cliente.
+
+Agora: "Poxa, não conheço nada de cloud, eu estou começando agora nesse mundo.
+
+Eu vou precisar estudar anos, tirar certificações pra vender esse serviço?" É claro que não, o que você precisa entender é essa parte de recursos órfãos, entender que dentro da nuvem, todos os serviços são meio que caixinhas separadas.
+
+Então você pega, por exemplo, uma máquina virtual.
+
+Eu tenho um objeto máquina, só que esse objeto precisa de disco.
+
+Aí eu tenho o objeto disco que eu ligo na máquina virtual.
+
+A máquina virtual precisa de endereço IP, aí eu tenho o endereço IP.
+
+Então são caixinhas que eu vou conectando.
+
+Só que às vezes quando eu não preciso mais de um recurso, se eu removo só um recurso específico, o resto da caixinha fica criado no ambiente e consumindo dinheiro, que são os recursos órfãos.
+
+Então preciso entender isso e preciso entender como dimensionar corretamente os recursos dentro da nuvem.
+
+Preciso entender o que são reservas, preciso entender a parte de armazenamento.
+
+São coisas extremamente simples de se entender.
+
+E uma vez que vocês entendem isso aqui, já estão prontos pra vender esse tipo de serviço, já estão prontos pra chegar nas empresas com esse tipo de serviço.
+
+Estão entendendo, pessoal?
+
+Quem está entendendo, quem está curtindo, digita o número um aí.
+
+Isso aqui é ouro, gente.
+
+Isso aqui é ouro, isso aqui é o que vai fazer muitos de vocês chegarem no bendito faturamento previsível.
+
+Isso aqui, muitas vezes, que vão fazer com que vocês não precisem mais ficar dependendo de indicação.
+
+Beleza, você me ensinou aqui tecnicamente o que eu tenho que fazer.
+
+Vou buscar esses clientes.
+
+Eu já sei como entregar, já sei que é fácil entregar tecnicamente esse tipo de serviço pros clientes.
+
+Muito bem, tudo muito lindo.
+
+Agora, como que eu consigo esses clientes?
+
+Não adianta nada você saber tecnicamente e não saber chegar nesse cliente, porque por mais que seja uma oferta muito fácil de vender, muito irresistível, se você não mostrar isso pro cliente, não acha que o cliente vai chegar do nada.
+
+Coisas que muitos de vocês têm em mente ainda, depois de, alguns de vocês anos como consultores, acham que magicamente o cliente vai chegar até você e falar: "Eu preciso do seu serviço de FinOps".
+
+Isso não vai acontecer pra nenhum dos seus serviços.
+
+Então você precisa agora mostrar isso pros clientes de vocês.
+
+Hoje, gente.
+
+A gente ajuda nos nossos programas mais avançados, a gente ajuda centenas de consultores.
+
+E hoje, uma das estratégias mais poderosas que a gente está usando e está tendo um baita resultado, é o que a gente chama do inbound.
+
+O que seria esse inbound?
+
+É eu gerar um valor pro cliente primeiro, então eu vou atrair o cliente pra alguma coisa e depois eu vendo.
+
+E hoje o inbound com o LinkedIn está fantástico, desde que feito da maneira correta.
+
+Não adianta querer usar o LinkedIn sem estratégia, ficar chamando as pessoas, tu vai responder, vai tomar negativa atrás de negativa Agora, quando você sabe utilizar o LinkedIn da maneira correta, no Instagram também dá pra fazer, é que o LinkedIn acaba sendo mais rápido, é onde a gente tem os retornos mais rápidos.
+
+O que você precisa?
+
+Você precisa de um perfil.
+
+Você precisa de uma conta no LinkedIn.
+
+Esse perfil tem que ser bem construído, ele tem que ser construído centrado no cliente.
+
+Bom, beleza, eu tenho o perfil, qual é o próximo passo?
+
+Eu preciso de um material de atração.
+
+E de novo, o que vai definir o seu sucesso com essa estratégia, é esse material de atração.
+
+Então se a gente está falando de FinOps, eu vou criar um material de atração falando do FinOps.
+
+Depois do material de atração, o que eu faço?
+
+Eu vou escolher os meus clientes.
+
+Aqui a melhor estratégia de todas é utilizar o Sales Navigator.
+
+Solução do próprio LinkedIn, só que é uma solução paga, mas dá para fazer, dá para ter um baita resultado sem o Sales Navigator.
+
+É que o Sales Navigator facilita demais, mas vários consultores que a gente ajuda, a gente usa o LinkedIn gratuito mesmo.
+
+Escolher os clientes.
+
+Depois que eu escolho os clientes, o que eu tenho que fazer?
+
+Eu preciso engajar com eles.
+
+E o que é engajar com eles?
+
+Eu vou comentar os posts deles, eu vou entrar, caso eles tenham, a newsletter, eu vou entrar em grupos que ele faz parte.
+
+Então eu preciso começar a engajar, eu preciso começar a ser visto por esses clientes.
+
+E aqui não é algo superficial, aqui eu preciso gerar valor.
+
+Então quando eu for fazer um comentário, não é: "legal o seu post".
+
+Não, tem que ser algo um pouco mais detalhado pro cliente entender que você entende o problema dele.
+
+Você entende o problema dele.
+
+Então você começa a engajar com ele.
+
+Começou a engajar, qual é o próximo passo?
+
+Você vai pedir, pedir não, que pra seguir você não precisa pedir, você vai começar a seguir ele.
+
+Pra quê?
+
+Quando você segue uma pessoa no LinkedIn, você começa a ver de uma maneira mais fácil, o que essa pessoa está postando.
+
+Então fica mais fácil você engajar com essa pessoa.
+
+Depois que você começou a engajar com essa pessoa, você começou a comentar, fazer comentários ali que gerem valor, o que você vai fazer?
+
+Aí sim, você vai pedir a conexão.
+
+Depois da conexão, o que você vai fazer?
+
+Você vai pedir a autorização para enviar seu material de atração.
+
+Pedir a conexão.
+
+Aí eu vou mandar mensagem pra ele, falar: "olha, gosto muito dos seus posts, acho legal a visão que você tem, acho legal isso, acho legal aquilo.
+
+A propósito, eu tenho um e-book onde eu falo de FinOps, como que as empresas podem gerar de 40% a 60% de economia.
+
+Posso te mandar o material?" Se ele falar: "sim, pode", você manda o material pra ele.
+
+Só que esse material, gente, não é qualquer material, tem que ser um material que quando o cara ler, ele vai falar: "Uau, que material da hora, que material legal!" Depois que ele recebe o material, você vai começar a fazer o que com ele?
+
+Você vai começar a fazer follow-ups. "Oxe, e o que você achou do material?
+
+Você gostou do material?
+
+Qual foi a parte que você mais gostou do material?" Você vai começar a interagir com ele, a pedir follow-up sobre o material que você mandou.
+
+Por isso que precisa ser um material.
+
+Por quê?
+
+É esse follow-up que vai te abrir brechas pra você falar do seu serviço. "Poxa, eu gostei muito quando você falou da reserva.
+
+Poxa, eu não sabia que a gente tem essa opção de reserva.
+
+Nossa, que legal que você gostou dessa parte.
+
+A propósito, vamos agendar um bate-papo rápido só pra eu explicar melhor como você pode economizar com as reservas?" Pronto, gente.
+
+Do follow-up, eu vou pra uma reunião, aí a reunião é a hora da venda.
+
+A reunião é a hora da venda. "Cara, você gostou?
+
+Você sabia que existe um estudo que fala que a maioria das empresas gastam de 40% a 60% sem necessidade?
+
+E a sua empresa pode estar nesse cenário.
+
+Cara, vamos fazer um assessment pra gente validar o que a gente consegue gerar de save pra sua empresa?" Ponto.
+
+Cara, só isso aqui você precisa.
+
+Isso aqui rodando.
+
+E outra, gente, eu não estou falando de meses, estou falando de dias Você pode todos os dias encontrar esses clientes fazendo pesquisa no LinkedIn.
+
+Todos os dias você pode.
+
+Então se você pegar o plano de ação.
+
+Se você pegar todos os dias, e você não precisa de horas e horas pra isso, se você pegar todos os dias 15 minutos pra pesquisar clientes, com base nesses clientes, engajar com eles.
+
+Lembra, o engajar é comentar nos posts, participar de grupo.
+
+Então 15 minutos todos os dias, você pesquisa o cliente.
+
+Com base no cliente, você vê o que ele está postando.
+
+Com base nisso, você começa a engajar com ele.
+
+Beleza?
+
+Então você fez isso no dia um.
+
+Vamos imaginar que no dia um você conseguiu em 15 minutos, localizar cinco clientes.
+
+Então estou falando aqui por semana, segunda a sexta, você conseguiu 25 clientes na semana.
+
+Você começou a engajar com esse pessoal.
+
+Aí o que acontece?
+
+Quando você começa a engajar, a minha recomendação antes de pedir pra seguir, o que a gente faz aqui com os nossos consultores que a gente utiliza e que a gente tem os melhores resultados, eu gosto de engajar em pelo menos dois posts.
+
+Depois de engajar em dois posts, aí eu começo a seguir aquela pessoa.
+
+Porque quando eu coloco pra seguir, a pessoa lá do outro lado vai receber um aviso. "Fulano de Tal começou a te seguir".
+
+Por isso que essa parte, gente, o perfil centrado no cliente tem que estar um perfil bem feito, senão você acaba matando um pouco da estratégia.
+
+Pesquisar cliente.
+
+Todos os dias, 15 minutos.
+
+A minha meta é todos os dias, 15 minutos, conseguir localizar cinco clientes.
+
+Localizei esses cinco clientes, vou engajar em dois posts dele.
+
+Lembra, o engajamento que gere valor, não "legal".
+
+Não.
+
+Engajamento que gere valor.
+
+Aí eu peço pra seguir essa pessoa.
+
+E continuo o meu processo de engajamento.
+
+Depois, eu vou pedir uma conexão.
+
+Depois, enviar o meu material.
+
+Enviei o material, começa o processo lá do follow up.
+
+Do follow up, eu vou pra uma reunião.
+
+Agora imagina que todos os dias você tem cinco clientes que você pesquisa, você engaja, você segue, você pede conexão, você envia o seu bom material.
+
+Vamos pegar aqui esse cálculo que é extremamente fácil de atingir.
+
+Vinte e cinco clientes por semana, eu estou falando de 100 clientes por mês.
+
+E pegando uma média de mercado, a gente tem uma conversão de 2% a 4%.
+
+Então vamos pegar o menor, 2%.
+
+De 100 clientes por mês com essa estratégia, eu posso fechar dois projetos de FinOps.
+
+Dois projetos de FinOps.
+
+E eu posso intensificar isso aqui, eu posso, poxa, ao invés de usar 15 minutos, vou usar uma hora.
+
+Ao invés de cinco clientes por dia, eu vou conseguir 10.
+
+Ao invés de 25 clientes na semana, agora são 50.
+
+Vocês estão entendendo?
+
+O negócio começa a girar.
+
+Isso aqui é um funil que a gente fala.
+
+E esse funil hoje, é um dos funis que a gente está implementando pra consultores no nosso Done for you, que é o serviço que a gente monta tudo isso pro cliente, é um dos funis que está trazendo o maior resultado.
+
+E qualquer um consegue fazer isso aqui.
+
+É que tem muita gente, infelizmente, é uma verdade, infelizmente, tem muita gente que vai olhar pra isso aqui e falar: "Não, mas é muito difícil.
+
+Eu vou ter que ficar procurando cinco clientes?
+
+Eu vou ter que ficar engajando com esses clientes?
+
+Vou ter que ficar pedindo conexão?
+
+Vou ter que ficar fazendo follow up?" Desculpa, amigo, se você quer ganhar dinheiro sem fazer nada, não.
+
+Aí você tem que jogar na Mega Sena.
+
+Tu vai ter que fazer alguma coisa.
+
+Agora, tem gente que vai achar isso aqui difícil.
+
+Poxa, eu estou falando aqui que às vezes essa estratégia extremamente simples e fácil, eu estou falando de 15 minutos por dia, pode trazer um faturamento pra empresa ali, às vezes de 10 mil, de forma previsível, com 15 minutos por dia Que você intensifique isso aqui, pode virar 30.
+
+Só que lembre, essa aqui não é a única estratégia, não é a única coisa que você vai vender.
+
+Porque dependendo do seu portfólio de serviço que você vai oferecer pra empresa, principalmente se vocês dominarem esses cinco serviços aqui, dominarem a entrega desses cinco serviços, que é o que a gente tem mais demanda hoje no mercado, muitos de vocês vão conseguir transformar esses 10, em 50 Cs recorrentes por mês.
+
+Com uma estratégia simples de fazer.
+
+Vai ter que pôr a mão na massa?
+
+É claro que vai.
+
+De novo, se você não quer pôr a mão na massa, você quer ser um consultor de tecnologia, faturar 50 C por mês de forma previsível.
+
+Eu estou falando previsível, não estou falando de mês fatura e outro mês sabe, sei lá Deus o que vai acontecer, estou falando de forma previsível.
+
+Sem fazer nada, esquece, você não vai conseguir.
+
+Não vai.
+
+Gente, o mercado está ficando cada vez mais concorrido, vocês já devem ter percebido isso.
+
+Não adianta ficar fazendo a mesma coisa e ficar esperando o cliente cair do céu, que vocês nunca vão conseguir ter uma empresa lucratívia, com faturamento previsível.
+
+Agora eu estou mostrando pra vocês, primeiro, um serviço fácil de entregar, extremamente simples de convencer o cliente que ele precisa daquilo, porque eu estou falando da parte financeira.
+
+Fácil converter aquilo pra um serviço recorrente, pra que vocês recebam todo mês por aquele serviço.
+
+E outra estratégia fácil de ser executada, o inbound no LinkedIn, pra conseguir esses clientes.
+
+Agora qual é o grande problema?
+
+Primeiro, não adianta nada você ter essa estratégia e não ter um bom perfil.
+
+Se você não tem um bom perfil, vai matar, porque quando você pedir pra seguir o cliente, entrar no seu perfil e ver que o seu perfil não é bom, já era, você já perdeu a credibilidade com o cliente.
+
+Não adianta nada você ter um bom perfil, você segue, os clientes entram no seu perfil, acham legal, você pede a conexão, o pessoal aceita porque vê que você tem um bom perfil, que você pode gerar valor pra eles.
+
+Você pede autorização pra enviar o material gratuito, eles querem o material gratuito, chega lá o material está horrível.
+
+Também não adianta nada.
+
+Então essa engrenagem precisa estar muito bem construída, pra que tudo isso aqui funcione, pra que tudo isso te traga previsibilidade, pra que tudo isso comece a te trazer um resultado recorrente pra sua empresa.
+
+Recorrente pra sua empresa.
+
+Agora deixa eu fazer uma pergunta pra vocês.
+
+Eu mostrei aqui pra vocês nessa aula, fiz uma revisão rápida dos cinco serviços e a gente se aprofundou na parte do FinOps.
+
+Agora, me responde com sinceridade mesmo.
+
+Se hoje, com tudo o que vocês viram aqui, vocês conseguiriam entregar esse projeto de FinOps pra um cliente sozinho e utilizar essas estratégias de venda sozinho, sabendo que vocês têm um bom material, sabendo que vocês têm um bom perfil.
+
+Quem conseguiria montar tudo isso aqui sozinho?
+
+Com bom material e com bom perfil no LinkedIn, coloca um eu aí.
+
+Eu já vou me antecipar.
+
+Provavelmente a maioria de vocês não conseguiriam para ter os resultados que a estratégia oferece.
+
+E de verdade, turma, isso aqui não é nenhuma crítica.
+
+Isso é extremamente normal, porque ninguém faz isso hoje.
+
+Ter o mapa que eu acabei de mostrar pra vocês é uma coisa.
+
+Agora saber executar e ir atrás desses clientes, é completamente diferente.
+
+Exatamente esse o ponto mais perigoso. "Poxa, eu sei agora as oportunidades, eu sei que tudo isso existe".
+
+Sabe quanto que ela paga, mas não sabe e não consegue agir da maneira correta.
+
+E você vê consultores aplicando essas estratégias, ganhando dinheiro, tendo um faturamento mais previsível e você não.
+
+Então a partir de hoje, você tem dois caminhos: um, você anota tudo que a gente viu nessa aula, vai sair daqui superanimado, porque vocês entenderam a estratégia que funciona, só que daqui duas semanas, você não vai executar nada Vai passar mais alguns meses e você vai continuar olhando para trás falando: "Cara, o que eu planejei para esse mês, o que eu planejei para esse ano, continua não acontecendo".
+
+Segundo caminho, você pode encurtar tudo isso, aprender a executar agora, enquanto existem essas oportunidades, enquanto essa janela ainda está aberta.
+
+Imagina só, daqui 60 dias, você abrir a sua conta bancária e você ter ali seus primeiros 20, os seus primeiros 30 mil reais fechado de projetos e esses contratos recorrentes caindo mês a mês.
+
+E sabendo que tudo isso não foi sorte, foi porque você soube fazer o assessment, montou a proposta com segurança, soube fazer uma boa entrega.
+
+E aquele cliente, que muitos de vocês só conseguiriam imaginar entregando suporte, agora te paga um contrato recorrente para algo estratégico para a empresa dele, algo que vai trazer benefícios financeiro, todos os meses.
+
+Então isso, turma, só isso aqui, já muda a realidade de muitos consultores de tecnologia.
+
+Isso aqui pode mudar o seu ano.
+
+Muito do que você planejou nesses primeiros seis meses, que não aconteceu, pode acontecer nos próximos seis meses, só utilizando essa estratégia da maneira correta.
+
+E foi exatamente pensando nesse contexto todo, que a gente criou a imersão Azure para consultores de TI.
+
+Essa imersão é bem diferente de tudo que você já viu.
+
+Porque primeiro, ela não ensina Azure, ela vai te ensinar cinco serviços que você viu.
+
+Como aprender a entregar esse serviço para o cliente.
+
+Migração, implementação de recursos, backup, disaster recovery, a parte de FinOps.
+
+A gente vai falar também de parte de segurança.
+
+Então não é um curso de Azure.
+
+Não, você vai aprender como entregar esse serviço para empresas e como faturar em cima desse serviço.
+
+Essa imersão vai ser uma imersão de quatro semanas, com dois encontros ao vivo por semana, onde a gente vai ver essa parte de execução real.
+
+Migração que paga 30 mil, implementação de identidade híbrida com AD e Entra ID, projetos que podem pagar cinco, 10, 20 mil reais.
+
+Implementação de máquinas virtuais, banco de dado, aplicação web, serviço também de cinco a 30 mil reais.
+
+E também como transformar tudo isso em serviços de recorrência.
+
+Então você vai ganhar duas vezes, você vai ganhar para entregar um projeto mais específico e daquele projeto você já vai ter autoridade, principalmente se for em cima do FinOps, você já vai ter autoridade para oferecer um contrato de recorrência maior para cuidar da infraestrutura do cliente, por exemplo.
+
+Então é uma receita que cai todo mês, o projeto pontual.
+
+Fez, recebeu.
+
+Só que eu vou amarrar isso num contrato mensal para que todo mês caia aquele valor na minha conta.
+
+Dentro dessas quatro semanas, e é o objetivo dessa imersão, não é só falar do técnico, porque eu não quero que você aprenda FinOps, eu quero que você ganhe dinheiro com FinOps.
+
+Eu não quero que você aprenda a fazer migração de on-premises para nuvem, eu quero que você ganhe dinheiro com essa migração.
+
+Eu não quero que você aprenda como funciona o Entra ID, o Entra Connect.
+
+Não, eu quero que você fature com esse serviço.
+
+Então além da gente ver toda essa parte técnica, a gente vai ver a parte estratégica, de como vender cada um desses serviços.
+
+Eu dei um exemplo hoje do LinkedIn.
+
+Só que mesmo esse exemplo que eu dei do LinkedIn, apesar de funcionar muito bem, ele precisa ser bem feito.
+
+Só que existem outras estratégias que a gente vai ver também dentro dessa imersão.
+
+E o melhor de tudo, dentro dessa imersão, vocês não vão precisar fazer tudo sozinhos.
+
+Junto com a imersão, a gente está entregando seis bônus.
+
+Então se eu pegar aqui, só expandir aqui.
+
+A gente vai entregar ainda seis bônus para vocês.
+
+Imersão, quatro semanas, seis bônus.
+
+Vocês vão receber plano de ataque do zero ao primeiro projeto em 30 dias.
+
+Aqui são estratégias de velocidade.
+
+Como que eu consigo fechar o meu primeiro projeto em 30 dias para já recuperar o valor que eu estou investindo nessa imersão e já ter o meu lucro.
+
+Segundo bônus, máquina de cliente, como atrair empresas sem ser vendedor.
+
+Gente, a maioria das estratégias você não precisa ser bom de fábula, você precisa ter a estratégia certa.
+
+E aqui a gente vai entregar tudo para vocês, script de negociação, tudo.
+
+Vocês não vão precisar fazer curso de vendedor para faturar.
+
+Três, kit de fechamento, da proposta ao contrato assinado.
+
+Então você vai receber modelos de propostas, você vai receber scripts de negociações, tudo que você precisa para gerar proposta, até ter essa proposta fechada.
+
+A trilha express do Azure.
+
+Comece mesmo partindo do zero.
+
+Então isso aqui, quando o aluno entra na imersão, a gente já entrega isso aqui de cara.
+
+Por quê?
+
+Isso aqui é para aqueles que já querem aprender um pouco mais de Azure, eles já querem ter uma base maior, para quando a gente falar daqueles serviços específicos, não seja algo Que o aluno nunca viu na vida.
+
+Então a gente vai entregar um curso completo, mostrando como que o Azure funciona e os seus principais serviços.
+
+E o bônus cinco: a sala de suporte.
+
+Depois da imersão, depois das quatro semanas, a gente ainda vai ter 30 dias dentro dessa sala de suporte, onde vocês vão poder pedir orientação tanto da parte técnica: "Poxa, não estou conseguindo gerar save, fiz isso, isso e isso, o que você recomenda?" Tanto a parte técnica: "Estou fazendo uma migração, está dando esse erro, o que eu faço?" Quanto a parte estratégica: "Poxa, eu estou fazendo essa estratégia no LinkedIn, não está gerando resultado, o que eu faço?" Então vão ser 30 dias de suporte, onde a gente vai orientar não só a parte técnica, mas também a parte estratégica.
+
+E também, todos esses materiais que vão ser entregues pra vocês, alguns serão cursos gravados, outros serão documentos, e a gente tem a própria imersão que vão ser encontros ao vivo, todos eles vão ser gravados e vocês vão receber com acesso vitalício.
+
+Se eu fosse vender cada um desses pacotezinhos separados, só o bônus, seria mais de R$ 4000.
+
+E essa imersão sozinha, essas quatro semanas, vale R$ 3000 ou mais.
+
+Então se a gente somar tudo isso, a gente está falando aí de mais de R$ 7000.
+
+Mas pra quem tomar a decisão hoje, não vai pagar R$ 7000, não vai pagar R$ 3000.
+
+Porque, de novo, meu objetivo aqui não é vender um curso, é vender um conhecimento pra vocês faturarem com esse conhecimento.
+
+Então é pra você faturar o mais rápido possível, por isso que eu recomendo começar pelo FinOps, mas não parar ali.
+
+Então não é um curso, eu quero virar um parceiro seu pra te ajudar a ter esse faturamento previsível.
+
+Então pra quem garantir a vaga agora, a imersão vai sair por R$ 997.
+
+E esse valor pode ser dividido em até 12 vezes.
+
+Agora deixa eu só fazer uma conta que importa.
+
+Porque a gente é técnico, a gente pensa muito por lógica.
+
+Então eu estou falando de R$ 997.
+
+E um único projeto ou dois projetos que você fecha, pode gerar um resultado de R$ 10 mil, R$ 20 mil, você já paga o investimento da imersão e ainda tem muito mais lucro.
+
+E todos os clientes que vão entrar depois, porque essa estratégia você vai aprender pra ficar executando sempre.
+
+Então tudo que entrar depois, é só lucro pra sua empresa, não é mais custo.
+
+Então é o investimento com melhor retorno que você pode fazer esse ano.
+
+E sendo bem sincero, não é uma promessa minha, é a matemática do mercado.
+
+Esses valores que eu trouxe aqui pra vocês são valores que hoje as empresas já pagam.
+
+E agora eu quero falar de duas coisas especiais aqui pra vocês.
+
+Primeiro, pra você não ter nenhum motivo pra hesitar, falar: "Poxa, não sei se eu faço ou se eu não faço".
+
+Eu vou trazer algo que o risco vai ser todo meu.
+
+Se você entrar na imersão, participar do primeiro dia ao vivo que a gente for ter, e você não conseguir enxergar com clareza o caminho pra faturar com esses serviços que você vai aprender, você me manda uma mensagem em até sete dias e a gente vai devolver todo o investimento que você fez, sem burocracia, sem problema nenhum.
+
+Eu só consigo oferecer isso porque eu sei o valor que essa imersão vai entregar pra esses consultores.
+
+Agora presta atenção nesse segundo ponto, porque essa parte que eu vou falar agora, é só pra quem garantir a vaga enquanto a gente está aqui ao vivo.
+
+Todo mundo que garantir a vaga vai receber esses seis bônus que eu falei, mas quem garantir agora, vai levar mais três bônus aqui que a gente está falando dos bônus relâmpago.
+
+Então esses bônus não vão estar disponíveis depois.
+
+Quais são esses bônus?
+
+Primeiro, o que a gente chama de sessão de mapa de carteira ao vivo.
+
+Então isso aqui é o que a gente chama do "done with you", vamos fazer com você.
+
+A gente vai ajudar você a achar os primeiros cinco clientes.
+
+A gente vai fazer essa pesquisa, a gente tem o Sales Navigator, a gente vai aproveitar essa ferramenta poderosa e a gente vai te entregar cinco clientes, o script de engajamento pra aqueles clientes, o material que a gente vai escrever pra você.
+
+Lembra?
+
+O material é parte fundamental.
+
+A gente vai criar pra você e vai te entregar.
+
+O perfil é parte fundamental.
+
+A gente vai reestruturar o seu perfil.
+
+Achar os clientes também é parte fundamental.
+
+Além de você aprender com esse bônus, a gente vai achar os primeiros cinco clientes e a gente vai te entregar o script que você tem que fazer pra engajamento, o script que você tem que mandar para solicitar a aprovação pra o envio do material gratuito, material de engajamento, e também o script de follow-up.
+
+Então a gente vai fazer com vocês.
+
+Esse é o primeiro bônus.
+
+O segundo bônus: vocês vão receber um pacote de propostas prontas para os cinco serviços.
+
+Então os cinco serviços que vocês vão fazer, vocês não vão precisar se preocupar com propostas.
+
+A gente vai entregar a proposta dos cinco serviços.
+
+Vocês vão precisar só mudar cliente e valor, porque é aquilo que a gente vai recomendar muito forte na imersão.
+
+Se a empresa é maior, você vai cobrar mais.
+
+Então vocês vão receber essas propostas prontas pros cinco serviços.
+
+E o terceiro bônus É o congelamento desse valor.
+
+Então esse valor, a gente tinha encerrado na segunda-feira, R$ 997.
+
+A gente vai manter esse valor aqui pra vocês.
+
+Então esses três bônus relâmpago, vão sair do ar quando essa aula acabar.
+
+Então quem sair: "ah, vou pensar, amanhã eu vejo", vai poder entrar na imersão sem problema nenhum, com os seis bônus, sem problema nenhum, mas vai perder esses bônus relâmpago que eu acabei de falar pra vocês.
+
+Isso aqui, gente, não é pra pressionar, não é pra nada.
+
+É porque a gente, por experiência, sabe que quem age na hora, são os melhores clientes pra gente, são os clientes que querem ser recompensados e querem ter o resultado mais rápido.
+
+Então geralmente quem fica no muro, sempre vai ser as pessoas que vão ter mais dificuldade pra ter resultado.
+
+Então a gente gosta de sempre prestigiar essas pessoas que tomam a decisão, que confiam no método e sabem que vão ter resultados.
+
+Pra quem quiser garantir a vaga agora, com essas condições e principalmente com esse bônus especial, eu vou colocar aqui no chat o link.
+
+Está aqui o link no chat.
+
+Maravilha?
+
+Então pra quem quer garantir o bônus, aonde a gente vai fazer com vocês.
+
+Além de vocês aprenderem a fazer tudo isso na imersão, pra quem garantir a vaga agora, a gente vai escrever o material pra você, a gente vai reestruturar o seu perfil no LinkedIn, a gente vai te entregar cinco clientes, e não é o mesmo pessoal, não é os mesmos cinco clientes pra todo mundo.
+
+Cada um dos alunos da imersão vai ter cinco clientes entregues por nós, clientes diferentes.
+
+A gente vai entregar os scripts pra você fazer a fase de engajamento, a gente vai entregar os scripts de follow-up, pra que você dali já tenha essa reunião agendada.
+
+Então pra quem garantir a vaga agora, vai levar esse bônus.
+
+Vai levar também o bônus, que é as propostas.
+
+Todos esses cinco serviços que vocês vão aprender, migração de on-premises pra nuvem, ambiente de identidade híbrida, backup Disaster Recovery, subir recursos, máquinas, bancos de dados, aplicações web, FinOps, vocês vão receber um template de proposta pra esses cinco serviços.
+
+E a gente ainda vai manter o valor que a gente liberou na segunda-feira, o valor de R$ 997.
+
+Então está aí o link no chat já com desconto aplicado.
+
+O valor normal dessa imersão é R$ 2.997.
+
+Então esse link já está com esses R$ 2.000 de desconto aplicado, R$ 997.
+
+E esse valor pode ser dividido em até 12 vezes.
+
+Esse valor pode ser dividido em 12 vezes no cartão de crédito, 12 vezes no boleto ou 12 vezes no Pix.
+
+Quem for escolher as versões de boleto e Pix, é uma parceria que a gente tem com uma plataforma chamada TMB, então todo o contrato que vocês vão fazer, são contratos que são feitos com eles, eles só repassam o valor pra gente.
+
+Então pra quem tem interesse, "pô eu gostaria, mas não consigo fazer no cartão de crédito" e quer fazer no boleto, eu vou colocar um outro link aqui no chat, que é o link da minha equipe no WhatsApp.
+
+Vocês vão entrar em contato com a minha equipe e vão falar que estavam aqui na aula e que têm interesse na imersão e querem fazer parcelado via boleto ou Pix.
+
+O pessoal vai gerar o link e vai mandar pra vocês.
+
+Independente se é boleto e Pix, a plataforma pra ativar o contrato, vai ter que ser pago essa primeira parcela de forma imediata.
+
+Então essa primeira parcela tem que ser paga hoje.
+
+Então o que a gente vai pedir?
+
+Pra que você garanta sua vaga com valor especial e com todos esses bônus, a equipe vai enviar pra vocês o link, a plataforma vai gerar o contrato pra vocês e vai gerar o boleto ou o código Pix pra fazer o pagamento da primeira parcela.
+
+E vocês vão precisar enviar pra gente o comprovante de pagamento pra garantir os bônus.
+
+Quem não enviar o comprovante de pagamento pros bônus, cai automaticamente, só que cai daqui dois, três dias.
+
+Se cair daqui dois, três dias, a gente vai entender que não foi feito o pagamento no dia, então não seria justo quem pagou no dia ter os bônus e quem pagou depois também ter os bônus.
+
+Então quem deixar pra pagar depois, quem não enviar o comprovante que o pagamento foi feito hoje, não vai receber os bônus.
+
+Vai ter acesso à imersão, os seis bônus, os bônus que eu falei que ia ser hoje, a gente não vai entregar.
+
+Maravilha? "As datas dos encontros já estão definidas?" Sim.
+
+Vai ser toda segunda e terça, durante quatro semanas, a partir do dia 27 de julho.
+
+Só que até o dia 27 de julho, aqui são os encontros ao vivo.
+
+Os bônus são tanto materiais, PDFs, infográficos, e-books, quanto cursos gravados.
+
+Esses vocês vão recebendo Semana a semana, até chegar à data da imersão.
+
+Então vocês não vão ficar sem conteúdo até a data da imersão.
+
+Vocês não vão ficar parados até a data da imersão.
+
+Vocês vão ter materiais pra que vocês possam já ir consumindo, já ir utilizando, até chegar à data da imersão.
+
+Principalmente o curso que a gente vai liberar de Azure como um todo, pra vocês já terem um conhecimento, pra quando chegar a imersão, quando a gente for falar daquele serviço, vocês já tenham minimamente uma noção.
+
+Maravilha?
+
+Pessoal, alguém tem mais alguma dúvida?
+
+Alguém quer fazer mais alguma pergunta?
+
+Deu pra entender essa condição especial pra aqueles que estão garantindo a vaga agora?
+
+Então só pra gente recapitular pra depois não termos problemas.
+
+Pra quem está garantindo a vaga agora, enquanto a gente está aqui na aula, o que vocês vão receber?
+
+Vocês vão receber o Done With You, ou seja, a gente vai fazer parte da estratégia junto com vocês.
+
+Como?
+
+A gente vai reestruturar primeiro o seu perfil no LinkedIn, porque é parte essencial da estratégia.
+
+Segundo, a gente vai criar o seu material, também que é parte fundamental.
+
+E de novo: "ah, vai ser o mesmo material pra todo mundo?" Lógico que não.
+
+Existem várias maneiras de eu falar do mesmo produto, do mesmo serviço.
+
+Então vão ser materiais dedicados pra vocês.
+
+Por isso que esse bônus é só pra quem fechar agora, porque se entrar muita gente, a gente não vai conseguir dar conta pra entregar pra muita gente.
+
+Então a gente vai entregar esse material pra vocês.
+
+A gente vai entregar pra vocês cinco clientes já pesquisados, clientes que já vão estar prontos, ou seja, os melhores clientes pra vocês já fecharem os primeiros contratos.
+
+A gente vai entregar esses cinco primeiros.
+
+Junto com esses cinco clientes, vocês vão receber os scripts, o que vocês têm que falar, como falar pra gerar engajamento com essas pessoas.
+
+Depois de gerar engajamento, vocês vão pedir pra seguir e conectar.
+
+Conectou?
+
+É a hora de enviar aquele material que a gente escreveu pra vocês.
+
+Então vocês vão receber o script pra gerar esse desejo na pessoa em querer ter esse material.
+
+Entregou o material?
+
+Entra a fase de follow-up.
+
+A gente vai entregar o script de follow-up.
+
+O follow-up é pra quê?
+
+Pra gerar reunião.
+
+A gente vai te entregar todo o script.
+
+A única coisa que você vai ter que fazer é a reunião.
+
+Então pra quem garantir a vaga agora, vai receber tudo isso aqui de bônus.
+
+Vai receber de bônus também cinco propostas pra cada um dos cinco serviços.
+
+Vocês não vão precisar se preocupar com proposta, vocês vão receber essas propostas.
+
+E o outro é o valor sendo mantido a R$ 997.
+
+Maravilha?
+
+Então está aí o link pra quem quer garantir a vaga com todas essas condições.
+
+E pra quem quer garantir a vaga com parcelamento via boleto ou via Pix, está aí no chat também o link da minha equipe no WhatsApp, é só chamar a equipe aqui pra que ela possa gerar o link pra vocês e vocês possam dar esses próximos passos.
+
+Pagamento pelo Pix vai para a TMB.
+
+Chama TMB a empresa.
+
+Não, é que esse link, vamos lá, pessoal.
+
+Vamos lá, de novo.
+
+Esse link que eu passei, o checkout da Eduzz, acabei de colocar agora no chat.
+
+Esse link é pra quem vai parcelar no cartão de crédito, é pra quem vai pagar à vista no boleto ou pra quem vai pagar à vista no Pix.
+
+Pra quem quer parcelar no Pix e no boleto, não é esse link.
+
+Pra quem quer parcelar no Pix ou no boleto, vai ter que chamar minha equipe no WhatsApp, porque esse parcelamento é feito por outra plataforma.
+
+Então está aí o link da equipe no WhatsApp.
+
+Não, aí sim, pra quem está fazendo à vista no Pix, aí é esse mesmo.
+
+Stone PSA.
+
+Exato.
+
+Pra quem quer fazer parcelado no Pix ou no boleto, aí é outra plataforma.
+
+Então vocês vão precisar entrar em contato com a minha equipe no WhatsApp, falar que estavam aqui na aula pra que a minha equipe gere pra vocês o link, pra que vocês possam, baseado nesse link, fazer o pagamento.
+
+Só que só lembra do seguinte, por favor, pra gente não ter problemas: a oferta é pra quem garantir a vaga hoje, agora.
+
+Ou seja, se você for optar pelo parcelamento no boleto, ele vai te gerar lá o link, boleto, ou se for Pix, vai gerar o link pra você fazer o pagamento da entrada.
+
+Tem que enviar lá pra equipe no WhatsApp, que vai mandar o link pra vocês, o comprovante que o pagamento foi feito hoje, pra que vocês tenham todos esses bônus liberados.
+
+Tá bom? "Ainda não sou consultor, não tenho CNPJ".
+
+Não precisa, pessoal.
+
+Não precisa abrir. "O que muita gente faz, ô Victor O que muita gente faz, de repente, é pegar alguém conhecido.
+
+Qual é o problema de não ter CNPJ?
+
+A grande maioria das empresas, esmagadora, vai exigir nota fiscal pelo serviço que você está fazendo.
+
+Então se você não tem CNPJ, você não vai conseguir gerar essa nota fiscal.
+
+Aí você tem duas opções: ou você abre o MEI, que é muito simples abrir, pra que você possa gerar essa nota fiscal, só que o problema do MEI é que ele tem um teto, ele tem um limite anual, então pra se enquadrar no MEI, o faturamento da empresa anual não pode passar daquele limite, eu não sei, teria que pesquisar, ou você tem algum conhecido, alguma parceria, faz alguma parceria com quem já tem um CNPJ, pra que essa pessoa emita a nota por você.
+
+Mas seria muito negligente da minha parte chegar aqui e te falar: "Não, cara, você não precisa de CNPJ, não precisa de nada".
+
+Não, porque se a empresa pedir a nota, você não ter, não vai fechar o projeto.
+
+Então você tem duas opções.
+
+Se você olhasse pra mim e falasse: "Cara, me indica", eu indicaria você abrir o MEI, porque a taxa é muito baixa.
+
+E o Donizeti colocou aí, o faturamento é em torno de 80 mil.
+
+Então já é bom pra começar.
+
+Eu abriria o MEI, a taxa na época, eu acho que era uns R$ 40 por mês, 80 mil anual.
+
+Então eu faria isso pra não depender de ninguém.
+
+Agora, se você já tem alguém, algum conhecido, que já tem CNPJ, ele não vê problema em emitir a nota por você, aí não tem problema, você pode fazer essa parceria também.
+
+Beleza?
+
+A única coisa que eles vão pedir é que quando você emite a nota, tem a taxa.
+
+A única coisa que ele provavelmente vai pedir é que você arque com essa taxa.
+
+Porque não seria justo ele ter a taxa por um serviço que ele não está faturando.
+
+Mas eu, se eu fosse você, já abriria esse MEI.
+
+Já aproveitaria essa oportunidade pra já começar a faturar, porque vai faturar, gente.
+
+Se fizer o que a gente está falando, vai faturar.
+
+Principalmente vocês que estão pegando esse bônus onde a gente vai te entregar esses primeiros clientes, vocês vão faturar.
+
+Então se eu fosse você, já iria logo pro MEI pra não ficar dependendo de ninguém, porque você vai faturar.
+
+Beleza?
+
+Turma, alguém tem mais alguma dúvida?
+
+Alguém quer fazer mais alguma pergunta?
+
+Então só pra gente recapitular, fazer aqui um overview.
+
+Essa oferta, como a gente está liberando essa opção de boleto, e o boleto precisa da nossa equipe pra gerar o link e tudo mais, então quem está optando por boleto não vai conseguir fechar agora enquanto a gente está na aula, porque a equipe já está recebendo, já me sinalizaram aqui, a equipe já está recebendo as mensagens de vocês e já vai começar a gerar.
+
+Então, provavelmente a gente já vai ter encerrado a aula.
+
+Então o que eu vou fazer?
+
+Vou deixar essa oferta válida até o final do dia de hoje.
+
+É algo que eu não queria, porque é aquilo que eu comentei, pra mim, quem está em cima do muro, sempre vai ser as pessoas que vão ter menos resultados.
+
+A gente gosta de quem toma a decisão, porque são sempre as pessoas que vão ter mais resultado, porque são as pessoas que vão fazer o que precisa ser feito pra gerar o resultado.
+
+Só que por conta desse boleto, a gente vai deixar estender isso até o final do dia de hoje.
+
+Então até o final do dia de hoje, pra aqueles que estão ainda em cima do muro, até o final do dia de hoje, a gente vai manter os bônus e esse valor promocional.
+
+Combinado?
+
+E a turma que já está garantindo a vaga, a gente já está recebendo aqui as mensagens que alguns de vocês já estão garantindo a vaga.
+
+Pra vocês que estão garantindo a vaga, a gente vai começar, a partir da próxima semana, subir os materiais.
+
+Essa semana ainda, a gente já vai subir o curso do Azure Express.
+
+Então se vocês já puderem ir assistindo essas aulas, vai ser muito bom.
+
+A partir da próxima semana, a gente vai começar a subir os outros bônus.
+
+Então vocês vão começar a receber e-mails.
+
+Olhem também no spam, que às vezes vai pro spam, vocês vão começar a receber e-mails quando esses materiais começarem a ser divulgados.
+
+Essa semana ainda, provavelmente entre hoje e amanhã, a gente já vai subir o curso Express do Azure, pra vocês já poderem consumir.
+
+E a partir da próxima semana, a gente já vai começar a subir os outros materiais pra que vocês tenham coisas pra já ir consumindo até chegar a data da nossa imersão.
+
+Turma, combinados?
+
+Curtiram?
+
+Quem curtiu a aula digita o número um aí pra eu ver se vocês ainda estão aqui ou se viraram bots.
+
+Muito bom.
+
+Show de bola, galera, bastante gente ainda permaneceu aqui.
+
+Maravilha, então pra vocês que permaneceram até agora, está aí essa oportunidade.
+
+É uma imersão de quatro semanas, com todos esses bônus aí que a gente ofereceu, inclusive os bônus relâmpagos e o valor promocional, sendo mantidos até hoje, às 23h59.
+
+Passou essa data, vai poder continuar entrando na imersão?
+
+Vai.
+
+Só que os bônus relâmpagos a gente não vai entregar mais, até porque como vai exigir muito da gente, que é o "done", o IFU, a gente vai fazer com vocês, a gente não conseguiria fazer isso com muita gente.
+
+Então é algo bem seleto mesmo, seleto pra aqueles que não vão ficar em cima do muro, que vão tomar a decisão e querem ter esses resultados.
+
+Show de bola?
+
+Maravilha!
+
+Então, pra quem quer garantir a vaga agora, está aí o link no chat Deixa eu copiar aqui e colar.
+
+Esse aqui é o link pra você garantir a vaga agora.
+
+Esse link, à vista, Pix ou boleto, ou parcelamento no cartão de crédito.
+
+Agora, pra quem precisa fazer parcelamento no boleto ou no Pix, está aí o link da minha equipe no WhatsApp.
+
+Entre em contato com a equipe, fala que você estava aqui na aula, que você gostaria de participar da imersão parcelando no boleto ou no Pix, pra que a minha equipe gere aqui o link pra vocês. "Seria legal passar esse mapa mensal pra quem comprou também".
+
+Você fala o mapa mental?
+
+Não, a gente vai entregar.
+
+Não só dessa aula, Donizete, eu não sei se você conseguiu participar da aula de segunda, mas a gente vai entregar e deixar lá tanto o mapa mental quanto a gravação da própria aula.
+
+Então vai ficar lá pra vocês também, pra que vocês possam revisitar também.
+
+Show de bola.
+
+Maravilha, turma.
+
+Então está aí a oportunidade na mesa pra quem quer dar esses próximos passos.
+
+Pra quem está chegando junto aí na imersão, já dou as minhas boas-vindas, eu tenho certeza que essa é a melhor decisão que vocês estão tomando pra empresa de vocês, ou no caso do Vitor, que ainda é CLT, mas está já querendo criar essa consultoria de maneira previsível.
+
+Então está aí a oportunidade pra vocês.
+
+Maravilha?
+
+Então é isso aí, turma.
+
+Vamos ficando por aqui.
+
+Um bom dia aí pra vocês, uma boa semana pra todos, fiquem com Deus e até a próxima.
+
+Valeu, pessoal!

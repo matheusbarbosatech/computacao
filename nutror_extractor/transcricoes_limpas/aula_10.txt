@@ -1,0 +1,1397 @@
+Fala aí, turma.
+
+Boa tarde!
+
+Sejam todos muito bem-vindos.
+
+A nossa aula, uma aula experimental da nossa imersão Consultor Recorrente que vai acontecer no próximo mês.
+
+Então eu quero passar um pouquinho aqui do que a gente vai tratar dentro dessa imersão e claro, quero ajudar vocês aqui a conseguir esse primeiro cliente recorrente.
+
+Como vocês podem utilizar estratégias pra conseguir clientes recorrentes todos os meses.
+
+Então a gente vai passar aqui por alguns pilares.
+
+A parte de posicionamento, o que vender, os canais e a parte de reunião, que ali, efetivamente, a parte de fechamento.
+
+E eu quero também mostrar aqui pra vocês, é claro, que em todos esses processos, eu não vou utilizar todos os processos, até pra gente ganhar tempo, mas eu quero mostrar aqui algumas partes importantes pra mostrar pra vocês que a inteligência artificial ajuda a gente muito nesses processos aqui.
+
+E lembrando, pra vocês que estão aqui na aula e já se inscreveram e garantiram a vaga de vocês nessa imersão do Consultor Recorrente, vocês vão ter acesso a todos os meus agentes.
+
+Então todos os agentes que eu utilizo aqui pra construir essas estratégias, os alunos da imersão vão receber esses agentes também.
+
+Maravilha?
+
+Então Zanella na área, Rodrigo Silva, Rodrigo Granado, Thiago, Alisson, show de bola.
+
+Boa tarde aí e bora aqui pro nosso conteúdo, tá pessoal?
+
+Qualquer dúvida que vocês tiverem, podem colocar aí no chat que eu vou respondendo aqui.
+
+Antes de eu começar aqui a aula, mostrar aqui pra vocês esse plano, coloquem aí no chat pra mim, quem é consultor de TI coloca "consultor" e quem é CLT coloca "CLT".
+
+Só pra eu ver aqui a divisão de quem já está jogando o jogo da consultoria versus quem é CLT e quer começar a jogar o jogo da consultoria.
+
+Consultor, CLT, que mais?
+
+Vamos lá, tem mais gente aí.
+
+Quem hoje joga o jogo do consultor e quem joga o jogo hoje do CLT?
+
+Show de bola, bastante gente CLT.
+
+Acredito que vocês, CLT, estão aqui nessa aula porque vocês estão enxergando essa opção ou de fazer uma transição pra ser um consultor.
+
+Seja pra fazer uma transição completa ou pra até faturar uma renda extra vendendo consultorias.
+
+Então assim, vocês estão no caminho certo.
+
+Lembrando que pra quem é CLT eu sempre recomendo o quê?
+
+Não larga o CLT, vai fazendo devagarzinho.
+
+Quando as coisas derem resultado, aí você toma uma decisão se é hora de largar o CLT pra investir na consultoria.
+
+Maravilha?
+
+Até porque muito da estratégia vai envolver investimentos em anúncios.
+
+E se você não tem nenhuma fonte de renda, você acaba ficando mais travado ou demorando mais pra ter resultados.
+
+Maravilha?
+
+Show de bola.
+
+E durante a aula, pessoal, pra eu conseguir ajudar vocês com algo mais prático de vocês, não ficar dando os meus exemplos, eu vou pedir pra que vocês interajam bastante.
+
+Combinado?
+
+Posso contar com a interação de vocês aqui, que é pra ajudar vocês, pra montar o que eu estou propondo aqui de acordo com o que vocês querem definir pra consultoria de vocês.
+
+Combinado?
+
+Então vamos lá.
+
+Primeira coisa, antes de tudo.
+
+Já falei disso aqui em algumas aulas, e eu bato muito nesse ponto aqui, porque pra mim é uma das coisas mais importantes que tem, que é a parte do posicionamento.
+
+Cara, antes, pensa isso.
+
+Pra quem é CLT.
+
+Antes de você parar e pensar: "Cara, eu quero vender isso".
+
+Não, você vai dar um passo pra trás ainda.
+
+Você vai falar: "Como eu vou me posicionar no mercado?" E olha que legal aqui essa frase.
+
+O posicionamento não é escolher uma tecnologia, não é dizer: "Eu sou especialista em cloud, eu trabalho com segurança da informação".
+
+Não, isso não é posicionamento.
+
+Posicionamento é a junção de três coisas, que é a competência técnica, não adianta você se posicionar por algo que você não sabe entregar, setor do mercado e uma dor específica.
+
+Então aqui eu trouxe um exemplo pra ficar mais tangível pra vocês.
+
+Então pensa em um analista de infraestrutura que tem experiência com empresas jurídicas.
+
+Como que esse analista pode se posicionar pra esse setor do mercado específico? "Eu ajudo escritórios de advocacia a garantir que os sistemas críticos nunca caem durante audiências e prazos processuais".
+
+Então olha a diferença desse tipo de posicionamento versus eu simplesmente: "Ah, eu faço manutenção pra empresas jurídicas, eu cuido de servidores da empresa jurídica, eu atendo chamados pra empresa jurídica".
+
+Olha a diferença desses posicionamentos extremamente genéricos, extremamente ineficientes versus esse posicionamento: "Eu ajudo escritórios de advocacia a garantir que os sistemas críticos nunca caem durante audiências e prazos processuais".
+
+Então aqui eu estou falando da parte técnica, aqui eu estou falando de um setor do mercado específico, advocacia, aqui eu estou falando de uma dor específica, uma dor que as empresas jurídicas têm.
+
+Poxa, já imagina durante uma audiência cai ali a conexão.
+
+Durante a audiência cai um servidor que ele vai depender pra manter aquela conexãoCai o servidor onde hospeda os processos, ele começa a perder prazo.
+
+Isso é uma dor muito forte desse mercado, eles não podem, durante esses prazos, durante essas audiências, correr o risco que sistemas críticos caiam durante essas fases.
+
+Isso aqui é uma dor extremamente importante.
+
+Então toda vez que a gente falar de posicionamento, a gente tem que falar da competência técnica, porque o consultor vai ter que entregar.
+
+Não adianta ele querer se posicionar por algo que ele não sabe entregar.
+
+O setor do mercado é algo que eu deixo como opcional, você pode ser mais abrangente, não tem problema, mas a dor específica é extremamente importante a gente definir.
+
+Para ser um consultor, você precisa deixar de ser apenas o técnico e passa a ser ouvinte.
+
+Aqui complementando o que o Alisson colocou.
+
+Concordo 100% e vou além.
+
+Hoje, se um consultor quer se dar bem, uma das suas maiores habilidades é ser ouvinte.
+
+Não é sair falando, eu deixo o cliente falar o que ele tem.
+
+A gente vai falar um pouquinho sobre isso mais pra frente, mas deixa o cliente falar.
+
+Porque ele vai te entregar as informações que você precisa, inclusive as informações pra precificar a sua consultoria.
+
+Então isso aqui é extremamente importante.
+
+Pessoal, o que eu falei pra vocês, vou precisar da ajuda de vocês pra deixar essa aula bem dinâmica e ajudar vocês.
+
+Quando vocês pensam isso, competência técnica, setor do mercado, dor específico, vocês conseguem montar algum posicionamento pra vocês? "Poxa, eu queria me posicionar dessa forma", pra eu ajudar a refinar aqui pra vocês.
+
+E depois eu quero levar isso pra inteligência artificial.
+
+Então vocês conseguem pensar em alguma coisa?
+
+Competência técnica, o que eu conheço, o que eu domino, que eu me diferencio de outros, eu entrego com muita qualidade para um setor específico do mercado que eu já tenho experiência nesse setor, eu já sei a dor deles, eu já sei o que eles precisam, e eu vou pegar uma coisa bem específica, uma dor bem específica desse setor de mercado.
+
+Vocês conseguiriam montar alguma coisa?
+
+Não precisa ser perfeito, eu estou aqui pra ajudar vocês a refinar também.
+
+Coloquem aí no chat o que vocês imaginariam como esse posicionamento, levando em consideração essas três coisas: a competência técnica, o setor do mercado e uma dor específica.
+
+Podem até utilizar como esse exemplo: "Eu ajudo escritórios de advocacia a garantir que sistemas críticos nunca caiam durante audiência e prazo".
+
+Utilizem isso aqui como exemplo, tentem montar alguma coisa pra que eu ajude vocês a refinar.
+
+Se não entendem muito bem o posicionamento, coloca o que você quer oferecer no mercado. "Poxa, eu quero vender serviço ou consultoria disso aqui", pra eu poder ajudar você a refinar, porque se você for pro mercado: "ah, eu quero vender consultoria de segurança".
+
+Muito fraco, muito genérico, você vai ter sérias dificuldades de fechar contratos recorrentes.
+
+Então coloquem aí, quem não consegue ainda colocar algo baseado aqui nessa competência técnica, setor e dor específica, coloque só o que vocês querem vender que eu ajudo vocês a refinarem essa mensagem.
+
+E aqui, pessoal, é coisa prática, não adianta vocês virem aqui pra uma aula dessa, ouvir e não colocar em prática.
+
+Aqui já dá pra você sair com o seu posicionamento pra você já começar a testar hoje mesmo.
+
+Aqui já dá pra você sair com as mídias que eu vou falar, onde você pode colocar essa sua audiência pra chegar a mais pessoas, esse posicionamento, na verdade, pra chegar a mais pessoas.
+
+E também a gente vai falar um pouco da parte de reunião script.
+
+Então aqui são coisas já pra vocês colocarem pra rodar, aqui já é parte de implementação mesmo.
+
+Coloquem aí no chat, quem quiser colocar direto pra mim também não tem problema.
+
+Coloquem aí o que vocês querem vender e quem já entendeu um pouco mais do posicionamento, o que vocês querem vender e quem já entendeu o posicionamento, qual o posicionamento que vocês acham que seria ideal.
+
+Coloquem aí no chat pra eu ir refinando aqui pra vocês.
+
+Gente, uma coisa extremamente importante: é o posicionamento, vou colocar até aqui embaixo.
+
+É o posicionamento que vai garantir com que o seu ROI, ao invés de ser um ROI de dois, três, é um bom posicionamento que vai fazer o seu ROI ir pra 10, ir pra 20.
+
+Pra vocês verem a importância do posicionamento.
+
+Alguém que não é posicionado no mercado vai sentir sérias dificuldades de conseguir fechar contrato, vai ser muito mais difícil.
+
+Agora, quem tem um posicionamento alinhado ao que o mercado precisa, é esse cara que sempre vai faturar mais, sempre vai ter mais contrato.
+
+E o melhor, sempre vai ter mais facilidades de fechar esses contratos do que outras pessoas.
+
+Então se vocês estão levando a empresa de consultoria de vocês a sério, e pra quem é CLT, quer começar do jeito certo, essa parte de posicionamento é o principal.
+
+Então participem, coloquem aí pra que eu possa ajudar vocês.
+
+Se eu não souber o que vocês vendem, eu não consigo ajudar vocês. "No meu caso, eu gosto de atuar em pequenas e médias empresas.
+
+Levo para eles não apenas a parte técnica, mas levo até o cliente que a TI precisa fazer parte do negócio.
+
+Com isso, atuo dentro de infraestrutura de servidores, segurança, automatização e processo".
+
+Excelente.Excelente!
+
+Deixa eu até colocar aqui esse cara.
+
+Mais alguém quer a minha ajuda pra montar essa parte de posicionamento?
+
+Podem colocar aí no chat, que eu vou ajudando.
+
+Quando eu pego esse posicionamento que o Alisson colocou, esse posicionamento vai ter um pouco de dificuldade, principalmente quando ele for fazer anúncios.
+
+Porque lembra que precisa ter a competência técnica, então aqui ele já falou um pouco da competência técnica, só que lembra, a competência técnica não anda sozinha.
+
+No setor do mercado, isso aqui pode ser opcional, mas o que não tem nesse posicionamento é uma dor específica.
+
+Ele está falando que atua com infra de servidores, segurança, automação de processo.
+
+O que acontece com esse tipo de posicionamento quando a gente vai pra anúncio, quando eu vou anunciar?
+
+Eu quero aparecer pra pessoas, pra que as pessoas me conheçam e pra que as pessoas fechem o meu serviço.
+
+Com esse posicionamento aqui, qual é o problema que ele vai atingir?
+
+Pensa nisso seguinte: eu tenho um exemplo, pessoal.
+
+Cem pessoas que estão interessadas em infra de servidores, eu tenho 100 pessoas interessadas em segurança, eu tenho 100 pessoas interessadas em automação e processo.
+
+Então pegar aqui esses três.
+
+Qual é o problema de não ser específico?
+
+Quando você monta um anúncio, por que essa parte de posicionamento é tão importante dentro da estratégia?
+
+Hoje, a gente tem que entender que o nosso cliente recebe mensagem de todos os lados.
+
+Por isso, qual é a ideia por trás do posicionamento?
+
+É que eu seja assertivo na minha mensagem.
+
+Então não posso errar, eu tenho que ser o mais assertivo possível na minha mensagem.
+
+Por isso que um dos pilares dele é essa dor específica, porque se eu montar aqui uma copy, uma mensagem pro Alisson, falando desses serviços, o cliente que está do outro lado, imagina que eu crio lá uma copy: "Meu nome é Alisson, eu trabalho ajudando pequenas e médias empresas, levo pra ele não só a parte técnica, mas também toda a parte estratégica da tecnologia para atender o negócio e eu atuo servidores de infra".
+
+Comecei falando de servidores de infra.
+
+A pessoa de segurança, quando ouvir "servidores de infra", já vai desconectar.
+
+Você já perde a atenção dessa pessoa, porque o cara está precisando de serviço de segurança, ele não está precisando de serviço de infraestrutura.
+
+Pegando num contexto geral, ele quer uma parte de segurança.
+
+Quando ele ouve a mensagem do Alisson e a mensagem começa a falar: "Eu atuo aqui dentro de infraestrutura de servidores".
+
+Já desconecta com esse cara.
+
+Então eu já pego aqui esse cara de segurança e já: "Cara, não vou conseguir me conectar com esse cara".
+
+A mesma coisa vai acontecer pra quem está interessado nessa parte de automação.
+
+Ou seja, eu me posicionei falando de vários serviços, infraestrutura, segurança e automação, perdi a audiência de quem queria segurança, perdi a audiência de quem está interessado em automação e consegui ganhar aqui o interesse da audiência que quer falar de infraestrutura.
+
+Só que o que acontece com essa audiência quando você alcançar essa audiência de infraestrutura dentro desse posicionamento?
+
+Cara, você está falando que você é o cara de servidor, você está falando que é o cara de segurança e você está falando que é o cara de automação.
+
+Eu não estou falando aqui que o Alisson não domina esses pilares.
+
+O que eu estou falando é que o mercado, quando olha um profissional que fala que é de infra, de segurança e de automação, ele liga um alerta.
+
+Ele vai falar: "Poxa, espera aí.
+
+O cara conhece de infra de servidores, o cara conhece de segurança e conhece de automação, três pilares extremamente complexos?".
+
+Poxa, o cara começa aqui a ficar um pouco na dúvida.
+
+Ele começa aqui a ficar um pouco: "Poxa, será?
+
+O cara conhece tanta coisa, será?" Então, com esse tipo de posicionamento, quando eu não sou específico, quando eu não falo de algo específico, o que pode acontecer aqui utilizando esse posicionamento?
+
+Eu posso pegar essas pessoas que estão precisando de algo que eu também ofereço ou posso começar a perder essas pessoas.
+
+Posso começar a perder essas pessoas.
+
+Olha a diferença.
+
+Então imagina que eu falei aqui de infraestrutura de servidores.
+
+Olha a diferença de eu pegar um posicionamento e falar: "Meu nome é Alisson, eu atuo pra pequenas e médias empresas e dentro dessas pequenas e médias empresas, eu cuido de toda a parte de infraestrutura de servidores, desde os servidores críticos que não podem parar, ou seja, servidores que vão impactar o negócio da empresa, até servidores menos críticos.
+
+A minha meta e o meu objetivo com os meus clientes é manter tudo operacionalOlha a diferença.
+
+Olha eu indo para uma dor mais específica, tirando essa questão um pouco mais genérica de falar de muita coisa ao mesmo tempo e indo pra algo mais específico, indo pra uma linha de argumentação mais específica, porque quando eu sou específico, eu pego essa audiência aqui, eu acerto ela na veia, porque eu estou falando pra ela, não estou falando pra outra.
+
+Não estou falando de segurança, não que a minha empresa não vá também falar, vender serviços de segurança automação, mas para o mercado, o meu posicionamento é: eu sou o cara de infra de servidores.
+
+Eu vou atingir essa audiência.
+
+Agora, quando eu atingir essa audiência, o que eu posso fazer? "Cara, você não está precisando de nada de segurança, aí?
+
+Cara, você não está precisando de nada de automação?" Mas para o mercado, eu vou com uma linha de posicionamento bem específico.
+
+Porque lembra, qual é o objetivo principal do posicionamento?
+
+O objetivo principal do posicionamento é que a minha argumentação seja o mais assertiva possível.
+
+Eu não posso fazer com que a minha linha de argumentação caia pra pessoas que não têm a ver com aquilo que eu me posicionei.
+
+Então, por exemplo, se eu monto um posicionamento pra infra de servidores, eu não quero aparecer pro cara de segurança, eu não quero aparecer pro cara de automação, porque eles vão ignorar minha mensagem, eu quero ser assertivo.
+
+Agora, uma vez que eu fui assertivo, ali dentro, lembra, eu preciso chamar a atenção do cliente.
+
+Chamei a atenção do cliente, aí, meu amigo, você pode oferecer o que você quiser, mas o posicionamento vem como estratégia do quê?
+
+Ser assertivo pra ter esse primeiro ponto de contato com o cliente.
+
+O meu primeiro ponto de contato precisa ser assertivo.
+
+Fui assertivo, aí eu consigo vender o que eu quero depois.
+
+Maravilha? "Na verdade, eu estou ainda me especializando, mas pretendo seguir esse caso de pequenas e médias empresas".
+
+Beleza, só que lembra: pequenas e médias empresas entram um pouco aqui no setor do mercado, então precisa da competência técnica, precisa dessa dor específica pra ter esse posicionamento alinhado, pra ter esse posicionamento forte e essa linha de argumentação que vai chamar a atenção dos clientes.
+
+A briga hoje, é chamar a atenção do cliente.
+
+Se eu chego e falo de muitas coisas, eu mais confundo o cliente do que ajudo falando o que eu ofereço.
+
+Agora, quando eu sou extremamente específico, eu ofereço isso aqui, aí a minha linha de argumentação é muito mais clara.
+
+Então aqui, no caso do Alisson, o que eu recomendaria?
+
+Ele escolher um dos pilares.
+
+Cara, qual é o pilar que eu mais domino desses aqui?
+
+Poxa, desses pilares aqui, qual eu tenho mais facilidade pra entregar?
+
+Qual eu tenho o maior retorno?
+
+Ah, é segurança?
+
+Então focaria em falar em segurança.
+
+Lembra, quando a gente fala de posicionamento, é como eu quero ser visto pelo mercado.
+
+Para eu ser visto pelo mercado, eu preciso aparecer pra eles.
+
+Então tudo o que o Alisson for divulgar, LinkedIn, Instagram, YouTube, tudo o que ele for falar do serviço dele, vai ser em cima desse pilar específico.
+
+Então ele tem que ser conhecido no mercado por isso, não que ele vá oferecer outros serviços. "Então primeiro eu ofereço, eu divulgo minha competência".
+
+Exatamente, é isso aí, Alisson.
+
+Você vai pegar o que você é mais forte e você vai trabalhar forte nessa linha de argumentação.
+
+Então pro mercado, vai ser como se você mexesse só com aquilo, só que você vai aparecer tanto pras pessoas, que os caras vão falar: "Cara, ele realmente é bom nisso aqui.
+
+Toda hora eu vejo ele aparecendo falando disso aqui, então ele é bom nisso aqui".
+
+Isso é só o primeiro ponto de contato.
+
+Depois que o cliente entra em contato, aí você pode oferecer o que você quiser.
+
+Maravilha, pessoal?
+
+Então essa parte aqui pra mim, de posicionamento, é a parte mais importante, é o que faz uma empresa investir 10 mil, receber 20, versus uma empresa investir 10 mil, receber 100.
+
+A empresa que investe 10 e recebe 100, é uma empresa que tem um bom posicionamento, é um consultor que tem um bom posicionamento no mercado.
+
+Maravilha?
+
+Então essa é a parte do posicionamento.
+
+Daqui a pouco eu vou pra inteligência artificial pra gente fechar tudo isso.
+
+O que vender?
+
+Então depois que eu tenho toda a parte de posicionamento, montei meu posicionamento, é dessa forma que eu quero ser reconhecido pelo mercado.
+
+Agora, com base no posicionamento, eu vou escolher o que eu quero vender.
+
+Isso dentro do marketing digital, a gente acaba falando de nicho.
+
+Então, poxa, eu montei um posicionamento aqui baseado em segurança, por exemplo.
+
+Só que eu posso vender várias coisas diferentes voltadas à segurança.
+
+Várias coisas diferentes.
+
+Então chega aqui nessa parte, beleza, eu tenho meu posicionamento, agora com base, o que eu vou vender nunca pode sair do meu posicionamento, tem que estar dentro do meu posicionamento.
+
+Então o que eu vou vender?
+
+E aqui, geralmente, a gente faz três perguntinhas simples pra gente escolher o que a gente vai vender.
+
+Primeiro: onde você já trabalhou ou tem mais experiência?
+
+Isso aqui é importante.
+
+Eu sei que às vezes isso aqui é doloroso, até pra mim dói às vezes, mas isso aqui, infelizmente, é o jogo de quem quer ganhar dinheiroNão é o que você mais gosta.
+
+Infelizmente, nem sempre a gente vai vender o que a gente mais gosta.
+
+Então onde você já trabalhou ou tem mais experiência?
+
+Pegando aqui, por exemplo, segurança.
+
+Onde você mais trabalhou, tem mais experiência com segurança?
+
+Segundo, nesse setor.
+
+Eu trabalhei numa empresa de contabilidade, eu trabalhei numa empresa jurídica.
+
+Nesse setor, qual problema de TI causa mais dor financeira quando acontece?
+
+Um exemplo.
+
+Eu já trabalhei numa empresa, essa empresa teve um ataque ransomware, todas as informações foram criptografadas e a empresa teve que desembolsar milhões para recuperar essas informações, ou gastou semanas e semanas recuperando backup para trazer tudo no ar.
+
+Beleza, qual foi o prejuízo financeiro?
+
+Toda vez que a gente consegue traduzir algo para a parte financeira, fica sempre mais fácil.
+
+É que nem sempre o que a gente vai vender vai evitar um prejuízo financeiro. Às vezes vai trazer uma competitividade que pode aumentar o faturamento da empresa.
+
+Mas toda vez que a gente consegue associar o que eu vou entregar para uma empresa com essa parte financeira, sempre fica mais fácil de vender.
+
+Terceira: você consegue resolver esse problema melhor do que a maioria?
+
+Então é aquilo que eu comentei aqui em cima, no posicionamento.
+
+Competência técnica.
+
+Escolhe o que você é melhor.
+
+Olha e fala: "isso aqui realmente eu sou diferenciado, isso aqui eu conheço mais do que a maioria".
+
+Então quando você responde essas três perguntas, você tem ali o que você deve vender primeiro.
+
+Onde você trabalhou, o que mais tem experiência? "Eu trabalhei numa empresa jurídica.
+
+Lá na empresa jurídica eu fazia isso e isso".
+
+Nesse setor, qual problema de TI causa maior dor financeira? "Teve um ataque ransomware.
+
+Então beleza, eu vou trabalhar agora como que eu posso proteger as empresas contra esse tipo de ataque.
+
+Então posso vender esse tipo de serviço, vou cuidar da sua parte de antivírus, da sua parte de firewall, para garantir que a sua empresa não seja atacada por um ransomware, aí levo para o problema financeiro, evitando perdas financeiras, às vezes perda de imagem, que às vezes dependendo da empresa, a perda de imagem vai gerar uma perda financeira gigantesca e por aí vai.
+
+Então, primeiro eu monto o posicionamento, depois o que eu vou vender baseado naquele posicionamento?
+
+Essas três perguntas acabam ajudando bastante para a gente definir o que vender primeiro.
+
+Não é que eu vou vender só isso, é o que eu vou vender primeiro.
+
+Respondendo essa pergunta, acaba sendo o que eu vou vendendo de forma mais fácil.
+
+E lembra, não precisa ser perfeito, principalmente para quem está começando agora.
+
+É claro que quanto mais perfeito, mais resultado a gente vai ter, mas o problema é que tem muita gente que fica procrastinando, quer ser perfeito e nunca começa nada.
+
+Já começa a testar.
+
+Então não precisa ser perfeito.
+
+O que precisa?
+
+Essa é a palavra.
+
+Precisa ser específico ao suficiente para falar com alguém.
+
+Não é com todo mundo.
+
+Esse é um dos maiores erros dos consultores de TI hoje, é querer falar com todo mundo.
+
+Não, você não fala com todo mundo.
+
+Você vai falar com o grupo que você quer atender.
+
+Não precisa falar com todo mundo.
+
+Falar com todo mundo é ser genérico, ser genérico é não ter resultado.
+
+Maravilha.
+
+Então, posicionamento.
+
+Depois do posicionamento, o que eu vou vender?
+
+Tenho esses dois pilares já definidos, já tenho o meu posicionamento forte, já tenho o que eu vou oferecer para vender de maneira rápida e fácil, agora são os canais que a gente tem para divulgar essa minha mensagem.
+
+Que é divulgar o quê?
+
+O meu posicionamento, o que eu estou querendo vender.
+
+Então hoje, quando a gente fala dessa parte de marketing digital, a gente tem basicamente três plataformas, três canais, que são os que mais funcionam hoje para consultoria de TI.
+
+A gente tem o LinkedIn, a gente tem o Instagram e a gente tem o YouTube.
+
+Qual é a diferença deles?
+
+Geralmente o LinkedIn é um canal onde eu vou ter mais qualidade.
+
+Então eu vou ter dentro do LinkedIn, vai ser mais fácil no LinkedIn, eu atingir as pessoas ao qual eu quero falar, as pessoas ao qual eu quero que ouça o meu posicionamento, consequentemente, o que eu tenho para oferecer.
+
+Então o LinkedIn é onde eu vou conseguir atingir essas pessoas com uma qualidade maior.
+
+Só que em contrapartida, o LinkedIn, diferente das outras duas plataformas, a gente não tem a massa, a gente não tem uma quantidade grande de pessoas para falar de serviço específico.
+
+O LinkedIn ainda, apesar de isso estar mudando nos últimos anos, o LinkedIn ainda é uma plataforma muito voltada para quem é CLT.
+
+Então ele ainda não tem essa questão de massa.
+
+A minha recomendação é sempre trabalhar com os três canais.
+
+Mas quando a gente fala de uma divisão, quando eu uso um canal, quando eu uso o outro?
+
+Então o LinkedIn tem aquela característica de ter uma qualidade melhor, ser mais fácil atingir essas pessoas, só que numa quantidade bem menor, então geralmente é algo que eu não consigo escalar.
+
+Então o que eu recomendo, por exemplo? "Eu tenho que escolher um dos três canais, eu estou começando agora.
+
+Não uso nada de mídia social ainda.
+
+O que eu posso fazer para ter os meus primeiros resultados?" O LinkedIn, nesse cenário, seria a melhor opçãoPorque o Instagram e o YouTube é quando eu quero escala, é quando eu quero com que a minha mensagem seja alcançada pra mais pessoas.
+
+Fazendo uma analogia, o LinkedIn é como o bater na porta da empresa, só que eu vou fazer isso de forma digital.
+
+Então eu vou atrás da empresa.
+
+Eu vou lá, faço uma pesquisa das empresas, mando uma mensagem, então eu estou indo atrás da empresa.
+
+Já o Instagram e o YouTube, têm o comportamento inverso.
+
+Eu faço com que as pessoas conheçam o meu posicionamento, o que eu tenho pra oferecer e quem tem interesse, entre em contato comigo.
+
+Então a gente acaba invertendo.
+
+Mas, de novo, o que eu recomendo?
+
+Usa os três.
+
+Então LinkedIn, hoje, como que as pessoas mais usam?
+
+Foi o que eu comentei.
+
+Hoje é muito voltado pra essa questão de currículo, até algumas empresas estão lá, ficam mandando essas mensagens lá no inbox, mas de uma maneira extremamente estratégica.
+
+Então hoje, a gente trabalha com o que a gente chama aqui desses três movimentos, que seria: otimizar o perfil para o cliente, não pra recrutador, então quem quer ser consultor de TI tem que colocar o perfil pra ser encontrado pelas empresas como prestador de serviço, e não por recrutadores que estão atrás de pessoas pra trabalhar como CLT.
+
+Então a gente trabalha muito forte na parte da headline.
+
+Eu não vou falar o cargo que eu trabalho, não, eu vou falar o que eu resolvo.
+
+O movimento dois.
+
+Sempre fazendo essa analogia do CLT para o consultor.
+
+Conectar com quem toma as decisões daquele nicho escolhido, daquele segmento de empresa escolhido.
+
+Não os donos e gestores de empresa que você quer atender.
+
+Porque às vezes, o consultor acaba esquecendo disso e ele coloca as informações no perfil, mas ele só vai ser visto por quem está recrutando pra ser CLT.
+
+Então ele tem um perfil ali às vezes bacana, show de bola, mas nunca é encontrado, porque a forma com que criou o perfil no LinkedIn está muito voltado pra CLT.
+
+Abordagem de primeiro contato com método específico.
+
+Então aqui é aquilo que eu comentei pra vocês.
+
+A estratégia por trás do LinkedIn é muito aquela estratégia de você fazer um primeiro contato.
+
+Você escolhe ali algumas empresas e faz o primeiro contato.
+
+Aqui um script que a gente utiliza pra essa linha.
+
+Vou digitar a minha primeira linha do que eu quero postar.
+
+Mostro a minha especialidade de forma imediata, então já tenho que mostrar na primeira linha o que eu resolvo.
+
+Lembra, gente, específico gera confiança, trabalhar com várias coisas, isso não gera confiança.
+
+Ao contrário, isso vai gerar objeções. "Esse cara mexe com muita coisa, será que ele conhece tudo?" Lembra do que a gente viu no posicionamento.
+
+E extremamente importante a segunda parte.
+
+Se você dentro da sua mensagem no LinkedIn, conseguir demonstrar pra quem está lendo aquilo que você conhece o mercado dele, que você não simplesmente é um profissional que entrou em contato e sabe-se lá o que aquele mercado faz, dá uma outra visão pra quem está lendo.
+
+Então pegando aquele exemplo que eu dei lá em cima, quando você vem e fala: "Poxa, olha só, eu atuo com empresas jurídicas, eu sei que empresas jurídicas existem ali a parte de audiência que não pode parar, existe a parte de prazos com processo que não pode parar, então existem serviços extremamente críticos que não podem parar".
+
+Quando alguém lê isso, fala: "Poxa, esse cara sabe do que está falando.
+
+Esse cara conhece o meu mercado.
+
+Poxa, ele sabe que a gente tem audiência, sabe que a gente tem processo, então ele sabe do que está falando".
+
+Dá uma outra linha.
+
+Provavelmente vocês já devem ter visto hoje.
+
+Hoje no LinkedIn, é aquele negócio genericão. "Eu faço isso", só fala o que faz.
+
+Cara, isso não vai atrair a atenção de ninguém.
+
+Agora quando você vem e fala: "Eu faço isso, de forma específica, eu sou muito bom nisso aqui.
+
+E esse seu mercado eu conheço, eu sei qual é o problema dele, eu sei o que eu tenho que garantir pra que o seu negócio não pare de funcionar", quem está lendo isso do outro lado, desarma aquelas objeções de "poxa, será que esse cara realmente sabe?" Fala: "Além dele falar que tem um conhecimento técnico bom, ele conhece do meu negócio".
+
+Isso aqui muda completamente uma pessoa que olha e vai entrar em contato de uma pessoa que vai ler e falar: "Cara, é só mais um no mercado enchendo o saco".
+
+Terceira linha.
+
+Não, cara, todas as mídias sociais, tá, pessoal?
+
+É um erro muito comum hoje.
+
+LinkedIn, Instagram, YouTube, essas plataformas não foram feitas pra eu fechar a venda por elas.
+
+Ela é o que a gente chama de meio, é um meio pra eu chegar em um fim.
+
+Então quando eu entro em contato com a pessoa lá no LinkedIn, eu não vou tentar fechar minha consultoria dentro do LinkedIn.
+
+A terceira linha é um pedido de conversa, não estou vendendo nada.
+
+Eu não estou vendendo nada.
+
+Eu estou tentando agendar uma conversa, para que eu explique melhor como que eu posso ajudar aquela empresaAntes mesmo de oferecer, fala: "Eu faço isso, eu conheço o seu negócio, o seu negócio tem essas dores.
+
+Quer conversar como eu posso ajudar você a resolver essas dores?" Ponto final.
+
+Não precisa ser vendedor chato.
+
+Vendedor chato não vende nada.
+
+Instagram e YouTube, menos qualificado.
+
+Então você vai ter uma quantidade de pessoas menos qualificadas, só que tem massa.
+
+Fazendo uma proporção besta, aqui no LinkedIn, enquanto eu alcanço 100 pessoas, usando as estratégias na mesma pegada, no Instagram e YouTube, eu alcanço 100 mil.
+
+Por isso que eu não descarto nenhum desses canais, eu uso todos.
+
+Instagram e YouTube é muito bom pra eu ter uma presença online, pra eu ser conhecido.
+
+Vai ser muito difícil eu conseguir isso só no LinkedIn.
+
+Instagram e YouTube, presença online, eu estou ali aparecendo toda hora, por isso a importância do posicionamento, porque uma hora o cara vai falar: " esse cara fala tanto disso aqui que não é possível que ele seja ruim nisso aqui".
+
+Ideal pra presença online, ideal pra anúncio.
+
+Anúncio Instagram e YouTube é maravilhoso.
+
+E o custo muito baixo.
+
+E o principal pra mim.
+
+Hoje, se eu fizer uma proporção, quanto que eu invisto LinkedIn, Instagram e YouTube?
+
+Se pegar uma proporção, 5% LinkedIn, 20% YouTube, 75% Instagram.
+
+Hoje é essa divisão que eu tenho.
+
+Eu foco muito no Instagram.
+
+Ideal pra anúncios.
+
+E aqui o principal pra mim, que é por isso que eu invisto muito mais nessa plataforma do que no LinkedIn.
+
+Inverte os papéis, eu faço com que o cliente entre em contato comigo.
+
+Por quê?
+
+Porque eu tenho uma presença online forte e eu tenho anúncio pra potencializar essa presença online, pra aparecer cada vez pra mais pessoas.
+
+Então inverte os papéis, ao invés de eu ficar indo lá no LinkedIn me apresentando, não, eu faço com que o cliente, gostou da minha mensagem, entre em contato aqui.
+
+Gostou desse posicionamento, entendeu?
+
+Entre em contato aqui.
+
+Então essas são as diferenças que a gente tem.
+
+Reuniões, aqui a parte de fechamento.
+
+Então vê como tudo é uma jogadinha.
+
+Posicionamento, o que eu quero vender, aonde que eu vou oferecer e o fechamento, como que eu vou fechar tudo isso.
+
+Reuniões.
+
+Perguntas matadoras.
+
+Toda reunião tem que ter essas perguntas, lembra?
+
+Que o nosso amigo colocou.
+
+Consultor é muito mais ouvir do que falar.
+
+Então aqui são perguntas pra quê?
+
+Pra você fazer o cliente se abrir.
+
+Pergunta um: qual o maior risco de TI pro seu negócio hoje?
+
+E lembra do seguinte.
+
+Lembra que aqui o cliente já viu que você tem presença online, você tem um posicionamento forte, então aqui não é uma pergunta que você está fazendo pra uma pessoa que não sabe nada de você.
+
+Porque se você não tem presença online, não tem nada disso, chega pro cliente e pergunta isso aqui na hora, ele já desbaratina, sai fora.
+
+Agora quando ele entendeu o seu posicionamento, sabe que você conhece o nicho dele, o negócio dele, e você faz uma pergunta dessa pra ele, ele vai se abrir.
+
+Qual o maior risco de TI para o seu negócio hoje?
+
+A pergunta um abre o espaço, o cliente começa a falar, lembra?
+
+Você precisa ser um bom ouvinte.
+
+Pergunta dois: já teve algum incidente que causou impacto financeiro?
+
+O que aconteceu?
+
+Faz ele verbalizar o custo do problema.
+
+O Alisson perguntou: "Tenho dificuldades em precificar os serviços, você vai entrar nesse tema?" Essa pergunta que vai ajudar você a precificar o serviço.
+
+Porque uma coisa é você não saber nada de quanto impacto aquilo que você tem a oferecer pode causar pra um cliente, principalmente se já causou, você não tem ideia nenhuma e você cobra por hora, você vai ficar totalmente no escuro.
+
+Agora quando você, ao invés de cobrar por hora, você cobra por impacto e resultado que o seu serviço está gerando pra empresa e você tem as informações de quanto de impacto financeiro gera se ele não contratar o seu serviço, se aquilo que você está evitando acontecer, você consegue chegar num valor muito mais assertivo.
+
+Por exemplo, já teve algum incidente que causou impacto financeiro?
+
+O que aconteceu? "Poxa, a minha empresa foi invadida pelo ransomware, criptografaram tudo, a empresa ficou fora ali uma semana e dentro de uma semana eu tive 100 mil de prejuízo".
+
+Beleza, ele teve 100 mil de prejuízo.
+
+Eu tenho isso, isso e isso pra montar pra ele.
+
+Parte de firewall, parte de um bom antivírus.
+
+Eu vou fazer um contrato recorrente mensal.
+
+Se ele teve um impacto de 100 mil, poxa, será que se eu cobrar 5 mil por mês, ele vai achar caro?
+
+Claro que não, o impacto que ele teve foi muito maior.
+
+Então pra conseguir chegar num bom preço.
+
+E lembrando, a galera que já se inscreveu na nossa imersão, o Consultor Recorrente, eu vou falar já um pouquinho dela daqui a pouquinho, a gente vai entregar uma planilha onde vocês vão conseguir precificar de uma maneira mais assertiva seguindo essa estratégiaLembra, pessoal, não cobrem por hora, porque às vezes o que você vai fazer é rápido, só que o impacto do que você está fazendo é extremamente gigantesco pra empresa, é deixar dinheiro na mesa cobrar por hora.
+
+Tá bom? "Como você resolve hoje quando aparece um problema técnico?" Aqui o cliente vai falar, principalmente se ele está pensando em trocar de consultor, ele vai falar o que não está agradando ele.
+
+Então aqui é pra você anotar e falar: "Cara, isso aqui eu não posso cometer".
+
+E por fim, "o que você precisaria ver para considerar uma parceria contínua em TI?" Aqui é aquela pergunta do contrato recorrente.
+
+Essa é a mais importante, você está pedindo pra ele te dizer o que ele precisa pra fechar com você.
+
+Não tem pergunta de fechamento mais poderosa do que essa. "Você já entendeu aqui o que eu faço, já entendi qual é o risco da sua empresa, os impactos que você teve, inclusive parte financeira, já entendi o que você não está gostando.
+
+Beleza, e pra gente fechar aqui, o que você considera pra gente fazer uma parceria?" Aqui eu não estou falando nem de valores ainda.
+
+Aqui é onde a gente vai começar a ouvir: "Ah, eu contratei a empresa tal, aí tive esse problema.
+
+Eu contratei a empresa tal, tive esse problema.
+
+Eu tive um consultor que eu tinha um contrato mensal, nunca conseguia falar".
+
+Aqui é onde ele vai pontuar todos os problemas que ele teve no passado e o porquê ele está indo atrás de você.
+
+Então todas essas perguntas precisam ser muito bem anotadas, essas perguntas precisam ser muito bem estudadas pra chegar à parte final, que é montar o contrato, mandar o contrato pra ele, com valor, com escopo e tudo mais.
+
+Então se você consegue fazer essas perguntas e extrair o propósito ao qual essas perguntas existem, você vai conseguir fazer um contrato, primeiro, lucrativo pra você, que não vai dar dor de cabeça.
+
+Você vai saber o que o cliente quer, então você, claro, não vai cometer os erros que outros cometeram.
+
+Não vai correr o risco de perder contrato.
+
+Então essas perguntas são perguntas importantes.
+
+E essa pergunta dois aqui, é a pergunta mais importante pra eu definir qual que vai ser o meu valor.
+
+E eu vou utilizar isso aqui como âncora.
+
+O que a gente chama de âncora?
+
+Eu falo um valor alto e quando eu falo um valor baixo, na mente do cliente, aquilo gera um impacto.
+
+Então quando eu falo pra ele: "O serviço que eu estou te oferecendo vai fazer com que sua empresa deixe de ter um prejuízo de R$ 100 mil, e o valor que eu vou cobrar é R$ 5 mil".
+
+Então isso que a gente chama de ancoragem, eu vou de um valor alto pra um valor extremamente baixo pro cliente ficar com aquele valor alto ancorado, ele fica com aquilo na mente, R$ 100 mil.
+
+Quando eu venho com valor de R$ 5 mil, isso baixa o que a gente chama de barreira mental.
+
+Maravilha?
+
+Tive um cliente essa semana, que aconteceu exatamente isso.
+
+Fui conduzir na reunião, ele foi exato.
+
+Gente, o cliente fala, é que tem que saber perguntar.
+
+Agora o que não adianta, por exemplo, é eu, sem um bom posicionamento, sem nada, fazer essas perguntas que o cliente não vai confiar muito em mim.
+
+Agora quando eu tenho um bom posicionamento, quando eu tenho uma boa oferta, até esqueci a palavra aqui que eu usei, quando eu tenho uma boa presença online, quando eu faço essas perguntas, o cliente vai soltando.
+
+Maravilha?
+
+Pessoal, quem está curtindo até aqui, digita o número um aí.
+
+Quero ver quem virou bot e quem está ao vivo ainda.
+
+A galera não virou bot, não.
+
+Agora eu quero mostrar isso pra vocês pra gente finalizar aqui, antes de eu falar aqui e dar detalhes da nossa imersão, eu quero pegar um case aqui.
+
+Então só precisam, me ajudem aí, eu só preciso saber o que você quer vender.
+
+Só me coloca aí: "Eu quero vender serviço disso".
+
+Só isso.
+
+Segurança, sei lá, qualquer coisa.
+
+Eu dei o exemplo aqui do Alisson, agora eu quero pegar um outro exemplo pra mostrar pra vocês isso dentro da inteligência artificial.
+
+Vou usar aqui o Claude.
+
+Só coloquem aí: "Eu queria vender isso".
+
+Eu vou deixar a IA fazer o resto.
+
+Serviço de infra.
+
+Posso entender esse FW como firewall?
+
+Seria isso?
+
+Beleza, então vamos lá.
+
+Vou pegar aqui o exemplo do Álvaro.
+
+Então vou pro Claude aqui.
+
+E é claro, eu não sei se vocês já estão utilizando a inteligência artificial, mas hoje inteligência artificial sem agentes não é nada.
+
+Então tem que ter os agentes configurados.
+
+E eu tenho aqui um agente, que é o pesquisa de mercado.
+
+Então vocês vão testar, depois testem.
+
+Se vocês usarem o Claude pra fazer essa pesquisa de mercado, vocês vão ver que o resultado vai ser completamente diferente do meu, porque o meu já está treinadoE lembrando, Narciso está aí, ele está lá na nossa imersão.
+
+Lembrando que a galera que está na nossa imersão vai receber todos, dentro aqui do Cloud a gente acaba chamando diferente, ele chama de skill, mas vão receber todas essas skill aqui também.
+
+A gente vai entregar tudo isso aqui.
+
+Então vou chegar aqui, vou pegar aqui o do Álvaro: "Me ajude a fazer uma pesquisa de mercado detalhada.
+
+Encontre brechas pouco exploradas.
+
+Eu sou consultor de TI e quero oferecer serviços de implementação e administração de firewalls corporativos.
+
+Com base nessas informações, faça essa pesquisa de mercado detalhada".
+
+Vamos deixar ele trabalhar.
+
+Ele vai ler a minha skill, que já está treinada, então ele está lendo ela.
+
+Então tudo que eu tenho treinado nessa skill, ele vai utilizar aqui para fazer essa pesquisa de mercado.
+
+Pesquisa de mercado firewall corporativo, consultoria de implementação e administração mercado brasileiro.
+
+O mercado de segurança de perímetro no Brasil está em expansão.
+
+Então quando eu vejo isso aqui, já é pulo de alegria, por quê?
+
+O Álvaro já sabe na primeira linha da IA, ele já sabe que o que ele está oferecendo é algo que está crescendo, não é algo que está estabilizado e nem algo que está em declínio.
+
+Se tivesse, ele iria me avisar aqui.
+
+Ele me avisa.
+
+Então é uma baita ideia aqui, fala: "Cara, o que você está querendo vender, vai para cima".
+
+Aí vamos continuar.
+
+Aí ele começa.
+
+LGPD, aumento brutal de ataque, olha isso, inclusive para eu usar na copy.
+
+Aumento brutal.
+
+O Brasil é historicamente um dos países mais atacados da América Latina.
+
+Eu tenho certeza absoluta que pessoas de tecnologia de pequenas e média empresa não sabem disso aqui.
+
+Agora imagina o Álvaro chegar, monta lá o posicionamento dele tudo bonitinho e uma das copy que ele usa lá para o posicionamento dele é: "Cara, você sabia que o Brasil historicamente é um dos países mais atacados na América Latina?
+
+Ransomware, phishing, você sabia disso?
+
+Você sabia que a sua empresa está em risco agora?
+
+Você sabia que pode ter um funcionário seu agora clicando no e-mail e caindo em um phishing?" Olha a linha de argumentação, então ele está me trazendo tudo.
+
+Migração para trabalho híbrido.
+
+Trabalho híbrido trouxe essa visão de segurança de uma maneira muito mais ampla do que a gente tinha no passado.
+
+Movimento, Next Generation Firewall.
+
+Tem gente que não sabe o que é isso. "Você sabia que o seu firewall que você tem é um firewall legado?
+
+Sabia que a gente está numa era que a gente chama de Next Generation Firewall?" Linha de argumentação.
+
+IA do lado errado.
+
+Cara, isso aqui para mim é uma das coisas que mais vai crescer para quem é de segurança.
+
+É segurança voltada para IA.
+
+Quem é de segurança, quem aproveitar essa brecha de mercado agora, vai se dar bem, porque ninguém está falando muito disso ainda.
+
+Já estou falando aqui para consultores independentes, empresas de consultoria menor, ninguém está falando disso aqui ainda.
+
+Dores reais do público, olha que legal.
+
+Ele fez uma pesquisa para mim, ele está falando: "É isso que o pessoal está reclamando".
+
+Temos firewall, mas não sabemos se está funcionando.
+
+Olha aqui aquele gatilho para um contrato mensal.
+
+Cara, não adianta nada você ter seu firewall ligado.
+
+Você sabe se está funcionando?
+
+Sabe se está batendo nas regras?
+
+Em uma tentativa de invasão, quem que está cuidando disso?
+
+Ele está me dando isso aqui.
+
+Temos firewall, mas não sabemos se está funcionando.
+
+É uma frustração concreta.
+
+A empresa comprou um Fortinet, um PFSense, o técnico de TI interna configurou do jeito que sabia e ninguém mais tocou nisso, ficou parado lá.
+
+Então isso aqui, pessoal, não é algo da minha cabeça, ele está falando que é uma dor, o público já sente isso hoje.
+
+O que tentou?
+
+Confiou no técnico de TI, generalista interno, olha o posicionamento entrando aqui.
+
+Generalista interno ou o revendedor que vendeu o hardware e sumiu.
+
+Por que não funcionou?
+
+O revendedor de hardware não faz gestão, TI interna não tem especialização em segurança de rede.
+
+O impacto, a empresa acredita que está protegida, mas está completamente exposta ao risco.
+
+Dor dois: fomos atacados e não sabemos nem como aconteceu.
+
+Isso aqui é engraçado.
+
+Os caras aí quem é de segurança deve estar rindo também, porque isso é o que eu mais ouço.
+
+A gente foi atacado, mas não sei nem de onde veio.
+
+O ransomware entrou, criptografou os servidores, a operação parou três dias, prejuízo de 50 a 100 K.
+
+Firewall estava lá e mesmo assim aconteceu.
+
+Então está vendo que aqui é tudo linha, é o que o pessoal já está falando hoje, então eu tenho que aproveitar isso, porque lembra, eu preciso ter uma comunicação assertivaQuando eu vou e falo isso aqui numa mensagem, é o que o pessoal já sente.
+
+Eu não estou indo no achismo: "Puxa, será que o pessoal está pensando isso?".
+
+Não, o pessoal já está falando de ransomware que criptografou, que teve prejuízo e o firewall estava lá.
+
+Então eu não vou sair inventando coisa da minha cabeça, eu tenho que falar o que está na mente de quem eu quero vender.
+
+Chamou técnico de emergência, pagou o resgate ou não, formatou tudo.
+
+Olha que legal, nem sei de onde veio.
+
+Sai formatando tudo, volta sem entender a causa raiz.
+
+Vergonha da gestão perante a diretoria, medo que aconteça de novo, ansiedade sobre repostos.
+
+Fornecedor some depois que vende equipamento.
+
+Precisamos de relatório de segurança para auditoria, a TI interna não dá conta e não queremos contratar mais CLT.
+
+Então aqui ele está falando de várias dores.
+
+Desejos ocultos, olha o nível desse agente.
+
+Desejo oculto, mal entendido.
+
+O que eles verbalizam? "Eu quero implementar um firewall bom".
+
+Só que o que eles realmente querem?
+
+Eu estou entregando ouro aqui para vocês.
+
+O Álvaro não pode ir pro mercado e falar: "Eu quero implementar um firewall".
+
+Meu Deus! "Ah, mas é isso que os clientes querem".
+
+É, é o que ele verbaliza, é o que ele fala, mas por dentro o sentimento é diferente.
+
+Qual é o sentimento por dentro?
+
+O cara quer dormir tranquilo, saber que a empresa está protegida sem precisar entender de tecnologia.
+
+Não ser o responsável quando der errado, ter um especialista que assume.
+
+O cara às vezes nem é de TI, coitado, sobra para ele.
+
+Prestígio interno, o gestor de TI quer mostrar para a diretoria que está no controle.
+
+Compliance sem dor, aqui para LGPD.
+
+Previsibilidade de custo, trocar o imprevisível, aconteceu um incidente, igual a causa e custo alto, por um mensalzinho, previsão de gestão, e por aí vai.
+
+Ele começa a fazer aqui um monte de coisa.
+
+Quem existe no mercado?
+
+Aqui ele vai falar de algumas empresas.
+
+Pontos fracos, olha aqui que legal, porque eu coloquei para ele.
+
+Eu falei: "Cara, eu não quero ser só mais um no mercado, eu não quero vender o que todo mundo vende, eu quero explorar uma brecha".
+
+Ponto fraco que a concorrência não fala.
+
+Ninguém fala a língua do empresário médio, fala tecnês, cada vez mais.
+
+Agente de TI, cada vez mais, tem que falar a língua de negócio e não a língua técnica.
+
+Ninguém atende bem a faixa de empresas de cinco milhões até 100 milhões de faturamento.
+
+Olha isso aqui, gente.
+
+Olha o Álvaro indo na empresa e falando: "Além de cuidar de tudo aqui, todo final de mês eu vou te entregar um relatório executivo, não com tecnês, com a linguagem que você entende".
+
+Ninguém se posiciona claro.
+
+Olha o posicionamento, especialista em firewall.
+
+A maioria vai se posicionar como o cara de segurança, só que segurança é gigantesco, todos são generalistas, então todo mundo fala de segurança.
+
+Contratos engessados ou sem contrato nenhum.
+
+Aí começa a brecha um, pequenas e médias empresas, indústrias, OT, IT.
+
+Cara, isso aqui também está crescendo pra caramba.
+
+IT.
+
+Brecha dois, migração compulsória de appliance legado.
+
+Então, esse seu firewall aí já deu.
+
+Firewall as a service.
+
+Nossa, isso aqui também cresce demais.
+
+Relatório de conformidade para seguros cibernéticos.
+
+Olha aqui, presta atenção, Álvaro.
+
+Ele já foi, inclusive, em algumas empresas que você pode começar.
+
+Brecha cinco, escritório de advocacia, contabilidade, saúde.
+
+São segmentos com dados sensíveis, LGPD é pesada e não tem nenhuma maturidade em segurança.
+
+Olha o nível de informação que ele está dando para mim aqui de mercado.
+
+Olha isso, ele chega até a falar de preço.
+
+Vamos fazer um assessment de segurança, de firewall?
+
+É um serviço pontual, é um projeto, eu vou fazer o assessment.
+
+Quanto que você pode cobrar?
+
+De 3 a 8 mil.
+
+E aqui ele não está inventando.
+
+Aqui ele está pegando dados, é uma IA, está pegando um monte de dados para montar isso aqui.
+
+Implementação completa de um projeto, assessment, implementação, também um serviço pontual, é um projeto de 8 a 30 mil.
+
+Firewall, gerenciamento mensal recorrente, quanto que eu posso cobrar para manter o firewall funcionando?
+
+De 1500 a 4500 por mês, só o firewall.
+
+Migração de appliance legado, e aqui vai.
+
+Aí ele fala: estratégia recomendada.
+
+Isso é o que eu faço hoje.
+
+Esse aqui é o meu modelo de negócio hoje.
+
+Usa o projeto pontual, implementação, acesso, como porta de entrada.
+
+Lembra o que eu falei pro Alisson.
+
+Gente, é ponto de entrada, é o primeiro contato.
+
+Depois, meu amigo, sai arregaçandoUsa como ponto de entrada, depois converte pra uma gestão mensal.
+
+Então se eu fosse o Álvaro, o que eu faria? "Vamos fazer um assessment?" Fez o assessment? "Cara, vamos fazer a implementação?" Fez a implementação? "Vamos fazer uma recorrência?" Escadinha.
+
+Big idea de posicionamento, aqui o Álvaro vai pirar agora.
+
+Big idea um: o Álvaro é o especialista em firewall corporativo, que fica ao seu lado depois da instalação pra sempre.
+
+Aqui ataca diretamente a dor do fornecedor.
+
+A big idea dois: olha essa aqui que frase.
+
+O Álvaro vai trazer o fim do firewall decorativo, segurança de rede que realmente funciona para empresas de médio porte.
+
+Proteja sua empresa sem contratar um especialista interno, firewall gerenciado por assinatura, aqui pegando o firewall como serviço.
+
+De empresa vulnerável a empresa auditável em 30 dias.
+
+Olha que big idea poderosa também.
+
+Essa aqui eu já não sou muito fã, não gosto muito de falar "o único do Brasil", esse negócio tende a dar muita objeção, mas ele trouxe aqui.
+
+Aí ele começa insights.
+
+Enfim, pessoal, aqui ele está trazendo um monte de informação e no final ele dá um veredito.
+
+Vai falar: "Cara, o meu veredito final: entregue agora".
+
+Álvaro, você tem que começar a falar disso agora, se você não fala.
+
+E se você já fala, tem que falar ainda mais.
+
+Agora, não é pra deixar pra depois, tem que ser agora.
+
+Agora.
+
+Enfim, aqui daria pra aprofundar mais nesse agente, mas não seria o tópico aqui da nossa aula.
+
+Vocês estão vendo, pessoal?
+
+A IA trouxe pra mim essa parte de posicionamento, ele me deu recomendações, porque gente, posicionamento é extremamente importante.
+
+Pegou aí, Álvaro.
+
+Várias ideias aqui.
+
+Tem um monte de coisa que ele ainda fala aqui.
+
+Beleza?
+
+E como eu falei no começo da nossa aula, essa aula é a pontinha do iceberg do que a gente vai ter na nossa imersão consultor recorrente.
+
+Qual é o objetivo dessa imersão?
+
+Essa imersão é focada na parte de implementação.
+
+Então vocês vão aprender todas as estratégias pra fechar contratos recorrentes.
+
+Com tudo isso que a gente viu, posicionamento, o que a gente falou aqui de maneira mais rápida, vocês vão aprender dentro dessa informação de uma maneira mais completa.
+
+Aprender essa parte de copy.
+
+Mas lembra, vocês vão ter os agentes, não vão precisar ser um especialista, vocês vão ter os agentes pra tudo isso aqui.
+
+Então toda a parte de posicionamento, copy, o que vender, a parte dos canais.
+
+Lembra, eu tenho Instagram, eu tenho YouTube, eu tenho LinkedIn.
+
+Então como usar de forma efetiva esses canais.
+
+A parte de condução das reuniões.
+
+Então vocês vão receber scripts prontos.
+
+Essa vai ser uma imersão de dois dias, a gente está fechando os dias, vai ser em maio, e vai ser das 18 até as 22.
+
+Então vão ser duas noites completas.
+
+A minha meta, dentro dessa imersão, é que todos os alunos tenham tudo isso implementado.
+
+Então é o que eu falei: "Gente, aqui é pra quem quer agir.
+
+Pra quem quer só ficar ouvindo, eu não faria esse investimento agora".
+
+Agora, se você colocou como meta, você entendeu aqui a metodologia e quer colocar pra rodar, quer colocar em prática, então essa imersão é pra você, porque é uma imersão focada na implementação.
+
+Aprende, implementa.
+
+Então todo mundo vai sair dessa imersão com tudo implementado.
+
+Vai ter páginas, como configurar essas páginas, montar as copies, a parte de anúncio, a parte das mídias sociais, a parte de automações, a parte de IA que eu vou mostrar.
+
+Então aqui é pra quem quer colocar pra rodar, pra quem quer começar a jogar o jogo do jeito certo.
+
+Então pra aqueles que colocaram QSLT e querem começar a ter os primeiros contratos recorrentes, aqui está a oportunidade.
+
+Pra quem já é consultor e quer faturar ainda mais, aqui está a oportunidade de fechar esses contratos recorrentes utilizando as estratégias.
+
+Pra aqueles que garantir a vaga hoje, a gente ainda vai liberar, já havia encerrado o primeiro lote.
+
+O valor de primeiro lote, o valor de investimento é R$ 497, esse valor pode ser dividido em até 12 parcelas no cartão.
+
+Então eu estou falando de um valor, que o primeiro contrato recorrente que vocês fecharem já vai cobrir muito esse investimento da imersão.
+
+Não vai fechar um contrato de menos de R$ 1000.
+
+Então aqui R$ 497 à vista ou R$ 497 pode ser dividido em até 12 parcelas no cartão de crédito.
+
+E pra quem fechar hoje, a gente ainda vai liberar de bônusA gravação com acesso vitalício. "Poxa, gostei da proposta, só que eu vou colocar a implementação no segundo semestre".
+
+Beleza, você vai ter a gravação pra acompanhar.
+
+Eu só peço uma coisa: coloca pra rodar, você vai ver o resultado.
+
+O que mais vocês vão receber de bônus?
+
+Todos os scripts.
+
+A gente vai entregar vários scripts.
+
+Negociação pra reunião, script de mídias sociais.
+
+A gente vai entregar todos os scripts pra vocês.
+
+E eu vou entregar também como bônus, vocês vão ter a planilha de precificação também, pra definir preço.
+
+E eu vou entregar também os agentes.
+
+Eu mostrei um pra vocês, mas eu tenho vários, os agentes de inteligência artificial.
+
+Porque o mercado é aquilo.
+
+O mercado muda muito.
+
+Então possa ser que essa pesquisa que eu fiz pro Álvaro hoje, possa ser que no próximo ano ele já indique coisa diferente.
+
+Então a gente vai liberar esses agentes de IA pra vocês, pra que vocês possam ir usando pra sempre estar consultando o mercado.
+
+E não só mercado, porque tem agentes com estratégias pra colocar tudo pra rodar também.
+
+Então a gente vai entregar tudo isso aqui de bônus pra aqueles que garantir a vaga agora.
+
+Valor de primeiro lote, R$ 497.
+
+Esse valor pode ser dividido em até 12 parcelas no cartão de crédito, e esses bônus, a gravação dos dois dias com acesso vitalício, todos os scripts, negociação pra LinkedIn, pra WhatsApp, planilha de preço e os agentes de IA que a gente vai utilizar também.
+
+Pra quem quiser garantir a vaga com essa condição e os bônus, eu vou colocar agora aí no chat o link.
+
+Então o link já está com o valor do primeiro lote ainda, R$ 497, que pode ser dividido em até 12 parcelas no cartão de crédito.
+
+E a nossa meta zero.
+
+Eu gosto até de colocar como meta zero.
+
+A nossa meta zero vai ser o quê?
+
+Cara, você já fechar o seu primeiro projeto, primeiro contrato recorrente o mais rápido possível, pra você já recuperar o investimento da imersão.
+
+E dali pra frente vai ser só lucro.
+
+E esses agentes vão ajudar muito vocês nesse processo, porque vocês sempre vão estar atualizados.
+
+Vou pegar aqui o caso do Álvaro, que a gente ajudou lá via agente.
+
+Poxa, o Álvaro está rodando, está funcionando, está vendendo o serviço de firewall.
+
+Começou a parar de funcionar.
+
+Beleza, Álvaro, o que você vai fazer?
+
+Você vai pegar o agentezinho que a gente liberou e você vai fazer uma nova pesquisa no mercado pra ver se aquilo já não deu uma saturada.
+
+E o mais legal é que o agente está preparado pra quando dar uma saturada, ele recomendar outras coisas.
+
+Então ele vai recomendar: "Olha, Álvaro, cara, isso aqui no ano passado funcionou bem.
+
+Só que a gente está vendo uma tendência de declínio no mercado, por isso que suas vendas diminuíram, por isso que seus projetos diminuíram.
+
+Só que em contrapartida, a gente tem esse outro ponto que está crescendo.
+
+Vamos atacar esse outro ponto?" Então ele vai também ajudando em todo esse processo de atualização de mercado.
+
+Então é um agente completo.
+
+E lembrando, não é agente só pra isso.
+
+Tem lá agente de anúncio pra montar anúncio.
+
+Porque lembra, anúncio, cara, é aquilo, se você não sabe montar, você joga dinheiro fora.
+
+Então o agente está ali pra te estruturar como que deve ser os seus anúncios.
+
+Ele vai ajudar na criação de todos os anúncios.
+
+Copy pra Instagram, "poxa, como que eu gravo um vídeo reels?
+
+O que eu tenho que falar?" Também tem agente pronto pra isso, ele vai entregar tudo.
+
+Então tudo que vocês forem aprender e eu vou ajudando vocês a implementar dentro da nossa imersão, vocês vão poder continuar fazendo depois e muito depois, anos depois, porque vocês vão ter os agentes ali pra utilizar.
+
+E outra coisa que eu esqueci de mencionar, que pra mim é um dos bônus principais.
+
+A imersão são dois dias.
+
+Mesmo depois desses dois dias, vocês vão continuar ali por 90 dias, em uma comunidade com todos os alunos.
+
+E por que pra mim, esse é um dos bônus mais importantes, dos bônus que eu enxergo mais valor?
+
+Essa palavra simples aqui: parcerias.
+
+Vamos lá, o Álvaro é o cara de segurança.
+
+Maravilha, o Álvaro é o cara de segurança.
+
+E ele não conhece, por exemplo, gestão de infraestrutura de TI, que é o que o Narcisio vende.
+
+Cara, por que não fechar uma parceria?
+
+O que é melhor pro Álvaro?
+
+O cliente dele chegar e falar que precisa de uma gestão de infraestrutura de TI e ele passar pra qualquer outra pessoa, nem falar pro cliente, "eu não atendo".
+
+O cliente fechar com outra pessoa e ele não ganhar nada, ou ele fechar uma parceria com o Narcisio falando: "Não, Narcisio, vamos fechar uma parceria.
+
+Os clientes que eu tenho, quando precisarem de gestão de infra, você me indica, e os clientes que precisarem de firewall, você me indica".
+
+Essa parceria vocês podem conduzir da melhor maneira.
+
+Eu tenho alunos hoje que a parceria é simplesmente troca mesmo, como parcerias com porcentagem.
+
+Então o que você me indicar, você ganha 30%, o que eu te indicar, e assim vai.
+
+Então essa comunidade vai ser muito boa também pra quem pensa em fechar esses tipos de parceria, pra não deixar dinheiro na mesa.
+
+É não deixar dinheiro na mesaMaravilha, turma!
+
+Está aí o link no chat.
+
+Aqueles que garantir a vaga hoje, além de levar esse valor de primeiro lote, R$ 497, ainda vão receber de bônus a gravação com acesso vitalício, o script, planilha de preço, todos os agentes de A prontos só pra usar e mais 90 dias de comunidade.
+
+Maravilha, turma?
+
+Alguém quer fazer alguma pergunta?
+
+Alguém tem alguma dúvida?
+
+Deu pra entender?
+
+Curtiram a aula?
+
+Show de bola.
+
+Maravilha, turma.
+
+Está aí a oportunidade pra quem quer dar esse próximo passo, pra quem quer fazer essa migração pra uma consultoria, pra ser um consultor de TI de forma lucrativa, sem riscos, com contratos recorrentes, que vai ser o foco da nossa imersão.
+
+E pra aqueles que já são consultores e querem ter mais clientes, mais contratos recorrentes, também está aí essa oportunidade. "Você tem alguma plataforma com todos os seus conteúdos?" Não, hoje não.
+
+A gente tem uma plataforma mais pra conteúdo técnico, mas também não tem todos, até porque a gente não deixa tudo aberto.
+
+Tem programas que ou é vendido uma vez só ou por um período específico.
+
+Então por isso que a gente não tem lugar que fica tudo junto.
+
+Que ficam todos os conteúdos.
+
+Maravilha, turma.
+
+Show de bola!
+
+Um grande abraço pra vocês.
+
+A galera que está chegando junto na imersão, fiquem atentos que o time vai entrar em contato com vocês no WhatsApp pra passar a data certinho.
+
+Eu tenho certeza que a gente vai levar a sua consultoria pra um próximo nível.
+
+Legal?
+
+Grande abraço, fiquem com Deus e até a próxima.
+
+Valeu, turma!

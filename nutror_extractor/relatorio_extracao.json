@@ -1,0 +1,205 @@
+{
+  "total": 33,
+  "sucessos": 32,
+  "falhas": 1,
+  "detalhes": [
+    {
+      "aula": "aula_01",
+      "url": "https://player.vimeo.com/video/1121009038",
+      "status": "cached",
+      "file": "C:\\Users\\matheus\\Desktop\\computacao\\nutror_extractor\\transcricoes_limpas\\aula_01.txt"
+    },
+    {
+      "aula": "aula_02",
+      "url": "https://player.vimeo.com/video/1108756292",
+      "status": "cached",
+      "file": "C:\\Users\\matheus\\Desktop\\computacao\\nutror_extractor\\transcricoes_limpas\\aula_02.txt"
+    },
+    {
+      "aula": "aula_03",
+      "url": "https://player.vimeo.com/video/1110621024",
+      "status": "cached",
+      "file": "C:\\Users\\matheus\\Desktop\\computacao\\nutror_extractor\\transcricoes_limpas\\aula_03.txt"
+    },
+    {
+      "aula": "aula_04",
+      "url": "https://player.vimeo.com/video/1114873268",
+      "status": "cached",
+      "file": "C:\\Users\\matheus\\Desktop\\computacao\\nutror_extractor\\transcricoes_limpas\\aula_04.txt"
+    },
+    {
+      "aula": "aula_05",
+      "url": "https://player.vimeo.com/video/1119522958",
+      "status": "cached",
+      "file": "C:\\Users\\matheus\\Desktop\\computacao\\nutror_extractor\\transcricoes_limpas\\aula_05.txt"
+    },
+    {
+      "aula": "aula_06",
+      "url": "https://player.vimeo.com/video/1119800798",
+      "status": "cached",
+      "file": "C:\\Users\\matheus\\Desktop\\computacao\\nutror_extractor\\transcricoes_limpas\\aula_06.txt"
+    },
+    {
+      "aula": "aula_07",
+      "url": "https://player.vimeo.com/video/1121209346",
+      "status": "cached",
+      "file": "C:\\Users\\matheus\\Desktop\\computacao\\nutror_extractor\\transcricoes_limpas\\aula_07.txt"
+    },
+    {
+      "aula": "aula_08",
+      "url": "https://player.vimeo.com/video/1122011912",
+      "status": "cached",
+      "file": "C:\\Users\\matheus\\Desktop\\computacao\\nutror_extractor\\transcricoes_limpas\\aula_08.txt"
+    },
+    {
+      "aula": "aula_09",
+      "url": "https://player.vimeo.com/video/1191919923",
+      "status": "cached",
+      "file": "C:\\Users\\matheus\\Desktop\\computacao\\nutror_extractor\\transcricoes_limpas\\aula_09.txt"
+    },
+    {
+      "aula": "aula_10",
+      "url": "https://player.vimeo.com/video/1191923007",
+      "status": "cached",
+      "file": "C:\\Users\\matheus\\Desktop\\computacao\\nutror_extractor\\transcricoes_limpas\\aula_10.txt"
+    },
+    {
+      "aula": "aula_11",
+      "url": "https://player.vimeo.com/video/1191931377",
+      "status": "cached",
+      "file": "C:\\Users\\matheus\\Desktop\\computacao\\nutror_extractor\\transcricoes_limpas\\aula_11.txt"
+    },
+    {
+      "aula": "aula_12",
+      "url": "https://player.vimeo.com/video/1193330582",
+      "status": "success",
+      "file": "C:\\Users\\matheus\\Desktop\\computacao\\nutror_extractor\\transcricoes_limpas\\aula_12.txt"
+    },
+    {
+      "aula": "aula_13",
+      "url": "https://player.vimeo.com/video/1195342854",
+      "status": "cached",
+      "file": "C:\\Users\\matheus\\Desktop\\computacao\\nutror_extractor\\transcricoes_limpas\\aula_13.txt"
+    },
+    {
+      "aula": "aula_14",
+      "url": "https://player.vimeo.com/video/1195418222",
+      "status": "cached",
+      "file": "C:\\Users\\matheus\\Desktop\\computacao\\nutror_extractor\\transcricoes_limpas\\aula_14.txt"
+    },
+    {
+      "aula": "aula_15",
+      "url": "https://player.vimeo.com/video/1195784769",
+      "status": "failed",
+      "error": "Nenhuma legenda encontrada/gerada para este vídeo."
+    },
+    {
+      "aula": "aula_16",
+      "url": "https://player.vimeo.com/video/1205787247",
+      "status": "success",
+      "file": "C:\\Users\\matheus\\Desktop\\computacao\\nutror_extractor\\transcricoes_limpas\\aula_16.txt"
+    },
+    {
+      "aula": "aula_17",
+      "url": "https://player.vimeo.com/video/1206209893",
+      "status": "success",
+      "file": "C:\\Users\\matheus\\Desktop\\computacao\\nutror_extractor\\transcricoes_limpas\\aula_17.txt"
+    },
+    {
+      "aula": "aula_18",
+      "url": "https://player.vimeo.com/video/1209558007",
+      "status": "success",
+      "file": "C:\\Users\\matheus\\Desktop\\computacao\\nutror_extractor\\transcricoes_limpas\\aula_18.txt"
+    },
+    {
+      "aula": "aula_19",
+      "url": "https://player.vimeo.com/video/1213423907",
+      "status": "success",
+      "file": "C:\\Users\\matheus\\Desktop\\computacao\\nutror_extractor\\transcricoes_limpas\\aula_19.txt"
+    },
+    {
+      "aula": "aula_20",
+      "url": "https://player.vimeo.com/video/1213948715",
+      "status": "success",
+      "file": "C:\\Users\\matheus\\Desktop\\computacao\\nutror_extractor\\transcricoes_limpas\\aula_20.txt"
+    },
+    {
+      "aula": "aula_21",
+      "url": "https://player.vimeo.com/video/1214706199",
+      "status": "cached",
+      "file": "C:\\Users\\matheus\\Desktop\\computacao\\nutror_extractor\\transcricoes_limpas\\aula_21.txt"
+    },
+    {
+      "aula": "aula_22",
+      "url": "https://player.vimeo.com/video/1215264117",
+      "status": "cached",
+      "file": "C:\\Users\\matheus\\Desktop\\computacao\\nutror_extractor\\transcricoes_limpas\\aula_22.txt"
+    },
+    {
+      "aula": "aula_23",
+      "url": "https://player.vimeo.com/video/1218100150",
+      "status": "cached",
+      "file": "C:\\Users\\matheus\\Desktop\\computacao\\nutror_extractor\\transcricoes_limpas\\aula_23.txt"
+    },
+    {
+      "aula": "aula_24",
+      "url": "https://player.vimeo.com/video/1218966732",
+      "status": "success",
+      "file": "C:\\Users\\matheus\\Desktop\\computacao\\nutror_extractor\\transcricoes_limpas\\aula_24.txt"
+    },
+    {
+      "aula": "aula_25",
+      "url": "https://player.vimeo.com/video/1219926734",
+      "status": "cached",
+      "file": "C:\\Users\\matheus\\Desktop\\computacao\\nutror_extractor\\transcricoes_limpas\\aula_25.txt"
+    },
+    {
+      "aula": "aula_26",
+      "url": "https://player.vimeo.com/video/1220931505",
+      "status": "cached",
+      "file": "C:\\Users\\matheus\\Desktop\\computacao\\nutror_extractor\\transcricoes_limpas\\aula_26.txt"
+    },
+    {
+      "aula": "aula_27",
+      "url": "https://player.vimeo.com/video/1221529663",
+      "status": "cached",
+      "file": "C:\\Users\\matheus\\Desktop\\computacao\\nutror_extractor\\transcricoes_limpas\\aula_27.txt"
+    },
+    {
+      "aula": "aula_28",
+      "url": "https://player.vimeo.com/video/1221908367",
+      "status": "cached",
+      "file": "C:\\Users\\matheus\\Desktop\\computacao\\nutror_extractor\\transcricoes_limpas\\aula_28.txt"
+    },
+    {
+      "aula": "aula_29",
+      "url": "https://player.vimeo.com/video/1222174336",
+      "status": "cached",
+      "file": "C:\\Users\\matheus\\Desktop\\computacao\\nutror_extractor\\transcricoes_limpas\\aula_29.txt"
+    },
+    {
+      "aula": "aula_30",
+      "url": "https://player.vimeo.com/video/1222769893",
+      "status": "cached",
+      "file": "C:\\Users\\matheus\\Desktop\\computacao\\nutror_extractor\\transcricoes_limpas\\aula_30.txt"
+    },
+    {
+      "aula": "aula_31",
+      "url": "https://player.vimeo.com/video/1222777789",
+      "status": "cached",
+      "file": "C:\\Users\\matheus\\Desktop\\computacao\\nutror_extractor\\transcricoes_limpas\\aula_31.txt"
+    },
+    {
+      "aula": "aula_32",
+      "url": "https://player.vimeo.com/video/1223342211",
+      "status": "cached",
+      "file": "C:\\Users\\matheus\\Desktop\\computacao\\nutror_extractor\\transcricoes_limpas\\aula_32.txt"
+    },
+    {
+      "aula": "aula_33",
+      "url": "https://player.vimeo.com/video/1223343194",
+      "status": "cached",
+      "file": "C:\\Users\\matheus\\Desktop\\computacao\\nutror_extractor\\transcricoes_limpas\\aula_33.txt"
+    }
+  ]
+}

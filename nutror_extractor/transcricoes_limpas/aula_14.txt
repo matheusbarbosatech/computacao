@@ -1,0 +1,1083 @@
+Senhoras e senhores, boa tarde, sejam todos muito bem-vindos.
+
+E aí, turma, tudo certo?
+
+Como estamos?
+
+Todo mundo ouvindo bem?
+
+Todo mundo vendo a tela compartilhada?
+
+Todo mundo empolgado para ver os três serviços que a gente tem mais demandas em 2026?
+
+E não só isso.
+
+Saber o serviço, a maioria de vocês, eu acredito que já tenha uma ideia do que seja esse serviço, mas o problema é na hora de fechar esses contratos.
+
+Aí é onde o bicho pega e é onde eu quero detalhar aqui com vocês.
+
+Maravilha?
+
+Turma, se estiver tudo certo, se estiver o som bom, se estiver todo mundo vendo aqui o mapa mental, coloquem o número um aí no chat, só pra eu saber que está tudo certo, que eu posso começar, que está todo mundo ouvindo bem.
+
+Pessoal, qualquer dúvida que vocês tiverem, perguntem, participem. "No meu caso, eu faço isso.
+
+É assim?
+
+No meu caso é assim, eu posso fazer isso?" Então perguntem, tirem dúvidas.
+
+Porque o que eu estou mostrando aqui pra vocês não são estratégias quaisquer, são estratégias que a gente utiliza aqui.
+
+São estratégias que eu aprendi e venho aperfeiçoando nos últimos oito anos no mercado americano.
+
+Então são estratégias que funcionam.
+
+Então qualquer dúvida que vocês tenham: "Poxa, como que funcionaria no meu caso?
+
+O meu caso é assim, é assado", perguntem.
+
+Está bom?
+
+Perguntem pra que eu possa ajudar e vocês possam aproveitar essa aula da melhor maneira.
+
+Combinado?
+
+Agora deixa eu fazer só mais uma perguntinha pra vocês aqui.
+
+Quem que está aqui ao vivo, que é consultor, digita, por favor, "consultor".
+
+E quem é CLT, digita "CLT", só pra eu saber aqui em que eu aprofundo mais, se é pra quem está fazendo a transição ou se é já direto para o consultor.
+
+Vamos lá, consultor, CLT, consultor, CLT, está bem dividido.
+
+Vamos lá.
+
+Coloquem aí pra eu saber em que eu aprofundo mais, se é na parte de consultoria, já pra falar direto pro consultor, senão, vamos falar um pouco dessa transição do CLT.
+
+Confirmem aí pra mim, por favor, se você já é consultor, se você é CLT, e por aí vai.
+
+Está bem dividido.
+
+CLT, consultor, CLT.
+
+O bom do CLT é que já vai aprender a fazer as coisas do jeito certo, já vai aprender o que vender, o que tem demanda.
+
+Pra quem é CLT, pra quem já é consultor, é só adicionar isso aqui na estratégia que vocês já utilizam.
+
+Maravilha?
+
+Então vamos lá, pessoal.
+
+Primeiro, quais são esses três serviços que a gente mais tem demanda hoje no mercado?
+
+Aqui não tem segredo.
+
+Segredo zero, acredito que pra maioria de vocês.
+
+Primeiro, o que a gente tem de mais forte hoje.
+
+Pra gente entender isso, a gente tem que entender o contexto.
+
+Gente, consultor que não entende o contexto do mercado é consultor que vai ter trabalho pra fechar projeto.
+
+A gente teve nos últimos anos, e a gente continua tendo ainda, muitas empresas indo pra nuvem.
+
+Então cara, é o boom do momento, é nuvem.
+
+Só que o que começou a acontecer nos últimos anos, e isso continua muito forte ainda, é o que as empresas foram pra nuvem e começaram a ver: "Cara, estamos gastando muito.
+
+A gente está gastando muito.
+
+Precisamos controlar esse custo".
+
+Então hoje, o primeiro serviço, quando a gente fala de demanda real, não estou falando de demanda, estou falando de demanda que quase todas as empresas hoje têm, independente do segmento, é essa demanda do FinOps, principalmente voltado pra cloud.
+
+Então isso é uma das principais dores do mercado hoje é: "Cara, eu preciso diminuir a minha fatura mensal com a cloud.
+
+Cara, eu preciso diminuir minha fatura mensal com a cloud".
+
+Esse é o top um hoje, que se eu fosse vocês, quem não domina isso aqui ainda, correria o quanto antes pra dominar essa parte de FinOps, porque hoje é o que é mais fácil de fechar projeto, eu vou daqui a pouco falar das estratégias de cada um.
+
+O segundo, não tem como correr, também tem a ver com cloud, que é o quê?
+
+A migração pra cloud.
+
+Só que aqui, pessoal, quem está ganhando dinheiro aqui, quem está fechando projeto aqui, não é o consultor que vira lá e fala: "Eu vou migrar seu ambiente pra cloud".
+
+Aqui é uma migração estratégica.
+
+Aqui é uma migração onde você consegue mostrar que a empresa vai ficar mais moderna e vai gastar menos do que num ambiente on-premises.
+
+E vocês não ouviram errado, vai migrar pra cloud e vai gastar menos.
+
+Vai gastar menos, porque é uma migração estratégica, você não vai sair migrando qualquer coisa.
+
+E por fim, não vai fugir da cloud, mas acaba tendo uma nomenclatura um pouquinho diferente, mas vai depender da cloud também, é a parte de inteligência artificial.
+
+Só que eu posso afirmar pra vocês aqui, com 100% de certeza, aqueles de vocês que focarem em oferecer pro mercadoResolver problemas de FinOps, fazer uma migração estratégica para a cloud e trabalhar com IA dentro das empresas, já vou especificar um pouquinho mais isso aqui, vai ser o que vai faturar mais, não tem conversa.
+
+É até covardia falar.
+
+Por exemplo, tem muita gente aqui, e acredito que alguns de vocês que estão aqui nessa aula devem estar nesse cenário, que quando pensa: "Eu quero virar consultor, o que eu vou vender?" Tem muita gente aqui que está pensando no quê?
+
+Suporte, servidores.
+
+Eu não estou falando que isso aqui não vende.
+
+Eu estou falando que isso aqui já não é uma demanda tão grande no mercado quanto as outras.
+
+É claro que eu estou chutando.
+
+Enquanto o suporte a servidores, aqui é só pra arredondar, tem 100 demandas, os outros três, tem 10 mil.
+
+Para vocês verem a diferença.
+
+Então, de novo, não é que não vende, é que sempre você vai ter mais dificuldade, porque não tem tanta demanda.
+
+Agora, quando você vai pra algo que tem demanda, praticamente todas as empresas estão precisando, fica muito mais simples de fechar.
+
+Agora vamos entender um pouquinho as estratégias.
+
+Estratégias para vender o serviço.
+
+Vou passar por cada um, vamos começar pelo processo de FinOps.
+
+Hoje, a gente usa praticamente três estratégias, que é o que eu vou recomendar que vocês façam.
+
+Vou recomendar cada uma delas pra qual que é o perfil e tudo mais.
+
+Então hoje, quando eu quero chegar numa empresa com uma solução de FinOps, eu uso três estratégias.
+
+A primeira estratégia é a estratégia do assessments gratuito.
+
+Então aqui o que eu faço?
+
+Eu gravo um vídeo, na verdade, uma sequência de vídeo.
+
+Então aqui, assessment gratuito.
+
+Como que eu posso colocar aqui?
+
+Fases.
+
+Primeiro, eu gravo de três a cinco vídeos e desses três a cinco vídeos, eu vou mostrar, vou falar dentro desses vídeos, sobre essa dor que é FinOps e como que eu posso resolver.
+
+Então, por exemplo, eu posso chegar num vídeo e eu posso falar sobre o Azure Spot.
+
+Então nesse vídeo eu posso falar pra empresa como que eu posso ajudar ela a economizar até 60% utilizando o Azure Spot.
+
+Outro vídeo, eu posso vir e posso falar de reserva.
+
+Então eu posso falar como uma empresa pode economizar de 30 a 70% utilizando reserva.
+
+Um terceiro vídeo, eu posso falar de arquitetura.
+
+Como arquitetar determinados ambientes pode trazer uma economia de até 50%.
+
+Então aqui, o que acontece?
+
+Essa primeira fase, é uma fase que a gente chama de engajamento.
+
+O que é o engajamento?
+
+Eu preciso mostrar pra essas empresas, pra esses tomadores de decisões, que eu posso ajudar a resolver aquele problema que ele tem.
+
+Então nesses vídeos aqui, eu não estou vendendo diretamente, eu não estou falando da minha consultoria.
+
+Eu estou falando de como eu consigo ajudar as empresas a terem uma economia na fatura mensal, utilizando alguns recursos que a nuvem oferece pra gente.
+
+Então eu estou falando: "Está vendo esse recurso?
+
+Eu sei implementar esse recurso e esse recurso pode trazer esse retorno financeiro pra vocês".
+
+Então o primeiro bloco de vídeo, é um bloco de vídeo onde eu quero engajar, eu quero me tornar conhecido, eu quero mostrar pras empresas que eu consigo resolver aquele problema.
+
+Depois dessa sequência de vídeos de engajamento, o que a gente faz?
+
+Eu faço um remarketing.
+
+O que é o remarketing?
+
+Eu vou pegar todas as pessoas que se engajaram com esse vídeo, ou seja, se elas assistiram esses vídeos, e são vídeos curtos, de dois a cinco minutos no máximo, significa que se elas engajaram com esses vídeos, significa que elas têm interesse naquele tema, aquilo chamou a atenção delas.
+
+Então o que eu vou fazer?
+
+Eu vou pegar só as pessoas que se engajaram, eu não quero falar com outras pessoas, eu vou pegar somente quem se engajou com esses vídeos e agora sim, eu vou oferecer o assessment gratuito.
+
+Então o que eu vou fazer nessa parte de remarketing?
+
+Vou gravar de dois a três vídeos, só que nesses vídeos eu já tenho que sair só dessa parte de engajamento e eu tenho que ir aqui pra uma parte de oferta, gratuita no primeiro momento, mas uma oferta.
+
+Então tem que ser um vídeo onde eu faloPosso contar um case: como que eu consegui economizar 60% pra uma empresa utilizando o Azure Spot.
+
+Eu fiz isso, isso e isso.
+
+A propósito, eu liberei 10 vagas para um assessment gratuito de FinOps.
+
+Se você quer ser uma das 10 empresas a ter esse assessment gratuito, manda mensagem aqui no WhatsApp, ou você pode levar pra um agendamento direto.
+
+Então esses vídeos podem levar direto pro WhatsApp, ou esses vídeos podem levar pra alguma ferramenta pro cliente poder agendar.
+
+A gente tem o Calendly muito bom pra isso.
+
+Então olha a estrutura.
+
+O cliente vê um vídeo onde eu falo de recursos que vão diminuir o custo mensal.
+
+Só que ali eu só quero engajar, não quero vender.
+
+Falar de spot, falar de reserva, falar de arquitetura.
+
+Cliente viu isso, gostou, estou atingindo a dor dele, ele está passando por aquilo naquele momento.
+
+Ele olha e fala: "Cara, eu gostaria muito de ter essa economia de 60%, de 50, de 30".
+
+Aí você aparece com outro vídeo pra ele falando: "Está vendo?
+
+Quer gerar essa economia?
+
+Eu posso fazer um assessment gratuito pra sua empresa".
+
+Cliente agendou?
+
+Fez o agendamento?
+
+O que você vai fazer?
+
+Você vai fazer análise de FinOps do ambiente dele.
+
+No final dessa análise, vai sair uma apresentação.
+
+Então tem que ser uma boa apresentação.
+
+E nessa apresentação, você vai levantar tudo que vai gerar economia.
+
+E vai falar: "Está aqui o resultado".
+
+E qual que é a vantagem disso aqui?
+
+Cara, você já está na empresa, você já fez o assessment, você já tem acesso ao ambiente.
+
+No final, você vai falar: "Você quer que eu implemente esses recursos pra diminuir os custos?
+
+Se você quer, o meu valor é X".
+
+Aí você pode ir além.
+
+Você pode ir aqui e fazer o seguinte: "Vamos lá, está aqui o relatório.
+
+Tem que fazer isso, isso e isso, isso vai gerar essa economia, isso vai gerar essa outra economia, isso vai gerar essa outra economia.
+
+Você quer que eu faça isso pra você?
+
+É X.
+
+Mas vamos dar um passo pra trás.
+
+Eu vou executar agora pra você.
+
+Se você não manter o processo, daqui seis meses vai estar gastando de novo, sem necessidade.
+
+Vamos fechar um contrato mensal?" Então aqui, além de você executar num projeto pontual, você pode chegar aqui e falar um exemplo.
+
+Isso aqui vai depender muito de tamanho de ambiente e tudo mais. "Pra eu economizar tudo isso aqui pra você, vai sair 10 mil reais".
+
+Um exemplo.
+
+Isso aqui eu mato o seu problema agora.
+
+Agora vamos fechar um contrato mensal, sei lá, de a 5000, dependendo do tamanho da empresa, pra que eu fique olhando pra isso todo dia e evite com que você fique gastando sem necessidade, porque aqui em cima foi reativo, já gastou, já era, é dinheiro que não volta mais.
+
+Quer fechar um contrato pra você evitar que isso aconteça de novo?
+
+Está aqui o meu valor.
+
+Então isso aqui é uma primeira estratégia muito boa.
+
+Pra quem que eu recomendo essa estratégia?
+
+Pra quem está começando agora.
+
+Se você está começando agora, se você não tem tanta autoridade no mercado, se você não é tão conhecido no mercado, precisa fazer um caixa rápido.
+
+Isso aqui é uma baita estratégia.
+
+Isso aqui é uma baita estratégia de não só você levantar um dinheiro pontual, mas de você fechar contratos mensais pra cuidar de toda a parte ali de FinOps da empresa.
+
+Estratégia dois: continua o assessment, só que agora um assessment pago.
+
+Então você vai oferecer o assessment, a ideia das fases é a mesma.
+
+Você vai ter vídeos falando dos serviços.
+
+O que vai mudar na estratégia?
+
+Na hora do remarketing, que você for fazer esses vídeos, ao invés de você convidar pra um agendamento gratuito, um assessment gratuito, você vai convidar pra um assessment pago.
+
+Só que aqui tem um detalhe importantíssimo.
+
+Um detalhe importante.
+
+Você não vai chegar pra empresa e falar: "O meu assessment pago é 10 mil reais".
+
+Você não vai fazer isso, porque você não vai fechar.
+
+O que você vai fazer?
+
+Presta atenção aqui, pessoal, isso aqui é um dos que a gente mais usa.
+
+Hoje, como a gente não precisa mais de tanta volumetria, a gente trabalha mais com esse segundo aqui.
+
+Não que eu não faça o primeiro, mas a gente foca mais nesse segundo aqui.
+
+O que eu faço nesse segundo aqui?
+
+Eu falo: "Vamos lá, qual que é a minha proposta?
+
+Eu vou fazer um assessment no seu ambiente, só que eu vou cobrar por isso".
+
+Só que o que eu vou cobrar de você?
+
+Eu não vou te cobrar nenhum valor fixo.
+
+Eu não sei quanto que eu vou cobrar de você. "Mas como assim você não sabe quanto vai cobrar?" Eu vou cobrar 20% do que eu conseguir economizar.
+
+Então eu estou falando pra ele: se eu conseguir economizar 10 mil reais por mês da sua faturaExato.
+
+Se eu conseguir evitar com que você gaste R$ 10 mil por mês com o resultado do assessment, eu vou cobrar dois.
+
+Aqui pode ser 10, se você quiser escalar um pouco mais.
+
+Então aqui, o que você está falando? "Cara, eu confio tanto no meu serviço, que se eu não conseguir nenhuma economia, todo esse assessment, todo esse levantamento vai ser de graça pra você, vai ficar pra você, você não vai me pagar um centavo.
+
+Porque eu tenho certeza que depois desse assessment eu vou gerar alguma economia pra sua empresa.
+
+E você não vai pegar o que eu gerei de economia e me pagar.
+
+Você vai pegar uma pequena porcentagem do que você já vai ter de economia e vai me pagar com essa porcentagem".
+
+E daqui, cabe a mesma coisa: "é isso que eu cobrei pra resolver esse seu problema pontual.
+
+Vamos fechar um contrato mensal pra que isso não aconteça mais?" Pessoal, vocês estão pegando aqui?
+
+Vocês estão muito quietinhos.
+
+Ou estão sem dúvida ou está todo mundo aí com papel, caneta, bloco de notas, tudo aí anotando.
+
+Vocês estão entendendo essa estratégia?
+
+Primeiro, eu começo com o assessment 100% gratuito.
+
+Quando que eu vou recomendar isso aqui?
+
+Pra quem está começando agora, pra quem quer pôr dinheiro no caixa mais rápido, começa pelo gratuito.
+
+Agora, quem já está no jogo, já tem um bom faturamento, só quer faturar mais, faz o assessment pago, só que dentro dessa estratégia. "Olha, o meu serviço é pago, só que deixa eu te mostrar como funciona.
+
+Você só vai me pagar se eu gerar resultado.
+
+E você vai pagar uma porcentagem do que eu gerei de economia pra você.
+
+Não é tudo".
+
+Geralmente, a gente trabalha entre 10 e 20%. 10 quando a gente quer mais escala, 20 quando a gente quer mais lucro.
+
+Maravilha?
+
+Terceira estratégia.
+
+Aqui é quando eu já ofereço o serviço FinOps pago desde o início.
+
+Então aqui, é quando eu vou pra empresa, já pra fechar um contrato mensal de FinOps.
+
+Então, geralmente, contrato dependendo do tamanho da empresa, de 1500 a 5000 mensal, pra que eu cuide de todo o processo de FinOps da empresa, onde todo final de mês, eu vou gerar um relatório, vou fazer uma apresentação explicando tudo o que eu consegui economizar pra empresa.
+
+Ou, às vezes, não é só economizar, às vezes, é o que eu deixei de gastar. Às vezes, não é só economia, às vezes, é o que eu deixei de gastar.
+
+Quando a gente estuda FinOps mais a fundo, o FinOps nem sempre é só custos.
+
+É a utilização eficiente da nuvem.
+
+Resumindo, primeiro projeto, que se eu fosse vocês, eu começaria ontem: FinOps.
+
+Eu mostrei três estratégias pra vocês.
+
+FinOps gratuito, fazer o assessment 100% gratuito.
+
+No final, eu faço a apresentação gratuita, mostro tudo que precisa ser executado pra gerar aquela economia e no final, eu ofereço pra executar aquilo pra empresa.
+
+E eu posso juntar isso com contrato mensal.
+
+Segunda estratégia, eu vou fazer um assessment pago, só que eu não vou cobrar um valor fixo, eu vou cobrar uma porcentagem entre 10 e 20% do que eu vou conseguir gerar de economia pra empresa.
+
+Cara, olha o poder disso aqui, gente, pensa na pessoa que está do outro lado ouvindo essa argumentação.
+
+A pessoa está lá arrancando os cabelos, que todo mês que passa a conta só aumenta.
+
+A pessoa está desesperada.
+
+Aí vem alguém e fala: "Eu vou fazer o serviço pra você.
+
+E você só vai me pagar se realmente eu conseguir economizar".
+
+Ninguém quer trabalhar de graça.
+
+Então a pessoa olha e fala: "Cara, é isso que eu preciso, de alguém que faça um trabalho, que dê resultado.
+
+Se não der resultado, eu não vou pagar nada.
+
+Agora, se der, eu vou pagar uma porcentagem em cima daquela". "Não, pra quem está começando, Cleber".
+
+É que assim, você tem que entender o seguinte: é melhor até pra quem está começando.
+
+Se você for pensar em faturamento, mas você tem que pensar na visão do cliente. Às vezes, você não é conhecido.
+
+Por isso que esses vídeos precisam ser muito bem feitos.
+
+Você cobrando, mesmo que uma porcentagem, o cara pode olhar e falar: "Mas quem é o Cleber pra me atender?
+
+Quem é o Cleber pra começar aqui na minha empresa?
+
+Quem é o Cleber pra eu pagar o mínimo que seja?" Então às vezes a gente enfrenta muita objeção quando a gente está começando.
+
+Já essa estratégia do gratuito é diferente. "Poxa, quem é o Cleber?
+
+Mas ele está oferecendo de graça, vamos ver no que vai dar".
+
+Por isso que eu falei, pra mim, na minha experiência, pra quem está começando agora, não tem autoridade no mercado, não é conhecido, não domina a estratégia, porque não adianta criar qualquer vídeo que não vai funcionar, eu começaria sempre pelo gratuito.
+
+O pago já é pra quem está jogando o jogo, pra quem já conhece mais estratégias, sabe falar na mídia social, tem uma boa linha de argumentação, aí iria pro pago.
+
+Porque corre o risco de quem está começando ir pro pago e não conseguir fechar nadaEnquanto se ele fosse pelo gratuito, já teria fechado vários projetos.
+
+Porque uma vez que você está dentro da empresa, fica muito mais fácil ganhar a confiança do cliente do que somente em vídeos.
+
+E o FinOps pago do início ao fim, aqui é quem já tem autoridade no mercado, para quem já é mais conhecido.
+
+Sempre vai ser mais difícil conseguir contrato sem autoridade, sem que as empresas te conheçam tentando vender diretamente.
+
+Por isso que eu falo: "Gente, essas estratégias de assessment gratuito, é o poder de hoje.
+
+É o que vem funcionando mais desde o ano passado, de longe". "Vai disponibilizar a gravação?" Não, a gente não vai disponibilizar.
+
+Essas gravações aqui ficam só para alunos.
+
+A primeira coisa que penso é FinOps com tags no Terraform assistido por IA Cloud.
+
+Aí a gente já fala mais para outra linha de IA, que dá pra gente vender.
+
+Aqui, basicamente, é o que a empresa gasta e o que eu consigo ajudar a empresa a economizar.
+
+É isso que esse serviço vai tratar.
+
+Beleza?
+
+Segundo serviço, migração para cloud.
+
+Estratégias.
+
+Número um: vocês vão ver que eu sempre vou mostrar pra vocês o assessment.
+
+Em todos aqui eu vou falar do assessment, porque pra mim é o que tem de mais poderoso hoje, principalmente pra quem está começando.
+
+Pra quem já tem mais autoridade no mercado, pra quem já é conhecido, não precisa tanto desses assessments, já pode oferecer direto, porque tem o nome, tem o nome da empresa por trás, que sustenta tudo isso.
+
+Mas pra quem não tem, que é o caso da grande maioria de vocês, dar esse passo pra trás, tentar oferecer algo gratuito, de valor, não vai oferecer qualquer coisa, de valor, que quem está do outro lado fale: "Cara, legal, gostei da proposta", sempre vai ser mais fácil fechar os projetos depois.
+
+Então aqui também parte do assessment gratuito.
+
+E todo assessment, pessoal, vai sempre partir dessa base aqui.
+
+Eu preciso fazer vídeos de engajamento.
+
+Então aqui, por exemplo, eu faria a sequência de vídeos, só que aqui, ao invés de falar da parte de FinOps, eu poderia falar, por exemplo: "Como eu consegui economizar 40% de gastos com TI migrando uma empresa para cloud".
+
+Poderia ser uma linha de argumentação.
+
+Então tem que ser vídeos chamativos, mas tem que ser reais.
+
+Não adianta eu falar que vai economizar 40%, sendo que eu não tenho nem ideia de como fazer isso.
+
+Tem que ter o conhecimento também.
+
+Você tem curso para FinOps e Assessment, daqui a pouco eu vou falar um pouquinho mais sobre esses processos.
+
+Então, como eu consegui economizar 40% de gastos.
+
+O que acontece?
+
+A mesma ideia.
+
+Eu vou fazer um bloco de vídeos de engajamento.
+
+Depois que eu fiz esse bloco de vídeos de engajamento, eu vou pro remarketing.
+
+Que é o quê?
+
+Só vou agora criar conteúdos e aparecer pra quem assistiu os meus vídeos de engajamento.
+
+E aqui no remarketing, de novo, o assessment gratuito, falando o quê?
+
+Aqui, se eu estou falando de migração pra cloud, eu vou olhar seu ambiente de forma estratégica.
+
+Só essa frase aqui, gente, já quebra um monte de objeção.
+
+Eu vou te mostrar o que vale a pena migrar pra cloud.
+
+Porque não é tudo que vale a pena.
+
+Por isso que muito consultor quebra a cara, porque ele chega na empresa e promete que vai migrar tudo.
+
+Só que tem coisa que não foi feita pra rodar em cloud, vai ficar mais caro rodar em cloud.
+
+Aí a conta nunca fecha.
+
+Na hora que ele vai fazer a apresentação, mostra os valores, o cliente: "Você está louco?" Mas por quê?
+
+Ele quer levar tudo?
+
+Não.
+
+Olha só, como que funciona o meu assessment.
+
+Eu vou olhar o seu ambiente e dessa minha análise, eu vou olhar e vou falar: "Isso vale a pena, isso não vale".
+
+Isso que vale a pena vai trazer uma redução de custo, vai trazer uma melhoria operacional, vai trazer uma alta disponibilidade.
+
+Então é um olhar estratégico.
+
+Se vocês notarem, tudo, essas três, a gente está no segundo, a gente vai falar do terceiro, mas os três pilares aqui, os três serviços, partem de uma premissa de um projeto com escopo específico.
+
+Porque aqui a ideia é, no final, a mesma coisa.
+
+O que eu vou entregar pro cliente no final?
+
+Uma apresentação.
+
+O que vai ter dentro dessa apresentação?
+
+O que vale a pena migrar pra cloud.
+
+O que vale a pena migrar, certo?
+
+Então isso que vai estar na minha apresentação, no meu documento.
+
+E no final, o que eu vou falar?
+
+Quer que eu faça essa migração?
+
+O valor é X.
+
+E o que eu vou fazer depois?
+
+Já que você está indo pra cloud, vamos fazer um contrato mensal?
+
+Então notem que é sempre uma junção, algo específico, um projeto pontual e no final, se o cara passou por aquilo, a chance de ele não querer passar de novo é grande.
+
+Eu chego e falo: "Cara, vamos fechar um contrato pra você não ter mais esse tipo de preocupação?"Aqui nesse contexto, vamos fechar um contrato, eu vou ser o seu consultor estratégico.
+
+Quando tiver novos projetos, eu vou entrar e vou falar: "Esse projeto vale a pena ficar no on premise ou esse projeto vale a pena ir pra cloud".
+
+Linhas de argumentações.
+
+Assessment gratuito.
+
+Qual é o segundo?
+
+Aqui a segunda estratégia, a gente já fala de migração de serviços específicos.
+
+Essa primeira estratégia do assessment é muito boa, porque o que acontece aqui?
+
+Eu vou pegar empresas que não têm ideia do que levar pra cloud, que é a maioria.
+
+Não têm ideia do que vale a pena, o que não vale a pena.
+
+Então eu pego no assessment gratuito.
+
+Na segunda estratégia, eu pego empresas que já têm ideia do que elas querem levar pra cloud.
+
+E eu posso ser mais específico, então eu posso criar um serviço, por exemplo, falando de migração de aplicações web para cloud.
+
+Então aqui eu estou sendo específico.
+
+O assessment é genérico, eu quero entrar e ver.
+
+Aqui não, aqui eu já estou oferecendo: "Beleza, você tem aplicação web?
+
+Eu migro sua aplicação web pra nuvem".
+
+Aqui eu posso usar a linha de argumentação, que é o que a cloud vai trazer.
+
+Lá na nuvem, você vai ter modernidade, alta disponibilidade, resiliência e tudo isso, se for bem feito, a um custo abaixo do on premise.
+
+Então aqui eu já vou vender o serviço direto.
+
+E sempre, pessoal, vai partir da mesma premissa, vídeos de engajamento, depois eu entro com os vídeos de remarketing.
+
+Porque primeiro eu preciso ser conhecido.
+
+Não que não funcione, pra gente funciona, é que tem que saber fazer, tem que ser muito bem feito, mas a chance de um cliente ter um primeiro contato com você, vendo algo que você já vende, isso cria muitas objeções pra ele, versus ele ver um conteúdo seu de valor, um ou vários.
+
+Depois que ele viu esses vários conteúdos, você chega com uma proposta pra ele.
+
+Então a gente sempre trabalha com essa estratégia, eu vou engajar e depois eu faço o remarketing.
+
+Maravilha.
+
+E a gente tem a terceira estratégia, que também é quando eu pego esse cenário mais específico, por exemplo, a migração de aplicações também.
+
+Só que aqui eu utilizo uma estratégia um pouco diferente.
+
+Ao invés de eu fazer vídeos de engajamento, depois fazer vídeos de remarketing, aqui o que eu vou fazer?
+
+Eu vou criar um material gratuito, geralmente um e-book ou uma palestra.
+
+E eu vou colocar isso aqui no que a gente chama de página de captura.
+
+O que é a página de captura?
+
+O cliente pra ter acesso a esse material, ele precisa pôr o e-mail ou WhatsApp.
+
+Só que uma vez que o cliente põe esse e-mail, põe esse WhatsApp, ele vai pra minha lista.
+
+Lista de e-mail ou lista de WhatsApp.
+
+Qual é a vantagem?
+
+Que uma vez que o cliente pôs essa informação, eu tenho essa base pra falar com ele mais vezes.
+
+E o que eu faço aqui pra falar com ele mais vezes?
+
+Eu faço, por exemplo, o que vocês estão passando agora, eu posso chamar pra um evento.
+
+Então eu posso, por exemplo, chegar pro cliente e falar: "No próximo..." Então pensa, eu tenho uma lista de e-mail e pensa que eu tenho pessoas chegando pra baixar esse meu material.
+
+O tráfego pago vai ajudar muito aqui, mas eu tenho diariamente pessoas chegando nessa página interessadas nesse material gratuito, vão colocar o e-mail ou WhatsApp pra ter acesso a esse material.
+
+Isso vai pra minha lista de e-mail, então essa lista de e-mail vai crescendo.
+
+Pensa, por exemplo, que você chegou numa lista de e-mail com mil pessoas, o que é fácil chegar, muito fácil.
+
+O que eu posso fazer com essas mil pessoas?
+
+Eu posso chegar pra elas e falar: "No próximo dia 30".
+
+Não, vamos colocar algo mais real. "No próximo dia 15 de junho, eu vou fazer o Cloud Migration Day.
+
+Vai ser um dia, eu vou fazer um evento ao vivo", isso aqui funciona muito bem ao vivo.
+
+Então pra aqueles que não gostam de aparecer, aqueles que têm vergonha, vocês sempre vão faturar menos. "Eu vou fazer um evento gratuito no dia 15 de junho, às 7 horas da noite, chamado Cloud Migration Day.
+
+E nesse evento eu vou falar sobre um, dois, três, quatro, cinco, seis".
+
+Chegou o dia do evento.
+
+Quem que você vai convidar pra esse evento?
+
+As pessoas que estão na sua lista.
+
+Então você vai mandar e-mail pra ela falando: "No próximo dia 15 a gente vai ter um evento gratuito.
+
+Você quer participar?
+
+Se inscreve aqui".
+
+Chegou nesse dia, você vai ter uma quantidade X de pessoas ao vivo, interessadas naquele tema.
+
+O que você vai fazer?
+
+Você vai entregar um baita conteúdo.
+
+Tem que ser aquele conteúdo, que a pessoa olha e fala: "Cara, uau!
+
+Curti pra caramba".
+
+E gente, isso aqui é o que vocês vão entregar no final do diaEntão como eu faço isso?
+
+É o que vocês vão entregar.
+
+Vocês têm que formatar isso dentro de uma palestra, por exemplo.
+
+Você vai entregar uma baita palestra, um baita evento ao vivo.
+
+A pessoa vai virar e falar: "Uau, que conteúdo!" E no final você vai falar o quê? "Eu tenho um serviço sobre isso.
+
+Vamos conversar?" Aí você pode levar pro WhatsApp, você pode levar pra uma ferramenta pra ele já agendar uma reunião.
+
+Então a experiência aqui é um pouquinho diferente.
+
+A pessoa vai estar no evento com você ao vivo.
+
+Cara, se vocês fizerem o evento, se vocês tiverem essa estrutura aqui, pessoas entrando pra baixar o material de vocês, entrando na lista e a cada 15 dias ou uma vez por mês, fazer um evento onde você vai ter pessoas ao vivo interessadas naquilo, e no final você oferecer o seu serviço, tem muita gente que o faturamento vai vir só daqui, só precisa fazer isso.
+
+Só precisa fazer isso.
+
+E daqui vai sair faturamento.
+
+Vai ter projetos, contratos mensais.
+
+Só que uma coisa que tem que estar muito casada é o quê?
+
+Não adianta você chamar as pessoas pra entrar pra sua lista de e-mail com o material sobre o tema X e fazer o evento do tema Y.
+
+Não casa.
+
+Então tem que ser casado.
+
+Então se eu criei um material gratuito pras pessoas entrar na minha lista de e-mail falando sobre migração de cloud, o meu evento vai ser sobre migração de cloud.
+
+E aqui, o que eu posso fazer ainda?
+
+Muita gente que está na sua lista não vai participar ao vivo.
+
+Esqueceu, outros motivos, não vai participar, não é todo mundo que vai participar.
+
+Sabe o que você pode fazer?
+
+Você pode pegar e liberar a gravação.
+
+E dessa gravação, a pessoa que assistir, tiver interesse, vai entrar em contato ali e daqui também vai sair um faturamento.
+
+Agora imagine você, todos os dias tendo pessoa entrando na sua lista de e-mail, uma vez por mês fazendo um evento desse e fechando contrato.
+
+Imagina você fazendo isso todos os meses, fazer 12 eventos por ano.
+
+E lembra, isso aqui é cumulativo, essa lista só vai crescendo.
+
+Então, o primeiro evento você tem 1000 pessoas.
+
+Possa ser que no segundo, no último evento do ano, a sua lista, ao invés de ter 1000 pessoas, já tenha mais de 10.000.
+
+Então, isso é cumulativo.
+
+Pessoal, deu pra entender a estratégia?
+
+Dúvidas?
+
+Então a estratégia aqui pra migração cloud.
+
+Geralmente, eu posso fazer um assessment gratuito, de novo aqui pra quem está começando.
+
+Pra quem já joga o jogo, eu posso pegar algo específico da migração, por exemplo, aplicação web, que é algo muito forte hoje também, e já oferecer esse serviço diretamente.
+
+Aqui eu posso usar a estratégia de criar vídeos de engajamento, depois vídeo de remarketing oferecendo o serviço, ou eu posso ir pra uma estratégia um pouco mais avançada, pensando até em longo prazo, que é criar um material gratuito pra montar uma lista, pegar as pessoas dessa lista e convidar pra eventos ao vivo.
+
+IA.
+
+Hoje, o que a gente tem mais fácil pra vender IA, coisas mais simples que as empresas compram, é quando eu ofereço agentes prontos.
+
+Então eu vou criar agentes prontos para resolver alguma dor da empresa.
+
+Antes de criar esses agentes, é claro, eu preciso fazer uma boa pesquisa de mercado pra saber quais são as dores daquela empresa.
+
+Eu preciso fazer uma boa pesquisa de mercado antes de sair criando agente, qualquer coisa.
+
+Então, por exemplo, algo que a gente vende bastante hoje são agentes para o departamento jurídico, agentes que ajudam validação de contratos.
+
+Então a gente treina esses agentes, constrói esses agentes, e na hora que a gente vai oferecer, aqui é a mesma coisa.
+
+Sempre vai ser o mesmo princípio.
+
+Eu começo com vídeos de engajamento pra mostrar: "Pô, eu tenho um negócio legal aqui.
+
+Eu criei aqui um agente, ele faz isso, ele faz aquilo, ele ajuda a empresa nisso, ele ajuda a empresa naquilo." Depois eu vou oferecer.
+
+E aqui as estratégias pra oferecer são basicamente duas.
+
+Qual é a primeira estratégia?
+
+A primeira estratégia é baseada no MVP.
+
+Então eu vou entregar um pedaço da minha solução pra empresa testar. "Tá aqui o meu agente jurídico, eu vou liberar aqui pra você gratuitamente pra sua empresa testar pra ver se é o que atende um pedaço da solução.
+
+Então tá aqui, um MVP, um pedaço da solução pra você testar.
+
+Se você gostar, a minha solução completa é X." E lembra, daqui pode sair também um contrato. "Pô, você quer?
+
+O agente é seu.
+
+Só que cara, como é jurídico, pode acontecer coisas novas que precisam de ajuste.
+
+Quer fechar um contrato mensal, onde dentro desse contrato eu já faço os ajustes mensalmente, conforme a sua necessidade desses agentes?
+
+Daqui pode sair um contrato mensal."A outra estratégia é quando eu vou vender isso direto.
+
+Vou vender o agente completo. "Eu tenho um agente aqui, ele funciona assim e o valor desse agente é tanto".
+
+Aqui tem duas opções, tanto no MVP quanto no direto, quando eu vou vender, oferecer o pacote completo, aqui a gente tem duas opções para trabalhar.
+
+Eu trabalho com as duas, depende muito do propósito.
+
+Eu tenho a opção onde eu vendo o agente, então eu entrego o agente para a empresa, o agente é seu.
+
+Aqui o agente é seu.
+
+E eu tenho a opção onde a empresa paga um valor mensal para ter acesso ao agente.
+
+Então aqui vai depender muito da empresa, o modelo de negócio.
+
+Hoje a gente trabalha com os dois, tanto vendendo o agente completo, quanto alugando o agente para a empresa.
+
+É claro que quando a gente vai para esse mensal, a gente só precisa tomar um pouco de cuidado.
+
+Então aqui, geralmente, quando que eu vou recomendar você usar a opção do mensal?
+
+Quando você já tem um conhecimento em IA mais avançado, porque aqui você tem que tomar muito cuidado para que um cliente não interfira com o outro cliente, não treine o IA de outro cliente, então aqui exige um conhecimento mais avançado.
+
+Cuidado.
+
+Mas essas duas estratégias são as que mais funcionam.
+
+Eu vou entregar um MVP, então aqui de novo, para quem está começando, "poxa, eu tenho um agente aqui que eu criei, esse agente é muito bom, vai resolver esse problema das empresas, tudo.
+
+Só que eu estou começando agora, as empresas não me conhecem tanto".
+
+Beleza, libera um MVP de graça. "Eu vou liberar aqui um pedaço da minha solução para você usar durante 30 dias.
+
+Depois de 30 dias a gente conversa, se você quiser a solução completa, eu faço um valor especial para você".
+
+Deu para entender, turma?
+
+Alguém tem alguma dúvida, alguém quer fazer alguma pergunta?
+
+Deu para entender esses serviços, como vender eles, as estratégias que a gente tem?
+
+Vamos lá, vocês estão aí, viraram o bot?
+
+Quem curtiu, digita 10.
+
+Não só curtiu, que vê que faz sentido essa estratégia, que poxa, realmente são estratégias que eu entendi aqui e eu acho que realmente isso aí tende a funcionar.
+
+Quem curtiu, manda um 10 aí.
+
+Gente, isso aqui é o que tem de mais poderoso hoje, principalmente para quem está começando agora.
+
+É claro que quem já está há mais tempo, a gente tem estratégias mais avançadas.
+
+Só que para quem está começando agora, que precisa dar os primeiros passos, estruturar a empresa, isso aqui é o ideal.
+
+Isso aqui é ideal.
+
+Agora, sabe qual é o grande problema da maioria?
+
+O grande problema da maioria é que quando olha para isso aqui, "cara, beleza, eu entendi a estratégia, show de bola, mas eu não sei, não conheço de FinOps".
+
+Não dá para você oferecer algo que você não conhece.
+
+Aí olha para essa estratégia de migração para cloud, "cara, eu não conheço migração para cloud.
+
+Olha a IA, não conheço".
+
+Ou seja, o que tem de mais demanda no mercado hoje, tecnicamente, você não conhece.
+
+Então esse é o problema da maioria dos consultores, que ficam presos em conhecimentos que o mercado não busca hoje com tanta frequência.
+
+Isso sempre vai travar o faturamento de vocês.
+
+Sempre.
+
+Vocês precisam tomar uma decisão para o negócio de vocês.
+
+Isso tanto para quem já é consultor, quanto quem é SLT e quer virar consultor e ganhar dinheiro de verdade.
+
+Vocês precisam tomar uma decisão, que é o quê? "Cara, beleza, eu preciso aprender a vender, mas eu preciso aprender coisas novas para que eu possa vender.
+
+Não adianta eu ficar dando murro em ponto de faca, oferecendo coisas que o mercado não compra mais".
+
+Sendo bem sincero, quem quiser colocar só para mim, pode colocar, mas quem de vocês que estão aqui ao vivo comigo e está nesse cenário, coloca um "eu" aí.
+
+O cenário do tipo: "Cara, eu entendi, só que tudo que o mercado precisa hoje eu não domino, eu não conheço.
+
+Ou seja, eu não posso entregar, porque eu não conheço".
+
+Quem está nesse cenário, coloca um "eu" aí, que olha e fala: "Cara, eu gostei muito da estratégia.
+
+Só que tudo que você apresentou aí, FinOps, migração, eu já vi também falar que isso aqui está em alta no mercado, mas eu não conheço.
+
+Como que eu vou oferecer algo que eu não conheço?" Quem que está nesse cenário aqui, coloca um "eu" aí.
+
+E assim, eu vou ser bem transparente com vocês.
+
+Não tem como resolver isso a não ser aprendendo esses serviços.
+
+Não tem como resolver.
+
+Como que você vai oferecer algo, ou você fecha uma parceria com quem sabe, só que você sempre vai ter um faturamento menor.
+
+Agora, para aqueles que querem aprender não apenas a estratégia de venda, mas também essa parte técnica de FinOps, de migração cloud, essa parte de IA, eu tenho aqui uma proposta especial para vocês.
+
+Inclusive, é isso que vocês vão aprender a fazer muitas vezes também, que é utilizando essa estratégia aqui.
+
+Para vocês verem, eu estou ensinando para vocês o que eu faço, eu não estou ensinando coisa da minha cabeça.
+
+O que eu expliquei nessa terceira estratégia aqui de migração cloud?
+
+Criei um material gratuito, as pessoas para ter acesso vão pôr e-mail.
+
+Muitos de vocês estão aqui nessa aula porque baixaram material gratuito meu, entraram na minha lista.
+
+Aí o que eu faço com vocês?
+
+Eu convido para um evento, convido para uma aula ao vivo.
+
+E o que eu vou fazer no final dessa aula?
+
+Eu vou te oferecer alguma coisa.
+
+Sempre tem que ser esse ciclo.
+
+Pessoal, não tenham medo de oferecer.
+
+Só vende quem ofereceE o que eu preparei de especial aqui pra vocês?
+
+Nós temos um serviço nosso que a gente chama de Protocolo Consultor Cloud.
+
+Por que Cloud?
+
+Porque como eu acabei de mostrar pra vocês, o dinheiro hoje está em quem conhece Cloud, a demanda hoje está em quem conhece Cloud.
+
+Então Protocolo Consultor Cloud.
+
+Esse é um programa de 12 meses.
+
+O que vocês vão aprender nesses 12 meses?
+
+Vocês vão aprender a parte técnica e a parte estratégica.
+
+A estratégica aqui seria pra vender.
+
+A parte técnica, vocês vão aprender um serviço por mês.
+
+Então, por exemplo, vai ter o mês, que vai ser o que a gente vai começar primeiro, porque é onde vocês vão ter mais facilidade pra recuperar o que vocês vão investir nesse programa e vão começar a faturar.
+
+Primeiro mês, vocês vão aprender sobre FinOps.
+
+O que é o Spot, o que é uma rearquitetura, o que é a reserva.
+
+Então vocês vão aprender tecnicamente a fazer todo o processo de FinOps pra usar as estratégias pra vender o FinOps.
+
+A parte técnica.
+
+Depois a gente vai ter a parte de migração, depois a gente vai ter a parte de rearquitetura, depois a gente vai ter a parte de modernização de ambientes.
+
+Depois a gente vai ter uma parte que é extremamente importante, isso vem crescendo muito também, que é o Landing Zone, que é a preparação da nuvem pras empresas.
+
+Então tem muitas empresas contratando isso, porque elas entenderam que não adianta começar na nuvem de qualquer jeito, é necessário começar do jeito certo.
+
+A gente vai falar da parte de governança, que é a dor de muitas empresas também, assim como o FinOps.
+
+Não adianta ter um FinOps e não ter governança.
+
+Ou seja, durante 12 meses, a gente vai falar sobre 12 projetos técnicos, que são os 12 principais.
+
+Aqui eu listei seis, porque é o que a gente tem de mais demanda hoje, e os outros seis, eu vou pescando no mercado.
+
+Agora o mercado está falando disso, que nem, provavelmente, no sétimo aqui, a gente vai falar um pouquinho de DevOps, que também está crescendo muito.
+
+Um outro que a gente vai, com certeza, adicionar é o IaC, principalmente utilizando o Terraform.
+
+Então vocês vão aprender tecnicamente a entregar esses projetos.
+
+A gente vai ter um encontro por mês, focado em falar como entrega aquele projeto.
+
+Então entender o que é FinOps, a parte de migração, e também as estratégias pra vender cada um desses serviços.
+
+Aqui eu mostrei pra vocês as mais simples, o Assessment gratuito.
+
+Só que aqui vocês vão aprender 12 estratégias diferentes, que vocês podem vender qualquer um dos serviços que vocês vão oferecer. 12 estratégias diferentes.
+
+Então vocês vão aprender a parte técnica, 12 serviços com alta demanda pra vocês venderem, e vocês vão aprender 12 estratégias diferentes pra vocês fecharem esses projetos, esses contratos.
+
+Esse é o Protocolo Consultor Cloud.
+
+O que a gente vai entregar de bônus pra quem garantir a vaga hoje?
+
+Isso é pra quem garantir hoje.
+
+Mais conhecido como até as 23h59, porque bateu 00, já é outro dia.
+
+Então pra quem garantir a vaga hoje, o que a gente vai liberar?
+
+E eu vou recomendar fortemente que seja o FinOps, mas você vai poder escolher qualquer serviço.
+
+A gente vai liberar o nosso Done For You. "Pô, Molina, me explica aí o que é esse Done For You?" Você vai escolher um serviço e eu, pessoalmente, vou montar a estratégia pra você.
+
+No programa Protocolo Consultor, você vai aprender a fazer 12 estratégias.
+
+O Done For You, você vai escolher um projeto, eu vou recomendar que seja o FinOps, que é o mais fácil de recuperar rápido o retorno do investimento que vocês vão fazer, depois só ter lucro.
+
+Eu vou pegar a estratégia e vou montar pra vocês.
+
+Então vamos trabalhar com Assessment gratuito?
+
+Vamos.
+
+Eu vou estruturar o vídeo pra vocês, eu vou roteirizar o que vocês precisam falar.
+
+O vídeo de remarketing eu vou fazer.
+
+Eu vou recomendar fortemente pra que vocês tenham resultado mais rápido, utilizar o tráfego pago.
+
+Eu vou cuidar do tráfego pago pra vocês, então eu vou falar o quanto você tem que investir por dia pra ter retorno.
+
+Eu vou validar as métricas pra validar se está dando certo, se dá pra pôr mais verba, se não está dando certo, se a gente vai trocar o vídeo.
+
+Então além de montar toda a estratégia pra vocês, eu vou acompanhar esse projeto por 90 dias, onde eu vou otimizar toda a parte de tráfego pago.
+
+Esse serviço aqui, pessoal, hoje, tem o valor de 5 mil reais.
+
+O Done For You, onde a gente pega e monta a estratégia pros nossos clientes e acompanha aquele projeto durante 90 dias.
+
+Hoje ele tem o valor de 5 mil reais.
+
+Aqueles que garantir a vaga no Protocolo Consultor Cloud vai levar o Done For You gratuitamente.
+
+O que mais vocês vão levar também?
+
+Vocês vão levar acesso à comunidade dos consultores.
+
+Então a gente vai ter uma comunidade nossa pra trocar ideia, trocar experiênciaÀs vezes, eu estou precisando vender um serviço que eu não domino tanto, mas tem outro que domina, fazer parcerias.
+
+Então vocês vão ter acesso a essa comunidade dos consultores durante 12 meses, durante um ano inteiro.
+
+Recapitulando: o Protocolo Consultor Cloud, 12 meses dividido na parte técnica e estratégica, onde uma vez por mês a gente vai falar da parte técnica, a gente vai pegar um projeto de alta demanda e eu vou ensinar tecnicamente como entregar aquilo e como funciona aquilo, é claro.
+
+Vocês vão levar também 12 encontros, um por mês, pra gente falar de estratégia de vendas, como vender aquele serviço.
+
+A gente falou muito da estratégia de acesso gratuito, mas existem dezenas e mais dezenas.
+
+Esse é o Protocolo Consultor Cloud.
+
+Pra quem garantir a vaga até as 23:59 de hoje, vai levar o Done For You de bônus, onde a gente vai montar essa estrutura pra vocês.
+
+O valor do Done For You é 5 mil reais, vocês vão levar de bônus.
+
+Além de montar, a gente vai acompanhar, otimizar todo o processo durante 90 dias.
+
+Vocês vão receber acesso à nossa comunidade dos consultores durante 12 meses.
+
+Pra quê?
+
+Ter acesso a novas estratégias, pedir orientações, pedir ajuda: "pô, implementei isso, não está dando resultado, o que eu faço?" E a gente vai liberar também, porque eu sei que quanto mais coisas técnicas vocês dominarem, mais vocês vão vender pro mercado, mais vocês vão faturar.
+
+Então vou liberar também um ano de acesso na nossa formação técnica avançada, que é o Azure Expert.
+
+Formação técnica avançada, que a gente tem uma aula por semana, todas as semanas, durante um ano, para você aprofundar mais no Azure tecnicamente.
+
+Aqui também é um conteúdo técnico.
+
+Aqui é pra quê?
+
+Pra você ter mais conhecimento, pra você oferecer mais coisas pra empresa.
+
+Qual é o valor de investimento desse Protocolo Cloud?
+
+O valor normal é de 5 mil reais.
+
+Só que a gente vai liberar também pra quem garantir a vaga até as 23:59 de hoje, além do Done For You, acesso à comunidade, um acesso à formação do Azure Expert.
+
+Só essa formação aqui, pessoal, do Azure Expert, tem o valor de 3 mil reais.
+
+Então pegando o Done For You com isso aqui, já dá 8 mil de bônus.
+
+O investimento desse Protocolo Cloud é 5 mil, só que quem garantir a vaga hoje, a gente vai liberar um cupom de 50% de desconto, onde o Protocolo Cloud sai de 5 mil pra 2.500
