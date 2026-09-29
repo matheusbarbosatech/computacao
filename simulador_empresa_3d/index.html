@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>CYBERDEFENSE 3D — Simulação Corporativa de SOC (POV)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600;700&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Three.js CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+    <!-- 3D Canvas Container -->
+    <div id="canvas-container"></div>
+
+    <!-- Crosshair / Reticle for First-Person POV -->
+    <div id="crosshair">
+        <div class="dot"></div>
+        <div id="interaction-prompt"></div>
+    </div>
+
+    <!-- Top HUD Overlay -->
+    <header class="game-hud">
+        <div class="hud-left">
+            <div class="corp-logo">
+                <span class="live-dot"></span>
+                <strong>CYBERDEFENSE CORP</strong>
+                <span class="hud-badge">SOC N1 • 3D POV</span>
+            </div>
+            <div class="hud-status">
+                <span id="playerRole">Analista: <strong>Matheus</strong></span>
+                <span class="divider">|</span>
+                <span id="clockDisplay">⏱️ 08:00:00</span>
+            </div>
+        </div>
+
+        <div class="hud-right">
+            <!-- Vitals / Energy / Reputation -->
+            <div class="meter-group">
+                <div class="meter-item" title="Café / Energia do Analista">
+                    <span class="meter-icon">☕</span>
+                    <div class="bar-bg"><div class="bar-fill coffee-bar" id="coffeeBar" style="width: 100%;"></div></div>
+                </div>
+                <div class="meter-item" title="Reputação com o Chefe e a Empresa">
+                    <span class="meter-icon">⭐</span>
+                    <div class="bar-bg"><div class="bar-fill rep-bar" id="repBar" style="width: 80%;"></div></div>
+                </div>
+            </div>
+            <button class="btn-hud" id="btnToggleHelp">❓ Controles</button>
+            <button class="btn-hud" id="btnToggleTime">⏩ 1x / 5x</button>
+        </div>
+    </header>
+
+    <!-- Controls / Instructions Overlay Modal -->
+    <div class="controls-overlay" id="controlsOverlay">
+        <div class="overlay-card">
+            <h2>🏢 BEM-VINDO À CYBERDEFENSE CORP</h2>
+            <p class="subtitle">Simulador Corporativo 3D em Primeira Pessoa (POV)</p>
+            <div class="controls-grid">
+                <div class="ctrl-box">
+                    <h4>🖱️ COMPUTADOR / DESKTOP</h4>
+                    <ul>
+                        <li><kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> — Andar pelo escritório</li>
+                        <li><kbd>MOUSE</kbd> — Olhar ao redor (Primeira Pessoa)</li>
+                        <li><kbd>CLIQUE</kbd> — Travar câmera / Interagir</li>
+                        <li><kbd>E</kbd> ou <kbd>ESPAÇO</kbd> — Interagir com objetos / Sentar</li>
+                        <li><kbd>ESC</kbd> — Liberar cursor do mouse</li>
+                    </ul>
+                </div>
+                <div class="ctrl-box">
+                    <h4>📱 CELULAR / TOUCH</h4>
+                    <ul>
+                        <li><strong>Joystick Esquerdo:</strong> Andar</li>
+                        <li><strong>Arrastar na Direita:</strong> Girar câmera</li>
+                        <li><strong>Toque na tela:</strong> Interagir</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mission-briefing">
+                <strong>🎯 SEU OBJETIVO NO EXPEDIENTE (08:00 às 17:00):</strong>
+                <p>Chegue na sua baia, sente na cadeira gamer, atenda os chamados do SIEM no monitor, fale com os colegas de equipe no chat corporativo (CorpChat), beba café para manter a energia e impeça invasões antes do fim do turno!</p>
+            </div>
+            <button class="btn-start" id="btnStartGame">INICIAR EXPEDIENTE [CLIQUE PARA ENTRAR]</button>
+        </div>
+    </div>
+
+    <!-- Virtual Touch Controls for Mobile -->
+    <div id="mobile-controls">
+        <div id="joystick-zone">
+            <div id="joystick-knob"></div>
+        </div>
+        <button id="btnTouchInteract">👆 INTERAGIR [E]</button>
+    </div>
+
+    <!-- Interactive Workstation Screen Modal (Zoom-in on Dual Monitors) -->
+    <div id="workstation-overlay" class="workstation-hidden">
+        <div class="workstation-frame">
+            <div class="monitor-header">
+                <div class="mon-title">
+                    <span class="mon-icon">💻</span>
+                    <span>ESTAÇÃO DE TRABALHO SOC — ANALISTA MATHEUS</span>
+                </div>
+                <div class="mon-tabs">
+                    <button class="tab-btn active" data-tab="tab-siem">🚨 SIEM & INCIDENTES</button>
+                    <button class="tab-btn" data-tab="tab-chat">💬 CORP-CHAT (TEAMS/SLACK) <span class="badge-unread" id="chatBadge">2</span></button>
+                    <button class="tab-btn" data-tab="tab-terminal">⌨️ TERMINAL LINUX</button>
+                </div>
+                <button class="btn-leave-desk" id="btnLeaveDesk" title="Levantar da cadeira e voltar ao escritório 3D">🚪 Levantar da Cadeira [ESC]</button>
+            </div>
+
+            <div class="monitor-body">
+                <!-- TAB 1: SIEM TICKETS -->
+                <div class="tab-content active" id="tab-siem">
+                    <div class="siem-grid">
+                        <div class="siem-sidebar">
+                            <h4>FILA DE INCIDENTES</h4>
+                            <div class="incident-items" id="siemIncidentList">
+                                <!-- Dynamic tickets -->
+                            </div>
+                        </div>
+                        <div class="siem-detail" id="siemDetailView">
+                            <div class="empty-detail">
+                                <span class="shield-big">🛡️</span>
+                                <h3>Selecione um alerta na fila</h3>
+                                <p>Examine evidências, logs do firewall e decida a mitigação corporativa.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TAB 2: CORP-CHAT (SLACK / TEAMS COM NPCS) -->
+                <div class="tab-content" id="tab-chat">
+                    <div class="chat-layout">
+                        <!-- Channels & Direct Messages with NPCs -->
+                        <div class="chat-sidebar">
+                            <div class="chat-section-title">CANAIS</div>
+                            <div class="chat-channel active" data-channel="soc-geral"># 🛡️-soc-alertas</div>
+                            <div class="chat-channel" data-channel="geral-empresa"># ☕-cafeteria-geral</div>
+                            
+                            <div class="chat-section-title">COLEGAS & CHEFES (NPCS)</div>
+                            <div class="chat-dm" data-npc="ciso">
+                                <span class="status-dot online"></span>
+                                <div class="dm-info">
+                                    <strong>Marcos (CISO / Gestor)</strong>
+                                    <small>cobrando SLA de auditoria</small>
+                                </div>
+                            </div>
+                            <div class="chat-dm" data-npc="senior">
+                                <span class="status-dot busy"></span>
+                                <div class="dm-info">
+                                    <strong>Ricardo (Analista N3 Sênior)</strong>
+                                    <small>olhando dump de memória</small>
+                                </div>
+                            </div>
+                            <div class="chat-dm" data-npc="intern">
+                                <span class="status-dot online"></span>
+                                <div class="dm-info">
+                                    <strong>Lucas (Estagiário N1)</strong>
+                                    <small>pedindo socorro</small>
+                                </div>
+                            </div>
+                            <div class="chat-dm" data-npc="finance">
+                                <span class="status-dot away"></span>
+                                <div class="dm-info">
+                                    <strong>Juliana (Financeiro)</strong>
+                                    <small>clicou no anexo .exe</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Chat Messages History -->
+                        <div class="chat-main">
+                            <div class="chat-header-bar" id="chatHeaderBar">
+                                <h4 id="chatChannelTitle"># 🛡️-soc-alertas</h4>
+                                <span id="chatChannelTopic">Triagem, escalonamento e resposta a incidentes ao vivo</span>
+                            </div>
+                            <div class="chat-messages" id="chatMessages">
+                                <!-- Messages injected dynamically -->
+                            </div>
+                            <div class="chat-input-bar">
+                                <input type="text" id="chatInput" placeholder="Digite uma mensagem para a equipe ou responda ao chefe..." autocomplete="off">
+                                <button id="btnSendChat">Enviar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TAB 3: LINUX TERMINAL -->
+                <div class="tab-content" id="tab-terminal">
+                    <div class="linux-terminal">
+                        <div class="term-output" id="termOutput">
+                            <div>CYBERDEFENSE OS v5.19 - SOC Workstation [Terminal 1]</div>
+                            <div>Digite 'help' para comandos úteis: nmap, iptables, wireshark, grep, mitre, status.</div>
+                            <br>
+                        </div>
+                        <div class="term-prompt-line">
+                            <span class="prompt-user">matheus@soc-desk:~$</span>
+                            <input type="text" id="termInput" autofocus>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- In-Game 3D Speech Dialogue Box (When talking directly to an NPC in the 3D room) -->
+    <div id="npc-dialogue-box" class="dialogue-hidden">
+        <div class="dialogue-card">
+            <div class="npc-avatar" id="dialogueAvatar">👔</div>
+            <div class="dialogue-content">
+                <div class="npc-header">
+                    <strong id="dialogueName">Marcos (CISO / Gestor)</strong>
+                    <span class="npc-role" id="dialogueRole">Liderança de Segurança</span>
+                </div>
+                <p id="dialogueText">"Matheus, bom dia! Aquele alerta de Spearphishing no financeiro já foi contido? A diretoria tá em cima!"</p>
+                <div class="dialogue-choices" id="dialogueChoices">
+                    <!-- Dynamic choice buttons -->
+                </div>
+            </div>
+            <button class="btn-close-dialogue" id="btnCloseDialogue">✕</button>
+        </div>
+    </div>
+
+    <!-- Phone Ringing Banner / Notification -->
+    <div id="phone-banner" class="phone-hidden">
+        <div class="phone-icon-box">☎️</div>
+        <div class="phone-info">
+            <strong>TELEFONE DO RAMAL TOCANDO!</strong>
+            <p id="phoneCaller">Juliana (Setor Financeiro) está na linha...</p>
+        </div>
+        <button class="btn-answer-phone" id="btnAnswerPhone">Atender [F]</button>
+    </div>
+
+    <!-- Audio FX & Speech Synthesizer -->
+    <script src="incidents.js"></script>
+    <script src="npcs.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

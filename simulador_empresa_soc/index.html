@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CYBERDEFENSE CORP — Mesa de Operações SOC N1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600;700&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Top Corporate Bar -->
+    <header class="topbar">
+        <div class="logo-area">
+            <div class="soc-badge">
+                <span class="pulse-dot"></span>
+                LIVE SOC N1
+            </div>
+            <div class="company-name">
+                <h2>CYBERDEFENSE <span>CORP</span></h2>
+                <small>Global Security Operations Center • Unidade Brasil</small>
+            </div>
+        </div>
+
+        <div class="shift-stats">
+            <div class="stat-pill">
+                <span class="label">Operador:</span>
+                <span class="val text-highlight" id="operatorName">Matheus (Analista N1)</span>
+            </div>
+            <div class="stat-pill">
+                <span class="label">Turno:</span>
+                <span class="val">08:00 — 17:00</span>
+            </div>
+            <div class="stat-pill clock-pill">
+                <span class="label">Horário de Plantão:</span>
+                <span class="val clock" id="shiftClock">08:00:00</span>
+            </div>
+            <button class="btn-time-speed" id="btnSpeed" title="Acelerar relógio do plantão">⏩ 1x / 10x</button>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="soc-layout">
+        <!-- Sidebar Navigation & Metrics -->
+        <aside class="sidebar">
+            <div class="panel shift-control">
+                <div class="panel-header">
+                    <h3>⏱️ PONTO ELETRÔNICO</h3>
+                </div>
+                <div class="ponto-status" id="pontoStatus">
+                    <span class="badge-status online">EM EXPEDIENTE</span>
+                    <p id="pontoMsg">Turno iniciado às 08:00. 6 incidentes aguardando sua triagem hoje.</p>
+                </div>
+                <div class="shift-progress-box">
+                    <div class="progress-info">
+                        <span>Progresso do Expediente</span>
+                        <span id="shiftPercent">0%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="fill" id="shiftProgressFill"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Threat Level Meter -->
+            <div class="panel threat-meter">
+                <div class="panel-header">
+                    <h3>🛡️ DEFCON / NÍVEL DE AMEAÇA</h3>
+                </div>
+                <div class="defcon-display defcon-3" id="defconDisplay">
+                    <span class="defcon-title">DEFCON 3</span>
+                    <small>Atividade Hostil Moderada</small>
+                </div>
+            </div>
+
+            <!-- YouTube Creator Helper Card -->
+            <div class="panel creator-helper">
+                <div class="panel-header">
+                    <h3>🎬 TAKE SUGERIDO (YOUTUBE)</h3>
+                </div>
+                <div class="creator-content" id="creatorTip">
+                    <p><strong>💡 Dica de Gravação:</strong> Olhe para a câmera e diga: <em>"Fala pessoal! Começando meu plantão das 08h aqui no SOC. Vamos abrir a fila do SIEM e ver quais alertas caíram durante a madrugada!"</em></p>
+                </div>
+            </div>
+
+            <!-- Shift Summary Box -->
+            <div class="panel actions-panel">
+                <button class="btn-export" id="btnExportReport">📑 Gerar Relatório de Turno (PDF/Markdown)</button>
+            </div>
+        </aside>
+
+        <!-- Center Workspace: Ticket Queue & Ticket Details -->
+        <section class="workspace">
+            <!-- Queue Top Bar -->
+            <div class="workspace-header">
+                <div>
+                    <h2>FILA DE INCIDENTES (SIEM & HELPDESK)</h2>
+                    <p>Triagem, Análise de Evidências, Mitigação e Escalonamento</p>
+                </div>
+                <div class="queue-counters">
+                    <span class="counter-badge crit" id="critCount">2 Críticos</span>
+                    <span class="counter-badge high" id="highCount">2 Altos</span>
+                    <span class="counter-badge med" id="medCount">1 Médio</span>
+                    <span class="counter-badge done" id="doneCount">0 Resolvidos</span>
+                </div>
+            </div>
+
+            <!-- Active Incident Workspace -->
+            <div class="incident-board">
+                <!-- Ticket List / Timeline -->
+                <div class="ticket-list" id="ticketList">
+                    <!-- Dynamic rendering of tickets -->
+                </div>
+
+                <!-- Ticket Detail & Investigation Terminal -->
+                <div class="ticket-detail" id="ticketDetail">
+                    <div class="empty-state">
+                        <div class="shield-icon">🛡️</div>
+                        <h3>Selecione um Incidente na Fila</h3>
+                        <p>Analise os logs brutos, a evidência do ataque e registre seu parecer técnico corporativo.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Report Modal -->
+    <div class="modal-overlay" id="reportModal">
+        <div class="modal-card">
+            <div class="modal-header">
+                <h3>📑 RELATÓRIO OFICIAL DE PASSAGEM DE TURNO (SHIFT HANDOVER)</h3>
+                <button class="btn-close" id="btnCloseModal">✕</button>
+            </div>
+            <div class="modal-body">
+                <p>Copie este relatório para publicar no seu LinkedIn / Portfólio demonstrando sua atuação prática como Analista de SOC:</p>
+                <textarea id="reportText" readonly></textarea>
+            </div>
+            <div class="modal-footer">
+                <button class="btn-copy" id="btnCopyReport">📋 Copiar Relatório Completo</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
