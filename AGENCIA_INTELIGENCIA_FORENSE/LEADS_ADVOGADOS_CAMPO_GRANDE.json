@@ -1,0 +1,86 @@
+[
+  {
+    "id": "lead_01",
+    "nome_escritorio": "RM Advocacia",
+    "responsavel": "Dr. Rodrigo / Equipe Cível",
+    "endereco": "Rua Coronel Agostinho, 76, Sala 1002 - Campo Grande, RJ",
+    "telefone": "(21) 2042-5736",
+    "whatsapp": "5521969747399",
+    "areas_atuacao": ["Direito Civil", "Família", "Consumidor", "Execução"],
+    "status": "Pronto para Abordagem",
+    "gatilho_dor": "Cobranças cíveis e partilha de bens em divórcios litigiosos",
+    "data_adicionado": "2026-09-29"
+  },
+  {
+    "id": "lead_02",
+    "nome_escritorio": "Marcello Benevides Advogados Associados",
+    "responsavel": "Dr. Marcello Benevides",
+    "endereco": "Campo Grande / Atendimento RJ",
+    "telefone": "(21) 3217-3216",
+    "whatsapp": "5521995419244",
+    "areas_atuacao": ["Inventários", "Família e Sucessões", "Direito Cível"],
+    "status": "Pronto para Abordagem",
+    "gatilho_dor": "Ocultação de patrimônio por herdeiros em inventários e divórcios",
+    "data_adicionado": "2026-09-29"
+  },
+  {
+    "id": "lead_03",
+    "nome_escritorio": "Camilo & Pessanha Advocacia",
+    "responsavel": "Drs. Camilo e Pessanha",
+    "endereco": "Rua Campo Grande, 1014, Sala 326 - Campo Grande, RJ",
+    "telefone": "(21) 97274-2109",
+    "whatsapp": "5521972742109",
+    "areas_atuacao": ["Cível", "Empresarial", "Criminal"],
+    "status": "Pronto para Abordagem",
+    "gatilho_dor": "Execução de títulos extrajudiciais e recuperação de crédito",
+    "data_adicionado": "2026-09-29"
+  },
+  {
+    "id": "lead_04",
+    "nome_escritorio": "Almeida do Amaral Advocacia",
+    "responsavel": "Dr(a). Almeida do Amaral",
+    "endereco": "Rua Augusto de Vasconcelos, 544 - Campo Grande, RJ",
+    "telefone": "",
+    "whatsapp": "5521980000000",
+    "areas_atuacao": ["Imobiliário", "Inventários", "Regularização de Bens"],
+    "status": "Pronto para Abordagem",
+    "gatilho_dor": "Investigação de imóveis e cadeia possessória oculta",
+    "data_adicionado": "2026-09-29"
+  },
+  {
+    "id": "lead_05",
+    "nome_escritorio": "Stabile & Jardim Advogados",
+    "responsavel": "Dr. Mario Stabile / Equipe",
+    "endereco": "Rua Coronel Agostinho, 81, Sala 206 - Campo Grande, RJ",
+    "telefone": "(21) 2413-0000",
+    "whatsapp": "5521970000000",
+    "areas_atuacao": ["Empresarial", "Cível", "Imobiliário"],
+    "status": "Pronto para Abordagem",
+    "gatilho_dor": "Desconsideração de personalidade jurídica e fraudes contra credores",
+    "data_adicionado": "2026-09-29"
+  },
+  {
+    "id": "lead_06",
+    "nome_escritorio": "Lopes Beserra Advocacia",
+    "responsavel": "Dra. Renata Lopes Beserra",
+    "endereco": "Rua Coronel Agostinho, 76, Sala 910 - Campo Grande, RJ",
+    "telefone": "",
+    "whatsapp": "5521990000000",
+    "areas_atuacao": ["Cível", "Previdenciário", "Família"],
+    "status": "Pronto para Abordagem",
+    "gatilho_dor": "Localização de vínculos e bens devedores de pensão / partilhas",
+    "data_adicionado": "2026-09-29"
+  },
+  {
+    "id": "lead_07",
+    "nome_escritorio": "Gabriel Teixeira Advocacia",
+    "responsavel": "Dr. Gabriel Teixeira",
+    "endereco": "Rua Augusto de Vasconcelos, 331, Sala 208 - Campo Grande, RJ",
+    "telefone": "",
+    "whatsapp": "5521960000000",
+    "areas_atuacao": ["Cível", "Previdenciário"],
+    "status": "Pronto para Abordagem",
+    "gatilho_dor": "Investigação documental e suporte probatório",
+    "data_adicionado": "2026-09-29"
+  }
+]

@@ -23,12 +23,21 @@ output_reels_demo/
 *.tmp
 *.log
 
-
-# PDFs Gigantes de Amostra (Manter código e scripts leves)
+# Mídias e Áudios Pesados (Manter repositório de código e inteligência leve)
 *.mp4
 *.mkv
 *.wav
+*.mp3
+*.zip
+*.rar
+*.7z
 temp_legendas/
+audios_extraidos_cyber/
+ACERVO_AUDIOS_LOCAL/
+PACOTE_LENOVO_CLONES_CYBER/
+temp_audio_buffer/
+temp_clone_buffer/
+hackerhub_buffer/
 
 # Credenciais e Tokens Sensíveis em qualquer pasta config
 **/config/*_credentials.json
@@ -39,6 +48,3 @@ temp_legendas/
 **/config/instagram_credentials.json
 **/config/tiktok_credentials.json
 **/config/whatsapp_credentials.json
-*.session
-*.session-journal
-

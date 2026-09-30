@@ -1,19 +1,27 @@
-# 💻 Computação & CyberSketch — Ecossistema Autônomo de Educação, IA e Publicação Multirredes
+# 💻 Computação & CyberSketch — Ecossistema Autônomo de Educação, IA, Inteligência Forense e Publicação
 
 > **Repositório Oficial:** [github.com/matheusbarbosatech/computacao](https://github.com/matheusbarbosatech/computacao)  
-> **Caminho Local Oficial:** `C:\Users\matheus\Desktop\computacao`
+> **Caminho Local Oficial:** `C:\Users\mathe\Desktop\computacao`  
+> 🧭 **Guia de Continuidade para Chats / Agentes:** Leia [`HANDOVER_CONTINUACAO.md`](file:///c:/Users/mathe/Desktop/computacao/HANDOVER_CONTINUACAO.md) para retomar qualquer fluxo de inteligência patrimonial, prospecção e clones!
 
 ---
 
 ## 🌟 O que é este projeto?
 
-O **Computação** é um ecossistema completo de engenharia de software, inteligência artificial e criação audiovisual autônoma para transformar conceitos densos de **Ciência da Computação e Cibersegurança** em:
+O **Computação** é um ecossistema completo de engenharia de software, inteligência artificial, criação audiovisual autônoma e **inteligência forense / suporte probatório a advogados**, dividido em duas frentes integradas:
 
+### 🏛️ Frente 1: Inteligência Forense, OSINT & Suporte a Advogados (`AGENCIA_INTELIGENCIA_FORENSE/`)
+* **Dossiês Periciais Modelo:** Rastreamento de bens ocultos, fraude à execução (Art. 792 CPC / Art. 50 CC), quebra de interpostas pessoas e rastreamento de criptoativos (USDT/Bitcoin).
+* **Robô de Prospecção:** Prospecção ativa de advogados de dívidas e família com amostra de baixo risco (`PROSPECTAR_ADVOGADOS.bat`).
+* **Catálogo Oficial 2026:** Mapeamento exaustivo de escolas (WB Educação, AFD, Montax, Lexverse, JusClass, EV.G) e modelo de negócios.
+
+### 🎨 Frente 2: CyberSketch & Educação Autônoma em Computação
 1. **700+ Mapas Mentais Visuais (Sketchnote)** desenhados à mão no estilo Excalidraw / Rough.js.
 2. **Flashcards Atômicos para Anki** com repetição espaçada (portas de rede, flags TCP, comandos de terminal e algoritmos).
-3. **App Gamificado (CyberLingo / DevSketch Play)** com desafios estilo CTF (Capture The Flag) e lógica de programação.
-4. **Motores Audiovisuais Cinematográficos** com animações em Manim (estilo 3Blue1Brown) e VideoScribe, legendas estilo Hormozi (#FFD700) e Smart Auto-Reframe 9:16.
-5. **Esteira de Publicação Autônoma na Nuvem (GitHub Actions)** que posta automaticamente 6x ao dia no Instagram Reels, TikTok, YouTube Shorts e WhatsApp Status sem precisar do PC ligado.
+3. **App Gamificado (CyberLingo / DevSketch Play)** com desafios estilo CTF e lógica de programação.
+4. **Motores Audiovisuais Cinematográficos** com animações em Manim e legendas dinâmicas Karaokê.
+5. **Esteira de Publicação Autônoma na Nuvem (GitHub Actions)** que posta automaticamente 6x ao dia.
+
 
 ---
 

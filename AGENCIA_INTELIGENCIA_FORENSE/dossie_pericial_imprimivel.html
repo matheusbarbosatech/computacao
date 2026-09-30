@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dossiê Pericial de Inteligência Patrimonial - Confidencial</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap');
+
+        :root {
+            --primary: #0f172a;
+            --accent: #b91c1c;
+            --gold: #d97706;
+            --border: #e2e8f0;
+            --bg-card: #f8fafc;
+            --text-dark: #1e293b;
+            --text-muted: #64748b;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            color: var(--text-dark);
+            background: #cbd5e1;
+            padding: 30px 10px;
+            line-height: 1.5;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .document-container {
+            max-width: 850px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 50px 60px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+            border-radius: 4px;
+            position: relative;
+        }
+
+        /* Botão Flutuante de Imprimir */
+        .print-toolbar {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+        .btn-print {
+            background: #0f172a;
+            color: #ffffff;
+            border: none;
+            padding: 12px 24px;
+            font-weight: 700;
+            font-size: 14px;
+            border-radius: 30px;
+            cursor: pointer;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.2s ease;
+        }
+        .btn-print:hover {
+            background: #b91c1c;
+            transform: translateY(-2px);
+        }
+
+        /* Cabeçalho Oficial */
+        .doc-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid var(--primary);
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        .brand-badge {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .shield-icon {
+            width: 48px;
+            height: 48px;
+            background: var(--primary);
+            color: #fff;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            font-weight: 900;
+        }
+        .brand-text h1 {
+            font-size: 18px;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+            color: var(--primary);
+            text-transform: uppercase;
+        }
+        .brand-text p {
+            font-size: 11px;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .security-badge {
+            text-align: right;
+        }
+        .badge-red {
+            display: inline-block;
+            background: #fee2e2;
+            color: #b91c1c;
+            border: 1px solid #f87171;
+            font-size: 10px;
+            font-weight: 800;
+            padding: 4px 10px;
+            border-radius: 4px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+        .protocol-text {
+            font-size: 11px;
+            font-family: 'JetBrains Mono', monospace;
+            color: var(--text-muted);
+            margin-top: 4px;
+        }
+
+        /* Títulos de Seção */
+        .section-title {
+            font-size: 14px;
+            font-weight: 800;
+            color: var(--primary);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            border-left: 4px solid var(--accent);
+            padding-left: 10px;
+            margin: 28px 0 14px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        /* Tabelas */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            font-size: 12px;
+        }
+        th, td {
+            padding: 10px 12px;
+            text-align: left;
+            border-bottom: 1px solid var(--border);
+        }
+        th {
+            background: var(--bg-card);
+            color: var(--text-muted);
+            font-weight: 700;
+            text-transform: uppercase;
+            font-size: 10px;
+            letter-spacing: 0.5px;
+        }
+        .highlight-cell {
+            font-weight: 700;
+            color: var(--primary);
+        }
+
+        /* Cards de Destaque */
+        .metric-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+        .metric-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            padding: 15px;
+            border-radius: 6px;
+            border-top: 3px solid var(--primary);
+        }
+        .metric-card.alert {
+            border-top-color: var(--accent);
+            background: #fff5f5;
+        }
+        .metric-label {
+            font-size: 11px;
+            color: var(--text-muted);
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        .metric-value {
+            font-size: 20px;
+            font-weight: 800;
+            color: var(--primary);
+            margin-top: 4px;
+        }
+        .metric-desc {
+            font-size: 10px;
+            color: var(--text-muted);
+            margin-top: 4px;
+        }
+
+        /* Diagrama Visual de Vínculos */
+        .tree-box {
+            background: #f1f5f9;
+            border: 1px dashed #94a3b8;
+            padding: 20px;
+            border-radius: 6px;
+            margin: 20px 0;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+        }
+        .node-main {
+            font-weight: 800;
+            color: #b91c1c;
+            background: #fee2e2;
+            padding: 6px 12px;
+            display: inline-block;
+            border-radius: 4px;
+            border: 1px solid #f87171;
+            margin-bottom: 12px;
+        }
+        .node-branch {
+            margin-left: 20px;
+            padding-left: 15px;
+            border-left: 2px solid #cbd5e1;
+            margin-bottom: 10px;
+        }
+        .node-item {
+            margin-bottom: 6px;
+            color: #334155;
+        }
+        .tag-laranja {
+            background: #fef3c7;
+            color: #b45309;
+            font-size: 9px;
+            font-weight: 700;
+            padding: 2px 6px;
+            border-radius: 3px;
+        }
+        .tag-ativo {
+            background: #dcfce7;
+            color: #15803d;
+            font-size: 9px;
+            font-weight: 700;
+            padding: 2px 6px;
+            border-radius: 3px;
+        }
+
+        /* Assinatura */
+        .signature-block {
+            margin-top: 40px;
+            border-top: 1px solid var(--border);
+            padding-top: 25px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            font-size: 11px;
+        }
+        .sig-legal {
+            color: var(--text-muted);
+            max-width: 450px;
+        }
+        .sig-author {
+            text-align: right;
+        }
+        .sig-name {
+            font-weight: 800;
+            font-size: 13px;
+            color: var(--primary);
+        }
+        .sig-title {
+            color: var(--accent);
+            font-weight: 700;
+        }
+
+        /* Ajustes de Impressão */
+        @media print {
+            body {
+                background: none;
+                padding: 0;
+            }
+            .document-container {
+                box-shadow: none;
+                padding: 0;
+                max-width: 100%;
+            }
+            .print-toolbar {
+                display: none;
+            }
+            .page-break {
+                page-break-before: always;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="print-toolbar">
+        <button class="btn-print" onclick="window.print()">
+            🖨️ Imprimir / Salvar como PDF
+        </button>
+    </div>
+
+    <div class="document-container">
+
+        <!-- CABEÇALHO -->
+        <div class="doc-header">
+            <div class="brand-badge">
+                <div class="shield-icon">🛡️</div>
+                <div class="brand-text">
+                    <h1>Argos Inteligência Digital</h1>
+                    <p>Perícia Forense Digital & Investigação Patrimonial</p>
+                </div>
+            </div>
+            <div class="security-badge">
+                <span class="badge-red">CONFIDENCIAL // RESERVADO</span>
+                <div class="protocol-text">PROTOCOLO: AR-2026-0894/RJ</div>
+                <div class="protocol-text">BASE: LEI FEDERAL 13.432/2017</div>
+            </div>
+        </div>
+
+        <!-- IDENTIFICAÇÃO DO ALVO -->
+        <div class="section-title">
+            <span>1. IDENTIFICAÇÃO DO ALVO E PROCESSO JUDICIAL</span>
+            <span style="font-size: 10px; color: var(--text-muted); font-weight: 400;">CADEIA DE CUSTÓDIA ISO 27037</span>
+        </div>
+
+        <table>
+            <tr>
+                <th width="30%">Nome do Devedor Executado:</th>
+                <td class="highlight-cell">ROBERTO MENDONÇA DA SILVA</td>
+                <th width="20%">Status:</th>
+                <td>Insolvência Declarada</td>
+            </tr>
+            <tr>
+                <th>CPF do Alvo:</th>
+                <td>***.482.917-**</td>
+                <th>Vínculo Processual:</th>
+                <td>Processo nº 0012345-67.2024.8.19.0205</td>
+            </tr>
+            <tr>
+                <th>Juízo:</th>
+                <td>4ª Vara Cível da Comarca de Campo Grande / RJ</td>
+                <th>Valor da Execução:</th>
+                <td style="color: var(--accent); font-weight: 800;">R$ 487.650,00</td>
+            </tr>
+        </table>
+
+        <!-- RESUMO DOS ACHADOS -->
+        <div class="metric-grid">
+            <div class="metric-card alert">
+                <div class="metric-label">Patrimônio Oculto Mapeado</div>
+                <div class="metric-value">R$ 685.000</div>
+                <div class="metric-desc">Bens móveis e cotas ativas comprovadas</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-label">Veículos em Uso Real</div>
+                <div class="metric-value">01 Hilux 2023</div>
+                <div class="metric-desc">FIPE R$ 285.000 em nome de PJ de fachada</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-label">Criptoativos Rastreados</div>
+                <div class="metric-value">32.400 USDT</div>
+                <div class="metric-desc">~R$ 178.000 transferidos para Binance</div>
+            </div>
+        </div>
+
+        <!-- MAPA DE VÍNCULOS -->
+        <div class="section-title">
+            <span>2. MAPA DE CONFUSÃO PATRIMONIAL & LARANJAS (QSA/RECEITA)</span>
+        </div>
+
+        <div class="tree-box">
+            <div class="node-main">🎯 ALVO PRINCIPAL: Roberto Mendonça [Declara Insolvência / Zero Bens]</div>
+            
+            <div class="node-branch">
+                <div class="node-item">├─► <strong>Laranja 1: Lucas Mendonça</strong> (Filho - 21 anos) <span class="tag-laranja">SEM RENDA NO CAGED</span></div>
+                <div class="node-item" style="margin-left: 20px;">└─► <strong>Empresa: Silva & Mendonça Logística Eireli</strong> (CNPJ 42.***.***/0001-**) <span class="tag-ativo">FATURAMENTO R$ 1.8M</span></div>
+                <div class="node-item" style="margin-left: 40px; color: #b91c1c;">└─► <strong>Veículo: Toyota Hilux 2023 Placa RJ-***-4920</strong> (Uso exclusivo do devedor comprovado por geolocalização)</div>
+            </div>
+
+            <div class="node-branch">
+                <div class="node-item">├─► <strong>Laranja 2: Cláudia Mendonça</strong> (Irmã) <span class="tag-laranja">VÍNCULO FAMILIAR 1º GRAU</span></div>
+                <div class="node-item" style="margin-left: 20px;">└─► <strong>Empresa: RMS Participações Ltda</strong> (Imóvel Comercial em Campo Grande avaliado em R$ 400.000)</div>
+                <div class="node-item" style="margin-left: 40px;">└─► <strong>Procuração Pública:</strong> Devedor possui plenos poderes bancários irrestritos sobre a conta.</div>
+            </div>
+        </div>
+
+        <!-- EVIDÊNCIAS OSINT -->
+        <div class="section-title">
+            <span>3. PROVAS DE PADRÃO DE VIDA INCOMPATÍVEL (OSINT)</span>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th width="15%">Data Coleta</th>
+                    <th width="35%">Registro Técnico Identificado</th>
+                    <th width="25%">Metadado / Prova Digital</th>
+                    <th width="25%">Aplicação Jurídica</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>14/04/2026</td>
+                    <td>Estadia em Resort de Luxo em Angra dos Reis</td>
+                    <td>GPS EXIF: <code>-23.0065, -44.3188</code> (Hash SHA-256 anexado)</td>
+                    <td>Derruba alegação de hipossuficiência em juízo.</td>
+                </tr>
+                <tr>
+                    <td>28/05/2026</td>
+                    <td>Voo Internacional de Férias para Cancún</td>
+                    <td>Cartão de embarque registrado em fonte pública</td>
+                    <td>Fundamenta <strong>Apreensão de Passaporte</strong> (Art. 139, IV CPC).</td>
+                </tr>
+                <tr>
+                    <td>12/08/2026</td>
+                    <td>Transação de 32.400 USDT (Criptoativos)</td>
+                    <td>TxHash na Blockchain TRON vinculada ao alvo</td>
+                    <td>Ofício judicial à <strong>Binance Brasil</strong> para bloqueio.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- MEDIDAS COERCITIVAS -->
+        <div class="section-title">
+            <span>4. SUGESTÕES DE MEDIDAS COERCITIVAS PARA A PETIÇÃO</span>
+        </div>
+
+        <div style="background: #f8fafc; border-left: 3px solid #0f172a; padding: 12px 16px; font-size: 11px; margin-bottom: 25px;">
+            <p><strong>1. Desconsideração Inversa da Personalidade Jurídica:</strong> Inclusão da empresa <em>Silva & Mendonça Logística</em> no polo passivo da execução (Art. 50 do Código Civil).</p>
+            <p style="margin-top: 6px;"><strong>2. Penhora de Veículo de Luxo:</strong> Expedição de mandado de penhora e remoção da Toyota Hilux 2023 localizada na residência do executado.</p>
+            <p style="margin-top: 6px;"><strong>3. Apreensão de CNH e Passaporte:</strong> Aplicação do Art. 139, IV do CPC em razão do padrão de viagens internacionais concomitante à inadimplência.</p>
+            <p style="margin-top: 6px;"><strong>4. Ofício à Exchange Centralizada (Binance Brasil):</strong> Ordem de bloqueio e constrição de saldos cripto vinculados ao CPF do executado.</p>
+        </div>
+
+        <!-- ASSINATURA -->
+        <div class="signature-block">
+            <div class="sig-legal">
+                Relatório pericial emitido em estrita consonância com a Lei Federal nº 13.432/2017 e os Arts. 159 e 465 do Código de Processo Civil. Provas digitais preservadas sob integridade estrita (Hash SHA-256).
+            </div>
+            <div class="sig-author">
+                <div class="sig-name">MATHEUS BARBOSA</div>
+                <div class="sig-title">Perito em Inteligência Digital & OSINT</div>
+                <div style="color: var(--text-muted); font-size: 10px;">Ex-Militar da Marinha do Brasil (Fuzileiro Naval)</div>
+                <div style="font-family: 'JetBrains Mono', monospace; font-size: 9px; color: #94a3b8; margin-top: 3px;">ASSINADO DIGITALMENTE VIA ICP-BRASIL</div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
