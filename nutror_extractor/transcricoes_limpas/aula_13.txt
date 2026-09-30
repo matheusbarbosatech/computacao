@@ -1,0 +1,2007 @@
+Fala turma!
+
+Boa noite.
+
+Sejam todos muito bem-vindos, sejam todas muito bem-vindas à nossa aula/mentoria online.
+
+Eu estava dando um pouquinho de risada aqui com o comentário de vocês.
+
+Dez minutos perdidos já.
+
+Parece que nunca participou de um evento na vida, mas vamos lá, vamos começar a nossa aula. "Estou saindo".
+
+Volte na próxima, meu amigo.
+
+Mas vamos lá, pessoal, vamos começar aqui a nossa aula.
+
+Eu quero fazer hoje uma aula bem prática com vocês.
+
+Para que eu consiga ajudar vocês a destravarem o resultado de vocês.
+
+Então quero pegar o case de vocês mesmo e mostrar como que a gente constrói esse framework, que é muito utilizado nos Estados Unidos, e é claro, a gente precisa de algumas adaptações aqui pro Brasil, como que a gente monta esse framework do zero.
+
+Desde saber o que vai vender, porque assim, às vezes, pessoal, é um pouco duro ouvir isso.
+
+Mas às vezes vocês não estão tendo resultado pelo que vocês estão oferecendo pro mercado.
+
+E não adianta oferecer o que o mercado não quer comprar.
+
+Sempre vai ser mais difícil conseguir fechar algum contrato, conseguir chegar numa empresa com algo que o mercado não quer.
+
+Então uma coisa que é muito importante, falta pra muitos dos consultores, é saber fazer uma boa pesquisa de mercado, saber o que o mercado está precisando agora, qual que é a demanda que a gente tem no mercado agora.
+
+É claro que a gente tem algumas demandas que são muito visíveis, que não precisa nem fazer pesquisa.
+
+Então a parte de cloud, a parte de segurança, a parte de inteligência artificial, então tudo isso já é muito forte hoje no mercado, então são coisas que praticamente a gente não precisa fazer nenhum tipo de pesquisa.
+
+A gente já sabe.
+
+Mas é importante sempre estar atento, ficar rodando essas pesquisas constantemente.
+
+A gente roda aqui, a cada três meses a gente roda uma pesquisa completa.
+
+Por quê?
+
+Porque a gente não pode perder, ficar fora do nosso radar, o que o mercado está demandando agora.
+
+E às vezes ficar só no nosso achismo, às vezes quando a gente roda algumas pesquisas, a gente fica até impressionado com o resultado que é trazido, porque a nossa mente está: "pô, o mercado está precisando disso".
+
+Só que nem sempre a nossa visão é a visão do mercado.
+
+Então fazer essa pesquisa, entender um pouco dessa pesquisa, é parte essencial pra quem quer faturamento previsível.
+
+Primeiro, não adianta vender o que o mercado não quer, sempre vai ser mais difícil.
+
+Então eu tenho que estar, a minha estratégia de prospecção, de ter novos clientes, tem que estar muito alinhado com o que o mercado busca.
+
+Aí a gente tem uma decisão que a gente precisa tomar.
+
+Quando a gente faz uma pesquisa e dentro daquela pesquisa, ele me traz um resultado que não é o que eu ofereço, eu vou ter uma decisão.
+
+Ou eu vou ficar brigando por migalhas, ou eu vou aprender aquilo.
+
+É uma decisão que a gente tem que tomar.
+
+Então, pra mim, hoje, uma das coisas principais do pilar e que falta pra muitos dos consultores, é essa visão mais estratégica.
+
+Eu sei que a maioria tecnicamente consegue entregar, mas ter essa visão mais estratégica.
+
+Tem muita gente que pensa no negócio, na consultoria, como uma renda extra, não pensa naquilo como uma empresa.
+
+E quando a gente fala de uma empresa, a empresa vai sobreviver baseada na pesquisa que ela faz do mercado pra lançar novos serviços, novos produtos e por aí vai.
+
+E pra quem é consultor de TI, isso também não é diferente.
+
+Eu também preciso entender o que o mercado quer pra que eu olhe pra dentro da minha empresa e fale: "A minha empresa tem essa skill que o mercado precisa?
+
+Eu consigo oferecer isso que o mercado está precisando?
+
+Não, não consigo".
+
+Aí eu tenho que tomar uma decisão.
+
+Ou eu vou pra linha que vai ser sempre mais difícil, que é ficar abafando, dando murro em ponto de faca, oferecendo algo que o mercado não quer, então sempre vai ser mais difícil vender, ou eu vou ter que correr atrás e aprender aquela tecnologia.
+
+Maravilha? "Estou a partir de Angola, gostaria..." Pra qualquer mercado.
+
+Cara, isso aqui é pra qualquer um, pessoal.
+
+É claro que eu não vou conseguir dar exemplos de todo mundo que está aqui na sala, mas tudo que eu vou mostrar é aplicado pra qualquer país, pra qualquer modelo de negócio.
+
+A diferença vai ser, se você fizer uma pesquisa e aquilo falar que não está em alta no mercado, você sempre vai ter mais dificuldade pra vender, isso é fato.
+
+É a única diferença, mas todos vocês que estão aqui vão conseguir aplicar aqui o que eu vou mostrar pra vocês.
+
+Maravilha?
+
+Turma, antes da gente começar aqui já com o conteúdo, só confirma aí pra mim no chat, por gentileza, se vocês estão ouvindo bem, se vocês estão vendo aqui o mapa mental, a gente vai navegar, porque o que acontece?
+
+A gente não tira da nossa cabeça o que o mercado quer, eu não tiro da minha cabeça, eu uso a IA pra isso.
+
+E o Cloud hoje é a solução que está trazendo os melhores resultados, já ultrapassou o que o ChatGPT trazia pra gente no passado.
+
+Então hoje o Cloud tem uma maneira de trabalhar, um aprofundamento que a gente não tem, ou pra conseguir ter com o ChatGPT, envolve muita etapa, envolve muito treinamento.
+
+O Cloud já é mais simples.
+
+E depois eu quero mostrar pra vocês como que vocês podem otimizar tudo isso utilizando o LinkedInMaravilha!
+
+Então confirma aí, por favor, se está tudo certo, se está dando para ouvir, se o som está bom, se vocês estão conseguindo ver a tela compartilhada, para a gente começar.
+
+Antes da gente começar, deixa eu fazer uma pergunta para vocês.
+
+Quem aqui, que está ao vivo nessa aula e já é consultor?
+
+A renda principal é da sua empresa de consultoria.
+
+Digita o número um.
+
+Então hoje, a minha principal renda vem da minha empresa de consultoria.
+
+Quem está nesse cenário, digita o número um.
+
+Um, um.
+
+Vamos lá, tem mais gente aí.
+
+Tem mais, porque eu vou pegar quem já está no jogo.
+
+Tem mais.
+
+O resto eu posso entender que são todos CLTs?
+
+Vamos ver, para ver se a gente não tem os bots aí.
+
+E quem é CLT e está querendo começar a virar consultor, digita dois.
+
+Maravilha, é bastante gente.
+
+Gente, eu vou falar um negócio para vocês.
+
+Para vocês que são CLT e já entenderam esse jogo do consultor.
+
+Financeiramente falando, quando você constrói esse modelo de negócio bem feito, qualidade de vida também, não tem coisa melhor, não tem decisão melhor.
+
+Só que eu posso dar uma recomendação para vocês de cara: não façam essa besteira.
+
+Não larguem o CLT antes de ter uma empresa consolidada.
+
+Não façam isso.
+
+Por quê?
+
+Eu vou explicar por quê.
+
+Vai ser muito difícil, vocês terem resultados expressivos sem investir em anúncio.
+
+Vai ser muito raro.
+
+Se você largar o CLT para tentar fazer o big bang, para tentar virar consultor, você não vai ter essa verba para investir.
+
+Você sendo CLT, você pode pegar uma verba e falar: "essa verba é o que eu vou investir na estruturação da minha empresa, com anúncio e tudo mais".
+
+Agora, quando você está começando e você não tem nenhuma verba, mínima que seja, não estou falando uma verba gigante. "Você está falando que eu vou ter que tirar 50% do meu salário?" Não, eu estou falando que às vezes é R$ 10 por dia, R$ 20 por dia.
+
+Agora, se você não tem uma fonte de renda, como que você vai tirar minimamente R$ 10, R$ 20 por dia?
+
+Então não caiam nessa de que: "ah, eu vou largar o CLT e vou virar consultor".
+
+Não.
+
+Continua com os dois.
+
+No começo vai dar trabalho?
+
+Vai.
+
+Eu comecei assim.
+
+Então cara, no começo vai dar trabalho, porque você vai ter que girar os dois pratinhos.
+
+Mas pelo menos você vai fazendo uma transição segura.
+
+Isso aqui é extremamente importante.
+
+Vamos lá, o que eu vou fazer aqui?
+
+Eu vou pegar aquilo que vocês vão responder aqui e eu vou pegar um case.
+
+Para isso, o que eu preciso saber?
+
+Hoje, quando você olha para o seu portfólio de serviço, você olha para tudo que você oferece para a empresa.
+
+Eu preciso que você escolha um serviço específico.
+
+Um serviço bem específico.
+
+Então, por exemplo: eu atuo com toda a parte de infraestrutura de servidores.
+
+Não, eu quero que você me fale um negócio específico, que a sua empresa é muito boa.
+
+A minha empresa é uma empresa de infraestrutura, eu faço da parte de infraestrutura de TI, só que a gente é muito bom em migração de AD, por exemplo.
+
+Então me fala, migração de AD.
+
+Então coloquem aí no chat o que vocês vendem ou o que vocês gostariam de vender no mercado e o valor que vocês gostariam por esse serviço.
+
+Se for um projeto fixo, o valor do projeto, se for um contrato mensal, você só coloca o valor barra mês.
+
+Eu vou pegar o exemplo que vocês vão colocar aqui e eu vou trazer aqui para a gente construir isso do zero.
+
+Então coloquem aí no chat o serviço bem específico e o valor que você quer cobrar por esse serviço.
+
+Enquanto isso, enquanto vocês vão colocando aí, primeira parte da estratégia: precisa ser específico.
+
+Hoje não funciona mais, você ir para o mercado falando de coisas gerais, sendo um generalista.
+
+Aqui, pessoal, só saibam interpretar.
+
+Eu não estou falando que você não pode vender qualquer tipo de serviço.
+
+Aqui eu estou falando como que você vai aparecer para o mercado no primeiro momento.
+
+Qual que é a fórmula mágica?
+
+Vou colocar aqui: fórmula mágica.
+
+Qual que é a fórmula mágica?
+
+É serviço específico, mas que tenha demanda no mercado e que traga um ganho.
+
+Esse ganho pode ser financeiro, pode ser estratégico, pode ser inovador.
+
+Quando você consegue associar esses três elementos, um serviço específico, que tem demanda no mercado e que você consegue mostrar um ganho que a empresa vai ter, seja financeiro, estratégico ou inovadorBingo!
+
+Você está no caminho certo.
+
+Maravilha.
+
+Criar skill com IA, cobrar de 5 mil a 10 mil e no mínimo 500 de mensalidade.
+
+É que aqui você já está falando de criação de software.
+
+Estou falando de serviço mesmo.
+
+Instalação e configuração de servidor.
+
+Gente, eu preciso que vocês sejam específicos, isso é muito genérico.
+
+Eu ir pro mercado e falar: "Eu instalo e configuro servidores".
+
+Isso é muito genérico.
+
+Como que eu vou falar: "Eu instalo e configuro servidor", como que eu vou tirar o ganho dessa promessa?
+
+Tem que ser algo bem específico.
+
+Cloud Infra, AWS, EC2, NGINX, SSL, downtime, Cloud, IA, Via Bedrock, engenharia de prompts.
+
+Também está muito coisa.
+
+Gente, tem que ser genérico.
+
+Eu vou dar exemplo aqui.
+
+Um dos meus posicionamentos, o que é?
+
+Eu ajudo pequenas, médias e grandes empresas a fazerem migração pra cloud com redução de custo.
+
+Olha como eu estou sendo específico, a cloud é gigantesca.
+
+Só que eu pego um pedaço específico da cloud.
+
+Eu falo: "Eu ajudo empresas a migrar do ambiente on-premises para cloud, reduzindo o custo".
+
+Então específico, é isso que vocês precisam, ser específico.
+
+Muitas vezes vocês não estão tendo resultado, porque vocês estão indo para o mercado com algo genérico.
+
+O mercado não vai comprar algo genérico, o mercado não quer um consultor genérico.
+
+Só que saibam interpretar.
+
+Quando eu falo mercado, é como o mercado me vê como empresa ou como o mercado me vê como consultor.
+
+Só que uma coisa é como o mercado me vê, outra coisa é o portfólio que a minha empresa entrega de serviço.
+
+São coisas diferentes.
+
+Para essa visão, como o mercado me vê, eu preciso ser muito específico.
+
+É olhar pra o que eu ofereço e falar: "De tudo o que eu ofereço, o que eu faço melhor?
+
+É esse pedacinho, é esse serviço específico?
+
+Beleza, então eu vou montar um posicionamento, eu vou oferecer esse tipo de serviço".
+
+Então precisa ser específico.
+
+E lembra: demanda, ganho.
+
+Olha o meu posicionamento, um dos.
+
+Eu ajudo pequenas, médias e grandes empresas a migrar para o Azure.
+
+Olha o meu serviço, migração para o Azure, migração para cloud.
+
+Serviço específico.
+
+Esse serviço de migração pra cloud tem demanda?
+
+Tem demanda.
+
+E o ganho?
+
+Aí eu junto o outro pedaço da minha promessa.
+
+Eu ajudo pequenas, médias e grandes empresas a migrar pra cloud com redução de custo.
+
+Eu pego aqui, tanto o ganho financeiro, que eu estou falando que ele vai diminuir o custo, quanto o estratégico e o inovador ao mesmo tempo.
+
+Nuvem inovação, nuvem estratégico pras empresas.
+
+Então pensa nesse posicionamento pra vocês agora.
+
+Cara, deixa eu pensar num serviço específico.
+
+Esquece a demanda por enquanto, demanda eu vou mostrar pra vocês como que a gente faz pra ver se tem demanda.
+
+Então eu preciso de um serviço específico e de preferência, esse serviço tem que ter um ganho financeiro, estratégico ou inovador.
+
+Conseguem pensar em algo assim pra eu ajudar vocês a terminar aqui?
+
+Coloquem aí no chat pra eu ver.
+
+Porque o que vocês estão colocando aqui, está muito genérico.
+
+O genérico vocês vão ter cada vez mais a dificuldade de ter ROI.
+
+Por isso que eu preciso ser específico, eu preciso que isso tenha demanda, eu preciso que isso tenha um ganho pra eu ter um ROI grande.
+
+Eu invisto pouco, faturo muito.
+
+Isso vem desses três pilares: serviço específico, demanda e ganho.
+
+Toda vez que você foge disso aqui, você sempre vai ter um ROI menor.
+
+Investe muito pra faturar mais ou menos.
+
+Conseguem pensar agora com essa explicação, alguma coisa nesse cenário?
+
+SaaS multitenant IA com personalidade do negócio.
+
+Ainda está um pouco genérico.
+
+O que essa IA vai fazer pro negócio?
+
+Vai atuar na parte financeira?
+
+Vai atuar na parte estratégica?
+
+Vai atuar na parte jurídica?
+
+Vai atuar na parte do RH?
+
+Lembra, precisa ser específico, porque aqui está muito amplo. "Ah, eu tenho SaaS multitenant IA com personalidade de negócio", mas beleza.
+
+Pensa assim, vocês têm que pensar quando vocês digitarem, vocês têm que pensar assim: o cliente do outro lado que olhar essa mensagem, ele tem que entender, isso tem que ser claro.
+
+De novo, olha o meu posicionamento.
+
+Eu ajudo pequenas, médias e grandes empresas a migrar pra cloud.
+
+Então o cara quando vê aquela minha mensagem, ele fala: "Esse cara é o cara pra migrar pra cloud".
+
+Então precisa estar claro.
+
+Não pode gerar dúvida em quem está lendo aquela mensagem, porque se eu jogo essa mensagem aqui, Marcelo: "SaaS multitenant IA com personalidade do negócio do cliente".
+
+O cara quando ler isso aqui, ele vai falar: "Cara, não entendi nada como que isso aí vai ajudar minha empresa.
+
+Não entendi"Tem que ser claro.
+
+A mensagem tem que estar clara, tem que ser entendida.
+
+A mensagem não pode gerar dúvida.
+
+Gerar dúvida nessa primeira mensagem é fazer com que o cliente ignore aquela sua mensagem, tem que ser clara. "Sou especialista em Totvs RM e RP.
+
+Acredito que ser específico em estabilização do RP, operação e redução de custos operacionais." Está na linha, dá para melhorar ainda um pouco isso, isso e isso, dá para melhorar um pouco, mas dá para a gente começar aqui.
+
+Deixa eu só ver aqui, eu vou pegar esse exemplo do Fagundes.
+
+Podem ir colocando mais exemplos aí e durante a explicação, pessoal, se vocês: "Como que funciona isso aqui pro meu negócio?
+
+E se fosse pro meu?" Podem ir perguntando, que não vai dar pra gente fazer todos juntos.
+
+Mas eu consigo ir explicando como que você tem que atuar. "Vendo SaaS para conectar o WhatsApp numa central de telefonia IP, com gravação e transcrição automática de todas as chamadas feitas e recebidas, com finalidade de registrar interações com o cliente." Aqui a gente só precisa ajustar um pouco a promessa.
+
+Essa promessa está muito vaga.
+
+Por exemplo, eu leio isso aqui, eu fico já com as perguntas: "Mas beleza, o que isso vai trazer de benefício pro cliente?" Ele vai registrar as interações, mas beleza, e então tem que ter um complemento, o que vai fazer com esse registro, o que isso vai trazer de valor pra empresa, porque se você ir com esse tipo de mensagem, vai gerar assim: "Cara, beleza, ele tem uma solução SaaS ali, que conecta o WhatsApp na central de telefonia IP, grava ali, beleza, mas e o ganho?" Porque o que vocês precisam entender, pessoal, é que às vezes a gente precisa fazer o que a gente chama no marketing, de despertar a consciência do nosso cliente.
+
+Aqui está como contato.
+
+Mas às vezes, aqui quem colocou esse caso aqui do WhatsApp, às vezes eu preciso mostrar pro cliente que ele precisa daquilo.
+
+Essa sua mensagem só vai pegar o cliente que já passa por aquilo.
+
+Só que tem cliente que está com aquela dor, só que ele nem sabe ainda.
+
+Então dá para dar uma refinada aqui nessa mensagem para que desperte a consciência.
+
+Então preciso despertar a consciência.
+
+Maravilha?
+
+E olha como funciona.
+
+Eu mostrei aqui pra vocês, específico, demanda. "Passa o contato desse SaaS do WhatsApp." É ser específico, é ser claro.
+
+Maravilha?
+
+Então vamos lá, vamos colocando aí no chat, eu estou aqui de olho, mas vamos começar aqui por essa do Fagundes.
+
+A primeira coisa que eu preciso é assim: eu sou especialista Totvs RM e RP.
+
+Então a primeira coisa que eu preciso é saber se existe demanda pra esse tipo de serviço, porque é muito arriscado eu ir pro mercado, principalmente se eu vou investir em anúncio, é muito arriscado eu ir pro mercado, sem saber se o mercado está comprando aquele tipo de serviço.
+
+Então eu vou pegar aqui o Claude, e aqui no Claude eu tenho um agente aqui, que é esse "pesquisa de mercado estratégico".
+
+Eu vou colocar aqui: "Eu preciso da sua ajuda para validar se existe demanda no mercado para serviços do Totvs RM e RP.
+
+Estabilização do ERP na operação e redução de custo operacional".
+
+Beleza.
+
+Operacionais.
+
+Bem genérico mesmo.
+
+O agente aqui que eu tenho, já está preparado pra isso, então não precisa explicar.
+
+É que ele entende, ele vai pra cima.
+
+Deixa eu ver se ele vai entender, mas acho que ele vai.
+
+Eu já tenho esse agente, ele já está treinado pra fazer essa pesquisa, então por isso que eu não preciso dar detalhes pra ele nem nada.
+
+Deixa eu só ver.
+
+Estabilização RP, mas é que acho que ele vai pegar.
+
+Então ele começa aqui com a visão geral do mercado. "O cenário é extremamente favorável." Essa primeira frase aqui já me dá um bom indício, falando: "Poxa, o cenário é extremamente favorável".
+
+Aí ele começa a falar aqui de faturamento, aí aqui ele começa a dar um pouco mais de detalhe.
+
+Aqui uma frase muito boa: "O movimento dominante hoje é de pós-implementação.
+
+Empresa implantou o RM ou RP, gastou muito, o sistema está instável, os usuários não usam direito e o gestor de TI está com a corda no pescoço." Olha que legal, ele já está me falando: "Cara, você quer focar?
+
+Foca no pós-implementação.
+
+Fala bastante do pós-implementação, porque muita gente implementa e depois fica largado lá, fica lento, foi mal implementado, então focaNessa questão de pós-implementação.
+
+Aqui, quais são as dores que essas empresas que utilizam o RP sentem hoje?
+
+RP implementado, mas não funciona de verdade.
+
+Custo com suporte Totvs é alto e o retorno é lento.
+
+O que ele está falando?
+
+Tem um monte de empresa que não tem condições financeiras de ter um suporte direto com a Totvs, porque isso é caro.
+
+Estão aqui para consultores independentes.
+
+Usuários que não sabem usar o sistema.
+
+Módulo de RH, folha, RM Labor, com erros em obrigações legais.
+
+Cara, isso aqui é muito legal.
+
+É muita coisa que o pessoal às vezes implementa e esquece a parte de legislação, quem fez a implementação.
+
+Isso aqui é muito interessante.
+
+Beleza, desejos ocultos.
+
+O que esse cara quer?
+
+O gestor de TI ou financeiro quer dormir sabendo que o sistema está rodando.
+
+Conhece o negócio dele, não um consultor genérico.
+
+Aqui, como a gente está falando de uma solução de RP, é muito bom, nesse caso, vender uma consultoria como se fosse uma consultoria estratégica para a empresa, porque é um sistema estratégico para a empresa.
+
+Então Fagundes, não é vender só o pós-implementação, vender só melhorar performance, fazer com que os usuários usem.
+
+Não, é tentar trazer isso para um olhar mais estratégico, porque é uma ferramenta estratégica para a empresa.
+
+Então toda vez, pessoal, que o que vocês oferecem é estratégico para a empresa, vocês têm que se vender como consultor estratégico e não consultor técnico, que fica só pondo a mão na massa.
+
+Essa mudança de consultor técnico para um consultor estratégico é o que vai fazer você sair, às vezes, de um contrato de 2 mil para um contrato de 10 mil.
+
+Só essa palavrinha: estratégico.
+
+Aqui ele fala um pouquinho de concorrência, mas aqui ele começa a pegar os grandes.
+
+Ele fala aqui: qual é o ponto fraco dos concorrentes?
+
+A maioria foca só na implementação.
+
+O pós-implantação é um buraco negro.
+
+Posicionamento genérico.
+
+Somos especialistas em Totvs.
+
+Olha aqui aquilo que eu falei pra vocês.
+
+Gente, tem que ser específico.
+
+Não vende que você é um especialista Totvs, vai no específico, que nem você colocou aqui.
+
+Poucos comunicam ROI e redução de custo como promessa central.
+
+Toda vez que vocês conseguirem colocar isso aqui no serviço de vocês, sempre vai ser mais fácil vender.
+
+Quando você consegue mexer com financeiro, seja o que você vai oferecer, vai evitar uma perda financeira ou o que você está oferecendo vai ter um ganho financeiro.
+
+Quando você consegue oferecer tipo de serviço com essa característica, fica muito mais simples fechar o contrato.
+
+Quando você chega, por exemplo, e fala: "É isso que eu tenho para oferecer.
+
+Sem isso aqui, você pode ter um prejuízo de 100 mil por dia.
+
+E eu vou evitar com que esse prejuízo de 100 mil por dia ocorra.
+
+O meu serviço custa 5 mil por mês." Eu ancoro ele no que ele vai perder e eu chego com a minha solução.
+
+O que você faz para evitar perder isso e quanto que vai custar?
+
+Então toda vez que a gente consegue chegar nesse nível no nosso serviço, é o que vai trazer os melhores resultados, é o que vai ser mais simples, porque aqui não tem convencimento.
+
+Eu não preciso convencer, os dados mostram.
+
+Com o meu serviço, você evita perder 100 mil.
+
+Sem o meu serviço, você corre o risco de perder 100 mil.
+
+É que eu preciso verbalizar, eu preciso mostrar isso para o cliente.
+
+Atendimento centralizado em São Paulo, deixando outras regiões desatendidas.
+
+Olha o que ele está falando pra nós.
+
+Olha aqui, Fagundes, eu não sei de que região você é, mas ele está falando: gente, a maioria das empresas dos consultores que atendem Totvs é de São Paulo.
+
+Tem um monte de regiões espalhadas pelo nosso Brasilzão que está órfão, está desatendida por serviços de implementação.
+
+Brechas de mercado.
+
+Primeiro, pessoal, ele está trazendo tudo isso aqui para mim, porque o meu agente já está treinado.
+
+Ele está trazendo análise de concorrência, ele está trazendo desejo, ele está trazendo as dores, por conta do agente que já está treinado.
+
+Brechas de mercado, sustentação e estabilização, pós-implementação.
+
+Olha ele de novo, jogando aqui esse pós-implementação.
+
+Verticalização por segmento, com promessa de ROI.
+
+De novo, cara, mexeu no financeiro, fica tudo mais simples.
+
+Modelo de BPO, operacional do RP.
+
+Interior e regiões desatendidas.
+
+Reforma tributária como gatilho de urgência.
+
+Eu não sei, Fagundes, se você conhece essa parte, mas quem conhece essa parte dessas reformas e consegue estender isso para uma solução de RP, você casa ali duas dores muito fortes.
+
+Olha que legal, oportunidades de monetização.
+
+Esse meu agente está treinado para, além de fazer uma pesquisa no mercado, me dar sugestões do que eu vendo com baseNessa pesquisa.
+
+Gente, pra mim isso aqui é um matador.
+
+Inclusive é o que eu vou recomendar.
+
+Se eu fosse o Fagundes, quando eu olho pra tudo isso aqui, eu começaria por aqui.
+
+Sem dúvida nenhuma.
+
+Só que aqui eu faria um pouquinho diferente.
+
+A não ser que o Fagundes vire pra mim e fale: "Cara, eu já sou uma referência no mercado.
+
+Eu já sou conhecido, então eu não preciso disso agora.
+
+Eu já tenho um bom faturamento, eu só quero aumentar." Mas se o Fagundes está começando agora, está tendo os primeiros faturamentos, eu recomendaria rodar esse diagnóstico de graça.
+
+Pra entrar na empresa. "Eu vou fazer aqui um diagnóstico pra sua empresa do Totvs, de graça, e no final vou gerar um relatório do que saiu desse diagnóstico." Só que qual é a vantagem?
+
+No final, você mostra o diagnóstico e o cliente já vai olhar e vai falar: "Cara, eu tenho esses problemas." Beleza, não quer ter mais esses problemas?
+
+Está aqui meu contrato.
+
+Isso aqui é batata.
+
+Eita, pera aí que eu saí sem querer.
+
+É o que eu recomendo pra todo mundo.
+
+Sempre que tiver a opção de utilizar um diagnóstico de entrada é o melhor cenário.
+
+Aí ele fala: "Você pode vender pacotes de horas de sustentação." Aqui eu só tiraria esse pacote de horas.
+
+Eu fecharia um contrato em cima de escopo.
+
+Aí ele está falando que esse contrato, dependendo do tamanho da empresa, pode ser de 2K a 8K.
+
+De novo.
+
+Pessoal, não é achismo.
+
+Aqui ele fez um monte de pesquisa, ele buscou informações em muitos lugares.
+
+Então o que ele está trazendo aqui são coisas de mercado.
+
+Aqui pra ter uma recorrência mensal. "Eu vou cuidar do seu ERP." Aqui eu posso fechar um projeto mais pontual, falando: "Cara, você está com problema aí no seu Totvs?
+
+Eu posso fechar um projeto aqui onde eu vou estabilizar todo o seu ambiente." Aí ele fala que esse tipo de projeto, de novo, dependendo do tamanho da empresa, varia de 15 mil a 80 mil.
+
+Tem gente que fala pra mim, às vezes eu ponho no LinkedIn, no Instagram: "Pô, como fechar projetos de 3 mil, 5 mil por mês?" Aqui ele está falando de um projeto a partir de 15 mil.
+
+É que vocês têm medo de oferecer isso, porque vocês não têm confiança e não sabem chegar nesse cliente.
+
+Por isso que vocês têm medo de trabalhar com valores tão altos.
+
+Mas a IA está falando pra mim que é a faixa de preço que as empresas pagam.
+
+E muitas vezes vocês vão jogar isso aqui, 3 mil, 5 mil, e às vezes isso até queima vocês, porque o cliente pode olhar aquilo, gostou, falou: "Mas, cara, está muito barato, o cara não deve ser bom." Isso faz parte do posicionamento de vocês.
+
+BPO de módulo financeiro, RH, de 5 mil a 25 mil por mês.
+
+Já pensou?
+
+Aqui ele já vai pra uma outra linha também, que muitos de vocês já estão preparados pra isso.
+
+Que é beleza, além de oferecer serviços, é fazer treinamentos, é fazer mentoria daquilo que vocês têm expertise.
+
+Então aqui o Fagundes poderia ter uma mentoria explicando como trabalhar com Totvs.
+
+E dentro dessa mentoria, ele pode ter os empresários e ele pode ter alunos que querem aprender sobre o sistema Totvs.
+
+Adequação, reforma tributária.
+
+Notem que são projetos com valores bem expressivos.
+
+Aqui ele está dando pra gente um banho de loja de produtos que o mercado compra.
+
+Aqui tem escala.
+
+Se eu fizer o diagnóstico, eu tenho uma escala média, tenho uma escala alta.
+
+Dá pra vender bastante, médio, alto e por aí vai.
+
+Big ideas de posicionamento.
+
+Isso aqui que vocês precisam verbalizar pro mercado.
+
+O ERP que você já pagou finalmente trabalhando por você, sem troca de sistema, sem recomeçar do zero.
+
+Olha que legal isso aqui, o cara que está lá do outro lado, que tem um ERP lá, que pagou uma bala pra implementar, mas não está conseguindo utilizar.
+
+Aí ele vê o Fagundes com essa mensagem. "Cara, sabe esse ERP que você pagou?
+
+Quer ver finalmente ele trabalhando pra sua empresa, sem precisar trocar esse sistema, sem recomeçar do zero?
+
+Meu nome é Fagundes, eu tenho uma empresa de consultoria especializada em ambientes Totvs", aí sendo mais específico, caso precise. "E se você quer minha ajuda, está aqui o contato do meu time comercial ou o meu contato pra gente falar mais sobre esse tema." Pare de pagar licença de ERP e continuar usando Excel.
+
+Cara, isso aqui é demais.
+
+O Fagundes pode confirmar aí, mas eu vejo muito isso aqui acontecer.
+
+O pessoal não sabe usar ferramentas e fica usando tudo no Excel, sendo que tem uma baita ferramenta por trás, que foi investido uma baita grana, mas ainda utilizando soluções como o Excel, por exemplo.
+
+O fim do suporte lento e caro da Totvs para: aí aqui você pode ser o Fagundes.
+
+Você pode ter mensagens específicas para determinados nichos do mercado.
+
+Construtoras, instituições de ensino, empresas de serviço.
+
+Isso aqui funciona muito bem também quando eu consigo ser específico no nicho do mercado que eu quero atender.
+
+Eu quero atender aqui com Totvs as construtoras.
+
+Eu quero atender as instituições de ensino, eu quero atender as empresas de serviço.
+
+Consultoria Totvs que fala a língua do financeiro.
+
+Cada real investido com ROI comprovadoSeu Totvs nunca mais vai parar de novo.
+
+Sustentação especializada pra quem não pode depender de chamado.
+
+Aqui, gatilhos emocionais.
+
+Quando a gente começa a estudar um pouco o processo de vendas, para que ele aconteça de uma maneira mais persuasiva, ele precisa bater bastante no emocional da pessoa.
+
+E geralmente o emocional que a gente precisa bater muito pra vender serviço, principalmente de tecnologia, é o medo de acontecer aquilo que o seu serviço não vai deixar.
+
+Pensa só o cara que tem lá o RP dele.
+
+E se a folha travar no fechamento?
+
+Cara, isso aqui é o pesadelo de todo mundo que trabalha em RH.
+
+E se no dia do fechamento da folha, o meu RP travar?
+
+E se o auditor pedir aqui o SPED e tiver errado?
+
+Qual é a frustração desse público?
+
+Opa, qual é a frustração?
+
+Já gastou muito, não vê resultado.
+
+Vergonha de admitir que o sistema não funciona.
+
+Urgência latente, o que está pegando agora, reforma tributária, obrigações legais, auditoria chegando.
+
+Então tudo isso aqui, pessoal, que esse agente traz pra gente, são frases, são argumentos que eu preciso levar pro mercado.
+
+O mercado precisa me conhecer com base nessas frases aqui que o Claudio trouxe pra mim.
+
+Então eu tenho que pegar cada uma dessas frases, cada um desses argumentos que ele montou e eu tenho que ir pro mercado, eu tenho que verbalizar isso, o mercado tem que começar a me conhecer por isso aqui.
+
+Promessas que convertem: redução de X no custo operacional com o módulo Y.
+
+Resolvemos em dias o que a Totvs demorou meses pra responder.
+
+ROI mensurável em horas economizadas, retrabalho eliminado.
+
+Linguagem do público.
+
+Então aqui é o que esse público está falando na internet. "Poxa, o sistema trava.
+
+Eu abro chamado, chamado não é resolvido.
+
+Pô, eu não consegui fazer os meus usuários aderirem o sistema.
+
+Ele está mal parametrizado.
+
+O projeto foi entregue, mas não funciona.
+
+Estou dependente do consultor que saiu".
+
+Então tudo isso aqui são coisas que o pessoal já está reclamando.
+
+Aqui ele fala: evitar o jargão técnico de TI pra falar quem vai decidir ali pelo financeiro.
+
+Isso aqui é uma recomendação geral.
+
+Quando a gente vai falar de fechar o contrato e tudo, dependendo de quem é o tomador de decisão, se não é um cara de tecnologia, não posso falar pra ele a linguagem de tecnologia, senão ele não vai entender nada.
+
+Aqui no final desse agente, ele dá uma avaliação pra gente.
+
+Então é aqui que a gente vai validar, aqui que o Fagundes vai olhar e falar: "Cara, vale a pena investir nisso?" Aqui ele dá o veredito final: entrar agora.
+
+A demanda é real, os concorrentes estão mal posicionados no pós-implementação.
+
+E há pelo menos dois gatilhos externos de urgência, que faz com que as pessoas queiram esse tipo de serviço agora, que é a reforma tributária e obrigações legais do eSocial.
+
+Uma dica aqui pro Fagundes.
+
+Pessoal, peguem esses detalhes, porque isso aqui é, às vezes, o que faz você sair de um faturamento de 20 mil pra 50.
+
+Se eu sou o Fagundes, o que eu faço?
+
+Poxa, eu manjo muito tecnicamente do serviço.
+
+Eu sei fazer implementação, o pós-implementação, parametrização.
+
+Cara, tecnicamente, eu sou o cara aqui do Totvs.
+
+Só que reforma tributária, obrigações legais, cara, eu não conheço nada.
+
+O que eu faria se eu fosse o Fagundes?
+
+Buscaria uma parceria de alguém que conhece isso aqui pra eu juntar as duas coisas.
+
+Porque se eu juntar as duas coisas, o técnico, com isso que ele está falando pra mim que é urgente, reforma tributária, obrigações legais, vira o que a gente chama de uma oferta irresistível, fica difícil o cliente resistir a isso aqui.
+
+Então vocês precisam ter e ver esses sinais aqui. "Cara, espera aí, eu vendo isso, mas isso aqui está atrelado a uma coisa forte que eu não domino".
+
+Busquem parcerias, é melhor você dividir um faturamento, e às vezes não estou falando de uma divisão 50/50, mas é melhor você ter uma divisão de um faturamento do que não ter nada.
+
+Isso aqui é extremamente importante.
+
+Por isso que eu falo, gente, hoje é muito arriscado.
+
+Então aqui, sendo bem sincero com vocês.
+
+Hoje, se você não pode investir, pelo menos, mas quando eu falo investir, saibam interpretar, já é um investimento com resultado.
+
+Mas hoje, se você não consegue investir 50 reais por dia em anúncio, você nunca vai ter um faturamento acima de 50 mil.
+
+Nunca, não vai.
+
+Precisa do anúncio pra isso.
+
+Só que o anúncio estratégico, não é aquele anúncio que você vai colocar dinheiro e não vai retornar nada.
+
+É um anúncio estratégico.
+
+Só que o que acontece?
+
+Pro anúncio se tornar estratégico, a minha pesquisa de mercado tem que ser muito bem feita.
+
+Eu preciso ser assertivo, porque eu estou colocando dinheiro pra aparecer pras empresas.
+
+Eu não posso colocar dinheiro pra aparecer pras empresas com algo que elas não querem comprar.
+
+Eu vou rasgar dinheiro.
+
+Agora, quando eu faço uma boa pesquisa de mercado, eu vejo que tem demanda, ele me mostra quais são as dores, o que eu tenho que falar pra engajar com essa audiência, e eu começo a investir em anúncio, começar devagarzinho, começar com 10 reais por diaA gente vê os resultados aparecendo.
+
+Agora, qual é o problema?
+
+O problema é que o cara quer faturar 50 mil por mês e não tem coragem de investir R$ 10 pra fazer teste.
+
+Não vai sair do lugar.
+
+Vai continuar dependendo de indicação e dependendo de sorte.
+
+Não dá, pessoal.
+
+No passado, dava.
+
+Hoje, não dá mais pra ter uma empresa de consultoria previsível sem investir em anúncio.
+
+Só que, de novo, é um investimento em anúncio estratégico, não é colocar dinheiro e sabe lá o que vai acontecer.
+
+É estratégia.
+
+Hoje eu posso investir 50, 70 mil por mês, porque eu tenho a estratégia, eu acompanho, eu não fico colocando dinheiro lá e deixo largado pra ver se vai dar certo.
+
+Não, eu tenho a estratégia, eu faço uma boa pesquisa de mercado.
+
+Fiz uma boa pesquisa de mercado, eu monto um bom conteúdo.
+
+Montei um bom conteúdo, agora é hora de pegar isso e propagar pras empresas verem.
+
+É onde entra o anúncio.
+
+Coloco o anúncio pra rodar e eu fico medindo: "pô, eu coloquei esse anúncio pra rodar, deixa eu ver o retorno que ele me trouxe.
+
+Esse outro, deixa eu ver o retorno.
+
+Esse não está funcionando, eu vou parar ele.
+
+Esse está funcionando bem, eu vou escalar ele".
+
+Agora, se você ficar dependendo do orgânico, ficar postando em LinkedIn, ficar postando em Instagram, ficar postando em Facebook, você não vai sair do lugar.
+
+Se você está aqui com essa visão de: "cara, eu quero que dê certo sem investir R$ 1", já adianto pra você: continua como CLT, porque consultoria não vai ser pra você.
+
+Ou você vai ser aquele consultor que fatura menos do que ganhava como CLT, que fica olhando e arrependido: "cara, eu era feliz e não sabia".
+
+Agora, quando você tem o método, tem o framework, sabe fazer uma boa pesquisa, sabe entregar conteúdo de valor pro mercado pra você ser conhecido, sabe investir em anúncio, bingo.
+
+Gente, eu tenho anúncios hoje que rodam há mais de dois anos, o mesmo anúncio.
+
+Rodam há mais de dois anos.
+
+Por que eles rodam há mais de dois anos?
+
+Porque funciona.
+
+Eu tenho anúncio que faz dois anos que eu não mexo.
+
+É claro que eu acompanho todo mês as métricas, mas eu não mexo nele há dois anos, por quê?
+
+Continua funcionando.
+
+Agora, eu vou correr o risco na minha empresa de depender só desse anúncio, esperar ele parar de funcionar pra eu parar de faturar pra correr atrás de outro?
+
+Não, eu fico rodando um anúncio atrás do outro, testando um atrás do outro.
+
+O que vai dando certo, eu vou escalando.
+
+O que não vai dando certo, eu vou tirando e colocando novos.
+
+Hoje, dentro da minha empresa, a gente tem um segredo aqui, que é o quê?
+
+A gente trabalha com cinco pilares, baseado nessas pesquisas que a gente faz.
+
+O que são cinco pilares?
+
+Eu tenho cinco soluções que têm alta demanda no mercado e eu trabalho em cima delas.
+
+Só que o que acontece?
+
+Eu faço essas pesquisas que eu estou mostrando pra vocês, a cada dois, três meses.
+
+Quando eu vejo que uma dessas cinco parou de ter demanda no mercado, eu não vou ficar dando murro em ponta de faca.
+
+Eu troco ela, substituo por uma outra que agora está em alta.
+
+Só que eu tenho sempre cinco rodando, porque eu não posso ter uma só e essa parar de funcionar e o meu faturamento vai pra onde?
+
+Então eu tenho cinco.
+
+Quando uma para, eu substituo.
+
+Então sempre tenho cinco rodando.
+
+É claro que pra maioria de vocês, vocês não estão ainda nesse nível de maturidade, isso leva um tempo pra chegar.
+
+Muitos de vocês o que precisam é ter essa primeira muito bem rodando, porque tendo essa primeira muito bem rodando, vocês começam a faturar, vão ter um poder de investimento maior em anúncio pra criar o segundo, pra criar o terceiro, pra criar o quarto, pra criar o quinto.
+
+Agora, não adianta você criar esses pilares. "Ah, beleza, entendi o que você falou, vou usar cinco pilares" e montar cinco pilares de algo que o mercado não precisa.
+
+Seu ROI sempre vai ser menor.
+
+Pessoal, vocês estão entendendo isso aqui?
+
+Cara, que eu estou falando de estratégia de business.
+
+Não estou falando aqui, nem é o propósito dessa aula, falar de conteúdo técnico, o que eu vendo no mercado.
+
+Não, tem a pesquisa pra mostrar.
+
+Mas aqui eu estou falando do business, do modelo de negócio, que é baseado no framework americano.
+
+O americano trabalha assim.
+
+O que o mercado precisa, beleza.
+
+Vou pro mercado, preciso fazer com que essas minhas argumentações sejam ouvidas e vou potencializar isso com anúncio.
+
+É a tríade.
+
+Isso vai rodando.
+
+Acertei o primeiro, deixa ele rodando.
+
+Vamos pro segundo.
+
+Acertou o segundo, vamos pro terceiro.
+
+E assim sucessivamente, mas sempre baseado em uma boa pesquisa de mercado.
+
+Sem essa pesquisa de mercado, a chance de você errar é grande.
+
+Se você erra no que você vai vender, os anúncios que você vai montar não vão trazer tantos resultados.
+
+Maravilha, então veredito: entrar agora.
+
+Aí vamos lá.
+
+Pega aí, Fagundes.
+
+E lembra, pessoal, tudo que eu estou mostrando aqui pra vocês é pra todo mundo.
+
+É que eu estou pegando o exemplo aqui do Fagundes, que o que ele colocou ali foi o que mais chegou próximo do que eu comentei com vocês, de ser algo específico, ter uma dor forte por trás, ter a parte do ganho financeiro.O que o Fagundes precisa fazer agora?
+
+Pense assim: o Fagundes olhou para essa pesquisa e falou: "Beleza, é isso mesmo que eu vendo, está certinho.
+
+Agora eu preciso pegar essas linhas de argumentações que ela trouxe para mim e eu preciso fazer com que essas informações cheguem nas empresas, cheguem nos tomadores de decisões." Então o que o Fagundes tem que fazer?
+
+Ele vai ter que criar alguns conteúdos para chegar nessas pessoas.
+
+Uma coisa, pessoal, não façam isso.
+
+A gente vê muito isso acontecendo, provavelmente vocês também veem isso dia a dia, isso só queima o consultor, que é ficar fazendo anúncio de LinkedIn, mandando mensagem lá direto no inbox.
+
+Eu não sei vocês, mas eu às vezes acho um saco, o cara oferecendo um serviço para minha pessoa física, sendo que primeiro a segmentação dele já está chegando na pessoa errada.
+
+Tem que ir para a empresa, o tomador de decisão na empresa, e meu perfil não tem nada que eu tomo decisões dentro de empresa.
+
+Então já está chegando no perfil errado.
+
+Mas existem estratégias que eu posso utilizar.
+
+Esse negócio de ir direto no inbox é coisa do brasileiro, americano não faz isso.
+
+O que o Fagundes tem que fazer agora?
+
+O Fagundes tem aqui tudo bonitinho, tudo feitinho.
+
+Ele precisa agora de um bloco de conteúdo.
+
+E de novo, gente, não é qualquer conteúdo.
+
+Não adianta o Fagundes chegar lá e colocar: "Oi, eu faço isso." Cara, é um conteúdo estratégico.
+
+De onde eu posso tirar esse conteúdo estratégico?
+
+De tudo que ele me colocou aqui.
+
+É claro que eu já tenho um pouco de experiência, batendo o olho aqui, eu consigo enxergar por onde começar.
+
+Então no caso do Fagundes, o que eu faria?
+
+Eu trabalharia com isso aqui.
+
+Copiar.
+
+Olá, eu vou falar assim: "Eu quero trabalhar com o serviço assim, mas eu não vou cobrar por esse serviço.
+
+Eu quero fazer esse diagnóstico gratuito para que eu entregue uma apresentação no final do diagnóstico e aí, sim, ofereça o serviço." Deixa eu pegar aqui qualquer que ele colocou.
+
+Esse aqui.
+
+Eu não daria esse nome, mas é só para vocês entenderem.
+
+Serviço pacote de horas de sustentação.
+
+Eu vou colocar aqui.
+
+Isso aqui é importante, às vezes a gente precisa pedir para a IA validar, senão ele vai levar aquilo como verdade.
+
+Preciso que você valide a estratégia assim.
+
+A minha ideia de diagnóstico é um diagnóstico que vai.
+
+Aqui, Fagundes, eu vou colocar um valor, mas vai depender muito de como você vai entregar isso aqui.
+
+Vai depender muito de como você vai entregar.
+
+Eu vou falar que vai ser um diagnóstico que vai levar de duas a quatro horas.
+
+Eu não recomendo ser um diagnóstico muito grande, para não correr o risco de não fechar e você ter gasto uma semana fazendo.
+
+Então tem que ser algo bem rápido e pontual.
+
+Um prompt bem básico aqui.
+
+Estratégia sólida, execute.
+
+Isso não é ideia nova, é o modelo mais testado e comprovado em consultorias B2B no mundo.
+
+Tem um nome, foot in door diagnostic sales.
+
+E no contexto do Totvs, ela é ainda mais poderosa, porque o produto ERP mal configurado, se vende sozinho durante o diagnóstico.
+
+Por que funciona?
+
+Aqui ele vai falar um pouco mais do que ele falou.
+
+Aqui, o risco, o que o Fagundes tem que tomar cuidado nessa estratégia?
+
+Cara, isso não pode virar um bate-papo.
+
+Se você chegar nas duas ou quatro horas sem um roteiro claro do que vai analisar, o cliente não vai perceber valor.
+
+O diagnóstico precisa ter checklist definido, pontos auditados e saída visual, apresentação final.
+
+Criar um protocolo fixo de diagnóstico, os mesmos 15, 20 pontos verificados em todos os clientes, adaptando apenas o que é crítico para o segmento.
+
+Apresentação final fraca, quebra a venda.
+
+Cara, esse aqui é o principal da estratégia, tem que ser uma apresentação impactante, e o Cláudio me ajuda a fazer tudo isso.
+
+Risco três, o cliente entrar no diagnóstico sem perfil de compra.
+
+Isso aqui tem muito a ver de para quem que eu vou mostrar esse serviço de diagnóstico gratuito.
+
+Então tem que ser assertivo para trazer empresas que realmente queremcontratar o meu serviço.
+
+Aqui ele já foi enxerido.
+
+Ele já quer sugerir como que eu tenho que estruturar essas quatro horas. "Em 15 minutos, você entende o contexto.
+
+De 60 a 20 minutos, você percorre os pontos críticos do sistema.
+
+Trinta minutos, descobre as dores reais de quem opera no dia a dia, organiza os achados, entrega os resultados, mais a proposta de sustentação.
+
+Não ofereça o pacote como proposta, ofereça como uma continuação natural." Aqui ele dá uma frase que tem que usar durante a apresentação. "Encontramos oito pontos críticos.
+
+Desses, três estão gerando risco fiscal agora.
+
+Nosso pacote de sustentação resolve isso de forma contínua, com previsibilidade de custo, sem surpresa no final do mês.
+
+A venda se faz sozinha".
+
+Beleza?
+
+Então aqui, o que eu falei pra ele? "Cara, valida se essa estratégia de diagnóstico gratuito, onde no final do diagnóstico gratuito eu vou oferecer o meu serviço, me fala se isso aqui é factível, se é uma boa estratégia." Então ele já está falando: "Cara, faz agora.
+
+Não espera, faz agora".
+
+Faz agora.
+
+Eu vou colocar aqui: agora eu preciso da sua ajuda para criar alguns conteúdos, para engajar essa audiência.
+
+Empresas, tomadores de decisões.
+
+Eu quero utilizar o LinkedIn Ads para distribuir esse conteúdo para as empresas.
+
+Aqui, pessoal, de novo, é um pouco da experiência.
+
+Sim, a gente tem prompts que ajudam nisso, mas aqui vem um pouco da experiência também.
+
+Mas tudo isso aqui que eu estou fazendo, que eu estou escrevendo, eu estou fazendo pra ganhar tempo, mas a gente já tem prompt, agentes pra tudo isso aqui.
+
+Depois eu vou falar como vocês podem ter acesso a esses agentes.
+
+Mas eu quero utilizar o LinkedIn Ads para distribuir esse conteúdo para as empresas.
+
+Eu quero utilizar a estratégia do engajamento, mais remarketing, onde no engajamento eu só vou entregar o conteúdo, quebrando objeções, gerando interesse e desejo.
+
+Beleza.
+
+Depois eu vou pegar as empresas que engajaram com o conteúdo, e aí sim, oferecer o diagnóstico gratuito.
+
+A Siri querendo se meter na aula.
+
+O diagnóstico gratuito.
+
+Então aqui só pra vocês entenderem.
+
+Eu não quero, no primeiro momento, vender.
+
+Eu quero mostrar que eu posso ajudar a empresa.
+
+Então primeiro, eu não quero vender.
+
+Eu quero mostrar, isso aqui faz parte do posicionamento, eu quero mostrar que eu domino aquilo.
+
+Então primeiro eu vou entregar um conteúdo só pras pessoas me conhecer, só pras pessoas saber que eu trabalho com aquele problema, que eu resolvo aquele problema.
+
+Depois, todo mundo que se engajou com esse conteúdo, eu vou fazer um remarketing pra aparecer só pra essas pessoas, só pra essas empresas.
+
+Aí sim, no remarketing, eu vou convidar elas para o diagnóstico gratuito.
+
+Eu vou colocar aqui pra resumir, pra não ficar muito longo.
+
+Crie duas peças de conteúdo de engajamento, que seja um vídeo.
+
+É bom vídeo, o vídeo é melhor do que o texto simples.
+
+Que seja um vídeo de dois a quatro minutos, onde se vocês tiverem isso é muito bom, mas não é obrigatório.
+
+Onde o primeiro vídeo fale de um case genérico.
+
+Mas aqui, o certo seria mais específico.
+
+É só pra gente ganhar tempo.
+
+Mas o certo seria: "fale do case, onde eu fiz isso, isso e isso".
+
+E o segundo vídeo, fale oportunidade.
+
+E também crie duas peças de conteúdo para o diagnóstico gratuitoTambém um vídeo de dois a quatro minutos.
+
+Utilize urgência e escassez, informando que foi liberado gratuitamente apenas 10 vagas.
+
+Aqui é para fazer com que o cara aja.
+
+Tipo: "Cara, eu tenho 10 vagas para o diagnóstico gratuito, você quer?
+
+Quer?
+
+Quer.
+
+Não quer, próximo".
+
+Então bem rápido.
+
+Vamos lá, vamos ver o que ele vai trazer para nós aqui.
+
+Pessoal, vocês estão pegando?
+
+Vocês estão acompanhando?
+
+Viraram o bot?
+
+Quem está aí ainda digita o número um.
+
+Eu achando que vocês viraram o bot.
+
+Ficaram muito quietos.
+
+Estão acompanhando?
+
+Muito bom.
+
+Então começou aqui pra mim.
+
+Fase um de engajamento.
+
+O que encontramos quando abrimos o Totvs de uma empresa que achava que estava bem.
+
+Olha que legal isso aqui.
+
+Aí vamos pegar o Fagundes.
+
+O Fagundes chega lá, liga a câmera dele, que nem eu estou aqui, aí começa a falar: "Eu vou te contar o que aconteceu quando a gente foi fazer um diagnóstico no Totvs ERP de uma empresa aqui no Brasil.
+
+Empresa séria, faturamento robusto, mais de 80 colaboradores.
+
+O diretor nos chamou achando que o problema era o sistema lento, mas quando a gente abriu o sistema, o que a gente encontrou foi muito pior do que a lentidão.
+
+Primeiro achado: a empresa tinha módulos contratados e pagos há dois anos, que nunca tinham sido ativados." Isso aqui é muito comum. "Literalmente pagando por funcionalidades que estavam desligadas.
+
+Segundo achado: o lançamento de notas fiscais estavam sendo feitos em dois sistemas ao mesmo tempo.
+
+Aqui, o sistema e uma planilha paralela.
+
+Por quê?
+
+Porque ninguém confiava nos dados do ERP.
+
+Terceiro achado, esse foi o mais grave: a folha de pagamento tinha parâmetros do eSocial configurados errado." Cara, pensa em quem está ouvindo uma mensagem dessa e está achando que tem problema no ERP.
+
+O cara vai se interessar nisso aqui ou não?
+
+Se ele não tiver com esse problema, vai colocar aquela sementinha na cabeça dele do tipo: "Cara, será que eu estou passando por isso?
+
+Cara, será que isso está acontecendo com a minha empresa?" "E sabe o que o diretor me disse quando apresentamos o relatório?
+
+Eu achei que isso era normal.
+
+Achei que todo mundo passava por isso com o ERP.
+
+Não é normal, não deveria ser assim.
+
+O problema não é o Totvs.
+
+O Totvs é uma ferramenta poderosa.
+
+O problema é que a maioria das empresas implanta, paga licença todo mês e nunca para pra perguntar: o sistema está realmente trabalhando pra mim?
+
+Ou eu é que estou trabalhando para sustentar?" Olha que frase forte, meu Deus do céu, isso aqui, inclusive, pegaria se o Fagundes usa as mídias sociais, já ia meter essa frase aqui em vários contextos diferentes.
+
+Cara, o seu ERP Totvs realmente trabalha para a sua empresa ou a sua empresa que trabalha para sustentar o ERP Totvs? "Se você usa o Totvs e tem a sensação de que o sistema poderia render mais, provavelmente você está certo.
+
+Nos próximos dias eu vou trazer mais conteúdos." Aí aqui você pode pular, para não ficar esse negócio do cara ficar só querendo conteúdo.
+
+Então lembra, esse vídeo eu não estou falando do diagnóstico, eu estou querendo trazer para a pessoa que está vendo esse contexto, você pode estar nesse contexto.
+
+Aí aqui é o segundo: existe dinheiro parado dentro do seu Totvs e você provavelmente não sabe onde.
+
+Deixa eu te fazer uma pergunta rápida: você sabe quanto sua empresa perde por mês por causa de retrabalho gerado pelo ERP?
+
+Não estou falando de custo de licença, estou falando de custo invisível.
+
+Horas de time fazendo lançamento manual porque o sistema não gera relatório certo, analista corrigindo dados que deveriam sair automáticos, gestores tomando decisão com informação que pode estar errada.
+
+Esse custo não aparece no DRE.
+
+Aqui é o ERP.
+
+Mas ele existe e na maioria das empresas que a gente atende ele está entre 8 mil e 40 mil por mês, em ineficiência silenciosa.
+
+Eu trabalho com Totvs ERP há anos.
+
+Existe um padrão que se repete em quase todas as empresas.
+
+A empresa contrata o ERP com expectativa.
+
+A implantação acontece com pressa, porque sempre acontece.
+
+Os consultores entregam o projeto e vão embora.
+
+E aí começa o problema real.
+
+O sistema está no ar, mas está configurado para o que o consultor achou que a empresa precisava, não necessariamente para o que ela realmente precisa.
+
+Com o tempo, os usuários criaram atalhos, planilhas paralelas surgem, processos que deveriam ser automáticos continuam sendo manuais.
+
+E o gestor?
+
+O gestor aprende a conviver com isso, porque sempre foi assim.
+
+Mas sempre foi assim, tem um preço.
+
+Vou te dar três números para você pensar.
+
+A maioria das empresas usa menos de 40% das funcionalidades Totvs.
+
+Gente, isso aqui, de novo, ele não está tirando do nada.
+
+Isso aqui são dados reais.
+
+Uma parametrização incorreta no módulo financeiro de RH pode levar meses pra ser identificada e o dano já está feito.
+
+Empresas que estruturam corretamente a operação ERP após implementação, reduzem em média 25% a 30%.
+
+É o que ele começou a falar.
+
+Então lembra, esse primeiro passo é o conteúdo pra engajar, pro cliente me conhecer, pra ele ver que eu posso dar aquela solução pra empresa dele.
+
+Depois, o que eu vou fazer?
+
+Todo mundo que se engajou com esses dois conteúdos, é claro, aqui eu só coloquei dois pra gente ganhar tempo, mas quanto mais conteúdos a gente tiver, mais otimização a gente consegue fazer, mas tudo a IA pode trazer pra mim.
+
+Aí aqui, vamos pegar só o primeiro.
+
+Então todo mundo que se engajou vai receber esse vídeo de remarketingAqui o título: "Abrimos 10 vagas pra diagnóstico gratuito do Totvs.
+
+Veja como funciona".
+
+Aí o vídeo começando lá. "Se você acompanha meu conteúdo, já sabe que eu falo sobre ERP mal configurado.
+
+Agora eu quero fazer algo diferente.
+
+Eu vou colocar isso em prática, gratuitamente pra 10 empresas.
+
+A gente criou o diagnóstico gratuito de ERP Totvs.
+
+São duas a quatro horas com especialista dentro da sua operação, presencial ou remoto.
+
+Recomendação remoto.
+
+Onde a gente vai mapear como seu sistema está configurado hoje, identificar os módulos pagos que não estão sendo usados, apontar processos que estão sendo feitos manualmente e deveriam ser automáticos, verificar riscos e obrigações legais como o eSocial, SPED, flow de pagamento, calcular em números o impacto financeiro desses problemas.
+
+No final, você recebe uma apresentação completa com tudo o que encontramos e um plano de ação claro, sem custo, sem compromisso.
+
+Eu sei o que você está pensando: por que gratuito?
+
+O que tem por trás?
+
+Transparência total.
+
+A gente acredita que se a gente mostrar o problema com clareza, algumas dessas empresas vão querer continuar com a gente pra resolver.
+
+Mas isso é uma escolha sua depois do diagnóstico.
+
+Não vai ser pressionado a nada.
+
+O diagnóstico é real, o valor é real.
+
+A única coisa que tem por trás é a convicção de que a empresa que conhece o problema, resolve o problema.
+
+Agora, a parte importante: são apenas 10 vagas.
+
+Não é estratégia de marketing, é capacidade real da nossa equipe pra fazer isso com qualidade.
+
+Quando as 10 forem preenchidas, a lista fecha.
+
+Se a sua empresa usa Totvs e você tem a mínima dúvida se o sistema está rendendo como deveria, esse é o momento.
+
+Clica aqui no link abaixo, preenche o formulário é aqui, CTA".
+
+Pessoal, olha o poder disso aqui.
+
+Olha o Fagundes criando esses dois vídeos de engajamento, depois fazendo esse vídeo de remarketing pra quem se engajou.
+
+O cara está passando por aqueles problemas, gostou do vídeo de engajamento, chega nesse vídeo e é convidado a participar desse diagnóstico gratuito.
+
+Olha o poder disso aqui.
+
+Agora, o Fagundes vai lá na empresa, faz um baita projeto, faz uma baita apresentação e no final fala: "Está vendo?
+
+Você está com tudo isso aqui de problema.
+
+Você quer que nunca mais tenha esses problemas?
+
+Porque não adianta eu corrigir agora, o mês que vem acontece.
+
+Você quer que nunca mais aconteça?
+
+A gente tem aqui o serviço tal, custa tanto".
+
+Acabou.
+
+Gente, ninguém faz isso aqui.
+
+O pessoal fica achando que as coisas vão cair do céu.
+
+O pessoal pega o celular, grava um vídeo no Instagram e acha que aquilo vai fazê-la ficar rica.
+
+O pessoal vai no Instagram, no LinkedIn, digita um post e acha que aquilo vai dar dinheiro.
+
+Vai lá, manda uma mensagem no inbox das empresas, acha que aquilo vai gerar resultado.
+
+Não vai, serviço é confiança.
+
+Uma mensagem que você manda no inbox da pessoa não vai gerar nenhuma confiança.
+
+Agora, você está ali aparecendo num vídeo, a pessoa está te vendo, você está falando com confiança, falando o que ela está passando, e no final você não fala nada.
+
+Daqui a pouco, ela vê um remarketing falando: "Poxa, olha de novo aquela pessoa, deixa eu ver o que essa pessoa está falando agora.
+
+Lembra daquele vídeo que você viu?
+
+O que você acha da gente fazer um diagnóstico gratuito pra sua empresa?" Bingo!
+
+Gente, boa parte de vocês que estão aqui, a grande maioria.
+
+Hoje, a estratégia do diagnóstico, independente do serviço que você ofereça, a estratégia do diagnóstico é a melhor pra vocês.
+
+Eu não preciso disso.
+
+Hoje a minha empresa não precisa de diagnóstico, mas eu faço até hoje.
+
+É que eu não escalo, porque eu já tenho projetos entrando, contratos, então não preciso ficar fazendo, mas eu sempre faço pra não perder a mão também.
+
+Mas funciona muito quando é bem estruturado.
+
+Agora, o que não vai funcionar é você chegar no LinkedIn, no Instagram, criar um post e falar: "Entendi, vou usar o diagnóstico gratuito".
+
+Sai da aula, vai no Instagram: "Deixa eu criar um post aqui, um banner, diagnóstico gratuito", e largar lá, isso não vai te levar a lugar nenhum.
+
+Não vai, tem que engajar, a pessoa tem que ver, tem que entender.
+
+Outra coisa, não adianta você pegar o Instagram, criar um reels lá falando do serviço, falar de qualquer jeito.
+
+Essa parte aqui a gente chama de copy.
+
+Olha essa escrita como está persuasiva, ele não escreveu de qualquer jeito, pessoal.
+
+Olha essa escrita.
+
+Olha isso.
+
+Muito bem escrito.
+
+Olha a parte de conteúdo, como ele vai na ferida.
+
+Você sabe quanto a sua empresa perde por mês?
+
+Não é um vídeo que eu vou ficar falando: "O meu serviço funciona assim, eu ajudo a sua empresa nisso".
+
+Não, isso não vai funcionar.
+
+Agora, quando eu faço a estratégia bem feita, eu venho aqui pro meu LinkedIn Ads, monto primeiro a minha campanha de engajamento, seleciono as empresas que eu quero trabalhar.
+
+Se você hoje quer focar em microsegmentação, cara, você também vai dar um boom.
+
+Quer ver?
+
+Olha isso aqui. "Agora eu preciso da sua ajuda para escolher o melhor nicho de todos, para que eu comece a rodar esses vídeos de engajamentoColoca assim: exemplo, clínicas médicas, instituições financeiras, contabilidades, advocacias.
+
+O que mais que ele deu lá em cima?
+
+Instituição financeira, contabilidade, acho que só isso aqui já vai dar.
+
+Me mostre também o tamanho ideal da empresa para eu começar agora.
+
+Ele vai começar, gente.
+
+Muitos de vocês estão levando isso aqui que eu estou mostrando na brincadeira, mas é por isso que vocês não vão ter resultado, porque vocês estão usando coisa que não funciona mais hoje.
+
+E eu não preciso falar que não funciona.
+
+Eu tenho certeza que a maioria de vocês aqui que é consultor, começou com uma expectativa grande para 2026.
+
+Chega agora, já estamos indo para a metade do ano, você olha para trás e fala: "O que eu consegui fazer?
+
+Qual é o retorno que eu consegui ter?
+
+Qual o faturamento que eu tinha ou que eu tenho?" A maioria continua na mesma, isso se não está pior.
+
+Mas por quê?
+
+Continua usando coisa que não funciona.
+
+Construção civil e incorporadoras, é o melhor nicho para começar.
+
+Então se eu fosse o Fagundes, o que eu faria?
+
+Quando eu fosse aqui pro meu LinkedIn Ads, fosse fazer toda a parte de engajamento e remarketing, eu ia buscar empresas de construção civil e incorporadoras.
+
+Porque pensa, o Fagundes está começando agora.
+
+Eu não sei a verba que ele tem para investir nesses anúncios, mas mesmo para aqueles que têm uma verba maior, a recomendação é começar pouco.
+
+Não adianta eu começar pouco e abrir muito.
+
+Não, eu começo pouco e vou específico, eu vou nas empresas certas.
+
+E a IA está falando para mim: "Cara, para isso, a melhor empresa hoje".
+
+Lembra, isso pode mudar, mas hoje, construção civil e incorporadoras.
+
+Tamanho de 50 a 300 funcionários.
+
+Aqui ele até fala, quando você for montar o anúncio, você vai colocar lá que é a empresa de construção civil e incorporadoras de 50 a 300 funcionários, que tem o faturamento tal.
+
+Quando você está criando o anúncio, você consegue falar para quem que vai aparecer, então para diretor administrativo, gerente de TI, sócio.
+
+E aqui ele até mostra, ele dá mais exemplos aqui.
+
+Poxa, não quero atender construção civil e incorporadora.
+
+Segundo, instituições de ensino.
+
+Instituição de 500 a 5.000 alunos, de 50 a 200 funcionários.
+
+Qual é o terceiro?
+
+Empresas de serviço.
+
+E aqui ele vai mostrando para mim.
+
+Nichos que parecem óbvios, mas não são prioridade agora.
+
+Então onde o Fagundes não tinha que gastar dinheiro com anúncio?
+
+Em clínica médica, em contabilidade, em advocacia, em indústria de manufatura.
+
+Então ele está falando: "Cara, não mexe com isso aqui agora".
+
+Tamanho ideal de empresa para fazer os anúncios, entre 80 e 400 funcionários.
+
+E aqui ele vai falando, custo mensal.
+
+Você pode gastar aqui de R$ 1.000.
+
+Aqui, pessoal, é só estimativa.
+
+A gente recomenda começar com muito menos, mas aqui ele está falando por mês também.
+
+Você investir de R$ 1.500 a R$ 3.000.
+
+Você tem um CPL esperado de R$ 80 a R$ 200 por lead, por pessoa que vai ver o conteúdo.
+
+De 10 a 30, taxa de engajamento.
+
+Então isso aqui, pessoal, de novo, não é achismo, ele consultou o LinkedIn Ads, está pegando as métricas de mercado.
+
+Ele está falando que de R$ 1.500 a R$ 3.000 investido por mês, você tem uma capacidade de fechar de um a quatro clientes.
+
+De um a quatro clientes.
+
+Com ticket médio de R$ 3.000 a R$ 5.000 por mês, do que você vai oferecer depois do diagnóstico, um cliente já paga todo o seu investimento.
+
+E lembra, é recorrência.
+
+Você fechou um contrato de três meses hoje, é R$ 3.000 esse mês, é R$ 3.000 mês que vem, é recorrente. "Sou do mercado de construção e incorporação, trabalho no grupo desse segmento".
+
+Vocês estão vendo que o que a IA está falando não é achismo, o próprio Fagundes falando.
+
+Não é achismo, pessoal, é bom para executar, é bom para rodar.
+
+Agora o que não adianta é você ver uma baita estratégia dessa, não fazer absolutamente nada e continuar achando que os clientes vão cair do céu.
+
+Continuar construindo um modelo de negócio que depende só de indicação.
+
+Você vai continuar faturando a mesma coisa, senão menos do que você fatura hoje.
+
+O mercado está cada vez mais concorrido.
+
+Quem não sabe investir na empresa hoje, principalmente em anúncio, a tendência, infelizmente, não é que o faturamento melhore, é o contrário, que o faturamento piore nos próximos mesesPorque enquanto você não faz nada, tem gente que está aprendendo essa estratégia e vai fazer.
+
+Aqueles clientes que poderiam ser seus, não vão ser.
+
+Pessoal, vocês entenderam?
+
+Quem curtiu esse conteúdo digita o número um.
+
+Vamos ver quem virou bot e quem continua até o final.
+
+Gente, é pôr pra rodar.
+
+Só que lembra, não é pôr pra rodar de qualquer jeito, é pôr pra rodar com estratégia.
+
+É pôr pra rodar com estratégia.
+
+Cara, põe pra rodar com estratégia que vocês vão ver o resultado.
+
+Para de continuar fazendo coisa que nunca funcionou e você acha que do nada uma coisa que você vai fazer vai funcionar.
+
+Não é assim.
+
+Não acha que você vai criar um site pra sua empresa e que do nada os clientes vão cair ali.
+
+Não vai.
+
+O cara hoje é bombardeado por todos os lados.
+
+Gente, isso aqui, infelizmente, quem ganha mais hoje não é o consultor que sabe mais.
+
+Quem ganha mais hoje é o consultor que sabe se posicionar, que tem uma linha de argumentação forte, persuasiva.
+
+Hoje o que fecha contrato não é conhecimento.
+
+Hoje o que fecha contrato é o que a gente chama de copy, essa persuasão.
+
+Agora deixa eu perguntar pra quem está aqui ao vivo ainda comigo.
+
+Quem que está aqui ao vivo, que gostaria de aprender toda essa estratégia que eu mostrei pra vocês no detalhe?
+
+E não somente isso.
+
+Quem quer ter acesso também aos agentes que a gente tem no Cloud pra que vocês consigam montar tudo isso sem ter conhecimento em copy, sem ter conhecimento em marketing digital, que nem eu mostrei pra vocês, ele foi trazendo o que eu tenho que fazer.
+
+Quem está aqui ao vivo, que gostaria de ter esse conhecimento, aprender a fazer a estratégia do absoluto zero, passo a passo, cada detalhe, desde a pesquisa de mercado, produto, preço de produto, linhas de argumentação, scripts de negociação, montar campanhas aqui no LinkedIn Ads que trazem resultado, não que rasgam dinheiro.
+
+Quem quer coloca um "eu" aí no chat.
+
+Só pra eu saber quem quer dar esse próximo passo, que olha e fala: "Não, cara, eu preciso, eu entendi, eu preciso agir.
+
+Já tenho aqui a minha empresa há anos e continua na mesma coisa".
+
+Ou "eu quero virar um consultor, eu sou CLT, mas eu quero virar um consultor, mas eu quero criar uma empresa estruturada, eu não quero criar uma empresa que um mês eu faturo, outro mês sei lá o que vai acontecer".
+
+Quem está aqui ao vivo, que deseja aprender a fazer tudo isso aqui na prática, passo a passo, de forma detalhada?
+
+Na próxima semana, quinta e sexta-feira, a gente vai ter a nossa imersão consultor recorrente.
+
+O que vocês vão aprender nesses dois dias?
+
+Vocês vão aprender nesses dois dias exatamente o que eu mostrei aqui, só que de uma maneira mais avançada, porque a gente tem dois dias pra tratar de toda a estratégia.
+
+Então vocês vão aprender a montar tudo isso do absoluto zero.
+
+Vocês vão ter todos os nossos agentes do Cloud, pra que acabou a imersão, você vai poder continuar utilizando os agentes pra fazer novas pesquisas, pra montar novos materiais.
+
+A gente vai entregar todos os agentes clouds que a gente usa de bônus.
+
+Então vocês vão aprender a montar toda essa estratégia pra empresa de vocês.
+
+Vocês vão aprender a fazer a pesquisa, você vai aprender a precificar, você vai aprender a montar a linha de conteúdo.
+
+Aqui eu falei só do LinkedIn, mas tem muita oportunidade no Instagram.
+
+Hoje não deu pra falar do Instagram, só que dentro da imersão a gente vai ter tempo, a gente vai ter dois dias, então eu vou conseguir abordar também o Instagram.
+
+A forma que a gente utiliza o Instagram é diferente da forma que a gente utiliza o LinkedIn, até porque o público é diferente.
+
+Mas hoje, boa parte da nossa receita vem do Instagram.
+
+E a gente tem agentes pra montar toda essa linha de conteúdo no Instagram também.
+
+Então próxima quinta e sexta, imersão consultor recorrente.
+
+E pra aqueles que garantir a vaga agora nessa imersão, a gente vai liberar de bônus todos os nossos pacotes de agente.
+
+Vocês vão receber um pacote de 10 agentes e mais de 50 prompts.
+
+Vocês vão receber, além dos agentes, mais de 50 prompts prontos, desde prompts de negociação. "Poxa, o cliente falou que não tem dinheiro agora, como que eu faço pra negociar isso?" "O cliente achou caro, como que eu faço pra negociar isso sem ficar baixando o valor?" "O cliente falou que vai pensar, qual que é a linha que eu tenho que utilizar?" Alguns de vocês, se tivessem uma lista, o produto de vocês, a promessa, o que vocês entregam é tão bom, que se hoje vocês tivessem uma lista de pessoas que nem eu estou aqui com vocês ao vivoSe você tivesse uma lista de pessoas pra colocar ao vivo e no final oferecesse um serviço que é o que eu estou fazendo com vocês, vocês já iriam ter um baita resultado.
+
+Só que a maioria não sabe fazer isso.
+
+Nessa mentoria, a gente vai conseguir passar por tudo isso.
+
+Qual é o valor de investimento dessa mentoria?
+
+O valor é de R$ 497 e pode ser dividido em 12 vezes, que vai ficar de R$ 50 e pouquinho.
+
+Então a parcela é de R$ 50.
+
+Alguns de vocês, às vezes, podem estar gastando mais do que R$ 50 por mês em anúncio sem ter resultado nenhum.
+
+R$ 497, e esse valor pode ser dividido em até 12 vezes no cartão de crédito.
+
+Vocês vão ter acesso aos dois dias de imersão, aos nossos agentes Cloud, mais de 50 prompts prontos e vocês vão levar ainda de bônus 90 dias dentro de uma comunidade.
+
+O que tem nessa comunidade?
+
+Empresários como você, consultores ou o CLT que quer virar consultor.
+
+O que a gente vai ver nessa comunidade durante 90 dias?
+
+Novas estratégias.
+
+Gente, tem dezenas de estratégias.
+
+Então dentro de 90 dias, dentro dessa comunidade, vocês vão ver novas estratégias.
+
+Vocês vão poder pedir orientação: "Poxa, eu fiz isso aqui, não deu certo, o que eu faço?" Vocês vão poder pedir orientação.
+
+E o principal pra mim, gente, esse é o principal dessa comunidade: parcerias.
+
+Gente, para de deixar dinheiro na mesa.
+
+Se você não entrega um serviço porque você não tem conhecimento, fecha uma parceria com quem entrega. "Poxa, o Fagundes trabalha com ERP e eu não trabalho".
+
+Beleza, Fagundes, eu tenho um cliente aqui que está precisando do ERP, vamos fazer uma parceria?
+
+Aí a parceria pode ser de vários modelos diferentes.
+
+Eu tenho alunos que a parceria é: você me indica, eu te indico.
+
+Tem outros que a parceria é: o que eu te indico, eu quero 20% do faturamento.
+
+Aí depende.
+
+Mas façam parcerias.
+
+Eu tenho um aluno, gente, que hoje o modelo de negócio dele é baseado em parceria.
+
+Hoje, ele não entende nada de TI.
+
+Nada, zero.
+
+Na verdade, ele era vendedor.
+
+Ele não entende nada de TI, mas ele é bom em vendas.
+
+O que ele faz?
+
+Ele vende e pega um parceiro pra entregar.
+
+Simples assim.
+
+Ele vende e pega um parceiro pra entregar.
+
+Eu já falei pra ele, ele está comigo há mais de três anos, eu já falei: "Cara, nesse tempo já era pra você ter aprendido TI".
+
+Ele falou: "Cara, pra que eu vou aprender, sendo que o faturamento que eu tenho é bom?" Faturamento médio hoje dele é de 70 mil, só com parceiro.
+
+Setenta mil todos os meses.
+
+Gente, parceria é dinheiro.
+
+É melhor ganhar pouco de alguma coisa do que não ganhar nada.
+
+Então dentro dessa comunidade, durante 90 dias, acabou a imersão, a gente ainda vai estar juntos durante 90 dias.
+
+Tem a comunidade, empresário, consultor.
+
+Aí tem gente, tá, Rick, eu não estou falando que é o seu caso.
+
+Não estou falando que é você, mas tem gente que vai ficar dependendo, que nem o Rick colocou, ficar colocando no perfil: "Gente, eu estou disponível".
+
+É dependendo da sorte.
+
+Eu vou entrar aqui, mas eu vou colocar em outra tela aqui, mas quem quiser entrar, entra.
+
+Só pra eu ver, eu bater o olho no LinkedIn, eu já sei se a pessoa consegue faturar ou não. "Ah, esquece".
+
+Está aqui meu contato, só que quando eu entro no LinkedIn, eu não consigo ver especificidade.
+
+Lembra que eu coloquei aqui em cima.
+
+Eu não consigo ver especificidade.
+
+O que eu consigo ver é algo mais voltado pra CLT, então não é um perfil voltado pra profissional.
+
+Não, mas é que que nem eu falei, Rick, está só um exemplo, não estou te criticando, nada disso, não.
+
+Pelo amor de Deus.
+
+Mas muita gente faz isso, por isso que eu quis trazer isso aqui pra vocês.
+
+Tem muita gente que fica dependendo da sorte, joga o link e acha que as coisas vão dar certo.
+
+Beleza?
+
+Então no seu caso, Ricardo, o que eu recomendaria?
+
+Você quer virar consultor?
+
+Cria uma página dentro do LinkedIn focada pra consultor, porque a empresa quando entra no seu perfil, ela não quer saber o que você conhece, ela quer saber se você vai atender a dor dela.
+
+É isso que ela precisa.
+
+E de novo, Veiga: "Estou aberto à parceria".
+
+Cara, não adianta.
+
+De novo, Rick, eu vou usar seu exemplo só pra ficar didático.
+
+Mas cara, pelo amor de Deus, não é nada com você não.
+
+Pensa assim: "Cara, eu estou aberto à parceria".
+
+Aí entra o Rick lá.
+
+Aí são dois que vão se juntar, aí não tem estratégia.
+
+É dois que: "Cara, me indica aí, você me indica, eu te indico".
+
+Beleza, mas ninguém consegue cliente, nenhum dos dois lados, porque não tem estratégia.
+
+Não adianta nada fechar parceria, sendo que as duas partes da parceria, ninguém fecha contrato com ninguém.
+
+Tem que ter estratégiaEu vou colocar aqui no chat o link pra quem quer garantir a vaga nessa imersão consultor recorrente.
+
+Está aí o link.
+
+São dois dias de imersão.
+
+De bônus, vocês vão receber todo o pacote de agentes cloud, mais de 50 prompts pra vocês utilizarem, eu utilizei alguns deles aqui com vocês hoje, e mais 90 dias de comunidade, onde dentro desses 90 dias vocês vão poder pedir orientação. "Eu fiz um vídeo", porque lembra, na imersão eu vou ensinar toda a parte do LinkedIn Ads, do Meta Ads. "Eu construí aqui o meu vídeo de engajamento, só que esse vídeo não está engajando".
+
+Eu vou te orientar: "Cara, você fez o vídeo assim?
+
+Muda, faz assim, faz assado." "Poxa, eu fiz aqui, está tendo um bom engajamento, só que o remarketing não está funcionando." "Cara, olha isso, como que está configurado lá no LinkedIn Ads pra ver se você está pegando o público certo." Dentro dessa comunidade, dentro de 90 dias, a gente vai ter esse processo de orientação.
+
+Novas estratégias. "Saiu um negócio novo, eu estou testando um negócio novo aqui, pessoal, funciona assim.
+
+Podem colocar pra rodar que está dando resultado.
+
+Principalmente o Instagram.
+
+Olha, pessoal, novo modelo de vídeo pra fazer no Instagram.
+
+Está entregando bem, está tendo resultado." Dentro desses 90 dias, a gente também vai falar de novas estratégias, orientação.
+
+Aí a parceria vai ser com vocês.
+
+Porque o que acontece?
+
+Uma coisa é você fazer parceria.
+
+De novo, pessoal, eu gosto sempre de falar isso, quem me conhece há mais tempo sabe que comigo não tem esse negócio de ser arrogante, nada disso.
+
+É que é só pra dar exemplos aqui.
+
+Mas pensa assim: duas pessoas aleatórias vão fazer parceria?
+
+Vão.
+
+Beleza, fiz a parceria, só que são dois que não sabem pra onde ir, não tem estratégia nenhuma, então não vai funcionar.
+
+Agora, dentro dessa comunidade, todo mundo é aluno, todo mundo teve acesso à estratégia.
+
+Então uma parceria dentro da comunidade tem muito mais chance de dar certo do que fazer uma parceria com alguém que não conhece nenhuma estratégia, nenhum método que funcione.
+
+Aqui não.
+
+Dentro da comunidade, são pessoas que tiveram acesso ao método, tiveram acesso ao framework, então ela sabe como ganhar cliente, então é um ganha-ganha dos dois lados.
+
+Maravilha?
+
+Pessoal, alguém quer tirar mais alguma dúvida?
+
+Alguém quer fazer alguma pergunta? "No meu negócio, o que eu poderia fazer assim ou assado?" Alguém quer tirar mais alguma dúvida, alguém quer fazer mais alguma pergunta?
+
+Lembrando que essa condição, com os agentes cloud, os prompts e o acesso à nossa comunidade, é pra aqueles que tomarem a decisão hoje.
+
+Vai poder entrar na imersão depois?
+
+Vai, ela vai ficar aberta até o dia, até quinta-feira.
+
+Só que os bônus vão ser removidos e na segunda, a gente também vai aumentar o valor dela.
+
+A gente ainda está com o valor de primeiro lote, a gente vai pro valor de segundo lote, que vai pra R$ 697.
+
+Está aí a oportunidade pra quem viu ao vivo a estratégia, entendeu como a estratégia funciona, ou é um consultor que a fonte principal já é a consultoria, mas quer faturar mais e quer aprender as estratégias pra implementar pro negócio, ou é o CLT que está querendo virar consultor, mas quer começar da maneira certa, já quer começar com clientes pra lá na frente tomar a decisão de largar o CLT.
+
+Está aí essa oportunidade. "É possível vender serviços de instalação e configuração?" É muito genérico, precisa ser um pouco mais específico, porque eu só vou conseguir vender algo pra empresa se ela enxergar que ela tem algum problema.
+
+Então, por exemplo, no seu caso, instalação e configuração de servidores.
+
+Nesse cenário, eu iria, por exemplo, que tipo de servidores?
+
+Um firewall, por exemplo?
+
+Então se for o firewall, eu ia pra linha da segurança.
+
+Como manter a sua empresa longe de vulnerabilidades, pegar muito o ransomware, que é a bola da vez, longe do ransomware.
+
+Então teria que ser mais específico, que não dá pra ir pro mercado falar: "Eu faço instalação e configuração de servidores".
+
+Isso é muito genérico.
+
+Eu preciso encontrar dentro disso algo que chame a atenção.
+
+O que a gente precisa no seu caso estruturar é o seu posicionamento.
+
+Tem que ser algo, lembra, gente, sempre tem que ser isso aqui: específico, demanda e ganho.
+
+Então, por exemplo, hoje se eu pego uma pessoa que é boa em Windows Server, por exemplo. "Ah, eu manjo de Windows Server." Hoje, sem dúvida, um posicionamento que eu trabalharia muito é o da migração, porque tem muitas empresas hoje migrando pro 2025.
+
+Então pregaria forte essa onda.
+
+Mas lembra, eu estou sendo específico.
+
+Qual é a minha expertise?
+
+O que eu estou fazendo pro mercado?
+
+Migração estratégica pro Windows Server 2025.
+
+Eu posso pegar os ganhos que o 2025 tem e argumentar em cima delesExato.
+
+Precisa achar a dor das empresas, que se vocês verem aqui, foi o que o agente me trouxe.
+
+O agente me trouxe quais são as dores reais.
+
+Então esse agente que vocês que vão fazer a imersão vão ter acesso, já traz isso, eu não preciso ir lá achar quais são as dores da empresa.
+
+Ele já traz isso aqui pra mim.
+
+E tudo que eu vou pedindo pra ele criar, ele vai levando tudo isso aqui em consideração.
+
+Maravilha, turma?
+
+Show de bola?
+
+Curtiram o conteúdo?
+
+Vou tomar uma água aqui.
+
+Então pra aqueles que querem dar esse próximo passo, conseguem fazer esse investimento, que é um investimento baixo versus o retorno, 12 parcelas de R$ 50.
+
+A gente está falando aí de menos de R$ 2 por dia.
+
+Se hoje você não consegue na sua empresa, pra quem já tem ou pra quem está querendo fazer a transição, investir R$ 2 por dia, eu recomendo vocês darem um passo pra trás, pra quem é consultor, ver se volta pro CLT pra conseguir fazer um investimento desse, e pra quem é CLT, tentar um aumento, alguma coisa, porque é aquilo que eu falei pra vocês no começo da aula.
+
+Gente, sem investir em tráfego, vocês não vão conseguir resultados.
+
+Não vão.
+
+E lembra, no começo não precisa investir muito.
+
+É investimento baixo, é investe e valida.
+
+Funciona?
+
+Eu vou aumentando progressivamente.
+
+Não funcionou?
+
+Pulo pro próximo.
+
+Acertei um, eu só vou escalando.
+
+E quem que vai falar pra mim se eu vou conseguir ser assertivo, se eu vou ter retorno nesse investimento ou não?
+
+Quem consegue falar e dar uma ideia pra mim?
+
+Está aqui a IA.
+
+Vocês viram que lá no final ele falou: "Se você investir de R$ 1500 a R$ 3000 aqui, você pode fechar de um a quatro contratos".
+
+Então imagina pegar aqui quatro contratos de R$ 3000, a gente está falando de R$ 12 mil por mês, investindo R$ 3000.
+
+R$ 9 mil de lucro por mês.
+
+Por mês.
+
+E não é difícil atingir isso.
+
+Mas lembra, quem vai conseguir atingir isso?
+
+Serviço específico, demanda e que consiga mostrar um ganho.
+
+E que, é claro, saiba colocar toda a estratégia pra rodar.
+
+Beleza, pessoal?
+
+Está aí mais uma vez o link, já com desconto aplicado e já com os bônus liberados.
+
+Lembrando que a nossa imersão vai ser na quinta e na sexta, a partir das 19h.
+
+Então a gente vai começar ali às 19h, deve ir até por volta das 22h, tanto na quinta quanto na sexta.
+
+Show de bola?
+
+Quem curtiu o conteúdo manda um 10 aí.
+
+Gente, por favor.
+
+Quem vai entrar na imersão, vai implementar, porque é uma imersão de implementação.
+
+Agora, quem olha e fala: "Cara, eu não tenho ainda capacidade financeira, não tenho como investir esses R$ 50 por mês.
+
+Cara, eu não consigo fazer esse investimento agora".
+
+Problema zero, desejo que você recupere-se financeiramente pra que você possa investir esse valor, pra que você possa levar sua empresa pro próximo nível ou pra que você possa criar uma empresa estruturada.
+
+Mas pelo menos coloca pra rodar.
+
+Eu ia ficar muito chateado mesmo, se depois de eu montar toda essa estratégia aqui, montar esse passo a passo pro Fagundes e ele não implementar.
+
+Eu vou me sentir como se eu perdi meu tempo montando uma estratégia que eu cobro dos alunos, porque a gente tem o nosso Done for You.
+
+O que é o Done for You?
+
+Tudo isso que vocês vão aprender na imersão, eu crio pros consultores, eu crio pros empresários de TI e acompanho por 90 dias.
+
+Então ao invés dele aprender, eu crio pra ele.
+
+Hoje o valor desse Done for You é de R$ 3000.
+
+Eu acabei de montar um aqui pro Fagundes, então ficaria muito triste se ele não aproveitasse essa oportunidade e colocasse pra rodar, porque é um serviço que a gente cobra R$ 3000, eu entreguei de graça.
+
+Show de bola?
+
+Então é isso aí, pessoal.
+
+Está aí a oportunidade, está aí o link.
+
+Aqueles que garantirem a vaga até as 23:59, todos os bônus, os agentes clouds, os mais de 50 prompts, o acesso à nossa comunidade por 90 dias estão garantidos.
+
+Quem deixar pra tomar a decisão depois, não vai ter os bônus e o valor também em breve vai subir, vai ficar mais caro.
+
+Show de bola, turma?
+
+Então é isso aí, pessoal.
+
+Essa foi a nossa aula.
+
+A gente vai ficando por aqui.
+
+Uma boa noite pra todos, um bom final de semana pra vocês.
+
+Fiquem com Deus.
+
+Aqueles que estão garantindo a vaga na imersão, a gente se vê na quinta e na sexta.
+
+Beleza?
+
+Valeu, pessoal.
+
+Um grande abraço e até a próxima.
+
+Valeu!

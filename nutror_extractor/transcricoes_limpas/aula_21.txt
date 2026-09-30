@@ -1,0 +1,1635 @@
+Fala, turma!
+
+Bom dia!
+
+Sejam bem-vindos, sejam bem-vindas à nossa super mega blaster aula, onde a gente vai falar um pouco sobre essa parte de contrato mensal, o famoso recorrente, o que vai trazer esse resultado mais previsível.
+
+Porque eu tenho certeza que vocês quando pegam um projeto, por exemplo, eu tenho certeza que durante o projeto ali no meio você já fica pensando: "Poxa, e quando esse acabar?
+
+Quando vai vir o próximo?
+
+De onde vai vir o próximo?
+
+Quando que eu vou faturar?" Então a gente vai bater um papo nessa aula sobre essa parte de recorrência, sobre essa parte de contrato mensal, porque existem estratégias para conseguir isso.
+
+Eu quero falar um pouco sobre essas estratégias aqui com vocês.
+
+Maravilha?
+
+Confirmem no chat, por favor, antes da gente começar, se vocês estão ouvindo bem, se vocês estão vendo aqui o mapinha mental, se a gente pode começar.
+
+Só confirmem aí, por gentileza, no chat, se está tudo ok.
+
+E também com isso a gente vê quem é bot.
+
+Porque os bots não respondem. "Tudo certo, vamos lá, bom dia, sim, sim, tudo ok".
+
+Maravilha, show de bola.
+
+Vamos lá, pessoal.
+
+Vou começar a explicar aqui, e eu queria dar alguns exemplos um pouco mais práticos, um pouco mais com o seu cenário ideal.
+
+Então se vocês já puderem, enquanto eu já vou falando e explicando algumas coisas aqui, se vocês já puderem compartilhar no chat para mim o que vocês vendem, que tipo de serviço de tecnologia vocês vendem, que tipo de cliente vocês atendem, que tipo de solução vocês oferecem para essas empresas.
+
+Então se vocês puderem já ir compartilhando aqui no chat essas informações, para eu pegar o exemplo de vocês aqui e trazer para a aula e poder explicar um pouco mais sobre essa parte do contrato mensal.
+
+Beleza?
+
+Então se puderem, já podem ir compartilhando, depois eu volto aqui no chat para ler e trazer esses exemplos aqui para a nossa aula.
+
+Beleza?
+
+Então primeira coisa, turma.
+
+Hoje, quando a gente fala de um contrato mensal, então esse é o cenário de hoje.
+
+Até colocar aqui.
+
+Sai daqui.
+
+Cenário de hoje.
+
+Hoje, quando a gente fala de contrato mensal, muita gente quer vender o "eu cuido da sua TI".
+
+Não é que isso aqui seja ruim. "Eu cuido da TI da sua empresa".
+
+A gente acaba falando que isso aqui é um posicionamento do consultor que trabalha sozinho ou da empresa.
+
+Um grande problema desse tipo de posicionamento, "eu cuido da sua TI", é o quê?
+
+A TI, para pequenas e médias empresas, principalmente quando ela não tem uma equipe e ela precise ir para um consultor externo, ela vai enxergar isso aqui muito como um custo.
+
+E para eu conseguir vender esse tipo de serviço, "eu vou cuidar da tecnologia da sua empresa, eu vou cuidar de toda a TI, dos computadores, dos servidores".
+
+Para que eu consiga ter sucesso nesse tipo de posicionamento, eu preciso ter uma linha de argumentação muito boa.
+
+Uma linha de argumentação que precisa ser voltada em olhar e falar: "Beleza, eu cuido da TI do cliente, mas deixa eu dar um passo para trás.
+
+Como que eu posso transformar essa promessa, eu cuido da sua TI, em algo que o cliente veja que eu estou gerando um valor para o negócio dele?" Se eu não conseguir fazer essa virada aqui, vai ser muito difícil, vai ser sempre mais difícil, eu conseguir fechar um tipo de contrato desse, "eu cuido da sua TI".
+
+Outros, que aí é o cenário que eu mais gosto, acabam sendo um pouco mais específicos.
+
+Por exemplo, eu cuido da segurança do seu ambiente.
+
+É muito mais simples vender "eu cuido da segurança do seu ambiente" do que "eu cuido da sua TI".
+
+É muito mais simples e é muito mais fácil eu ter as argumentações, eu mostrar a geração de valor quando eu sou específico.
+
+E por incrível que pareça.
+
+São esses detalhezinhos que vocês precisam cada vez mais ficar atentos.
+
+Hoje, eu cuido da sua TI para uma empresa, então se a gente pegar a mesma empresa, eu levar "eu cuido da sua TI", eu vou ter um faturamento.
+
+Essa mesma empresa, com as linhas de argumentações corretas, e eu falar eu cuido só da segurança, a mesma empresa, eu posso ter um faturamento maior, porque é mais fácil eu mostrar a geração de valor que esse serviço vai trazer para a empresa.
+
+Então sempre que vocês conseguirem ser específicos, sempre vai ser mais fácil.
+
+E lembra, aqui a ideia é o quê?
+
+É entrar na empresa.
+
+Depois que você está na empresa, eu fechei o contrato de segurança, já está rodando há alguns meses aqui no cliente, o cliente está satisfeito, aí eu posso ir estendendo.
+
+Mas é muito mais simples eu ter esse contato com o cliente falando de algo específico, "eu vou cuidar da segurança do seu ambiente", do que eu chegar pra ele e falar que vou cuidar da área de tecnologia inteira dele.
+
+E a maioria hoje, quando tenta essa atração, conseguir novos clientes, acaba indo pra esse primeiro cenário, que é o mais difícil de conseguir e é o que vai te trazer o menor retorno de todos.
+
+Então a minha recomendação pra vocês que vendem esse tipo de serviço: "o meu serviço principal é cuidar da TI inteira do cliente".
+
+Eu daria um passo atrás e olharia e falaria: "cara, de todos os pilares que a empresa tem, o que eu mais domino?
+
+Beleza, então eu vou oferecer isso aqui".
+
+Então toda vez que vocês forem pro específico, é muito mais fácil você ter uma linha de argumentação, que mostre a geração de valor daquele serviço para o negócio do cliente.
+
+Lembra algo que eu venho falando bastante nas últimas aulas.
+
+Gente, a gente está num cenário hoje, que a TI precisa estar alinhada ao negócio.
+
+Então nós, como consultores, como empresários de TI, temos que levar essa visão pras empresas que a gente vai prestar serviço.
+
+O meu serviço vai estar alinhado com o seu negócio.
+
+Então hoje não dá mais pra eu ter negócio de um lado, tecnologia do outro.
+
+Não, hoje esses caras estão juntos.
+
+Então hoje, boa parte do problema de consultores não conseguirem novos clientes, é não ter essa visão, não conseguir levar essa visão da tecnologia alinhada ao negócio.
+
+Vai falar com o cliente, só fala a tecnês, não fala: "beleza, mas e o que isso vai trazer de resultado pro meu negócio?" E lembra, algo que eu sempre falo também.
+
+Quando eu falo de trazer resultado pro negócio, nem sempre é financeiro.
+
+Cara, às vezes é uma automação que vai economizar tempo, só que tempo é dinheiro. Às vezes é uma solução que vai evitar perda financeira pro cliente.
+
+Então quando a gente fala dessa geração de valor, o que o cliente vai ganhar, tem várias coisas.
+
+É que eu preciso olhar pro meu serviço e eu tenho que ter essa capacidade de conseguir extrair isso do serviço.
+
+Então toda vez que vocês forem oferecer um serviço pra um cliente, vocês têm que olhar e falar: "cara, beleza, eu tô tentando oferecer isso aqui.
+
+O que esse serviço vai gerar de valor, não pra TI, para o negócio do cliente como um todo?" É isso que vocês têm que levar pros clientes de vocês.
+
+É isso que vocês têm que divulgar nas mídias sociais.
+
+Vocês não têm que divulgar nas mídias sociais: "eu sou um prestador de serviço que cuido da sua TI".
+
+Cara, você vai ser ignorado, certamente.
+
+Não, você tem que: "cara, meu serviço é isso, ele gera esse valor, ele traz esse benefício, ele faz isso para os clientes que eu atendo".
+
+Isso é montar uma linha de argumentação persuasiva pro seu serviço, pra que o cliente que está vendo isso do outro lado, tenha o desejo de querer saber mais.
+
+Agora, se você chega simplesmente: "eu cuido da sua TI", o cliente vê um post, um vídeo, alguma coisa sua falando disso.
+
+Próximo.
+
+Porque você não está falando a língua do negócio, você não está mostrando os benefícios, você não está mostrando os valores que o seu serviço traz.
+
+Só que o grande problema é que a maioria não consegue extrair isso do próprio serviço.
+
+E isso é normal, porque a maioria de vocês são 100% técnico, não tem muito essa parte de vendas, essa parte de persuasão.
+
+E isso é normal.
+
+Só que o que eu estou falando pra vocês, é que vocês precisam dominar essa parte também, se vocês querem ter mais resultados.
+
+Vamos lá, gente.
+
+Hoje, dia 31 de julho, último dia do mês de julho.
+
+Você olha pros 31 dias que passaram.
+
+E aí, como foi seu faturamento?
+
+Você está satisfeito com o seu faturamento?
+
+Eu tenho certeza que a maioria não está satisfeita, sabe que poderia ter faturado mais, mas não tem uma estratégia de atrair novos clientes, não tem uma boa linha de argumentação, não sabe empacotar o serviço.
+
+É o que eu falo, gente, você precisa empacotar o seu serviço de uma maneira que ele seja atrativo.
+
+Se você não empacotar seu serviço, você levar ele com uma tecnês pura, "eu cuido da sua TI", sempre vai ser mais difícil ter resultados.
+
+Agora, quando você empacota bem seu serviço, esse serviço se torna atrativo, está mostrando de forma clara como que você ajuda as empresas, o que gera de valor aquele serviço, as coisas começam a ficar mais simples.
+
+E tem um detalhe também, que eu recomendo que vocês rodem.
+
+Hoje, é muito mais fácil, porque o que você tem que pensar hoje?
+
+Estratégia que funciona.
+
+Isso aqui é validado já.
+
+O que funciona?
+
+Você tem que ter um pensamento.
+
+Todo dia você tem que acordar com esse pensamento: como eu vou entrar No cliente.
+
+Vocês precisam ter esse pensamento aqui: qual a maneira mais fácil?
+
+Qual a maneira mais rápida?
+
+Vocês precisam todo dia acordar com isso aqui em mente: "Cara, eu preciso de novos clientes.
+
+Como que eu vou entrar nesse cliente de uma maneira mais fácil, de uma maneira mais rápida?" Aqui sempre vai ser quando você é específico.
+
+Porque o específico é mais fácil de argumentar, é mais fácil de mostrar geração de valor e você ataca uma dor específica, você não fala de uma coisa genérica, que às vezes o cara olha: "Eu cuido da sua TI".
+
+Poxa, mas o meu problema é só segurança.
+
+Na visão dele, o meu problema é só segurança.
+
+O cara está me oferecendo o cuido da TI inteira, não é isso que eu quero.
+
+Eu quero só segurança.
+
+Então eu preciso ser específico.
+
+E levem isso aqui em consideração.
+
+Achei o que é específico?
+
+Gente, se vocês fizerem só isso aqui que eu vou mostrar para vocês, vocês já vão colocar em prática.
+
+Não adianta aprender e não colocar em prática.
+
+Se vocês colocarem em prática só isso que eu vou falar para vocês, eu tenho certeza que o próximo mês vai ser diferente desse mês, mas tem que ter consistência, não adianta fazer uma vez e parar.
+
+Olha para o portfólio de serviço que você oferece.
+
+Pega o que é mais atrativo, o que você mais domina, transforma isso no específico, empacota ele em algo atrativo.
+
+E quando você for oferecer isso para o mercado, ao invés de você já começar correndo atrás das empresas para fechar esse contrato recorrente, tenta entregar ele, num primeiro momento, num formato de projeto.
+
+Projeto, início, meio e fim.
+
+Por quê?
+
+Entregar um projeto para um cliente, vender um projeto, achar clientes interessados em um projeto, é muito mais fácil do que convencer o cliente a pagar mensalmente por um serviço.
+
+Então pega o seu serviço e fala: "Legal, eu vou transformar isso aqui no meu projeto, eu vou entregar isso só para o cliente.
+
+E vou agora atrás desse cliente".
+
+Vou até abrir aqui outra aqui.
+
+O que você precisa?
+
+Anotem isso, pessoal.
+
+Vocês não vão ver ninguém falar disso aqui, porque isso aqui é novo, é o que está funcionando hoje.
+
+O que você precisa?
+
+Você precisa de um serviço específico.
+
+Eu já vou pegar exemplos aí que vocês colocaram e vou ajudar vocês um pouco em como transformar isso num serviço específico.
+
+Transformar, eu gosto de usar a palavra empacotar.
+
+Empacotar o serviço para ser irresistível, o cara olhar aqui e falar: "Cara, não tem porque eu não ter esse tipo de serviço".
+
+Então vamos lá, projeto, início, meio e fim.
+
+Eu tenho um serviço específico, empacotei esse serviço para ser irresistível, agora eu preciso ir atrás de clientes para pagar por esse serviço.
+
+Só que lembra, aqui eu vou falar para ele que é um projeto, eu vou entregar algo pontual.
+
+Eu já vou pegar exemplos mais reais de vocês aqui.
+
+Mas, por exemplo, a parte de segurança.
+
+Eu posso fazer projetos de implementação de um firewall, por exemplo.
+
+É específico, eu fui lá, implementei o firewall, configurei as regras, deixei funcionando, acabou.
+
+Só que aí no final, acabou o projeto, aí é a hora de eu oferecer o contrato mensal. "Cara, eu fiz aqui a implementação do seu firewall.
+
+Agora, poxa, não adianta nada um firewall sem administração.
+
+Não adianta nada um firewall que não é administrado, não é configurado, não é analisado, não adianta de nada.
+
+Vamos fechar um contrato mensal para eu cuidar do seu firewall?
+
+Opa, espera aí.
+
+Deixa eu ir além.
+
+Quando a gente fala de segurança de ambiente, eu não estou falando só de firewall, existe todo um ecossistema.
+
+Quer que eu cuide desse ecossistema como um todo?" Estão percebendo?
+
+Eu entrei por algo extremamente específico, um projeto de firewall.
+
+No final, eu vendo o que eu tenho de melhor naquela solução. "Olha só, eu sou especialista em segurança, eu fiz aqui o seu firewall.
+
+Agora vamos ter um contrato mensal para eu cuidar de todo o ecossistema de segurança da sua empresa?" É muito mais fácil você converter o cliente dessa forma, do que tentar oferecer diretamente um contrato para ele te pagar todos os meses pela segurança do ambiente.
+
+Porque aqui o cara já confia em você, o cara já viu o seu trabalho.
+
+Só que o problema é que a galera já fica tentando vender o recorrente de cara, e eu entendo, porque quando a gente fala em projeto, a maioria pensa o quê? "Poxa, beleza, eu vendi um projeto, mas já tive uma baita dificuldade para encontrar esse cliente e fechar esse projeto.
+
+Cara, só que acabou, e aí, o próximo vai vir de onde?
+
+Não, então já vou começar a oferecer na recorrência".
+
+Não, mas você pode ter uma estratégia de conversão aqui dentro de um projeto, desde que as coisas estejam alinhadas Não adianta, por exemplo, você cuida de toda a parte de segurança, você vender um projeto de uma área que você não domina 100%, porque quando for pra oferecer esse contrato mensal, você vai oferecer o quê?
+
+Então as coisas precisam estar alinhadas.
+
+O que eu estou entregando em projeto tem que estar alinhado.
+
+O projeto, aqui, a gente chama de meio, é o meio para um fim.
+
+Qual é o fim?
+
+O fim é o meu contrato mensal, o projeto é o meio.
+
+Só que esse meio tem que estar 100% ligado com o fim, que é o que eu vou entregar dentro de um contrato mensal.
+
+Se essas coisas não casarem, a chance de chegar no fim do projeto e oferecer um outro serviço, a chance do cliente falar não é grande, porque as coisas não têm conexão.
+
+Agora, quando você consegue colocar conexão aqui, fica muito mais simples.
+
+Por isso que eu coloquei aqui: gente, a primeira coisa que você precisa, pega o seu portfólio, o que você entrega melhor e tira um pedaço daquilo pra que aquilo se torne específico.
+
+Então eu dei o exemplo aqui do firewall.
+
+Eu sou da área de segurança.
+
+O que eu quero vender como fim é um contrato de segurança, porque eu sei que é daqui que vai vir dinheiro todos os meses.
+
+Eu não vou precisar ficar que nem um louco correndo atrás de cliente todos os meses.
+
+Beleza, da segurança como um todo, o que é mais fácil, mais atrativo, mais irresistível para eu vender primeiro como um projeto?
+
+O firewall.
+
+Beleza.
+
+Escolhi o firewall, empacotei esse serviço pra ele se tornar irresistível.
+
+Falei de linhas de argumentações, qual a importância, o que gera de valor um firewall, montei tudo isso.
+
+Entreguei como projeto.
+
+Chega no final, o que eu vou vender?
+
+Aí eu vou vender aquilo que eu tenho de mais completo.
+
+Aí eu trago isso para um contrato mensal, porque eu vou ter, todos os meses, dinheiro entrando na minha conta, sem precisar ficar recorrendo a novos clientes.
+
+Gente, eu falei isso em uma aula, não sei se vocês estavam nessa aula.
+
+Eu falei em uma aula, que na minha visão, não vale a pena você ser um consultor e faturar menos de 30 mil.
+
+Pra mim é 30 mil ou mais, porque na minha visão, se um consultor, um prestador de serviço ou até um empresário de tecnologia fatura menos de 30 mil por mês, na minha visão, ele consegue isso sendo CLT.
+
+Então cara, volta pro CLT.
+
+Porque empreender não é fácil.
+
+Volta pro CLT.
+
+Então a meta tem que ser no mínimo 30 mil.
+
+E gente, quando a gente fala de 30 mil, tem gente que olha esse tipo de faturamento: "30 mil.
+
+Puxa, cara, quantos clientes eu vou precisar pra ter 30 mil?" Cara, às vezes você precisa de cinco clientes, 10 clientes. 10 clientes pagando 3 mil, cara, não é possível.
+
+Porque se você tiver um bom serviço, se você conseguir empacotar esse serviço de forma irresistível, você não consiga fazer 10 projetos e no final desses 10 projetos, transformar 10 clientes pagando 3 mil reais por mês pra vocês.
+
+Cara, não é possível.
+
+Se for disso aqui, aí é possível, sim.
+
+Se você for pro eu cuido da sua TI, é possível você precisar de muito mais cliente, muito mais dor de cabeça, trabalhar muito mais e ter uma baita dificuldade de conseguir atingir 30 mil de faturamento.
+
+Cara, não é possível, a conta não é difícil, chegar nos 30 mil não é difícil. 10 clientes pagando 3 mil reais por mês.
+
+Só que aqui você tem um ecossistema girando pra você, que aqui o que você pode fazer?
+
+Você pode chegar: "poxa, eu consegui os 10 clientes, eu fiz 20 projetos.
+
+De 20 projetos, eu consegui transformar 50% em cliente recorrente pagando 3 mil".
+
+Cara, você já tem um faturamento previsível mensal de 30 mil.
+
+Aí você tem uma opção.
+
+Se isso aqui está suficiente pra você, continua com esses clientes, você não precisa fazer mais nada.
+
+É só manter.
+
+Agora, se você quer crescer, continua rodando a mesma estratégia, vai fechando mais projetos.
+
+Fechando mais projetos, vai fechando mais contratos recorrentes.
+
+Isso aqui vira uma engrenagem.
+
+Agora qual é o problema?
+
+O problema é que a maioria de vocês não faz nada.
+
+A maioria de vocês quer vender o mais difícil, eu cuido da sua TI.
+
+Quer vender o mais difícil de todos e o pior, porque eu não estou falando que isso aqui não funciona.
+
+Isso aqui funciona, o que eu estou falando é que é onde vocês vão ter mais dificuldade pra conseguir esses clientes e vão ter o faturamento menor, mas funciona.
+
+O problema é que vocês além de estar no modelo mais difícil, vocês não fazem nada para atrair esses clientes.
+
+Vocês não usam mídias sociais, não têm uma lista de e-mail, não têm uma lista de WhatsApp, não gravam um vídeo falando do seu serviço Não sabe olhar para o seu serviço e mostrar o valor que aquele serviço gera para o negócio.
+
+Aí fica difícil, vai cair no cenário que a maioria de vocês estão, que é ficar dependendo de indicação.
+
+Só que depender de indicação, é o que eu falo que é o modelo de negócio baseado na sorte.
+
+Tem mês que entra, tem mês que não entra, então você nunca vai conseguir ter um resultado previsível.
+
+Muito difícil você chegar em um faturamento de 30 mil por mês, de forma recorrente e previsível, com indicação.
+
+Agora, se você monta todo esse ecossistema, se você faz tudo isso aqui certinho.
+
+Vou dar um passo para trás, deixa eu começar primeiro com o projeto.
+
+Eu preciso acordar todo dia pensando nisso aqui: como que eu vou entrar no cliente?
+
+Qual é a maneira mais fácil?
+
+Qual é a maneira mais rápida de entrar no cliente?
+
+E o que eu preciso para atrair a atenção desse cliente?
+
+Aí o jogo muda.
+
+Deixa eu pegar alguns exemplos aqui.
+
+No meu caso, consultoria de gestão e tecnologia.
+
+Isso é normal.
+
+Cara, beleza, imagina você vai para o mercado: "Vou atrair clientes para consultoria de gestão e tecnologia".
+
+Beleza, o cara olha e fala: "Espera aí, consultoria de gestão?
+
+Consultoria de tecnologia?
+
+Mas eu não estou conseguindo enxergar o valor.
+
+O que uma consultoria de gestão e tecnologia vai trazer de valor para o meu negócio?
+
+O que eu vou ganhar com isso?" Vocês percebem que é muito genérico?
+
+A minha mensagem, o meu posicionamento precisa estar muito claro para o cliente.
+
+Precisa estar muito claro. "Ah, eu ajudo o cliente a fazer isso, isso e isso, isso vai gerar isso de resultado, isso vai trazer isso de valor para o negócio dele".
+
+Pegar outra aqui: prestação de serviço de TI, manutenção de servidor, cabeamento estruturado, foco mais empresarial.
+
+Isso cai nisso aqui: eu cuido da sua TI.
+
+Cara, sempre vai ser onde você vai faturar menos e vai ter mais dor de cabeça, sempre.
+
+Vocês precisam pensar no serviço de vocês, gente.
+
+Lembra disso aqui.
+
+Cadê, onde foi que eu digitei isso?
+
+Isso aqui.
+
+A TI precisa estar alinhada ao negócio.
+
+Então quando eu olho: prestação de serviço de TI, manutenção de servidor, cabeamento estruturado, foco mais empresarial.
+
+Tá, mas de forma clara e objetiva, o que isso vai trazer de valor para o meu negócio? "Não, mas se o seu servidor cair, eu estou ali". "Não, mas o meu servidor roda aqui bonitinho, já tem mais de dois anos, nunca deu nenhum problema.
+
+Por que eu vou precisar de um contrato mensal para esse tipo de serviço?" Vocês estão entendendo que as coisas não são atrativas, não é esse empacotamento para transformar o serviço em algo irresistível para o cliente? "Bom dia, atendo clientes corporativos e domésticos".
+
+Primeiro, se você for com essa linha de argumentação para o mercado, você já mata a sua empresa.
+
+Só pela palavra doméstico.
+
+O cliente que vê isso aqui vai pensar: "Não, esse consultor é o consultor que atende a vizinhança".
+
+Só para vocês verem, como eu já atuo há um tempo nesse mercado, eu já consigo identificar algumas coisas só lendo coisas básicas.
+
+Mas eu já sei que aqui: "Atendo clientes corporativos e domésticos, desde simples formatação até..." Eu já sei que você não é empresário de TI, você deve estar levando isso como uma renda extra, por exemplo.
+
+Porque nenhum empresário vai conseguir viver de formatação, ou é aquela lojinha de bairro.
+
+Só que isso é sempre mais difícil e é onde os clientes pagam menos. "Já vendi um trabalho de firewall Microtik, porém já entreguei.
+
+Já está funcionando, porém nunca havia parado para pensar na ideia de entregar como projeto.
+
+Você teria alguma ideia para eu ir até o cliente e oferecer?" Claro, gente, vamos lá.
+
+Você entregou um firewall, beleza?
+
+Então vamos lá, se você entregou um firewall, você tem domínio sobre isso.
+
+Então você sabe que se o firewall não for administrado, se o firewall não for monitorado, se o firewall não for auditado, cara, você tem uma ferramenta que não funciona para nada.
+
+Beleza, ele barra a regra de entrada e saída, mas esse barramento dessas regras de entrada pode ser um ataque.
+
+Agora, se não tem ninguém olhando para isso, como que eu vou saber se é um ataque ou não?
+
+Então é levar o que você conhece.
+
+Poxa, espera aí, eu coloquei um firewall.
+
+O firewall funciona assim.
+
+Aí pensa assim: o firewall está lá mofando.
+
+A empresa nem loga na console, não faz nada.
+
+Está lá com as regras que você implementou e o negócio está lá parado.
+
+Só que nesse meio tempo, provavelmente entrou novos projetos, entrou novos recursos, que às vezes não está nem passando pelo firewall, porque a pessoa não sabe configurar Então é pensar nisso.
+
+Fala: "Espera aí, o firewall precisa de administração.
+
+Por que isso aqui é importante?
+
+Por que administrar o firewall é importante?
+
+O que isso vai trazer de vantagem pro negócio?
+
+O que isso vai evitar de problema?".
+
+E levar isso pro cliente.
+
+Se você tiver um conhecimento mais abrangente no ecossistema de segurança, é ir com aquela linha de argumentação: "O firewall, quando a gente fala de segurança do ambiente, protege até certo ponto.
+
+Para proteger o ambiente como um todo, existem outras soluções".
+
+Apresentar isso pro cliente.
+
+Porque quando o cliente contrata alguém pra fazer a implementação de qualquer serviço, existem dois cenários pra isso.
+
+Ou ele tem a equipe de tecnologia dele, só que a equipe de tecnologia dele não tem tempo pra fazer aquele serviço, tem a skill, conhece, mas não tem tempo.
+
+E a gente tem aquele outro cenário, que é a maioria, principalmente pra pequenas e médias empresas, que é o quê?
+
+O cara não tem capacidade e não tem equipe.
+
+Se o cara não tem capacidade, por isso que ele está te chamando pra implementar, e ele não tem equipe, por que você vai perder a oportunidade de ser o consultor que vai fazer a gestão diária daquilo?
+
+Então sempre que for fechar um projeto, oferece a recorrência em cima daquele ecossistema.
+
+O que não dá, por exemplo, é você fechar um projeto de firewall e chegar no final e falar: "Vamos fechar um contrato de cabeamento estruturado?" As coisas não casam. "Te entreguei o firewall, está aqui".
+
+Só que o firewall não é assim, o firewall não é um serviço que você deixa largado e não precisa fazer nada.
+
+Cara, precisa auditar ele, precisa ver log. "Quer fechar um contrato pra eu fazer isso pra sua empresa?
+
+Opa, mas espera aí, a gente pode ir além.
+
+Eu conheço o ecossistema de segurança, o firewall é um pedacinho, eu conheço o ecossistema inteiro.
+
+Vamos fechar um contrato pra eu cuidar do ecossistema de segurança como um todo da sua empresa?" Aí você argumenta: o que cuidar do ecossistema inteiro de segurança da empresa vai trazer de valor pra empresa?
+
+Aí você começa a pontuar: "Eu vou evitar que você sofra ataque ransom, eu vou evitar que vulnerabilidades sejam exploradas".
+
+Você começa a elencar.
+
+E sempre que você for elencar isso, você tenta traduzir isso para um valor que isso vai trazer pro negócio.
+
+Então, por exemplo: "Cara, eu vou evitar que você tenha um ataque ransom.
+
+Um ataque ransom pode parar sua empresa o mês inteiro.
+
+Ou você tem o dinheiro pra pagar o resgate, ou você vai ter que ter aí um tempo pra restaurar tudo".
+
+Então você vai pontuando.
+
+Gente, não percam essa oportunidade de entregar o projeto e tentar encaixar algo recorrente, principalmente quando é pequena e média empresa.
+
+Porque se o cliente te chamou pra aquele projeto, a chance de ele não dominar aquela solução é muito grande, porque ele está pedindo pra você implementar.
+
+Agora, a maioria das coisas que a gente implementa na área de tecnologia, não é um serviço que eu posso deixar parado.
+
+Beleza, o firewall, e quando precisar atualizar?
+
+Beleza, atualização não é algo tão recorrente.
+
+Quando precisar atualizar, eu te chamo de novo, mas espera aí, tem outras coisas que dependem de uma administração mais perto e diária.
+
+Então é levar isso pro cliente. "Realizei um projeto completo para o cliente, envolvendo implementação do 365, o Fortinet, o Bitdefender, o Wi-Fi 6 com o N-Fi, backup das caixas de e-mail dos diretores utilizando Veeam Backup, é um premise definição.
+
+O projeto foi concluído com sucesso e aprovado na auditoria do Banco Itaú, atendendo a todos os requisitos.
+
+Após a conclusão, apresentei uma proposta para um contrato mensal de suporte a serviços de gerente.
+
+No entanto, o cliente optou por contratar outra empresa, que provavelmente apresentou um valor menor, embora na minha avaliação não fosse uma opção tecnicamente tão adequada.
+
+Diante dessa experiência, fiquei com a seguinte dúvida: faz sentido já vincular a proposta do projeto?" Não faça isso.
+
+Cara, projeto é projeto, contrato é contrato.
+
+Então assim, vai fechar o contrato?
+
+Não tem essa de: "Ah, então o valor do projeto já é a primeira mensalidade".
+
+Negativo.
+
+Me paga o projeto e a partir do próximo mês, contrato recorrente.
+
+E outra, gente, é claro que não tem como eu ter 100% de certeza, mas às vezes não é que a outra empresa apresentou um contrato mais barato. Às vezes, a outra empresa ou outro consultor, teve uma linha de argumentação melhor, conseguiu mostrar de uma maneira mais clara e objetiva o valor que o serviço vai trazer pro negócio. Às vezes não é valor. Às vezes é, quando é valor, não tem o que fazer.
+
+Mas geralmente quando você faz um projeto e você entrega um bom projeto, o cliente fica satisfeito com o que você entregou, você oferece o recorrente e ele fecha com outra pessoa, na maioria das vezes, não é preço.
+
+A não ser que o seu preço esteja totalmente fora Do mercado.
+
+Aí, beleza.
+
+Mas na maioria das vezes é linha de argumentação.
+
+O cara conseguiu mostrar de uma maneira mais clara por que o serviço dele é importante. "Como estruturaria essa negociação para aumentar as chances de manter o cliente?" Argumentação.
+
+É isso aqui.
+
+Como que o meu projeto, como que o meu serviço vai gerar valor pro negócio?
+
+O que ele vai gerar?
+
+Se eu não conseguir mostrar isso, vai ser difícil fechar.
+
+Porque se eu não consigo mostrar o que aquele serviço vai trazer de benefício pra empresa, pro negócio, o cliente vai ver aquilo só como custo.
+
+Uma vez que ele vê aquilo só como custo, ele vai ou ir pro mais barato, ou olhar e falar: "Não, não preciso disso aqui agora".
+
+Então precisa mostrar o impacto que aquilo vai trazer pra empresa.
+
+Se esse impacto for financeiro, tem que mostrar.
+
+Por exemplo, aqui, a parte de segurança.
+
+Olha só, o meu serviço aqui, entreguei o projeto do firewall.
+
+Agora eu estou te oferecendo um serviço de todo o ecossistema de segurança.
+
+Esse serviço vai evitar que você seja atacado por um ransomware.
+
+O ransomware, se o ataque for bem-sucedido, vai criptografar todas as suas informações e vai pedir um valor, que é um valor alto, pra te entregar a chave pra você descriptografar e utilizar esse serviço.
+
+Se você não tem essa verba, você vai precisar restaurar esse ambiente.
+
+Restaurar esse ambiente leva tempo.
+
+Esse tempo que leva pra restaurar o seu ambiente, o quanto que você está perdendo financeiramente?
+
+Estou perdendo X.
+
+Beleza.
+
+O meu serviço vai evitar com que a sua empresa perca X.
+
+Vocês estão vendo a diferença?
+
+De eu chegar com uma linha de argumentação e falar: "Olha só, cliente, o meu serviço vai manter o ecossistema de segurança em dia, vai manter seu ambiente protegido".
+
+Fechei a minha linha de argumentação.
+
+Versus: "Olha, cliente, o meu ecossistema, o meu serviço aqui contempla todo o ecossistema de segurança, vai evitar que você seja atacado, vai te proteger contra vulnerabilidades".
+
+Vamos pensar nisso aqui.
+
+Se a sua empresa hoje é atacada pelo ransomware, vai criptografar todas as informações da sua empresa, a empresa vai ficar parada.
+
+Quem te atacou, vai pedir pra você uma quantia, que geralmente está na casa de milhões, dependendo do tamanho da empresa, pra te entregar a chave pra você descriptografar essas informações.
+
+Então primeiro, se você tem essa quantia e precisa rápido, você já teve esse prejuízo.
+
+Então o meu serviço vai evitar esse prejuízo, você não vai precisar pagar essa pessoa, esses milhões, você não vai precisar pagar, porque o meu ecossistema está evitando que isso aconteça.
+
+Se você não tem o dinheiro pra pagar, você vai precisar reestruturar, restaurar todo o seu ambiente.
+
+Restaurar todo o ambiente, dependendo do tamanho, pode demorar semanas.
+
+Quanto que a sua empresa perde financeiramente, ficando semanas parada, sem faturar?
+
+Perde X.
+
+O meu serviço vai evitar que você perca X, caso isso ocorra.
+
+Olha a linha de argumentação, como eu fui direto no negócio.
+
+Eu não estou mais falando de tecnologia. "Não, eu vou implementar um firewall assim, depois eu vou implementar um IDS assim".
+
+Não estou falando disso, eu estou falando: "Esse meu serviço, quando você tiver ele em mãos, o que eu vou evitar é isso aqui.
+
+Eu vou evitar que a sua empresa perca X mil por mês, por semana, a cada 15 dias".
+
+Então vocês entendem a linha de argumentação, como eu saio do tecnês e eu vou para o negócio?
+
+Quando eu consigo transmitir isso pro negócio, fica muito mais fácil ele olhar e falar: "Cara, beleza.
+
+Eu estou pagando R$ 10 mil por mês pro cara cuidar de todo o ecossistema de segurança da minha empresa.
+
+Só que esses R$ 10 mil por mês está evitando um prejuízo que pode chegar a R$ 200 mil", por exemplo.
+
+Pegar aqui a empresa parada duas semanas restaurando ambiente por conta de um ransomware.
+
+Então a visão dele é: "Cara, esse serviço, o que ele está entregando de valor".
+
+Muitas vezes ele não quer saber do tecnês. "O que esse serviço está entregando pra minha empresa é evitar um prejuízo de R$ 200 mil.
+
+E eu estou pagando 10".
+
+Vocês conseguem perceber a diferença, pessoal, durante uma negociação?
+
+Quando eu saio do tecnês e eu vou para a linha do negócio?
+
+Porque se eu chegar pra esse mesmo cliente e ficar só: "Não, mas veja bem, eu vou implementar o firewall, eu vou ficar monitorando o firewall, ver o que está parrando, vou identificar se aquilo pode ser uma invasão, eu vou implementar uma solução de IDS, eu vou implementar um EDR".
+
+Começa a falar de um monte de ferramenta, o cara às vezes está viajando.
+
+Que tudo isso?
+
+Pra que tudo isso?
+
+Agora, quando eu vou na linha do negócio, falo: "O meu serviço está evitando isso aqui".
+
+Aí, meu amigo, toda vez que você conseguir, nem sempre o serviço que a gente vai oferecer, eu vou conseguir traduzir aqui numa perda financeira, mas toda vez que você tiver um serviço que você consegue chegar nessa parte financeira, meu amigo, sempre vai ser muito mais fácil convencer o cliente que ele precisa daquilo.
+
+E quando você chega nessa casa, nesses exemplos de falar: "Olha só, eu estou evitando você perder isso aqui, por semana, por mês, a cada 15 dias", isso aqui também gera o que a gente chama de urgência.
+
+O cliente olha e fala: "Não, cara, eu não só preciso disso, como eu preciso agora.
+
+Eu não posso esperar, porque e se amanhã acontecer isso, eu vou perder 200 mil?
+
+Não, eu preciso disso e eu preciso agora".
+
+Então todas as vezes que vocês conseguirem transformar o serviço de vocês, mostrando pro cliente, que é isso que eu falo, que é o empacotar o serviço como irresistível, e mostrar o que aquilo está gerando de valor para o negócio.
+
+E lembra, aqui eu estou dando exemplo de evitar perda financeira, mas poderia ser ganhar financeiramente, poderia ser ganhar operacionalmente.
+
+Então, poxa, o meu serviço aqui que eu estou oferecendo, do modo antigo, o cliente demorava 40 horas por mês pra fazer a gestão daquilo, com o meu serviço, sai de 40 horas pra uma hora.
+
+É um baita ganho operacional também.
+
+Então nem sempre eu só vou ter oportunidades se eu falar do financeiro.
+
+Não.
+
+No final das contas, eu tenho que mostrar o que aquilo gera de valor.
+
+Se o cliente não enxergar aquilo de maneira fácil, sempre vai ser mais difícil eu fechar esses contratos.
+
+Sempre vai ser mais difícil.
+
+Agora, quando eu consigo mostrar o valor disso.
+
+Como?
+
+E existem estratégias, não é empacotar o serviço como irresistível.
+
+Existem estratégias pra fazer isso aqui, não é tão simples.
+
+Existem estratégias. "Ah, eu preciso chegar num tema específico".
+
+Também não adianta você chegar num tema específico de algo que o mercado não quer.
+
+Então existem pesquisas de mercado que precisam ser feitas.
+
+Existem também estratégias.
+
+Então tudo isso que eu estou mostrando pra vocês não é simplesmente ir e fazer.
+
+Tudo tem uma estratégia por trás que precisa ser aplicada antes de começar a rodar.
+
+Agora, a partir do momento que você tem um serviço completo e específico, você pega um pedaço mais atrativo daquele serviço específico, empacota como algo irresistível pra entregar como projeto, pra lá no final, você falar pro cliente: "Olha, eu consigo ir além pra sua empresa, eu consigo gerar resultados melhores pra sua empresa, eu consigo gerar valores melhores pro seu negócio.
+
+Vamos fechar um contrato mensal pra isso?" Cara, bingo!
+
+Aí vai ser muito fácil vocês chegarem nisso aqui.
+
+Ter 10 clientes pagando 3 mil, por exemplo, todos os meses.
+
+E o melhor, sem ficar chorando por preço.
+
+Porque aqui você está saindo daquele genérico, daquele "eu cuido da sua TI".
+
+O eu cuido da sua TI aqui, o cara vai ficar te ligando de madrugada porque o mouse parou de funcionar.
+
+Ele está lá, de madrugada trabalhando numa apresentação que ele precisa entregar no outro dia pra diretoria dele, o mouse dele parou, ele vai te ligar na madrugada falando que o mouse dele parou de funcionar.
+
+Agora não, quando eu sou específico, eu cuido da segurança. "Ah, o mouse parou?" "Oxe, não estou nem aí com isso.
+
+Eu cuido da segurança do seu ambiente.
+
+Eu cuido da segurança.
+
+Seu mouse parou?
+
+Compra outro".
+
+Na época, não sei se vocês são dessa época.
+
+A época que tinha a bolinha, não era o sensor.
+
+Aí você tirava a bolinha, estava lá aquele monte de sujeira.
+
+Vai lá, tira a bolinha, tira a sujeira, põe a bolinha de novo, fecha e vê se funciona.
+
+Não, cara, quero nem saber.
+
+Eu sou estratégico.
+
+Essa é a palavra que tem que transparecer pro cliente de vocês.
+
+Eu sou um consultor estratégico, eu não fico: "A estação de trabalho de fulano parou de funcionar". "Não, espera aí que eu vou formatar".
+
+Sai dessa.
+
+Isso aí é pra quem quer renda extra, pra quem quer ser empresário, sai dessa.
+
+Isso não vai te dar dinheiro, cara.
+
+Isso vai dar muita dor de cabeça.
+
+Vê se essas empresas grandes querem trabalhar com formatação de máquina.
+
+Quando a gente fala de estação de trabalho, hoje, o negócio das empresas que estão nesse ramo é aluguel.
+
+Eu vou alugar os equipamentos, porque sabe que ficar fechando contrato pra formatar, isso é dor de cabeça e o ganho é pouco, porque eu não consigo transformar isso de uma maneira fácil e simples, em um valor estratégico pro negócio.
+
+Toda vez que eu não consigo transformar isso, eu sempre vou cobrar menos e sempre vai ser mais difícil.
+
+Agora, quando eu tenho um serviço que o cliente enxerga como alinhado estrategicamente ao negócio, primeiro ele me vê de maneira diferente e segundo, o valor daquele serviço é muito maior do que um serviço genérico.
+
+Deu pra entender, pessoal?
+
+Quem entendeu, digita um 10 aí.
+
+Então é o que eu falo, Tony.
+
+De novo.
+
+Hoje, dia 31 de julho, você olha pra esse mês e fala: "Cara, poderia ter faturado muito mais".
+
+Mas você não faz a pergunta certa, que é como, o que eu deveria ter feito pra faturar mais?
+
+Muitos de vocês não estão fazendo nada.
+
+Se não está fazendo nada, vai continuar na mesma E eu posso ir além.
+
+A gente já vai entrar em agosto, já foi metade do ano pra conta.
+
+Você olha de janeiro até hoje, você está satisfeito com o que você faturou?
+
+A maioria não está.
+
+E, de novo, a pergunta não é essa, a pergunta é: "O que eu posso fazer de diferente?" Porque se começou o ano em janeiro, chegamos em julho, continua a mesma coisa ou até pior, a chance de eu continuar fazendo o que eu fiz nesses meses até o final do ano e não ter retorno nenhum, é gigantesca.
+
+Ou seja, se eu não fizer nada de diferente daqui até o final do ano, nada vai mudar, de novo.
+
+Gente, a verdade é que alguns de vocês precisam de um chacoalhão.
+
+Acorda!
+
+Acorda.
+
+Se tudo que você fez até hoje não está dando resultado, acorda, não vai funcionar do dia pra noite.
+
+Não acha que do nada vai.
+
+Não, vocês têm que fazer algo diferente.
+
+Enquanto você não fizer algo diferente, o resultado vai ser o mesmo.
+
+Muita gente que me procura, a primeira pergunta que eu faço é: "O que você está fazendo?" A maioria é: "Ficou esperando a indicação chegar".
+
+Beleza.
+
+Fez alguma coisa diferente? "Não".
+
+E como que você espera um resultado diferente?
+
+Você acredita mesmo que do nada vai começar a brotar indicação pra você?
+
+Não vai.
+
+Se você não fizer nada de diferente, o resultado vai continuar ou igual ou pior.
+
+Vai continuar igual ou pior.
+
+Aí entra uma coisa que eu falei nas últimas aulas, quem participou das outras aulas vai lembrar disso.
+
+Enquanto vocês não mudarem o "mindset" de vocês para um empreendedor, um empresário de TI, vocês sempre vão continuar com resultados limitados.
+
+Sempre vai ser difícil chegar nesse faturamento de 30 mil.
+
+E se você não consegue chegar no faturamento de 30 mil, eu vou te dar, pra mim, a melhor dica de todas: volta pro CLT.
+
+Você não vai ter dor de cabeça, faz seu trabalho, todo mês o dinheiro está na sua conta.
+
+Precisa ter essa mudança de "mindset", precisa olhar pra empresa de vocês, mesmo que vocês não tenham CNPJ ainda, mesmo pra vocês que estão começando agora, mas vocês precisam já começar com olhar de empreendedor.
+
+O empreendedor pensa o quê? "Cara, esse mês foi ruim, o que eu posso fazer de diferente?
+
+Porque eu sei que se o mês passado foi ruim, se eu não fizer nada de diferente, esse mês vai ser a mesma coisa ou pior.
+
+O que eu posso fazer de diferente pra começar a ter os resultados pra atingir as metas que eu tenho?
+
+A minha meta é 30 mil.
+
+No mês passado eu fiz 10.
+
+Beleza, está longe da minha meta.
+
+Agora eu sei que se eu fizer exatamente as mesmas coisas que eu fiz no mês passado, a chance de no próximo mês atingir a meta vai continuar baixa.
+
+O que eu posso fazer de diferente nesse mês, para que eu atinja essa meta?" E correr atrás e fazer.
+
+Corre atrás e faz.
+
+Gente, você é um empreendedor de TI.
+
+Você tem que olhar pra sua empresa e falar: "Cara, minha empresa não pode ficar estagnada, ela tem que crescer mês a mês".
+
+Só que tem consultor hoje que fatura, se eu pegar uma média de quem está começando agora, o cara vai faturar entre 8 a 15 mil.
+
+Primeiro, aqui eu volto a reforçar.
+
+Se você não tiver estratégia, não conseguir aumentar isso aqui nos próximos meses pra pelo menos 30 mil, volta pra CLT.
+
+A maioria está nesse faturamento de 8 a 15 mil, principalmente quem está começando agora.
+
+Beleza, o faturamento é baixo, mas tem gente que não tem o "mindset", a visão de empresário.
+
+Não consegue investir R$ 300 por mês, tirar desse faturamento R$ 300 por mês, pra, por exemplo, investir em anúncio pra crescer a empresa.
+
+É claro que quando eu falo investir, principalmente anúncio, eu não estou falando de fazer anúncio de qualquer jeito, senão você rasga dinheiro.
+
+É fazer tudo de forma estratégica.
+
+Mas o cara não consegue pegar R$ 300 por mês e investir no crescimento do negócio dele.
+
+Mas por quê?
+
+Muitas vezes ele não tem o "mindset" de empresário.
+
+Ele está pensando na empresa só assim: "Cara, é dali que eu tiro dinheiro pra pagar os meus boletos".
+
+E ponto.
+
+Ele não está pensando naquilo como empresa.
+
+Se ele não investe R$ 300 por mês pra crescer a empresa dele, como que eu vou conseguir falar pra ele de fluxo de caixa?
+
+Aí piorou. "Como assim você quer que eu tenha um fluxo de caixa na minha empresa, sendo que nem faturando eu estou?" Eu sei, só que se você não começar a se mexer e fazer coisas diferente, você vai entrar no ciclo aqui que eu chamo do ciclo da falência, que é o que o SEBRAE divulga A grande maioria dos microempresários falem entre 12 e 24 meses.
+
+Mas por quê?
+
+A maioria não tem esse mindset de empreendedor, não enxerga aquilo que ele tem como uma empresa, enxerga como uma renda extra.
+
+E toda vez que você não enxergar aquilo como uma empresa, você não vai conseguir fazer o que precisa ser feito pra empresa crescer.
+
+Você vai ficar só pensando: "Dali é onde eu tiro o dinheiro pra pagar os meus boletos".
+
+Só que uma empresa vai muito além disso.
+
+Eu quero fazer uma pergunta aqui pra vocês: quem está aqui na sala e quer ter esse mindset transformado? "Não, cara, realmente eu não penso no meu negócio como uma empresa, mas eu gostaria de pensar no meu negócio como uma empresa e começar a construir e solidificar a minha empresa pra eu ter esses R$ 30 mil por mês de forma consolidada, ter esses R$ 30 mil por mês de forma previsível, montando toda a estratégia".
+
+Quem está nesse cenário aqui, digita aí no chat: "empresário", pra essa palavra ficar gravada na mente de vocês, porque é isso que vocês precisam ser, empresários.
+
+Nada contra, tá, pessoal? "Eu quero só renda extra".
+
+Problema zero. "Não, não quero tratar como empresa, ali é como se fosse um emprego mesmo".
+
+Cara, também problema zero.
+
+Mas uma coisa eu posso garantir pra vocês: pra você chegar nesses R$ 30 mil por mês ou mais, vai ser bem mais difícil.
+
+Por quê?
+
+Quem não tem essa visão de empresário, não vai querer investir na empresa, não vai querer fazer algo diferente.
+
+Porque o cara que tem o mindset de empresário, olha e fala assim: "Cara, o mês foi ruim, eu preciso fazer algo diferente pra minha empresa esse mês".
+
+Não é se eu vou fazer, eu preciso fazer.
+
+Aí ele corre atrás.
+
+Então pra quem quer ter essa receita recorrente, e de novo, pessoal, não estou falando de: tem mês que você fatura 30, no outro você fatura 10, aí no outro você fatura 15, no outro 10 de novo.
+
+Não, estou falando 30 mês recorrente, que vai precisar mudar esse mindset pra empresário.
+
+Então quem está aqui na sala e quer esse faturamento previsível de 30 mil por mês, digita aí no chat "empresário", porque aí eu quero mostrar aqui pra vocês como a gente consegue ajudar vocês a construir toda essa estratégia pra conseguir esse faturamento de 30 mil por mês, de maneira previsível.
+
+Aqueles que não digitarem "empresário", a gente vai pedir pra equipe remover aqui do chat, pode colocar só pra mim, não tem problema.
+
+A gente vai pedir pra remover do chat, porque a gente quer falar aqui com quem quer realmente transformar o negócio em uma empresa de verdade, com esse faturamento previsível de 30 mil todos os meses.
+
+Digita "empresário" aí, que é com vocês que eu quero falar agora.
+
+A gente tem o nosso novo programa, que a gente chama de Virada TI 30K.
+
+Esse programa é pra quem tem a meta de faturar R$ 30 mil por mês, de maneira previsível.
+
+É pra quem está sério nessa meta.
+
+Tem que estar sério, porque é o que eu falei pra vocês.
+
+Gente, não adianta falar: "Eu quero faturar 30 mil por mês", sem fazer nada.
+
+Então se você está nesse cenário aqui, eu já falo, cara, o conteúdo que eu tinha pra entregar foi esse, espero que você tenha gostado.
+
+Beleza, se você acha que vai conseguir 30 mil reais sem fazer nada.
+
+Agora se você: "Não, eu quero virar um empresário, eu quero mudar esse mindset, eu quero essa meta de 30 mil e eu sei que tem coisas pra fazer e eu vou fazer".
+
+Então é pra você.
+
+A meta desse programa é pra quem quer 30 mil todos os meses de forma previsível.
+
+Essa vai ser uma imersão de três dias.
+
+Essa imersão vai ser dividida em três pilares, que pra toda essa estratégia funcionar, não só essa, existem várias que vocês vão aprender.
+
+Esses três pilares precisam estar muito bem alinhados, que é o pilar do posicionamento, que seria mais ou menos isso aqui que eu mostrei pra vocês.
+
+Sai do posicionamento que não funciona, "eu cuido da sua TI", e vai pra um posicionamento mais estratégico, "eu cuido da segurança".
+
+A gente vai falar do pilar do posicionamento, então você vai aprender e vai ter a minha ajuda, para montar o seu posicionamento.
+
+Eu vou te ajudar.
+
+E aqui, gente, o que vocês vão receber?
+
+Porque posicionamento é algo que muda Conforme a nossa maturidade também.
+
+Por exemplo, no dia da imersão que a gente for falar de posicionamento, eu vou te ajudar a montar o seu posicionamento.
+
+Só que possa ser que daqui um ano, dois anos, você precise mudar esse posicionamento.
+
+Só que espera aí, mas a imersão já acabou, e agora, como que eu faço?
+
+A gente tem agentes de IA pra isso, que ajudam a olhar pro mercado como um todo, olhar pra demanda do mercado, olhar para o que você conhece e montar esse posicionamento pra você.
+
+Então vocês vão receber de bônus nessa imersão, todos os agentes de IA que a gente utiliza pra fazer cada parte do processo.
+
+Então na parte de posicionamento, você vai aprender, vai ter a minha ajuda pra montar o seu posicionamento.
+
+Posicionamento pra mim é um dos pilares mais importantes, porque é aqui que você vai pro mercado e quem olha fala: "Eu sei o que essa pessoa faz, e o que essa pessoa faz é algo que gera valor, eu quero esse tipo de serviço".
+
+Isso é o que a gente chama de posicionamento.
+
+Então você vai ter a minha ajuda pra montar o posicionamento.
+
+Segunda parte, então pensa assim: eu já tenho um posicionamento, meu posicionamento ficou "uau".
+
+Então aqui, eu ajudo empresas a manterem os ambientes seguros, protegidos contra vulnerabilidades, ataques de ransomware, por exemplo, um posicionamento.
+
+Se tiver cases, pode ir até além.
+
+Nos últimos anos, eu ajudei empresas a evitar um prejuízo de 5 milhões, evitando ataques do tipo ransomware.
+
+Você pode expandir o seu posicionamento.
+
+Só que uma vez que você tem um posicionamento, não adianta nada você chegar lá e falar: "Beleza, meu posicionamento está pronto".
+
+Mas quem está lendo esse posicionamento?
+
+Quem está sendo impactado?
+
+É o segundo pilar, que é o pilar da pipeline/framework.
+
+Que é o quê?
+
+Aqui é o momento de eu ir e ser conhecido pelos clientes em cima daquele meu posicionamento.
+
+Então aqui, é a parte da atração dos clientes.
+
+E aqui o que a gente vai montar dentro dessa imersão?
+
+Primeiro, você precisa saber, apesar de eu achar que a maioria de vocês já sabe, vocês precisam saber que serviço é confiança.
+
+Vai ser difícil você ter um primeiro contato com o cliente já oferecendo o seu serviço e ele te contratar, porque é o primeiro contato, ele nem sabe quem você é.
+
+Então aqui, entra uma fase dentro desse framework, que a gente chama de segmentar, engajar e converter.
+
+O que seria o segmentar?
+
+Com quem eu quero falar.
+
+Que tipo de empresa eu quero falar?
+
+Eu quero falar pra pequenas empresas, pra médias empresas, pra grandes empresas?
+
+Eu quero atender um segmento específico, eu quero primeiro começar a falar só com clínicas médicas, eu quero começar falando só com laboratórios, eu quero começar a falar só com escritórios de advocacia.
+
+Então eu estou segmentando um público, eu não quero falar com todo mundo, eu quero falar com um público específico.
+
+E lembra, sempre que eu falo a palavra específico dentro da estratégia, sempre vai ser mais fácil eu gerar resultado.
+
+Então primeiro eu segmento com quem eu quero falar.
+
+Depois, eu vou engajar.
+
+O que é o engajar?
+
+Eu preciso entregar alguns conteúdos, porque com base nesses conteúdos, eu vou ser conhecido, eu vou criar autoridade, pessoa autoridade.
+
+A pessoa vai me ver como um profissional que domina aquilo que ela tem problema.
+
+Isso aqui vai ser o meu primeiro ponto de contato com o cliente.
+
+Isso aqui, geralmente, a gente faz entregando e-books gratuitos.
+
+Então, por exemplo, eu montei meu posicionamento em cima do ecossistema de segurança.
+
+Só que eu quero começar pelo projeto, lembra do que a gente viu na aula.
+
+Eu quero começar pelo projeto de firewall.
+
+Então o que eu posso fazer?
+
+Eu posso criar um e-book gratuito falando de firewall.
+
+Então vai ser o primeiro ponto de contato do cliente comigo.
+
+Está aqui o e-book gratuito, falando aqui sobre firewall.
+
+Então isso aqui, eu estou engajando.
+
+Eu não estou vendendo.
+
+Eu estou falando para o cliente que eu domino aquilo, que eu vou oferecer depois.
+
+E entra a última parte que é eu converter, que aqui é efetivamente oferecer o projeto, vender o projeto.
+
+Então existem essas três fases, eu segmento, eu engajo e depois eu converto.
+
+Essa parte do engajar, de criar esse material gratuito, a gente tem aqui dois pilares.
+
+Eu posso utilizar o que a gente chama de orgânico.
+
+O que seria o orgânico aqui?
+
+Eu posso ter um perfil no Instagram Nesse perfil do Instagram, eu vou fazer posts falando o quê?
+
+Do meu ebook gratuito. "Acabei de liberar um ebook gratuito".
+
+Lembra: segmentar, engajar e converter.
+
+E você pode falar com vários públicos de maneiras diferentes, mas vamos imaginar pra vocês entenderem a estratégia, que você se concentrou em transportadoras.
+
+Eu segmentei, eu quero falar com empresas do segmento de transportadoras.
+
+Então eu segmentei.
+
+Agora eu preciso engajar, eu quero vender o Faro.
+
+Então vou criar um ebook chamado de Faro, falando sobre Faro.
+
+E esse ebook é focado em Faro para transportadoras, porque lembra do meu segmento aqui.
+
+Então eu fui lá e criei o ebook.
+
+Ebook base, 10, 20 páginas.
+
+Daqui a pouco vocês vão ver que eu vou explicar que vocês não precisam fazer quase nada pra criar o ebook, mas segura aí.
+
+Segmentei, agora eu preciso engajar, criei o meu ebook.
+
+Aí o que eu vou fazer no modo orgânico?
+
+Eu vou lá no meu Instagram: "Olha só pessoal, acabei de liberar um ebook gratuito falando sobre Faro para transportadoras.
+
+Nesse ebook eu falo um pouco sobre isso, isso, isso e isso.
+
+Quer ter acesso a esse ebook?
+
+Pega o link aqui na minha bio pra baixar".
+
+Aí esse ebook pode estar direto no Google Docs da vida, ele clica e já vai pro Google Docs, já abre o ebook, ele pode baixar pra máquina dele e ler com mais calma.
+
+Ou isso aqui pode estar em uma página.
+
+Vou colocar aqui: post.
+
+Pode mandar direto para o material, ou isso aqui pode ir pra uma página, que a gente chama de página de captura, que é o quê? "Beleza, você quer esse ebook?
+
+Vamos fazer uma troca?
+
+Eu te dou o ebook, você me dá seu e-mail".
+
+Porque pensa assim, olha a experiência, gente, principalmente vocês que colocaram a palavra empresário, eu preciso que vocês prestem bastante atenção no que vocês vão receber dentro dessa imersão, pra vocês verem a transformação que vai acontecer.
+
+Uma coisa é eu chegar no meu Instagram, criar um post e falar: "Está aqui o link", ele clica no link e acessa direto o material.
+
+Qual é o problema só nessa fase?
+
+Eu perdi o contato dessa pessoa.
+
+Eu não sei quem é.
+
+Lá no material eu vou deixar meu contato, se ela gostou, ela pode entrar em contato.
+
+Agora, se ela não entrar, eu não tenho meios pra entrar em contato com ela de novo.
+
+E eu estou perdendo uma baita pessoa, porque se ela baixou o material, ela tem interesse naquele tema.
+
+Então eu posso usar a segunda opção, que é o quê?
+
+Olha só: "Você quer o material?
+
+Pega o link lá na minha bio".
+
+Ele clicou no link, ao invés de ir direto pro material, ele vai pra uma página.
+
+Aquela página vai estar falando do material gratuito, que é de graça mesmo, só que pra ele ter acesso àquele material, ele precisa colocar o e-mail.
+
+Então isso que a gente chama de página de captura.
+
+Uma vez que ele colocou o e-mail, isso aqui vai pra uma ferramenta de e-mail marketing.
+
+Se aqui foi pra uma ferramenta de e-mail marketing, agora você tem o e-mail daquela pessoa.
+
+Agora você pode pegar aquela pessoa e você pode, no pilar de converter, oferecer o seu produto, porque agora você já sabe quem é, você tem o contato daquela pessoa pra oferecer.
+
+Falando organicamente, quando eu falo orgânico, é sem precisar fazer R$ 1 de investimento.
+
+Então você pode distribuir esse conteúdo, nesse exemplo, falando do seu ebook gratuito do Faro, em todas as mídias sociais.
+
+Pode ir lá no YouTube fazer um vídeo, você pode ir lá no LinkedIn fazer um post.
+
+Então você pode distribuir isso, porque quanto mais pessoas ter contato com seu material, maiores são as suas chances na hora de chegar ao pilar do converter.
+
+Esse é o pilar orgânico.
+
+Outro pilar é o tráfego pago.
+
+Aqui é investir em anúncios.
+
+Investir em anúncios pras pessoas verem esse ebook gratuito.
+
+Aqui a gente já recomenda, quando vai investir em tráfego pago, a gente não recomenda mandar direto pro material, porque se eu estou gastando dinheiro pra essas pessoas chegaram ao material, é bom que eu possa conversar com essas pessoas posteriormente.
+
+Então é importante, no tráfego pago, enviar pra uma página de captura pra ter o e-mail dessa pessoa pra rodar o pilar de conversão.
+
+Então aqui você vai investir em anúncio.
+
+E aqui, gente, é aquilo que eu falei na aula, não é um investimento feito de qualquer jeito, é algo estratégico.
+
+E aqui é um investimento que começa baixo, você pode começar investindo R$ 10.
+
+E vamos imaginar que de R$ 10, você conseguiu ter ali cinco pessoas.
+
+Então você pagou ali R$ pra cada pessoa que agora você tem na sua ferramenta de e-mail marketing.
+
+Vamos imaginar que no primeiro dia você gastou R$ 10 e você tem cinco pessoas.
+
+Daqui a um mês, você tem 150 pessoas e gastou R$ 10 por dia, no mês você gastou R$ 300.
+
+Só que você tem 150 pessoas que baixaram seu material porque têm interesse.
+
+Você tem o contato dessas pessoas pra chegar agora aqui na parte de converter, oferecer o seu projeto.
+
+Aí pensa que de 150 pessoas no mês, pensa que uma pessoa fechou o projeto E o projeto foi um projeto de R$ 3000.
+
+Então só aqui você já teve um ROI de 10 vezes.
+
+Investiu R$ 300, faturou 3 mil.
+
+Só que isso aqui é cumulativo.
+
+No primeiro mês, você conseguiu 150.
+
+No segundo mês, você conseguiu mais 150 e o que você já tinha.
+
+Então agora você tem 300 pessoas.
+
+Agora, ao invés de fechar um projeto, você fechou dois projetos.
+
+Ao invés de você ter faturado 3 mil, agora você faturou 6 mil.
+
+E desses dois projetos, vamos imaginar que você conseguiu um contrato recorrente.
+
+De 3 mil.
+
+Aqui, eis pra vocês o nascimento de uma empresa.
+
+Agora a engrenagem está rodando.
+
+Poxa, no terceiro mês.
+
+E aqui, lembra, você começou com investimento baixo, mas é claro que se você vê que está tendo resultado, você pode aumentar essa verba aos poucos.
+
+Não precisa aumentar muito.
+
+Aqui na imersão vocês vão aprender tudo isso aqui no detalhe.
+
+Mas vamos imaginar que você viu os resultados acontecendo, chegou e investiu um pouquinho mais.
+
+No terceiro mês, ao invés de conseguir 150 pessoas, você conseguiu 500.
+
+Mais as 300 que você já tinha.
+
+Agora você tem 800 pessoas.
+
+Dessas 800 pessoas, agora você fechou cinco projetos.
+
+Cinco projetos, agora eu estou falando de um faturamento de 15 mil.
+
+Você já tinha um contrato recorrente desses cinco projetos novos, vamos imaginar que agora você conseguiu dois contratos recorrentes.
+
+Você conseguiu mais 6 mil, mais os três que você já tinha do primeiro contrato recorrente.
+
+Agora você tem nove.
+
+Gente, e aí a conta vai subindo.
+
+Simples assim.
+
+Mas só vai conseguir fazer isso aqui, primeiro, quem domina a estratégia, que é o que vocês vão aprender na imersão, e quem tem essa visão de empresário.
+
+E quem tem essa visão de empresário.
+
+Porque às vezes, isso aqui, o orgânico, eu vou ser bem sincero com vocês.
+
+Bem transparente mesmo.
+
+Hoje, o orgânico, você vai demorar mais pra ter resultado, porque a entrega do orgânico é muito ruim.
+
+Aqui vai ter uma exceção, se você já tiver uma mídia social muito aquecida e com vários seguidores.
+
+Então "poxa, eu tenho um Instagram com 5, 10 mil seguidores, eu tenho um canal YouTube com 5, 10 mil inscritos, eu tenho várias conexões no LinkedIn".
+
+Então se você tiver isso aquecido, o resultado é mais rápido.
+
+Só que aqui, tende a demorar.
+
+Só pra vocês terem uma ideia, eu tenho 11 mil, quase 12 mil seguidores no Instagram.
+
+E pra gente que usa essa estratégia, é diferente de um influencer, por exemplo.
+
+A gente que usa essas estratégias nas mídias sociais, a gente nunca vai ter um perfil gigante, porque o nosso perfil é focado em vendas.
+
+E as pessoas não gostam.
+
+Então o bom de já construir o perfil nesse modelo, é que as pessoas que estão te seguindo, são pessoas que sabem que você vende, sabem o que você oferece, e se elas estão ali, é porque elas ou já compraram, ou uma hora vai comprar, mas gosta do que você está entregando e oferecendo também. "Ah, mas poxa, eu só tenho 5 mil".
+
+Cara, se for 5 mil das pessoas certas, está excelente.
+
+Mas aqui eu só quero trazer um número pra vocês refletirem.
+
+Eu tenho 11.800 seguidores.
+
+Quando eu faço um bom post, porque o bom post não é o que a gente acha que é bom, é o que o algoritmo do Instagram acha que é bom.
+
+Quando eu faço um bom post, eu consigo chegar pra mais ou menos, umas 3 mil pessoas.
+
+Então eu estou falando que eu tenho 11.800 seguidores, mas eu só chego pra 3 mil pessoas.
+
+Isso é o orgânico.
+
+E às vezes, pra eu atingir essas 3 mil pessoas, é numa janela de sete dias.
+
+Quando eu vou pro anúncio, invisto R$ 10 por dia, eu alcanço essas 3 mil pessoas por dia.
+
+Por dia.
+
+Então cara, investir em tráfego pago de maneira estratégica, é o que vai trazer uma escala, um resultado mais rápido.
+
+Mas de novo, isso aqui é estratégia, porque tem gente que não sabe mexer com tráfego pago, o que ele faz? "Espera aí, eu investi R$ 10, 3 mil pessoas por dia.
+
+Com R$ 300 em um mês, eu consegui faturar 3 mil.
+
+Cara, beleza.
+
+Está acontecendo isso, no próximo mês, eu vou investir 100.
+
+Porque cara, se eu consegui com 10 transformar R$ 10 por dia, R$ 300 por mês em 3 mil, se eu investir 10 vezes esse valor, vai me retornar 10 vezes.
+
+Tenho aqui os meus 30 mil".
+
+Meu amigo, se fosse assim, estava todo mundo rico Se você não souber fazer isso de forma estratégica, é capaz de você investir os R$ e no mês ter zero resultado.
+
+É estratégia.
+
+Isso aqui eu gosto de falar: "Gente, vai falar de tráfego pago?
+
+Pensa em investimento em ações".
+
+Cara, ações, se você não ficar de olho, você compra na hora errada, vende na hora errada, tem prejuízo.
+
+Aqui é a mesma coisa, se eu investir e não acompanhar as métricas, eu vou começar a rasgar dinheiro sem necessidade.
+
+Então na nossa imersão, vocês vão aprender tanto a parte orgânica, quanto como criar os posts.
+
+Não é qualquer post que a gente tem que criar.
+
+Como que eu crio esse material gratuito?
+
+Não é qualquer material.
+
+Não adianta eu entregar porcaria pro cliente, que é aí que ele não vai contratar meu serviço mesmo.
+
+Então tem que ser tudo muito bem feito estrategicamente e tudo amarrado um com o outro.
+
+E vocês vão aprender tudo isso aqui, na nossa imersão.
+
+Então a gente tem esse pilar de framework.
+
+Qual é o interessante desse pilar?
+
+Poxa, a imersão é três dias.
+
+Acabou a imersão, como que eu vou fazer os posts?
+
+Agentes de IA.
+
+Você vai receber agente de IA pra fazer post, você vai receber o agente de IA pra criar o ebook gratuito.
+
+E você pode criar vários.
+
+Você pode, por exemplo, colocar como uma meta, eu colocaria, todo mês cria um novo, porque você não está criando do zero, a IA está fazendo tudo pra você.
+
+Você vai receber o agente de IA de post, você vai receber o agente de IA pra fazer esse ebook gratuito, você vai receber a IA para fazer anúncios.
+
+Então esse agente vai falar quanto você tem que investir, como que tem que ser seu post, a imagem, se vai ser vídeo, o resultado, o que você tem que olhar pra aquele anúncio.
+
+Ele vai te explicar, se o anúncio tiver essas métricas, faz isso.
+
+Ele vai te trazer tudo mastigado.
+
+Porque lembra, eu posso construir essa lista de e-mail pra oferecer os meus serviços, os meus projetos pra esse cliente.
+
+Então vocês vão receber agentes de IA pra criar esses e-mails, que o e-mail precisa ser persuasivo.
+
+Eu falei da página de captura, vocês vão receber agentes de IA pra criar essas páginas.
+
+Lembra o que eu falei do posicionamento, análise de mercado?
+
+Vocês vão receber o agente de IA pra fazer essa análise de mercado. "Cara, o que eu estou vendendo, o mercado quer?" Vocês vão receber esse agente de IA pra fazer essa análise de mercado.
+
+Ou seja, tudo que a gente vai fazer dentro da imersão nos três dias.
+
+Só pra colocar aqui o último pilar, o último pilar é o do fechamento.
+
+Aí foi mais ou menos o que o nosso amigo colocou: "Cara, eu fiz isso e não consegui fechar, o cliente fechou com outro". Às vezes o fechamento não foi bom.
+
+E qual é a vantagem?
+
+Aqui eu tenho scripts, aqui eu tenho agentes de IA pra te ajudar nesse processo de fechamento.
+
+O que falar?
+
+Lembra o que eu falei?
+
+Gente, enquanto vocês não conseguirem transformar o serviço de vocês em algo atrativo, irresistível e que gere valor pro negócio, vai ser mais difícil.
+
+Quem vai te ajudar em tudo isso?
+
+Os scripts e os agentes de IA.
+
+Ele vai ajudar a pegar o seu serviço e falar: "Agora eu preciso levar isso de uma maneira irresistível pro meu cliente.
+
+Como que eu faço isso?
+
+Eu não sei, eu não domino essa estratégia".
+
+Na imersão, vocês vão aprender a estratégia.
+
+Só que quem vai fazer isso pra vocês não precisa ser vocês manualmente.
+
+Vocês podem automatizar tudo isso com todos os agentes de IA que a gente vai entregar pra vocês.
+
+Então vocês vão receber agente de IA pra post, pra criar o ebook, pra falar de anúncio, pra falar de e-mail, pra falar de páginas, pra falar de análise de mercado, scripts e agentes de IA pra fazer fechamento.
+
+O que eu falo numa reunião, como eu falo, como eu apresento.
+
+Esse cara vai te trazer tudo isso mastigadinho.
+
+Então vão ser três dias focados em montar todas essas estratégias com aquela meta, 30.000 por mês.
+
+Todas as estratégias que vão mudar o seu mindset pra um mindset de empresário.
+
+Qual é o valor de investimento dessa imersão de três dias?
+
+Lembrando que todo o conteúdo vai ficar gravado, vai ser disponibilizado pra vocês com acesso vitalício, assim como os agentes, os agentes vão ser de vocês.
+
+Então vocês vão poder usar sempre que vocês quiserem.
+
+Outra coisa importante, esses agentes aqui vão funcionar tanto no ChatGPT, quanto no Cloud.
+
+E o mais interessante é que ele funciona no gratuito, não precisa pagar nenhum ChatGPT, nenhum Cloud pra rodar esses agentes.
+
+O investimento dessa imersão, o valor normal é R$ 2.997.
+
+Opa, faltou um nove.
+
+R$ 2.997 pra ter acesso aos três dias.
+
+E aqui, gente, eu tenho certeza que não é esse valor que a gente vai oferecer pra vocês.
+
+Mas eu tenho certeza que só com esse valor aqui, só esse valor, eu tenho certeza que valeria cada centavo e que no primeiro projeto você já recuperaria esse valor investido.
+
+Eu tenho certeza disso.
+
+Mas a gente quer que o valor não seja nenhuma barreira pra vocês, principalmente porque muitos de vocês estão começando agora.
+
+Então a gente não quer o investimento pra participar dessa imersão, eu não quero que seja uma barreira pra vocês.
+
+Então pra quem garantir a vaga hoje Para quem garantir a vaga hoje, a gente vai liberar um cupom de desconto de R$ 2000.
+
+Ou seja, o valor para participar dos três dias, ter acesso aos nossos agentes, aprender toda a estratégia e fazer o diferente para ter esse faturamento de 30 mil por mês, mudando o "mindset" para o "mindset" de empresário, é de R$ 997.
+
+Esse valor pode ser dividido em até 12 vezes.
+
+Quando divide, acaba tendo juros da plataforma, mas vai ficar mais ou menos 12 vezes de R$ 101.
+
+Então eu estou falando aqui de um investimento por dia de aproximadamente uns R$ 3 e pouquinho.
+
+São R$ 3 por dia.
+
+É isso que te separa de continuar tendo os mesmos resultados que vocês estão tendo esse ano, tiveram esse mês, tiveram nos últimos anos.
+
+Para um resultado de "mindset" de empresário, estratégias para criar uma empresa de consultoria consolidada, com faturamento mínimo de 30 mil por mês, porque para mim, de novo, é o que vale a pena, menos de 30 mil, volta para o CLT.
+
+Então esse é o investimento diário, R$ 3.
+
+Se hoje você pode investir R$ 3 por dia, menos que um café, você pode investir menos de R$ 4 por dia aqui, na verdade, para criar uma empresa consolidada, esse é o seu momento.
+
+Esse valor de 12 vezes pode ser dividido no cartão de crédito, pode ser dividido no boleto, pode ser dividido no Pix.
+
+Para quem quiser garantir a vaga agora com essa condição especial, com esse desconto especial, eu vou colocar aqui no chat o link para parcelamento no cartão de crédito ou pagamento à vista no Pix ou no boleto.
+
+Esse primeiro link.
+
+Para quem tem interesse em fazer o parcelamento via boleto ou via Pix, eu vou colocar um segundo link aqui, que é o link da minha equipe no WhatsApp.
+
+Então para quem tem interesse em fazer parcelamento no boleto ou no Pix, esse segundo link, entre em contato com a Gabi, da minha equipe no WhatsApp, fala que você estava aqui na aula e que você tem interesse em fazer o parcelamento no boleto ou no Pix, que aí ela vai gerar um link que é diferente.
+
+Agora, gostei da proposta, quero participar da imersão, vai parcelar no cartão de crédito ou fazer à vista, pode usar esse primeiro link que vocês já conseguem fazer todo o processo.
+
+Maravilha, turma?
+
+Deu para entender a proposta?
+
+Deu para entender o que vocês vão ter acesso, o que vocês vão receber dentro da nossa imersão Virada 30 mil?
+
+Alguém ficou com alguma dúvida?
+
+Alguém quer fazer alguma pergunta?
+
+Então, de novo, aqui é para quem quer se mexer, para quem quer fazer algo diferente, para quem já entendeu. "Se o que eu fiz até agora não trouxe resultado, eu preciso fazer alguma coisa de diferente, porque o que não dá é para continuar na mesma".
+
+Então para quem está com essa visão, para quem está com essa meta, principalmente essa meta de faturar 30 mil por mês, de maneira previsível, está aí a oportunidade dessa imersão, onde a gente vai aprender todas essas estratégias aqui que eu mostrei para vocês.
+
+E não somente isso, para aqueles que garantir a vaga hoje, além de ter o cupom de desconto de 2 mil, ainda vai receber de bônus todos os nossos agentes de IA para ajudar na construção, para ajudar no refinamento dessa mensagem o máximo possível.
+
+E principalmente, automatizar também.
+
+Porque hoje, se você parar para escrever um ebook do zero, vai demandar tempo.
+
+E às vezes você precisa desse tempo para atender o cliente de vocês.
+
+Mas o agente de IA vai fazer esse ebook para vocês em pouquíssimos minutos.
+
+O ebook já vai estar pronto para você entregar para o cliente de vocês. "Beleza, eu fiz o ebook, agora eu preciso postar nas mídias sociais para falar desse ebook.
+
+Não tenho ideia do que postar".
+
+O agente de IA vai te entregar os posts, tudo que você precisa falar nas mídias sociais. "Eu quero usar anúncios, mas não tenho ideia de como fazer isso.
+
+Não tenho ideia das métricas que eu tenho que ver, não tenho ideia se aquele anúncio está funcionando ou não".
+
+O agente de IA vai te ajudar a montar tudo isso. "Eu estou montando a lista de e-mail, agora eu quero mandar um e-mail para o pilar para converter, para oferecer o meu projeto, só que eu não tenho ideia de como escrever esse e-mail".
+
+A IA vai ajudar vocês.
+
+Página, análise de mercado.
+
+Agente de IA vai te ajudar em todos esses processos.
+
+Maravilha?
+
+Tranquilo?
+
+E aí, quem curtiu a aula, dá um 10 aí.
+
+Gostaram da aula?
+
+Gostaram do conteúdo?
+
+Curtiram?
+
+A galera que falou que digitou empresário, que quer mudar esse "mindset", quer começar a ter esses resultados, tem alguma dúvida?
+
+Deu para entender a proposta?
+
+Os links estão no chat, tanto para fazer a inscrição direta quanto o link para entrar em contato com a equipe no WhatsApp, para quem tem interesse em fazer o parcelamento via boleto ou parcelamento via Pix.
+
+Novecentos e noventa e sete, que podem ser divididos em até 12 vezes.
+
+Beleza, turma?
+
+Show de bola?
+
+Maravilha.
+
+Só lembrando que essa condição é para aqueles que garantir a vaga hoje.
+
+Vai levar R$ 2 mil de desconto, vai levar todos os agentes de IA, tudo com acesso vitalício.
+
+É de vocês, para ajudar vocês em todas as jornadas. "Poxa, eu quero mudar o e-book, quero falar de outra coisa".
+
+O agente é seu. "Quero mudar a página".
+
+O agente vai te ajudar. "Quero montar novos anúncios".
+
+O agente vai te ajudar. "Eu estou usando uma linha de fechamento, funcionou no começo, agora não está funcionando".
+
+O agente de IA vai te ajudar a criar novas linhas de argumentação, que é aquele empacotamento, é transformar o serviço de vocês em algo irresistível, para quem olha e fala: "Cara, eu preciso disso aqui, e não somente preciso, eu preciso disso agora".
+
+Show de bola?
+
+Então é isso aí, turma.
+
+A oportunidade está na mesa, para quem garantir a vaga hoje, leva o bônus dos agentes e o cupom de R$ 2 mil de desconto.
+
+Show de bola?
+
+Para a galera que já está se inscrevendo na nossa imersão, já dou as boas-vindas de forma antecipada.
+
+Eu tenho certeza que é a melhor decisão que você tomou para o seu negócio esse ano, porque eu tenho certeza que esse ano ainda, nos próximos meses, você já vai começar a colher esses resultados, porque você decidiu agir, porque você decidiu fazer diferente, parar de fazer coisas que você vem fazendo há anos e não funcionam.
+
+Eu tenho certeza que você vai começar a colher esses resultados já nos próximos meses e que o fechamento desse ano vai ser completamente diferente do fechamento que você teve no ano passado.
+
+Show de bola?
+
+Então é isso aí, turma.
+
+Um grande abraço para vocês, fiquem com Deus e até a próxima.
+
+Valeu, turma!

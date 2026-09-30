@@ -1,0 +1,1253 @@
+Fala, turma.
+
+Boa tarde.
+
+Estamos ao vivo.
+
+Sejam todos muito bem-vindos à nossa super aula: Virada de TI 30K.
+
+Como implementar um sistema que leva o consultor de TI a um faturamento de 30 mil por mês.
+
+E diferente do que muita gente acha, chegar a um faturamento de 30 mil por mês, nem sempre é ter mais clientes.
+
+E eu quero mostrar pra vocês esses detalhes aqui nessa aula, explicar um pouco pra vocês desse sistema, como criar esse sistema pra ter esse faturamento, como criar esse framework pra ter esse faturamento recorrente de 30 mil todos os meses, sem precisar de dezenas e mais dezenas, ou às vezes centenas de clientes.
+
+Então quero passar aqui todos esses detalhes com vocês e no final, eu quero mostrar como que a gente consegue ajudar quem está nessa jornada de criar uma empresa de consultoria previsível, com faturamento de 30 mil por mês.
+
+Maravilha?
+
+Todo mundo ouvindo bem, todo mundo vendo aqui o mapa mental?
+
+Comentem aí no chat se está tudo certo, se podemos começar.
+
+Sim, tudo certo.
+
+Show de bola.
+
+Vamos lá, pessoal.
+
+A primeira coisa que eu quero mostrar pra vocês, eu quero dar um exemplo, essa questão de: para faturar mais, eu preciso de mais clientes?
+
+Aqui, nem sempre é verdadeiro.
+
+Eu vou pegar aqui pra começar, uma média de mercado.
+
+Hoje, a gente tem uma média de mercado de consultores que cobram R$ 100 a hora.
+
+Maravilha?
+
+Se a gente pegar uma média de trabalho também, uma média de 40 horas semanal, eu estou falando de 160 horas/mês.
+
+Certo?
+
+Então estou falando de 160 horas por mês.
+
+Se eu pegar 160 horas/mês versus R$ 100 a minha hora, eu estou falando de um faturamento de 16 mil.
+
+Maravilha?
+
+Todo mundo acompanhando aqui?
+
+Eu posso ser bem sincero com vocês, de verdade?
+
+Vocês me permitem isso?
+
+Quem permite, digita o número um aí.
+
+Vocês permitem eu ser bem sincero com vocês com o que eu vou falar agora?
+
+Sendo bem sincero mesmo.
+
+Cara, se hoje você ganha 16 mil reais, vai pra CLT.
+
+Volta pra CLT.
+
+Não faz sentido hoje, você como empresário, ganhar 16 mil reais por mês.
+
+Não faz, porque pensa: 16 mil, tem imposto. 16 mil, você tem que pagar um convênio.
+
+Volta pra CLT.
+
+Não compensa.
+
+E vou além, você vai ganhar muito mais.
+
+Se hoje você fatura como empresário, com CNPJ e tudo.
+
+Se hoje você tem um faturamento de 16 mil, na área de tecnologia, CLT você vai ganhar muito mais, te garanto.
+
+Não vale a pena.
+
+Hoje, na minha visão, só vale a pena continuar como empresário, se você ganha no mínimo 30 mil.
+
+Na minha visão, fatura menos de 30 mil, volta pra CLT.
+
+A não ser que a sua empresa esteja em construção.
+
+Maravilha, mas a sua meta sempre tem que ser 30 mil ou mais.
+
+Não vale a pena ter uma empresa de consultoria pra faturar menos de 30 mil.
+
+Só que qual é o cenário que a gente vê hoje?
+
+Qual é o cenário que a gente vê hoje?
+
+São profissionais trabalhando 240, 280 horas por mês pra receber 20 mil reais.
+
+Trabalha muito mais do que trabalharia com CLT pra ganhar, se você for pôr nas proporções, pra ganhar menos.
+
+Esse é o cenário que a gente vê hoje.
+
+Esse é o cenário mais comum.
+
+O cara acha lindo, faturo 20 mil.
+
+Só que fala aí, amigão, quanto que efetivamente é o faturamento?
+
+É porque 20 mil é o bruto, mas tem imposto, tem um convênio médico, que se você fosse CLT, você não precisaria pagar.
+
+Está ali dentro dos benefícios.
+
+Faz as contas e vê se não vale a pena você voltar pra CLT.
+
+É claro que vale.
+
+Só que tem muita gente hoje que está nesse cenário, porque está no modelo de negócio errado, tem uma visão extremamente limitada Fica só dependendo de indicação.
+
+Então, cara, na boa, depende de indicação, volta pro CLT e deixa a indicação pra você fazer fora do horário.
+
+Te garanto que você vai ficar muito mais feliz, te garanto que você vai ganhar muito mais e vai ter muito menos trabalho.
+
+Gente, prestação de serviço, ser empresário, não é pra qualquer um.
+
+Por isso que eu perguntei: "Gente, posso ser sincero com vocês hoje?" Porque, cara, essa é a verdade.
+
+Ser empresário não é pra qualquer um.
+
+Você quer ver?
+
+Talvez alguns de vocês se apresentam assim em algum momento.
+
+Eu odeio essa palavra, eu odeio. "O que você é?" "Eu sou um freelancer de TI." Cara, se posicionar como isso aqui no mercado é a pior coisa que tem no mundo, mas eu já vou falar um pouquinho mais sobre isso.
+
+Então hoje, qual é o cenário?
+
+O cara largou o CLT pra empreender achando, vamos lá.
+
+Vocês podem ir me complementando aí no chat.
+
+Por que eu quero virar um empreendedor?
+
+Aí vem: "Ah, eu quero ser meu chefe." Podem dar sugestões aí que eu vou pondo aqui. "Eu quero ser meu próprio chefe.
+
+Quero ganhar mais.
+
+Quero trabalhar menos." Eu vou colocar uma aqui que é uma ilusão que espero, de verdade, que nenhum de vocês tenham essa ilusão. "Quero trabalhar de sunga na praia." Você achar que empreendedor não faz nada.
+
+Então geralmente as pessoas querem empreender, isso não é só pra área de tecnologia, mas as pessoas querem empreender, porque elas não querem ter chefe, porque elas querem ganhar mais e elas querem trabalhar menos.
+
+Só que a realidade, inclusive, pessoal, isso não sou eu que estou falando.
+
+Se você entra lá no SEBRAE, tem vários dados públicos lá.
+
+Esses dados que eu estou falando aqui pra vocês estão lá.
+
+Hoje, a maioria dos microempresários, quando fala que quer virar um empreendedor, entra para querer ganhar mais, e eles ganham mais.
+
+Porém, o problema vem aqui, eles ganham mais, mas trabalham muito mais também pra conseguir aquilo.
+
+E quando a gente vem pra área de tecnologia, isso aqui é um absurdo.
+
+Chega a beirar isso aqui que eu estou falando, cara, trabalhar 240, 280 horas por mês pra ganhar 20 mil reais, não faz sentido nenhum.
+
+Gente, hoje uma boa parte das pessoas, dos empresários de tecnologia que buscam a nossa ajuda, o que eles querem de ajuda?
+
+Cara, hoje ele não quer, muitas vezes, faturar muito mais.
+
+O que ele quer?
+
+Ele quer faturar trabalhando menos.
+
+E sim, é possível faturar trabalhando menos.
+
+Tudo vai depender de como você monta o seu modelo.
+
+Primeira coisa que vocês precisam, eu vou fazer uma pergunta e eu quero que vocês sejam bem sinceros.
+
+Hoje, eu acredito que a maioria, senão vocês não estariam aqui numa aula com esse tema.
+
+Hoje, quantos de vocês aqui querem faturar 30 mil por mês de forma previsível com a empresa de TI de vocês, com a consultoria de TI de vocês?
+
+Digita o número um aí.
+
+Quantos de vocês que estão aqui nessa aula, que querem ter esse faturamento de 30 mil reais por mês, pra mim é o mínimo.
+
+Pra você ser um empreendedor, pra você ser um empresário, pra mim é o mínimo, 30 mil por mês pra valer a pena, senão volta pra ser CLT.
+
+Maravilha.
+
+Eu posso falar outra verdade aqui pra vocês?
+
+Vocês não vão conseguir chegar num faturamento desse previsível.
+
+Eu não estou falando de mês fatura, estou falando de algo previsível, que é o que uma empresa faz.
+
+Vocês não vão conseguir chegar nesse nível de resultado enquanto vocês não mudarem o mindset de vocês pra um mindset de empresário.
+
+Enquanto vocês tiverem levando a empresa de vocês mesmo como um freelance, como uma prestação de serviço, como um lugar onde eu tiro dinheiro pra pagar os boletos.
+
+Enquanto você não colocar uma visão de empreendedor no negócio de vocês, vai ser muito difícil vocês conseguirem atingir esse valor de maneira previsível.
+
+Existem vários artigos, várias notas que o SEBRAE solta, que cara, hoje quem abre uma microempresa, a média de sobrevivência dessa empresa é de um a dois anos.
+
+Mas por quê?
+
+Porque muita gente abre uma empresa sem ter essa visão de empreendedor.
+
+Em outras palavras, as pessoas abrem empresas sem estar preparadas Só que na maioria das vezes, essa preparação não exige muita coisa, você não precisa fazer um megablaster curso.
+
+Não!
+
+É você tratar aquilo como uma empresa.
+
+O que uma empresa precisa para ser sustentável?
+
+Uma empresa precisa de crescimento.
+
+Eu sei disso, porque eu converso com muita gente dessa área.
+
+Se eu pegar aqui vocês que já têm empresas de consultoria, a maioria de vocês não tem uma previsão de crescimento semestral, uma previsão de crescimento anual.
+
+A maioria de vocês hoje não sabe de onde vai vir o próximo projeto.
+
+Então se eu perguntar para vocês: "Cara, de onde vai vir os próximos projetos dos próximos anos?" A maioria de vocês não sabe.
+
+A maioria vai falar: "Cara, só vai vir se alguém indicar, se ninguém indicar, não vem".
+
+Quando você tem o "mindset" de empresário, você não fica esperando a coisa acontecer. "Poxa, eu preciso aumentar o meu faturamento para o próximo mês em 5%.
+
+Vou esperar uma indicação nova".
+
+Não, o que eu tenho que fazer para conseguir esses 5%?
+
+Eu vou arregaçar as mangas e vou para cima.
+
+Eu já vivi esse cenário, por isso que eu posso falar com propriedade.
+
+Muitos de vocês, hoje é o famoso eu consultor.
+
+Que é o quê?
+
+Ou eu prestador.
+
+Você trabalha sozinho, então você é o responsável pela parte administrativa da sua empresa, você é o responsável pela entrega do serviço, você é responsável por tentar prospectar novos clientes.
+
+E o problema de verdade não está aqui, eu também comecei assim.
+
+O problema não está aqui.
+
+O problema é quando você faz tudo sozinho, você tem que tentar otimizar o seu tempo ao máximo para algo que importa.
+
+Poucos de vocês aqui que trabalham nesse modelo de eu consultor, você faz tudo, pouco de vocês separam algumas horas por semana para ver: "Como que eu vou conseguir novos clientes?" Muita gente que não faz isso, fica só dependendo de indicação.
+
+E tudo isso é uma visão de um empreendedor.
+
+O empreendedor tem que olhar para o negócio dele e falar: "Cara, como que eu faço para ter um faturamento maior, para deixar o meu negócio sustentável?
+
+Quais são as fases?
+
+Quais são os marcos?
+
+Quais são as metas?" Alguns de vocês nem metas têm.
+
+E o pior, além de não ter meta, porque meta por meta não adianta nada, você chegar para mim e falar: "Cara, eu tenho a meta de 30 mil".
+
+Beleza.
+
+Quando não atinge essa meta, você faz o quê? "Não faço nada, eu vou para o próximo mês e espero que o próximo mês eu atinja".
+
+Não! "Cara, estou fora da meta, o que eu preciso fazer?
+
+O que eu preciso melhorar?
+
+Onde eu estou errando?" O empresário precisa pensar nisso tudo.
+
+Mas você só vai ter essa visão quando você mudar esse "mindset", quando você olhar para o seu negócio, olhar e falar: "Cara, espera aí.
+
+Cara, eu estou faturando, beleza".
+
+Mas gente, vamos lá.
+
+Não precisam colocar valores.
+
+Não precisa colocar valores.
+
+Mas hoje, quem está contente com o faturamento que tem hoje?
+
+Cara, se vocês estão numa aula com esse tema de faturamento de 30 mil, acredito que nenhum de vocês estão 100% satisfeitos com o que vocês faturam hoje.
+
+Seja porque trabalha demais, e o que cai na conta, você vê que, poxa, não é o valor com o serviço que vocês estão entregando.
+
+Mas enquanto vocês não fizerem, não ter esse "mindset" de empreendedor e começar a fazer coisas para mudar esse cenário, não vai adiantar ficar reclamando.
+
+Não vai adiantar ficar reclamando.
+
+O que eu posso falar para vocês com certeza e propriedade, é que mercado tem muito, só que hoje, diferente do que a gente tinha no passado, hoje o mercado é mais seletivo.
+
+Ou seja, se eu não consigo me posicionar de uma maneira adequada no mercado, eu não vou conseguir a atenção dos clientes.
+
+Se eu não tenho a atenção dos clientes, eu não vou conseguir fechar contratos, não vou conseguir fechar propostas.
+
+O jogo hoje é o posicionamento.
+
+Aquele que se posiciona melhor, é aquele que vai faturar mais e mais rápido.
+
+Hoje o jogo é o jogo do posicionamento, é quem sabe se posicionar melhor.
+
+Só que qual é o problema e por que isso vai fazer com que cada vez seja mais difícil ter resultados?
+
+A maioria se posiciona de maneira genérica demais.
+
+A maioria se posiciona como freelancer, como prestador de serviço, muito genérico.
+
+O mercado tem que olhar para você e já entender o que você ajuda, o valor que você gera.
+
+Hoje, gente, não é mais essa questão de "eu sou o melhor técnico".
+
+Cara, isso já passou.
+
+Hoje é valor.
+
+Aquele que conseguir mostrar para a empresa que consegue gerar valor com seu serviço, são aqueles que vão faturar.
+
+O restante é o que sempre vai ter mais dificuldade.
+
+E eu posso dar aqui "n" exemplos de como transformar um serviço simples em um serviço que gera valor.
+
+Todo serviço gera valor, mas eu preciso tangibilizar isso para o meu cliente.
+
+Essa é a dificuldade que muitos de vocês têm.
+
+Pegando esse cenário aqui: trabalho muito e ganho pouco Hoje, a gente ajuda muita gente ao contrário. "Cara, eu até faturo, só que eu trabalho muito, eu preciso faturar menos".
+
+O que a gente faz com quem chega com esse problema? "Cara, eu faturo muito, eu já tenho um bom faturamento.
+
+Só que pra eu ter aquele faturamento, eu preciso trabalhar demais".
+
+Então o que a gente faz com esses empresários que chegam até a gente?
+
+Eu preciso reposicionar ele, eu preciso fazer com que cada cliente pague mais pra ele, pra que ele tenha menos cliente.
+
+Porque isso aqui é um absurdo, mas tem gente que pra ter um faturamento de 20 mil por mês, precisa atender mais de 50 clientes.
+
+Isso aqui é um absurdo, você não tem vida.
+
+Pra mim, vocês que colocaram aí que querem faturar 30 mil reais por mês de maneira previsível. "Quero chegar nos 30 mil reais por mês, de maneira previsível." Pra mim, aqui, cinco a 10 clientes no máximo.
+
+Mas tem gente que tem 50 clientes pra faturar 20.
+
+Qual é a diferença do cara que tem 50 clientes pra faturar 20 mil, versus o cara que só tem cinco clientes e fatura 30 mil, fatura ainda mais?
+
+Posicionamento.
+
+E às vezes é o mesmo cliente.
+
+Eu não estou falando que esse cara trabalha em empresas diferentes.
+
+Eu já vi isso várias e várias vezes e isso, inclusive, já aconteceu com a gente aqui.
+
+Que é o quê?
+
+Vai um consultor oferecer um serviço na empresa.
+
+Esse consultor vai lá, faz tudo, chega lá: "Pra fazer esse serviço, eu vou cobrar 20 mil".
+
+O cliente vai falar: "Não.
+
+Está caro." Aí eu vou lá.
+
+Mesmo cliente, mesmo escopo, mesmo serviço, quanto que você cobra? "Cobro 50." Fechado.
+
+Começa quando?
+
+Como assim, um cliente, o mesmo cliente, pega uma proposta de 20 mil e fala que não vai fechar porque está caro e fecha com outra pessoa por um valor mais do que o dobro?
+
+Posicionamento.
+
+Quer que eu fale um negócio pra vocês?
+
+Hoje, cerca de 90% das pessoas que tomam decisões pelas empresas, 90% que falam que não têm dinheiro, é mentira.
+
+Noventa por cento que fala que não tem dinheiro é mentira.
+
+Na maioria das vezes, é o quê?
+
+Na maioria das vezes, o jeito que você apresentou a sua solução não mostrou o valor pra empresa.
+
+Se não mostra valor pra empresa, ela vira e fala: "Por que eu preciso fazer isso agora?
+
+Não, vou falar que a gente não tem dinheiro só pro cara não ficar enchendo o saco".
+
+Gravem isso.
+
+Gerar valor.
+
+Quando eu faço isso, mostro que o meu serviço gera valor e coloco a urgência, o que seria a urgência? "Você precisa disso agora".
+
+Contrato fechado.
+
+Quando você mostra o valor que o seu serviço gera e que aquilo é urgente, já era.
+
+É o que eu faço numa empresa que rejeitou o contrato de um consultor de 20 e fecha comigo por 50.
+
+Eu mostro o valor e gero a urgência.
+
+Isso aqui são coisas que vocês precisam pegar.
+
+Infelizmente, não tem o que fazer.
+
+Vocês têm duas saídas e não têm pra onde fugir, ou é uma ou é outra.
+
+Número um: ou você aprende a vender, ou você contrata alguém pra vender por você.
+
+Não tem o que fazer.
+
+Hoje, não é o técnico mais conhecido que vai fazer com que uma proposta seja fechada.
+
+O bom do técnico conhecido, do consultor conhecido, da empresa conhecida, o bom de tudo isso, é que você não precisa quebrar muitas objeções, do tipo: "Pô, será que essa pessoa é a melhor pessoa?" Então pra quem já tem nome no mercado, pra empresa que já tem nome, eu pulo essa etapa.
+
+Mas hoje, meu amigo, o que vale é quem argumenta melhor dentro do valor que o serviço entrega.
+
+É assim que você ganha cliente hoje.
+
+Por isso que eu gosto muito de usar essa frase aqui.
+
+Se eu perguntar aqui pra vocês: quem precisa de cliente?
+
+Todo mundo vai falar: "Eu".
+
+Certo?
+
+Aí eu faço a segunda pergunta: "Mas espera aí Você tem conhecimento para atender esses clientes?
+
+Alguns vão falar: "Eu tenho um pouco".
+
+Gente, hoje, o que faz vocês conseguirem mais clientes não é o conhecimento técnico.
+
+Não é.
+
+Vai ajudar?
+
+Não tenha dúvida, saibam interpretar.
+
+Eu não estou falando que você não precisa de conhecimento técnico.
+
+Quanto maior for seu conhecimento técnico, mais coisas você vai oferecer, mais chances de fechar projetos você vai ter.
+
+O que eu estou falando é que se você pegar uma pessoa que conhece muito menos que você, não significa que essa pessoa vai faturar menos que você, porque se ela tiver uma linha de argumentação maior que a sua, se ela souber mostrar o valor daquele serviço, ela vai faturar muito mais que você conhecendo tecnicamente muito menos.
+
+Muito.
+
+Eu tenho um cliente que a gente atende aqui, eu adoro dar esse case, porque isso aqui mostra exatamente que não é só conhecimento técnico.
+
+Eu tenho um cliente que a gente atende hoje, hoje ele deve faturar na faixa dos 80 mil por mês.
+
+E esse cara hoje, só vende uma coisa.
+
+Se conhecimento técnico valesse, esse cara não faturaria nada, porque ele vende um serviço só.
+
+Eu já dei esse case algumas vezes, migração de File Server para SharePoint Online.
+
+É isso que ele vende.
+
+A gente ajudou ele a se posicionar no mercado como consultor e especialista nisso aqui.
+
+E a gente já tentou várias vezes falar para ele: "Cara, vamos vender outras coisas".
+
+Não, ele falou: "Cara, 80 mil para mim está bom.
+
+Eu trabalho aqui as horas que eu quero, o resto, eu tenho uma boa qualidade de vida, para mim está bom, não quero crescer mais que isso".
+
+O cara só conhece isso, ele não vende outras coisas, porque ele não conhece.
+
+Só que ele também não quer correr atrás de conhecimento, porque ele chegou num nível que para ele está bom.
+
+Só que eu só falei para ele: "Você tem que tomar um pouco de cuidado, que uma hora esses números vão cair, se você não tiver algo para substituir, é natural, qualquer mercado vive isso.
+
+Tem o início, tem a maturidade, depois tem o declínio".
+
+Mas aqui é para vocês verem, ele já está nesse projeto dele vendendo só isso há três anos.
+
+Três anos fazendo só isso.
+
+Então gente, não adianta mais uma certificação, não adianta mais um curso técnico.
+
+Cara, não adianta.
+
+Na maioria das vezes o problema está no comercial, o problema está: como que eu atraio mais clientes?
+
+Como que eu chego até esses clientes?
+
+Como que eu saio do modelo de negócio que só depende de indicação?
+
+Porque depender de indicação, eu não estou olhando o meu negócio como um empreendedor.
+
+Como que eu faço para o meu negócio crescer?
+
+Não é conhecimento técnico.
+
+Conhecimento técnico vai ajudar?
+
+Sem sombra de dúvidas, quanto mais conhecimento você tiver, melhor.
+
+Mas o que eu estou falando para vocês é que se você não tiver esse pezinho de vendedor, de comercial, não adianta quanto conhecimento você tem, porque não é o conhecimento técnico que vai fazer você atrair um cliente.
+
+O conhecimento técnico vai fazer parte do processo para você fechar uma proposta, mas não é o seu conhecimento técnico que trouxe esse cliente, a não ser que você já seja uma empresa conhecida, que você seja um consultor conhecido.
+
+Fora isso, quem vai trazer esse cliente é essa parte de vendas, é essa parte mais comercial.
+
+Só que a grande vantagem disso tudo, gente, é que você não precisa ter uma equipe gigante. Às vezes, você nem precisa de equipe, você sozinho consegue tocar.
+
+Qual é a diferença?
+
+Quando que eu sei que uma empresa precisa contratar alguém de vendas ou não?
+
+Como que eu sei?
+
+Primeiro, quando essa empresa, eu empresa ou eu consultor, já tem boa parte dos processos, principalmente os processos de vendas, automatizado.
+
+Então se chega uma pessoa para mim: "Eu preciso da sua ajuda, eu preciso saber se eu preciso contratar alguém de vendas para me ajudar ou não".
+
+Primeira coisa que eu analiso: qual é o seu processo de vendas hoje?
+
+Como que é o seu pipeline?
+
+Qual o framework?
+
+Beleza, desse framework, o que está automatizado? "Não tem nada automatizado", você não precisa de ninguém, então você precisa automatizar esses processos.
+
+Automatiza esses processos.
+
+Quando que eu vejo que precisa de ajuda?
+
+Quando os processos estão automatizados e mesmo assim, o eu empresa não está dando conta, aí já é hora de pegar alguém para ajudar.
+
+Mas para chegar no faturamento de 30 mil, você não precisa de equipe.
+
+Para chegar no faturamento de 30 mil por mês, você consegue fazer tudo sozinho.
+
+Principalmente o processo de vendas, você consegue automatizar tudo isso.
+
+Pensa comigo, gente.
+
+E o pior, o que eu fico bravo, é que tem gente que faz isso Você fatura R$ 30 mil e quer contratar alguém pra te ajudar, meu amigo?
+
+Você fatura R$ 30 mil, você quer ficar com o quê?
+
+Aí eu volto pra aquilo que eu falei no começo da aula.
+
+Se é pra ganhar R$ 16 mil, volta pra CLT.
+
+Com R$ 30 mil, você consegue tranquilamente aprender a vender sem ser um vendedor chato, automatizar esse processo, porque o automatizar esse processo é o que vai fazer com que você tenha tempo pro que é mais importante, que é atender esses clientes.
+
+Então pra ter um faturamento de R$ 30 mil por mês, você consegue tranquilamente fazer a parte de vendas, automatizando o máximo possível e entregando, sem precisar de equipe nenhuma.
+
+Esse cliente que a gente ajuda aqui trabalha sozinho.
+
+Ele gera um faturamento de R$ 80 mil e ele faz tudo sozinho.
+
+É claro que a gente montou pra ele, então está tudo automatizado o processo de vendas, ele basicamente participa das reuniões de fechamento e entrega.
+
+Então hoje ele fatura R$ 80 mil sozinho.
+
+Só que ele chegou num nível e por isso que ele não quer também, e isso vai ser uma decisão que vocês como empresário vão precisar tomar.
+
+Ele chegou num nível que se ele quiser aumentar esse faturamento dele, primeiro, ele vai precisar conhecer coisas novas.
+
+Segundo, ele vai precisar de uma equipe pra ajudar ele, ele não vai ter condições de atender todo mundo.
+
+Então aqui, no caso dele, a gente identificou que se ele quiser faturar mais, ele vai precisar de mais gente.
+
+Ele não quer isso, ele não quer ter problema com pessoas, não quer tratar com pessoas e o faturamento que ele chegou, está bom.
+
+Aí eu brigo com ele, eu falo: "Cara, isso não é a visão de um empreendedor, empreendedor sempre quer crescer." Mas beleza.
+
+Está aí com a gente, a gente auxilia no que é possível.
+
+Mas vocês, pra atingir essa meta, que pra muitos de vocês seria uma boa meta de começo, os R$ 30 mil por mês, que pra mim isso aqui é pra quem está começando.
+
+De novo, se você chegar pra mim e falar: "Cara, eu quero abrir uma empresa de consultoria.
+
+Eu não tenho a minha empresa ainda, mas eu quero abrir, estou levando isso a sério.
+
+Qual a primeira meta que eu tenho que colocar?" Cara, é R$ 30 mil.
+
+Não trabalha com uma meta menor, porque não vale a pena.
+
+Não estou falando que se você colocar uma meta de R$ 30 mil, no outro mês você já está com essa meta.
+
+Não, você tem que ir construindo isso.
+
+O que eu estou falando é que para você ser um empreendedor sustentável, só vale a pena com faturamento de R$ 30 mil pra cima. "Tentei aqui anos e anos e não consigo atingir o faturamento de R$ 30 mil." Cara, pelo amor de Deus, volta pro CLT, porque vale muito mais a pena.
+
+Vale muito mais a pena.
+
+Segundo o Sebrae, 90% das empresas morrem nos primeiros 12 meses.
+
+Dos outros 10%, 90% morre nos próximos.
+
+Exatamente.
+
+Então é uma vida útil, mas porque muita gente não está preparada.
+
+Muita gente acha que ter empresa, primeira coisa, vocês que já são consultores, vocês que já têm empresa, se hoje vocês olham pra empresa somente como local que você tira o dinheiro pra pagar as contas, já está errado. "Eu não tirei a minha ainda do papel, mas essa é uma das questões que mais me assombra.
+
+Como prospectar, onde e qual o público-alvo converter." Exato, e tudo isso que você está colocando aqui depois do prospectar, onde, qual, isso tem a ver com o bendito posicionamento.
+
+Porque aqui, Gustavo, o que eu poderia chegar pra você?
+
+Eu poderia chegar e falar: "Cara, faz o seguinte, vai lá no LinkedIn agora." Se você fizer isso, vai dar resultado, só que você vai atrair as piores pessoas possíveis. "Vai lá no LinkedIn agora e sai buscando um monte de gente e falando o que você oferece." Só que acontece, sem um bom posicionamento, você sempre vai atrair os piores clientes, os clientes mais chatos, os clientes mais difíceis de atender e o pior, os que pagam menos.
+
+Um bom posicionamento, quando você vira um consultor bem-posicionado, eu gosto de chamar do consultor premium, você vira um consultor bem-posicionado, primeiro, você não é enxergado apenas como operacional, você é enxergado pelas empresas como estratégico.
+
+E meu amigo, a partir do momento que a empresa te enxerga como consultor estratégico, aquele contrato que você cobrava R$ 2 mil, você pode cobrar 20 agora que o cara não vai chorar, porque a visão dele sobre o seu serviço é diferente, ele está enxergando o valor que você entrega pra empresa.
+
+E às vezes, gente, o que você entrega é a mesma coisa, só mudou a sua linha de argumentação. Às vezes o que falta pra vocês é isso, é mudar a linha de argumentação, é parar de falar só o técnico.
+
+Começar a falar a língua do negócio.
+
+Hoje nunca se falou tanto nisso.
+
+Nunca se falou tanto e vai falar cada vez mais, que é TI alinhada ao negócio.
+
+Tudo que eu vou falar de tecnologia agora, eu tenho que pensar no negócio por trás.
+
+O que aquilo que eu estou oferecendo está gerando pro negócio.
+
+Se eu não conseguir mostrar isso de uma maneira clara e objetiva pro meu cliente, ele sempre vai pagar mais barato, vai ficar chorando e eu vou ter os menores contratos e mais trabalho pra atender aqueles clientes.
+
+Sempre.
+
+Sempre. "Estou há quase três anos e não consigo uma oportunidade.
+
+Tenho 61 anos." Nem PJ, nem CLT.
+
+Depende muito do conhecimento, do perfil.
+
+Faturar menos, não.
+
+Trabalhar menos.
+
+Exato.
+
+Eu tenho um case para contar para vocês, de um empresário de TI que chegou pra gente e ele falou o seguinte.
+
+Eu expliquei um pouco da estratégia para ele.
+
+Isso acontece direto.
+
+Esse caso específico aconteceu nesse sábado.
+
+Estava conversando com o empresário de TI, e esse empresário virou pra mim e falou: "Cara, gostei da sua estratégia, só que eu não consigo mais, eu não tenho mais tempo para atender mais nenhum cliente.
+
+Para eu atender um novo cliente, eu vou precisar contratar alguém e eu não quero contratar ninguém".
+
+Beleza, essa foi a visão.
+
+Vocês concordam comigo que o problema dele não era cliente?
+
+Porque eu falei pra ele: "Cara, quer um cliente agora?" "Não, cara, eu não tenho tempo de atender esse cliente".
+
+O problema dele não era cliente.
+
+Aí beleza, eu entendi que o problema dele não era cliente.
+
+O cara está com a agenda cheia.
+
+Pro cara não ter tempo para atender um cliente, a agenda está cheia.
+
+Aí a próxima pergunta foi: "Cara, não me fala o valor, eu só quero saber, hoje o que você fatura, você está contente?" "Não, eu vejo que eu trabalho muito e não faturo o quanto eu gostaria".
+
+Cara, dali já me ligou a bendita palavrinha de posicionamento.
+
+Ele nem precisou me falar o resto, por experiência, eu já falei: "Beleza.
+
+Só do que você me falou agora, eu já sei que você tem clientes, você deve ter", falei pra ele, só pra ele não achar que me conhecendo ali na hora.
+
+Para quem me conhece há muito tempo, sabe que longe de mim, só pra ele não achar que eu sou muito presunçoso.
+
+Então falei: "Cara, você deve ter muitos clientes".
+
+Ele: "É, cara, eu tenho uma carteira muito grande".
+
+Eu falei: "Beleza".
+
+E outra coisa que eu tenho certeza, esses clientes devem pagar contratos de, no máximo, uns R$ 2.000.
+
+A sua média deve estar beirando os R$ 500 o contrato".
+
+Ele falou: "Cara, é isso mesmo".
+
+Cara, é um padrão.
+
+Eu falei: "Sabe por que isso aconteceu?
+
+Porque você não se posicionou".
+
+Aí ele: "Pô, mas espera aí, como assim?
+
+O que é isso, posicionamento?" Aí eu comecei a explicar um pouco pra ele de posicionamento.
+
+Falei: "Cara, posicionamento é como o mercado te vê.
+
+Quanto mais estratégico você se posicionar, maiores serão os seus contratos.
+
+Quanto mais posicionamento operacional, menores serão os seus contratos".
+
+Aí eu falei: "Hoje, eu tenho certeza que você é 100% operacional.
+
+Você apaga incêndio, o cliente te conhece como o cara que apaga incêndio".
+
+Ele falou: "É isso mesmo".
+
+Falei: "Cara, beleza.
+
+Você quer mudar isso?
+
+Só tem uma maneira da gente mudar essa sua realidade.
+
+Hoje você não tem tempo de atender ninguém, certo?" "Certo". "Então você vai pegar o seu pior cliente que você tem, o que te paga menos e que consome um tempo do seu trabalho.
+
+Você vai pegar esse pior cliente e quando vier a data de renovação dele, você não vai renovar, você vai precisar desse tempo.
+
+Só que eu te garanto que esse cliente que você não vai renovar, que deve estar te pagando no máximo R$ 1.000 por mês, a gente vai pegar aquelas mesmas horas e vamos transformar R$ 1.000 em 10 mil".
+
+Aí ele: "Pô, mas como assim?" Falei: "Cara, é posicionamento, o novo cliente que entrar em contato com você, vai entrar em contato por conta do seu novo posicionamento estratégico.
+
+E esse posicionamento estratégico vai mostrar que você é um consultor que sabe que a TI precisa estar alinhada ao negócio.
+
+Tudo o que você for oferecer de valor para eles, vai trazer benefícios para o negócio.
+
+Você está preparado para isso?" "Cara, eu estou". "Vamos pra cima?" "Vamos pra cima".
+
+Acertou o framework, trouxe o novo cliente com novo posicionamento.
+
+Conseguiu transformar essa pessoa num cliente pagando 10 vezes mais, agora vai fazendo a transição aos poucos.
+
+Pega outro cliente, não renova.
+
+Daqui a pouco, você vai, ao invés de faturar 30 mil por mês, se matando de trabalhar, você vai faturar 100 mil por mês, trabalhando menos.
+
+Você vai aumentar o seu faturamento e vai trabalhar menos.
+
+Gente, é o posicionamento.
+
+Sem posicionamento, você sempre vai ficar refém dos piores clientes, você sempre vai ficar refém dos menores contratos.
+
+Sempre.
+
+É uma das coisas que a gente mais recebe aqui. "Cara, só chega cliente ruim".
+
+É claro, olha o seu posicionamento, meu amigo, com esse posicionamento você quer atrair quem?
+
+Com esse posicionamento, você acha que você vai atrair cliente grande?
+
+Você acha que vai atrair cliente estratégico?
+
+Com esse posicionamento, meu amigo, o cliente quando o mouse do usuário não funcionar, ele vai te ligar pra você ir lá ver o que está acontecendo no mouse.
+
+É isso que você quer pra sua empresa?
+
+Ficar recebendo ligação porque o mouse não está funcionando?
+
+Pelo amor de Deus!
+
+A não ser que você queira uma empresa grande, com muitos funcionários, porque pra que isso dê certo, pra que esse tipo de contrato de baixo valor operacional dê certo, você tem que ter muito, mas muito cliente, porque ele precisa de muita gente pra ajudar Hoje, quem fatura mais não é quem conhece mais.
+
+Hoje, quem fatura mais é quem sabe se posicionar.
+
+Hoje, quem fatura mais é quem sabe mostrar o valor do serviço pro negócio.
+
+Hoje, quem fatura mais é quem conhece técnicas de vendas pra conseguir atrair esses clientes.
+
+Porque tirando se você for uma super autoridade no mercado, o mercado já te conhece pelo seu nome ou conhece a sua empresa, tirando esses cenários, você tem que ir atrás do cliente e trazer ele pra dentro.
+
+E o que vai fazer você trazer esse cliente não é só o técnico.
+
+Se você não tiver uma linha de argumentação, algo de vendas, e de novo, gente, não precisa fazer curso de vendas.
+
+A gente tem scripts, a IA ajuda muito, desde que saiba utilizar.
+
+Não vai jogar na IA crua pra ela te ajudar nisso aqui, que só vai sair groselha.
+
+Mas uma IA bem treinada, um agente bem treinado, uma skill bem montada na IA, ajuda demais nesse processo.
+
+Ajuda demais. "Eu nunca trabalhei pra mim.
+
+E como começar nessa área de consultoria?" Eu estou explicando aqui.
+
+É exatamente o que eu estou explicando.
+
+A primeira coisa: posicionamento, como você quer ser reconhecido pelo mercado.
+
+E esse posicionamento tem que estar alinhado com essa visão de TI alinhada ao negócio.
+
+Precisa montar esse posicionamento.
+
+Gente, eu consigo saber se um consultor fatura bem ou não só pelo posicionamento dele.
+
+Pelo posicionamento, eu sei se ele fatura bem e trabalha pouco ou se ele fatura pouco e trabalha demais.
+
+Só pelo posicionamento dele, porque pelo posicionamento eu sei o tipo de cliente que ele está atraindo.
+
+Resumindo, se posicionar como autoridade no nicho.
+
+Isso aqui não é bem se posicionar como uma autoridade, que nem a gente vê em produtos digitais.
+
+Não é esse tipo de posicionamento.
+
+O posicionamento aqui é mais conseguir mostrar pras empresas, pros tomadores de decisão, que o que você oferece no mercado gera um valor pro negócio.
+
+Muitas vezes você não precisa falar que você domina aquilo tecnicamente.
+
+Esse posicionamento é muito mais comercial do que técnico.
+
+Não que você não precise dominar tecnicamente.
+
+Você não vai vender algo que você não tem certeza de como entregar.
+
+Isso é tiro no pé, se queimar.
+
+Mas esse posicionamento que eu estou falando é um posicionamento mais comercial.
+
+É claro que eu também preciso da autoridade pra fechar com esse cliente, aí autoridade é outro tema.
+
+Autoridade eu vou construir isso, construindo bons materiais e entregando esses materiais pros clientes que eu quero atrair.
+
+Aí é uma outra questão. "Ticket médio de R$ 500 para iniciar, não é tão ruim, não." Pra mim é péssimo.
+
+Pra mim não é ruim, é péssimo.
+
+Porque você vai trabalhar muito pra manter esse cliente e vai ganhar pouco.
+
+Daqui a pouco, esse tempo que você está usando pra atender esse cliente, vai cair no que eu acabei de falar desse cliente nosso.
+
+Ele tem tanto cliente ruim, que ele não tem mais tempo pra atender cliente bom.
+
+Eu inverteria completamente o cenário.
+
+Eu mostraria pro mercado: "Eu só atendo clientes premium".
+
+Por quê, Felipe?
+
+Presta atenção nisso aqui.
+
+É muito mais fácil eu conseguir 10 clientes me pagando 3 mil, vou fazer aqui na calculadora pra não passar vergonha ao vivo.
+
+Do que ter 60 clientes me pagando R$ 500.
+
+É mais fácil eu ter 10 clientes me pagando 3 mil, do que ter 60 clientes pagando R$ 500 pra ter a mesma meta aqui de 30 mil.
+
+Mas é muito mais fácil ir atrás desses 10 clientes, desde que eu tenha o posicionamento certo.
+
+Gente, é muito mais fácil você conseguir fechar um cliente de 3 mil com posicionamento estratégico do que fechar um contrato de R$ 500.
+
+Vai por mim, é muito mais fácil.
+
+E esse cara de R$ 500 vai chorar ainda.
+
+Ele vai tentar chegar nisso nos 300.
+
+Eu inverteria completamente o cenário.
+
+Eu sou um consultor premium, eu só atendo clientes premium.
+
+É claro que vocês não vão atingir essa maturidade do dia pra noite, mas isso é libertador O consultor premium é aquele consultor que escolhe com quem vem trabalhar e não o contrário.
+
+Fala: "Cara, eu não atendo qualquer pessoa".
+
+Isso faz parte do posicionamento.
+
+Faz parte do posicionamento você mostrar pro mercado que você não atende qualquer cliente.
+
+Isso faz parte do posicionamento.
+
+E eu jamais começaria por R$ 500.
+
+Jamais. "Ah, mas eu estou começando agora".
+
+Beleza, cara, o que você prefere?
+
+Em um mês, conseguir um cliente te pagando R$ 500 ou esperar um pouquinho mais e em dois meses, ter um cliente que paga já 3 mil de cara?
+
+Só fazer a conta.
+
+Opa, deixa eu ver aqui. "O cliente que paga 3 mil de suporte recorrente, você leva em consideração?" Eu não levo nada de tamanho de cliente, nada disso em faturamento.
+
+Gente, é o valor.
+
+Beleza, eu vou ajudar o cliente nisso.
+
+Isso que eu estou ajudando o cliente, qual o valor que isso vai gerar pra empresa dele?
+
+Qual o valor que isso vai gerar pra empresa dele?
+
+É assim que eu faço a conta.
+
+É claro, eu tenho uma planilhazinha que me ajuda com tudo isso, mas a minha conta não é por tamanho.
+
+É o valor, o impacto e o resultado que o meu serviço vai gerar pra aquela empresa.
+
+É assim que eu faço a conta de quanto cobrar.
+
+É claro que o tamanho sempre vai influenciar, mas pra gente não é o principal.
+
+Possa ser uma empresa média, eu cobrar, sei lá, 50 mil, e uma empresa maior, eu cobrar 30, mas porque na outra, o que eu estou gerando de valor é muito maior. "Quem já pegou cliente low ticket, que fica pedindo só..." Cara, exato, mas por que acontece isso?
+
+É o posicionamento.
+
+Está atraindo cliente ruim.
+
+Na boa, se você for pegar um cliente a R$ 500, o Felipe aqui.
+
+Deixa eu ver, eu acho que ele ouviu eu falar, não gostou muito e saiu.
+
+Mas eu faria isso.
+
+E repito, eu faria isso.
+
+Mas pegar o caso dele.
+
+O nome dele estava Felipe Linux, por exemplo, então entendo que ele deva conhecer do mundo Linux.
+
+Cara, se for pra fechar um contrato de R$ 500, sabe o que eu prefiro fazer?
+
+Monta um curso de Linux e vai vender o curso.
+
+É melhor do que ter um cliente te enchendo o saco por causa de R$ 500.
+
+Vai lá, grava os cursos, grava os módulos e põe pra vender, pronto.
+
+Comprou, não tem encheção de saco.
+
+Então gente, resumindo aqui.
+
+Cara, posicionamento, pra mim, é uma das coisas mais importantes, porque é o posicionamento que vai te separar de um consultor que fatura 30 mil, trabalhando pouco, do consultor que fatura os mesmos 30 mil, mas tem que trabalhar demais, trabalha horas, trabalha muito mais do que como CLT.
+
+Eu tenho alguns clientes aqui que é bem engraçado. "Poxa, por que você saiu do CLT?" "Ah, não, trabalhava muito, era muitas horas extras." "Mas você recebia pelas horas extras?" "Não, a empresa pagava certinho, mas pô, ter que ficar trabalhando." Aí o cara foi ser empreendedor, trabalha a mesma coisa contando as horas extras que trabalhava na empresa, se não trabalha mais.
+
+E meu amigo, ele não tem aquelas horas extras pra receber, aquilo faz parte do faturamento, ganhando menos.
+
+Então assim, é complicado.
+
+Por isso que eu prefiro muito mais ter 10 clientes pagando 3 mil do que 60 clientes pagando R$ 500.
+
+E vou além, é mais fácil ter 10.
+
+Cara, é lógica.
+
+Cliente é cliente.
+
+Cara, é mais fácil você conseguir 10 do que 60, mesmo pagando mais, porque o pagando mais, se você soube se posicionar, esse valor é justificável.
+
+Agora, esses R$ 500, você tem que ficar justificando toda hora, porque toda hora o cara acha que está caro.
+
+Eu sei que acontece, porque, de novo, eu já vivi isso, eu conheço muitos clientes que chegam até nós com esse problema.
+
+Quantas vezes você não fecha um contrato de R$ 500 e fala que a empresa tem 30 horas?
+
+É R$ 500 limitada a 30 horas.
+
+Quantas vezes isso aqui não aconteceu com vocês, de um mês ser menos problemático e você gastou 10 horas.
+
+O cliente vira e fala: "E essas 20, vai ficar pro próximo mês?" O cara fica chorando em coisa que é barato.
+
+Isso aqui é o pior modelo de todos, só dá dor de cabeça.
+
+Beleza, está pagando as contas?
+
+Paga as contas, cara, mas e aí, e a sua visão de empreendedor de querer crescer a empresa, vai ficar só nisso?
+
+Só que tem muita gente que já chegou num teto de faturamento.
+
+De faturamento, não, de entrega.
+
+E ganhando pouco, mas por quê?
+
+Posicionamento "Diogo, você tem a mentoria para quem é analista de infraestrutura sênior e quer sair da CLT e abrir empresa de consultoria de TI focada em cloud?" Isso.
+
+Só pra explicar, inclusive começa hoje.
+
+A gente tem uma imersão, que é a imersão Azure para consultores de TI.
+
+Só pra gente explicar.
+
+Lá, vocês vão aprender cinco serviços cloud, que são os que são mais demandados: FinOps, migração, implementação de novos recursos, ambiente híbrido, disaster recovery e backup.
+
+São cinco serviços.
+
+É uma imersão de quatro semanas, com dois encontros ao vivo toda semana.
+
+Começa hoje, vai ser de segunda e terça os encontros.
+
+Só que é focado nesses cinco serviços.
+
+É essa a imersão que a gente tem, começa hoje.
+
+Vão ser quatro semanas começando hoje, com encontros ao vivo toda segunda e terça.
+
+Essa começa hoje. "Sou especialista em infra aqui na França, trabalho na rede Accord." Não entendi o que seria essa boa pergunta.
+
+Mas explicando aqui pro Cláudio, não é que é focada em cloud como um todo, a gente foca nesses cinco serviços, que pra mim, são cinco serviços que se a galera que está nessa imersão fizer tudo que eu vou ensinar e aplicar, porque tem muita gente que aprende e não aplica.
+
+Por isso que eu gosto do nosso programa Done for you, porque o done for you o cliente paga e eu faço, então eu sei que vai fazer.
+
+Agora, o problema de imersão, mentoria, é que o cara aprende, mas às vezes não implementa.
+
+É esse cenário.
+
+Beleza?
+
+As aulas vão ficar gravadas.
+
+Que aula gravada?
+
+Alguém colocou pergunta aqui?
+
+Você colocou e eu perdi.
+
+Mas as aulas vão ficar gravadas, sim.
+
+Mas eu vou colocar aqui, ainda dá tempo.
+
+A gente tinha fechado, mas ainda dá tempo de entrar nessa imersão, porque ela começa hoje.
+
+Está aí o link no chat da equipe no WhatsApp.
+
+Então quem tiver interesse, chama a equipe aí no WhatsApp, fala que tem interesse de participar dessa imersão que começa hoje.
+
+Beleza?
+
+Vamos lá.
+
+Eu expliquei pra vocês aqui, só pra gente recapitular, que essa questão de ficar tendo consultoria focada em horas não dá certo, porque horas é sempre um teto.
+
+A parte mais importante é a parte do posicionamento.
+
+Não adianta ir atrás de cliente sem posicionamento.
+
+Você tem que ir atrás do cliente com o posicionamento já montado, já estabelecido.
+
+Por isso que geralmente, quando a gente pega ou alguém que é CLT e quer virar consultor do zero, ou um consultor que está começando, primeiro a gente gosta de trabalhar esse posicionamento pra depois trabalhar os outros pilares, porque sem um posicionamento, não que você não vai ter resultado, mas você sempre vai cobrar mais barato e sempre vai trabalhar demais e sempre vai ter os piores clientes.
+
+Isso é fato.
+
+Quando você tem um bom posicionamento, aí as coisas já mudam um pouquinho.
+
+Quando você tem um posicionamento, você já atrai clientes melhores, clientes que já te enxergam com uma visão um pouco mais estratégica, então muda completamente.
+
+No começo da aula, eu falei que eu ia explicar aqui um pouco dessas estratégias, o que vocês têm que fazer para conseguir esses 30 K de maneira previsível, e falei que a gente poderia ajudar vocês nesse processo, que é o quê?
+
+É a nossa nova mentoria, a gente criou isso novo, a chamada dela já é boa: Virada 30 K TI.
+
+Então aqui é pra quem quer alcançar esse faturamento de 30 K, pra quem quer começar a desenhar esse sistema, começar a preparar a empresa pra ter esse faturamento de 30 K de maneira previsível.
+
+Aqui a gente não trabalha com indicação, com nada, é construir um sistema.
+
+E essa construção parte do posicionamento.
+
+Depois do posicionamento, a gente tem ali a pipeline/framework, que aqui é efetivamente as estratégias de atração de cliente.
+
+Então depois que eu tenho o meu posicionamento estabelecido, é a hora do quê?
+
+É a hora de eu mostrar pro mercado o meu posicionamento.
+
+É onde entra a pipeline framework, eu vou divulgar a minha mensagem, o meu posicionamento pras empresas.
+
+Então eu vou atrás, vou prospectar essas empresas com base na mensagem do meu posicionamento.
+
+E por fim, é o fechamento.
+
+E aqui é: beleza, o cliente chegou, agora como que eu faço pra fechar esse contrato com ele?
+
+Como que eu mostro pra ele que o meu serviço vai gerar valor pro negócio dele?
+
+Fechamento.
+
+Então essa mentoria vai focar nesses três pilares.
+
+Vai ser uma mentoria de três dias, começando a partir das 21h, a gente ainda vai definir os dias, mas vão ser três dias aqui, provavelmente vai ser numa sexta, num sábado e num domingo Porque sábado e domingo a gente consegue aprofundar um pouco mais.
+
+Só sábado e domingo, que ao invés de começar às 9h, a gente começaria mais cedo, mas vão ser três dias focados em ensinar como montar um posicionamento.
+
+Então aqui, gente, vocês vão receber scripts, vocês vão receber agentes de IA prontos pra te ajudar nessa estratégia, além de entender como montar tudo isso aqui.
+
+A mesma coisa o pipeline.
+
+Então vocês não vão ficar no escuro, vocês vão receber vários scripts, vocês vão receber agentes de IA também pra montar toda a estratégia, porque lembra o que eu falei pra vocês?
+
+No começo, e eu acredito que a maioria de vocês estão nesse cenário, vocês estão sozinhos.
+
+Vocês não podem perder muito tempo em atração de clientes, porque você precisa entregar o serviço.
+
+Então a gente vai mostrar como automatizar todo esse processo de vendas pra vocês.
+
+A gente tenta automatizar o máximo possível, o que não dá pra automatizar é uma reunião de fechamento, mas o resto a gente consegue automatizar tudo.
+
+E vocês vão aprender dentro dessa mentoria, a não só entender como funciona todos os processos, colocar todos os processos pra rodar, mas também automatizar eles. "Poxa, como que eu crio uma pipeline automatizada pra buscar um cliente?
+
+Como que eu crio uma pipeline automatizada pra entregar o material, esse cliente entrar na minha base pra eu poder falar com ele várias vezes?" Vocês vão aprender a criar automações pra atração de clientes, porque o foco de vocês sempre precisa ser a entrega final, que é entregar o projeto, é atender um contrato.
+
+Mas a parte de vendas é importante também, você também precisa atrair novas pessoas todos os meses.
+
+Então a gente vai automatizar esse processo de atração desses clientes.
+
+E o fechamento, a gente também tem vários scripts pra quebrar objeções, várias coisas aqui pra que você possa usar como linha de argumentação pra fechar, ter um sucesso de fechamento acima do normal.
+
+Então essa aqui é a mentoria virada de 30.000.
+
+O investimento dessa mentoria normal é de R$ 2.997.
+
+Só pra aqueles que vão garantir a vaga hoje, até as 23h59, a gente vai liberar um cupom de desconto de R$ 2.000.
+
+Descontou.
+
+Ou seja, o valor dessa mentoria de três dias vai ser de R$ 997.
+
+Então, pra quem tem interesse, está aí o link da minha equipe no WhatsApp.
+
+É só chamar a minha equipe, falar que tem interesse, estava aqui na nossa aula e que tem interesse em participar dessa mentoria.
+
+O pessoal vai mandar as informações pra você, vai mandar o link de pagamento pra você garantir a sua vaga com esse valor promocional.
+
+Maravilha?
+
+Deixa eu ver aqui essa dúvida.
+
+Tem um case: "Recebi uma proposta de colaborar com uma empresa..." Cara, eu já não sou muito a favor, já vi muito problema, mas vamos lá, deixa eu ler. "A proposta de colaborar com uma empresa onde a dor principal dele hoje é atender 12 clientes, onde ele não tem uma pessoa que supra a parte N1, N2.
+
+Ele conhece meu trabalho, confia e já viu de perto a minha dedicação e meu modus operandi.
+
+Acredito que esse é o ponto-chave onde posso tentar uma proposta que seja boa para ambas, pois inicialmente ele ofertou..." Cara, R$ 1.600,00 volto pro CLT.
+
+De novo. "Pra que eu possa suprir a necessidade da empresa dele, atendendo durante um certo horário, não sendo necessário dedicar 100%.
+
+Estou produzindo, visando também meu lado, porque, poxa, seria meio que uma empresa ajudando outra".
+
+É, assim, sendo bem sincero, não gosto desse modelo de negócio, já vi dar muito problema, porque por mais que você combine uma quantidade de horas, sempre vão querer extrapolar aquilo.
+
+E cara, aí você não vai querer atender, vai gerar aquele baita conflito.
+
+Não é o melhor dos cenários.
+
+Mas, poxa, é o que tem.
+
+Eu já achei o valor extremamente baixo, muito baixo.
+
+Com certeza, você conseguiria um cliente com valor muito maior e um cliente seu.
+
+Então eu prefiro gastar essa energia e tempo, a ir atrás do meu próprio cliente do que trabalhar pros outros nesse modelo.
+
+Eu preferiria muito mais ir atrás desse gastar esse tempo.
+
+Deixa eu colocar o link aqui, que o link saiu todo torto.
+
+Gastar esse tempo que você gastaria pra ajudar ele a atender esse cliente, eu preferiria muito mais pegar esse tempo e ir atrás do meu próprio cliente, pagando mais do que isso.
+
+Pronto, agora tá certo o link da equipe no WhatsApp.
+
+Então tá aí, gente, essa oportunidade pra quem quer que a gente ajude, não só com essa parte do posicionamento que vocês viram a importância hoje, mas também com os outros pilares.
+
+Não adianta você ter posicionamento e não ter cliente.
+
+Não adianta você conseguir chegar ao cliente, chega na hora do vamos ver de fechar, não fecha.
+
+Então aqui é pra gente fechar essa trinca: posicionamento, pipeline framework e o fechamento.
+
+Então a gente vai ver esses três pilares nessa mentoria de três dias.
+
+Investimento, fechando até hoje às 23h59, cupom de desconto de R$ 2.000 ativo, R$ 997 e esse valor pode ser parcelado em 12 vezes no cartão de crédito No boleto ou no Pix.
+
+Está aí o link da equipe no WhatsApp, quem tiver interesse, é só mandar mensagem no WhatsApp, falar que estava aqui na aula, que o pessoal gera o link pra vocês.
+
+E também essa oportunidade, aproveitando, que o nosso amigo aqui perguntou, sobre a imersão focada em cloud, que vai começar hoje.
+
+Então hoje, às 21h, a gente começa a nossa imersão Azure para consultores de TI.
+
+Então quem tiver interesse, pode mandar mensagem pra equipe no WhatsApp também, falar que estava aqui na aula, que tem interesse na imersão, pra que vocês possam dar esses próximos passos.
+
+Maravilha, turma.
+
+Entendido?
+
+Alguém tem alguma dúvida?
+
+Alguém quer fazer mais alguma pergunta?
+
+Só ver um negocinho aqui.
+
+Alguém quer fazer mais alguma pergunta?
+
+Alguém quer tirar mais alguma dúvida?
+
+Alguém quer pedir alguma orientação?
+
+Quem curtiu a aula, dá um 10 aí no chat, pra ver se vocês gostaram desse conteúdo, dessa aula.
+
+Gente, levem a sério o posicionamento de vocês.
+
+Levem a sério o posicionamento de vocês.
+
+Como eu falei, cara, posicionamento é tão importante que hoje, só pelo posicionamento, eu sei se o consultor trabalha muito e ganha pouco, ou se ele trabalha pouco e ganha muito.
+
+Só pelo posicionamento.
+
+Então levem a sério o posicionamento de vocês.
+
+Tem que levar a sério.
+
+Fujam de posicionamento genérico, porque é difícil defender um posicionamento genérico, é difícil você falar pra uma empresa que você conhece de tudo.
+
+Não rola.
+
+Essa mentoria começa hoje.
+
+Opa, essa aqui começa hoje.
+
+Que mentoria?
+
+Mas não, esse programa começa hoje, não faz parte de nenhum outro grupo, nenhuma outra entrega nossa.
+
+Porque aqui a gente não está falando de assunto técnico, aqui a gente está falando de business, de conversas de empresários.
+
+Beleza?
+
+Mas quem já é aluno tem sempre os descontos.
+
+Então chama a equipe, se tiver interesse.
+
+Quanto maior o programa que o aluno participa, maior é o desconto dele.
+
+Então quem tem interesse e é aluno de outros programas, pode chamar a equipe no WhatsApp, pode falar: "Poxa, eu sou aluno desse programa aqui.
+
+Tem algum desconto pra participar dessa imersão?" Então quem já acompanha há mais tempo sabe que a gente gosta de privilegiar os nossos alunos.
+
+Beleza, turma?
+
+Combinados?
+
+Então está aí a oportunidade na mesa pra quem quer dar os próximos passos.
+
+Chama a equipe no WhatsApp, conversa com a Gabi pra que vocês possam dar esses próximos passos e a gente possa começar a criar essa consultoria que vai faturar esses 30 mil por mês, que pra mim é o mínimo pra ser um empresário na área de tecnologia, porque menos do que 30 mil você consegue como CLT.
+
+Beleza?
+
+Combinado?
+
+Então é isso aí, turma.
+
+Vamos ficando por aqui.
+
+Um grande abraço pra todos, uma boa semana pra vocês, fiquem com Deus e até a próxima.
+
+Valeu, pessoal.

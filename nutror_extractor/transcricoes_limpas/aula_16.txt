@@ -1,0 +1,1171 @@
+Fala, turma!
+
+Bom dia.
+
+E aí, turma, tudo certo?
+
+Deixa eu apagar aqui.
+
+E aí, tudo certo com vocês?
+
+Bora lá pra nossa aula?
+
+Show de bola.
+
+Todo mundo ouvindo bem, todo mundo vendo aqui o mapa mental?
+
+Show de bola.
+
+Muito bom.
+
+Vamos lá, turma.
+
+Hoje eu quero falar um pouco sobre cinco serviços que têm uma demanda muito alta no mercado.
+
+Ou seja, acabam sendo serviços mais fáceis de vender pela demanda que a gente tem no mercado.
+
+Existem estratégias, eu quero mostrar uma dessas estratégias também pra vocês aqui, de como vender esse serviço de uma maneira mais fácil, mais rápida.
+
+São serviços que vocês vão ver que são bem específicos. "Poxa, mas pra entregar esses serviços com esses valores, eu preciso ser um especialista, um arquiteto cloud?" Não precisa, é claro que quanto maior o seu conhecimento em cloud, mais você vai conseguir extrair desses serviços.
+
+Mas são serviços que alguns conhecimentos um pouco mais pontuais já vão fazer com que vocês consigam ter esses primeiros resultados.
+
+Antes da gente começar, deixa eu perguntar aqui pra vocês.
+
+Vocês que são consultores, quem hoje, dentro do seu portfólio de serviço, já tem serviços voltados pra cloud?
+
+Digita o número um.
+
+Então hoje, dentro do que você oferece pro mercado, alguma das coisas que você oferece hoje já é voltada para ambiente cloud.
+
+Quem já tem isso no portfólio, digita o número um e quem não tem, digita o número dois.
+
+Só pra eu ver quem hoje já está nesse jogo cloud.
+
+Um um, dois, dois, dois.
+
+Dois, um, beleza, está dividido.
+
+Quem digitou dois, é um negócio que eu bato muito nessa tecla.
+
+A não ser que vocês sejam desenvolvedores, aí beleza, mas pra quem é de infraestrutura, é uma coisa que eu bato muito nessa tecla.
+
+Não adianta você querer ir na direção contrária do mercado.
+
+Toda vez que vocês forem na direção contrária do mercado, vocês sempre vão ter mais dificuldade, vocês sempre vão faturar menos.
+
+Então sempre que for possível, a gente precisa andar com as demandas.
+
+O que a gente oferece, como consultores, precisa andar de mãos dadas do que está em alta no mercado hoje.
+
+E essa parte de cloud está muito em alta hoje.
+
+Mas como eu vou mostrar pra vocês, não precisa ser nenhum especialista certificado pra poder oferecer esses tipos de serviço.
+
+Mas é algo que vocês precisam ficar antenados.
+
+Não adianta querer oferecer o que o mercado não quer comprar.
+
+Eu preciso oferecer o que o mercado, o que as empresas estão precisando agora.
+
+E essa parte de cloud é algo que vem crescendo bastante e a tendência é que continue crescendo nos próximos anos ainda mais.
+
+Maravilha?
+
+Então vamos lá.
+
+Vou ser bem prático aqui, pra gente falar desses cinco serviços que estão em alta no mercado e que você deveria começar a oferecer isso pras empresas imediatamente.
+
+Primeiro serviço é migração de on-premises para cloud.
+
+E pegar o exemplo do Azure.
+
+Aqui, é claro que depende muito do tamanho da empresa.
+
+Então se a gente pegar, por exemplo, o nosso foco, que às vezes fica muito em pequenas e médias empresas, eu estou falando aqui de projetinho, que geralmente vai de 5K a 50K.
+
+Então estou falando que, às vezes, o único projeto que você fecha com essa demanda, é mais do que você fatura o mês todo com outros projetos.
+
+Então hoje, existe uma demanda muito forte no mercado, porque as empresas já entenderam, as empresas já sabem que cloud não é futuro, cloud é presente, então quem não agir agora fica pra trás.
+
+Então as empresas estão hoje com essa demanda no mercado muito forte pra olhar para os seus ambientes on-premises e ver o que vale a pena migrar pra nuvem.
+
+Só que aqui tem um detalhe importante nesse tipo de serviço.
+
+Esse tipo de serviço é um serviço muito fácil de vender.
+
+Só que às vezes, por ter muita gente hoje, muitos consultores hoje, dificuldade de vender serviço de migração cloud, porque eles estão apresentando esse serviço da maneira errada.
+
+Primeiro, hoje, o que a maioria faz?
+
+O que a maioria faz quando a gente fala de migração de cloud?
+
+Deixa eu só arrumar meu mouse aqui.
+
+A maioria, quando fala de migração pra cloud, está falando de migração de VMs.
+
+Isso aqui não é migração pra cloud.
+
+Você está fazendo com que a cloud vire um colocation da vida.
+
+E por que isso, na maioria das vezes, não vai dar certo?
+
+O consultor não vai conseguir fechar o projeto?
+
+Porque isso aqui fica caro.
+
+Tirar as máquinas virtuais do ambiente on-premises e levar as máquinas virtuais pra cloud fica caro, é mais caro do que manter as máquinas virtuais no ambiente on-premises.
+
+Só que a maioria dos consultores, quando a gente fala de migração de on-premises pra cloud, vão muito com essa visão de migrar máquinas virtuais.
+
+Só que ele acaba esbarrando na hora de apresentar os valores de quanto aquele ambiente vai ficar na cloud pro cliente.
+
+O cliente olha aquele valor e vê que não faz sentido: "Poxa, esse valor faz mais sentido eu continuar no on-premises".
+
+O que funciona hoje para que você consiga vender projetos de migração on-premises para o Azure?
+
+Aqui é o que a minoria faz.
+
+E essa minoria que faz isso está ganhando muito dinheiro.
+
+Que é o quê?
+
+Olhar para o on-premises.
+
+Aí a palavra-chave é essa, e ver o que faz sentido migrar pra cloud.
+
+Então não é simplesmente chegar no cliente e prometer que você vai migrar tudo, porque se o ambiente do cliente for um ambiente focado em muitas aplicações legadas, que a gente não consegue migrar, levar essas aplicações pra rodar como serviço PaaS na nuvem, se eu for com essa visão de migrar máquinas virtuais, 99% das vezes eu não vou conseguir fechar o projeto, eu vou esbarrar no custo que isso vai ter para a empresa dentro da cloud.
+
+Então o que eu tenho que fazer?
+
+Como que eu tenho que vender esse projeto de migração de cloud?
+
+Eu tenho que vender pro cliente que eu vou olhar pro ambiente dele e dali eu vou mostrar o que vale a pena migrar pra cloud.
+
+O que e por quê, é claro.
+
+Então não vou prometer pro cliente que eu vou migrar todo o ambiente dele.
+
+Eu vou prometer pro cliente o que vale a pena migrar, o porquê, quais serão os ganhos, quais serão os benefícios de migrar aqueles recursos pra cloud.
+
+Então ao invés de eu chegar pra ele e falar: "Cara, você tem aí 100 máquinas virtuais, eu vou migrar suas 100 máquinas virtuais pra nuvem".
+
+Não, você tem 100 máquinas virtuais, eu vou olhar o que rodam nessas máquinas virtuais e com base nisso eu vou verificar, analisar, validar o que rodam nessas máquinas virtuais e o que dá pra gente levar pra nuvem, pra gente ter uma economia de custo, pra gente ter uma resiliência maior, pra gente ter uma alta disponibilidade maior.
+
+Então é assim que vende esses projetos de migração on-premises pra cloud.
+
+Nunca falando que você vai migrar tudo, porque muitas coisas não têm como migrar pra cloud, principalmente por questões de custo.
+
+Só que muitos consultores, com falta dessa visão, acabam colocando tudo no mesmo bolo e quando chega na parte do custo, esbarra ali no custo e vê que não tem como seguir com esse projeto, porque o custo pra manter tudo isso na cloud acaba sendo muito alto.
+
+Outra coisa que é extremamente importante, pessoal, aqui nessa visão, quando vocês forem vender esse tipo de projeto de migração de on-premises ali pro Azure, por exemplo, muitas vezes vocês vão precisar mostrar pros clientes por que aquilo é importante.
+
+Porque hoje tem muito cliente aí, infelizmente, por conta de alguns consultores ruins, tem muitos clientes hoje que têm uma visão de que cloud é caro ainda.
+
+Então às vezes pra eu convencer um cliente a migrar o seu ambiente on-premises pra nuvem, eu preciso quebrar esse paradigma na mente dele que a cloud é caro.
+
+Então muitas vezes, muitos projetos que vocês vão precisar vender, vocês vão ter muito mais facilidade se primeiro vocês quebrarem algumas objeções que os clientes podem ter, e migração de on-premises pra Azure é um desses paradigmas.
+
+Vocês vão precisar quebrar esse paradigma pra que vocês consigam vender esse tipo de projeto.
+
+Então, por exemplo, hoje eu me posiciono no mercado como uma consultoria, que ajuda as empresas a migrar pra cloud, com custo mais barato do que o on-premises.
+
+Então o custo acaba sendo mais barato do que o on-premises.
+
+E eles vão ter mais modernidade, mais resiliência, mais segurança, mais alta disponibilidade dos seus serviços e das aplicações Só que a partir do momento que eu vou com um posicionamento desse pro mercado, eu estou quebrando um paradigma.
+
+Eu estou falando: "Cara, eu vou migrar o seu ambiente e você vai pagar mais barato do que você paga no on-premises".
+
+Eu estou quebrando o paradigma de que a nuvem é cara.
+
+Só que pra isso, eu preciso educar essa minha audiência, eu preciso mostrar, eu preciso provar que a cloud não é cara, ela é mal utilizada.
+
+Então muitas vezes vocês não conseguem vender projetos, porque está faltando vocês quebrarem algumas objeções dos clientes.
+
+E quebrar essas objeções, às vezes, é fazer uma aula, às vezes, é fazer um evento, às vezes, é liberar um material gratuito, um vídeo gravado, falando do porquê aquilo que você vende, aquilo que você promete, por que aquilo é importante pras empresas?
+
+Então muitas vezes vocês não conseguem vender e têm dificuldade de atrair cliente, porque está faltando essa peça do quebra-cabeça.
+
+Está faltando essa peça de você quebrar algumas objeções, educar mais o cliente que vocês querem atender, educar no contexto de: "Cara, o que eu vendo é importante, o que eu vendo pode beneficiar a sua empresa".
+
+Migração do on-premises pro Azure é um exemplo clássico disso.
+
+Se eu simplesmente chegar pras empresas e falar que eu vendo migração on-premises pro Azure, se eu fizesse só isso, eu ia ter o resultado muito menor que eu tenho hoje com esse tipo de projeto.
+
+Muito menor.
+
+Mas eu sei, e vocês precisam cada vez mais terem essas habilidades, de entender o que passa na mente do público-alvo, das empresas, dos tomadores de decisões que vocês querem oferecer o serviço de vocês.
+
+Então eu sei já, que no mercado, quando eu falo de migração de on-premises pro Azure, eu sei que as pessoas estão extremamente céticas quanto a isso, porque já passaram "n" consultores e na hora do vamos ver, o projeto sempre fica caro.
+
+Então eu sei que na mente dessas pessoas, eles têm ali muito enraizado que cloud é caro, mas eu sei que não é.
+
+O que eu preciso fazer, então?
+
+Preciso provar que não é.
+
+E muitas vezes esse provar, se eu não conseguir provar, mais difícil ainda vai ser eu conseguir ter uma reunião com o cliente pra apresentar o meu projeto, pra apresentar a minha proposta.
+
+Isso aqui acontece direto com a gente.
+
+Mas pensa assim: pegando aqui só esse contexto de migração do on-premises, já vou falar dos outros quatros aqui, mas pensa assim, cara, se eu quero vender um projeto de migração de on-premises pro Azure, e hoje esse cliente acha que a nuvem é cara, ele não vai querer fazer uma reunião pra eu mostrar o meu projeto, o meu serviço de migração de on-premises pra cloud.
+
+Então eu preciso dar um passo pra trás.
+
+Então é muito comum, em projetos que a gente fecha desse tipo de migração, os clientes falarem pra gente: "Ó, cara, o que fez eu tomar a decisão foi aquele material que você enviou.
+
+Eu tinha a visão que a nuvem era cara, mas eu li aquele material que você enviou e eu entendi que a nuvem não é cara, ela é mal utilizada.
+
+Então por isso que eu estou chamando vocês aqui pra entender mais sobre esse serviço".
+
+Então alguns serviços vão ser mais difíceis a gente vender de forma direta do que outros serviços.
+
+Tem um guru aí do marketing digital, pessoal que faz faculdade de marketing estuda muito sobre ele, que é o Kotler.
+
+E ele fala um negócio que é bem interessante.
+
+Ele fala que o que está na cabeça do seu cliente é a verdade.
+
+Então se o cliente acha que a nuvem é cara, eu não posso ficar batendo de frente com ele, eu tenho que ir educando ele, mostrando pra ele que não é bem assim.
+
+Então vocês vão se deparar com esse tipo de cenário, também, em outros tipos de serviço, que antes de vender, vocês vão precisar quebrar um pouco dessas objeções pra depois oferecer.
+
+Isso é uma habilidade que todo consultor de TI tem que ter.
+
+Se ele não tiver essa habilidade de quebrar objeções, ele sempre vai ter o faturamento menor.
+
+Sempre.
+
+Porque às vezes é um detalhe. Às vezes o cliente não fechou a proposta por um detalhe, que não estava na proposta, que você não falou, só que ele também não perguntou.
+
+Ele levou aquilo como uma verdade e simplesmente não fechou o projeto com você.
+
+Então esse projeto, migração on-premises pra cloud, é um projeto que dá um baita lucro pra empresa. 10 K, 50 K, falando de pequena empresa.
+
+A gente já fechou projeto de migração de cloud de mais de 200 K, pra empresas maiores.
+
+Agora pensa: "Poxa, hoje tem um monte de empresa atrás desse tipo de serviço.
+
+Como que eu faço pra chegar nessas empresas?
+
+Primeiro, preciso quebrar essa objeção que a nuvem é cara.
+
+Então primeiro eu preciso pensar: o que eu posso Mostrar pra esses clientes, pra quebrar esse paradigma de que nuvem é caro.
+
+O que eu posso apresentar pra ele, pra falar: "Cara, eu não migro sua máquina virtual, eu vou olhar pro seu ambiente, eu vou ver o que faz sentido migrar pra cloud".
+
+Porque não é tudo que você vai migrar, porque o custo vai ficar elevado.
+
+Quando a gente começa a mostrar isso aqui na nossa linha de argumentação, fica muito mais fácil fechar esse tipo de projeto e ter um bom resultado.
+
+Que nem eu falei pra vocês, pra muitos de vocês, fechar um projeto de 50 mil por mês, poxa, já é o auge, já estava suficiente.
+
+Caramba, se eu conseguisse fechar um projeto de migração on premises do Azure, todo mês um projeto de 50 mil, não precisaria de mais nada.
+
+Ou às vezes, poxa, eu preciso fechar aqui dois, três projetos de 10 mil por mês, cara, pra mim já estava suficiente.
+
+Agora, olha o tanto de empresa que a gente tem.
+
+Conseguir isso não é difícil, mas é um tipo de projeto que eu primeiro preciso preparar o cliente pra depois oferecer, porque se eu tentar oferecer de novo, a objeção dele vai ser muito alta, porque consultores ruins acabaram mostrando pra ele uma visão diferente do que a cloud é.
+
+Maravilha?
+
+Então esse é o projeto um que todos vocês precisam ter no portfólio, porque é o que o mercado está precisando.
+
+Segundo, também vai muito com essa parte de migração e integração, que é a parte de identidade híbrida.
+
+Aqui eu estou falando do Active Directory, mais o Entra ID.
+
+Aqui a gente está falando de um projeto que geralmente fica na faixa dos 5 mil até uns 30 mil.
+
+Então aqui, de novo, é leitura de mercado.
+
+Hoje, 95% das empresas estão num cenário que a gente chama de híbrido.
+
+O que é o híbrido?
+
+As empresas continuam tendo coisas no on premises, só que também estão rodando workloads na nuvem.
+
+Então elas estão nesse cenário híbrido.
+
+Elas não são nem 100% on premises, nem 100% nuvem.
+
+Elas estão nesse ambiente híbrido.
+
+E hoje, dessas 95% dessas empresas que estão vivendo nesse cenário híbrido, 99% dessas empresas têm essa integração, ou vão ter essa integração de AD, mas Entra ID.
+
+Primeiro, porque o AD é um serviço de diretório que praticamente todas as empresas utilizam.
+
+Isso é até um motivo do porquê o Azure, nos últimos anos, vem crescendo mais do que os outros provedores de cloud.
+
+É muito por conta do AD.
+
+Não é por conta dos serviços do Azure, é muito por conta do AD.
+
+Porque os serviços hoje em cloud acabam sendo muito parecidos nos provedores, acabam trabalhando de uma maneira muito parecida, às vezes com os custos também muito parecidos.
+
+Só que hoje, muitas empresas acabam tomando a decisão de ir para o Azure, ao invés de outros provedores, pela facilidade da integração de identidade.
+
+É muito mais fácil integrar o AD com o Entra ID do que o AD com outra solução, que não seja uma solução Microsoft.
+
+Então isso acaba fazendo com que a Microsoft, com o Azure, acabe ganhando terreno em relação aos outros provedores de nuvem.
+
+Então hoje, quando a gente fala da empresa que está saindo do on premises, indo pra nuvem, que sabe que vão precisar manter alguns serviços ainda no on premises, porque nem tudo é factível, nem tudo é vantajoso migrar pra cloud.
+
+Então quando a gente vem com essa visão, esse cenário, esse tipo de projeto, de fazer essa construção desse ambiente híbrido com o AD e o Entra ID, acaba sendo algo essencial e praticamente todas as empresas vão precisar disso em algum momento.
+
+Então esse é um tipo de serviço também muito utilizado hoje.
+
+Só que diferente da migração on premises, é que eu não preciso convencer cliente, não preciso fazer nada, porque dependendo se eu for utilizar o Entra ID só pra autenticação, não vou utilizar nenhum recurso avançado, eu estou falando de um serviço gratuito.
+
+Eu não pago pelo Entra ID.
+
+Eu vou pagar se eu precisar de serviços mais avançados, aí eu vou precisar das licenças e tudo mais.
+
+Mas pra muitas empresas, principalmente pequenas e médias empresas, muitas vezes o serviço gratuito é suficiente, ter autenticação é suficiente, não vai precisar nem de licenciamento.
+
+Então isso traz uma barreira muito baixa pra empresa construir esse ambiente híbrido.
+
+E esse ambiente híbrido, em um cenário onde eu tenho o on premises e o Azure, principalmente, esse cenário híbrido vai ser extremamente vantajoso pra operação das empresas Porque é muito ruim, apesar de ainda ter algumas empresas nesse cenário, a gente ter isso isolado.
+
+Eu tenho o AD e eu tenho o Entra ID, só que são totalmente isolados.
+
+Por quê?
+
+Porque o cliente, quando precisa acessar uma aplicação que está na on-premise, ele tem que usar uma credencial.
+
+Quando precisa acessar um recurso que está na nuvem, ele precisa de uma credencial diferente.
+
+Então isso, para a experiência do usuário, é muito ruim.
+
+Só que a boa notícia é que isso é muito fácil e muito barato de resolver.
+
+Configurando essa identidade híbrida com o AD e o Entra ID.
+
+Aqui a gente está falando, basicamente, de fazer a configuração do Entra Connect Sync, para eu fazer o sincronismo dos objetos do meu AD para o Entra ID.
+
+Então envolve a configuração de um serviço.
+
+Esse é um tipo de projeto, principalmente quem já me acompanha há mais tempo, já deve ter ouvido eu falar várias e várias vezes sobre essa questão: "gente, não cobrem por hora, cobrem por resultados.
+
+Não caiam nessa de ficar cobrando por hora, porque dependendo do que você vai fazer, é rápido, e para você justificar que aquilo que foi rápido é caro, é mais difícil.
+
+O Entra ID é um cenário perfeito para isso.
+
+Isso aqui é independente do tamanho da empresa.
+
+O Entra ID, para você configurar ele, o Entra Connect Sync, desde fazer um planejamento, ver o que vai migrar, você faz isso em quatro horas.
+
+Pensa só: "poxa, eu vou fazer o serviço em quatro horas".
+
+Presta atenção.
+
+Vou até colocar um valor alto.
+
+Eu tenho certeza que vocês que cobram por hora, cobram muito menos do que esse valor, mas pensa assim: "eu vou cobrar R$ 700 a hora dessa empresa.
+
+Então eu vou ter um faturamento de R$ 2.800.
+
+Na boa, R$ 2.800 por um projeto de integração de um cenário híbrido que vai trazer uma baita vantagem para a empresa, você acha isso aqui um valor justo?
+
+Esquece, Narciso, esquece valor hora.
+
+Toda vez que vocês cobrarem valor hora, vocês vão quebrar a cabeça, vocês vão cair do cavalo.
+
+Primeiro, se você chegar para um cliente sem nenhuma autoridade e falar que sua hora é R$ 700, já era, ele nunca mais vai nem te chamar.
+
+Nunca mais vai te chamar.
+
+Agora, se você chega para ele e fala: "eu estou te entregando isso, isso vai resolver esse, esse e esse problema.
+
+Isso vai resolver isso, isso e isso, vai trazer esse, esse e esse benefício, e eu vou cobrar o projeto, esquece quantas horas eu vou utilizar, eu vou cobrar um projeto aqui de R$ 15 mil".
+
+Pronto.
+
+Não interessa quantas horas eu vou gastar, eu estou te falando que eu vou te entregar um projeto, e o valor do meu projeto para eu te entregar esses benefícios, para eu te entregar isso, que a sua empresa vai ter depois dessa implementação, é R$ 15 mil.
+
+Agora fala para mim, gente, se eu pegar R$ 15 mil, dividir por quatro horas, eu estou falando de R$ 3.750 a hora.
+
+Que empresa vai pagar R$ 3.750 por hora de um consultor?
+
+Que empresa?
+
+Nenhuma empresa vai te pagar isso.
+
+Agora eu posso te afirmar com 100% de certeza: se você mostrar os benefícios, mostrar por que aquilo é importante para a empresa, mostrar o que a empresa vai ganhar e cobrar R$ 15 mil, ela não vai achar caro.
+
+Por isso que eu falo, gente, não cobrem por hora.
+
+Porque cobrar por hora, vocês só vão conseguir ver vantagem em serviços que dependam de muitas horas.
+
+Só que nem sempre é assim. Às vezes, o que você vai entregar para a empresa vai gerar um baita resultado, só que você vai entregar muito rápido.
+
+E se você cobrar por hora, você vai deixar muito dinheiro na mesa.
+
+Gravem isso.
+
+Como que eu cobro um serviço?
+
+Gente, quanto mais resultado, mais impacto o seu serviço gerar, mais caro vai ser.
+
+Simples assim.
+
+E às vezes, muitos de vocês acabam tendo dificuldade para colocar preço, porque nem vocês sabem o impacto do que vai acontecer na empresa com o serviço que vocês vendem. "Ah, eu faço isso para as empresas." Aí eu pergunto: "beleza, mas me explica aí no detalhe, qual é o benefício?
+
+O que isso vai gerar de resultado para a empresa?
+
+Qual é o impacto?" A maioria não sabe responder Agora, como eu vou cobrar por isso, se nem eu sei o que está gerando pra empresa?
+
+Porque lembra, o meu serviço, eu preciso colocar uma roupagem nele, independente do serviço.
+
+Eu preciso colocar uma roupagem nele, pra mostrar o que ele vai gerar de impacto, o que ele vai gerar de resultado.
+
+Senão sempre vou cobrar menos e sempre vou ter mais dificuldade de fechar.
+
+Eu tenho certeza que se vocês forem no mesmo cliente que eu, chegar no cliente e falar: "É R$ 3.750 a minha hora aqui pra fazer essa integração do AD com o Entra ID.
+
+Eu vou usar quatro horas, vai ficar R$ 15 mil".
+
+Eu tenho certeza que o cliente vai falar não, e eu tenho certeza que quando eu chegar nele e falar o mesmo valor, ele vai fechar sem pedir desconto, sem fazer nada.
+
+Porque eu não estou indo em cima de hora, eu estou indo em cima de impacto, resultado, o que eu estou gerando de benefício pra empresa.
+
+Então não caiam nessa de cobrar por hora, porque não adianta.
+
+Não adianta: "Ah, mas então eu vou começar a cobrar por hora só quando for algo que vai ter muitas horas, quando não for, não".
+
+Você vai acabar te queimando no mercado.
+
+Cobra por resultado.
+
+Porque vocês vão pegar isso, a gente pega isso constantemente. Às vezes, um projeto de quatro horas vai me gerar um projeto de R$ 15 mil.
+
+E às vezes, um projeto de 20 horas vai me gerar um resultado de 10 mil. "Mas como assim, um projeto menor, que é mais rápido, é mais caro do que um projeto maior?" Impacto, resultado.
+
+Por que eu consigo fechar tantos projetos?
+
+Por que todos os consultores que a gente ajuda, a gente consegue fechar projetos pra eles?
+
+Porque eu não vou atrás do cliente simplesmente falando o que eu entrego, o que os consultores que a gente ajuda entregam.
+
+Não, eu vou mostrando que os nossos serviços geram impacto, os nossos serviços geram resultado.
+
+E é isso que vai fazer com que a oferta do serviço de vocês chegue num patamar que a gente fala de uma oferta irresistível.
+
+O cliente olha e fala, e é a mesma coisa que o outro ofereceu pra ele, às vezes mais barato.
+
+Só que o que a gente faz?
+
+Eu ponho uma roupagem no serviço.
+
+Pessoal, enquanto vocês não entenderem que se vocês não forem diferente, vocês vão continuar na mesma, os resultados sempre vão ficar mais longe.
+
+Você precisa ser diferente.
+
+Por que eu me diferencio do mercado de outros consultores?
+
+Cara, eu falo de resultado, eu falo de impacto.
+
+Eu conheço o que o cliente está pensando.
+
+A maioria vai em coisas tecnológicas, a maioria vai em só entregar o serviço.
+
+Então eu me diferencio dessas consultorias de uma maneira diferente.
+
+Eu vou pra empresa e falo: "Esse meu serviço vai gerar esse impacto, vai gerar esse resultado pra sua empresa".
+
+Quando eu consigo mostrar isso de maneira clara, isso torna o que a gente fala de uma oferta irresistível.
+
+O cliente olha e fala: "Cara, não tem o porquê eu não fazer isso".
+
+Maravilha?
+
+Então primeiro, migração on-premises pro Azure.
+
+Segundo, identidade híbrida.
+
+Terceiro, aqui a gente vai pegar muito, e está cheio, aquelas empresas que ou estão nascendo cloud only, empresas que estão nascendo 100% em cloud, startup, novas empresas, ou empresas que estão já nesse cenário híbrido, e quando começam a subir algumas coisas, pensam na cloud primeiro.
+
+Então hoje é um movimento de mercado.
+
+Hoje, o mercado, a empresa, quando vai desenvolver alguma coisa, a primeira coisa que ela pensa é subir aquilo na cloud.
+
+Depois dessa avaliação, ela valida. "Cara, dá pra subir na cloud?
+
+Não dá.
+
+Agora eu vou pensar num on-premises".
+
+Então hoje, vender projetos que seja subir VMs.
+
+Dá pra subir VM a custo controlado na nuvem, desde que saiba fazer.
+
+Subir banco de dados PaaS na nuvem, aplicações web PaaS também.
+
+Isso aqui também está crescendo pra caramba, porque as empresas já estão com essa visão.
+
+Então lembra o que eu falei pra vocês.
+
+Gente, é um caminho sem volta.
+
+Cara, isso vocês já devem ter ouvido falar milhares de vezes, e não só comigo.
+
+Gente, nuvem não é futuro, é presente, a empresa já sabe.
+
+Quem não está na nuvem hoje, já sabe que em um momento vai, porque hoje não tem como a tecnologia, a área de TI, se manter competitiva e sustentável sem a cloud.
+
+Não tem como.
+
+Vista a inteligência artificial.
+
+Cara, não tem IA sem cloud hoje.
+
+Não tem como As empresas hoje estão nesse cenário: "Poxa, eu preciso subir alguma coisa nova.
+
+Deixa eu olhar pra nuvem, deixa eu ver primeiro se vale a pena subir esse serviço na nuvem.
+
+Se não vale a pena, eu vou subir on-premises".
+
+Então hoje, o consultor que vende esse tipo de serviço consegue ter duas abordagens diferentes.
+
+A primeira abordagem, ele consegue pegar a criação apenas dos workloads.
+
+A empresa vai: "Poxa, eu preciso subir uma máquina, preciso subir um banco, preciso subir uma aplicação PaaS na nuvem".
+
+Criação de workload.
+
+E a gente tem também a avaliação.
+
+A gente ajuda alguns consultores a atrair clientes, a conseguir mais clientes, a gente ajuda alguns deles, onde a principal fonte de renda deles é só nessa parte de avaliação.
+
+A principal fonte de renda da empresa é só ajudar as empresas a avaliar o que elas querem subir, se vale a pena subir na nuvem ou se vale a pena subir no on-premises.
+
+Só isso.
+
+E aqui, turma, a gente também está falando de projetos de 5K, geralmente projetos que chegam até 30K, dependendo do que e a quantidade do que a gente vai subir.
+
+Só que lembra o que eu falei pra vocês do impacto do resultado?
+
+Responde aí no chat, é só digitar um pra ficar mais fácil.
+
+Mas quem aqui já subiu uma VM na cloud?
+
+Digita o número um.
+
+Quem já no lab, não importa, não precisa ser no cliente, lab, qualquer coisa.
+
+Quem já subiu uma máquina virtual na cloud?
+
+Qualquer provedor também, não precisa ser o Azure.
+
+Digita o número um. "Já fui lá, já criei uma conta de teste, já fui lá, já subi uma máquina virtual na nuvem".
+
+Vários de vocês.
+
+Quem não subiu pelo menos uma máquina virtual na nuvem, gente, vocês estão muito atrasados, pelo amor de Deus.
+
+Beleza?
+
+Deixa eu fazer uma pergunta pra vocês.
+
+Mais uma.
+
+Quanto tempo, em média, leva pra subir uma máquina virtual no Azure?
+
+Então, em média, quanto tempo leva pra subir uma máquina virtual na cloud? "Eu preciso subir uma máquina virtual ali na cloud".
+
+Máximo 10 minutos, cinco minutos, cinco a 10 minutos.
+
+Maravilha.
+
+Pensa nisso.
+
+Vou colocar, porque assim, cinco, 10 minutos, a VM pronta ali só com o sistema operacional.
+
+Eu vou colocar quatro horas, pensando aqui, quatro horas, pensando na máquina virtual com uma aplicação.
+
+Se a gente pegar a média de quanto um consultor de TI cobra por hora, média, eu estou falando que o consultor de TI, na média, cobra R$ 300 a hora.
+
+Média, alguns, que pra mim é muitos, cobram menos até, e algumas minorias cobram um pouco mais.
+
+Então se eu falar de R$ 300 vezes quatro, eu estou falando de R$ 1200.
+
+Maravilha?
+
+Eu estou cobrando do meu cliente R$ 1200 pra subir uma máquina virtual.
+
+Agora imagina só, que essa é uma máquina virtual crítica.
+
+Essa é uma máquina virtual que vai hospedar uma aplicação web do cliente, que é crítica pro negócio.
+
+A parada dessa aplicação pode envolver prejuízos financeiros, prejuízos com a imagem da empresa.
+
+Aí a empresa vai lá, ao invés de subir uma máquina, ela sobe duas.
+
+Então ao invés de eu cobrar R$ 1200, eu cobrei R$ 2400.
+
+Aí eu olho pra dentro daquele serviço que está rodando dentro dessa máquina virtual, e eu vejo que aquela máquina virtual, o que roda dentro daquela máquina virtual, é um serviço que se parar, vai gerar pro meu cliente o valor que eu cobrei por hora da aplicação parada.
+
+Então, se a aplicação para, é igual prejuízo de R$ 2400 por hora Se eu chegar para esse cliente, as mesmas duas máquinas virtuais, com a argumentação certa, falando o prejuízo que aquela aplicação fora vai ocasionar, a configuração que eu vou fazer, o HA que eu vou subir.
+
+Se eu chegar para esse cliente e falar que eu vou cobrar R$ 15 mil para subir duas máquinas, ele não vai achar caro.
+
+Por que, gente?
+
+Eu estou mostrando para ele o impacto e o resultado que o meu serviço vai gerar.
+
+Não interessa que é duas máquinas configuradas em cluster, seja lá o que for, a gente for configurar para ter essa alta disponibilidade.
+
+O que eu estou vendendo para ele é que ele não vai ter um prejuízo de R$ 2.400 por hora, porque a aplicação vai ficar parada.
+
+Aí a gente aqui pode fazer aquela mesma conta.
+
+Se eu chegasse para o cliente e falasse que eu vou entregar isso em oito horas, 15 mil dividido por oito horas, se eu chegar para o meu cliente e falar que eu vou cobrar 1875 a hora, ele não vai fechar.
+
+Por mais que eu mostre o impacto e o resultado do que aquilo vai gerar.
+
+Cara, R$ 1875 por hora!
+
+Você está louco?
+
+Mas se eu chego para ele e falo: "Não, é R$ 15 mil para eu entregar isso pronto.
+
+Você não vai ter mais esse tipo de problema".
+
+Vocês estão entendendo a diferença disso dentro de uma linha de argumentação?
+
+E o valor mensal que ele vai ter que pagar por essas máquinas?
+
+Como falar?
+
+Aí tem que falar, aí é o custo da cloud.
+
+Aqui eu estou falando só do serviço, eu não estou falando de custo, quanto que ele vai gastar com o ambiente cloud.
+
+A gente tem que levar isso para ele também.
+
+Aqui eu estou falando só do serviço.
+
+Maravilha?
+
+Quarto item.
+
+Nossa, aqui é de novo, a gente tem mais de um consultor que a gente ajuda só com isso, ele vende só isso.
+
+Backup e Disaster Recovery Cloud.
+
+Cara, isso aqui está crescendo demais.
+
+E aqui eu estou falando de projetos que muitas vezes começam ali, porque lembra, cara, quando que eu vou cobrar mais?
+
+Eu vou cobrar mais quando o resultado do impacto for grande, quando eu vou para o impacto de Disaster Recovery, ali eu vou conseguir ganhar dinheiro.
+
+Aqui eu posso colocar até projeto de cinco fácil, porque aqui eu estou batendo na ferida.
+
+Eu falo: "Cara, seu negócio pode parar, simplesmente, chegar um dia não ter mais nada.
+
+Porque você não tem uma solução de DR".
+
+E a cloud, antigamente, DR era para grandes empresas.
+
+Por quê?
+
+Antigamente, para eu ter DR, envolvia a criação de um novo data center para a empresa.
+
+E muitas vezes, o ideal, data center longe um do outro para evitar alguma tragédia natural, alguma coisa nesse sentido, furacão, alagamento, enfim.
+
+A gente tem exemplo clássico, as Torres Gêmeas.
+
+Tinha empresa que o DR era a outra torre.
+
+Caiu as duas, perdeu tudo.
+
+Então isso aqui é uma dor muito forte que a gente pode explorar, por isso que a gente consegue cobrar tão caro.
+
+E a grande vantagem disso aqui é que a cloud tornou possível para pequenas empresas terem DR.
+
+Então até a pequena empresa hoje pode pensar em DR sem um custo extremamente grande.
+
+Era, não, ainda tem empresas que ainda estão nesse modelo, mas o que as empresas tinham que desembolsar isso no passado.
+
+Construir um data center não é barato, é caro.
+
+Só que agora eu tornar a cloud como meu data center de DR é muito mais barato, porque eu não preciso me preocupar em construir um data center, eu vou pagar pelo recurso que eu utilizo.
+
+E se a empresa utiliza o DR da maneira correta, lembra, a cloud eu pago conforme eu uso.
+
+Se eu mantenho o meu DR na cloud e eu não uso, eu não pago quase nada.
+
+Então hoje a cloud tornou possível que até as empresas pequenas tenham DR.
+
+Aí aqui um ponto importante.
+
+Gente, eu espero de verdade que vocês estejam compreendendo isso, porque isso vira jogo.
+
+Porque quando eu vou falar de Disaster Recovery, o que as empresas pequenas e médias têm em mente?
+
+É caro, não dá, é só para grande empresa.
+
+A mesma coisa aqui no primeiro serviço que eu mostrei, a migração do on-premises para o Azure.
+
+Não, nuvem é caro.
+
+Aqui é a mesma coisa, não, DR é caro.
+
+Então aqui é um serviço que muitas vezes eu preciso mostrar para o cliente antes de vender, que Disaster Recovery não é caro na cloud.
+
+Não é caro Então aqui é outro tipo de serviço.
+
+Esse serviço aqui, gente, se eu fosse começar hoje, "eu quero começar hoje oferecer serviços de cloud, eu preciso aprender, no que eu devo concentrar?
+
+Porque cloud é gigantesco.
+
+Não quero ficar um ano, dois anos aprendendo cloud pra depois oferecer pras empresas, eu quero começar a oferecer hoje.
+
+O que eu ofereço pra que eu corra atrás desse conhecimento mais rápido, sem precisar aprender um todo?" O top dois, o top um é o item cinco.
+
+O top dois, com certeza, que eu faria, é o Disaster Recovery, porque é o que eu vou ter o maior lucro de todos.
+
+Porque é um serviço que eu não preciso ser um gênio em dar roupagem pra minha oferta pra mostrar o impacto, o resultado que vai gerar, porque Disaster Recovery, o próprio nome já mostra isso.
+
+A única coisa que eu preciso aqui é mostrar pro cliente que DR em cloud não é caro, que até pra pequena empresa, isso é possível a um custo extremamente baixo.
+
+Então, com certeza, esse aqui seria meu top dois.
+
+Seria meu top um, principalmente se eu quero gerar um lucro e um resultado mais rápido.
+
+Eu focaria só nisso aqui.
+
+E eu se começasse hoje, olhasse e falasse: "cara, eu preciso gerar caixa o mais rápido possível, eu preciso fechar projetos com valores maiores, o mais rápido possível".
+
+Eu não falaria de mais nada, eu falaria só de Disaster Recovery em ambiente cloud.
+
+Falaria só disso.
+
+Toda vez que eu fosse falar de serviço de TI que eu ofereço, Disaster Recovery Cloud.
+
+Só isso.
+
+Ia montar um posicionamento só em cima disso aqui.
+
+Por quê?
+
+Porque isso aqui eu não preciso mostrar o impacto, o resultado que o cliente vai ter, ele já sabe.
+
+O que eu preciso é mostrar pra ele que isso está acessível pra ele também, não é só pra grande empresa.
+
+E pra gente fechar o quinto serviço, que aqui seria o meu top um.
+
+É o que eu recomendo, todos vocês. "Cara, me dá uma recomendação aí, por onde eu começo?
+
+Você me falou de cinco serviços aqui, por onde eu começo?" Começa por esse aqui, gestão de custos, o famoso FinOps.
+
+Hoje, o mercado está no movimento.
+
+Só pra gente contextualizar.
+
+No passado, veio o advento cloud.
+
+Isso não aconteceu só no Brasil.
+
+Lá, principalmente nos Estados Unidos, eles estão mais avançados, mas eles sofreram essas mesmas ondas que a gente vem sofrendo no Brasil.
+
+Mas veio o advento cloud, as empresas: "poxa, cloud, vamos subir".
+
+Começou a subir coisa desordenada.
+
+Aí começou a chegar a conta no final do mês. "Está caro".
+
+Aí o que as empresas começaram a fazer? "Não, espera aí.
+
+Vamos voltar tudo.
+
+A gente migrou, só que está ficando muito caro, vamos voltar".
+
+Só que o que as empresas perceberam, só que infelizmente, isso não está chegando na cabeça das empresas pequenas, por isso que eu falei: "gente, tem coisa que a gente precisa doutrinar o mercado primeiro".
+
+Principalmente pequenas empresas, pequenas e médias.
+
+O que essas empresas começaram a entender?
+
+Elas falaram: "beleza, a gente voltou.
+
+Só que cloud não tem como, a gente vai ter que ir pra cloud".
+
+Aí a gente começou com o movimento que a gente tem até hoje, que é, inclusive, o que eu falei pra vocês vender aqui no primeiro serviço, que é: "beleza, a gente foi de qualquer jeito, ficou caro, a gente voltou.
+
+Deixa eu olhar para o que a gente tem no on premises agora e deixa eu ver o que vale a pena levar pra cloud".
+
+Então esse é o movimento que a gente está hoje, por isso que o cenário híbrido é o cenário da maioria das empresas, porque elas entenderam que nem tudo dá pra rodar em cloud.
+
+A não ser uma empresa que nasça 100% cloud, aí já nasceu com aplicações modernas, é outro assunto.
+
+Então elas entenderam isso.
+
+Aí, beleza, elas começaram: "ah, deixa eu olhar o que tem", e começaram a subir.
+
+Aí o que começou a acontecer? "Espera aí, a gente está na cloud, a gente não levou tudo, só que ainda continua caro.
+
+Mas a gente já fez o estudo que isso que a gente levou vale a pena rodar em cloud.
+
+O que a gente pode fazer pra que isso fique mais barato?" Entrou essa parte de gestão de custo.
+
+Vamos olhar pro nosso ambiente e deixa eu ver aqui dentro do meu ambiente, o que eu posso melhorar pra que o custo desses recursos fique menor.
+
+Existe um estudo do Gartner, que foi feito no começo desse ano, que ele fala que as empresas gastam de 40% a 60% a mais com cloud, sem necessidade nenhuma Sem necessidade nenhuma.
+
+Opa, 40% a 60%.
+
+Ou seja, as empresas começaram a olhar e falar: "Cara, espera aí, se a gente fazer essa gestão financeira da nossa cloud de uma maneira mais próxima, entendendo como que a gente está rodando os recursos, como que a gente está utilizando, eu consigo gerar uma baita economia".
+
+E hoje, cara, quando a gente fala de cloud, FinOps é um dos maiores temas, porque mexe no bolso da empresa.
+
+Por que eu falei que se eu começasse hoje, Disaster Recovery seria o meu top dois e gestão de custo FinOps seria o meu top um?
+
+Porque, cara, quando eu mexo no bolso da empresa e eu consigo mostrar isso, não tem por que a empresa não fechar.
+
+Vamos lá, gente, você pega uma empresa que gasta, vou colocar até baixo.
+
+Vou colocar aqui, 100 mil.
+
+Pega uma empresa que gasta 100 mil reais por mês com a cloud.
+
+Maravilha?
+
+Cem mil reais por mês.
+
+Aí vamos imaginar que você foi lá, fez um estudo e você viu que você consegue reduzir 20%.
+
+Esse é um valor totalmente factível.
+
+Muitas empresas é entre 40 e 60, que é o estudo, então colocando um valor abaixo.
+
+Então vamos imaginar que você chegou pra empresa, mostrou pra ela que você, dentro desses 100 mil que ela gasta por mês, você consegue gerar um saving de 20 mil reais.
+
+E vamos imaginar que pra gerar esse save de 20 mil reais, você cobra sete mil, pra executar, pra que esse save seja gerado.
+
+Gente, na mente do cara que está tomando a decisão e que vai te contratar, na mente dele, ele vai ter o quê? "Poxa, ainda tive um saving de 13 mil.
+
+Ou seja, eu não paguei nada pro consultor, ele me gerou um resultado que eu pagaria se ele não me ajudasse.
+
+Ele me cobrou um valor e esse valor ainda é inferior ao save total que ele gerou".
+
+Então isso aqui é o que eu falo de impacto e resultado.
+
+Só que aqui, como está muito explícito, eu não preciso convencer, não preciso fazer nada.
+
+Quando eu mostro isso aqui, o cara fala: "Não, faz agora.
+
+Cara, você vai me gerar um save de 20 mil, dos 20 mil, só tendo que te pagar sete?
+
+Ainda vou ficar com 13 mil?
+
+Manda bala".
+
+Manda bala.
+
+Por isso que eu falo, gente, hoje se eu fosse começar do zero e pudesse ter vários contratozinhos, projetozinhos com valor menor, cara, eu apontaria 100%, apostaria 100% das minhas fichas só em FinOps.
+
+E não é algo difícil de entregar e executar.
+
+Cara, eu apostaria todas as minhas fichas só aqui.
+
+Só aqui.
+
+Bônus.
+
+Tudo isso aqui que eu mostrei pra vocês, gente, tudo isso aqui, eu mostrei na entrega de um projeto, mas tudo isso aqui pode virar um contrato recorrente. "Vendi a migração do on premise pro Edge, eu fiz um projeto de 30 mil".
+
+Entregou o projeto?
+
+Oferece pra fazer a gestão desse ambiente.
+
+A empresa te paga um valor mensal pra você fazer a gestão. "Fiz aqui um projeto de identidade híbrida, cobrei 15 mil".
+
+No final, oferece um contrato pra tomar conta disso aqui.
+
+Então tudo isso aqui, além de eu ter esse primeiro ganho como um projeto, que vai ser mais fácil eu vender isso como um projeto do que tentar colocar isso como um contrato recorrente.
+
+Não, eu ganho primeiro como um projeto, faço uma bela entrega, mostro o resultado e o impacto que aquilo está gerando pra empresa e no final eu falo: "Cara, beleza, está aqui tudo redondo.
+
+E quem vai tomar conta pra você agora?" Então tudo isso aqui, além de você ganhar pontualmente na entrega do projeto, você ainda pode amarrar isso aqui com contrato mensal.
+
+E vocês vão ficar surpresos da conversão que vocês têm dum projeto, ganhou com projeto, se foi bem entregue, se foi bem feito, vocês vão ficar surpresos de quantas pessoas vão querer fechar um contrato mensal pra que você cuide de tudo.
+
+Porque você é um consultor diferente, você está levando uma visão diferente.
+
+Você está mostrando impacto, resultado, você não está falando só de tecnologia, você está falando a língua do negócio também Gente, FinOps, imagina só que você consegue, eu estou chutando baixo.
+
+Imagina que você pega e consegue, por mês, quatro clientes onde você consegue gerar um save e desse save você cobra R$ 5000.
+
+Eu estou falando de um faturamento de 20 mil.
+
+Imagina que desses 20 mil, desses quatro clientes, dois clientes fecham com vocês e você cobra ali R$ 3000 por mês.
+
+Então eu estou falando de uma receita recorrente de 6000, só nesse recorte.
+
+Agora imagine você concentrando todas suas forças no FinOps, por exemplo.
+
+Usar estratégias, ao invés de quatro clientes, conseguir 10, 20.
+
+Olha pra onde vai seu faturamento.
+
+Por isso que eu falo, eu começaria por aqui, porque de tudo que a gente tem aqui, esse é o mais fácil de vender.
+
+É o mais fácil de mostrar o valor e o impacto do que o serviço vai gerar pra empresa, porque aqui eu estou mexendo no financeiro.
+
+Quando eu mexo no financeiro, e eu mostro o resultado, as coisas acontecem.
+
+Deu pra entender, pessoal?
+
+Deu pra entender os cinco serviços? "Se você precisar escolher um, eu não conheço tudo de nuvem ainda, eu preciso escolher um.
+
+O que eu posso escolher pra ter um resultado mais rápido e que eu aprenda rápido, também?" FinOps.
+
+FinOps, você vai na veia.
+
+Agora, qual vai ser o grande problema de vocês?
+
+Qual vai ser o problema top um de vocês?
+
+Antes de eu falar desse problema, quem curtiu a aula até aqui, digita o número um aí pra eu saber se vocês gostaram, se está fazendo sentido pra vocês.
+
+Show de bola!
+
+Qual é o problema top um que vocês vão enfrentar?
+
+Primeiro, o conhecimento técnico. "Poxa, você está falando de FinOps, eu não sei como que eu vou gerar essa economia de FinOps." Então precisa dominar.
+
+E segundo, que pra mim é uma das partes mais importantes, não adianta você dominar FinOps, não saber argumentar, não saber chegar nas empresas, não saber oferecer esse serviço, mostrando um impacto real, mostrando um resultado real que você pode gerar pras empresas.
+
+Não vai adiantar nada.
+
+Agora, pra quem quer unir esses dois mundos, beleza, eu gostei de todos os serviços, eu gostaria de trabalhar com todos.
+
+Depois eu foco em um, mas gostaria de aprender todos, porque isso aqui vai ser muito importante pro meu portfólio.
+
+Só que eu não quero só aprender a fazer migração de on-premises, eu não quero aprender só a montar identidade híbrida, subir banco, aplicação, VM, backup, Disaster Recovery, eu não quero aprender só isso tecnicamente, eu quero faturar com isso.
+
+Porque vocês que são consultores, pra mim, se vocês estiverem aprendendo alguma coisa hoje, que vocês não consigam olhar como vocês vão faturar com isso, vocês estão no caminho errado.
+
+Consultor tem que aprender coisas que ele vai conseguir faturar.
+
+Então não adianta nada pra mim você aprender migração, identidade híbrida, VM, backup, gestão, se você não for faturar com isso.
+
+Então se você quer unir esses dois mundos, o conhecimento, porque faz parte, mas principalmente o faturamento, faturar com esse serviço, chegar nas empresas, colocar a roupagem certa no serviço de vocês pra que isso fique atrativo, se torne uma oferta irresistível pras empresas, a gente vai ter a nossa imersão de Azure focada pra consultores de TI.
+
+Essa imersão vai ser uma imersão de quatro semanas, com dois encontros ao vivo por semana.
+
+O que a gente vai ver nessas quatro semanas?
+
+Migração de on-premises pro Azure, técnico.
+
+Identidade híbrida, técnico.
+
+FinOps, técnico.
+
+Subir VMs, bancos de dados e aplicações no Azure, técnico.
+
+Backup e Disaster Recovery, técnico.
+
+Segurança, monitoramento, tudo técnico.
+
+E aqui entra a parte de como que eu faturo com esses serviços, que você vai aprender dentro dessa imersão também, como vender, precificar e fechar cada um desses serviços.
+
+Cada um desses serviços.
+
+E pra quem garantir a vaga agora, vai receber de bônus, primeiro: plano de ataque, do zero ao primeiro projeto em 30 dias.
+
+Então vocês vão receber um curso, esse curso vai estar gravado, ele vai te dar um roteiro completo de como você atrai o cliente Como que você argumenta com esse cliente e quebra objeções e como que você fecha o contrato com esse cliente.
+
+Então aqui é pra que você já tenha uma vitória mais rápida, aqui é aquela sprint. "Cara, eu quero começar com tudo já pra ter o meu primeiro resultado".
+
+Então vocês vão receber esse curso de bônus.
+
+Esse curso vai ser um curso gravado.
+
+Se a gente fosse vender individualmente esse curso, o valor seria de R$ 697,00, só que vocês vão receber de bônus.
+
+Segundo bônus, "A máquina de clientes: como atrair empresas sem ser vendedor".
+
+Você vai receber também um curso, onde você vai aprender a gerar esse sistema pra atrair os potenciais clientes de vocês.
+
+E a grande vantagem é que vocês não precisam fazer curso de vendas, não precisa ser um bom vendedor, nada disso.
+
+O sistema vai fazer tudo isso por vocês.
+
+O valor desse bônus, R$ 897,00, vocês vão receber de bônus, gratuitamente.
+
+Bônus três: "Kit fechamento da proposta ao contrato assinado".
+
+Aqui vocês vão receber alguns materiais com modelos de propostas, tabelas de precificação baseada em resultado, baseada em impacto, não em horas.
+
+Você vai receber também scripts pra roteiro de negociação, pra você nunca mais travar durante uma negociação de preço e nunca mais também ficar cobrando por hora.
+
+Esse bônus aqui, R$ 897,00, vocês vão levar na faixa.
+
+Quarto bônus: "A trilha Express Azure, comece mesmo partindo do zero".
+
+Aquilo que eu falei pra vocês.
+
+Gente, pra entregar esses serviços aqui, vocês não precisam ser nenhum expert em nuvem, vocês precisam aprender aqueles pedaços específicos.
+
+Só que é importante conhecer o Azure de uma maneira um pouco mais ampla.
+
+Então o que a gente vai entregar de bônus pra vocês?
+
+Um curso, esse curso vai ser liberado antes da imersão, pra que vocês já conheçam um pouco mais de Azure, pra quando a gente chegar nos nossos encontros e falar desses serviços que vocês vão faturar, pra que vocês já tenham minimamente um conhecimento de como funciona a infraestrutura dentro do Azure.
+
+Vocês vão receber esse treinamento de bônus aqui também.
+
+Esse treinamento tem o valor de R$ 497,00, vocês vão receber gratuitamente.
+
+E por fim, essa sala de suporte.
+
+Então depois que a gente acabar os 30 dias da imersão, vocês ainda vão ter 30 dias de suporte.
+
+O que vocês vão receber de suporte dentro dessa sala?
+
+Configuração: "Poxa, eu tô fazendo um projeto aqui de FinOps, não tô conseguindo achar onde eu economizo".
+
+A gente vai ajudar.
+
+Negociação: "Cara, o cliente não responde.
+
+Mandei follow-up, o cliente não responde".
+
+Você vai mandar, a gente vai ajudar.
+
+Então durante esses 30 dias, você faz a pergunta e a gente dá a direção pra vocês, seja técnica, seja a parte estratégica de vendas.
+
+Ok?
+
+Então aqui a gente tem um valor de R$ 997,00 que vocês também estão recebendo de bônus.
+
+Qual é o valor de investimento?
+
+A imersão tem o valor de R$ 2.997,00, e se a gente fosse colocar os bônus junto dessa imersão, a gente estaria falando ali de um total de R$ 7.479.
+
+Porém, para quem garantir a vaga hoje, esse valor vai ficar de R$ 997,00, que pode ser dividido em até 12 vezes.
+
+A gente tá falando ali, então se a gente pegar R$ 997,00 dividido por 12, a gente tá falando de R$ 83,08 por mês.
+
+Se a gente dividir isso por 30, eu tô falando de R$ 2,76 por dia.
+
+E eu tenho certeza que o primeiro projeto que você for fechar, você já vai recuperar esse valor de investimento.
+
+Principalmente se você seguir a recomendação de começar forte pela parte de FinOps.
+
+Além de recuperar esse valor investido, você vai recuperar numa velocidade muito grande.
+
+Então pra quem garantir a vaga hoje, além de levar os cinco bônus, vocês ainda vão receber isso por esse valor especial, R$ 997,00, que pode ser divididos em até 12 vezes no cartão de crédito.
+
+Tá aí no chat o link da minha equipe no WhatsApp.
+
+Então quem tiver interesse em participar dessa imersão, é só chamar a Gabi da minha equipe aí no WhatsApp, falar que você tava aqui na aula e que você quer garantir a sua vaga com valor especial e com os bônus que estão incluídos.
+
+Então pra quem garantir hoje, R$ 997,00, vai ter acesso aos cinco bônus, tudo com acesso vitalício, o conteúdo é de vocês, suporte de 30 dias após a imersão.
+
+Se você travar em qualquer ponto, a gente tá ali pra orientar e ajudar a destravar.
+
+R$ 997,00, 12 parcelas ali, tô falando aí de Um valor de menos de R$ 3 por dia pra você participar dessa imersão e começar a faturar com serviços que estão em alta no mercado, com serviços que o mercado, que as empresas estão precisando, estão contratando hoje.
+
+Como que você aprende tecnicamente esses serviços e, principalmente, como que vocês vão faturar com esses serviços.
+
+Maravilha, turma?
+
+Alguém quer fazer alguma pergunta?
+
+Alguém tem alguma dúvida?
+
+Aqui é aquela junção, aquela união que muitos de vocês precisam, que é a parte técnica, aprender coisas que o mercado está demandando, e também saber faturar em cima desses serviços, como que eu faturo com esses serviços que o mercado está demandando.
+
+A gente vai ver tudo isso nessas quatro semanas de imersões e mais esses bônus aqui que vão ajudar vocês a acelerarem o resultado de vocês.
+
+Maravilha?
+
+Alguém quer fazer alguma pergunta?
+
+Alguém quer tirar mais alguma dúvida, curtir um conteúdo aqui da aula?
+
+Lembrem-se, gente.
+
+Lembrem-se, enquanto vocês continuarem fazendo a mesma coisa do mesmo jeito, os resultados vão ser os mesmos que vocês têm hoje ou até pior.
+
+Então enquanto vocês não fizerem algo diferente, sempre vai ser mais difícil.
+
+Se não funcionou até hoje, você acha que do nada vai funcionar?
+
+A gente está lá, hoje, dia 29/06.
+
+Esse mês é 30 ou é 31?
+
+Esse mês é 30.
+
+A gente está falando que amanhã acaba o mês, vamos entrar em julho.
+
+Como que foi o faturamento da sua empresa nesses últimos seis meses?
+
+Está dentro do que você planejou?
+
+Está dentro do que você gostaria?
+
+Eu tenho certeza que muitos de vocês esperariam estar com o faturamento na metade do ano muito maior do que vocês têm hoje.
+
+Aí a outra pergunta: o que vocês estão fazendo de diferente pra conseguir esse faturamento?
+
+Não adianta nada vocês fazerem a meta de vocês, não conseguir atingir as metas e não fazer nada de diferente pra atingir as metas, continuar na mesma.
+
+Continuar na mesma, significa que os resultados vão ser o mesmo ou até pior, porque o mercado vai ficando cada vez mais concorrido.
+
+Então se você não fizer algo diferente, a chance de chegar ao final do ano, daqui mais seis meses, você olhar e falar: "Cara, quais foram os meus resultados e o que eu desejava?" Vai continuar travado no mesmo ponto.
+
+Agora, se você quer mudar, ainda temos seis meses pra fechar o ano.
+
+Se você quer nesses próximos seis meses, faturar e recuperar o que você não faturou nesses seis primeiros meses, aqui está a chance de aprender serviços que o mercado demanda e, principalmente, como faturar com esses serviços.
+
+Porque é aquilo que eu falei pra vocês, não adianta só aprender.
+
+Pra quem é consultor, se você como consultor está aprendendo algo que vocês não conseguem faturar com isso, vocês estão perdendo tempo.
+
+O consultor tem que aprender e saber como faturar com aquilo que ele aprendeu.
+
+É exatamente isso que a gente vai ver nessa imersão.
+
+Esses dois pontos: a parte técnica, o que o mercado está demandando, como que eu entrego isso pro mercado tecnicamente, como que eu entrego isso pras empresas tecnicamente.
+
+E o principal: como que eu vou faturar com esses serviços que eu aprendi a entregar.
+
+A gente vai ver tudo isso dentro da nossa imersão Azure para consultores de TI.
+
+Maravilha?
+
+Então pra quem quer garantir a vaga, lembrando que esse valor, com todos esses bônus, a gente está mantendo pra quem garantir a vaga hoje.
+
+Lembrando que por ser uma imersão, a gente também tem vagas limitadas, então isso aqui vai ser pra um grupo seleto.
+
+E se você quer participar desse grupo seleto, ser um dos consultores e vai começar a faturar com esses serviços já no próximo mês, entre em contato com a minha equipe no WhatsApp, fala que você estava aqui na aula, que você tem interesse em participar da imersão com essa condição especial, mais esses cinco bônus.
+
+Maravilha, turma?
+
+Então é isso aí, pessoal.
+
+Esse foi o nosso conteúdo, essa é a proposta pra gente ajudar vocês a evoluir nesse processo.
+
+Está aí a oportunidade.
+
+Chama a Gabi da minha equipe aí no WhatsApp, conversa com ela, fala que você estava na aula, pra que ela possa gerar o link, você possa garantir a sua vaga e a gente possa dar esses próximos passos juntos, e fazer com que esses próximos seis meses até o final do ano sejam seis meses completamente diferentes dos seis primeiros meses.
+
+Que vocês consigam, além de faturar, consigam recuperar o que vocês deveriam ter faturado nesses seis primeiros meses.
+
+Então está aí essa oportunidade.
+
+Maravilha, turma?
+
+Então é isso aí, um grande abraço pra vocês.
+
+Uma boa semana, daqui a pouco o joguinho do Brasil.
+
+Bom jogo aí pra todos, uma boa semana, fiquem com Deus e até a próxima.
+
+Valeu, pessoal!

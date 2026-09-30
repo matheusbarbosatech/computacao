@@ -1,0 +1,1609 @@
+Senhoras e senhores, bom dia!
+
+Sejam todos muito bem-vindos à nossa aula "Framework para faturar 20 mil com contratos recorrentes".
+
+Eu quero passar para vocês nessa aula, uma estratégia que a gente já utiliza há bastante tempo aqui, uma estratégia que dá certo, é claro, desde que bem feito.
+
+A estratégia é boa, a estratégia é funcional, só que ela precisa ser implementada de maneira estratégica, de maneira correta.
+
+E essa é uma estratégia que eu tiro dos funis americanos.
+
+Não sei o quanto vocês acompanham essa parte de marketing, mas quando a gente fala de país, Estados Unidos está muito à frente da gente.
+
+Então eu, há algum tempo já, há uns oito anos, mais ou menos, eu acompanho esse mercado americano e eu pego os funis que eles usam lá, os que mais dão resultado, e eu adapto aqui, porque brasileiro é brasileiro.
+
+É diferente.
+
+Então eu adapto e esse é um dos funis que eu quero mostrar aqui para vocês.
+
+O objetivo desse funil é a gente rodar algumas ações ali, a grande maioria de forma automatizada, para que a gente tenha uma engrenagem rodando para a gente.
+
+Até porque nem todo consultor consegue ter uma equipe de marketing, consegue ter uma equipe comercial e tudo mais.
+
+Então esse profissional tem que fazer o meio de campo entre a entrega e essa parte de marketing, ele não pode ficar muito no marketing, porque se ele ficar muito no marketing, ele não consegue atender os clientes.
+
+Ele não consegue deixar o marketing de lado, porque sem o marketing, ele não consegue os clientes.
+
+Então a ideia desse funil é ele ser o mais automatizado possível, para quê?
+
+Ele rode, prospecte, traga os clientes para os consultores, em paralelo, os consultores estão entregando e fazendo o seu trabalho ali no dia a dia.
+
+Então eu vou mostrar aqui em duas etapas, eu quero explicar um pouco da estratégia e depois eu quero levar vocês aqui, não se assustem, eu vou explicar no detalhe, mostrar um pouquinho de como funciona esse funil na prática.
+
+Então eu vou ficar entre essa parte mais teórica, porque é importante entender a estratégia, para depois a gente ver como que a gente executa essa estratégia.
+
+E essa aqui é uma ferramenta que eu uso muito aqui, chamada Geru, que eu consigo montar e ter estimativas de quanto que eu vou conseguir gerar de receita dentro desses funis.
+
+Então a gente vai navegar basicamente por essas duas telinhas aqui.
+
+Maravilha?
+
+Pessoal, antes da gente começar, abra o bloco de nota, quem gosta de anotar no papel, pega o papel, porque vai ter bastante coisa aqui para vocês anotarem.
+
+E segundo, eu estou vendo bastante gente nova aqui.
+
+Me fala de onde que você é, compartilha aqui comigo no chat, e hoje, qual que é o seu maior desafio?
+
+Se a gente tivesse que elencar assim: "Cara, meu maior desafio hoje é isso aqui".
+
+Coloca aí para eu saber qual que é o seu maior desafio de todos. "Cara, meu desafio é atrair clientes.
+
+Cara, meu desafio é ter clientes qualificados.
+
+Eu tenho clientes, mas cobro muito barato.
+
+O meu grande problema é saber precificar o quanto que eu cobro das coisas.
+
+O meu maior desafio é entrega, eu conheço muito pouco tecnicamente." Coloca aí para mim qual que é hoje o seu maior desafio de todos. "O meu maior desafio é captar clientes.
+
+O meu maior desafio é ter clientes qualificados." Cara, isso aqui para mim é fundamental.
+
+Vocês vão ver que quando vocês conseguem acertar uma estratégia, vocês vão ver algo inacreditável, coisa que vocês jamais pensariam que iria acontecer com vocês, que é vocês poderem escolher cliente.
+
+Cara, a gente tem que escolher os clientes que a gente quer atuar.
+
+A gente não pode trabalhar com qualquer cliente.
+
+Isso aqui é importante, inclusive quando a gente fala da parte de posicionamento.
+
+Beleza. "Implementar uma solução robusta de script para acompanhar a dificuldade dos clientes, captar, reter e precificar, captar clientes que paguem, precificar corretamente, encontrar o produto certo e o edges." Pedro Grulho, São Paulo: "O maior desafio é captar clientes".
+
+Piracicaba: "O desafio é solução para cliente que eu tenho".
+
+Belo Horizonte: "Nosso maior desafio é captar".
+
+Excelente.
+
+Muito bom.
+
+Eu, como já estou nesse mercado e acompanho ele há bastante tempo, geralmente o que a gente acompanha?
+
+É o consultor que trabalha na sorte.
+
+Então ele tem um mês que fecha bem, dá uma respirada.
+
+Aí vem o próximo mês, começa tudo do zero, não sabe quanto que vai entrar, torce por um cliente ligar, para alguém indicar.
+
+Então esse é um grande problema que os consultores enfrentam hoje.
+
+E tudo isso é fácil de resolver.
+
+Tudo isso é fato de modelo, é ter um modelo, é ter uma estratégia, que é isso que eu quero mostrar aqui para vocês dentro desse framework.
+
+Então tudo isso é fácil da gente conseguir, desde que seja bem feito, desde que tenha consistência.
+
+Não adianta testar uma semana, não funcionou, desiste, tem que ter consistência.
+
+Mas vamos lá, deixa eu pegar aqui esse mapa mental e explicar um pouquinho do que a gente tem hoje, que a gente enxerga como problema.
+
+Então hoje muitos consultores trabalham no modo reativo.
+
+O que é o modo reativo?
+
+Cara, ele trabalha com projeto pontual, não que isso seja um problema.
+
+Mas isso aqui, geralmente, quando que eu vou recomendar você trabalhar com projetos pontuais?
+
+Quando você já tem um modelo de negócio consolidadoPara quem está começando agora, para quem quer começar a escalar, para quem quer começar a ter resultados mais previsíveis, trabalhar só com projeto não é o melhor modelo hoje.
+
+Por quê?
+
+Porque você fica dependente de sempre ter projetos novos entrando, você não tem uma receita recorrente.
+
+Isso aqui já é mais recomendado para aqueles que já têm uma receita recorrente, já têm uma estrutura, já têm uma estratégia que sabe que funciona, então é só colocar para rodar, que sabe que vai ter mais projetos entrando.
+
+Mas para a grande maioria de vocês, a recomendação não é começar por esse modelo.
+
+Outro problema: cobrar por hora.
+
+Gente, esquece fazer a precificação do que vocês oferecem por hora.
+
+Isso é deixar dinheiro na mesa, isso é fazer com que o cliente fique chorando por preço, a gente não deve cobrar por hora.
+
+Depende de indicação.
+
+Acredito, pelo que eu conheço do mercado, pelo que eu conheço desses consultores, desses empresários que têm os MSPs, acredito que seja o caso da grande maioria, que é ficar dependendo de indicação. "Como que você hoje faz para ter novos clientes?" "É indicação." "Tem alguma coisa rodando para trazer cliente?" "Não, é indicação." Então hoje, quem tem um modelo de negócio baseado em indicação, tem um modelo de negócio fadado a falir, porque o dia que tem indicação, tem faturamento, o dia que não tem, não tem faturamento, então isso é muito ruim.
+
+Como eu comentei, trabalhar nesse modelo, você começa todo mês do zero, você não tem nada recorrente, então todo mês você depende que novos projetos entrem.
+
+E você quando trabalha por hora, você tem o teto da hora disponível.
+
+O dia tem 24 horas.
+
+Então existe um teto de horas disponíveis.
+
+E quando a gente começa a cobrar por hora, a gente vê que esse teto chega muito rápido e o faturamento que ele traz é muito baixo.
+
+O que hoje eu recomendo?
+
+Trabalhar com o modelo recorrente.
+
+O que é o modelo recorrente?
+
+É você vender você como consultor, a sua empresa, para outras empresas, como uma presença contínua, não é algo pontual.
+
+Você cobra por valor entregue, não por hora.
+
+Gente, eu não preciso falar isso, vocês devem passar por isso no dia a dia. Às vezes, a gente vai fazer uma atividade que é extremamente complexa.
+
+Eu vou fazer uma atividade complexa, só que é rápida.
+
+Se eu trabalho por hora, como que eu vou justificar para o meu cliente falando que aquela atividade eu vou cobrar R$ 10 mil e vou entregar em quatro horas?
+
+Ele vai olhar e falar: "Cara, quatro horas, R$ 10 mil?
+
+Tem alguma coisa errada aí".
+
+Agora, quando eu cobro pelo valor, pelo que eu estou entregando, é R$ 10 mil, o que eu estou entregando é isso, isso e isso, vai evitar isso, isso e isso, vai trazer esse e esse ganho, as coisas mudam completamente de cenário.
+
+Tem sistema de aquisição, vamos falar muito disso aqui, ou seja, tem uma engrenagem que tem sempre novos clientes entrando em contato, novos clientes negociando, novos clientes querendo saber mais, sem depender de indicação.
+
+Aqui a gente inverte o papel.
+
+Ao invés de eu correr atrás do cliente, eu faço com que o cliente venha atrás de mim.
+
+A partir do momento que eu trabalho nesse modelo recorrente, com essa presença contínua, que geralmente é em cima de um contrato, eu tenho uma receita previsível todo mês.
+
+Então se eu tenho 10 clientes me pagando um contrato de R$ 2.500 por mês, eu tenho aquela receita caindo todos os meses enquanto o meu contrato está vigente.
+
+Nesse modelo, eu escalo pensando nos clientes, a quantidade de clientes que eu consigo atender, e não na quantidade de horas.
+
+Quando a gente coloca isso aqui no papel, pessoal, presta bastante atenção nisso aqui, porque possa ser que muitos de vocês estão vivendo isso aqui hoje.
+
+Isso aqui é o que vai fazer você conseguir atender cinco clientes, quando você trabalha e cobra por horas, versus você conseguir atender 50 clientes.
+
+A mesma pessoa, a mesma quantidade de horas que ela trabalha por dia, só porque ela está fazendo um contrato baseado em presença, baseado em entregue, baseado em resultados, não baseado em quantidade de horas.
+
+Maravilha?
+
+Pessoal, não está aparecendo para vocês o mapa mental?
+
+Vocês estão conseguindo ver aqui o mapa mental?
+
+Será que eu estou falando aqui e não estou compartilhando?
+
+Coloquem aí no chat, por favor, se está aparecendo para vocês o mapa mental.
+
+Agora eu fiquei preocupado.
+
+Está.
+
+Eu acho que é só para quem reclamou.
+
+Para quem reclamou que não está aparecendo, sai e entra de novo.
+
+Então vamos lá.
+
+Baseado nisso aqui, a gente tem esse framework, porque beleza, entendi o modelo recorrente, gostei, a presença contínua, cobrar por valor entregue, ter uma receita, gostei muito disso aqui, quero trabalhar, mas como que eu consigo atrair esses clientes aqui?
+
+É onde entra esse framework, que a gente chama aqui de 20K com oito clientes.
+
+Como que funciona esse framework?
+
+Então primeiro, existem pré-requisitos.
+
+Outra coisa, pessoal, sendo bem sincero aqui com vocês.
+
+Gente, se vocês estão aqui, nessa aula ao vivo aqui comigoSegunda-feira e você quer ter resultado sem fazer nada, desculpa, essa aula não é pra você, vai ter trabalho pra fazer.
+
+Resultado vai ter, mas com trabalho.
+
+Muita gente quando pensa: "Puxa, eu vou ter que fazer tudo isso aqui?" Vai.
+
+Se você quer resultado, sim.
+
+Agora, se você quiser continuar na mesma, aí não precisa fazer nada disso.
+
+Então pessoal, tem que pôr a mão na massa, tem que fazer, senão você vai continuar dependendo de indicação.
+
+Isso aqui é tudo o que eu preciso pra que esse framework rode pra mim de forma constante, de forma estratégica, trazendo novos clientes pra gente todos os meses.
+
+Primeiro, eu preciso de um imã digital ou isca digital.
+
+O que seria isso?
+
+Vamos lá.
+
+Pensa assim: eu tenho aqui o meu serviço e eu preciso ter clientes pra contratar esse meu serviço.
+
+Qual é a melhor maneira de eu chegar até esses clientes?
+
+Eles não me conhecem, eu não sou uma referência no mercado, eu não sou super conhecido, que se eu colocar ali o pessoal vai ver meu nome, já sabe quem eu sou, já vai querer me contratar.
+
+Não, eu estou começando agora, eu já estou no mercado há um tempo, mas eu não sou tão conhecido assim.
+
+Então a primeira coisa que eu preciso é fazer com que eu seja conhecido por esses possíveis clientes.
+
+Hoje, a melhor maneira da gente fazer isso é a gente entregar algo de valor pra ele primeiro.
+
+Então antes de eu vender, falar do meu serviço, eu vou entregar algo de valor pra ele primeiro.
+
+É o que a gente chama, dentro da estratégia, de um imã digital.
+
+Geralmente, esse imã digital é um e-book.
+
+Mas isso aqui pode ser uma palestra gravada, pode ser até algo ao vivo, um webinar ao vivo, como esse, por exemplo.
+
+Então você precisa entregar algo de valor pra quem vocês querem como cliente, pra que vocês sejam conhecidos primeiro.
+
+E o que vocês vão fazer?
+
+Vocês vão precisar criar esse material, e outra, lembra, pessoal?
+
+Isso aqui é muito importante.
+
+Tem gente que fala: "Não, entende, eu vou criar aqui um imã qualquer".
+
+Você tem que entender o seguinte: esse aqui é o primeiro contato que o cliente vai ter com você.
+
+Em outras palavras, se você entregar esse material de qualquer jeito, você vai ser visto como qualquer um.
+
+Então tem que ser um baita material.
+
+Aqui, o que cabe muito é um case, se você tiver um case de sucesso, você criar um material explicando aquele case.
+
+Alguém tem algum case aí?
+
+Alguém já fez algum trabalho e falou: "Poxa, isso aqui virou um case.
+
+Olha como que eu consegui blindar uma empresa contra ataque ransom".
+
+Aí você escreve um material detalhando, explicando: "Eu fiz assim".
+
+Não tem problema de pensar: "Se eu falar muito, como que ele vai querer contratar meu serviço?" Gente, uma coisa é prestar o serviço, outra coisa é o cara querer aprender a fazer aquilo.
+
+Esses clientes não querem aprender, eles querem que alguém faça, porque se ele está aprendendo agora, beleza, ele sabe, mas ele não tem experiência ainda com aquilo.
+
+Então ele prefere uma empresa, um consultor que tem experiência ao invés de ele fazer.
+
+Então o case é muito bom aqui.
+
+Outra coisa que também cabe muito é a sua visão sobre aquilo que você quer vender.
+
+Qual é a sua visão sobre aquilo?
+
+Então vou criar um material que vai trazer um valor muito grande pra quem eu quero como cliente.
+
+Esse material vai ficar dentro do que a gente chama de página de captura.
+
+Então aqui é onde vai ficar o meu imã digital.
+
+Só que para o cliente ter acesso a esse imã digital, ele vai precisar colocar o e-mail dele.
+
+Vocês já vão entender o porquê disso.
+
+Aqui é uma barganha que eu estou fazendo com ele, eu estou chegando e falo: "Cara, olha só, eu liberei um material contando um case aqui que eu fiz pra uma empresa".
+
+Isso aqui é ideal pra quem trabalha com o que a gente chama de microsegmentação, que são aqueles consultores que atendem determinados segmentos.
+
+Alguém aqui está nesse cenário?
+
+Tipo eu atendo clínicas médicas, eu atendo contabilidades, eu atendo advocacia.
+
+Isso aqui é muito bom pra isso.
+
+Por exemplo, o cara da contabilidade, o consultor ou a empresa de consultoria que é focada em contabilidade. "Olha o case que eu fiz para um cliente de contabilidade aqui com XYZ", você vai e detalha.
+
+Então tem que ser um material de valor, só que é uma barganha, você está falando pro seu cliente: "Olha, cara, eu liberei um baita material aqui.
+
+Só que pra você ter acesso a esse material, você põe seu e-mail aqui".
+
+Quando ele põe esse e-mail, ele vai pra uma ferramenta de e-mail marketing.
+
+Aí vocês vão entender o porquê disso aqui ser a roda que faz a estratégia girar.
+
+Maravilha?
+
+Aí tem um detalhe aqui que é extremamente importante, gente.
+
+Muito importante.
+
+Que é o quê?
+
+Eu estou entregando material de valor, o cliente está lendo, está gostando. "Poxa, que legal".
+
+O que eu vou fazer no final desse material?
+
+Oferecer meu serviço. "Poxa, você gostou desse material?
+
+Você curtiu?
+
+Poxa, agora imagina isso aqui sendo implementado pra sua empresa.
+
+Imagina sua empresa parando de ter esse tipo de problema.
+
+Imagina sua empresa ter esse tipo aqui de inovação.
+
+Imagina sua empresa ter esse ganho aqui.Se você quiser, agenda uma reunião aqui comigo, que eu posso implementar tudo isso aqui pra você, assim como você viu nesse case que eu apresentei pra você.
+
+Então dentro do próprio material, você já fala pro cliente que você pode ajudar ele, que você tem um serviço que ajuda ele a resolver aquele problema.
+
+Por que isso aqui é importante?
+
+Porque tem gente, pessoal, hoje, que já está pronta pra comprar.
+
+Tem empresas hoje que só estão precisando daquele estalo.
+
+E às vezes, o material já é o estalo.
+
+Olha a experiência.
+
+A pessoa está lendo um material.
+
+Leu. "Nossa, que legal.
+
+Nossa, isso aqui faz total sentido pra minha empresa, olha que legal".
+
+E no final, você oferece aquilo.
+
+Então as pessoas que já estão prontas, já sentem aquela dor e sabem que precisam resolver de forma imediata, já podem fazer o primeiro contato só nessa pontinha da estratégia, a entrega do material.
+
+Maravilha?
+
+Quando o cliente coloca o e-mail pra ter acesso ao material, ele vai pra uma página que a gente chama de "página de obrigado".
+
+O que eu vou ter nessa página de obrigado?
+
+Eu vou entregar o material, só que eu vou fazer o quê aqui?
+
+Oferecer meu serviço de novo.
+
+Então aqui, geralmente, se eu pego o conceito de e-book.
+
+Ele está lendo o e-book, eu fiz uma oferta, texto.
+
+Aqui na página de obrigado, o que eu vou fazer?
+
+Vou gravar um vídeo, e não é qualquer vídeo, pessoal, esse aqui tem que ser muito bem scriptado.
+
+Um vídeo muito bem scriptado, isso aqui a gente chama até de VSL, Video Sales Letter.
+
+Então um vídeo muito bem scriptado, onde ele baixou e agora ele vai me ver falando daquele problema que ele está tendo, que se ele baixou o material é porque ele tem algo que precisa ser corrigido, eu vou falar mais daquele problema e eu vou oferecer o meu serviço de novo.
+
+Então aqui é o segundo ponto de contato que o cliente vai ter com o que eu tenho pra oferecer.
+
+O primeiro, dentro do material.
+
+O segundo, dentro do vídeo.
+
+Ou seja, eu tenho dois pontos de oferta que o cliente já pode me chamar pra conversar.
+
+Então posso gravar VSL no final. "Se você quer que eu implemente isso aqui, coloca um botão embaixo do vídeo, entre em contato aqui com a minha equipe, comigo no WhatsApp, pra gente agendar uma reunião".
+
+Ponto.
+
+Então isso aqui é o segundo ponto de contato.
+
+Só que acontece, esse framework vem pra evitar o que a gente chama de deixar dinheiro na mesa.
+
+Que pensa assim: "poxa, espera aí, eu fiz o imã digital, o cliente leu e no final eu fiz a oferta, ele não quis, não me chamou, não fez nada.
+
+Foi pra página de obrigado, assistiu minha VSL, viu como que eu posso ajudar ele, não quis.
+
+Eu vou simplesmente ignorar?
+
+Não vou mais oferecer nada pra esse cliente?" Possa ser que aquilo foi um primeiro momento, foi o primeiro contato que ele teve com vocês.
+
+Então assim, serviço é confiança.
+
+Então só vai contratar o seu serviço, quem confia no que você tem pra oferecer.
+
+Ou seja, não adianta vocês acharem que o cara vai ler o imã, já vai te chamar, que todo mundo vai te chamar, você fez sua VSL e todo mundo vai assistir, porque não vai, é a minoria.
+
+Alguns vão chamar?
+
+Com certeza, se for um material bem feito ou se for um vídeo bem feito.
+
+Mas a maioria não vai, porque ainda é um contato recente.
+
+Ele te conheceu agora.
+
+Só que o que a gente faz?
+
+Lembra que na página pro que o cliente tem acesso ao material, ele precisa pôr e-mail.
+
+Quando ele põe e-mail, ele vai pra uma ferramenta de e-mail marketing.
+
+Na ferramenta de e-mail marketing, eu configuro uma sequência automática de e-mail.
+
+Então tudo isso aqui, pessoal, quando está pronto, está rodando sozinho.
+
+O imã, que está numa página, que já está escrito, o cliente, quando coloca o e-mail, já vai automaticamente pra página de obrigado, que tem um vídeo.
+
+Desculpa, VSL.
+
+Eu falei VSL e escrevi VLS.
+
+O cliente baixou, foi pra página de obrigado.
+
+Agora ele entra na sua ferramenta de e-mail marketing, ele vai receber uma sequência de e-mail automática.
+
+Então tudo isso aqui, você já deixa pronto, isso aqui fica rodando, é uma engrenagem que fica rodando sozinha.
+
+Desses e-mails, o que a gente recomenda?
+
+E-mail um, você vai reforçar a entrega do material. "Aqui está o material que eu te prometi".
+
+Beleza?
+
+Beleza.
+
+Aí você manda o e-mail dois.
+
+A dor que o imã resolve.
+
+Porque o que acontece, pessoal?
+
+Tem algo que acontece e às vezes o pessoal acaba não tendo resultado porque não percebe isso.
+
+Hoje a gente está num momento que a gente precisa brigar pela atenção dos nossos clientes.
+
+Então a gente não precisa ser ingênuo o suficiente pra achar que todo mundo vai ler o material.
+
+Muita gente que vai baixar o material não vai nem ler, mas pra mim não tem problema.
+
+Eu tenho o e-mail dele, eu vou tentar fazer com que ele leia aquele material, saiba do que o material se trata, pra que eu possa mostrar pra ele que eu posso ajudá-lo.
+
+Então e-mail dois, eu vou falar da dor que o imã resolve, como se ele não tivesse lido o material.
+
+Vou fazer isso no e-mail dois.
+
+O e-mail três, o erro que mantém o consultor preso.
+
+Aqui é um exemplo.
+
+Então, no seu caso, seria: o erro que mantém o cliente tal.
+
+Então no meu exemplo aqui com vocês nessa aula, o meu e-mail seria: qual o erro que mantém o consultor preso na indicação?O erro é que ele não tem um framework, ele não tem uma estrutura.
+
+A propósito, eu tenho esse framework, que é o framework 20K com oito clientes.
+
+Falo da dor, falo do erro.
+
+E lembra, todo final eu vou oferecer o meu serviço.
+
+Quer resolver essa dor?
+
+É o meu serviço.
+
+Não quer mais cometer esse erro?
+
+É o meu serviço.
+
+A lógica do modelo recorrente.
+
+Aqui de novo eu trouxe um exemplo mais prático, baseado no perfil de vocês.
+
+Eu falei da dor, falei do erro, agora eu vou falar: "Cara, a solução é o que eu estou te oferecendo, que é ter contrato recorrente".
+
+Agora, qual é a lógica que está por trás desse modelo recorrente?
+
+O framework 20K.
+
+Então aqui você vai trazer de uma forma um pouco mais lógica, o que o seu serviço tem, que vai ajudar o cliente a resolver a dor, não ter mais aquele problema, aquele erro e por aí vai.
+
+E-mail cinco: convite pro webinar.
+
+A gente já vai falar um pouquinho sobre o webinar.
+
+E-mail seis: lembrete, mas urgência.
+
+Aqui é dar oferta.
+
+Pessoal, a gente tem um negócio, eu comecei a aula aqui falando pra vocês, que tudo isso que eu estou ensinando aqui pra vocês, é baseado no modelo americano.
+
+Só que o modelo americano diferencia algumas coisas do Brasil, por questões de cultura.
+
+Eu não posso simplesmente pegar esse modelo do jeito que eles aplicam lá e trazer pra cá, porque não vai funcionar, precisa de alguns ajustes.
+
+Um dos ajustes é essa parte de urgência.
+
+O brasileiro, geralmente age muito em cima de urgência. "Cara, isso precisa ser feito agora".
+
+Se eu não mostrar pra ele, que aquela dor, aquele erro, aquilo que eu tenho pra oferecer, vai corrigir algo que pra ele é urgente, ele vai ficar postergando. "Depois eu faço".
+
+Então eu tenho que, na minha comunicação, ter alguma forma de transformar aquilo numa urgência.
+
+Em outras palavras, eu tenho que mostrar pra ele, que ele precisa daquilo agora.
+
+Enquanto eu não conseguir colocar isso na mente do cliente, eu sempre vou ouvir a frase: "Depois eu vejo".
+
+Existem estratégias de urgência e escassez que a gente utiliza.
+
+Sequência de e-mail.
+
+Então voltando aqui, o que eu preciso pra ativar o framework 20K com oito clientes?
+
+O imã, a oferta dentro do imã, isso dentro de uma página de captura, uma página de obrigado pra entregar o material e oferecer o meu serviço ali na minha VSL, uma sequência automática de e-mail pra quem passou por esse fluxo.
+
+Uma sequência de webinar gravado.
+
+Aqui, pessoal, é pra ativar algo que é essencial pra vender serviço, que é a confiança.
+
+Porque pensa só, antes de chegar aqui nessa parte, qual é a experiência do cliente com vocês?
+
+Você entregou algo de valor que ele precisa.
+
+Em troca disso, ele colocou o e-mail, leu seu material, viu que você tem um serviço pra oferecer.
+
+Na página de obrigado, assistiu o seu vídeo, viu que você tem um serviço pra oferecer, recebeu uma sequência de e-mails com várias linhas de argumentações diferentes, pontos diferentes, mas que levam pra mesma oferta, a venda do serviço.
+
+Só que ele não comprou.
+
+Só que acontece, notem que aqui, quando a gente fala de ter autoridade, gerar confiança, são elementos que não são tão fortes assim.
+
+Então geralmente, até aqui, antes da parte do webinar, eu vou pegar aqui, quem que eu vou conseguir fechar contrato aqui?
+
+São as pessoas, as empresas que estão mais prontas, que têm mais urgência.
+
+Por isso que tudo isso precisa ser muito bem feito, pra que eu já consiga um primeiro resultado de cara.
+
+Mas tudo isso aqui que eu estou fazendo, o cara leu o e-book, viu o vídeo, recebeu uma sequência de e-mail, não gera essa autoridade, essa confiança de forma tão imediata.
+
+Por isso que é importante dentro desse framework, a gente ter essa sequência de webinar gravado.
+
+Porque é nesse webinar que ele vai me ver, ele vai ver eu falando, ele vai ver eu explicando.
+
+Quanto mais pontos de contatos a gente tiver com o nosso cliente, maiores serão as chances de eu fechar o contrato.
+
+E o webinar é muito bom, aqui eu coloquei gravado, ele pode ser ao vivo, inclusive eu recomendo que vocês comecem a fazer eventos ao vivo, porque isso vale muito.
+
+Isso aqui é pra quê?
+
+Pra você começar a ser reconhecido, pra você começar a ser uma autoridade, pra você pegar aquelas pessoas que passaram por toda essa sequência e falou: "Cara, mas eu nem conheço essa pessoa ainda".
+
+Entrega uma sequência de webinar gravado pra gerar essa confiança.
+
+E lembra, pessoal, tem que ser um conteúdo de valor.
+
+Então aqui, de novo, é muito bom se tiver cases, trazer cases, explicar. "Não tenho case".
+
+Beleza, o que eu faria se fosse a sua empresa?
+
+Vai lá e detalha, explica.
+
+Se vocês prestarem atenção no que eu vou falar agora, e não só prestar atenção, tem que executar.
+
+Cara, é o que separa profissionais que ficam contando moeda no final do mês, dependendo de indicação, daqueles que faturam seis dígitos por mês.
+
+Cara, se você tem essa roda girando aqui, todo dia, pessoas baixando o seu material, todo dia pessoas entrando nesse fluxoE você faz um webinar por semana ou pra quem está começando agora, que a audiência ainda é pequena, um a cada 15 dias, vocês vão ver a diferença que isso aqui vai dar no resultado financeiro da sua empresa.
+
+Vocês vão ficar abismados.
+
+Qual é a minha recomendação?
+
+Tem pouca audiência, começa com gravado.
+
+Faz uma sequência de quatro webnários.
+
+Grava quatro webnários com visões, ângulos diferentes e entrega isso no e-mail.
+
+Depois você cria, pode até automatizar, eu vou mostrar isso dentro da ferramenta Geru.
+
+Você pode até automatizar isso aqui pra ser enviado por e-mail. "Eu liberei o webinar um.
+
+Webinar um eu falo sobre isso, isso e isso.
+
+Quer assistir?
+
+Está aqui".
+
+Quem assistiu, você vai lá e agora fala: "No final do webinar, eu falei do meu serviço, quer agendar uma reunião?" Uma sequência de quatro webinars, porque aí o que você vai ter rodando de forma automática?
+
+Você vai ter pessoas entrando na sua lista de e-mail pelo imã digital, pessoas vendo a sua oferta dentro do imã, pessoas vendo a sua oferta dentro da página de obrigado, pessoas recebendo uma sequência de e-mail, pessoa recebendo uma outra sequência de e-mail com uma experiência diferente, agora a experiência de ver esses webinar gravado.
+
+Tudo isso aqui rodando de forma automática.
+
+Só que acontece, aí aqui vem o detalhe importante.
+
+Gente, eu vou ser, de novo, sincero aqui com vocês, assim como eu falei no começo da aula, se vocês não querem pôr a mão na massa, não quer trabalhar, essa aula não é pra você, porque aqui tem resultado?
+
+Tem, mas tem coisa pra fazer.
+
+Vai ter que fazer, vai ter que trabalhar.
+
+Aqui a mesma coisa.
+
+Sinto informar pra vocês, mas hoje, 18/05/2026, se vocês buscam ter resultado expressivo sem investir R$ 1 em anúncio, vai ser muito difícil.
+
+O orgânico hoje está uma droga.
+
+Não dá pra depender de orgânico hoje.
+
+Por que que isso aqui é importante?
+
+Não adianta absolutamente nada você ter o melhor imã digital, você ter a melhor oferta, você ter a melhor página de captura, melhor vídeo, melhor sequência de e-mail, melhor sequência de webinar, se não tem gente entrando dentro desse funil.
+
+Você precisa de pessoas que vão alimentar esse funil, pessoas precisam entrar aqui diariamente, dentro dessa sequência.
+
+Se você depender do orgânico, você está limitando essa estratégia a um nível que vocês não têm noção.
+
+Então assim: "Cara, poxa, hoje eu não posso investir R$ 10, R$ 20, R$ 50 aqui na minha empresa".
+
+E de novo, pessoal, vamos lá.
+
+Só dar um passo pra trás.
+
+Quando eu falo em investir em anúncio, eu não estou falando de investir de qualquer maneira, eu estou falando de investir de forma estratégica.
+
+O que é investir de forma estratégica?
+
+Eu começo pequeno pra validar.
+
+A gente aqui brinca.
+
+Todo começo de um consultor de TI no framework, os primeiros investimentos que ele faz não é pra ter resultado ainda, é pra comprar dados.
+
+Então primeiro eu compro dados e eu valido aquela estratégia.
+
+Depois que aquilo está validado, eu começo a subir o meu orçamento.
+
+Então não estou falando aqui que você vai pegar: "Ah, não, então quanto mais dinheiro eu colocar, melhor vai ser.
+
+Vou começar colocando R$ 1000 por dia".
+
+Não, a chance de você rasgar dinheiro é grande.
+
+O que eu estou falando é que se hoje você quer ter resultado expressivos e você não pode investir R$ 20, R$ 30, R$ 50 por mês, vai ser muito difícil você ter resultado.
+
+E de novo, não estou falando de você chegar e investir R$ 50 no achismo.
+
+Estou falando investir em estratégia.
+
+Então eu preciso de pessoas entrando nesse fluxo aqui todo dia.
+
+Quanto mais pessoas eu tiver entrando aqui dentro desse fluxo, desse framework, quanto mais pessoas, mais resultados eu vou ter.
+
+Aqui entra o tráfego pago.
+
+Então tem que investir em anúncio, não tem o que fazer.
+
+Anúncio que vai levar pra onde?
+
+Então lembra, o meu primeiro ponto de contato sempre vai ser a página onde está o meu imã digital.
+
+É ela que vai ser o core da minha estratégia, porque é ali que as pessoas vão colocar o e-mail que vai alimentar minha ferramenta de e-mail marketing, é ali que pessoas vão baixar o meu material pra ter acesso ao primeiro contato com o que eu tenho a oferecer, é ali que eles vão pra página de obrigado, é ali que vai startar a sequência de e-mail e por aí vai.
+
+Anúncio levando 100% ali pra página de captura.
+
+Aí pra quem que eu vou fazer esses anúncios?
+
+Então, de novo, aqui a gente leva anúncio tão a sério que a gente brinca aqui que anúncio pra gente é como se fosse ações na bolsa.
+
+É um investimento que eu estou fazendo, só que eu quero um retorno, então eu tenho que ficar acompanhando aquilo.
+
+Não adianta eu simplesmente jogar lá e deixar largado, que para de funcionar.
+
+A mesma coisa, anúncio eu preciso ser assertivo.
+
+Não adianta eu chegar aqui e fazer um anúncio falando do meu serviço pra gente que não tem nada a ver com isso.
+
+Então dentro do anúncio, a gente tem toda essa segmentação de público.
+
+Eu consigo segmentar pra quem que os meus anúncios vão aparecer.
+
+E o público é os donos de empresas, tomadores de decisões, cargos gerenciais, pequenas e médias empresas.
+
+Investimento inicial de R$ 10 a R$ 20 por dia pra eu validarO que eu comentei com vocês aqui é a compra de dados.
+
+É aqui que eu vou validar se o público está bom, é aqui que eu vou validar se a minha oferta está boa, é aqui que eu vou validar se o meu imã está bom.
+
+Então esse primeiro investimento inicial é de compra de dados.
+
+Não estou falando que com R$ 10, R$ 20 você não pode fechar um contrato.
+
+Pode, só que seria muito leviano da minha parte eu chegar aqui e garantir pra vocês: "Investe R$ 10 por dia, que todo mês você vai fechar um contrato".
+
+Pode acontecer, como pode não acontecer.
+
+Depois, no Geru, eu vou trazer algumas simulações pra vocês entenderem.
+
+E qual é o resultado esperado do meu tráfego pago?
+
+Leads diários entrando no meu funil completo.
+
+Essa é a meta do tráfego pago, é potencializar isso pra eu não ficar dependendo somente de tráfego orgânico.
+
+Então eu vou potencializar isso investindo em anúncios, aparecendo pra mais pessoas.
+
+Antes de eu ir pro Geru, deixa eu só ver as dúvidas.
+
+Se tiver dúvida, pessoal, podem ir colocando aqui no chat. "Bom dia, estou tentando realizar a compra do curso".
+
+Não, isso aqui acho que é outra coisa. "Como automatizar esse processo de venda de serviço?" Cara, acabei de mostrar aqui pra vocês.
+
+Esse aqui é um processo que pode rodar, se você trabalhar com webinar gravado, 100% no automático.
+
+A única coisa que eu vou precisar, que aí não tem o que fazer, é fazer a negociação.
+
+Então aqui eu faço a atração, a prospecção do cliente.
+
+Então tudo isso aqui é 100% automático.
+
+O que vai exigir uma interação é quando o cliente entrar em contato pra falar de escopo, pra marcar uma reunião, aí não tem o que fazer.
+
+Agora, todo esse processo, todo esse framework aqui que vocês estão vendo, isso aqui roda 100% automático.
+
+Mas, de novo.
+
+Vou dar um dado aqui pra vocês.
+
+Hoje, uma média.
+
+Se eu faço hoje um webinar gravado, e no webinar gravado eu falo do serviço, eu fecho, um exemplo, um contrato.
+
+Se eu pego e faço um webinar ao vivo com a mesma audiência, eu consigo fechar três contratos.
+
+Pra vocês verem a diferença.
+
+Então não fiquem preso no "ah, tudo automático".
+
+Não, tem coisa que tem que ser manual, tem coisa que você tem que interagir com a galera, o pessoal tem te conhecer melhor.
+
+Mas, de novo, não adianta você querer partir pro webinar ao vivo começando essa estratégia, porque a chance de não ter ninguém lá pra ver o que você tem pra falar é grande.
+
+Então começa com gravado.
+
+Quando você tiver bastante pessoas dentro da sua ferramenta de e-mail marketing, comece a encaixar algumas coisas ao vivo.
+
+Daqui 15 dias eu vou fazer um evento ao vivo falando do Security Day para contabilidades.
+
+Security Day pra contabilidade, como que você protege sua empresa de contabilidade quanto às principais vulnerabilidades de cibersegurança hoje.
+
+Vai ser ao vivo, dia tal.
+
+Cara, quem está propenso a participar ao vivo de um tema é porque tem interesse naquele tema.
+
+Gente, eu estou fazendo isso com vocês.
+
+Eu chamei vocês pra uma aula ao vivo.
+
+Vocês apareceram, porque vocês têm interesse no que eu tenho pra falar.
+
+Talvez, se esse mesmo tema eu mandasse pra vocês: "Liberei a gravação desse tema", talvez você ficasse: "Depois eu vejo".
+
+O ao vivo tem isso que é sensacional, que é uma data.
+
+E antes que alguém pergunte: "Vai liberar a gravação?" Não sei.
+
+Essa é a vantagem do ao vivo, é você virar pra pessoa e falar: "Eu vou fazer o evento tal dia.
+
+Se você não conseguir participar, eu não sei se eu vou liberar a gravação.
+
+Eu posso tanto liberar quanto posso não liberar.
+
+A maneira de você ter certeza que vai ter acesso ao conteúdo é participar ao vivo".
+
+Respondido, meu amigo?
+
+Então, automatizar é isso aqui.
+
+Aí eu posso fazer várias outras automações.
+
+É que aqui eu estou pensando no nível estratégico, mas eu posso ter automações no WhatsApp, o cliente entra em contato, eu posso pôr um bot pra fazer o intermédio da comunicação.
+
+Mas gente, não façam isso.
+
+Essa parte de negociação é extremamente crítica, ela tem que ter esse tom pessoal, colocar robô pra isso é um risco muito grande.
+
+Tem muita gente que perde cliente por isso.
+
+Cara, eu sei se alguém fatura bem ou não quando ele me manda o contato no WhatsApp, eu mando a mensagem é o robô respondendo.
+
+Pra mim, aquilo já gera um negócio de: "Cara, essa empresa não é séria, não é humana.
+
+Como que eu vou fechar contrato se ele põe um robô pra falar comigo?" São detalhes que fazem a diferença no final do dia.
+
+Pessoal, até aqui alguma dúvida, alguém quer fazer alguma pergunta aqui, antes da gente ir aqui pro Geru pra eu mostrar um pouco dessa estratégia de uma maneira um pouco mais tangível?
+
+E se vocês perceberem, pessoal, tudo isso aqui, se vocês perceberem, a maioria de vocês que estão aqui ao vivo comigo, a maioria participou exatamente dessa experiência aqui.
+
+Vocês viram um imã digital meu, provavelmente o plano lá de 90 dias, gostaram do tema. "Opa, quero ver esse material".
+
+Colocaram o e-mailAcessar o material, ler o material e viram que lá no material eu já faço oferta.
+
+Viram que na página de obrigado, eu já fiz oferta?
+
+Quando vocês baixaram o material, vocês receberam uma sequência de e-mail.
+
+Entregando o material e oferecendo, no caso, um portal.
+
+Só que eu não trabalho aqui nessa estratégia para esse serviço, com webinar gravado, eu faço ao vivo, que é o que eu estou fazendo aqui com vocês.
+
+Então vocês baixaram o material, gostaram. "Vamos conversar ao vivo sobre um tema?" O tema é esse.
+
+Então vocês participaram disso aqui.
+
+E outra, como que vocês chegaram na minha página?
+
+Como que vocês ficaram conhecendo o meu e-book?
+
+Tráfego pago, eu fiz anúncio para vocês.
+
+Maravilha, pessoal?
+
+Quem está entendendo aqui, digita o número um aí só para eu saber se alguém já virou bot, ou se vocês estão acompanhando essa explicação.
+
+Quem entendeu, digita o um aí.
+
+Maravilha.
+
+Show de bola.
+
+Vamos lá, vamos avançar então.
+
+Vamos aqui para essa ferramenta.
+
+Essa ferramenta, como eu falei para vocês, é uma ferramenta que a gente utiliza para montar a estrutura dos funis.
+
+E para a gente estimar o quanto que eu vou ter de retorno dentro daquele funil.
+
+Então a gente passa aqui algumas informações, algumas métricas para ele levar em consideração e baseado nessas informações, ele gera uma estimativa.
+
+Então aqui, só para vocês entenderem, eu vou já explicar cada um dos pontos aqui, mas pegar aqui pelo final, o que ele está falando que esse funil aqui está gerando para mim?
+
+Ele está falando que esse funil está gerando dois contratos de R$ 1.500.
+
+De novo, eu coloquei aqui algo genérico.
+
+Então eu coloquei para ele aqui que cada contrato fechado é um contrato de R$ 1.500.
+
+Mas a gente tem contratos R$ 5.000, R$ 10.000, R$ 20.000.
+
+Aqui eu coloquei chutando bem para baixo, um contrato mensal de R$ 1.500.
+
+São valores extremamente fáceis de ser atingido, porque contrato de R$ 1.500, quem não consegue fechar hoje, eu acho que está na profissão errada.
+
+Então algo bem para baixo.
+
+Eu estou falando aqui que com os valores que eu defini aqui, eu vou ter dois contratos fechados, eu vou ter R$ 3.000 por mês.
+
+Gravem essa palavra aqui, a recorrência, por mês.
+
+Nesse primeiro momento, para eu ter esses R$ 3.000 por mês, eu precisei investir R$ 1.560 em tráfego.
+
+Eu precisei pegar uma verba de R$ 1.560 por mês, e eu transformei esses R$ 1.560 em dois contratos recorrentes de R$ 3.000.
+
+Então aqui, se eu pegar em uma primeira visão, investi R$ 1.560, me retornou R$ 3.000.
+
+Já tenho aqui quase um ROI de 50%.
+
+Aqui ele até calcula o ROAS.
+
+Certo?
+
+R$ 1.560 transformei em R$ 3.000.
+
+Só que aqui que está o detalhe, pessoal, da estratégia.
+
+Eu investi R$ 1.560, em um mês eu consegui R$ 3.000 de forma recorrente.
+
+Não estou falando que eu investi R$ 1.560 e só recebi R$ 3.000.
+
+Imagina que é geralmente o padrão, você faz um contrato com a empresa de 12 meses, de um ano.
+
+Então o que eu estou falando aqui em termos mais práticos?
+
+R$ 3.000 vezes 12 é igual R$ 36.000 por ano.
+
+O correto afirmar aqui é que eu investi R$ 1.560 e me retornou R$ 36.000.
+
+Não R$ 3.000, porque o meu faturamento não vai parar em R$ 3.000, o meu faturamento vai ser para o ano inteiro, e o faturamento do ano inteiro é R$ 36.000.
+
+Então eu estou falando que eu investi R$ 1.560, me retornou R$ 36.000.
+
+E tem aqui algo que também é sensacional.
+
+Lembra do que a gente viu aqui?
+
+Isso aqui é um framework, é uma engrenagem que fica rodando.
+
+Ou seja, em um mês eu coloquei X pessoas dentro da minha lista de e-mail.
+
+Mês que vem, se eu continuar investindo o mesmo valor, aquilo vai dobrar.
+
+Vai dobrar, vai dobrar, vai dobrar.
+
+Daqui a pouco eu tenho uma lista gigantesca.
+
+E o resultado que eu vou fazer com aquela lista, também vai ser expressivo.
+
+Então o que eu coloquei aqui de informação?
+
+Isso aqui é informação de mercado.
+
+Eu coloquei aqui que eu vou ter, por mês, 390 pessoas chegando na minha página de captura, onde eu tenho o material.
+
+Então vou ter todo mês 390 pessoas interessadas no material que eu tenho para oferecer, 390 pessoas que estão chegando na minha página, todo mês.
+
+Se eu manter o mesmo valor de investimento, no outro mês eu vou ter 390 mais 390, e assim ele vai acumulando.
+
+Há um custo por clique de R$ 4, é uma média para B2B hoje.
+
+Então eu estou falando, se eu pegar aquiCalc.
+
+Se eu pegar aqui, 390 pessoas dividido por R$ 4, eu estou falando que por mês eu vou ter 97 pessoas entrando.
+
+Espera aí, o cálculo está errado.
+
+É 390 dividido por quatro, aí sim, dividido por 30.
+
+Eu estou falando que por dia eu vou ter uma média de três a quatro pessoas chegando até a minha página de captura.
+
+Maravilha?
+
+Na verdade, eu estou fazendo o cálculo todo errado aqui.
+
+É que eu estou confundindo aqui o CPC.
+
+Não, 390 por 30. 13 pessoas por dia entrando dentro desse funil.
+
+Então eu estou falando que todos os dias, até esse anúncio ficar rodando.
+
+Se ficar rodando por um ano, eu estou falando que durante 365 dias, eu vou ter todos os dias 13 pessoas entrando nesse funil, participando de toda essa experiência aqui.
+
+Maravilha?
+
+Essa pessoa cai numa página de captura.
+
+Só que o que acontece?
+
+Nem todo mundo que cai nessa página vai colocar o e-mail.
+
+Existe uma métrica de mercado que é 60%, é uma boa média.
+
+Então 60% das pessoas que vão ver essa página, vão efetivamente colocar o e-mail.
+
+Então de 390 pessoas, na minha lista de e-mail, que são pessoas que colocaram o e-mail pra baixar o material, são 234 pessoas.
+
+Dessas 234 pessoas, caíram na minha página de obrigado.
+
+Lembra, na minha página de obrigado, eu vou ter um vídeo onde eu vou oferecer o meu serviço.
+
+E aqui a gente tem uma média de conversão de 2%.
+
+Então 2% das pessoas que chegam na minha página de obrigado, desde que tenha um vídeo muito bem feito, muito bem estruturado, 2% vão para a negociação.
+
+E na negociação, eu coloquei as pessoas que negociaram, então aqui, pegando os valores.
+
+Duzentas e trinta e quatro pessoas chegaram na página de obrigado, porque colocaram o e-mail.
+
+Duzentas e trinta e quatro pessoas viram o vídeo de vendas.
+
+Só que quatro pessoas, 2%, efetivamente entraram pra negociar pelo que foi oferecido no vídeo de vendas.
+
+Dessas quatro pessoas, a gente tem ali também uma conta de mercado que 30% evolui pra contratação do serviço.
+
+Então nessa primeira parte da estratégia, eu estou falando que eu fechei um contrato de R$ 1.500 por mês.
+
+Só nessa primeira parte da estratégia.
+
+Só que acontece, lembra o que eu falei pra vocês?
+
+Gente, o framework, baseado no modelo americano, ele é pra não deixar dinheiro na mesa.
+
+Poxa, se eu tenho 234 pessoas que baixaram meu material, viram a minha oferta, viram o vídeo e só uma comprou, eu tenho 233 pessoas que eu tenho que convencer, tenho que falar com elas.
+
+Onde entra a segunda parte da estratégia, que é aquela parte que eu mostrei pra vocês dos e-mails.
+
+Então eu vou mandar e-mail.
+
+Eu vou mandar e-mail e no final de todo e-mail, eu vou reforçar aquela minha oferta, aquele meu serviço.
+
+Então notem que aqui, cada e-mail tem a ligação com a venda.
+
+E aqui, de novo, a gente tem aqui médias de mercado, então a gente tem uma média de que 20% das pessoas que você mandou o e-mail vão abrir o e-mail e 2% vão clicar no link pra negociar no WhatsApp ou qualquer outro lugar.
+
+Então eu vou ter aqui uma sequência de cinco e-mails.
+
+Varia de cinco a sete e-mails.
+
+De novo, pra que serve esses e-mails?
+
+Cara, pra eu reforçar o que eu tenho pra oferecer com ângulos diferentes, pro cliente começar a me enxergar como autoridade, sabe do que está falando.
+
+Só que aqui, como a lista está muito pequena, 234 pessoas é considerada uma lista pequena.
+
+Como eu tenho uma lista pequena, se vocês notarem aqui, dentro dessa estratégia aqui de e-mail, não saiu nenhuma venda.
+
+É normal, mas vocês vão ver conforme a gente vai aumentando os valores, isso vai começando a gerar um resultado pra gente.
+
+Só que lembra do seguinte: legal, lembra aquilo que eu expliquei pra vocês.
+
+Gente, vamos fazer esse serviço de maneira diferente?
+
+Eu entreguei experiência pro usuário em base e-mail, em base e-book.
+
+Agora deixa ele me ver apresentando algo?
+
+Entra o webinar gravado.
+
+Aqui eu coloquei ao vivo, mas pode ser gravado.
+
+O que eu vou fazer?
+
+Gente, eu não vou comprar tráfego, eu não vou investir dinheiro pra pessoas participarem desse webinar.
+
+Quem que eu vou convidar pra ver esse webinar?
+
+As pessoas que já entraram na minha lista de e-mail lá atrás.
+
+Então vou mandar uma sequência de e-mail pra elas, falando: "Quer assistir o webinar?
+
+Quer assistir o webinar?
+
+Quer assistir o webinar?"E aqui, de novo, as métricas são as mesmas.
+
+Quando é um webinar, geralmente a taxa de clique é um pouquinho maior, eu coloquei aqui 4%.
+
+E aqui, o que a gente tem?
+
+Das pessoas que clicaram no e-mail para se registrar, quando cair na página para se registrar para assistir o webinar, 40% vão efetivamente cadastrar e assistir o webinar.
+
+Maravilha.
+
+Daqui, dessa estratégia de fazer o webinar, saiu essa segunda venda.
+
+Então são essas duas vendas aqui que o simulador está computando.
+
+Uma venda vindo do pilar da estratégia, a segunda venda vindo do webinar.
+
+Aqui, pessoal, o que eu recomendo?
+
+Lembra o que eu falei: não vai dar para você implementar o framework para ter resultado sem investir em anúncio, vai ser difícil ou muito demorado, ou você investe.
+
+Só que lembra, eu vou investir não para jogar dinheiro fora, eu vou investir e vou validando.
+
+Pensa aqui comigo, uma vez que esse desenho que eu fiz aqui está validado, está trazendo esses resultados aqui esperados, e de novo, pessoal, estou colocando aqui contratos com valores baixíssimos, esse valor poderia ser muito maior.
+
+Uma vez que eu tenho isso aqui validado, que eu comprei dados, eu sei que a estratégia funciona, o que eu vou fazer?
+
+Eu começo a aumentar minha verba de investimento, porque eu sei que eu não estou fazendo mais achismo, eu já comprei dados, aquilo está me trazendo resultado, eu vou aumentando isso progressivamente.
+
+Então eu posso aqui, por exemplo, agora, sair aqui de, ao invés de 390 visitas por mês, eu posso vir aqui e falar que agora eu vou para 1000.
+
+Agora eu vou ter 1000 pessoas todos os meses, entrando dentro desse fluxo.
+
+Atualizar aqui.
+
+Isso já está me trazendo um resultado agora de R$ 13.500, com investimento de tráfego de R$ 4000 por mês.
+
+Só que lembra, isso aqui é recorrente.
+
+Se a gente pega contratos de um ano, eu estou falando aqui de um faturamento de R$ 162.000 por ano, investindo R$ 4000. "Beleza, fiquei com isso aqui.
+
+Esse valor está bom, não quero aumentar mais".
+
+Beleza, você tem, de novo, a capacidade de no próximo mês conseguir mais 13.500.
+
+Não é algo estático, eu consegui esse mês, depois eu não consigo mais.
+
+O negócio fica rodando, a roda vai girando.
+
+E aqui, pessoal, até para economizar tempo, senão iria demorar muito aqui para fazer esse desenho e explicar, eu coloquei a estratégia de fazer um webinar.
+
+Então esses cálculos aqui estão baseados em um webinar.
+
+Eu recomendo pelo menos quatro.
+
+Ou seja, esses resultados podem ser ainda maiores.
+
+Outra coisa, o contrato que eu coloquei aqui é de 1500, se for um contrato maior, os resultados vão ser maiores.
+
+Quer ver?
+
+Deixa eu fazer um exercício com vocês aqui.
+
+Hoje, se você já tem a média de contrato mensal que vocês têm, se quiser, pode colocar só para mim, não precisa colocar para todos, não.
+
+Qual é a média de contrato que vocês têm?
+
+E para quem não tem, coloca aí uma média que vocês acham que seria interessante, só para eu pegar dados de vocês e colocar aqui na ferramenta.
+
+Me fala, se hoje você já tem essa média de contrato, qual é esse valor por mês?
+
+Se você não tem, quanto que você gostaria de cobrar por mês?
+
+Compartilha aí comigo no chat, só para eu colocar esses dados na ferramenta para a gente ver aqui o que ele vai trazer de faturamento para nós.
+
+Então quem já tem, só colocar a média.
+
+Quem não tem, o que gostaria? "11 mil, gostaria de 15".
+
+Vamos lá, quem mais?
+
+Vamos lá, pessoal, participem.
+
+Oitocentos reais é muito pouco.
+
+Assim, R$ 800, aí a gente está falando de manutenção de hardware.
+
+R$ 800 é muito pouco. "15 mil".
+
+Vamos lá, quem mais?
+
+Pelo amor de Deus, não trabalha com isso, que R$ 800 não é nem para formatar o sistema operacional.
+
+Não, gente, não estou falando o tanto que vocês faturam.
+
+Eu estou falando assim: eu quero fechar um contrato com cliente novo.
+
+Qual é a média desse contrato que vocês têm?
+
+Uma média de um cliente só, por mês.
+
+E quem não tem, qual o valor que gostaria?
+
+Bruna, pelo amor de Deus, sobe esse valor urgente.
+
+Urgente, é muito baixo.
+
+R$ 800 é muito baixo.
+
+É que assim, geralmente, o pessoal pode falar: "Poxa, mas cobrando R$ 800 já está difícil".
+
+Provavelmente, é o modelo de negócio, está cobrando por horas.
+
+Está cobrando por horas, não está cobrando por resultado, por impacto. "R$ 2500 por mês para área de D." Cara, agente de D vale muito mais.Mas muito mais.
+
+Primeiro que eu nem recomendo vocês trabalharem com agente de IA de forma recorrente.
+
+Esse aqui é um caso que a gente trabalha só com projeto.
+
+Hoje nossos agentes de IA que a gente desenvolve é no mínimo R$ 30.000.
+
+No mínimo.
+
+É claro, depois que eu entrego, você quer a manutenção do código, tudo, aí a gente vai pro mensal, mas primeiro eu entrego um projeto, eu entrego o agente.
+
+Quer que eu mantenha um agente funcionando, atualizado?
+
+Aí entra o mensal.
+
+Beleza, eu vou pegar aqui R$ 2.500.
+
+Então vou pegar aqui na ferramenta, eu só vou mudar aqui de R$ 1.500 pra R$ 2.500.
+
+Vamos dar um simulate.
+
+Ele já saiu do valor ali de 13, foi pra um valor de R$ 22.500, que pra mim geralmente é o mais comum.
+
+Essa média de contrato, quando você tem um bom posicionamento, você tem uma boa oferta, tem algo pra oferecer que o mercado demanda, geralmente é um bom valor de contrato pra pequenas empresas, R$ 2.500.
+
+Então eu estou falando de um investimento de quatro, que eu transformei em R$ 22.500 dentro de um mês, mas lembra que isso aqui é recorrente.
+
+Lembra que tudo isso aqui é recorrente.
+
+Maravilha, pessoal?
+
+Deu pra entender aqui, alguém tem alguma dúvida?
+
+Se vocês pudessem enumerar de um a cinco o que vocês entenderam da estratégia, sendo um, não entendi nada e cinco, entendi tudo, o que vocês colocariam como nota pra vocês? "Cara, um, não entendi absolutamente nada.
+
+Você me explicou aqui, eu não entendi foi nada".
+
+Digita um. "Cara, não, entendi tudo.
+
+Entendi, só falta implementar agora".
+
+É o cinco.
+
+Compartilha aí comigo só pra eu saber.
+
+Vamos lá, tem muito mais gente aí.
+
+Será que o pessoal virou bot?
+
+Cinco, quatro, quatro, cinco, três, quatro.
+
+Vamos lá, pessoal, tem mais gente aí.
+
+Se não virar o bot.
+
+Três, quatro, quatro, três, cinco, quatro.
+
+E tem aqueles que eu posso perguntar o que for, não vai responder nada.
+
+Ou porque virou bot mesmo ou porque não vai responder.
+
+Mas beleza.
+
+Quatro, show de bola.
+
+Então assim, cara, vocês entenderam, pela pontuação que vocês estão colocando aqui pra mim, vocês entenderam a estratégia.
+
+Vocês entenderam.
+
+Agora aquilo que eu falei pra vocês.
+
+Gente, não adianta nada você fazer um imã digital qualquer.
+
+Não adianta nada você fazer uma oferta qualquer.
+
+Gente, tem que ser uma oferta muito boa, de um serviço bom.
+
+A oferta que você vai fazer não é algo genérico, é o que você tem pra oferecer de melhor.
+
+Isso é o que tem que estar dentro dessa estratégia, o que você tem pra oferecer de melhor.
+
+Quando você olha pro seu portfólio de serviço, você olha e fala: "Cara, isso aqui é o que eu entrego e que o pessoal fala 'uau', é isso que eu vou jogar dentro dessa estratégia".
+
+Não adianta nada se não tem uma boa página de captura, bem estruturada, se não tem uma página de obrigado estruturada, principalmente com vídeo de vendas bem feito.
+
+Não adianta enviar e-mail de qualquer jeito.
+
+Tudo isso aqui existe uma estrutura, existe uma estratégia por trás de cada um desses passos.
+
+Não adianta ficar fazendo um monte de webinar gravado, tudo solto, sem script, sem copy, sem persuasão, sem urgência.
+
+Anúncio, cara, se fizer anúncio de qualquer jeito, vocês vão só jogar dinheiro fora.
+
+Então a estratégia funciona, só que todos esses pontos aqui precisam ser muito bem feitos, muito bem desenhados, muito bem validados, muito bem estruturados pra que essa engrenagem rode, porque uma vez que você acerta essa engrenagem, isso aqui roda por anos.
+
+Isso aqui só vai rodando, você só vai otimizando.
+
+E quando você está num nível mais avançado, como a gente aqui, a gente tem vários disso aqui rodando hoje simultâneo, vários, eu não tenho um só.
+
+Eu tenho vários.
+
+Fiz esse, validei, funcionou, beleza, eu vou escalando aos poucos e já vou criando próximos, porque pode ser que um dia esse aqui pare de funcionar.
+
+Pode ser não, vai parar de funcionar em algum momento.
+
+Ou seja, se eu depender só de um, quando parar de funcionar, eu tenho que ficar corrigindo.
+
+Agora não, eu tenho um que está funcionando bem, está no momento de escalar, aumentar a verba, já vou criar um segundo funil diferente, com imã diferente, com uma oferta diferente, porque se o dia um parar de funcionar, eu tenho outro que já está validado e está funcionando.
+
+Então sempre essa roda vai girando.
+
+Então pra aqueles que querem aprender essa estratégia na prática, vocês viram a parte estratégica.
+
+Agora quem quer aprender a criar o imã, quem quer aprender a fazer essa oferta dentro do imã, quem quer aprender a montar a página de captura, como que ela tem que ser, a ferramenta de e-mail marketing, a página de obrigado, montar VSL, montar a sequência de e-mails, os webinar, como que eu faço, como que eu gravo, o que eu tenho que falar nesse webinar.
+
+O tráfego pago, como que eu vou fazer esses anúncios, como que eu vou localizar esses públicos, como que eu vou validar as métricas pra ver se está bom pra eu começar a escalarPara quem quer aprender tudo isso aqui de uma maneira mais prática, no final do mês, vou até pegar aqui para não falar errado, vai ser dia 28, Imersão Consultor Recorrente.
+
+Essa imersão vai ser nos dias 28 e 29 de maio, uma quinta e uma sexta.
+
+A partir das 19h.
+
+Vai mais ou menos das 19h até umas 22h.
+
+O que eu vou mostrar nessa imersão recorrente?
+
+Como montar na prática tudo isso aqui.
+
+Na prática, como que monta tudo isso aqui.
+
+Como que monta o imã, como que coloca a oferta dentro do imã, como monta a página de captura, como configura a ferramenta de e-mail marketing, como configura a página de obrigado, como monta a sequência de e-mail, como monta o webinar gravado, a sequência de e-mail para o webinar gravado, como monta toda a parte de tráfego pago para alimentar todo esse framework e toda essa estrutura.
+
+Então a gente vai ter nos dias 28 e 29 de maio, essa imersão para quem quer aprender a montar esse framework do zero.
+
+E poder ter esses oito clientes de forma recorrente, pagando e trazendo faturamento de 20 mil ou muito mais, dependendo do que vocês vão oferecer.
+
+Para aqueles que garantir a vaga hoje ou agora, a gente vai liberar uma sequência de bônus aqui que a gente chama de aceleradores.
+
+Para quê?
+
+Para acelerar o resultado de vocês.
+
+Quais são esses bônus que a gente vai entregar?
+
+Vou até copiar aqui para não esquecer.
+
+Quais são esses bônus?
+
+São bônus, assim como vocês já vêm acompanhando o mercado hoje, são bônus baseados em IA.
+
+Hoje, o consultor de TI tem que usar IA para montar estratégia, para montar material, para montar recurso.
+
+Então a gente vai entregar um GPT treinado, então você vai receber um agente treinado, completo.
+
+Para quê?
+
+Para te ajudar a montar o seu posicionamento, como você tem que se posicionar, como que você tem que falar para ser reconhecido no mercado.
+
+O que você tem que vender baseado no seu conhecimento.
+
+Então você vai colocar lá: "Ah, o meu conhecimento é isso, eu quero vender isso." Baseado nisso, ele vai te ajudar a montar um pacote de serviço, o que você pode vender para a empresa, a proposta.
+
+Então isso aqui é para quê?
+
+Para você não ficar travado do tipo: "O que eu vou vender?
+
+Como que eu faço essa proposta?" Não, você vai ter um agente de IA pronto para isso.
+
+Você vai receber também, o que a gente chama de kit IA, para você entregar para o cliente de vocês.
+
+Então isso aqui vai ajudar você quando você for vender seu serviço, você falar: "Além disso, a gente vai entregar aqui um kit de IA para vocês." O que esse kit de IA vai fazer?
+
+Então são agentes prontos, que com base nas informações que vocês forem alimentando eles.
+
+Então você pode vender para o cliente e falar: "Além de entregar tudo isso, eu vou te entregar um relatório." Só que quem vai fazer esse relatório para vocês vai ser a IA.
+
+Então vão ser prompts, onde vocês vão imputar os dados técnicos, os relatórios, e ele vai gerar análise para vocês.
+
+Análise de risco, análise de incidente, dashboards.
+
+Para quê?
+
+Para que você coloque isso como entregável e isso dê um valor maior para o que você tem a entregar.
+
+O cliente vai olhar e falar: "Cara, então quer dizer que além de você me ajudar em toda essa parte técnica, você ainda vai me entregar esses relatórios executivos, relatórios que não é só tecnes?" E isso eu vou te entregar.
+
+Então vocês vão receber esses prompts para quê?
+
+Para que vocês coloquem isso como entregáveis do serviço de vocês.
+
+Então isso vai ser um diferencial para vocês, porque hoje a maioria entrega serviço, mas não entrega um relatório executivo, não entrega nada.
+
+Ou quando entrega, é aquele negócio totalmente técnico que o cliente não entende bolufas.
+
+Então vocês vão receber esse kit de IA para entregar para o cliente de vocês.
+
+Vocês vão receber também um agente de IA para ajudar vocês com as objeções mais comuns do mercado brasileiro.
+
+Por exemplo: "Ah, eu não tenho o verbo".
+
+Quando eu estou negociando com o cliente, o cliente fala para mim que eu não tenho o verbo, como que eu contorno isso?
+
+Não é baixando o preço. "Ah, eu já tenho um sobrinho que mexe com TI." Existe forma de eu responder isso. "Ah, eu vou pensar." Que é o mais comum.
+
+O mais comum é "não tenho o verbo, eu vou pensar." Existem técnicas para eu conseguir contornar isso.
+
+E vocês vão receber um agente de IA, onde vocês vão efetivamente dentro do agente de IA colocar: "Eu estou negociando com o cliente, a objeção que ele me trouxe foi não tenho o verbo." Enter.
+
+E ele vai te dar um script do que você tem que fazer para contornar essa negociação.
+
+Maravilha?
+
+Vocês vão receber também prompts prontos para prospecção no LinkedInO LinkedIn hoje está crescendo bastante pra prospecção de clientes pra consultores.
+
+Vocês vão receber cinco prompts, e os prompts vão te ajudar a ir lá no LinkedIn e prospectar esses clientes dentro da plataforma.
+
+Maravilha?
+
+Vocês vão receber também uma calculadora de ROI.
+
+Aqui eu usei a ferramenta, essa ferramenta é paga e não é barata.
+
+Então pra vocês que estão começando agora, se vocês não têm nenhuma ferramenta assim, não vale a pena contratar ela, até porque apesar de ela ser simulador, ela é mais pra montar essa parte de funil de vendas.
+
+Mas eu vou entregar de bônus uma calculadora pra que vocês consigam calcular o ROI de vocês, baseado no tráfego, baseado no ticket, o valor do contrato mensal.
+
+O quanto que vocês vão ter de retorno de investimento baseado nessas informações.
+
+Vocês vão receber de bônus.
+
+São esses cinco bônus aqui que a gente vai liberar pra aqueles que garantir a vaga agora na nossa imersão Consultor de TI Recorrente.
+
+Qual é o valor de investimento dessa imersão?
+
+O valor de investimento é de R$ 497.
+
+E esse valor pode ser dividido em 12 vezes, se eu não me engano, dá 12 de R$ 50 e pouquinho.
+
+R$ 497 à vista ou 12 vezes de R$ 50 e pouquinho.
+
+Esse investimento, vocês vão ter acesso aos dois dias da imersão, todos esses bônus que eu mostrei pra vocês, acesso vitalício na gravação.
+
+Vocês vão poder assistir o conteúdo sempre que vocês quiserem e vocês também vão participar de uma comunidade de consultores de TI durante 90 dias.
+
+Trocar ideia, trocar estratégias, eu vou estar dentro dessa comunidade, vão poder perguntar, tirar dúvidas, pedir orientações.
+
+Eu vou colocar aí no chat agora o link pra quem quer garantir a vaga, com todos esses bônus aceleradores, com esse valor, que a gente ainda tá trabalhando com o valor de primeiro lote, em breve vai aumentar, e acesso a essa comunidade dos consultores de TI durante 90 dias, onde ali a gente vai falar de novas estratégias, onde eu vou dar orientações, onde eu vou tirar dúvidas e o principal, que eu vou recomendar muito que vocês façam.
+
+Muito mesmo.
+
+O framework foi feito pra não deixar dinheiro na mesa.
+
+Só que acontece, existem outros erros que os consultores de TI cometem, que eles acabam deixando dinheiro na mesa, que é quando o cliente pede algo que ele não atua. "Ah, mas eu não sei mexer com isso". "Ah, o cliente quer cloud". "Cara, mas eu não sou de cloud, eu não sei." Cara, faz parceria.
+
+E a comunidade eu vou estimular muito os alunos a fazerem isso.
+
+Faz parceria. "Cara, eu não entrego cloud, mas eu sou bom em vender.
+
+Eu vendi o cliente que é cloud, eu vou fazer uma parceria, vou chegar pra alguém que entrega cloud e vou falar: 'Ó, eu tenho um cliente aqui, já tá tudo certo.
+
+Cara, vamos trabalhar em 70/30? 70% seu, 30 meu pela indicação?'" Ou pode ser a parceria, eu indico, você me indica.
+
+Não deixa dinheiro na mesa porque você não sabe entregar algo.
+
+Procure um parceiro que te ajude a entregar aquilo.
+
+Tem um case aqui, eu tenho um aluno, ele já tá num programa de consultor mais avançado que a gente tem.
+
+Esse aluno não manja nada de tecnologia.
+
+Nada.
+
+Ele é da área de vendas, ele nunca foi da área de tecnologia.
+
+E conversando com ele, a gente definiu uma estratégia pra ele lá atrás, isso já faz uns três, quatro anos, a gente definiu uma estratégia pra ele lá atrás, que é: "Cara, beleza, você é bom em vendas.
+
+Arruma parceiros, que entregam pra você".
+
+Hoje, o modelo de negócio dele é baseado 100% nisso.
+
+Mesmo tendo a oportunidade de aprender, ele não quis, e hoje ele tem um negócio de faturamento entre 70 e 80 mil por mês, só com isso.
+
+Eu falei: "Cara, se você aprendesse tecnicamente, esse faturamento já poderia estar chegando à casa dos 200".
+
+Mas ele não quer, pra ele tá bom, 70, 80 mil tá bom.
+
+Então dentro dessa comunidade de consultores, vocês vão poder trocar essas ideias. "Ô gente, eu tô com um cliente aqui, eu tô com um projeto aqui, e esse projeto aqui eu não manjo.
+
+Alguém pode me ajudar, a gente pode fechar uma parceria?" A gente vai ter uma comunidade ali de consultores pra trocar essa experiência, pra trocar essa ideia.
+
+Maravilha, turma?
+
+Deu pra entender como que funciona essa imersão?
+
+Então Imersão Consultor Recorrente, vai ser nos dias 28 e 29 de maio, onde tudo isso que vocês viram e entenderam estrategicamente como funcionam, vocês vão ver como implementar isso aqui.
+
+Vai ser uma imersão de implementação.
+
+Então todo mundo vai sair com imã digital, todo mundo vai sair com a oferta dentro do imã digital, todo mundo vai sair com a página de captura, com a página de obrigado, com a sequência de e-mail, com webinar, com tráfego pago, todo mundo vai sair, porque é uma imersão de implementaçãoPara aqueles que buscam esse resultado recorrente, para aqueles que buscam esse faturamento mais previsível e querem utilizar esse framework, aprender a construir ele do absoluto zero até o tráfego pago, está aí no chat o link para vocês garantirem a vaga na imersão com todos esses bônus que eu mostrei aqui para vocês.
+
+Maravilha.
+
+E tem também uma outra opção, que é o quê?
+
+Para quem olha para tudo isso e fala: "Cara, muito bom, eu gostei pra caramba do que você mostrou".
+
+Primeiro, deixa eu fazer uma pergunta para vocês.
+
+Digita um só para facilitar.
+
+Já vou liberar vocês para o almoço.
+
+Hoje, tudo que vocês viram aqui, vocês enxergam isso como conteúdo de valor?
+
+Quem acha, digita o número um. "Pô, o que você trouxe aqui de conteúdo foi sensacional, eu curti pra caramba.
+
+Não vejo ninguém falar disso.
+
+É uma estratégia muito top".
+
+Conteúdo de valor.
+
+Só que acontece, possa ser que alguns de vocês quando olham isso aqui, falam: "Cara, eu gostei pra caramba, muito bom mesmo.
+
+Só que eu não quero aprender a fazer, eu sou técnico, eu não quero ficar aprendendo a fazer isso.
+
+Eu não quero.
+
+Eu sei que é bom, mas, poxa, não quero".
+
+A gente tem a nossa opção do nosso serviço, do Done For You.
+
+O que é o Done For You?
+
+Tudo isso que vocês vão aprender a fazer na imersão, todo esse framework pronto, funcionando e rodando, a gente faz por vocês.
+
+Entrega isso em sete dias.
+
+Então aqui o Done For You é o quê?
+
+Para quem gostou, entendeu, viu que a estratégia funciona, só que fala: "Cara, eu não quero aprender, ou porque eu não quero mesmo, ou porque eu não tenho tempo, mas eu queria ter isso aqui implementado para minha empresa, eu queria isso aqui rodando para minha empresa".
+
+Para isso a gente tem o Done For You, onde a gente faz tudo isso aqui, entrega esse funil do jeitinho que vocês viram aqui, completo, funcionando em sete dias e ainda acompanha o projeto de vocês durante 90 dias.
+
+Para quê?
+
+Para otimizar, para chegar para você e falar: "Não, aqui vale a pena escalar, vale a pena aumentar o tráfego.
+
+Não, aqui vamos dar uma segurada.
+
+Esse vídeo vamos mudar.
+
+Esse anúncio vamos mudar para ter um resultado maior".
+
+A gente entrega todo o funil e acompanha toda essa parte de tráfego pago, ajuste durante 90 dias.
+
+Então essa segunda opção é para aqueles que: "Cara, eu não quero, mas a estratégia é muito boa.
+
+Eu quero ter a estratégia, só que eu quero que você faça por mim.
+
+Eu não quero aprender a fazer, eu quero que você faça".
+
+Então a gente tem o Done For You como opção.
+
+Qual é o investimento do Done For You para ter o acompanhamento de 90 dias?
+
+É de R$ 3.000.
+
+Esse valor pode ser dividido em 12 vezes.
+
+Eu não preciso mostrar para vocês que a gente vai montar um framework que funciona, que você vai recuperar esse valor investido, como a gente viu aqui, nos primeiros contratos que vocês fecharem já vão recuperar esse valor investido.
+
+Então para quem quer que a gente monte toda essa estrutura e acompanhe o projeto durante 90 dias, a gente tem o Done For You Service.
+
+Para quem tem interesse no Done For You, eu vou colocar aqui no chat o link do WhatsApp da minha equipe.
+
+Então entre em contato. "Pô, eu estava na aula, gostei da estratégia, gostei do framework e eu quero que vocês implementem tudo isso aqui para minha empresa e acompanhem durante 90 dias".
+
+Então para aqueles que têm interesse no Done For You Services, está aí o link da equipe no WhatsApp, é só entrar em contato.
+
+Para quem quer aprender e implementar a estratégia, imersão, 28 e 29.
+
+R$ 497 ou 12 parcelas de R$ 50.
+
+Aqui você aprende.
+
+Done For You Services.
+
+Aqui eu faço por vocês, acompanho por 90 dias e aqui você tem de bônus também o acompanhamento com mentorias em grupo durante seis meses.
+
+Então mesmo acabando o nosso acompanhamento, a gente ainda vai estar ali dentro de uma mentoria durante seis meses para falar de business mesmo, estratégias de business.
+
+Maravilha, turma?
+
+Então aqui estão essas duas oportunidades.
+
+Para quem quer aprender, que é a nossa imersão consultor recorrente, R$ 497, vai aprender toda a estratégia, vai aprender a implementar cada passo, está aí o link.
+
+E a segunda opção, o Done For You Service, para quem quer que a gente monte toda essa estrutura e deixe funcionando, acompanhe por 90 dias e que também tem acesso à mentoria de seis meses.
+
+R$ 3.000, esse valor também pode ser dividido em 12 parcelas.
+
+Show de bola, turma?
+
+Alguém quer fazer mais alguma pergunta?
+
+Alguém quer tirar alguma dúvida?
+
+Esse é o momento.
+
+Aqueles que estão garantindo a vaga na imersão, já dou as boas-vindas de forma antecipada.
+
+Se preparem, vai ser mão na massa, muita coisa para vocês implementarem para que vocês possam ter resultados previsíveis, fechar contratos previsíveis, ter clientes entrando todos os meses e não ficar dependendo de boca a boca e não ficar dependendo de indicação.
+
+Deixar um framework rodando ali 100% enquanto você está trabalhando, entregando a sua consultoria, o framework está funcionando, trazendo novos clientes para vocês todos os meses.
+
+Maravilha?
+
+Show de bola?
+
+E a outra opção, a opção do Done For You.
+
+Então é isso aí, turma.
+
+Bora almoçar.
+
+Todo mundo com fome.
+
+Espero que vocês tenham curtido essa aula.
+
+A galera que está avançando nos programas, já dou as boas-vindas.
+
+A galera que vai conversar com a equipe para falar do Done For You, a gente vai marcar.
+
+Assim que o cliente fecha o Done For You, a gente já marca a nossa primeira sessão estratégica para a gente definir toda a estratégia do projeto.
+
+Show de bola?
+
+Então é isso aí, pessoal.
+
+Uma boa semana para todos, fiquem com Deus e até a próxima.
+
+Valeu, pessoal.
